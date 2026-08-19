@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "app": "NEET PG MCQ Mastery App",
+    "generated_from": "One_Stop_Medico NEET PYQ compilation (2018-2025), 19 subjects, Master Prompt v2",
+    "architecture": "multi-file, context-window-safe (Section 41)",
+    "total_unique_topics_in_pyq_index": 1748,
+    "subjects_count": 19,
+    "build_status": "Anatomy chapter 1 (Pharyngeal Arch Arteries) live with 12 MCQs. App shell built and functional. All other subjects/chapters pending \u2014 architecture supports adding them without app changes.",
+    "next_step": "Per-subject data/<subject>/topics.json (topic list + priority scores, no MCQs), one subject per turn, per Section 42 build order."
+  },
+  "coverage_matrix_columns": [
+    "Subject",
+    "Topic",
+    "Concepts",
+    "MCQs",
+    "Image Questions",
+    "Variations",
+    "Mastery %"
+  ],
+  "subjects": [
+    {
+      "subject_slug": "anatomy",
+      "subject": "Anatomy",
+      "total_topics": 84,
+      "must_do_topics": 16,
+      "image_based_topics": 32,
+      "repeated_topics": 6,
+      "source_page_range_in_pdf": [
+        3,
+        7
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/anatomy/topics.json",
+      "chapter_files_generated": 1,
+      "total_mcqs": 12,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "physiology",
+      "subject": "Physiology",
+      "total_topics": 78,
+      "must_do_topics": 8,
+      "image_based_topics": 11,
+      "repeated_topics": 8,
+      "source_page_range_in_pdf": [
+        8,
+        12
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/physiology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "biochemistry",
+      "subject": "Biochemistry",
+      "total_topics": 86,
+      "must_do_topics": 16,
+      "image_based_topics": 9,
+      "repeated_topics": 16,
+      "source_page_range_in_pdf": [
+        13,
+        16
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/biochemistry/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "pathology",
+      "subject": "Pathology",
+      "total_topics": 129,
+      "must_do_topics": 23,
+      "image_based_topics": 36,
+      "repeated_topics": 21,
+      "source_page_range_in_pdf": [
+        17,
+        22
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/pathology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "microbiology",
+      "subject": "Microbiology",
+      "total_topics": 99,
+      "must_do_topics": 25,
+      "image_based_topics": 20,
+      "repeated_topics": 26,
+      "source_page_range_in_pdf": [
+        23,
+        28
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/microbiology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "forensic_medicine",
+      "subject": "Forensic Medicine",
+      "total_topics": 64,
+      "must_do_topics": 17,
+      "image_based_topics": 11,
+      "repeated_topics": 12,
+      "source_page_range_in_pdf": [
+        29,
+        32
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/forensic_medicine/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "pharmacology",
+      "subject": "Pharmacology",
+      "total_topics": 120,
+      "must_do_topics": 14,
+      "image_based_topics": 9,
+      "repeated_topics": 19,
+      "source_page_range_in_pdf": [
+        33,
+        38
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/pharmacology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "ophthalmology",
+      "subject": "Ophthalmology",
+      "total_topics": 64,
+      "must_do_topics": 19,
+      "image_based_topics": 37,
+      "repeated_topics": 8,
+      "source_page_range_in_pdf": [
+        39,
+        42
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/ophthalmology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "ent",
+      "subject": "ENT",
+      "total_topics": 55,
+      "must_do_topics": 12,
+      "image_based_topics": 29,
+      "repeated_topics": 7,
+      "source_page_range_in_pdf": [
+        43,
+        46
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/ent/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "anaesthesia",
+      "subject": "Anaesthesia",
+      "total_topics": 38,
+      "must_do_topics": 10,
+      "image_based_topics": 15,
+      "repeated_topics": 7,
+      "source_page_range_in_pdf": [
+        47,
+        49
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/anaesthesia/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "paediatrics",
+      "subject": "Paediatrics",
+      "total_topics": 74,
+      "must_do_topics": 10,
+      "image_based_topics": 13,
+      "repeated_topics": 11,
+      "source_page_range_in_pdf": [
+        50,
+        54
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/paediatrics/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "spm",
+      "subject": "SPM / Community Medicine",
+      "total_topics": 137,
+      "must_do_topics": 19,
+      "image_based_topics": 11,
+      "repeated_topics": 17,
+      "source_page_range_in_pdf": [
+        55,
+        61
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/spm/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "orthopaedics",
+      "subject": "Orthopaedics",
+      "total_topics": 55,
+      "must_do_topics": 8,
+      "image_based_topics": 37,
+      "repeated_topics": 10,
+      "source_page_range_in_pdf": [
+        62,
+        65
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/orthopaedics/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "radiology",
+      "subject": "Radiology",
+      "total_topics": 55,
+      "must_do_topics": 10,
+      "image_based_topics": 52,
+      "repeated_topics": 4,
+      "source_page_range_in_pdf": [
+        66,
+        69
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/radiology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "medicine",
+      "subject": "Medicine",
+      "total_topics": 173,
+      "must_do_topics": 21,
+      "image_based_topics": 28,
+      "repeated_topics": 30,
+      "source_page_range_in_pdf": [
+        70,
+        76
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/medicine/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "surgery",
+      "subject": "Surgery",
+      "total_topics": 175,
+      "must_do_topics": 33,
+      "image_based_topics": 95,
+      "repeated_topics": 26,
+      "source_page_range_in_pdf": [
+        77,
+        84
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/surgery/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "obg",
+      "subject": "Obstetrics & Gynaecology",
+      "total_topics": 172,
+      "must_do_topics": 38,
+      "image_based_topics": 38,
+      "repeated_topics": 25,
+      "source_page_range_in_pdf": [
+        85,
+        91
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/obg/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "dermatology",
+      "subject": "Dermatology",
+      "total_topics": 46,
+      "must_do_topics": 15,
+      "image_based_topics": 38,
+      "repeated_topics": 9,
+      "source_page_range_in_pdf": [
+        92,
+        95
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/dermatology/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    },
+    {
+      "subject_slug": "psychiatry",
+      "subject": "Psychiatry",
+      "total_topics": 44,
+      "must_do_topics": 10,
+      "image_based_topics": 1,
+      "repeated_topics": 7,
+      "source_page_range_in_pdf": [
+        96,
+        98
+      ],
+      "pyq_index_ref": "data/pyq_index.json (filter by subject_slug)",
+      "topics_file": "data/psychiatry/topics.json",
+      "chapter_files_generated": 0,
+      "total_mcqs": 0,
+      "mastery_percent": 0
+    }
+  ]
+}
