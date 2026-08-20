@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0029",
+    "topic": "White Fibrocartilage",
+    "chapter_number": 29,
+    "chapter_file": "data/anatomy/ch29_white_fibrocartilage.json",
+    "source_years": [
+      2022
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 3,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "mechanism",
+      "comparison"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 5 questions across 4 distinct types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and checked against ch18 (Joints - Types, which briefly touched pubic symphysis as a cartilaginous joint example) \u2014 no duplicate concepts found; ch18 covers joint classification, this chapter covers cartilage histology specifically."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "White fibrocartilage is one of the three cartilage types, distinguished from hyaline and elastic cartilage by an extracellular matrix dominated by dense, visible bundles of TYPE I collagen (rather than the fine type II collagen network of hyaline cartilage), giving it the greatest tensile strength of any cartilage type \u2014 found specifically at locations requiring both cushioning AND high resistance to tensile/shear stress."
+    },
+    "structure_anatomy": {
+      "matrix_composition": "Dominated by type I collagen in coarse, visibly parallel bundles (unlike hyaline cartilage's type II collagen, which forms a fine network not visible by routine light microscopy) \u2014 this compositional difference is the single most important distinguishing histological feature.",
+      "no_perichondrium": "Unlike hyaline and elastic cartilage, fibrocartilage typically lacks a distinct perichondrium \u2014 it blends directly and gradually into the adjacent dense connective tissue (tendon, ligament, or bone) it's associated with, without a sharp, encapsulating boundary.",
+      "chondrocyte_arrangement": "Chondrocytes are typically arranged in rows between the collagen bundles, rather than in the isogenous groups seen in hyaline cartilage."
+    },
+    "locations": {
+      "classic_sites": "Intervertebral discs (specifically the anulus fibrosus), menisci of the knee, the pubic symphysis, articular discs (e.g. temporomandibular joint, sternoclavicular joint, distal radioulnar joint), and the insertion sites of some tendons onto bone."
+    },
+    "clinical": {
+      "iv_disc_herniation": "The intervertebral disc's anulus fibrosus is fibrocartilage surrounding the gel-like nucleus pulposus (itself a remnant of the notochord); degenerative tears in the anulus fibrosus allow the nucleus pulposus to herniate posteriorly/posterolaterally, potentially compressing an adjacent spinal nerve root \u2014 a direct structural consequence of fibrocartilage's role here, and among the most clinically important applications of this tissue type.",
+      "meniscal_tears": "Knee menisci, also fibrocartilage, have a poor intrinsic healing capacity outside their peripheral, vascularised 'red zone' \u2014 central meniscal tears (in the avascular 'white zone') typically do not heal on their own, directly reflecting fibrocartilage's generally poor vascularity, a shared feature across most fibrocartilage sites."
+    },
+    "related_structures": "White fibrocartilage sits functionally and structurally 'between' dense regular connective tissue (tendon/ligament, pure type I collagen, no cartilage matrix) and hyaline cartilage (type II collagen, cushioning, some tensile strength) \u2014 understanding fibrocartilage as combining features of both is more useful than memorising it as an entirely separate category."
+  },
+  "question_family": [
+    {
+      "family_name": "White Fibrocartilage \u2014 Matrix, Location, and Clinical Consequences (5 angles, one concept)",
+      "member_ids": [
+        "anat_fibrocartilage_0001",
+        "anat_fibrocartilage_0002",
+        "anat_fibrocartilage_0003",
+        "anat_fibrocartilage_0004",
+        "anat_fibrocartilage_0005"
+      ],
+      "coverage": "Recall (matrix composition, classic locations), clinical vignette (disc herniation), mechanism (meniscal zonal healing), and comparison (perichondrium absence vs other cartilage types) \u2014 five genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_fibrocartilage_0001",
+      "subject": "Anatomy",
+      "topic": "White Fibrocartilage",
+      "subtopic": "Matrix composition",
+      "concept": "White fibrocartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "White fibrocartilage's extracellular matrix is dominated by which type of collagen, distinguishing it from hyaline cartilage?",
+      "options": [
+        "Type I collagen, in coarse, visible parallel bundles",
+        "Type II collagen, in a fine network invisible by routine light microscopy",
+        "Type III collagen exclusively",
+        "Type IV collagen, as found in basement membranes"
+      ],
+      "correct_answer": "Type I collagen, in coarse, visible parallel bundles",
+      "distractor_rationale": {
+        "Type II collagen, in a fine network invisible by routine light microscopy": "This describes HYALINE cartilage's matrix specifically \u2014 the distinguishing feature separating it from fibrocartilage's coarser type I collagen.",
+        "Type III collagen exclusively": "Type III collagen is characteristic of reticular fibers/tissue, not the dominant collagen of fibrocartilage.",
+        "Type IV collagen, as found in basement membranes": "A basement-membrane-specific collagen type, unrelated to cartilage matrix generally."
+      },
+      "explanation": {
+        "core_concept": "The type I (fibrocartilage) versus type II (hyaline cartilage) collagen distinction is the single most reliable histological differentiator between these two cartilage types, and directly explains fibrocartilage's greater tensile strength.",
+        "why_correct": "Fibrocartilage's matrix is dominated by type I collagen, organised into coarse, densely packed, visibly parallel bundles under light microscopy \u2014 a structural arrangement providing high tensile strength, unlike hyaline cartilage's fine type II collagen network.",
+        "why_others_wrong": {
+          "Type II collagen, in a fine network invisible by routine light microscopy": "The defining feature of HYALINE cartilage, not fibrocartilage.",
+          "Type III collagen exclusively": "Associated with reticular connective tissue, not the dominant fibrocartilage collagen.",
+          "Type IV collagen, as found in basement membranes": "A structurally and functionally unrelated collagen type."
+        },
+        "high_yield_facts": [
+          "Fibrocartilage: type I collagen, visible coarse bundles, high tensile strength.",
+          "Hyaline cartilage: type II collagen, fine invisible network, more compressive cushioning than tensile strength.",
+          "This collagen-type distinction is THE key histological feature separating these two cartilage types on any slide."
+        ],
+        "clinical_correlation": "This tensile-strength property is exactly why fibrocartilage occupies sites needing to resist both compression AND significant tensile/shear forces (discs, menisci), unlike purely compression-bearing hyaline cartilage sites (articular surfaces, costal cartilage).",
+        "common_confusions": [
+          "Mixing up which collagen type belongs to which cartilage \u2014 type I/fibrocartilage and type II/hyaline is the correct, fixed pairing to memorise precisely."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Hyaline cartilage matrix (contrast)",
+          "Intervertebral disc and meniscus locations (this concept, other questions)"
+        ],
+        "exam_traps": [
+          "Don't default to type II collagen for 'cartilage' generically \u2014 fibrocartilage is specifically the type I collagen exception among the cartilage types."
+        ],
+        "image_clues": null,
+        "memory_aid": "Fibrocartilage's fibres are VISIBLE (type I, coarse bundles) \u2014 hyaline's collagen hides (type II, invisible network).",
+        "other_ways_this_is_tested": [
+          "This matrix composition fact underlies the location and clinical questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "White fibrocartilage's matrix is dominated by type I collagen in coarse, visible bundles \u2014 distinct from hyaline cartilage's fine type II collagen network \u2014 giving fibrocartilage its characteristic high tensile strength.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, cartilage chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that fibrocartilage matrix is dominated by type I collagen, distinguishing it from hyaline cartilage's type II collagen.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fibrocartilage_0002",
+      "subject": "Anatomy",
+      "topic": "White Fibrocartilage",
+      "subtopic": "Locations",
+      "concept": "White fibrocartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Which of the following is a classic site of white fibrocartilage in the body?",
+      "options": [
+        "Intervertebral discs (anulus fibrosus)",
+        "The epiglottis",
+        "The external ear (pinna)",
+        "The tracheal rings"
+      ],
+      "correct_answer": "Intervertebral discs (anulus fibrosus)",
+      "distractor_rationale": {
+        "The epiglottis": "Composed of ELASTIC cartilage, not fibrocartilage \u2014 a different cartilage type suited to flexible, recoiling structures.",
+        "The external ear (pinna)": "Also elastic cartilage, for the same flexibility/recoil reason.",
+        "The tracheal rings": "Composed of HYALINE cartilage, providing rigid support to keep the airway open."
+      },
+      "explanation": {
+        "core_concept": "Correctly assigning cartilage type to location is a classic exam pattern \u2014 each of the three cartilage types occupies sites matched to its specific mechanical property (fibrocartilage: tensile strength; elastic: flexibility/recoil; hyaline: smooth compression-bearing support), and mixing them up is a common, specifically-tested error.",
+        "why_correct": "The intervertebral disc's anulus fibrosus is a classic, high-yield fibrocartilage site, providing the tensile strength needed to contain the nucleus pulposus under compressive spinal loading.",
+        "why_others_wrong": {
+          "The epiglottis": "Elastic cartilage \u2014 built for flexibility and recoil during swallowing, not fibrocartilage's tensile strength.",
+          "The external ear (pinna)": "Elastic cartilage, for the same flexible-recoil functional need.",
+          "The tracheal rings": "Hyaline cartilage, providing rigid structural support to the airway."
+        },
+        "high_yield_facts": [
+          "Fibrocartilage: intervertebral discs, menisci, pubic symphysis, articular discs (TMJ, sternoclavicular, distal radioulnar joints), some tendon-bone insertion sites.",
+          "Elastic cartilage: epiglottis, external ear, auditory tube, some laryngeal cartilages (corniculate, cuneiform).",
+          "Hyaline cartilage: articular surfaces, costal cartilage, tracheal/bronchial rings, nasal septum, most of the fetal skeleton."
+        ],
+        "clinical_correlation": "Correctly matching cartilage type to location is directly relevant to understanding site-specific pathology (e.g. disc herniation is a fibrocartilage-specific process; relapsing polychondritis affects cartilage broadly but has particularly visible effects at elastic cartilage sites like the ear).",
+        "common_confusions": [
+          "Assuming all cartilage in the body is the same type \u2014 the three types are matched to genuinely different mechanical needs at different sites, and mixing up site-to-type assignment is a classic exam error."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Matrix composition (this concept, direct recall question)",
+          "Elastic and hyaline cartilage (contrast categories, not covered in depth here)"
+        ],
+        "exam_traps": [
+          "When a location-to-cartilage-type question includes ear, epiglottis, or laryngeal cartilages as options, remember these are elastic (not fibro) cartilage \u2014 a frequently tested distractor pattern."
+        ],
+        "image_clues": null,
+        "memory_aid": "Fibrocartilage sites need to hold together under STRAIN (discs, menisci, symphysis) \u2014 not bend and spring back (that's elastic) or just stay smooth and rigid (that's hyaline).",
+        "other_ways_this_is_tested": [
+          "This location list is the foundation for the disc herniation and meniscal tear clinical correlation questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Intervertebral discs (anulus fibrosus), menisci, the pubic symphysis, and articular discs are classic fibrocartilage sites \u2014 distinct from elastic cartilage (ear, epiglottis) and hyaline cartilage (trachea, articular surfaces) locations.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, cartilage chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify intervertebral discs as a classic fibrocartilage site, distinguishing them from elastic and hyaline cartilage locations.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fibrocartilage_0003",
+      "subject": "Anatomy",
+      "topic": "White Fibrocartilage",
+      "subtopic": "Clinical \u2014 disc herniation",
+      "concept": "White fibrocartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 45-year-old man develops acute lower back pain radiating down the posterior leg after lifting a heavy object, with a positive straight leg raise test. MRI shows posterolateral displacement of gel-like material at the L4-L5 level, compressing the exiting nerve root. What has structurally failed to permit this displacement?",
+      "options": [
+        "The anulus fibrosus (fibrocartilage) has torn, allowing the nucleus pulposus to herniate through the defect",
+        "The vertebral body itself has fractured, allowing bone marrow to compress the nerve root",
+        "The ligamentum flavum has calcified, directly compressing the nerve root",
+        "The facet joint capsule has ruptured, allowing synovial fluid to compress the nerve root"
+      ],
+      "correct_answer": "The anulus fibrosus (fibrocartilage) has torn, allowing the nucleus pulposus to herniate through the defect",
+      "distractor_rationale": {
+        "The vertebral body itself has fractured, allowing bone marrow to compress the nerve root": "This vignette describes gel-like material (consistent with nucleus pulposus), not bone or marrow \u2014 a fracture would show different, bony findings on imaging.",
+        "The ligamentum flavum has calcified, directly compressing the nerve root": "Ligamentum flavum hypertrophy/calcification is a different process (more associated with chronic spinal stenosis in older patients), not the acute, lifting-triggered, gel-material-herniation pattern described here.",
+        "The facet joint capsule has ruptured, allowing synovial fluid to compress the nerve root": "Facet joint pathology produces a different clinical pattern (more axial, extension-worsened pain) and wouldn't produce herniated gel-like disc material on MRI."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical payoff of understanding the anulus fibrosus as fibrocartilage specifically built for tensile containment \u2014 its failure (tearing) under acute mechanical stress (lifting) is exactly what allows the softer, gel-like nucleus pulposus to herniate through the resulting defect.",
+        "why_correct": "The intervertebral disc's outer anulus fibrosus (fibrocartilage, providing tensile containment) has torn \u2014 often from acute mechanical stress like heavy lifting, sometimes on a background of degenerative weakening \u2014 allowing the inner nucleus pulposus (a gel-like, notochord-derived remnant) to herniate through the defect, typically posterolaterally where the anulus is thinnest, compressing the adjacent exiting nerve root and producing the described radicular pain pattern.",
+        "why_others_wrong": {
+          "The vertebral body itself has fractured, allowing bone marrow to compress the nerve root": "Doesn't match the described gel-like material on MRI, which is characteristic of nucleus pulposus, not bone/marrow.",
+          "The ligamentum flavum has calcified, directly compressing the nerve root": "A different, typically more chronic process associated with spinal stenosis, not this acute, lifting-triggered presentation with gel-material herniation.",
+          "The facet joint capsule has ruptured, allowing synovial fluid to compress the nerve root": "Produces a different clinical and imaging pattern, not gel-like disc material herniation."
+        },
+        "high_yield_facts": [
+          "Disc herniation = anulus fibrosus (fibrocartilage) tear + nucleus pulposus herniation, classically posterolateral, compressing the exiting nerve root.",
+          "Acute lifting/mechanical strain is a classic precipitating factor, often on a background of age-related disc degeneration.",
+          "Positive straight leg raise test supports lumbar nerve root irritation/compression, consistent with this mechanism."
+        ],
+        "clinical_correlation": "This mechanism directly explains the specific radicular pain distribution (following the compressed nerve root's dermatome) and guides both conservative and surgical management decisions in disc herniation.",
+        "common_confusions": [
+          "Attributing acute radicular back pain to bone or ligament pathology without considering the classic, mechanistically well-explained disc/anulus fibrosus tear pattern, especially given a clear lifting-related trigger and gel-material MRI findings."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Anulus fibrosus as fibrocartilage (this concept, matrix and location questions)",
+          "Meniscal tears (a related fibrocartilage clinical correlation, contrast case)"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC imaging description (gel-like material, not bone or fluid) to confirm this is a disc/anulus fibrosus process rather than jumping to a bone or ligament-based distractor."
+        ],
+        "image_clues": null,
+        "memory_aid": "Anulus tears, nucleus escapes \u2014 the fibrocartilage containment wall gives way under strain.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the fibrocartilage matrix and location facts established earlier in this chapter to a genuine, high-yield clinical presentation."
+        ],
+        "neet_pg_takeaway": "Disc herniation results from a tear in the anulus fibrosus (fibrocartilage), allowing the nucleus pulposus to herniate \u2014 typically posterolaterally \u2014 and compress the adjacent nerve root, producing the classic radicular pain pattern.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/neurosurgical teaching on lumbar disc herniation."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain disc herniation as anulus fibrosus (fibrocartilage) tearing, allowing nucleus pulposus displacement and nerve root compression.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fibrocartilage_0004",
+      "subject": "Anatomy",
+      "topic": "White Fibrocartilage",
+      "subtopic": "Clinical \u2014 meniscal healing",
+      "concept": "White fibrocartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "A knee MRI shows a tear in the central (innermost) portion of the medial meniscus. Why does this specific tear have poor intrinsic healing potential compared to a tear at the meniscus's peripheral rim?",
+      "options": [
+        "Like most fibrocartilage, the meniscus is poorly vascularised overall, and specifically the CENTRAL portion is avascular (the 'white zone'), while only the peripheral rim (the 'red zone') has a blood supply capable of supporting a healing response",
+        "The central meniscus is actually more vascularised than the periphery, so central tears should heal MORE readily, contrary to clinical observation",
+        "Meniscal healing capacity has no relationship to vascularity at any zone; all tears heal equally poorly regardless of location",
+        "The central meniscus is composed of hyaline, not fibrocartilage, explaining its different healing behaviour from the fibrocartilaginous periphery"
+      ],
+      "correct_answer": "Like most fibrocartilage, the meniscus is poorly vascularised overall, and specifically the CENTRAL portion is avascular (the 'white zone'), while only the peripheral rim (the 'red zone') has a blood supply capable of supporting a healing response",
+      "distractor_rationale": {
+        "The central meniscus is actually more vascularised than the periphery, so central tears should heal MORE readily, contrary to clinical observation": "Reverses the actual vascular pattern \u2014 the periphery ('red zone') is vascularised, the centre ('white zone') is avascular.",
+        "Meniscal healing capacity has no relationship to vascularity at any zone; all tears heal equally poorly regardless of location": "Denies the well-established, clinically important zonal vascularity difference that directly explains differing healing potential by tear location.",
+        "The central meniscus is composed of hyaline, not fibrocartilage, explaining its different healing behaviour from the fibrocartilaginous periphery": "The ENTIRE meniscus (central and peripheral portions alike) is fibrocartilage \u2014 the healing difference is about VASCULARITY zones within the same tissue type, not a change in tissue type."
+      },
+      "explanation": {
+        "core_concept": "This mechanism directly extends fibrocartilage's generally poor vascularity (a shared trait across most fibrocartilage sites) into a specific, zonal pattern within the meniscus \u2014 understanding WHERE the blood supply actually reaches (only the periphery) is what explains the practically important difference in healing potential by tear location.",
+        "why_correct": "Like fibrocartilage generally, the meniscus has limited vascularity overall. Specifically, only the peripheral rim (the outer 10-30%, called the 'red zone') receives a blood supply, from the surrounding synovial and capsular vessels; the central/inner portion (the 'white zone') is avascular, relying on diffusion from synovial fluid for nutrition rather than direct blood supply. Because healing fundamentally depends on a vascular response (bringing in inflammatory and reparative cells), tears in the avascular white zone have poor intrinsic healing potential, while red zone tears can heal given appropriate treatment.",
+        "why_others_wrong": {
+          "The central meniscus is actually more vascularised than the periphery, so central tears should heal MORE readily, contrary to clinical observation": "Directly reverses the true vascular pattern \u2014 periphery is vascularised, centre is not.",
+          "Meniscal healing capacity has no relationship to vascularity at any zone; all tears heal equally poorly regardless of location": "Denies the well-established, clinically significant zonal healing difference.",
+          "The central meniscus is composed of hyaline, not fibrocartilage, explaining its different healing behaviour from the fibrocartilaginous periphery": "The whole meniscus is fibrocartilage throughout \u2014 the healing difference reflects vascularity zones, not a tissue-type change."
+        },
+        "high_yield_facts": [
+          "Meniscus: peripheral 'red zone' (vascularised, can heal) vs central 'white zone' (avascular, poor healing potential).",
+          "This zonal vascularity pattern directly guides surgical decision-making \u2014 red zone tears are often repaired (sutured); white zone tears are more often managed by partial resection (meniscectomy) given their poor healing prospects.",
+          "This same general principle (poor fibrocartilage vascularity limiting healing) is shared conceptually with the intervertebral disc, though the disc doesn't have quite the same explicit 'zone' terminology in standard teaching."
+        ],
+        "clinical_correlation": "This zonal distinction is directly, practically consequential in orthopaedic surgical decision-making for meniscal tears \u2014 repair vs resection depends significantly on tear location relative to these vascular zones.",
+        "common_confusions": [
+          "Assuming ALL parts of a given fibrocartilage structure share identical vascularity \u2014 the meniscus specifically has a well-characterised zonal pattern (peripheral vascularised, central avascular) worth knowing precisely, not just 'fibrocartilage is poorly vascularised' as an undifferentiated blanket statement."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Fibrocartilage's generally poor vascularity (a shared trait across sites)",
+          "Disc herniation (this concept, another clinical correlation)"
+        ],
+        "exam_traps": [
+          "Don't treat 'meniscus' as a single, uniformly-healing structure \u2014 the SPECIFIC ZONE (red vs white) of a given tear is what determines healing potential and surgical approach."
+        ],
+        "image_clues": null,
+        "memory_aid": "Red zone = blood flows there = can heal. White zone = no blood = poor healing, like most of the rest of fibrocartilage.",
+        "other_ways_this_is_tested": [
+          "This mechanism reinforces the general poor-vascularity theme of fibrocartilage established implicitly through the disc herniation vignette elsewhere in this chapter, adding the specific zonal detail unique to the meniscus."
+        ],
+        "neet_pg_takeaway": "The meniscus's peripheral 'red zone' is vascularised and can heal; the central 'white zone' is avascular with poor intrinsic healing potential \u2014 directly reflecting fibrocartilage's generally limited vascularity, expressed here as a specific, clinically important zonal pattern.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard orthopaedic sports medicine teaching on meniscal tear classification and management."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the zonal (red zone vs white zone) vascularity pattern of the meniscus and its effect on healing potential.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fibrocartilage_0005",
+      "subject": "Anatomy",
+      "topic": "White Fibrocartilage",
+      "subtopic": "Comparison with hyaline and elastic cartilage",
+      "concept": "White fibrocartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Which statement correctly distinguishes fibrocartilage from BOTH hyaline and elastic cartilage in terms of a shared structural feature fibrocartilage typically lacks?",
+      "options": [
+        "Fibrocartilage typically lacks a distinct perichondrium, blending directly into adjacent dense connective tissue, unlike hyaline and elastic cartilage, which are typically encapsulated by a perichondrium",
+        "Fibrocartilage is the only cartilage type with chondrocytes, while hyaline and elastic cartilage have no cellular component",
+        "Fibrocartilage is the only cartilage type found in adults, while hyaline and elastic cartilage exist only in the fetus",
+        "Fibrocartilage is the only cartilage type with any collagen at all, while hyaline and elastic cartilage contain no collagen"
+      ],
+      "correct_answer": "Fibrocartilage typically lacks a distinct perichondrium, blending directly into adjacent dense connective tissue, unlike hyaline and elastic cartilage, which are typically encapsulated by a perichondrium",
+      "distractor_rationale": {
+        "Fibrocartilage is the only cartilage type with chondrocytes, while hyaline and elastic cartilage have no cellular component": "All three cartilage types contain chondrocytes \u2014 this is a shared feature across all cartilage, not a fibrocartilage-specific one.",
+        "Fibrocartilage is the only cartilage type found in adults, while hyaline and elastic cartilage exist only in the fetus": "All three cartilage types persist into adulthood at their respective classic sites \u2014 this claim is factually incorrect for all three.",
+        "Fibrocartilage is the only cartilage type with any collagen at all, while hyaline and elastic cartilage contain no collagen": "All three cartilage types contain collagen (types I, II, and elastic-cartilage's combination of type II collagen plus elastic fibres respectively) \u2014 collagen presence isn't a distinguishing feature."
+      },
+      "explanation": {
+        "core_concept": "The absence of a distinct perichondrium is a genuinely useful, often under-emphasised distinguishing feature of fibrocartilage \u2014 it directly reflects fibrocartilage's characteristic location at transition zones (blending into tendon, ligament, or bone) rather than as a discrete, encapsulated cartilage mass the way hyaline and elastic cartilage typically are.",
+        "why_correct": "Hyaline and elastic cartilage are typically surrounded by a distinct, well-defined perichondrium (a dense connective tissue sheath containing the cartilage's blood supply and chondrogenic cells) \u2014 fibrocartilage typically LACKS this distinct perichondrium, instead blending gradually and directly into the adjacent dense connective tissue (tendon, ligament, or bone) it's structurally continuous with.",
+        "why_others_wrong": {
+          "Fibrocartilage is the only cartilage type with chondrocytes, while hyaline and elastic cartilage have no cellular component": "All three cartilage types contain chondrocytes as their characteristic cell type \u2014 this isn't a distinguishing feature.",
+          "Fibrocartilage is the only cartilage type found in adults, while hyaline and elastic cartilage exist only in the fetus": "Factually incorrect \u2014 all three types persist in specific adult locations.",
+          "Fibrocartilage is the only cartilage type with any collagen at all, while hyaline and elastic cartilage contain no collagen": "All three cartilage types contain collagen; the TYPE differs (I vs II vs II+elastic fibres), but presence of collagen isn't unique to fibrocartilage."
+        },
+        "high_yield_facts": [
+          "Fibrocartilage lacks a distinct perichondrium \u2014 blends directly into adjacent dense connective tissue.",
+          "Hyaline and elastic cartilage typically HAVE a distinct perichondrium (except at articular cartilage surfaces, a notable hyaline cartilage exception worth knowing separately).",
+          "This perichondrium absence directly reflects fibrocartilage's characteristic role as a transition/reinforcement tissue at sites like tendon-bone junctions and disc/meniscus locations, rather than as a discrete, freestanding cartilage structure."
+        ],
+        "clinical_correlation": "This structural feature (gradual blending rather than sharp encapsulation) is relevant to understanding fibrocartilage's biomechanical role at these transition zones, where a sharp boundary would actually be mechanically disadvantageous compared to a gradual, load-distributing transition.",
+        "common_confusions": [
+          "Assuming all cartilage types share an identical general structure (perichondrium, chondrocytes, matrix) differing only in matrix composition \u2014 the perichondrium presence/absence is a genuine, additional structural distinguishing feature specific to fibrocartilage."
+        ],
+        "exceptions": [
+          "Articular (hyaline) cartilage is itself a notable exception to 'hyaline cartilage has a perichondrium' \u2014 articular surfaces lack a perichondrium too, since they need a smooth, unencapsulated gliding surface; this chapter's comparison focuses on the GENERAL pattern for hyaline/elastic cartilage at their other, non-articular sites."
+        ],
+        "related_concepts": [
+          "Matrix composition (this concept, direct recall question)",
+          "Fibrocartilage locations (this concept, direct recall question)"
+        ],
+        "exam_traps": [
+          "Don't assume every distinguishing cartilage-type feature must relate to collagen type or matrix composition alone \u2014 the perichondrium presence/absence is a separate, additional structural distinguishing feature worth knowing."
+        ],
+        "image_clues": null,
+        "memory_aid": "Fibrocartilage doesn't bother with its own 'wrapper' (perichondrium) \u2014 it just melts into whatever tendon, ligament, or bone it's reinforcing.",
+        "other_ways_this_is_tested": [
+          "This structural comparison adds a further distinguishing dimension to the matrix-composition and location facts established elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Fibrocartilage typically lacks a distinct perichondrium, blending directly into adjacent dense connective tissue \u2014 unlike hyaline and elastic cartilage, which are typically (with the notable exception of articular hyaline cartilage) encapsulated by a perichondrium.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, cartilage chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the absence of a distinct perichondrium as a structural feature distinguishing fibrocartilage from hyaline and elastic cartilage.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

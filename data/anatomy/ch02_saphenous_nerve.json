@@ -1,0 +1,636 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0002",
+    "topic": "Saphenous Nerve",
+    "chapter_number": 2,
+    "chapter_file": "data/anatomy/ch02_saphenous_nerve.json",
+    "source_years": [
+      2022
+    ],
+    "is_repeated_topic": true,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 8,
+    "difficulty_distribution": {
+      "L1": 3,
+      "L2": 3,
+      "L3": 2,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "clinical_vignette",
+      "diagnostic_reasoning",
+      "comparison",
+      "image_based",
+      "exception"
+    ],
+    "confidence_notes": [
+      "The exact point at which the saphenous nerve is said to 'leave' the adductor canal (piercing the vastoadductor membrane/subsartorial fascia) is described with slightly different anatomical framing across texts (some describe it as piercing the fascia between sartorius and gracilis rather than the vastoadductor membrane specifically) \u2014 the clinically relevant fact (it exits above the knee, medially, and does not follow the femoral vessels through the adductor hiatus) is consistent across sources even where the exact fascial description varies."
+    ],
+    "scope_note": "A single-nerve topic \u2014 smaller in scope than Chapter 1 (which covered six arch arteries plus multiple named anomalies), so this chapter runs 8 MCQs rather than 12. MCQ count is scaled to topic complexity, not fixed per chapter, per the app's depth-first content policy.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The saphenous nerve is the largest and longest cutaneous branch of the femoral nerve. It is purely sensory \u2014 it carries no motor fibres \u2014 and supplies skin over the medial side of the leg and foot.",
+      "classification": "A terminal cutaneous branch of the femoral nerve (posterior division), root value L3, L4."
+    },
+    "structure_anatomy": {
+      "origin": "Arises from the femoral nerve in the femoral triangle.",
+      "course": "Descends lateral to the femoral artery initially, then crosses anterior to the artery to lie on its medial side within the adductor canal (subsartorial/Hunter's canal). It leaves the adductor canal by piercing the roof (the vastoadductor membrane, deep to sartorius) near the junction of the middle and lower thirds of the thigh \u2014 it does NOT pass through the adductor hiatus with the femoral vessels, which continue on to become the popliteal vessels. It then descends in the leg alongside the great saphenous vein, anterior to the medial malleolus, and continues along the medial side of the foot as far as the ball of the great toe.",
+      "branches": "Gives an infrapatellar branch (pierces sartorius to supply skin over the patella, contributing to the patellar plexus) in the leg above the knee, and a medial crural (leg) branch running with the great saphenous vein."
+    },
+    "clinical": {
+      "sensory_distribution": "Medial side of the leg and foot, as far as the head of the first metatarsal / ball of the great toe. Does NOT supply the sole of the foot (that's tibial nerve territory) and does not reach the lateral foot (sural nerve territory).",
+      "entrapment": "Saphenous nerve entrapment (adductor canal syndrome) occurs where the nerve pierces the vastoadductor membrane to exit the adductor canal \u2014 causes medial knee and leg pain, often mistaken for a knee joint problem.",
+      "iatrogenic_injury": "Because the saphenous nerve runs in close proximity to the great saphenous vein for most of its leg course, it is at recognised risk of injury during great saphenous vein stripping/harvest (for varicose vein surgery or CABG conduit harvest) and during ankle arthroscopy portal placement \u2014 injury causes numbness and sometimes painful neuroma along the medial leg/ankle, not motor deficit.",
+      "no_motor_deficit": "Because it is purely sensory, saphenous nerve injury never produces weakness \u2014 a vignette describing any motor deficit alongside medial leg numbness should point away from an isolated saphenous nerve lesion."
+    },
+    "related_structures": "Runs with the great saphenous vein for most of the leg \u2014 this anatomical relationship, not any nerve-specific landmark, is what makes it vulnerable during venous surgery and is the single most exam-relevant fact about this nerve."
+  },
+  "question_family": [
+    {
+      "family_name": "Saphenous Nerve \u2014 Core Anatomy",
+      "member_ids": [
+        "anat_saphenous_nerve_0001",
+        "anat_saphenous_nerve_0002",
+        "anat_saphenous_nerve_0003"
+      ],
+      "coverage": "Origin/fibre type + course through and exit from the adductor canal + precise sensory territory \u2014 the structural foundation everything clinical builds on."
+    },
+    {
+      "family_name": "Saphenous Nerve \u2014 Clinical Injury and Entrapment",
+      "member_ids": [
+        "anat_saphenous_nerve_0004",
+        "anat_saphenous_nerve_0005",
+        "anat_saphenous_nerve_0008"
+      ],
+      "coverage": "Iatrogenic injury vignette, entrapment syndrome diagnostic reasoning, and the exception question on absent motor findings \u2014 three angles on the same purely-sensory-nerve consequence."
+    },
+    {
+      "family_name": "Saphenous Nerve \u2014 Comparison and Recognition",
+      "member_ids": [
+        "anat_saphenous_nerve_0006",
+        "anat_saphenous_nerve_0007"
+      ],
+      "coverage": "Contrast against the sural nerve (its closest analogue) and visual/cross-sectional identification."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_saphenous_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Origin and nerve type",
+      "concept": "Parent nerve and fibre type",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The saphenous nerve is the largest cutaneous branch of which nerve, and what type of fibres does it carry?",
+      "options": [
+        "Femoral nerve; purely sensory",
+        "Sciatic nerve; mixed motor and sensory",
+        "Obturator nerve; purely sensory",
+        "Tibial nerve; purely motor"
+      ],
+      "correct_answer": "Femoral nerve; purely sensory",
+      "distractor_rationale": {
+        "Sciatic nerve; mixed motor and sensory": "The sciatic nerve gives rise to the tibial and common peroneal nerves, not the saphenous nerve, and those are mixed nerves \u2014 the saphenous nerve itself carries no motor fibres regardless of parent nerve.",
+        "Obturator nerve; purely sensory": "The obturator nerve supplies the medial thigh, not the leg/foot, and is a separate nerve from the saphenous nerve entirely.",
+        "Tibial nerve; purely motor": "The tibial nerve is a major mixed motor/sensory nerve of the leg and foot (sole) \u2014 unrelated to the saphenous nerve, and wrong on both parent nerve and fibre type."
+      },
+      "explanation": {
+        "core_concept": "The saphenous nerve is a terminal cutaneous (sensory-only) branch of the femoral nerve \u2014 this single fact, that it carries no motor fibres, is what makes several other facts about it (no weakness with injury, safe landmark for regional blocks) logically fall into place rather than needing separate memorisation.",
+        "why_correct": "It arises from the femoral nerve's posterior division in the femoral triangle and remains purely sensory throughout its entire course to the foot.",
+        "why_others_wrong": {
+          "Sciatic nerve; mixed motor and sensory": "Wrong parent nerve \u2014 the sciatic nerve's terminal branches (tibial, common peroneal) supply the leg differently and are mixed nerves, unlike the saphenous nerve.",
+          "Obturator nerve; purely sensory": "Wrong parent nerve and wrong territory \u2014 the obturator nerve is medial-thigh only.",
+          "Tibial nerve; purely motor": "Wrong on every count \u2014 the tibial nerve is mixed, not purely motor, and is not the saphenous nerve's parent."
+        },
+        "high_yield_facts": [
+          "Saphenous nerve = largest cutaneous branch of the femoral nerve.",
+          "Purely sensory \u2014 no motor deficit ever results from an isolated saphenous nerve lesion.",
+          "Root value L3, L4."
+        ],
+        "clinical_correlation": "Because it's purely sensory, the saphenous nerve is a common target for regional anaesthesia (saphenous nerve block for medial leg/ankle procedures) without producing any motor weakness \u2014 a genuinely useful clinical property, not just an anatomy fact.",
+        "common_confusions": [
+          "Assuming any nerve accompanying a major vessel down a limb must be mixed \u2014 the saphenous nerve's constant companionship with the great saphenous vein doesn't change that it's sensory-only."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Femoral nerve branches overview",
+          "Saphenous nerve block"
+        ],
+        "exam_traps": [
+          "A vignette combining medial leg numbness WITH weakness should make you doubt an isolated saphenous nerve lesion \u2014 go back and check whether the femoral nerve itself, not just its saphenous branch, is involved."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This fact \u2014 purely sensory \u2014 is the discriminator used directly in the 'exception' question later in this set."
+        ],
+        "neet_pg_takeaway": "Saphenous nerve = femoral nerve's largest cutaneous branch, purely sensory. Every other clinical fact about it follows from this.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard, uncontested anatomy \u2014 Moore's Clinically Oriented Anatomy, lower limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recall the parent nerve and fibre type of the saphenous nerve.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Course through adductor canal",
+      "concept": "Exit from the adductor canal",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "Within the adductor canal, the femoral artery and vein continue distally to pass through the adductor hiatus and become the popliteal vessels. What happens to the saphenous nerve at this point?",
+      "options": [
+        "It leaves the adductor canal separately, piercing the canal's roof above the knee, and does not pass through the adductor hiatus with the vessels",
+        "It passes through the adductor hiatus together with the femoral vessels and becomes a branch of the popliteal plexus",
+        "It terminates within the adductor canal and does not continue into the leg",
+        "It crosses to the lateral side of the thigh before the adductor hiatus and joins the common peroneal nerve"
+      ],
+      "correct_answer": "It leaves the adductor canal separately, piercing the canal's roof above the knee, and does not pass through the adductor hiatus with the vessels",
+      "distractor_rationale": {
+        "It passes through the adductor hiatus together with the femoral vessels and becomes a branch of the popliteal plexus": "This is the single most common wrong assumption about this nerve \u2014 that because it travels WITH the femoral vessels through most of the adductor canal, it must follow them all the way through the hiatus. It specifically does not; this divergence is the point being tested.",
+        "It terminates within the adductor canal and does not continue into the leg": "Wrong \u2014 it has a long course all the way to the foot; it simply changes its traveling companion (from femoral vessels to great saphenous vein) partway through.",
+        "It crosses to the lateral side of the thigh before the adductor hiatus and joins the common peroneal nerve": "The saphenous nerve stays medial throughout its course and has no connection to the common peroneal nerve, which is an entirely separate nerve on the posterior/lateral side."
+      },
+      "explanation": {
+        "core_concept": "The saphenous nerve's relationship to the femoral vessels changes partway through its course \u2014 it travels with them through most of the adductor canal, then separates before the vessels exit posteriorly through the adductor hiatus, and instead exits anteriorly/medially to continue with the great saphenous vein.",
+        "why_correct": "The saphenous nerve pierces the roof of the adductor canal (the vastoadductor membrane, deep to sartorius) near the junction of the middle and lower thirds of the thigh, well above the adductor hiatus. From there it becomes superficial and travels down the leg alongside the great saphenous vein \u2014 a completely different vessel from the femoral/popliteal vessels it had been accompanying.",
+        "why_others_wrong": {
+          "It passes through the adductor hiatus together with the femoral vessels and becomes a branch of the popliteal plexus": "Precisely the error this question is designed to catch \u2014 proximity through the canal doesn't mean identical exit routes.",
+          "It terminates within the adductor canal and does not continue into the leg": "The nerve has a long, well-described course all the way to the medial foot \u2014 it doesn't end here.",
+          "It crosses to the lateral side of the thigh before the adductor hiatus and joins the common peroneal nerve": "No such crossing or connection exists; this option tests whether a plausible-sounding but anatomically fabricated claim gets accepted."
+        },
+        "high_yield_facts": [
+          "Saphenous nerve exits the adductor canal ABOVE the knee, piercing the canal's roof \u2014 it does NOT go through the adductor hiatus.",
+          "After exiting, it travels with the great saphenous vein, not the femoral/popliteal vessels, for the rest of its course.",
+          "This is exactly why saphenous nerve injury risk tracks with great saphenous VEIN procedures (stripping, CABG harvest), not femoral artery procedures."
+        ],
+        "clinical_correlation": "Understanding this exit point explains saphenous nerve entrapment (adductor canal syndrome) \u2014 compression specifically at the point where the nerve pierces the vastoadductor membrane, producing medial knee/leg pain often mistaken for intra-articular knee pathology.",
+        "common_confusions": [
+          "Assuming 'travels with the femoral vessels' means 'follows the femoral vessels everywhere' \u2014 the point of divergence above the adductor hiatus is exactly what distinguishes the saphenous nerve's course from a true continuation of the femoral vascular pedicle."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Saphenous nerve entrapment / adductor canal syndrome",
+          "Great saphenous vein anatomy",
+          "Femoral-to-popliteal vessel continuation"
+        ],
+        "exam_traps": [
+          "Don't let 'it travels through the adductor canal' bleed into 'it goes through the adductor hiatus' \u2014 these are two different exit points from two different parts of the same canal."
+        ],
+        "image_clues": null,
+        "memory_aid": "Vessels go deep and posterior (hiatus, popliteal fossa); the nerve goes shallow and anteromedial (pierces the roof, stays with the saphenous vein) \u2014 they part ways above the knee.",
+        "other_ways_this_is_tested": [
+          "This exact exit point is the anatomical basis for the entrapment-syndrome vignette elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "The saphenous nerve leaves the adductor canal separately from the femoral vessels, piercing the canal's roof above the knee \u2014 a frequently tested point of divergence.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Moore's Clinically Oriented Anatomy and Gray's Anatomy for Students, lower limb chapters \u2014 consistent description of adductor canal contents and the saphenous nerve's separate exit."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain how and where the saphenous nerve exits the adductor canal, distinct from the femoral vessels' path through the adductor hiatus.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Sensory distribution",
+      "concept": "Cutaneous territory and its boundary",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The saphenous nerve supplies skin over the medial leg and foot as far distally as which point?",
+      "options": [
+        "The ball of the great toe / head of the first metatarsal",
+        "The heel and entire sole of the foot",
+        "The lateral malleolus and lateral foot",
+        "The tips of all five toes"
+      ],
+      "correct_answer": "The ball of the great toe / head of the first metatarsal",
+      "distractor_rationale": {
+        "The heel and entire sole of the foot": "The sole is tibial nerve territory (via the medial and lateral plantar nerves), not saphenous.",
+        "The lateral malleolus and lateral foot": "That's sural nerve territory \u2014 the saphenous nerve is medial, the sural is lateral; these two are commonly confused because both are superficial sensory nerves of the leg.",
+        "The tips of all five toes": "Overstates the territory \u2014 the saphenous nerve reaches only as far as the first metatarsal head/great toe region, not all the toes."
+      },
+      "explanation": {
+        "core_concept": "The saphenous nerve's cutaneous territory is medial leg and foot only, ending at the first metatarsal head \u2014 knowing this precise boundary is what lets you correctly localise a sensory deficit to this nerve versus its close neighbours.",
+        "why_correct": "It supplies skin along the medial side of the leg, passes anterior to the medial malleolus, and continues along the medial foot as far as the ball of the great toe \u2014 a well-defined, testable distal limit.",
+        "why_others_wrong": {
+          "The heel and entire sole of the foot": "Sole sensation is supplied by the tibial nerve's plantar branches \u2014 a completely different nerve and completely different (deep, mixed) course.",
+          "The lateral malleolus and lateral foot": "This is the sural nerve's territory, on the opposite (lateral) side of the leg/foot \u2014 the classic pairing question tests exactly this contrast.",
+          "The tips of all five toes": "No single cutaneous nerve of the leg covers all five toes; this option overreaches the saphenous nerve's actual, more limited territory."
+        },
+        "high_yield_facts": [
+          "Saphenous = medial leg + medial foot, ending at the great toe/1st metatarsal head.",
+          "Sural nerve = lateral leg + lateral foot (the mirror-image pairing worth memorising together).",
+          "Sole of foot = tibial nerve (plantar nerves), not either of the above."
+        ],
+        "clinical_correlation": "A patient reporting numbness specifically along the medial shin and inner ankle, sparing the sole, localises cleanly to the saphenous nerve \u2014 useful for distinguishing peripheral nerve injury from an L4 radiculopathy, which can produce a similar but not identical distribution.",
+        "common_confusions": [
+          "Mixing up saphenous (medial) and sural (lateral) territories \u2014 always anchor to 'saphenous nerve travels with the (great) SAPHENOUS vein, which is medial' as the fastest way to keep the side straight."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Sural nerve distribution",
+          "Tibial nerve plantar branches",
+          "L4 dermatome (for distinguishing radiculopathy)"
+        ],
+        "exam_traps": [
+          "Don't assume 'the biggest cutaneous nerve of the leg' automatically covers the sole \u2014 sole sensation always belongs to the tibial nerve system regardless of which superficial nerve supplies the dorsum/sides."
+        ],
+        "image_clues": null,
+        "memory_aid": "Great SAPHENOUS vein runs medially; the saphenous nerve keeps the same address.",
+        "other_ways_this_is_tested": [
+          "This territory boundary is the basis for the comparison question against the sural nerve elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Saphenous nerve territory: medial leg and foot, stopping at the great toe/1st metatarsal head \u2014 never the sole.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard dermatome/cutaneous nerve maps, Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the precise cutaneous distribution and distal limit of the saphenous nerve.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Iatrogenic injury",
+      "concept": "Injury during venous surgery",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 58-year-old man undergoes great saphenous vein stripping for symptomatic varicose veins below the knee. Post-operatively, he reports numbness and occasional tingling along the medial aspect of his lower leg and ankle, with normal muscle strength throughout. Which structure was most likely injured?",
+      "options": [
+        "Saphenous nerve",
+        "Tibial nerve",
+        "Common peroneal nerve",
+        "Sural nerve"
+      ],
+      "correct_answer": "Saphenous nerve",
+      "distractor_rationale": {
+        "Tibial nerve": "A deep nerve supplying the posterior compartment and sole \u2014 far from the subcutaneous course of the great saphenous vein, and its injury would cause motor deficit (plantarflexion weakness), which this patient doesn't have.",
+        "Common peroneal nerve": "Runs near the fibular neck, nowhere near the medial leg or the great saphenous vein's course \u2014 injury here causes foot drop, not medial sensory loss.",
+        "Sural nerve": "Runs with the small saphenous vein on the LATERAL/posterior leg, not the great saphenous vein on the medial leg \u2014 wrong vein, wrong side."
+      },
+      "explanation": {
+        "core_concept": "This vignette is a direct application of the saphenous nerve's defining anatomical relationship \u2014 its close companionship with the great saphenous vein for most of the leg \u2014 which is exactly why venous surgery on that specific vein carries a recognised risk to this specific nerve.",
+        "why_correct": "The saphenous nerve runs immediately adjacent to the great saphenous vein along the medial leg, particularly below the knee where the vein becomes very superficial. Stripping or harvesting this vein places the nerve at direct risk of stretch or transection injury, producing exactly the described pattern: sensory symptoms (numbness, tingling) along the medial leg/ankle with NO motor deficit, since the saphenous nerve is purely sensory.",
+        "why_others_wrong": {
+          "Tibial nerve": "Anatomically remote from the operative field of great saphenous vein stripping, and its injury would produce motor findings this patient doesn't have.",
+          "Common peroneal nerve": "Injured classically at the fibular neck during unrelated procedures (e.g., proximal fibula fracture, prolonged leg compression) \u2014 not anywhere near saphenous vein stripping.",
+          "Sural nerve": "The right kind of injury (sensory nerve near a superficial vein during venous surgery) but the wrong vein-nerve pairing \u2014 sural nerve pairs with the SMALL saphenous vein posterolaterally, not the great saphenous vein medially, which is what was operated on here."
+        },
+        "high_yield_facts": [
+          "Great saphenous vein stripping/harvest below the knee \u2192 saphenous nerve injury risk (medial numbness, no weakness).",
+          "Small saphenous vein surgery \u2192 sural nerve injury risk (posterolateral numbness, no weakness) \u2014 the parallel case worth knowing alongside this one.",
+          "Below-knee segments of both veins carry the higher nerve-injury risk because the nerves run closest to the vein at this level; above-knee stripping carries comparatively lower saphenous nerve risk."
+        ],
+        "clinical_correlation": "This is a genuinely common, real-world surgical complication (reported in a meaningful minority of below-knee vein stripping cases) \u2014 recognising the sensory-only, no-motor-deficit pattern helps reassure both patient and clinician that this is a nerve injury with a self-limited or at least non-disabling course, not a more serious complication.",
+        "common_confusions": [
+          "Picking sural nerve reflexively whenever 'sensory nerve injury during vein surgery' appears \u2014 the specific vein operated on (great vs small saphenous) is what determines which nerve is actually at risk."
+        ],
+        "exceptions": [
+          "Above-knee great saphenous vein surgery carries lower saphenous nerve injury risk, since the nerve and vein are not yet in close proximity that high up the thigh."
+        ],
+        "related_concepts": [
+          "Sural nerve and small saphenous vein",
+          "CABG conduit harvest (same injury mechanism, different indication)",
+          "Saphenous nerve block anatomy"
+        ],
+        "exam_traps": [
+          "The absence of motor deficit is doing real diagnostic work in this vignette, not just flavour text \u2014 use it actively to rule out tibial/peroneal nerve options rather than skimming past it."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "The same vein-nerve relationship, viewed from the mechanism side (why they run together), is covered in the course/exit question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Great saphenous vein surgery below the knee \u2192 think saphenous nerve injury: medial leg/ankle numbness, no motor deficit, ever.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Recognised complication described in vascular surgery literature and standard surgical anatomy texts (e.g. Sabiston Textbook of Surgery, venous disease chapter)."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recognise saphenous nerve injury as a complication of great saphenous vein surgery, based on the sensory-only deficit pattern.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0005",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Entrapment syndrome",
+      "concept": "Adductor canal (saphenous nerve) entrapment",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "A 45-year-old runner presents with burning medial knee and leg pain, worse with hip extension and knee flexion, present for several months. Knee X-ray and MRI of the joint are unremarkable. Tenderness is elicited by palpation at the point where the saphenous nerve pierces the adductor canal's roof. What is the most likely diagnosis?",
+      "options": [
+        "Saphenous nerve entrapment (adductor canal syndrome)",
+        "Medial meniscus tear",
+        "Pes anserine bursitis",
+        "Femoral nerve neuropathy"
+      ],
+      "correct_answer": "Saphenous nerve entrapment (adductor canal syndrome)",
+      "distractor_rationale": {
+        "Medial meniscus tear": "Would typically show findings on MRI of the joint (which is stated to be unremarkable here) and wouldn't produce point tenderness specifically at the nerve's exit from the adductor canal.",
+        "Pes anserine bursitis": "Causes tenderness at the pes anserine insertion (anteromedial tibia, below the joint line), a different and more distal location than the adductor canal exit point described.",
+        "Femoral nerve neuropathy": "Would be expected to also produce quadriceps weakness (motor involvement), since the femoral nerve is mixed, unlike its purely sensory saphenous branch \u2014 this patient's presentation is localised sensory pain, not a full femoral nerve palsy picture."
+      },
+      "explanation": {
+        "core_concept": "Saphenous nerve entrapment occurs at a specific, predictable anatomical bottleneck \u2014 the point where the nerve pierces the vastoadductor membrane to exit the adductor canal \u2014 and recognising that exact location on exam is what separates this diagnosis from other causes of medial knee pain.",
+        "why_correct": "The clinical picture (medial knee/leg burning pain, provoked by hip extension and knee flexion which stretch the nerve at its exit point, normal joint imaging, and point tenderness precisely at the canal exit) is the classic presentation of saphenous nerve entrapment, also called adductor canal syndrome. It is frequently misdiagnosed as an intra-articular knee problem specifically because the pain is felt medially, near the knee.",
+        "why_others_wrong": {
+          "Medial meniscus tear": "Normal MRI makes an intra-articular meniscal tear unlikely, and meniscal pain doesn't classically localise to a specific extra-articular nerve exit point.",
+          "Pes anserine bursitis": "A real and relatively common mimic, but the tenderness location differs (over the pes anserine tendon insertion below the joint line, not at the adductor canal exit higher up the thigh) \u2014 the exam finding described here specifically points elsewhere.",
+          "Femoral nerve neuropathy": "Would typically include quadriceps weakness and a diminished patellar reflex from motor and reflex arc involvement \u2014 this vignette describes a purely sensory picture, consistent with the saphenous branch alone being affected, not the whole femoral nerve."
+        },
+        "high_yield_facts": [
+          "Saphenous nerve entrapment = pain at the adductor canal exit point, worsened by hip extension/knee flexion (both stretch the nerve at this point).",
+          "Often misdiagnosed as knee joint pathology because of the medial knee location \u2014 normal joint imaging is an important supporting clue, not just an incidental negative finding.",
+          "Treatment is typically conservative first (activity modification, local injection) before considering surgical decompression."
+        ],
+        "clinical_correlation": "This entrapment is a recognised, if underdiagnosed, cause of chronic medial knee pain in runners and cyclists \u2014 the repetitive hip extension/knee flexion cycle of running or cycling is thought to repeatedly stretch the nerve at its fixed exit point.",
+        "common_confusions": [
+          "Anchoring on 'knee pain' and jumping straight to intra-articular pathology without considering an extra-articular nerve entrapment, especially when joint imaging has already been reported as normal."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Adductor canal anatomy and the nerve's exit point",
+          "Pes anserine bursitis (a genuine differential worth knowing by name)",
+          "Femoral nerve neuropathy"
+        ],
+        "exam_traps": [
+          "'Medial knee pain' alone is not enough to answer this correctly \u2014 the specific tenderness location (at the canal exit, not the pes anserine insertion) and the normal joint imaging are the details doing the discriminating work."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This entrapment is the direct clinical consequence of the anatomical exit point covered in the course/mechanism question earlier in this set \u2014 read together, they show how one anatomical fact generates one clinical syndrome."
+        ],
+        "neet_pg_takeaway": "Chronic medial knee/leg pain with normal joint imaging and tenderness at the adductor canal exit point = saphenous nerve entrapment, a genuine and often-missed differential for 'unexplained' medial knee pain.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Described in orthopaedic and pain-medicine literature on peripheral nerve entrapment syndromes of the lower limb; consistent with standard clinical anatomy correlation texts."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose saphenous nerve entrapment from its characteristic location, provocation, and exclusion of intra-articular pathology.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0006",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Comparison with sural nerve",
+      "concept": "Saphenous vs sural nerve",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Both the saphenous and sural nerves are superficial, purely sensory nerves of the leg often used for nerve grafts or injured during venous surgery. Which statement correctly distinguishes them?",
+      "options": [
+        "The saphenous nerve is a branch of the femoral nerve and travels with the great saphenous vein medially; the sural nerve arises from tibial and common peroneal contributions and travels with the small saphenous vein posterolaterally",
+        "Both nerves arise from the femoral nerve but differ only in which vein they accompany",
+        "The saphenous nerve supplies the sole of the foot, while the sural nerve supplies only the dorsum",
+        "The sural nerve is a branch of the obturator nerve, while the saphenous nerve is a branch of the sciatic nerve"
+      ],
+      "correct_answer": "The saphenous nerve is a branch of the femoral nerve and travels with the great saphenous vein medially; the sural nerve arises from tibial and common peroneal contributions and travels with the small saphenous vein posterolaterally",
+      "distractor_rationale": {
+        "Both nerves arise from the femoral nerve but differ only in which vein they accompany": "Incorrect \u2014 the sural nerve does not arise from the femoral nerve at all; it's formed from medial (tibial) and lateral (common peroneal) sural cutaneous contributions in the popliteal fossa/calf.",
+        "The saphenous nerve supplies the sole of the foot, while the sural nerve supplies only the dorsum": "Neither nerve supplies the sole (that's tibial plantar nerve territory); this option also reverses the general dorsal/lateral vs medial pattern incorrectly.",
+        "The sural nerve is a branch of the obturator nerve, while the saphenous nerve is a branch of the sciatic nerve": "Both parent-nerve assignments are wrong \u2014 neither nerve arises from the obturator or sciatic nerve directly in the way stated."
+      },
+      "explanation": {
+        "core_concept": "These two nerves are frequently paired in exam questions precisely because they're anatomically and functionally parallel \u2014 both superficial, purely sensory, each running with a different saphenous vein \u2014 which makes their differences (parent nerve, side of the leg, which vein) the exact testable content.",
+        "why_correct": "The saphenous nerve is a femoral nerve branch, medial, travels with the great saphenous vein. The sural nerve is typically formed by the union of the medial sural cutaneous nerve (from the tibial nerve) and a communicating branch from the common peroneal nerve, runs posterolaterally, and travels with the small (short) saphenous vein.",
+        "why_others_wrong": {
+          "Both nerves arise from the femoral nerve but differ only in which vein they accompany": "The sural nerve's tibial/peroneal origin, not femoral, is precisely the distinction this option misses.",
+          "The saphenous nerve supplies the sole of the foot, while the sural nerve supplies only the dorsum": "Sole sensation belongs to the tibial nerve's plantar branches in both cases \u2014 neither the saphenous nor sural nerve reaches the sole.",
+          "The sural nerve is a branch of the obturator nerve, while the saphenous nerve is a branch of the sciatic nerve": "Both parent-nerve claims are incorrect as stated."
+        },
+        "high_yield_facts": [
+          "Saphenous: femoral nerve origin, medial leg, travels with GREAT saphenous vein.",
+          "Sural: tibial + common peroneal contributions, posterolateral leg, travels with SMALL saphenous vein.",
+          "Both are common donor nerves for nerve grafting precisely because they're purely sensory \u2014 harvesting either produces a numb patch, not weakness."
+        ],
+        "clinical_correlation": "This pairing matters practically: which nerve is at risk during a given procedure depends entirely on which vein (great vs small saphenous) is being operated on \u2014 confusing the two leads to misattributing a post-op sensory complaint to the wrong nerve.",
+        "common_confusions": [
+          "Assuming symmetry means identical origin \u2014 these nerves are parallel in FUNCTION and RELATIONSHIP TO A VEIN, not in embryological/anatomical origin."
+        ],
+        "exceptions": [
+          "Sural nerve formation is anatomically variable \u2014 in some individuals it forms purely from the tibial contribution without a peroneal communicating branch \u2014 but this variability doesn't change the exam-level teaching point being tested here."
+        ],
+        "related_concepts": [
+          "Great vs small saphenous vein anatomy",
+          "Nerve graft donor site selection",
+          "Iatrogenic injury during vein harvest (both nerves)"
+        ],
+        "exam_traps": [
+          "When a vignette mentions 'small saphenous vein,' the nerve at risk is sural, not saphenous \u2014 despite the confusingly similar name, don't let 'saphenous' in the vein's name pull you toward the saphenous NERVE by default."
+        ],
+        "image_clues": null,
+        "memory_aid": "Great vein \u2192 saphenous nerve (both 'great/main' structures, medially). Small vein \u2192 sural nerve (posterolateral pairing).",
+        "other_ways_this_is_tested": [
+          "This comparison directly extends the sensory-territory question and the iatrogenic-injury vignette earlier in this set into a side-by-side contrast."
+        ],
+        "neet_pg_takeaway": "Saphenous nerve (femoral origin, medial, great saphenous vein) and sural nerve (tibial+peroneal origin, posterolateral, small saphenous vein) are exam-paired opposites \u2014 know both nerve-vein pairings cold.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard lower limb anatomy texts (Moore's, Gray's) \u2014 consistent description of both nerves' origins and vein relationships."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish the saphenous nerve from the sural nerve by origin, course, and venous companion.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0007",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Image-based identification",
+      "concept": "Identifying the saphenous nerve on cross-section",
+      "question_type": "image_based",
+      "difficulty": 2,
+      "question": "[Image: axial cross-section of the mid-leg showing the great saphenous vein subcutaneously on the medial aspect, with an adjacent small nerve running alongside it just deep to the skin.] What is the most likely identity of the nerve indicated running alongside the great saphenous vein at this level?",
+      "options": [
+        "Saphenous nerve",
+        "Sural nerve",
+        "Deep peroneal nerve",
+        "Tibial nerve"
+      ],
+      "correct_answer": "Saphenous nerve",
+      "distractor_rationale": {
+        "Sural nerve": "Would be found posterolaterally, running with the small saphenous vein \u2014 not medially with the great saphenous vein as shown.",
+        "Deep peroneal nerve": "A deep nerve running with the anterior tibial vessels between tibialis anterior and extensor hallucis longus \u2014 not subcutaneous, and not on the medial side.",
+        "Tibial nerve": "A large, deep nerve in the posterior compartment near the posterior tibial vessels \u2014 not a small subcutaneous nerve on the medial leg."
+      },
+      "explanation": {
+        "core_concept": "The single most reliable way to identify the saphenous nerve on any cross-sectional image is by its consistent, close companionship with the great saphenous vein \u2014 a small subcutaneous nerve found right next to that specific vein, on the medial side, at any level of the leg, is essentially always the saphenous nerve.",
+        "why_correct": "At mid-leg level, the great saphenous vein runs subcutaneously on the medial aspect, and the saphenous nerve runs immediately adjacent to it \u2014 this specific vein-nerve pairing, at this specific (medial, superficial) location, is the identifying feature.",
+        "why_others_wrong": {
+          "Sural nerve": "Wrong side of the leg entirely (posterolateral, not medial) and wrong venous companion (small, not great, saphenous vein).",
+          "Deep peroneal nerve": "A deep, not subcutaneous, structure \u2014 wouldn't appear as a small nerve just under the skin in this location.",
+          "Tibial nerve": "A large nerve found deep in the posterior compartment, not as a small subcutaneous structure on the medial leg."
+        },
+        "high_yield_facts": [
+          "Rule of thumb for cross-sectional identification: small subcutaneous nerve + medial leg + adjacent to a vein = saphenous nerve, essentially every time.",
+          "The posterolateral mirror-image finding (small subcutaneous nerve next to the small saphenous vein) = sural nerve instead.",
+          "Both deep peroneal and tibial nerves are found deep to the crural fascia, in named compartments \u2014 never subcutaneously."
+        ],
+        "clinical_correlation": "This same identification principle is what surgeons rely on intraoperatively to actively identify and preserve the saphenous nerve during vein stripping, rather than risk cutting it \u2014 knowing the anatomy prevents the very injury covered in the clinical vignette elsewhere in this set.",
+        "common_confusions": [
+          "Trying to identify leg nerves by their size alone rather than by their specific companion vessel and compartment \u2014 position relative to a named vein is the faster and more reliable identifier for the small subcutaneous nerves specifically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Great saphenous vein cross-sectional anatomy",
+          "Sural nerve cross-sectional identification",
+          "Compartments of the leg (for distinguishing deep nerves)"
+        ],
+        "exam_traps": [
+          "Don't default to 'biggest nerve nearby' \u2014 cross-sectional identification questions specifically reward knowing which SMALL, superficial structures pair with which specific vein."
+        ],
+        "image_clues": "Key identifying features: subcutaneous (not deep to fascia) location, medial side of the leg, immediately adjacent to a vein of moderate caliber running just under the skin.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This same vein-nerve pairing is tested clinically (injury vignette) and by direct comparison (vs. sural nerve) elsewhere in this set \u2014 this question adds the visual/radiological recognition layer."
+        ],
+        "neet_pg_takeaway": "On any leg cross-section, a small subcutaneous nerve next to the great saphenous vein on the medial side is the saphenous nerve \u2014 position relative to the vein is the fastest identifier.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard cross-sectional/surgical anatomy teaching, consistent with Gray's Anatomy for Students illustrations of leg cross-sections."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate cross-sectional image or schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify the saphenous nerve on a leg cross-section by its relationship to the great saphenous vein.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_saphenous_nerve_0008",
+      "subject": "Anatomy",
+      "topic": "Saphenous Nerve",
+      "subtopic": "Exception \u2014 motor function",
+      "concept": "Absence of motor deficit",
+      "question_type": "exception",
+      "difficulty": 2,
+      "question": "A patient has a confirmed isolated saphenous nerve injury following knee arthroscopy. Which of the following would you NOT expect to find on examination?",
+      "options": [
+        "Weakness of knee extension",
+        "Numbness over the medial leg",
+        "Numbness over the medial malleolus",
+        "Normal muscle strength throughout the lower limb"
+      ],
+      "correct_answer": "Weakness of knee extension",
+      "distractor_rationale": {
+        "Numbness over the medial leg": "Exactly what you'd expect \u2014 this is core saphenous nerve territory.",
+        "Numbness over the medial malleolus": "Also expected \u2014 the nerve passes anterior to the medial malleolus as part of its normal course and territory.",
+        "Normal muscle strength throughout the lower limb": "Exactly what you'd expect, precisely because the saphenous nerve is purely sensory \u2014 this option describes the correct, unremarkable motor exam, not something to flag as unusual."
+      },
+      "explanation": {
+        "core_concept": "This question inverts the usual format \u2014 asking what should NOT be found \u2014 specifically to test whether 'purely sensory nerve' has been understood as a functional fact with a real consequence, not just memorised as a label.",
+        "why_correct": "Knee extension is performed by the quadriceps femoris, innervated by the femoral nerve's motor branches \u2014 not by the saphenous nerve, which carries no motor fibres at all. An isolated saphenous nerve injury, by definition, cannot weaken knee extension; if knee extension weakness IS present, the injury must extend beyond the saphenous branch into the femoral nerve's motor territory, meaning it isn't an isolated saphenous nerve injury anymore.",
+        "why_others_wrong": {
+          "Numbness over the medial leg": "A correctly expected finding given the nerve's known sensory territory \u2014 this doesn't answer the question, which asks for the finding you would NOT expect.",
+          "Numbness over the medial malleolus": "Also a correctly expected finding, for the same reason \u2014 part of the nerve's normal path and territory.",
+          "Normal muscle strength throughout the lower limb": "This IS the expected, unremarkable finding in isolated saphenous nerve injury \u2014 precisely because it's expected, it's not the answer to a question asking what would NOT be seen."
+        },
+        "high_yield_facts": [
+          "Isolated saphenous nerve injury: sensory loss only, medial leg/foot, NEVER motor weakness.",
+          "Any motor deficit alongside 'saphenous distribution' numbness should immediately raise suspicion of a more proximal femoral nerve lesion, not just its saphenous branch.",
+          "This distinguishes saphenous nerve injury from femoral nerve injury proper, which does cause quadriceps weakness and a diminished patellar reflex."
+        ],
+        "clinical_correlation": "This distinction has real diagnostic value: a patient with medial leg numbness AND quad weakness needs to be worked up for a femoral neuropathy or more proximal lesion (e.g., lumbar plexopathy, retroperitoneal haematoma compressing the femoral nerve), not dismissed as 'just a saphenous nerve injury.'",
+        "common_confusions": [
+          "Treating 'nerve injury near the knee' as generically implying some motor weakness \u2014 the specific nerve involved determines whether that assumption is even physiologically possible."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Femoral nerve motor function (quadriceps, patellar reflex)",
+          "Femoral neuropathy differentials",
+          "Knee arthroscopy nerve injury risk"
+        ],
+        "exam_traps": [
+          "'Exception' questions like this one reward actively reasoning from the nerve's known fibre type, not just pattern-matching to 'nerve injury = some weakness somewhere' as a default assumption."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This purely-sensory fact is the same one established in the very first question of this set and applied here in reverse, exception format \u2014 deliberately, to reinforce it from a different angle."
+        ],
+        "neet_pg_takeaway": "Isolated saphenous nerve injury never causes motor weakness, including knee extension \u2014 if weakness is present, look proximally to the femoral nerve itself.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Direct consequence of standard fibre-type anatomy \u2014 Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Apply the saphenous nerve's purely sensory fibre type to correctly predict the absence of motor findings in its isolated injury.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

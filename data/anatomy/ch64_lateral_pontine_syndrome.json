@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0064",
+    "topic": "Lateral Pontine Syndrome",
+    "chapter_number": 64,
+    "chapter_file": "data/anatomy/ch64_lateral_pontine_syndrome.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 1,
+      "L4": 3,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "comparison",
+      "mechanism"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "The Cerebellum Blood Supply chapter (ch61) briefly mentions AICA's 'more limited' syndrome without detail. Verified ch61's exact coverage before building \u2014 this chapter provides the full, detailed lateral pontine syndrome content and is deliberately structured as a direct, systematic contrast with that chapter's Wallenberg syndrome coverage, genuinely complementary rather than duplicative.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch61 (Cerebellum Blood Supply) and ch59 (Facial Nerve) \u2014 no duplicate concepts found; genuinely complementary, with explicit cross-references."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "This chapter extends the Cerebellum Blood Supply chapter's brief AICA mention into a full clinical syndrome \u2014 lateral PONTINE syndrome, caused by AICA occlusion \u2014 deliberately structured as a direct point-by-point contrast with lateral MEDULLARY (Wallenberg/PICA) syndrome, since these two syndromes share a similar overall PATTERN (ipsilateral face, contralateral body, ataxia) but differ in specific additional findings that precisely reflect their different anatomical level (pons vs medulla) and different arterial territory (AICA vs PICA)."
+    },
+    "structure_anatomy": {
+      "aica_territory": "AICA supplies the anterior inferior cerebellum PLUS a portion of the LATERAL PONS (rather than the lateral medulla, which is PICA's territory) \u2014 critically, AICA also gives rise to (or closely accompanies) the LABYRINTHINE (internal auditory) ARTERY, supplying the inner ear (cochlea and vestibular apparatus) in most individuals, a genuinely distinctive additional territory NOT shared by PICA.",
+      "facial_nucleus_and_main_trigeminal_nucleus_in_pons": "The facial nerve MOTOR NUCLEUS and the main (chief/principal) sensory nucleus of the trigeminal nerve both reside within the PONS \u2014 structures within AICA's territory, and genuinely distinct from the structures within PICA's territory (nucleus ambiguus, spinal trigeminal nucleus \u2014 a DIFFERENT, more caudally-located trigeminal nucleus specifically handling pain/temperature, versus the pontine main sensory nucleus handling fine touch/proprioception)."
+    },
+    "clinical": {
+      "lateral_pontine_syndrome_findings": "AICA occlusion (lateral pontine syndrome) produces: ipsilateral FACIAL PARALYSIS (LMN pattern, including the forehead \u2014 since the facial nerve NUCLEUS itself, in the pons, is directly affected \u2014 see the Facial Nerve chapter's LMN/UMN distinction), ipsilateral DEAFNESS AND TINNITUS (labyrinthine artery territory \u2014 a finding genuinely NOT part of Wallenberg syndrome, since PICA doesn't supply the inner ear), ipsilateral facial sensory involvement (main trigeminal sensory nucleus), contralateral body pain/temperature loss (spinothalamic tract, same crossing logic as Wallenberg), and ipsilateral ataxia (cerebellar/peduncle territory) \u2014 plus vertigo and nystagmus (vestibular involvement, from BOTH the labyrinthine artery AND pontine vestibular connections).",
+      "key_contrast_with_wallenberg": "The SINGLE most useful discriminating features from Wallenberg (lateral medullary) syndrome: (1) lateral PONTINE syndrome includes IPSILATERAL FACIAL PARALYSIS (LMN, since the facial nucleus itself is in the pons) \u2014 Wallenberg syndrome does NOT include facial weakness at all, since PICA's medullary territory doesn't include the facial nucleus; (2) lateral pontine syndrome includes IPSILATERAL DEAFNESS/TINNITUS (labyrinthine artery) \u2014 Wallenberg syndrome does NOT include hearing loss, since PICA doesn't supply the inner ear; (3) Wallenberg syndrome specifically includes DYSPHAGIA/DYSARTHRIA WITH ABSENT GAG REFLEX (nucleus ambiguus, a medulla-specific structure) \u2014 lateral pontine syndrome does NOT include this finding, since AICA's pontine territory doesn't include nucleus ambiguus."
+    },
+    "related_structures": "This chapter is built specifically as a paired contrast with the Cerebellum Blood Supply chapter's Wallenberg syndrome content \u2014 both syndromes share the SAME underlying crossed-sensory-pattern logic (ipsilateral face, contralateral body) and ipsilateral ataxia, but the PRESENCE of facial paralysis and deafness (pontine-specific) versus dysphagia/absent gag reflex (medulla-specific) is precisely what allows confident, level-specific localisation between these two similarly-patterned but genuinely distinct brainstem stroke syndromes."
+  },
+  "question_family": [
+    {
+      "family_name": "Lateral Pontine Syndrome \u2014 AICA Occlusion vs Wallenberg Syndrome (4 angles, one concept)",
+      "member_ids": [
+        "anat_lateral_pontine_syndrome_0001",
+        "anat_lateral_pontine_syndrome_0002",
+        "anat_lateral_pontine_syndrome_0003",
+        "anat_lateral_pontine_syndrome_0004"
+      ],
+      "coverage": "Recall (labyrinthine artery territory), clinical vignette (complete syndrome diagnosis), comparison (key discriminators vs Wallenberg syndrome), and mechanism (LMN facial paralysis despite central lesion location) \u2014 four genuinely different angles on the same integrated concept, deliberately built as a paired contrast with the Cerebellum Blood Supply chapter's Wallenberg syndrome content."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_lateral_pontine_syndrome_0001",
+      "subject": "Anatomy",
+      "topic": "Lateral Pontine Syndrome",
+      "subtopic": "AICA territory",
+      "concept": "Lateral pontine syndrome (AICA occlusion): facial paralysis and deafness distinguishing it from lateral medullary (Wallenberg/PICA) syndrome",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "AICA, unlike PICA, gives rise to (or closely accompanies) which artery supplying the inner ear?",
+      "options": [
+        "Labyrinthine (internal auditory) artery",
+        "Superior thyroid artery",
+        "Posterior cerebral artery",
+        "Anterior spinal artery"
+      ],
+      "correct_answer": "Labyrinthine (internal auditory) artery",
+      "distractor_rationale": {
+        "Superior thyroid artery": "An entirely unrelated artery, supplying the thyroid gland region, with no relationship to AICA or the inner ear.",
+        "Posterior cerebral artery": "A separate branch of the basilar artery (at its termination), unrelated to the inner ear's blood supply.",
+        "Anterior spinal artery": "Supplies the spinal cord, entirely unrelated to AICA's inner ear territory."
+      },
+      "explanation": {
+        "core_concept": "The labyrinthine artery's origin from (or close association with) AICA is THE single fact explaining why AICA occlusion \u2014 unlike PICA occlusion \u2014 includes hearing loss as part of its clinical syndrome, a genuinely important, specific discriminator between these two brainstem stroke presentations.",
+        "why_correct": "AICA gives rise to (or closely accompanies) the labyrinthine (internal auditory) artery in most individuals, supplying the inner ear (cochlea and vestibular apparatus) \u2014 a distinctive territory NOT shared by PICA, which has no equivalent inner ear supply.",
+        "why_others_wrong": {
+          "Superior thyroid artery": "Unrelated to AICA or the inner ear.",
+          "Posterior cerebral artery": "A separate basilar artery branch, unrelated to the inner ear.",
+          "Anterior spinal artery": "Supplies the spinal cord, unrelated to AICA's territory."
+        },
+        "high_yield_facts": [
+          "AICA \u2192 labyrinthine artery \u2192 inner ear (cochlea, vestibular apparatus).",
+          "This is THE key territorial difference from PICA, directly explaining why AICA occlusion (unlike PICA occlusion) causes hearing loss/tinnitus.",
+          "This fact is the anatomical basis for the deafness/tinnitus finding covered elsewhere in this chapter, and for the key Wallenberg-vs-lateral-pontine-syndrome discriminator."
+        ],
+        "clinical_correlation": "Recognising this specific territorial relationship is directly relevant to correctly interpreting hearing loss as a lateralising, level-specific sign in suspected posterior circulation stroke.",
+        "common_confusions": [
+          "Assuming PICA and AICA share identical territories simply because both are 'cerebellar arteries' \u2014 AICA's SPECIFIC additional labyrinthine artery relationship is a genuine, important point of distinction, not shared by PICA."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Lateral pontine syndrome findings (this concept, other question) \u2014 directly building on this territorial fact"
+        ],
+        "exam_traps": [
+          "Don't assume any cerebellar artery occlusion could equally explain hearing loss \u2014 specifically recall AICA's unique labyrinthine artery relationship as the explanation for this finding."
+        ],
+        "image_clues": null,
+        "memory_aid": "AICA reaches all the way out to the ear \u2014 its labyrinthine artery branch is what PICA simply doesn't have.",
+        "other_ways_this_is_tested": [
+          "This territorial fact directly explains the deafness/tinnitus finding covered as part of the full lateral pontine syndrome elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "AICA gives rise to (or closely accompanies) the labyrinthine artery, supplying the inner ear \u2014 a distinctive territory not shared by PICA, directly explaining why AICA occlusion (unlike PICA occlusion) causes hearing loss.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, brainstem vasculature section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the labyrinthine artery as AICA's distinctive inner-ear-supplying branch, unlike PICA.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lateral_pontine_syndrome_0002",
+      "subject": "Anatomy",
+      "topic": "Lateral Pontine Syndrome",
+      "subtopic": "Clinical \u2014 complete syndrome",
+      "concept": "Lateral pontine syndrome (AICA occlusion): facial paralysis and deafness distinguishing it from lateral medullary (Wallenberg/PICA) syndrome",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient presents with sudden-onset LEFT-sided facial paralysis (including forehead involvement), left-sided deafness and tinnitus, left facial sensory loss, right-sided body pain/temperature loss, left limb ataxia, and vertigo. Which artery occlusion explains this complete presentation?",
+      "options": [
+        "Left AICA occlusion (lateral pontine syndrome)",
+        "Left PICA occlusion (lateral medullary/Wallenberg syndrome)",
+        "Right SCA occlusion",
+        "Bilateral posterior cerebral artery occlusion"
+      ],
+      "correct_answer": "Left AICA occlusion (lateral pontine syndrome)",
+      "distractor_rationale": {
+        "Left PICA occlusion (lateral medullary/Wallenberg syndrome)": "Wallenberg syndrome does NOT include facial paralysis or deafness (PICA doesn't supply the facial nucleus or the labyrinthine artery territory) \u2014 these two specific findings in this vignette specifically point to AICA, not PICA, occlusion.",
+        "Right SCA occlusion": "SCA occlusion produces a different syndrome (predominantly cerebellar ataxia, with some different findings), and doesn't match this vignette's specific combination, and the laterality (right SCA) doesn't match the described LEFT-sided findings.",
+        "Bilateral posterior cerebral artery occlusion": "The posterior cerebral artery supplies occipital lobe/visual territory, an entirely different territory not matching this vignette's brainstem-localising findings."
+      },
+      "explanation": {
+        "core_concept": "This vignette directly tests whether the two KEY discriminating findings (facial paralysis WITH forehead involvement, and deafness/tinnitus) have been correctly recognised as pointing specifically to AICA/lateral pontine syndrome rather than the superficially similar PICA/Wallenberg syndrome, given the shared crossed-sensory-pattern and ataxia findings between both syndromes.",
+        "why_correct": "This is the complete, classic lateral pontine syndrome from LEFT AICA occlusion: facial paralysis WITH forehead involvement (LMN pattern, since the facial nerve nucleus itself, within the pons, is directly affected \u2014 see the Facial Nerve chapter), deafness and tinnitus (labyrinthine artery territory, AICA's distinctive additional supply), facial sensory loss (main trigeminal sensory nucleus, in the pons), contralateral (right) body pain/temperature loss (spinothalamic tract, already crossed at spinal cord level), ipsilateral ataxia (cerebellar/peduncle territory), and vertigo (vestibular involvement) \u2014 every finding tracing to a specific structure within AICA's combined pontine-cerebellar-labyrinthine territory.",
+        "why_others_wrong": {
+          "Left PICA occlusion (lateral medullary/Wallenberg syndrome)": "Wallenberg syndrome specifically lacks facial paralysis and deafness \u2014 these two findings are the key discriminators pointing away from PICA and toward AICA occlusion instead.",
+          "Right SCA occlusion": "Doesn't match this specific symptom combination, and the laterality is also incorrect relative to the described left-sided findings.",
+          "Bilateral posterior cerebral artery occlusion": "A different vascular territory (visual/occipital), not matching this vignette's brainstem-localising findings at all."
+        },
+        "high_yield_facts": [
+          "Lateral pontine syndrome (AICA): facial paralysis (WITH forehead, LMN) + deafness/tinnitus + facial sensory loss + contralateral body sensory loss + ipsilateral ataxia + vertigo.",
+          "The TWO findings absent from Wallenberg syndrome but present here (facial paralysis, deafness) are THE key discriminators confirming AICA over PICA.",
+          "This vignette directly demonstrates why understanding BOTH syndromes together, as a paired contrast, is far more useful than memorising either in isolation."
+        ],
+        "clinical_correlation": "Correctly distinguishing AICA from PICA territory stroke directly guides appropriate vascular imaging focus and informs prognosis/rehabilitation planning, given the genuinely different structures and functions involved in each syndrome.",
+        "common_confusions": [
+          "Assuming any brainstem stroke with crossed sensory findings and ataxia must be Wallenberg syndrome \u2014 the SPECIFIC ADDITIONAL findings (facial paralysis, deafness) are exactly what should prompt reconsidering toward AICA/lateral pontine syndrome instead."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Key contrast with Wallenberg syndrome (this concept, other question) \u2014 the direct, systematic comparison underlying this vignette's diagnosis"
+        ],
+        "exam_traps": [
+          "Use facial paralysis (with forehead involvement) AND deafness/tinnitus TOGETHER as the decisive findings distinguishing this presentation from Wallenberg syndrome, rather than focusing only on the shared findings (crossed sensory pattern, ataxia) common to both syndromes."
+        ],
+        "image_clues": null,
+        "memory_aid": "Add deafness and a drooping face (forehead included) to the Wallenberg-like picture, and you've moved one level up \u2014 from medulla to pons, from PICA to AICA.",
+        "other_ways_this_is_tested": [
+          "This vignette is the complete clinical synthesis of AICA's territory and its key discriminating features versus Wallenberg syndrome, established throughout this chapter."
+        ],
+        "neet_pg_takeaway": "Lateral pontine syndrome (AICA occlusion) includes facial paralysis (with forehead involvement) and deafness/tinnitus alongside crossed sensory loss and ataxia \u2014 the presence of these two specific findings is what distinguishes it from the superficially similar lateral medullary (Wallenberg/PICA) syndrome.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard vascular neurology references on AICA territory stroke."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose lateral pontine syndrome (AICA occlusion) from facial paralysis, deafness, and the crossed sensory/ataxia pattern.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lateral_pontine_syndrome_0003",
+      "subject": "Anatomy",
+      "topic": "Lateral Pontine Syndrome",
+      "subtopic": "Key contrast with Wallenberg syndrome",
+      "concept": "Lateral pontine syndrome (AICA occlusion): facial paralysis and deafness distinguishing it from lateral medullary (Wallenberg/PICA) syndrome",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "What are the TWO most useful clinical findings distinguishing lateral pontine syndrome (AICA) from lateral medullary/Wallenberg syndrome (PICA), and what does their PRESENCE or ABSENCE indicate?",
+      "options": [
+        "Facial paralysis (with forehead involvement) and deafness/tinnitus are PRESENT in lateral pontine syndrome but ABSENT in Wallenberg syndrome, since only AICA's territory includes the facial nucleus and the labyrinthine artery; conversely, dysphagia/absent gag reflex (nucleus ambiguus) is present in Wallenberg but absent in lateral pontine syndrome",
+        "Both syndromes share an identical set of findings, with no genuine discriminating features between them",
+        "Dysphagia and absent gag reflex are the key findings present in lateral pontine syndrome but absent in Wallenberg syndrome \u2014 the reverse of the correct pairing",
+        "Ipsilateral ataxia is present only in Wallenberg syndrome and completely absent in lateral pontine syndrome, making it the key discriminator"
+      ],
+      "correct_answer": "Facial paralysis (with forehead involvement) and deafness/tinnitus are PRESENT in lateral pontine syndrome but ABSENT in Wallenberg syndrome, since only AICA's territory includes the facial nucleus and the labyrinthine artery; conversely, dysphagia/absent gag reflex (nucleus ambiguus) is present in Wallenberg but absent in lateral pontine syndrome",
+      "distractor_rationale": {
+        "Both syndromes share an identical set of findings, with no genuine discriminating features between them": "Denies the genuine, well-established, clinically important discriminating features between these two syndromes.",
+        "Dysphagia and absent gag reflex are the key findings present in lateral pontine syndrome but absent in Wallenberg syndrome \u2014 the reverse of the correct pairing": "Reverses the correct pairing \u2014 dysphagia/absent gag reflex is specifically a WALLENBERG (nucleus ambiguus, medulla) finding, absent in lateral pontine syndrome.",
+        "Ipsilateral ataxia is present only in Wallenberg syndrome and completely absent in lateral pontine syndrome, making it the key discriminator": "Ataxia is actually a SHARED finding present in BOTH syndromes (both involve cerebellar/peduncle territory) \u2014 it's specifically NOT a useful discriminator between them, unlike facial paralysis, deafness, and dysphagia/gag reflex."
+      },
+      "explanation": {
+        "core_concept": "This comparison brings together the complete, systematic contrast between these two similarly-patterned brainstem syndromes \u2014 recognising which findings are SHARED (crossed sensory pattern, ataxia) versus which are SPECIFIC TO EACH syndrome (facial paralysis/deafness for pontine/AICA; dysphagia/absent gag reflex for medullary/Wallenberg/PICA) is exactly what allows confident, precise level localisation.",
+        "why_correct": "Facial paralysis (WITH forehead involvement, since the facial nerve nucleus itself resides in the pons) and deafness/tinnitus (from labyrinthine artery involvement) are PRESENT in lateral pontine syndrome (AICA) but ABSENT in Wallenberg syndrome (PICA doesn't supply either the facial nucleus or the inner ear). Conversely, dysphagia/dysarthria with absent gag reflex (from nucleus ambiguus, a medulla-specific structure) is PRESENT in Wallenberg syndrome but ABSENT in lateral pontine syndrome (AICA's pontine territory doesn't include nucleus ambiguus). These two findings sets \u2014 genuinely, cleanly non-overlapping \u2014 are the key discriminators, while the crossed sensory pattern and ipsilateral ataxia are SHARED features present in both syndromes (given both arteries' similar cerebellar and sensory pathway relationships), making them less useful for distinguishing between the two.",
+        "why_others_wrong": {
+          "Both syndromes share an identical set of findings, with no genuine discriminating features between them": "Denies genuine, well-established, clinically important discriminating features.",
+          "Dysphagia and absent gag reflex are the key findings present in lateral pontine syndrome but absent in Wallenberg syndrome \u2014 the reverse of the correct pairing": "Reverses the correct assignment \u2014 this is specifically a WALLENBERG finding.",
+          "Ipsilateral ataxia is present only in Wallenberg syndrome and completely absent in lateral pontine syndrome, making it the key discriminator": "Ataxia is actually SHARED by both syndromes, making it a poor discriminator between them, unlike the genuinely distinguishing findings (facial paralysis/deafness vs dysphagia/gag reflex)."
+        },
+        "high_yield_facts": [
+          "SHARED findings (both syndromes): crossed sensory pattern (ipsilateral face, contralateral body), ipsilateral ataxia.",
+          "PONTINE-SPECIFIC (AICA, present only here): facial paralysis WITH forehead involvement, deafness/tinnitus.",
+          "MEDULLARY-SPECIFIC (PICA/Wallenberg, present only here): dysphagia/dysarthria WITH absent gag reflex (nucleus ambiguus)."
+        ],
+        "clinical_correlation": "This systematic, feature-by-feature comparison is exactly the diagnostic reasoning approach needed to correctly localise a brainstem stroke to the pons versus medulla based on clinical examination alone, directly guiding subsequent, appropriately-targeted vascular imaging.",
+        "common_confusions": [
+          "Focusing only on the SHARED findings (crossed sensory pattern, ataxia) when trying to distinguish these two syndromes \u2014 these shared features are exactly what makes them look similar at first glance, while the syndrome-SPECIFIC findings (facial paralysis/deafness vs dysphagia/gag reflex) are what actually allow confident discrimination."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Complete lateral pontine syndrome presentation (this concept, other question) \u2014 directly applying this comparison",
+          "Wallenberg syndrome full presentation (see Cerebellum Blood Supply chapter)"
+        ],
+        "exam_traps": [
+          "When distinguishing these two syndromes, actively check for the PRESENCE of facial paralysis/deafness (pointing to AICA) versus dysphagia/absent gag reflex (pointing to PICA) \u2014 don't rely on the shared crossed sensory pattern or ataxia findings, since both syndromes share these."
+        ],
+        "image_clues": null,
+        "memory_aid": "Face and ears say PONS (AICA); throat and swallowing say MEDULLA (PICA) \u2014 the shared crossed-sensation-plus-ataxia pattern doesn't tell you which level, but these specific extras do.",
+        "other_ways_this_is_tested": [
+          "This comparison is the complete, systematic synthesis connecting this chapter's content directly to the Cerebellum Blood Supply chapter's Wallenberg syndrome coverage."
+        ],
+        "neet_pg_takeaway": "Facial paralysis (with forehead involvement) and deafness/tinnitus specifically distinguish lateral pontine syndrome (AICA) from Wallenberg syndrome (PICA), which instead specifically features dysphagia/absent gag reflex \u2014 while crossed sensory loss and ataxia are shared, non-discriminating findings present in both syndromes.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard vascular neurology references comparing AICA and PICA territory strokes."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Systematically compare lateral pontine syndrome and Wallenberg syndrome, identifying shared versus syndrome-specific discriminating findings.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lateral_pontine_syndrome_0004",
+      "subject": "Anatomy",
+      "topic": "Lateral Pontine Syndrome",
+      "subtopic": "Facial paralysis type (LMN)",
+      "concept": "Lateral pontine syndrome (AICA occlusion): facial paralysis and deafness distinguishing it from lateral medullary (Wallenberg/PICA) syndrome",
+      "question_type": "mechanism",
+      "difficulty": 4,
+      "question": "The facial paralysis in lateral pontine syndrome (AICA occlusion) is a LOWER motor neuron pattern, including forehead involvement. Why is this specifically an LMN (not UMN) pattern, given that the lesion is within the central nervous system (brainstem) rather than a peripheral nerve?",
+      "options": [
+        "The facial nerve's MOTOR NUCLEUS itself resides within the pons, so a pontine lesion directly damages this nucleus \u2014 the origin point of the LMN pathway itself \u2014 producing an LMN pattern despite being a CNS (not peripheral nerve) lesion",
+        "This should actually be classified as a UMN pattern, and the vignette's description of forehead involvement is inconsistent with LMN facial palsy",
+        "Facial paralysis in this syndrome has no relationship to LMN/UMN classification at all, since this distinction only applies to peripheral nerve lesions outside the brainstem",
+        "The facial nerve nucleus is located in the medulla, not the pons, making this option's premise incorrect"
+      ],
+      "correct_answer": "The facial nerve's MOTOR NUCLEUS itself resides within the pons, so a pontine lesion directly damages this nucleus \u2014 the origin point of the LMN pathway itself \u2014 producing an LMN pattern despite being a CNS (not peripheral nerve) lesion",
+      "distractor_rationale": {
+        "This should actually be classified as a UMN pattern, and the vignette's description of forehead involvement is inconsistent with LMN facial palsy": "Forehead involvement IS specifically the LMN pattern (established in the Facial Nerve chapter) \u2014 this option incorrectly reverses the LMN/UMN forehead-involvement association.",
+        "Facial paralysis in this syndrome has no relationship to LMN/UMN classification at all, since this distinction only applies to peripheral nerve lesions outside the brainstem": "The LMN/UMN distinction specifically applies based on WHERE relative to the facial nerve NUCLEUS a lesion occurs, not simply whether the lesion is anatomically 'central' or 'peripheral' in a broader sense \u2014 a nucleus-level lesion is still classified as LMN, since the nucleus itself is the LMN's cell body origin.",
+        "The facial nerve nucleus is located in the medulla, not the pons, making this option's premise incorrect": "The facial nerve motor nucleus is specifically located in the PONS, not the medulla \u2014 this option misstates basic brainstem neuroanatomy."
+      },
+      "explanation": {
+        "core_concept": "This mechanism resolves a genuinely important, easy-to-overlook subtlety \u2014 LMN versus UMN classification depends on whether a lesion is AT OR DISTAL TO the motor nucleus itself (LMN) versus PROXIMAL to it, affecting only the descending cortical input (UMN) \u2014 NOT simply on whether the lesion is anatomically within the brainstem/CNS or in a peripheral nerve outside it.",
+        "why_correct": "The facial nerve's motor nucleus resides within the PONS itself. A pontine lesion (like AICA occlusion) that damages this nucleus directly affects the ORIGIN POINT of the LMN pathway \u2014 even though the lesion is anatomically within the CNS, it's damaging the LMN's own cell bodies (the nucleus), producing a genuine LMN pattern (complete ipsilateral paralysis including the forehead) \u2014 exactly the same functional outcome as if the facial nerve were damaged more peripherally, after it exits the brainstem. This is different from a lesion further UP the pathway (e.g. in the cerebral cortex or corticobulbar tract, well ABOVE the facial nucleus), which would instead produce the UMN pattern (forehead sparing) covered in the Facial Nerve chapter.",
+        "why_others_wrong": {
+          "This should actually be classified as a UMN pattern, and the vignette's description of forehead involvement is inconsistent with LMN facial palsy": "Forehead involvement is specifically the LMN signature \u2014 this option reverses the correct association.",
+          "Facial paralysis in this syndrome has no relationship to LMN/UMN classification at all, since this distinction only applies to peripheral nerve lesions outside the brainstem": "The LMN/UMN distinction is based on lesion location RELATIVE TO THE NUCLEUS, not on whether the lesion is broadly 'central' or 'peripheral' \u2014 a nucleus-level lesion is genuinely LMN.",
+          "The facial nerve nucleus is located in the medulla, not the pons, making this option's premise incorrect": "Misstates basic neuroanatomy \u2014 the facial nerve motor nucleus is specifically in the pons."
+        },
+        "high_yield_facts": [
+          "LMN vs UMN classification depends on lesion location RELATIVE TO THE MOTOR NUCLEUS, not simply 'CNS vs peripheral nerve.'",
+          "A lesion AT OR DISTAL TO the nucleus (including the nucleus itself) = LMN pattern.",
+          "A lesion PROXIMAL TO the nucleus (cortex, corticobulbar tract) = UMN pattern.",
+          "AICA occlusion damages the facial nucleus ITSELF (within the pons) = genuine LMN pattern, despite being a brainstem (CNS) lesion \u2014 directly extending the Facial Nerve chapter's LMN/UMN framework to this specific brainstem stroke scenario."
+        ],
+        "clinical_correlation": "This nuanced understanding is directly relevant to correctly interpreting facial weakness findings in ANY brainstem lesion \u2014 recognising that a brainstem stroke affecting the facial NUCLEUS specifically produces LMN findings, while a brainstem stroke affecting only the DESCENDING corticobulbar fibres before they reach the nucleus would instead produce UMN findings, even though both are technically 'central' (brainstem) lesions.",
+        "common_confusions": [
+          "Assuming any lesion within the brain/brainstem must automatically produce a UMN pattern, simply because it's 'central' rather than a peripheral nerve \u2014 the KEY distinguishing factor is specifically whether the lesion is at/distal to the nucleus (LMN) or proximal to it (UMN), regardless of whether the lesion itself is anatomically central or peripheral."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "LMN vs UMN facial palsy and forehead sparing (see Facial Nerve chapter) \u2014 the general framework directly applied here to this specific brainstem stroke scenario"
+        ],
+        "exam_traps": [
+          "Don't assume 'brainstem lesion' automatically means 'UMN pattern' \u2014 actively check WHERE relative to the specific cranial nerve nucleus the lesion sits, since a nucleus-level lesion produces a genuine LMN pattern despite being centrally located."
+        ],
+        "image_clues": null,
+        "memory_aid": "Damage the factory itself (the nucleus), and you get LMN-style total shutdown \u2014 doesn't matter that the 'factory' happens to sit inside the brainstem.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly extends and applies the Facial Nerve chapter's LMN/UMN framework to this specific brainstem stroke context, completing the full picture of facial paralysis classification across different lesion locations."
+        ],
+        "neet_pg_takeaway": "AICA occlusion produces LMN-pattern facial paralysis (including forehead involvement) because the facial nerve's motor nucleus itself resides in the pons \u2014 a lesion here damages the LMN pathway's own origin point, producing a genuine LMN pattern despite being a central (brainstem) rather than peripheral nerve lesion.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, facial nerve nucleus and brainstem stroke syndromes."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why AICA occlusion produces LMN-pattern facial paralysis despite being a central brainstem lesion, extending the general LMN/UMN framework.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

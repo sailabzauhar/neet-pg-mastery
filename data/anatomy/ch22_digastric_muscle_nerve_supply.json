@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0022",
+    "topic": "Digastric Muscle - Nerve Supply",
+    "chapter_number": 22,
+    "chapter_file": "data/anatomy/ch22_digastric_muscle_nerve_supply.json",
+    "source_years": [
+      2025
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": true,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "comparison",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This chapter directly extends the 'one arch, one nerve' rule established in the Pharyngeal Arch Derivatives chapter (ch17) to a single, arch-spanning muscle \u2014 deliberately complementary, not duplicative: that chapter establishes the general rule; this chapter applies it to digastric specifically, plus adds genuinely new content (surgical landmark use, comparison against FDP's differently-mechanism split innervation).",
+    "build_standard_note": "Built with one deeply-covered concept (5 question types) from the start, following the corrected process established with ch20/ch21 \u2014 genuinely shared 'concept' label, verified against validate_chapter.py before finalizing.",
+    "note": "Dedup pass completed against this file's own question set and cross-checked against ch17 (Pharyngeal Arch Derivatives) and ch11/ch12 (FDP and lumbrical split innervation) \u2014 no duplicate concepts found; all are complementary. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Digastric ('two bellies') is a suprahyoid muscle with two separate bellies joined by an intermediate tendon, and it is one of the very few muscles in the body with a genuinely split embryological origin AND correspondingly split nerve supply \u2014 each belly comes from a different pharyngeal arch and is supplied by a different cranial nerve, directly extending the 'one arch, one nerve' rule (established in the Pharyngeal Arch Derivatives chapter) to a single, unified muscle.",
+      "classification": "This chapter covers one integrated concept in depth: digastric's split arch origin/nerve supply and its clinical/functional consequences, tested across the full range of genuinely applicable question types."
+    },
+    "structure_anatomy": {
+      "anterior_belly": "Arises from the digastric fossa on the inner surface of the mandible near the midline, running down and back to the intermediate tendon. A 1st pharyngeal arch derivative, supplied by the mylohyoid nerve (a branch of the inferior alveolar nerve, itself a branch of V3 \u2014 the mandibular division of the trigeminal nerve).",
+      "posterior_belly": "Arises from the mastoid notch on the temporal bone, running down and forward to the same intermediate tendon. A 2nd pharyngeal arch derivative, supplied directly by the facial nerve (CN VII).",
+      "intermediate_tendon": "Connects the two bellies, held in position by a fibrous sling (a loop of deep cervical fascia) attached to the hyoid bone \u2014 allowing the tendon to slide within the sling as the muscle contracts.",
+      "action": "Both bellies acting together elevate the hyoid bone (and, when the hyoid is fixed by other muscles, can assist in depressing/opening the mandible) \u2014 relevant to swallowing and the initial phase of jaw opening."
+    },
+    "clinical": {
+      "surgical_landmark": "The posterior belly of digastric is a critical surgical landmark during neck dissection and parotid surgery \u2014 it marks the approximate level at which the facial nerve trunk exits the stylomastoid foramen and the level at which the hypoglossal nerve passes deep to it, making accurate identification of this muscle belly directly protective against injuring either nerve during surgery in this region.",
+      "submandibular_gland_surgery": "The anterior belly of digastric, along with the posterior belly and the inferior border of the mandible, forms the digastric triangle, within which the submandibular gland lies \u2014 relevant surgical anatomy for submandibular gland excision.",
+      "split_nerve_supply_clinical_correlation": "Because the two bellies have entirely different nerve supplies, a lesion of ONE nerve (e.g. an isolated facial nerve palsy) affects only the POSTERIOR belly, while the ANTERIOR belly (V3-supplied) remains functional \u2014 a genuinely useful, if subtle, localising detail, and a good illustration of how split innervation in a single muscle can produce partial, rather than complete, functional loss."
+    },
+    "related_structures": "Digastric's split arch origin directly extends the 'one arch, one nerve' rule from the Pharyngeal Arch Derivatives chapter to the single-muscle level \u2014 most muscles arise entirely from one arch, but digastric is a genuine, well-known exception with two bellies from two DIFFERENT arches, each following that arch's own nerve rule independently within the same named muscle."
+  },
+  "question_family": [
+    {
+      "family_name": "Digastric Muscle \u2014 Split Arch Origin and Nerve Supply (5 angles, one concept)",
+      "member_ids": [
+        "anat_digastric_nerve_0001",
+        "anat_digastric_nerve_0002",
+        "anat_digastric_nerve_0003",
+        "anat_digastric_nerve_0004",
+        "anat_digastric_nerve_0005"
+      ],
+      "coverage": "Recall (which nerve supplies which belly), mechanism (why the split exists, tied to arch origin), clinical vignette (surgical landmark application), comparison (against FDP's differently-mechanism split), and image-based (applying the pairing to a described dissection) \u2014 five genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_digastric_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Digastric Muscle - Nerve Supply",
+      "subtopic": "Split nerve supply",
+      "concept": "Digastric muscle's split arch origin and correspondingly split nerve supply",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Digastric has two bellies with two different nerve supplies. Which nerve supplies the anterior belly, and which supplies the posterior belly?",
+      "options": [
+        "Anterior belly: mylohyoid nerve (from V3). Posterior belly: facial nerve (CN VII)",
+        "Anterior belly: facial nerve (CN VII). Posterior belly: mylohyoid nerve (from V3)",
+        "Both bellies are supplied entirely by the facial nerve (CN VII)",
+        "Both bellies are supplied entirely by the trigeminal nerve (V3)"
+      ],
+      "correct_answer": "Anterior belly: mylohyoid nerve (from V3). Posterior belly: facial nerve (CN VII)",
+      "distractor_rationale": {
+        "Anterior belly: facial nerve (CN VII). Posterior belly: mylohyoid nerve (from V3)": "Reverses the correct pairing \u2014 the single most common way this fact is gotten wrong.",
+        "Both bellies are supplied entirely by the facial nerve (CN VII)": "Overstates CN VII's territory \u2014 only the posterior belly is facial-nerve-supplied; the anterior belly is V3 territory.",
+        "Both bellies are supplied entirely by the trigeminal nerve (V3)": "Overstates V3's territory in the opposite direction \u2014 only the anterior belly is V3-supplied; the posterior belly is facial nerve territory."
+      },
+      "explanation": {
+        "core_concept": "Digastric's split nerve supply directly mirrors its split embryological origin \u2014 each belly follows the 'one arch, one nerve' rule independently, making this single muscle a compact, self-contained illustration of that broader principle.",
+        "why_correct": "The anterior belly (a 1st pharyngeal arch derivative) is supplied by the mylohyoid nerve, a branch of the inferior alveolar nerve, itself a branch of V3 (the mandibular division of the trigeminal nerve). The posterior belly (a 2nd pharyngeal arch derivative) is supplied directly by the facial nerve (CN VII).",
+        "why_others_wrong": {
+          "Anterior belly: facial nerve (CN VII). Posterior belly: mylohyoid nerve (from V3)": "The exact reverse of the correct pairing.",
+          "Both bellies are supplied entirely by the facial nerve (CN VII)": "The anterior belly is specifically NOT facial-nerve-supplied \u2014 it's V3 territory via the mylohyoid nerve.",
+          "Both bellies are supplied entirely by the trigeminal nerve (V3)": "The posterior belly is specifically NOT V3-supplied \u2014 it's facial nerve territory."
+        },
+        "high_yield_facts": [
+          "Anterior belly = mylohyoid nerve (V3 branch, via inferior alveolar nerve) = 1st arch.",
+          "Posterior belly = facial nerve (CN VII) directly = 2nd arch.",
+          "This exactly mirrors the arch-nerve pairing established in the Pharyngeal Arch Derivatives chapter \u2014 1st arch muscles are V3-supplied, 2nd arch muscles are CN VII-supplied, and digastric simply has one belly from each."
+        ],
+        "clinical_correlation": "This split supply means the two bellies can be selectively affected by different nerve lesions \u2014 a genuinely useful localising principle covered further in the clinical correlation question elsewhere in this chapter.",
+        "common_confusions": [
+          "Assuming a single named muscle must have a single, uniform nerve supply \u2014 digastric (like the lumbricals and flexor digitorum profundus elsewhere in this hand/limb-focused syllabus) is a genuine, well-known exception with split innervation matching its split embryological origin."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "One arch, one nerve rule (Pharyngeal Arch Derivatives chapter)",
+          "Mylohyoid nerve and inferior alveolar nerve course",
+          "Facial nerve's other 2nd arch derivatives (posterior belly digastric, stylohyoid, stapedius)"
+        ],
+        "exam_traps": [
+          "Don't assume digastric shares a single nerve supply just because it's one named muscle \u2014 actively recall that the two bellies are genuinely, independently innervated."
+        ],
+        "image_clues": null,
+        "memory_aid": "Anterior belly, near the jaw = trigeminal (V3) territory, like the muscles of mastication nearby. Posterior belly, near the ear/mastoid = facial nerve territory, like the muscles of expression nearby.",
+        "other_ways_this_is_tested": [
+          "This split supply is the anatomical basis for the surgical landmark and clinical correlation questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Digastric's anterior belly is V3-supplied (via the mylohyoid nerve, 1st arch); its posterior belly is CN VII-supplied (facial nerve, 2nd arch) \u2014 a single muscle with genuinely split innervation matching its split embryological origin.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the split nerve supply of digastric's two bellies (mylohyoid nerve/V3 anteriorly, facial nerve posteriorly).",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_digastric_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Digastric Muscle - Nerve Supply",
+      "subtopic": "Embryological basis",
+      "concept": "Digastric muscle's split arch origin and correspondingly split nerve supply",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Why does digastric \u2014 a single named muscle \u2014 have two different nerve supplies for its two bellies, unlike most other named muscles?",
+      "options": [
+        "The two bellies arise from two DIFFERENT pharyngeal arches (anterior belly from the 1st arch, posterior belly from the 2nd arch), and by the 'one arch, one nerve' rule, each belly retains the nerve supply of its own arch of origin, independently of the other",
+        "Digastric has two nerve supplies purely by developmental chance, with no relationship to pharyngeal arch embryology",
+        "Both bellies arise from the same (1st) pharyngeal arch, but one nerve branch degenerates during development, forcing the posterior belly to be secondarily reinnervated by CN VII",
+        "The split nerve supply reflects two entirely separate muscles that happened to fuse into one continuous structure after birth, unrelated to prenatal arch development"
+      ],
+      "correct_answer": "The two bellies arise from two DIFFERENT pharyngeal arches (anterior belly from the 1st arch, posterior belly from the 2nd arch), and by the 'one arch, one nerve' rule, each belly retains the nerve supply of its own arch of origin, independently of the other",
+      "distractor_rationale": {
+        "Digastric has two nerve supplies purely by developmental chance, with no relationship to pharyngeal arch embryology": "Denies the genuine, well-established embryological explanation (differing arch origin) in favour of an unsupported 'chance' explanation.",
+        "Both bellies arise from the same (1st) pharyngeal arch, but one nerve branch degenerates during development, forcing the posterior belly to be secondarily reinnervated by CN VII": "Incorrect \u2014 the two bellies arise from genuinely DIFFERENT arches from the start; there's no single-arch origin followed by later reinnervation.",
+        "The split nerve supply reflects two entirely separate muscles that happened to fuse into one continuous structure after birth, unrelated to prenatal arch development": "Digastric's two bellies are connected by a tendon from early development, as a single (if compound) muscle unit \u2014 not two separately-formed muscles fusing postnatally."
+      },
+      "explanation": {
+        "core_concept": "This is the direct embryological 'why' behind the nerve supply fact established elsewhere in this chapter \u2014 digastric isn't an arbitrary exception to normal muscle innervation rules, it's a predictable consequence of the SAME 'one arch, one nerve' rule taught for every other pharyngeal-arch-derived muscle, just applied to a muscle that happens to straddle two arches.",
+        "why_correct": "The anterior belly develops from 1st pharyngeal arch mesenchyme, and therefore follows that arch's nerve (V3, via the mylohyoid nerve branch). The posterior belly develops from 2nd pharyngeal arch mesenchyme, and follows THAT arch's nerve (CN VII). Because the one-arch-one-nerve rule applies at the level of the arch-derived tissue, not the level of the whole named 'digastric muscle,' each belly simply follows its own arch's rule independently \u2014 producing the split supply as a predictable, not arbitrary, consequence.",
+        "why_others_wrong": {
+          "Digastric has two nerve supplies purely by developmental chance, with no relationship to pharyngeal arch embryology": "Denies the well-established, logical embryological explanation in favour of unsupported randomness.",
+          "Both bellies arise from the same (1st) pharyngeal arch, but one nerve branch degenerates during development, forcing the posterior belly to be secondarily reinnervated by CN VII": "Incorrectly proposes a single-arch origin with later reinnervation \u2014 the actual embryology involves genuinely separate arch origins from the start, not a single origin with a secondary nerve switch.",
+          "The split nerve supply reflects two entirely separate muscles that happened to fuse into one continuous structure after birth, unrelated to prenatal arch development": "Digastric develops as a connected (tendon-linked) compound structure prenatally, not as two independent postnatal muscles that happen to fuse."
+        },
+        "high_yield_facts": [
+          "Digastric's split nerve supply is a DIRECT, PREDICTABLE consequence of its split arch origin \u2014 not an arbitrary exception to normal rules.",
+          "This is the clearest possible illustration that the 'one arch, one nerve' rule operates at the level of arch-derived TISSUE, not at the level of a single named adult muscle \u2014 a muscle spanning two arches simply follows both arches' rules simultaneously, within its two different parts.",
+          "Recognising this mechanism (rather than memorising the nerve supply as an isolated fact) is what makes it possible to correctly predict nerve supply for any other similarly arch-spanning structure you might encounter."
+        ],
+        "clinical_correlation": "Understanding this mechanism reinforces why testing digastric function as a 'single muscle test' doesn't actually test a single nerve \u2014 a clinician assessing digastric function needs to consider both nerves separately if trying to isolate one from the other.",
+        "common_confusions": [
+          "Treating digastric's split innervation as a memorised, isolated exception rather than recognising it as the SAME underlying rule (one arch, one nerve) already learned elsewhere, simply applied to a muscle spanning two arches \u2014 the mechanistic understanding is more durable and transferable than rote memorisation."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "One arch, one nerve rule (Pharyngeal Arch Derivatives chapter)",
+          "Stylohyoid (another 2nd arch, facial-nerve-supplied suprahyoid muscle, for comparison)"
+        ],
+        "exam_traps": [
+          "Don't treat digastric's split supply as a standalone curiosity \u2014 connect it explicitly back to the pharyngeal arch rule, since that connection is what a well-integrated understanding of head and neck embryology should produce."
+        ],
+        "image_clues": null,
+        "memory_aid": "Two bellies, two arches, two nerves \u2014 one rule (one arch, one nerve), applied twice within a single named muscle.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly explains the specific nerve pairing established in the direct-recall question earlier in this chapter."
+        ],
+        "neet_pg_takeaway": "Digastric's split nerve supply is not an arbitrary exception \u2014 it's the direct, predictable consequence of its two bellies arising from two different pharyngeal arches, each following the standard one-arch-one-nerve rule independently.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Langman's Medical Embryology, head and neck chapter; Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain digastric's split nerve supply as a direct consequence of its two bellies arising from different pharyngeal arches.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_digastric_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Digastric Muscle - Nerve Supply",
+      "subtopic": "Surgical landmark",
+      "concept": "Digastric muscle's split arch origin and correspondingly split nerve supply",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "During parotidectomy, a surgeon carefully identifies the posterior belly of digastric before proceeding with dissection near the stylomastoid region. What is the anatomical rationale for using this specific muscle belly as a surgical landmark at this step?",
+      "options": [
+        "The posterior belly of digastric runs close to the point where the facial nerve trunk exits the stylomastoid foramen, so identifying this muscle belly helps the surgeon locate and avoid injuring the facial nerve during dissection in this region",
+        "The posterior belly of digastric has no relationship to any nearby cranial nerve and is used only as a landmark for the parotid gland's boundary, unrelated to nerve preservation",
+        "The anterior belly of digastric, not the posterior belly, is the relevant landmark for facial nerve identification during parotidectomy",
+        "The posterior belly of digastric is used as a landmark specifically to locate the trigeminal nerve, not the facial nerve, during this dissection"
+      ],
+      "correct_answer": "The posterior belly of digastric runs close to the point where the facial nerve trunk exits the stylomastoid foramen, so identifying this muscle belly helps the surgeon locate and avoid injuring the facial nerve during dissection in this region",
+      "distractor_rationale": {
+        "The posterior belly of digastric has no relationship to any nearby cranial nerve and is used only as a landmark for the parotid gland's boundary, unrelated to nerve preservation": "Understates the posterior belly's genuine, well-established role specifically as a facial nerve identification landmark \u2014 nerve preservation IS the primary reason this landmark is used in this surgical context.",
+        "The anterior belly of digastric, not the posterior belly, is the relevant landmark for facial nerve identification during parotidectomy": "The ANTERIOR belly is anatomically remote from the stylomastoid/parotid region \u2014 it's specifically the POSTERIOR belly (a 2nd arch, facial-nerve-related structure) that serves this surgical landmark role, consistent with its facial nerve supply and proximity.",
+        "The posterior belly of digastric is used as a landmark specifically to locate the trigeminal nerve, not the facial nerve, during this dissection": "The posterior belly's clinically relevant nerve relationship in this surgical context is specifically with the FACIAL nerve (both because it's facial-nerve-SUPPLIED and because it's anatomically close to the facial nerve's stylomastoid exit point), not the trigeminal nerve, which is unrelated to this specific surgical landmark."
+      },
+      "explanation": {
+        "core_concept": "This vignette shows how digastric's embryological/nerve-supply identity (2nd arch, facial-nerve-supplied posterior belly) translates into genuine, practical surgical value \u2014 the SAME nerve that supplies this muscle belly also happens to pass anatomically close to it, making the muscle a natural, reliable landmark for finding that nerve.",
+        "why_correct": "The posterior belly of digastric runs close to the stylomastoid foramen, the point where the facial nerve trunk exits the skull \u2014 this anatomical proximity (which makes sense given both structures' shared 2nd arch developmental relationship) means that reliably identifying the posterior belly of digastric during parotid surgery helps the surgeon locate the facial nerve trunk and dissect around it carefully, avoiding inadvertent injury \u2014 a genuinely important, practically applied piece of surgical anatomy.",
+        "why_others_wrong": {
+          "The posterior belly of digastric has no relationship to any nearby cranial nerve and is used only as a landmark for the parotid gland's boundary, unrelated to nerve preservation": "Understates the landmark's actual, primary surgical purpose, which specifically IS facial nerve identification and preservation.",
+          "The anterior belly of digastric, not the posterior belly, is the relevant landmark for facial nerve identification during parotidectomy": "The anterior belly is anatomically distant from the parotid/stylomastoid region \u2014 the posterior belly is specifically the relevant landmark here.",
+          "The posterior belly of digastric is used as a landmark specifically to locate the trigeminal nerve, not the facial nerve, during this dissection": "The relevant nerve in this specific surgical context is the FACIAL nerve, not the trigeminal nerve \u2014 consistent with the posterior belly's own facial nerve supply and its proximity to the facial nerve's stylomastoid exit."
+        },
+        "high_yield_facts": [
+          "Posterior belly of digastric = key surgical landmark for locating the facial nerve trunk during parotid surgery.",
+          "This landmark utility directly reflects the posterior belly's 2nd arch origin and facial nerve supply \u2014 the same developmental relationship explaining BOTH why CN VII supplies this muscle AND why the two structures are anatomically close enough to serve as landmarks for each other.",
+          "The hypoglossal nerve also passes deep to the posterior belly of digastric in this same region \u2014 making this muscle belly a landmark relevant to protecting TWO different cranial nerves during neck/parotid surgery, not just one."
+        ],
+        "clinical_correlation": "Facial nerve injury during parotid surgery is a serious, function-altering complication (causing facial weakness/paralysis) \u2014 reliable surgical landmarks like the posterior belly of digastric are a genuinely important part of minimising this risk in practice, not just an anatomy-exam curiosity.",
+        "common_confusions": [
+          "Assuming a muscle's clinical/surgical relevance is unrelated to its own nerve supply \u2014 in this case, the posterior belly's facial nerve supply and its use as a facial-nerve-finding landmark are directly connected, both stemming from the same underlying 2nd arch developmental relationship."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Facial nerve course through the stylomastoid foramen",
+          "Hypoglossal nerve's relationship to the posterior belly (a related but distinct landmark fact)",
+          "Digastric triangle and submandibular gland surgery (the anterior belly's analogous surgical relevance)"
+        ],
+        "exam_traps": [
+          "Don't assume digastric's clinical relevance is limited to one surgical context \u2014 both bellies serve as important surgical landmarks, but for DIFFERENT structures (posterior belly for facial nerve/parotid surgery; anterior belly for the digastric triangle/submandibular gland surgery)."
+        ],
+        "image_clues": null,
+        "memory_aid": "Posterior belly points the way to the facial nerve \u2014 both are 2nd arch structures, close neighbours by shared origin.",
+        "other_ways_this_is_tested": [
+          "This clinical application directly builds on the split nerve supply and embryological mechanism established earlier in this chapter, showing their real surgical consequence."
+        ],
+        "neet_pg_takeaway": "The posterior belly of digastric is a key surgical landmark for facial nerve identification during parotid surgery, reflecting its close anatomical (and shared 2nd-arch developmental) relationship to the facial nerve's stylomastoid exit point.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard head and neck surgical anatomy \u2014 Moore's Clinically Oriented Anatomy; Cummings Otolaryngology, parotid surgery section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the posterior belly of digastric's role as a surgical landmark for facial nerve identification during parotid surgery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_digastric_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Digastric Muscle - Nerve Supply",
+      "subtopic": "Comparison with other split-innervation muscles",
+      "concept": "Digastric muscle's split arch origin and correspondingly split nerve supply",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Digastric, flexor digitorum profundus (FDP), and the lumbricals are three examples of muscles with split nerve supply. What do digastric's two bellies have in common with FDP's two functional halves, in terms of WHY each has split innervation?",
+      "options": [
+        "Both reflect a structure whose two parts have genuinely different developmental/anatomical relationships (digastric: two different pharyngeal arches; FDP: tendons to fingers with different peripheral nerve territories), producing predictable, rule-based splits rather than arbitrary exceptions",
+        "Both split nerve supplies arise for completely unrelated, coincidental reasons with no common underlying logic",
+        "Digastric and FDP both split their nerve supply based on pharyngeal arch origin specifically, with FDP's radial and ulnar halves reflecting 4th vs 6th arch derivation",
+        "Neither digastric nor FDP actually has split innervation \u2014 both are common misconceptions from oversimplified teaching"
+      ],
+      "correct_answer": "Both reflect a structure whose two parts have genuinely different developmental/anatomical relationships (digastric: two different pharyngeal arches; FDP: tendons to fingers with different peripheral nerve territories), producing predictable, rule-based splits rather than arbitrary exceptions",
+      "distractor_rationale": {
+        "Both split nerve supplies arise for completely unrelated, coincidental reasons with no common underlying logic": "Denies the genuine, shared underlying PATTERN across these examples \u2014 each split reflects understandable, rule-based anatomy, not pure coincidence, even though the SPECIFIC mechanism differs between digastric (arch origin) and FDP (peripheral nerve territory).",
+        "Digastric and FDP both split their nerve supply based on pharyngeal arch origin specifically, with FDP's radial and ulnar halves reflecting 4th vs 6th arch derivation": "Misapplies the pharyngeal arch mechanism to FDP \u2014 FDP is a forearm/hand muscle with no pharyngeal arch origin at all; its split reflects differing PERIPHERAL nerve territory (median vs ulnar in the hand/forearm), a completely different embryological story from digastric's head-and-neck arch origin.",
+        "Neither digastric nor FDP actually has split innervation \u2014 both are common misconceptions from oversimplified teaching": "Both ARE genuine, well-established examples of split innervation, covered in depth elsewhere in this syllabus (see the Forearm Muscles and Lumbricals chapters for FDP) \u2014 this option denies well-documented anatomy."
+      },
+      "explanation": {
+        "core_concept": "This comparison deliberately tests whether you can recognise a general PATTERN (muscles CAN have genuinely split innervation, for understandable reasons) across different specific examples, without incorrectly assuming the SAME specific mechanism (pharyngeal arch origin) applies to every example \u2014 digastric's split is a head/neck embryology story, while FDP's split is a limb peripheral-nerve-territory story, genuinely different mechanisms producing a structurally similar outcome (one muscle, two nerves).",
+        "why_correct": "Digastric's split reflects its two bellies' different PHARYNGEAL ARCH origins (1st vs 2nd arch) \u2014 a head-and-neck embryological mechanism. FDP's split (covered in the Forearm Muscles and Lumbricals - Innervation chapters) reflects its tendons' relationship to different PERIPHERAL NERVE territories in the hand (median nerve for the index/middle finger tendons, ulnar nerve for the ring/little finger tendons) \u2014 an entirely different, non-arch-based mechanism specific to limb innervation patterns. What they share is simply the broader PRINCIPLE that split innervation, when it occurs, reflects a genuine underlying anatomical/developmental logic (arch origin OR peripheral nerve territory, depending on the specific structure) rather than being random or arbitrary.",
+        "why_others_wrong": {
+          "Both split nerve supplies arise for completely unrelated, coincidental reasons with no common underlying logic": "Denies the shared higher-level pattern (rule-based, not coincidental splitting) even though the specific mechanisms genuinely differ between the two examples.",
+          "Digastric and FDP both split their nerve supply based on pharyngeal arch origin specifically, with FDP's radial and ulnar halves reflecting 4th vs 6th arch derivation": "Incorrectly imports the pharyngeal arch mechanism onto FDP, a limb muscle with no pharyngeal arch relationship at all \u2014 FDP's split is about peripheral nerve TERRITORY in the hand, not embryonic arch origin.",
+          "Neither digastric nor FDP actually has split innervation \u2014 both are common misconceptions from oversimplified teaching": "Both are genuine, well-documented anatomical facts, not misconceptions."
+        },
+        "high_yield_facts": [
+          "Digastric's split = PHARYNGEAL ARCH origin (head/neck embryology): 1st arch anterior belly (V3), 2nd arch posterior belly (CN VII).",
+          "FDP's split = PERIPHERAL NERVE TERRITORY (limb anatomy): lateral half to median nerve (index/middle fingers), medial half to ulnar nerve (ring/little fingers) \u2014 see the Forearm Muscles and Lumbricals - Innervation chapters.",
+          "The SHARED lesson: split muscle innervation is always rule-based and predictable once you identify the correct underlying mechanism for that SPECIFIC structure \u2014 but the mechanism itself varies (arch origin for head/neck muscles, peripheral nerve territory for limb muscles), so don't force one explanation onto a structure it doesn't actually apply to."
+        ],
+        "clinical_correlation": "Recognising which TYPE of mechanism applies to a given split-innervation muscle helps predict how a specific nerve lesion will affect that muscle \u2014 a facial nerve lesion selectively weakens digastric's posterior belly (arch-based logic), while a median nerve lesion selectively weakens FDP's lateral half (peripheral-territory-based logic) \u2014 genuinely different predictive frameworks for genuinely different muscles.",
+        "common_confusions": [
+          "Over-generalising ONE specific split-innervation mechanism (like pharyngeal arch origin) and trying to apply it to every example of split muscle innervation encountered elsewhere in the syllabus, rather than recognising that different structures split for different, specific, non-interchangeable reasons."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "FDP split innervation (Forearm Muscles chapter)",
+          "Lumbricals split innervation (Lumbricals - Actions and Lumbricals - Innervation chapters)",
+          "One arch, one nerve rule (Pharyngeal Arch Derivatives chapter)"
+        ],
+        "exam_traps": [
+          "When comparing split-innervation muscles across different body regions, identify the SPECIFIC mechanism for EACH one individually \u2014 don't assume a single explanatory framework (like pharyngeal arch origin) applies universally across head/neck AND limb examples."
+        ],
+        "image_clues": null,
+        "memory_aid": "Same PATTERN (split muscle, split nerve, both for a REASON), different SPECIFIC STORY each time \u2014 arch origin in the head/neck, peripheral territory in the limb.",
+        "other_ways_this_is_tested": [
+          "This comparison ties digastric explicitly to the FDP and lumbrical split-innervation facts established elsewhere in this project's anatomy content, reinforcing the broader pattern-recognition skill across multiple chapters."
+        ],
+        "neet_pg_takeaway": "Digastric's split innervation (pharyngeal arch origin) and FDP's split innervation (peripheral nerve territory) share the general principle that split muscle innervation is rule-based and predictable \u2014 but the SPECIFIC mechanism differs by body region, and shouldn't be conflated.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Synthesised from standard head/neck and limb anatomy teaching \u2014 Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Compare digastric's arch-based split innervation with FDP's peripheral-nerve-territory-based split, recognising the shared pattern without conflating the specific mechanisms.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_digastric_nerve_0005",
+      "subject": "Anatomy",
+      "topic": "Digastric Muscle - Nerve Supply",
+      "subtopic": "Image-based identification",
+      "concept": "Digastric muscle's split arch origin and correspondingly split nerve supply",
+      "question_type": "image_based",
+      "difficulty": 3,
+      "question": "[Image: lateral neck dissection showing a muscle with two distinct bellies connected by an intermediate tendon held by a fascial sling attached to the hyoid bone \u2014 one belly running from the region of the mandible to the tendon, the other running from the mastoid region of the temporal bone to the same tendon.] A nerve is shown entering the muscle belly closer to the mandible. Which nerve is this, and which belly does it supply?",
+      "options": [
+        "The mylohyoid nerve (a branch of V3), supplying the anterior belly",
+        "The facial nerve (CN VII), supplying the anterior belly",
+        "The mylohyoid nerve (a branch of V3), supplying the posterior belly",
+        "The hypoglossal nerve (CN XII), supplying the anterior belly"
+      ],
+      "correct_answer": "The mylohyoid nerve (a branch of V3), supplying the anterior belly",
+      "distractor_rationale": {
+        "The facial nerve (CN VII), supplying the anterior belly": "The facial nerve supplies the POSTERIOR belly (near the mastoid), not the anterior belly (near the mandible) \u2014 this option correctly identifies the belly location but assigns the wrong nerve to it.",
+        "The mylohyoid nerve (a branch of V3), supplying the posterior belly": "Correctly identifies the nerve but assigns it to the wrong belly \u2014 the mylohyoid nerve supplies the ANTERIOR belly (near the mandible), not the posterior belly.",
+        "The hypoglossal nerve (CN XII), supplying the anterior belly": "CN XII is not the nerve supply to either digastric belly \u2014 it passes NEAR the posterior belly as a surgical landmark relationship, but doesn't supply digastric muscle tissue itself."
+      },
+      "explanation": {
+        "core_concept": "This image-based question tests whether the belly-to-nerve pairing has been learned precisely enough to apply it correctly when given a described image, rather than just being able to recite the pairing from memory in isolation.",
+        "why_correct": "The belly running from the mandible region is the ANTERIOR belly, supplied by the mylohyoid nerve (a branch of the inferior alveolar nerve, from V3) \u2014 consistent with its 1st pharyngeal arch origin.",
+        "why_others_wrong": {
+          "The facial nerve (CN VII), supplying the anterior belly": "CN VII supplies the POSTERIOR belly (near the mastoid) \u2014 this option puts the correct nerve on the wrong belly.",
+          "The mylohyoid nerve (a branch of V3), supplying the posterior belly": "The mylohyoid nerve supplies the ANTERIOR belly specifically \u2014 this option puts the correct nerve on the wrong belly, the reverse error from the previous option.",
+          "The hypoglossal nerve (CN XII), supplying the anterior belly": "CN XII doesn't supply digastric at all \u2014 it has a NEARBY anatomical relationship to the posterior belly (relevant as a surgical landmark), but this is a proximity relationship, not a nerve supply relationship."
+        },
+        "high_yield_facts": [
+          "Anterior belly (near mandible) = mylohyoid nerve (V3).",
+          "Posterior belly (near mastoid) = facial nerve (CN VII) directly.",
+          "CN XII (hypoglossal) passes NEAR the posterior belly as an important surgical landmark relationship, but does NOT supply digastric \u2014 don't confuse anatomical proximity with actual nerve supply."
+        ],
+        "clinical_correlation": "Correctly identifying which belly is shown in any given surgical or dissection image, and applying the correct nerve pairing, is directly relevant to predicting surgical risk in that specific region (facial nerve risk near the posterior belly, versus different considerations near the anterior belly/submandibular region).",
+        "common_confusions": [
+          "Mixing up which belly is 'anterior' (near the mandible, V3-supplied) versus 'posterior' (near the mastoid, CN VII-supplied) when given a described image rather than a pre-labelled diagram \u2014 actively use the LOCATION described (mandible vs mastoid) to correctly assign both the belly identity and its nerve."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Facial nerve and the posterior belly (surgical landmark, see clinical vignette elsewhere in this chapter)",
+          "Hypoglossal nerve's proximity (but non-supply) relationship to the posterior belly"
+        ],
+        "exam_traps": [
+          "Don't assume the hypoglossal nerve supplies digastric just because it's anatomically close to the posterior belly \u2014 proximity for surgical landmark purposes is different from actual nerve supply, and this exact distinction is what the CN XII distractor is testing."
+        ],
+        "image_clues": "Key visual/positional clues: belly near the MANDIBLE = anterior belly = mylohyoid nerve (V3). Belly near the MASTOID = posterior belly = facial nerve (CN VII) directly.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This image-based application directly tests the same belly-to-nerve pairing established in the direct-recall question earlier in this chapter, in a more applied, visually-grounded format."
+        ],
+        "neet_pg_takeaway": "The anterior belly of digastric (near the mandible) is supplied by the mylohyoid nerve (V3); the posterior belly (near the mastoid) is supplied directly by the facial nerve \u2014 correctly matching LOCATION to NERVE is what this image-based application tests.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, head and neck dissection images."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate lateral neck dissection image or schematic showing digastric's two bellies must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Apply the belly-to-nerve pairing to identify which nerve supplies digastric's anterior belly on a dissection image.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

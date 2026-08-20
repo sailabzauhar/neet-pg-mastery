@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0039",
+    "topic": "Fornix",
+    "chapter_number": 39,
+    "chapter_file": "data/anatomy/ch39_fornix.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "comparison",
+      "clinical_vignette"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The fornix is a C-shaped white matter tract of the limbic system, the principal efferent pathway carrying output FROM the hippocampus to the mammillary bodies and other subcortical targets \u2014 a key structural link in the Papez circuit, and a structure whose bilateral damage is directly, causally implicated in one of the best-characterised amnestic syndromes in neurology."
+    },
+    "structure_anatomy": {
+      "course_and_parts": "Arises as fibres from the hippocampus (via the fimbria), curving posteriorly and superiorly as the crus of the fornix, the two crura joining beneath the corpus callosum to form the body of the fornix, then splitting again anteriorly into the two columns of the fornix, which descend to terminate primarily in the mammillary bodies of the hypothalamus (with some fibres also reaching the anterior thalamic nuclei and septal nuclei).",
+      "papez_circuit_role": "The fornix is the key connecting link in the Papez circuit: hippocampus \u2192 fornix \u2192 mammillary bodies \u2192 mammillothalamic tract \u2192 anterior thalamic nucleus \u2192 cingulate gyrus \u2192 back to hippocampus (via the cingulum) \u2014 a closed loop originally proposed as an emotional processing circuit, now understood to be centrally important for memory CONSOLIDATION (converting short-term into long-term declarative memory) rather than emotion primarily."
+    },
+    "clinical": {
+      "anterograde_amnesia": "Bilateral fornix damage (e.g. from surgical injury during resection of a third ventricle or colloid cyst lesion near the fornix, or from other lesions affecting both sides) causes a severe ANTEROGRADE amnesia \u2014 profound inability to form new declarative (explicit) memories \u2014 while REMOTE memories (formed well before the injury) and procedural memory (skills, habits) are typically relatively preserved, since the fornix's role is specifically in the CONSOLIDATION pathway for new declarative memories, not in the storage or retrieval of already-consolidated old memories.",
+      "colloid_cyst_surgical_risk": "Colloid cysts of the third ventricle sit anatomically close to the fornix (specifically near the foramen of Monro, where the fornix's columns pass close to the ventricular system) \u2014 surgical resection of these cysts carries a recognised, genuine risk of bilateral fornix injury, making memory outcome a key consideration in surgical planning and patient counselling for this specific procedure.",
+      "unilateral_sparing": "UNILATERAL fornix damage typically produces little to no clinically apparent memory deficit, since the contralateral, intact fornix and hippocampal circuit can largely compensate \u2014 it is specifically BILATERAL fornix damage that produces the severe, clinically obvious amnestic syndrome, a genuinely important point distinguishing this structure's vulnerability pattern from some other memory-circuit structures."
+    },
+    "related_structures": "The fornix's role as the Papez circuit's connecting link between the hippocampus and the mammillary bodies/thalamus is the single organising fact for this entire topic \u2014 nearly every clinical consequence (amnestic syndrome, colloid cyst surgical risk) traces directly back to this one structural/circuit role."
+  },
+  "question_family": [
+    {
+      "family_name": "Fornix \u2014 Papez Circuit and Memory Consolidation (4 angles, one concept)",
+      "member_ids": [
+        "anat_fornix_0001",
+        "anat_fornix_0002",
+        "anat_fornix_0003",
+        "anat_fornix_0004"
+      ],
+      "coverage": "Recall (hippocampus-to-mammillary-body connection), mechanism (Papez circuit's memory consolidation role), comparison (bilateral vs unilateral damage), and clinical vignette (colloid cyst surgery) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_fornix_0001",
+      "subject": "Anatomy",
+      "topic": "Fornix",
+      "subtopic": "Course and connections",
+      "concept": "The fornix as the Papez circuit's hippocampus-to-mammillary-body pathway, and bilateral damage causing anterograde amnesia",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "The fornix carries efferent fibres FROM which structure TO which primary target?",
+      "options": [
+        "From the hippocampus to the mammillary bodies (of the hypothalamus)",
+        "From the amygdala to the prefrontal cortex",
+        "From the mammillary bodies to the hippocampus \u2014 the reverse of the correct direction",
+        "From the thalamus to the cerebellum"
+      ],
+      "correct_answer": "From the hippocampus to the mammillary bodies (of the hypothalamus)",
+      "distractor_rationale": {
+        "From the amygdala to the prefrontal cortex": "A different limbic pathway entirely, not the fornix's connection.",
+        "From the mammillary bodies to the hippocampus \u2014 the reverse of the correct direction": "Reverses the fornix's actual direction of information flow \u2014 it's a hippocampal EFFERENT pathway, carrying output FROM the hippocampus.",
+        "From the thalamus to the cerebellum": "An unrelated pathway, not associated with the fornix."
+      },
+      "explanation": {
+        "core_concept": "The fornix's direction of flow (hippocampus OUT to the mammillary bodies) is the single organising fact that makes sense of its role in the Papez circuit and its clinical consequences \u2014 getting this direction right is essential to understanding everything else about this structure.",
+        "why_correct": "The fornix is the principal efferent (output) pathway of the hippocampus, carrying fibres via the fimbria \u2192 crus \u2192 body \u2192 columns of the fornix, terminating primarily in the mammillary bodies of the hypothalamus (with additional fibres reaching the anterior thalamic nuclei and septal nuclei).",
+        "why_others_wrong": {
+          "From the amygdala to the prefrontal cortex": "An entirely different limbic system pathway.",
+          "From the mammillary bodies to the hippocampus \u2014 the reverse of the correct direction": "Reverses the fornix's actual, well-established direction of information flow.",
+          "From the thalamus to the cerebellum": "Unrelated to the fornix's actual connections."
+        },
+        "high_yield_facts": [
+          "Fornix = hippocampal EFFERENT pathway, terminating primarily in the mammillary bodies.",
+          "Parts, in sequence: fimbria \u2192 crus \u2192 body \u2192 columns \u2192 mammillary bodies (+ anterior thalamic nuclei, septal nuclei).",
+          "This hippocampus-to-mammillary-body link is the key connection completing the Papez circuit, covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "This connection is the anatomical basis for the fornix's central role in memory consolidation \u2014 damage anywhere along this pathway (not just at the hippocampus itself) can disrupt the same underlying memory circuit.",
+        "common_confusions": [
+          "Reversing the fornix's direction of flow \u2014 it's specifically an OUTPUT pathway from the hippocampus, not an input pathway to it."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Papez circuit (this concept, other question)",
+          "Anterograde amnesia from bilateral damage (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't confuse the fornix with hippocampal AFFERENT (input) pathways \u2014 it specifically carries information OUT of the hippocampus."
+        ],
+        "image_clues": null,
+        "memory_aid": "Fornix flows FROM the hippocampus \u2014 memory's output cable, heading to the mammillary bodies.",
+        "other_ways_this_is_tested": [
+          "This directional fact underlies the entire Papez circuit and clinical amnesia content covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The fornix is the hippocampus's principal efferent pathway, carrying fibres to the mammillary bodies (plus anterior thalamic nuclei and septal nuclei) \u2014 the key connecting link in the Papez circuit.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, limbic system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that the fornix is the hippocampus's efferent pathway to the mammillary bodies.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fornix_0002",
+      "subject": "Anatomy",
+      "topic": "Fornix",
+      "subtopic": "Papez circuit",
+      "concept": "The fornix as the Papez circuit's hippocampus-to-mammillary-body pathway, and bilateral damage causing anterograde amnesia",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "The Papez circuit is now understood to be centrally important for which cognitive function, more so than its originally proposed role?",
+      "options": [
+        "Memory consolidation (converting short-term into long-term declarative memory)",
+        "Primary visual processing",
+        "Voluntary motor control",
+        "Auditory processing of speech"
+      ],
+      "correct_answer": "Memory consolidation (converting short-term into long-term declarative memory)",
+      "distractor_rationale": {
+        "Primary visual processing": "An entirely different function, associated with the occipital lobe/visual pathways, unrelated to the Papez circuit's actual role.",
+        "Voluntary motor control": "Associated with the motor cortex/corticospinal tract, unrelated to this limbic circuit.",
+        "Auditory processing of speech": "Associated with the temporal lobe's auditory cortex/language areas, a different function from the Papez circuit's actual role."
+      },
+      "explanation": {
+        "core_concept": "The Papez circuit's originally proposed role (emotional processing, from its 1937 description) has been substantially revised by modern understanding \u2014 recognising its ACTUAL primary importance for memory consolidation is what directly explains why fornix/circuit damage produces amnesia rather than a purely emotional disturbance.",
+        "why_correct": "While James Papez originally proposed this circuit (hippocampus \u2192 fornix \u2192 mammillary bodies \u2192 mammillothalamic tract \u2192 anterior thalamic nucleus \u2192 cingulate gyrus \u2192 back to hippocampus via the cingulum) as an emotional processing pathway, modern understanding recognises its central importance specifically for memory CONSOLIDATION \u2014 converting new, short-term declarative memories into stable, long-term storage.",
+        "why_others_wrong": {
+          "Primary visual processing": "Unrelated to this limbic circuit's actual function.",
+          "Voluntary motor control": "A function of an entirely different system (motor cortex/corticospinal pathway).",
+          "Auditory processing of speech": "A function of temporal lobe auditory/language areas, unrelated to the Papez circuit."
+        },
+        "high_yield_facts": [
+          "Papez circuit: hippocampus \u2192 fornix \u2192 mammillary bodies \u2192 mammillothalamic tract \u2192 anterior thalamic nucleus \u2192 cingulate gyrus \u2192 back to hippocampus (via cingulum).",
+          "Modern understanding: primarily important for MEMORY CONSOLIDATION, not emotion (its originally proposed role).",
+          "This is exactly why damage anywhere along this circuit (fornix, mammillary bodies, anterior thalamus) produces memory deficits, not primarily emotional/mood disturbances."
+        ],
+        "clinical_correlation": "This updated understanding directly explains why lesions at ANY point along the Papez circuit (not just the hippocampus itself) \u2014 including fornix damage, mammillary body damage (e.g. in Wernicke-Korsakoff syndrome), or anterior thalamic damage \u2014 can all produce similar, memory-consolidation-focused amnestic syndromes.",
+        "common_confusions": [
+          "Assuming the Papez circuit's role remains purely or primarily emotional, based on its historical naming/original proposal \u2014 modern neuroscience has substantially revised this toward memory consolidation as the primary function."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Fornix as the circuit's key connecting link (this concept, other question)",
+          "Anterograde amnesia from bilateral fornix damage (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't default to 'emotion' as the Papez circuit's function based on older, historical teaching \u2014 actively update to the MODERN understanding (memory consolidation) that current exams and clinical practice reflect."
+        ],
+        "image_clues": null,
+        "memory_aid": "Papez was about emotion originally \u2014 but the circuit's real job turned out to be building long-term memories.",
+        "other_ways_this_is_tested": [
+          "This circuit-level understanding is the necessary context for the fornix's specific role and the clinical amnesia consequences covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The Papez circuit \u2014 hippocampus, fornix, mammillary bodies, anterior thalamus, cingulate gyrus \u2014 is now understood to be centrally important for memory consolidation, a revision from its originally proposed emotional-processing role.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, limbic system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the Papez circuit's modern understood role in memory consolidation.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fornix_0003",
+      "subject": "Anatomy",
+      "topic": "Fornix",
+      "subtopic": "Clinical \u2014 bilateral vs unilateral damage",
+      "concept": "The fornix as the Papez circuit's hippocampus-to-mammillary-body pathway, and bilateral damage causing anterograde amnesia",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "How does the clinical consequence of BILATERAL fornix damage differ from UNILATERAL fornix damage?",
+      "options": [
+        "Bilateral damage causes severe anterograde amnesia (new declarative memory formation is disrupted); unilateral damage typically produces little to no clinically apparent memory deficit, since the contralateral, intact fornix/hippocampal circuit can largely compensate",
+        "Both bilateral and unilateral fornix damage produce identical, equally severe amnestic syndromes",
+        "Unilateral damage causes more severe amnesia than bilateral damage, the reverse of the expected pattern",
+        "Neither unilateral nor bilateral fornix damage has any effect on memory function"
+      ],
+      "correct_answer": "Bilateral damage causes severe anterograde amnesia (new declarative memory formation is disrupted); unilateral damage typically produces little to no clinically apparent memory deficit, since the contralateral, intact fornix/hippocampal circuit can largely compensate",
+      "distractor_rationale": {
+        "Both bilateral and unilateral fornix damage produce identical, equally severe amnestic syndromes": "Denies a genuine, well-established, clinically important laterality difference.",
+        "Unilateral damage causes more severe amnesia than bilateral damage, the reverse of the expected pattern": "Reverses the correct severity relationship \u2014 bilateral damage is the more severe scenario.",
+        "Neither unilateral nor bilateral fornix damage has any effect on memory function": "Denies the fornix's genuine, well-documented importance in memory consolidation, established elsewhere in this chapter."
+      },
+      "explanation": {
+        "core_concept": "This laterality distinction is a genuinely important, frequently tested clinical nuance \u2014 it directly parallels the broader neuroscience principle that BILATERAL damage to paired memory-circuit structures is typically required to produce a clinically severe amnestic syndrome, since a single intact side can substantially compensate.",
+        "why_correct": "Bilateral fornix damage causes a severe, clinically obvious anterograde amnesia, since BOTH sides' hippocampal output pathways are disrupted, removing the memory consolidation circuit's function entirely. Unilateral fornix damage, by contrast, typically produces little to no clinically apparent memory deficit, since the contralateral, intact fornix and its associated hippocampal circuit can largely compensate for the loss on one side \u2014 this compensatory capacity is exactly why bilateral (not unilateral) damage is the clinically significant scenario worth focusing on.",
+        "why_others_wrong": {
+          "Both bilateral and unilateral fornix damage produce identical, equally severe amnestic syndromes": "Denies the genuine, well-established compensatory capacity present with unilateral (but not bilateral) damage.",
+          "Unilateral damage causes more severe amnesia than bilateral damage, the reverse of the expected pattern": "Directly reverses the correct severity relationship.",
+          "Neither unilateral nor bilateral fornix damage has any effect on memory function": "Denies the fornix's well-established, genuine role in memory consolidation."
+        },
+        "high_yield_facts": [
+          "Bilateral fornix damage \u2192 severe anterograde amnesia.",
+          "Unilateral fornix damage \u2192 typically little to no clinically apparent deficit (contralateral compensation).",
+          "This bilateral-vs-unilateral distinction is genuinely important for surgical risk counselling (e.g. colloid cyst resection, covered elsewhere in this chapter) \u2014 unilateral injury during surgery is a much lower-stakes complication than bilateral injury."
+        ],
+        "clinical_correlation": "This distinction directly informs surgical planning and risk communication for procedures near the fornix (e.g. third ventricle/colloid cyst surgery) \u2014 surgeons specifically aim to avoid BILATERAL injury, since unilateral injury (while still undesirable) carries a much lower risk of clinically significant memory impairment.",
+        "common_confusions": [
+          "Assuming any fornix damage, regardless of laterality, must produce the same severe amnestic syndrome \u2014 the compensatory capacity of the intact contralateral side is specifically what makes unilateral damage a much lower-stakes scenario."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Colloid cyst surgical risk (this concept, other question)",
+          "Anterograde amnesia mechanism (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When a vignette describes memory-related findings after a UNILATERAL structural lesion near the fornix, don't automatically assume severe amnesia \u2014 actively consider that unilateral damage alone often doesn't produce a clinically obvious deficit."
+        ],
+        "image_clues": null,
+        "memory_aid": "One side down, the other carries the memory load \u2014 it takes BOTH fornices out to truly break memory consolidation.",
+        "other_ways_this_is_tested": [
+          "This laterality distinction directly informs the surgical risk correlation and the mechanism of anterograde amnesia covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Bilateral fornix damage causes severe anterograde amnesia, while unilateral damage typically produces little to no clinically apparent deficit due to contralateral compensation \u2014 a genuinely important laterality distinction with direct surgical relevance.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical neurology/neurosurgery references on fornix injury and memory outcomes."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish the clinical consequences of bilateral versus unilateral fornix damage.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_fornix_0004",
+      "subject": "Anatomy",
+      "topic": "Fornix",
+      "subtopic": "Clinical \u2014 colloid cyst surgery",
+      "concept": "The fornix as the Papez circuit's hippocampus-to-mammillary-body pathway, and bilateral damage causing anterograde amnesia",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient undergoes surgical resection of a third ventricle colloid cyst. Postoperatively, they develop profound difficulty forming new memories, while memories from before the surgery remain largely intact. What is the most likely explanation, and what does the preservation of old memories specifically indicate?",
+      "options": [
+        "Bilateral surgical injury to the fornix, disrupting the hippocampal output/memory consolidation pathway; preserved old memories indicate that memory STORAGE/retrieval of already-consolidated memories is a separate process from the CONSOLIDATION of new memories, which specifically requires this pathway",
+        "This presentation reflects a normal, expected outcome of colloid cyst surgery with no relationship to any specific structure",
+        "The findings indicate damage to the primary visual cortex, unrelated to any memory-related structure",
+        "Preserved old memories indicate that the surgery was entirely successful with no complications, and the new memory difficulty is unrelated to the procedure"
+      ],
+      "correct_answer": "Bilateral surgical injury to the fornix, disrupting the hippocampal output/memory consolidation pathway; preserved old memories indicate that memory STORAGE/retrieval of already-consolidated memories is a separate process from the CONSOLIDATION of new memories, which specifically requires this pathway",
+      "distractor_rationale": {
+        "This presentation reflects a normal, expected outcome of colloid cyst surgery with no relationship to any specific structure": "Understates a genuine, well-recognised surgical complication with a specific anatomical explanation (fornix injury), rather than being a vague, non-specific 'normal' outcome.",
+        "The findings indicate damage to the primary visual cortex, unrelated to any memory-related structure": "Visual cortex damage would produce visual deficits, not the memory-specific pattern described \u2014 an anatomically and clinically incorrect explanation.",
+        "Preserved old memories indicate that the surgery was entirely successful with no complications, and the new memory difficulty is unrelated to the procedure": "Directly contradicts the vignette's own findings \u2014 new memory difficulty following this specific surgery is a recognised complication directly related to the procedure, not an unrelated, coincidental finding."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical synthesis of everything established elsewhere in this chapter \u2014 the fornix's anatomical proximity to the third ventricle (making it vulnerable during colloid cyst surgery specifically), its role in memory CONSOLIDATION specifically (not storage/retrieval of old memories), and the severe consequence of BILATERAL injury.",
+        "why_correct": "Colloid cysts of the third ventricle sit anatomically close to the fornix, particularly near the foramen of Monro; surgical resection carries a recognised risk of bilateral fornix injury. This produces exactly the pattern described: severe anterograde amnesia (inability to form NEW declarative memories) with relative preservation of REMOTE (old) memories \u2014 because the fornix's role is specifically in the pathway CONSOLIDATING new memories into long-term storage, not in storing or retrieving memories that were already consolidated before the injury occurred.",
+        "why_others_wrong": {
+          "This presentation reflects a normal, expected outcome of colloid cyst surgery with no relationship to any specific structure": "A genuine, specific, well-recognised surgical complication with a clear anatomical explanation, not a vague 'normal' outcome without cause.",
+          "The findings indicate damage to the primary visual cortex, unrelated to any memory-related structure": "Doesn't match the described memory-specific findings at all; visual cortex damage would cause visual, not memory, deficits.",
+          "Preserved old memories indicate that the surgery was entirely successful with no complications, and the new memory difficulty is unrelated to the procedure": "Directly contradicts the vignette's findings \u2014 the new memory difficulty is a DIRECT, recognised consequence of this specific surgical procedure and its risk to the fornix."
+        },
+        "high_yield_facts": [
+          "Colloid cyst resection = recognised bilateral fornix injury risk, given anatomical proximity near the foramen of Monro.",
+          "Resulting amnesia pattern: severe ANTEROGRADE amnesia (new memories) with PRESERVED remote memories \u2014 directly reflecting the fornix's specific role in consolidation, not storage/retrieval.",
+          "This is a genuinely important, real surgical complication requiring careful pre-operative counselling and surgical technique to minimise bilateral fornix injury risk."
+        ],
+        "clinical_correlation": "This complication pattern directly informs pre-operative patient counselling for colloid cyst surgery, and neurosurgeons take specific care during this procedure to identify and preserve the fornix bilaterally where possible.",
+        "common_confusions": [
+          "Assuming any postoperative cognitive change after brain surgery is nonspecific \u2014 the SPECIFIC pattern described (new memory formation impaired, old memories preserved) has a precise, well-understood anatomical explanation directly tied to this specific procedure's known risk."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Bilateral vs unilateral fornix damage (this concept, other question) \u2014 this vignette specifically represents the bilateral, clinically severe scenario",
+          "Papez circuit and memory consolidation (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC pattern (new memory difficulty, old memories preserved) together with the SPECIFIC surgical context (colloid cyst, third ventricle) to confirm fornix injury as the explanation, rather than a vague or unrelated alternative."
+        ],
+        "image_clues": null,
+        "memory_aid": "Old memories already 'filed away' stay safe; the fornix injury just breaks the filing system for NEW memories going forward.",
+        "other_ways_this_is_tested": [
+          "This vignette is the complete clinical synthesis of the fornix's anatomy, circuit role, and bilateral-damage consequence, all established elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Colloid cyst resection carries a recognised risk of bilateral fornix injury, producing severe anterograde amnesia (new memory formation impaired) with preserved remote memories \u2014 directly reflecting the fornix's specific role in memory consolidation rather than storage or retrieval.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard neurosurgery references on colloid cyst resection and fornix injury outcomes."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain postoperative anterograde amnesia after colloid cyst surgery as a consequence of bilateral fornix injury.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

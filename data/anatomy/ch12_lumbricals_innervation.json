@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0012",
+    "topic": "Lumbricals - Innervation",
+    "chapter_number": 12,
+    "chapter_file": "data/anatomy/ch12_lumbricals_innervation.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 3,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "conceptual",
+      "clinical_vignette",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "scope_note": "IMPORTANT OVERLAP NOTE: this topic (from the source PDF's 2019 list) covers essentially the same underlying anatomy as 'Lumbricals - Actions' (topic_id anatomy_0004, from the source PDF's 2018 list) \u2014 both trace back to the same muscle group's nerve supply. Rather than duplicate the base median/ulnar split fact and the isolated ulnar claw hand mechanism (both already fully covered in ch04), this chapter deliberately covers only genuinely new ground: the AIN-vs-carpal-tunnel branch-level distinction, total (combined-lesion) claw hand, and an applied image-based nerve-tracing task. Deliberately scaled to 3 MCQs given this overlap \u2014 padding to a higher count would mean either duplicating ch04's content or diluting quality with less clinically load-bearing filler questions.",
+    "note": "Representative, high-quality MCQ family for the NEW content this topic adds beyond ch04. Dedup pass completed against both this file's own question set AND ch04 \u2014 no duplicate concepts found. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "This chapter extends the lumbrical nerve supply fact already established in the Lumbricals - Actions chapter (1st/2nd lumbricals = median nerve; 3rd/4th = ulnar nerve) into territory that chapter didn't cover: exactly WHERE along the median nerve's course the lumbrical-supplying fibres travel, and what that means for distinguishing different levels of median nerve injury from each other.",
+      "classification": "Cross-references Lumbricals - Actions (same subject, topic_id anatomy_0004) for the base nerve-supply fact \u2014 see that chapter for origin, action, and the isolated ulnar claw hand mechanism."
+    },
+    "structure_anatomy": {
+      "median_nerve_course_to_lumbricals": "The median nerve's fibres to the 1st and 2nd lumbricals travel WITH the nerve through the carpal tunnel at the wrist, then branch off as palmar digital branches within the hand itself \u2014 they are NOT part of the anterior interosseous nerve, which is a purely forearm-level branch that terminates (supplying FPL, lateral FDP, pronator quadratus) well before the median nerve reaches the wrist.",
+      "clinical_consequence_of_the_split": "This means a lesion of the anterior interosseous nerve (in the forearm) does NOT affect the 1st/2nd lumbricals at all, while a lesion of the median nerve AT OR DISTAL TO THE WRIST (e.g. carpal tunnel syndrome) DOES affect them, alongside the thenar muscles \u2014 a genuinely useful localising distinction between two median-nerve-related syndromes that are otherwise easy to conflate."
+    },
+    "clinical": {
+      "total_claw_hand": "While an isolated ulnar nerve lesion produces claw hand affecting mainly the ring and little fingers (see Lumbricals - Actions), a COMBINED median and ulnar nerve lesion paralyses all four lumbricals together, producing a more complete claw deformity across all four fingers \u2014 sometimes called 'total claw hand,' seen classically in a low forearm or wrist-level injury affecting both nerves simultaneously (e.g. a deep laceration at the wrist).",
+      "carpal_tunnel_lumbrical_involvement": "Carpal tunnel syndrome, in addition to its well-known sensory symptoms (median distribution paraesthesia) and thenar wasting, can also weaken the 1st and 2nd lumbricals \u2014 a less commonly emphasised but genuine part of the syndrome's motor involvement, since the lumbrical-supplying branches pass through the carpal tunnel alongside the rest of the median nerve's distal motor and sensory fibres."
+    },
+    "related_structures": "See Lumbricals - Actions (topic_id anatomy_0004) for the foundational nerve-supply-split fact, the isolated ulnar claw hand mechanism, and the origin/action of the lumbricals \u2014 this chapter assumes that content as background and does not repeat it."
+  },
+  "question_family": [
+    {
+      "family_name": "Lumbricals Innervation \u2014 Level-Specific Median Nerve Lesions",
+      "member_ids": [
+        "anat_lumbricals_innervation_0001",
+        "anat_lumbricals_innervation_0003"
+      ],
+      "coverage": "Why AIN syndrome spares the lumbricals while carpal tunnel syndrome affects them, and applying that branch-level logic to a nerve distribution diagram."
+    },
+    {
+      "family_name": "Lumbricals Innervation \u2014 Combined Nerve Lesion",
+      "member_ids": [
+        "anat_lumbricals_innervation_0002"
+      ],
+      "coverage": "Total claw hand as the logical extension of isolated ulnar claw hand to all four lumbricals."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_lumbricals_innervation_0001",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Innervation",
+      "subtopic": "AIN vs carpal tunnel involvement",
+      "concept": "Why AIN syndrome spares the lumbricals but carpal tunnel syndrome doesn't",
+      "question_type": "conceptual",
+      "difficulty": 4,
+      "question": "A patient with confirmed anterior interosseous nerve (AIN) syndrome is found to have entirely normal 1st and 2nd lumbrical function, despite these muscles being median-nerve-supplied. Why does an AIN lesion spare the lumbricals when it clearly affects other median-supplied forearm muscles?",
+      "options": [
+        "The nerve fibres to the 1st and 2nd lumbricals travel with the median nerve trunk through the carpal tunnel and branch off in the hand itself, distal to where the AIN (a purely forearm-level branch) has already terminated",
+        "The lumbricals are not actually median-nerve-supplied at all, despite common teaching to the contrary",
+        "The AIN directly supplies the lumbricals but only produces a partial, often subclinical weakness that is difficult to detect on routine examination",
+        "The lumbricals receive a separate, accessory nerve supply from the radial nerve that compensates for any AIN-related loss"
+      ],
+      "correct_answer": "The nerve fibres to the 1st and 2nd lumbricals travel with the median nerve trunk through the carpal tunnel and branch off in the hand itself, distal to where the AIN (a purely forearm-level branch) has already terminated",
+      "distractor_rationale": {
+        "The lumbricals are not actually median-nerve-supplied at all, despite common teaching to the contrary": "Contradicts well-established anatomy \u2014 the 1st and 2nd lumbricals genuinely are median-nerve-supplied; the nuance being tested here is WHICH PART of the median nerve's course supplies them, not whether it does at all.",
+        "The AIN directly supplies the lumbricals but only produces a partial, often subclinical weakness that is difficult to detect on routine examination": "Incorrect \u2014 the AIN does not supply the lumbricals at all (not partially, not subclinically); it terminates in the forearm before the median nerve's course reaches the branches that go to the lumbricals.",
+        "The lumbricals receive a separate, accessory nerve supply from the radial nerve that compensates for any AIN-related loss": "No such radial nerve contribution to the lumbricals exists \u2014 this option invents an anatomically incorrect compensatory pathway."
+      },
+      "explanation": {
+        "core_concept": "This is a genuinely subtle but high-value distinction: 'median nerve supplied' is not a single, uniform statement \u2014 WHERE along the median nerve's long course a given muscle's fibres branch off matters enormously for predicting which muscles a lesion at any particular level will actually affect.",
+        "why_correct": "The anterior interosseous nerve arises from the median nerve in the proximal forearm and terminates there, supplying flexor pollicis longus, the lateral half of flexor digitorum profundus, and pronator quadratus \u2014 all forearm muscles. The median nerve trunk continues past this point, through the carpal tunnel at the wrist, and only THEN gives off the palmar digital branches that supply the 1st and 2nd lumbricals within the hand itself. Because the AIN has already fully branched off and terminated before the median nerve reaches the wrist, an AIN lesion cannot affect structures supplied by branches arising later, more distally, in the nerve's course \u2014 including the lumbricals.",
+        "why_others_wrong": {
+          "The lumbricals are not actually median-nerve-supplied at all, despite common teaching to the contrary": "Denies a well-established anatomical fact; the actual nuance is about WHICH median nerve branch/level, not whether median supply exists.",
+          "The AIN directly supplies the lumbricals but only produces a partial, often subclinical weakness that is difficult to detect on routine examination": "Incorrectly claims an anatomical connection (AIN to lumbricals) that doesn't exist at any level of severity.",
+          "The lumbricals receive a separate, accessory nerve supply from the radial nerve that compensates for any AIN-related loss": "Fabricates a radial nerve contribution to the lumbricals that has no anatomical basis."
+        },
+        "high_yield_facts": [
+          "AIN syndrome spares the 1st/2nd lumbricals \u2014 because AIN terminates in the forearm, before the median nerve's course reaches the branches supplying them.",
+          "Carpal tunnel syndrome (median nerve compression AT the wrist) DOES affect the 1st/2nd lumbricals, since the compressed segment is distal to where these branches arise.",
+          "This is a genuinely useful way to distinguish AIN syndrome from carpal tunnel syndrome clinically: AIN spares lumbricals AND sensation; carpal tunnel syndrome affects both lumbricals AND sensation (median distribution)."
+        ],
+        "clinical_correlation": "This distinction has real diagnostic value \u2014 testing lumbrical function (index/middle finger MCP flexion with IP extension) as part of a median nerve exam can help distinguish a proximal forearm-level AIN lesion (lumbricals normal) from a wrist-level carpal tunnel lesion (lumbricals may be weak), in addition to the more commonly emphasised sensory examination.",
+        "common_confusions": [
+          "Treating 'median nerve supplied' as a single fact applying uniformly regardless of lesion location \u2014 the specific LEVEL of a median nerve lesion determines which of its many downstream branches and territories are actually affected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Anterior interosseous nerve syndrome (forearm level)",
+          "Carpal tunnel syndrome (wrist level)",
+          "Median nerve course through the carpal tunnel"
+        ],
+        "exam_traps": [
+          "Don't assume every median-nerve-related syndrome affects the same set of muscles \u2014 always work out exactly where along the nerve's course the lesion is, and check whether that's proximal or distal to the branch point for any muscle in question."
+        ],
+        "image_clues": null,
+        "memory_aid": "AIN ends in the forearm; lumbricals' branches start at the wrist \u2014 the AIN's story is already over by the time the lumbrical branches even begin.",
+        "other_ways_this_is_tested": [
+          "This distinction directly extends the anterior interosseous nerve syndrome vignette covered in the Forearm Muscles chapter, adding the lumbrical-sparing detail as a further diagnostic refinement."
+        ],
+        "neet_pg_takeaway": "AIN syndrome spares the 1st/2nd lumbricals (AIN terminates in the forearm, before the median nerve's lumbrical branches arise at the wrist); carpal tunnel syndrome, being more distal, does affect them \u2014 a useful way to distinguish the two median-nerve syndromes clinically.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard peripheral nerve anatomy and clinical correlation \u2014 Moore's Clinically Oriented Anatomy; hand surgery/neurology references on median nerve lesion localisation."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why anterior interosseous nerve syndrome spares the 1st/2nd lumbricals while carpal tunnel syndrome affects them, based on the level of median nerve branching.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_innervation_0002",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Innervation",
+      "subtopic": "Combined nerve lesion",
+      "concept": "Total claw hand from combined median and ulnar lesion",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient sustains a deep laceration at the wrist, severing both the median and ulnar nerves. Compared to an isolated ulnar nerve lesion alone, how does the resulting claw hand deformity differ?",
+      "options": [
+        "All four fingers develop clawing (MCP hyperextension with IP flexion), since all four lumbricals \u2014 1st/2nd (median) and 3rd/4th (ulnar) \u2014 are now paralysed together, rather than just the ring and little fingers",
+        "The deformity is identical to isolated ulnar nerve palsy, since the lumbricals' action doesn't meaningfully contribute to claw hand regardless of how many are lost",
+        "No clawing occurs at all, because combined nerve injury paradoxically restores normal balance between flexor and extensor tendons",
+        "Only the thumb becomes clawed, while all four fingers remain unaffected"
+      ],
+      "correct_answer": "All four fingers develop clawing (MCP hyperextension with IP flexion), since all four lumbricals \u2014 1st/2nd (median) and 3rd/4th (ulnar) \u2014 are now paralysed together, rather than just the ring and little fingers",
+      "distractor_rationale": {
+        "The deformity is identical to isolated ulnar nerve palsy, since the lumbricals' action doesn't meaningfully contribute to claw hand regardless of how many are lost": "Understates the lumbricals' genuine contribution \u2014 losing the additional 1st/2nd lumbricals (now also paralysed in this combined lesion) extends the same MCP-hyperextension/IP-flexion mechanism to the index and middle fingers as well, producing a MORE extensive, not identical, deformity.",
+        "No clawing occurs at all, because combined nerve injury paradoxically restores normal balance between flexor and extensor tendons": "The opposite of what actually happens \u2014 losing MORE of the balancing lumbrical action makes the deformity worse and more extensive, not resolved.",
+        "Only the thumb becomes clawed, while all four fingers remain unaffected": "The thumb doesn't have a lumbrical in the same sense as the fingers and isn't the site of classic claw hand deformity \u2014 this option misattributes the clawing to the wrong digit entirely."
+      },
+      "explanation": {
+        "core_concept": "Total claw hand is simply the logical extension of the isolated ulnar claw hand mechanism (covered in the Lumbricals - Actions chapter) to all four fingers, once you recognise that combined median and ulnar nerve loss removes ALL FOUR lumbricals rather than just the ulnar-supplied two \u2014 same mechanism, larger territory affected.",
+        "why_correct": "With both median and ulnar nerves severed, all four lumbricals are paralysed together: the 1st/2nd (normally median-supplied, to the index and middle fingers) and the 3rd/4th (normally ulnar-supplied, to the ring and little fingers). Since NO fingers retain functioning lumbricals, the unopposed extensor digitorum (MCP hyperextension) and unopposed long flexor tendon action (IP flexion) pattern \u2014 the same mechanism causing isolated ulnar claw hand in the ring/little fingers \u2014 now extends to all four fingers, producing total claw hand.",
+        "why_others_wrong": {
+          "The deformity is identical to isolated ulnar nerve palsy, since the lumbricals' action doesn't meaningfully contribute to claw hand regardless of how many are lost": "Directly contradicts the established mechanism \u2014 losing the ADDITIONAL 1st/2nd lumbricals genuinely extends the same deformity to the index/middle fingers, which are spared in isolated ulnar palsy.",
+          "No clawing occurs at all, because combined nerve injury paradoxically restores normal balance between flexor and extensor tendons": "Reverses the actual relationship \u2014 MORE lumbrical loss means MORE unopposed extensor/flexor imbalance, not a restored balance.",
+          "Only the thumb becomes clawed, while all four fingers remain unaffected": "The thumb isn't the site of classic lumbrical-loss claw deformity \u2014 this misattributes the affected digit entirely."
+        },
+        "high_yield_facts": [
+          "Isolated ulnar nerve lesion: claw hand in ring + little fingers only (3rd/4th lumbricals lost, 1st/2nd intact).",
+          "Combined median + ulnar nerve lesion: claw hand in ALL FOUR fingers ('total claw hand'), since all four lumbricals are now lost together.",
+          "This is a direct, logical extension of the single-nerve mechanism \u2014 no new concept needed, just recognising that a combined lesion removes a larger, complete set of the same balancing muscles."
+        ],
+        "clinical_correlation": "Recognising total claw hand as a marker of COMBINED median and ulnar injury (rather than either nerve alone) is clinically important for correctly identifying the full extent of nerve damage after a proximal or wrist-level injury, guiding both prognosis and surgical repair planning for both nerves rather than just one.",
+        "common_confusions": [
+          "Assuming claw hand severity or extent is fixed regardless of which/how many nerves are involved \u2014 the deformity's DISTRIBUTION (which fingers) directly and predictably tracks which specific lumbricals (and therefore which nerves) have been lost."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Isolated ulnar claw hand (see Lumbricals - Actions chapter)",
+          "Combined nerve injury patterns at the wrist",
+          "Surgical nerve repair prioritisation in combined injuries"
+        ],
+        "exam_traps": [
+          "Don't assume 'claw hand' is a single, fixed clinical entity \u2014 always check which fingers are described as clawed, since that distribution directly tells you which nerve(s), and therefore which lumbricals, are involved."
+        ],
+        "image_clues": null,
+        "memory_aid": "Total claw = total lumbrical loss \u2014 lose both nerves, lose all four lumbricals, claw all four fingers.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct combined-lesion extension of the isolated ulnar claw hand mechanism covered in the Lumbricals - Actions chapter \u2014 read together, they cover the full spectrum from single-nerve to combined-nerve lumbrical loss."
+        ],
+        "neet_pg_takeaway": "Combined median + ulnar nerve lesion paralyses all four lumbricals, producing total claw hand across all four fingers \u2014 a direct extension of the same mechanism causing isolated ulnar claw hand in the ring/little fingers alone.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical anatomy correlation \u2014 Moore's Clinically Oriented Anatomy; hand surgery references on combined peripheral nerve injury patterns."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain total claw hand as the combined-lesion extension of the isolated ulnar claw hand mechanism to all four lumbricals.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_innervation_0003",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Innervation",
+      "subtopic": "Image-based nerve territory mapping",
+      "concept": "Predicting which lumbricals are affected from a nerve distribution diagram",
+      "question_type": "image_based",
+      "difficulty": 3,
+      "question": "[Image: schematic of the hand showing the median nerve's palmar digital branches highlighted, supplying the index and middle fingers, and the ulnar nerve's deep branch highlighted, supplying the ring and little finger region including the deep intrinsic muscles at that level.] Based on this nerve distribution, if the highlighted median branches alone were compressed at the level shown (distal to the carpal tunnel), which lumbricals would be affected?",
+      "options": [
+        "1st and 2nd lumbricals only (index and middle finger lumbricals)",
+        "3rd and 4th lumbricals only (ring and little finger lumbricals)",
+        "All four lumbricals equally",
+        "None of the lumbricals, since this level is too distal to affect any of them"
+      ],
+      "correct_answer": "1st and 2nd lumbricals only (index and middle finger lumbricals)",
+      "distractor_rationale": {
+        "3rd and 4th lumbricals only (ring and little finger lumbricals)": "These are ulnar-supplied, not median-supplied \u2014 a lesion of the median branches shown would not affect them, since they're on an entirely separate nerve's territory.",
+        "All four lumbricals equally": "Overstates the median branches' territory \u2014 only the 1st and 2nd lumbricals are median-supplied; the 3rd and 4th remain unaffected by a purely median-branch lesion.",
+        "None of the lumbricals, since this level is too distal to affect any of them": "Incorrect \u2014 the level shown (distal to the carpal tunnel, where the palmar digital branches to the index/middle fingers are given off) is exactly where the 1st/2nd lumbricals' nerve supply arises, so a lesion here WOULD affect them."
+      },
+      "explanation": {
+        "core_concept": "This image-based question asks you to apply the nerve-supply-split fact spatially \u2014 using a visual map of which branches go where to predict the functional consequence of a lesion at a specific, shown location, rather than just reciting the fact from memory.",
+        "why_correct": "Since the image specifically highlights the median nerve's palmar digital branches to the index and middle fingers, and these are exactly the branches that give rise to the 1st and 2nd lumbricals' nerve supply, a lesion isolated to these highlighted branches would affect only the 1st and 2nd lumbricals \u2014 the 3rd and 4th, being on the separate ulnar nerve pathway also shown in the image, would be entirely unaffected.",
+        "why_others_wrong": {
+          "3rd and 4th lumbricals only (ring and little finger lumbricals)": "These lumbricals are supplied by the ulnar branch shown separately in the image, not the median branches described as being compressed \u2014 an isolated median lesion cannot affect ulnar-supplied structures.",
+          "All four lumbricals equally": "Only the median-supplied two (1st/2nd) would be affected by a lesion confined to the median branches shown; the ulnar-supplied 3rd/4th are on a separate pathway.",
+          "None of the lumbricals, since this level is too distal to affect any of them": "The level described (distal to the carpal tunnel, at the palmar digital branch point) is precisely where the 1st/2nd lumbricals' nerve supply originates \u2014 this is exactly the right level to affect them, not too distal to matter."
+        },
+        "high_yield_facts": [
+          "Reading a nerve distribution diagram: trace which highlighted branch supplies which specific lumbricals, then predict the functional consequence of a lesion at that specific point.",
+          "Median branches to index/middle \u2192 1st/2nd lumbricals. Ulnar branch to ring/little region \u2192 3rd/4th lumbricals. These pathways are anatomically SEPARATE from the point where they diverge, so a lesion isolated to one doesn't cross over to affect the other.",
+          "This kind of applied, image-based reasoning is what distinguishes genuinely understanding the nerve-supply-split fact from simply having memorised it as an isolated statement."
+        ],
+        "clinical_correlation": "Surgeons and clinicians use exactly this kind of spatial reasoning when interpreting nerve conduction studies or planning surgical exploration after a hand injury \u2014 knowing precisely which branch supplies which lumbrical, and at what level, lets them predict and confirm the expected pattern of muscle involvement from imaging or electrodiagnostic findings.",
+        "common_confusions": [
+          "Trying to answer this kind of question from memorised facts alone without actually tracing the SPECIFIC branches highlighted in the image \u2014 the question is testing whether you can apply the underlying fact to a given visual scenario, not just recall it in isolation."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Median vs ulnar lumbrical nerve supply split (foundational fact, see Lumbricals - Actions chapter)",
+          "Nerve conduction study interpretation",
+          "Digital nerve block anatomy (relevant to the same branch-level anatomy)"
+        ],
+        "exam_traps": [
+          "Don't let 'lumbricals' as a category pull you toward an 'all four together' answer \u2014 always check which SPECIFIC branch is described as affected in the vignette or image, and match that precisely to only the corresponding lumbricals."
+        ],
+        "image_clues": "Key reasoning: identify which nerve's branches are highlighted/described as affected, then trace only to the lumbricals known to be supplied by that specific nerve at that specific level.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This applied reasoning task directly builds on the AIN-vs-carpal-tunnel-level distinction and the base nerve-supply-split fact from the Lumbricals - Actions chapter, synthesising both into a single visual-diagnostic exercise."
+        ],
+        "neet_pg_takeaway": "A lesion isolated to the median nerve's branches (distal to the carpal tunnel) affects only the 1st and 2nd lumbricals \u2014 tracing which specific branch supplies which specific lumbrical is what lets you predict this accurately from any given nerve distribution diagram.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard applied peripheral nerve anatomy \u2014 Moore's Clinically Oriented Anatomy, hand innervation diagrams."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate hand nerve distribution schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Apply a nerve distribution diagram to predict which specific lumbricals would be affected by a lesion isolated to one branch.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

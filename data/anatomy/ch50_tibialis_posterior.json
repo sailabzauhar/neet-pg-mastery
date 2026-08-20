@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0050",
+    "topic": "Tibialis Posterior",
+    "chapter_number": 50,
+    "chapter_file": "data/anatomy/ch50_tibialis_posterior.json",
+    "source_years": [
+      2024
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 3,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "Tibialis posterior's tendon shares its anatomical course through the tarsal tunnel with the posterior tibial artery/vein and tibial nerve (covered in the Posterior Tibial Artery chapter). Verified that chapter's exact coverage before building \u2014 no overlap, since that chapter focuses on the artery's course/pulse and tarsal tunnel syndrome (a nerve entrapment condition), while this chapter focuses on the muscle/tendon's own action and its distinct clinical syndrome (PTT dysfunction/acquired flatfoot).",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch48 (Posterior Tibial Artery) \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Tibialis posterior, the deepest muscle of the posterior leg compartment, is the primary invertor of the foot and a major dynamic supporter of the medial longitudinal arch \u2014 its dysfunction (tendinopathy or rupture) is a genuinely common, progressive cause of acquired adult flatfoot deformity, distinct from congenital flatfoot, with a characteristic clinical test and progressive deformity pattern worth understanding as a coherent, mechanistically-explained syndrome."
+    },
+    "structure_anatomy": {
+      "origin_insertion_action": "Originates from the posterior surfaces of the tibia, fibula, and interosseous membrane (deep posterior compartment); its tendon passes posterior to the medial malleolus (within the tarsal tunnel, alongside the tibial nerve and posterior tibial vessels \u2014 see the Posterior Tibial Artery chapter) before inserting primarily onto the navicular tuberosity and, via additional slips, the cuneiforms and bases of the middle metatarsals. Action: primary invertor of the foot, with a secondary contribution to plantarflexion, and \u2014 critically \u2014 an important DYNAMIC STABILISER of the medial longitudinal arch during the stance phase of walking.",
+      "nerve_supply": "Supplied by the tibial nerve (a branch of the sciatic nerve), consistent with its deep posterior compartment location."
+    },
+    "clinical": {
+      "ptt_dysfunction_flatfoot": "Posterior tibial tendon (PTT) dysfunction \u2014 tendinopathy, progressive degeneration, or rupture \u2014 is the most common cause of ACQUIRED (as opposed to congenital) adult flatfoot deformity. As the tendon weakens or fails, its dynamic support of the medial longitudinal arch is lost, and the arch progressively collapses (flattens) over time \u2014 a genuinely important, common, and often under-recognised cause of adult-onset flatfoot, distinct from a flatfoot present since childhood.",
+      "too_many_toes_sign": "A classic clinical examination finding in PTT dysfunction: when the examiner views the patient's feet from BEHIND, more toes are visible on the affected (lateral) side than the normal side \u2014 this 'too many toes' sign reflects the forefoot's progressive ABDUCTION (lateral deviation) that accompanies arch collapse and hindfoot valgus deformity as PTT function is lost, a genuinely useful, visually distinctive bedside diagnostic sign.",
+      "single_heel_raise_test": "A practical functional test: asking the patient to rise onto their toes on the affected foot alone (single-leg heel raise) \u2014 normally, tibialis posterior contracts to invert the heel during this manoeuvre; in PTT dysfunction, the patient is UNABLE to perform a normal single-leg heel raise, or does so without the expected heel inversion, directly demonstrating the muscle's functional insufficiency."
+    },
+    "related_structures": "Tibialis posterior's tendon travels through the tarsal tunnel alongside the tibial nerve and posterior tibial vessels (see the Posterior Tibial Artery chapter) \u2014 while PTT dysfunction and tarsal tunnel syndrome are anatomically related (sharing this same confined space) and can occasionally coexist, they are genuinely distinct clinical entities (tendon failure/arch collapse vs nerve entrapment/plantar sensory symptoms) worth keeping conceptually separate despite their shared anatomical neighbourhood."
+  },
+  "question_family": [
+    {
+      "family_name": "Tibialis Posterior \u2014 Arch Support and Acquired Flatfoot (4 angles, one concept)",
+      "member_ids": [
+        "anat_tibialis_posterior_0001",
+        "anat_tibialis_posterior_0002",
+        "anat_tibialis_posterior_0003",
+        "anat_tibialis_posterior_0004"
+      ],
+      "coverage": "Recall (arch-support action), mechanism (PTT dysfunction causing flatfoot), clinical vignette (too many toes sign), and diagnostic reasoning (single-leg heel raise test) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_tibialis_posterior_0001",
+      "subject": "Anatomy",
+      "topic": "Tibialis Posterior",
+      "subtopic": "Action and arch support",
+      "concept": "Tibialis posterior's role in arch support, and posterior tibial tendon dysfunction as the leading cause of acquired adult flatfoot",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Beyond its primary action of foot inversion, tibialis posterior plays which important additional biomechanical role?",
+      "options": [
+        "Dynamic stabilisation/support of the medial longitudinal arch during the stance phase of walking",
+        "Primary eversion of the foot",
+        "Primary extension of the toes",
+        "Primary flexion of the knee"
+      ],
+      "correct_answer": "Dynamic stabilisation/support of the medial longitudinal arch during the stance phase of walking",
+      "distractor_rationale": {
+        "Primary eversion of the foot": "Eversion is produced by the fibularis (peroneus) muscles, an entirely different (and functionally opposite) action from tibialis posterior's inversion role.",
+        "Primary extension of the toes": "Toe extension is produced by extensor digitorum longus/brevis, unrelated to tibialis posterior's function.",
+        "Primary flexion of the knee": "Knee flexion is primarily a hamstring/gastrocnemius function, unrelated to tibialis posterior's specific action at the foot/ankle."
+      },
+      "explanation": {
+        "core_concept": "Tibialis posterior's arch-support role is the single most clinically important fact in this entire topic \u2014 it's precisely this dynamic support function, not just its inversion action, that explains why tendon dysfunction leads to progressive arch collapse (flatfoot) rather than merely weak inversion alone.",
+        "why_correct": "Beyond its primary action as the main invertor of the foot, tibialis posterior serves as an important DYNAMIC STABILISER of the medial longitudinal arch, actively supporting arch height during the stance phase of gait \u2014 a biomechanical role whose loss (from tendon dysfunction) directly explains progressive flatfoot deformity, covered in depth elsewhere in this chapter.",
+        "why_others_wrong": {
+          "Primary eversion of the foot": "The opposite action, produced by the fibularis muscles, not tibialis posterior.",
+          "Primary extension of the toes": "An unrelated action, produced by different muscles (extensor digitorum longus/brevis).",
+          "Primary flexion of the knee": "An unrelated joint and action, primarily hamstring/gastrocnemius function."
+        },
+        "high_yield_facts": [
+          "Tibialis posterior: primary INVERTOR of the foot + DYNAMIC medial longitudinal arch support during stance phase.",
+          "This arch-support role is the key functional fact explaining why tendon dysfunction causes progressive flatfoot, not just weak inversion in isolation.",
+          "Tendon travels posterior to the medial malleolus (tarsal tunnel), inserting mainly on the navicular tuberosity \u2014 see the Posterior Tibial Artery chapter for the shared anatomical tunnel this tendon travels through alongside the tibial nerve and vessels."
+        ],
+        "clinical_correlation": "This dual role (inversion + arch support) is exactly why PTT dysfunction produces BOTH weak inversion (demonstrable on examination) AND progressive arch collapse (a structural deformity) together, rather than either finding occurring in isolation.",
+        "common_confusions": [
+          "Focusing only on tibialis posterior's inversion action while overlooking its equally important, clinically load-bearing arch-support role \u2014 the arch-support function is specifically what explains the flatfoot deformity pattern covered elsewhere in this chapter."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PTT dysfunction and acquired flatfoot (this concept, other questions)",
+          "Tarsal tunnel and shared tendon course (see Posterior Tibial Artery chapter)"
+        ],
+        "exam_traps": [
+          "Don't limit your understanding of tibialis posterior to inversion alone \u2014 actively include its arch-support role, since that's the functional basis for its major clinical significance (flatfoot deformity)."
+        ],
+        "image_clues": null,
+        "memory_aid": "Tibialis posterior isn't just an invertor \u2014 it's the arch's live-in bodyguard, actively holding it up with every step.",
+        "other_ways_this_is_tested": [
+          "This dual functional role (inversion + arch support) is the direct anatomical/biomechanical basis for all the clinical content covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Tibialis posterior is the primary foot invertor AND an important dynamic stabiliser of the medial longitudinal arch during gait \u2014 this arch-support role is what explains its major clinical significance in acquired flatfoot deformity.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, lower limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State tibialis posterior's dual role as foot invertor and dynamic medial longitudinal arch stabiliser.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tibialis_posterior_0002",
+      "subject": "Anatomy",
+      "topic": "Tibialis Posterior",
+      "subtopic": "Clinical \u2014 acquired flatfoot mechanism",
+      "concept": "Tibialis posterior's role in arch support, and posterior tibial tendon dysfunction as the leading cause of acquired adult flatfoot",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Posterior tibial tendon (PTT) dysfunction is the leading cause of ACQUIRED (adult-onset) flatfoot deformity. What is the mechanistic explanation connecting tendon failure to progressive arch collapse?",
+      "options": [
+        "As the PTT weakens or ruptures, its dynamic stabilising support of the medial longitudinal arch is progressively lost, allowing the arch to gradually flatten/collapse under normal weight-bearing forces over time",
+        "PTT dysfunction directly causes bone fractures in the midfoot, which is the actual mechanism of arch collapse, unrelated to any tendon support function",
+        "The arch collapses because PTT dysfunction causes compensatory OVERACTIVITY of the fibularis muscles, actively pulling the arch flat",
+        "There is no genuine mechanistic connection between PTT dysfunction and flatfoot deformity; this is a coincidental association only"
+      ],
+      "correct_answer": "As the PTT weakens or ruptures, its dynamic stabilising support of the medial longitudinal arch is progressively lost, allowing the arch to gradually flatten/collapse under normal weight-bearing forces over time",
+      "distractor_rationale": {
+        "PTT dysfunction directly causes bone fractures in the midfoot, which is the actual mechanism of arch collapse, unrelated to any tendon support function": "Denies the actual, soft-tissue-based mechanism (loss of dynamic tendon support) in favour of an unsupported, fracture-based explanation not part of the established pathophysiology.",
+        "The arch collapses because PTT dysfunction causes compensatory OVERACTIVITY of the fibularis muscles, actively pulling the arch flat": "Misattributes the mechanism to an active, opposing-muscle overactivity process rather than the simpler, well-established loss-of-support mechanism from the PTT's own weakening.",
+        "There is no genuine mechanistic connection between PTT dysfunction and flatfoot deformity; this is a coincidental association only": "Denies the well-established, direct, mechanistically explicable causal relationship between these two findings."
+      },
+      "explanation": {
+        "core_concept": "This mechanism directly applies the arch-support functional role established elsewhere in this chapter to explain the actual pathophysiological process \u2014 PTT dysfunction doesn't just weaken inversion strength, it removes a genuinely essential dynamic support structure, allowing gravity and normal weight-bearing forces to progressively flatten the arch over time.",
+        "why_correct": "As the posterior tibial tendon progressively weakens (from chronic tendinopathy) or acutely fails (rupture), its dynamic stabilising contribution to the medial longitudinal arch is lost. Without this active support during the stance phase of gait, the arch is no longer adequately maintained against normal weight-bearing forces, and it progressively flattens/collapses over time \u2014 the direct, well-established mechanistic explanation for PTT dysfunction being the leading cause of acquired adult flatfoot deformity.",
+        "why_others_wrong": {
+          "PTT dysfunction directly causes bone fractures in the midfoot, which is the actual mechanism of arch collapse, unrelated to any tendon support function": "Not the established mechanism \u2014 this is a soft-tissue (tendon) support failure process, not primarily a fracture-based one.",
+          "The arch collapses because PTT dysfunction causes compensatory OVERACTIVITY of the fibularis muscles, actively pulling the arch flat": "Misattributes the mechanism to an unsupported, more complex compensatory process rather than the simpler, well-established direct loss-of-support explanation.",
+          "There is no genuine mechanistic connection between PTT dysfunction and flatfoot deformity; this is a coincidental association only": "Denies a well-established, direct, mechanistically clear causal relationship."
+        },
+        "high_yield_facts": [
+          "PTT dysfunction \u2192 loss of dynamic arch support \u2192 progressive arch flattening under normal weight-bearing forces = acquired adult flatfoot.",
+          "This is a PROGRESSIVE process, not sudden \u2014 reflecting the gradual nature of tendon degeneration (or, less commonly, a more acute presentation after frank rupture).",
+          "Recognising this mechanism is what makes PTT dysfunction assessment (the too-many-toes sign, single-leg heel raise test, covered elsewhere in this chapter) directly relevant to diagnosing acquired, rather than congenital, flatfoot deformity."
+        ],
+        "clinical_correlation": "Understanding this progressive mechanism directly informs early intervention strategies (e.g. orthotics, physical therapy, or surgical repair in appropriate candidates) aimed at halting or slowing further arch collapse before the deformity becomes severe and potentially irreversible.",
+        "common_confusions": [
+          "Assuming flatfoot deformity in an adult is simply a longstanding, unchanged condition from childhood \u2014 PTT dysfunction specifically causes a genuinely PROGRESSIVE, ACQUIRED deformity, distinct from congenital flatfoot present since early life."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Tibialis posterior's arch-support role (this concept, the foundational question)",
+          "Too many toes sign and single-leg heel raise test (this concept, other question) \u2014 the clinical findings directly resulting from this mechanism"
+        ],
+        "exam_traps": [
+          "Don't assume all flatfoot presentations share the same cause or timeline \u2014 actively distinguish ACQUIRED (PTT dysfunction, progressive, adult-onset) from CONGENITAL (present since childhood) flatfoot, since the underlying mechanism and clinical approach differ."
+        ],
+        "image_clues": null,
+        "memory_aid": "No more tendon support, no more arch \u2014 gravity and every step slowly flatten what the tendon used to hold up.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly explains the specific clinical examination findings (too many toes sign, heel raise test) covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Posterior tibial tendon dysfunction causes acquired adult flatfoot through progressive loss of the tendon's dynamic medial longitudinal arch support, allowing gradual arch collapse under normal weight-bearing forces \u2014 the leading mechanism behind this common, progressive adult foot deformity.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/podiatric references on posterior tibial tendon dysfunction and acquired flatfoot."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the mechanism by which posterior tibial tendon dysfunction causes progressive acquired adult flatfoot deformity.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tibialis_posterior_0003",
+      "subject": "Anatomy",
+      "topic": "Tibialis Posterior",
+      "subtopic": "Clinical \u2014 too many toes sign",
+      "concept": "Tibialis posterior's role in arch support, and posterior tibial tendon dysfunction as the leading cause of acquired adult flatfoot",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient with suspected posterior tibial tendon dysfunction is examined from behind while standing. More toes are visible lateral to the heel on the affected side compared to the normal side. What does this finding \u2014 the 'too many toes' sign \u2014 reflect, and why does it occur?",
+      "options": [
+        "Progressive forefoot ABDUCTION (lateral deviation) accompanying arch collapse and hindfoot valgus deformity as PTT support is lost, exposing more of the lateral forefoot/toes to a posterior observer",
+        "This finding reflects a congenital extra digit (polydactyly), unrelated to any tendon dysfunction",
+        "The finding indicates the unaffected foot has an abnormally reduced number of visible toes, not that the affected side has more",
+        "This sign has no established clinical meaning and is a meaningless, non-specific observation"
+      ],
+      "correct_answer": "Progressive forefoot ABDUCTION (lateral deviation) accompanying arch collapse and hindfoot valgus deformity as PTT support is lost, exposing more of the lateral forefoot/toes to a posterior observer",
+      "distractor_rationale": {
+        "This finding reflects a congenital extra digit (polydactyly), unrelated to any tendon dysfunction": "A different, unrelated condition (an actual extra digit) \u2014 the too-many-toes sign specifically reflects a POSITIONAL change (forefoot abduction) in the NORMAL number of toes, not an actual anatomical extra toe.",
+        "The finding indicates the unaffected foot has an abnormally reduced number of visible toes, not that the affected side has more": "Misinterprets which side is abnormal \u2014 it's the AFFECTED side showing MORE visible toes (from forefoot abduction), not the normal side showing fewer.",
+        "This sign has no established clinical meaning and is a meaningless, non-specific observation": "Denies a genuine, well-established, specifically named clinical sign with a clear anatomical explanation."
+      },
+      "explanation": {
+        "core_concept": "The 'too many toes' sign is a genuinely elegant visual demonstration of the SAME underlying mechanism (loss of PTT arch support) explaining flatfoot deformity generally \u2014 as the arch collapses, the hindfoot rolls into valgus and the forefoot correspondingly abducts (rotates laterally), literally rotating more of the forefoot/toes into view when the examiner looks from directly behind the standing patient.",
+        "why_correct": "As PTT dysfunction progresses and the medial longitudinal arch collapses, the hindfoot characteristically deviates into VALGUS (rolling inward/medially at the heel) while the forefoot correspondingly ABDUCTS (rotates laterally/outward) relative to the hindfoot \u2014 this combined deformity pattern means that, when viewed from directly behind the standing patient, MORE of the lateral forefoot and toes become visible on the affected side compared to the normal side, producing the distinctive 'too many toes' appearance.",
+        "why_others_wrong": {
+          "This finding reflects a congenital extra digit (polydactyly), unrelated to any tendon dysfunction": "The sign reflects a POSITIONAL change in visibility of the normal toe count (from forefoot abduction), not an actual anatomical extra digit.",
+          "The finding indicates the unaffected foot has an abnormally reduced number of visible toes, not that the affected side has more": "Misattributes which side shows the abnormal finding \u2014 it's specifically the AFFECTED side showing MORE visible toes.",
+          "This sign has no established clinical meaning and is a meaningless, non-specific observation": "A well-established, specifically named, mechanistically explicable clinical sign."
+        },
+        "high_yield_facts": [
+          "'Too many toes' sign: viewed from BEHIND the standing patient, MORE toes visible on the AFFECTED side, from forefoot abduction accompanying hindfoot valgus/arch collapse.",
+          "This directly reflects the SAME progressive PTT dysfunction/arch collapse mechanism covered elsewhere in this chapter \u2014 a visible, external manifestation of the internal structural deformity.",
+          "This sign is genuinely useful, quick, and visually distinctive \u2014 often demonstrable at a glance during a standard standing foot examination."
+        ],
+        "clinical_correlation": "This sign is a practical, easily performed component of the clinical examination for suspected PTT dysfunction/acquired flatfoot, complementing other findings (arch height assessment, single-leg heel raise test) to build a complete clinical picture.",
+        "common_confusions": [
+          "Assuming this sign relates to an actual anatomical extra toe (polydactyly) given its literal name, rather than understanding it as a POSITIONAL/rotational finding reflecting the forefoot abduction component of the flatfoot deformity."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PTT dysfunction mechanism (this concept, other question) \u2014 the underlying process producing this visible sign",
+          "Single-leg heel raise test (this concept, other question) \u2014 a complementary functional examination finding"
+        ],
+        "exam_traps": [
+          "Don't interpret 'too many toes' literally as an extra digit \u2014 actively recall it as a POSITIONAL sign reflecting forefoot abduction from the underlying arch collapse/hindfoot valgus deformity."
+        ],
+        "image_clues": null,
+        "memory_aid": "Collapsed arch rolls the heel in and swings the front of the foot out \u2014 more toes peek into view from behind, like the foot is 'waving' them at you.",
+        "other_ways_this_is_tested": [
+          "This sign is a direct visual consequence of the PTT dysfunction mechanism established elsewhere in this chapter, completing the clinical examination picture for this condition."
+        ],
+        "neet_pg_takeaway": "The 'too many toes' sign reflects forefoot abduction accompanying hindfoot valgus and arch collapse in PTT dysfunction \u2014 a positional, not anatomical, finding directly demonstrating the same underlying mechanism causing acquired flatfoot deformity.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/podiatric references on posterior tibial tendon dysfunction clinical examination."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the 'too many toes' sign as a positional finding reflecting forefoot abduction in PTT dysfunction.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tibialis_posterior_0004",
+      "subject": "Anatomy",
+      "topic": "Tibialis Posterior",
+      "subtopic": "Clinical \u2014 single-leg heel raise test",
+      "concept": "Tibialis posterior's role in arch support, and posterior tibial tendon dysfunction as the leading cause of acquired adult flatfoot",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "A patient with suspected early posterior tibial tendon dysfunction is asked to rise onto their toes while standing on the affected foot alone (single-leg heel raise). What finding would support this diagnosis, and what is the underlying functional reasoning?",
+      "options": [
+        "Inability to perform a normal single-leg heel raise, or performing it without the expected heel inversion \u2014 since tibialis posterior normally contracts to invert the heel during this manoeuvre, and its dysfunction directly impairs this specific functional demonstration",
+        "A completely normal single-leg heel raise with expected heel inversion would confirm PTT dysfunction, the reverse of the correct interpretation",
+        "This test specifically assesses gastrocnemius/soleus function exclusively, with no relevance to tibialis posterior or PTT dysfunction",
+        "The single-leg heel raise test has no established diagnostic value for any foot or ankle condition"
+      ],
+      "correct_answer": "Inability to perform a normal single-leg heel raise, or performing it without the expected heel inversion \u2014 since tibialis posterior normally contracts to invert the heel during this manoeuvre, and its dysfunction directly impairs this specific functional demonstration",
+      "distractor_rationale": {
+        "A completely normal single-leg heel raise with expected heel inversion would confirm PTT dysfunction, the reverse of the correct interpretation": "A NORMAL heel raise WITH proper heel inversion actually argues AGAINST significant PTT dysfunction, not for it \u2014 this option reverses the correct interpretation of a normal versus abnormal test result.",
+        "This test specifically assesses gastrocnemius/soleus function exclusively, with no relevance to tibialis posterior or PTT dysfunction": "While gastrocnemius/soleus do contribute to the plantarflexion component of heel raise, tibialis posterior's specific contribution (heel INVERSION during the raise) is exactly what makes this test relevant to and diagnostic for PTT dysfunction specifically.",
+        "The single-leg heel raise test has no established diagnostic value for any foot or ankle condition": "Denies a genuine, well-established, practically useful clinical functional test."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question requires understanding that the single-leg heel raise test isn't just a general strength test \u2014 it specifically isolates and demonstrates tibialis posterior's PARTICULAR contribution (heel inversion during the raise), making an abnormal result (no inversion, or inability to complete the raise) a specific, meaningful indicator of PTT dysfunction rather than a generic strength deficit.",
+        "why_correct": "During a normal single-leg heel raise, tibialis posterior contracts to invert the heel as the patient rises onto their toes \u2014 a normal, expected component of this movement pattern. In PTT dysfunction, this specific muscle's weakened or absent function means the patient is UNABLE to perform a normal single-leg heel raise at all, or completes it WITHOUT the expected heel inversion (the heel may remain in valgus or fail to invert properly) \u2014 directly demonstrating the functional insufficiency of the tendon in a practical, easily observed clinical test.",
+        "why_others_wrong": {
+          "A completely normal single-leg heel raise with expected heel inversion would confirm PTT dysfunction, the reverse of the correct interpretation": "A NORMAL result (proper heel raise WITH inversion) argues AGAINST significant PTT dysfunction \u2014 this option reverses the correct test interpretation.",
+          "This test specifically assesses gastrocnemius/soleus function exclusively, with no relevance to tibialis posterior or PTT dysfunction": "While plantarflexor muscles contribute to the raise itself, the SPECIFIC heel inversion component is what makes this test particularly relevant to tibialis posterior/PTT function.",
+          "The single-leg heel raise test has no established diagnostic value for any foot or ankle condition": "Denies a genuine, practically useful, well-established clinical functional test."
+        },
+        "high_yield_facts": [
+          "Single-leg heel raise test: normal = heel raise WITH proper inversion (tibialis posterior functioning normally).",
+          "Abnormal (supporting PTT dysfunction) = inability to complete the raise, OR raise without proper heel inversion.",
+          "This test, together with the too-many-toes sign covered elsewhere in this chapter, forms a practical, complementary clinical examination pairing for assessing suspected PTT dysfunction."
+        ],
+        "clinical_correlation": "This test is a genuinely practical, quick, office-based functional assessment directly relevant to diagnosing PTT dysfunction, particularly useful in EARLY disease when structural deformity (like the too-many-toes sign) may not yet be fully apparent, making functional testing an important complementary diagnostic tool.",
+        "common_confusions": [
+          "Assuming ANY abnormal heel raise result must reflect generic calf muscle (gastrocnemius/soleus) weakness rather than specifically considering tibialis posterior's own PARTICULAR contribution (heel inversion) to this movement, which is what makes the test specifically relevant to PTT assessment."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Too many toes sign (this concept, other question) \u2014 a complementary structural finding",
+          "Tibialis posterior's inversion action (this concept, the foundational question) \u2014 the direct functional basis for this test's interpretation"
+        ],
+        "exam_traps": [
+          "Don't assume a normal result on this test would SUPPORT a PTT dysfunction diagnosis \u2014 actively recall that it's the ABNORMAL result (failure to raise, or raise without inversion) that supports this diagnosis, while a normal result argues against it."
+        ],
+        "image_clues": null,
+        "memory_aid": "Rise on one foot \u2014 if the heel doesn't tuck inward properly (or you can't rise at all), tibialis posterior isn't doing its job.",
+        "other_ways_this_is_tested": [
+          "This functional test directly applies tibialis posterior's inversion action, established in the first question of this chapter, to a genuine, practical bedside diagnostic tool."
+        ],
+        "neet_pg_takeaway": "Inability to perform a normal single-leg heel raise, or performing it without the expected heel inversion, supports posterior tibial tendon dysfunction \u2014 directly reflecting tibialis posterior's specific functional contribution (heel inversion) to this movement.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/podiatric references on posterior tibial tendon dysfunction functional testing."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Interpret the single-leg heel raise test for posterior tibial tendon dysfunction based on the presence or absence of heel inversion.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

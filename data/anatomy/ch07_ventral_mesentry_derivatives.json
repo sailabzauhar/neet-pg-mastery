@@ -1,0 +1,637 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0007",
+    "topic": "Ventral Mesentry Derivatives",
+    "chapter_number": 7,
+    "chapter_file": "data/anatomy/ch07_ventral_mesentry_derivatives.json",
+    "source_years": [
+      2022
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 8,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 3,
+      "L3": 4,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "clinical_vignette",
+      "comparison",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "scope_note": "A must-do embryology/surgical-anatomy crossover topic with real clinical weight (epiploic foramen, Pringle maneuver, caput medusae) despite only one source-PDF occurrence \u2014 scaled to 8 MCQs reflecting genuine conceptual and clinical density rather than raw occurrence count alone.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The ventral mesentery is one of the two mesenteries suspending the primitive gut tube in the embryo (the other being the dorsal mesentery), and unlike the dorsal mesentery \u2014 which runs the full length of the gut tube \u2014 the ventral mesentery is present only in a limited foregut segment, because it develops from the mesenchyme of the septum transversum in association with the developing liver.",
+      "classification": "A double layer of peritoneum, present transiently/regionally during development, giving rise to specific named adult peritoneal structures rather than persisting as a single continuous structure."
+    },
+    "structure_anatomy": {
+      "extent": "Present only from the caudal (lower) part of the esophagus to the point where the bile duct enters the duodenum (roughly the second part of the duodenum) \u2014 nowhere else along the gut tube, because it is intrinsically tied to liver development rather than being a generic gut-suspending structure like the dorsal mesentery.",
+      "origin": "Derived from the mesenchyme of the septum transversum, the same embryonic tissue mass that gives rise to part of the developing liver and the central tendon of the diaphragm.",
+      "derivatives": {
+        "falciform_ligament": "Connects the liver to the anterior abdominal wall and diaphragm; contains the ligamentum teres hepatis (the obliterated left umbilical vein) in its free inferior margin.",
+        "lesser_omentum": "Connects the liver to the stomach and duodenum, divided into two named parts: the hepatogastric ligament (liver to stomach, a flat sheet) and the hepatoduodenal ligament (liver to duodenum, thicker, forms a free right edge). The hepatoduodenal ligament carries the portal triad \u2014 the portal vein, hepatic artery proper, and common bile duct \u2014 within its two peritoneal layers."
+      }
+    },
+    "clinical": {
+      "epiploic_foramen": "The hepatoduodenal ligament forms the ANTERIOR boundary of the epiploic foramen (foramen of Winslow), the natural communication between the greater and lesser peritoneal sacs. The other boundaries: posterior = inferior vena cava, superior = caudate lobe of liver, inferior = first (superior) part of the duodenum.",
+      "pringle_maneuver": "Because the portal triad runs within the free edge of the hepatoduodenal ligament, a surgeon can control bleeding from the liver by manually compressing this ligament between finger and thumb through the epiploic foramen \u2014 a recognised surgical technique (Pringle maneuver) that only works because of this specific anatomical arrangement.",
+      "caput_medusae": "In portal hypertension, the ligamentum teres hepatis (within the falciform ligament) can recanalise its embryonic umbilical vein remnant, allowing portosystemic collateral flow that dilates periumbilical veins visible on the abdominal wall \u2014 the clinical sign called caput medusae."
+    },
+    "related_structures": "The dorsal mesentery, by contrast, runs the ENTIRE length of the gut tube and gives rise to the greater omentum, the mesentery proper (of the small intestine), the transverse and sigmoid mesocolons, and the gastrosplenic/splenorenal ligaments \u2014 the ventral-vs-dorsal derivative comparison is one of the most reliably tested points in this topic, since students often try to attribute the wrong derivative to the wrong mesentery."
+  },
+  "question_family": [
+    {
+      "family_name": "Ventral Mesentery \u2014 Origin and Extent",
+      "member_ids": [
+        "anat_ventral_mesentery_derivatives_0001",
+        "anat_ventral_mesentery_derivatives_0002"
+      ],
+      "coverage": "Septum transversum origin and the precise foregut-limited extent \u2014 why this mesentery is so much shorter than the dorsal mesentery."
+    },
+    {
+      "family_name": "Ventral Mesentery \u2014 Named Derivatives and Contents",
+      "member_ids": [
+        "anat_ventral_mesentery_derivatives_0003",
+        "anat_ventral_mesentery_derivatives_0004"
+      ],
+      "coverage": "The two named derivatives (falciform ligament, lesser omentum) and the portal triad contents of the hepatoduodenal ligament specifically."
+    },
+    {
+      "family_name": "Ventral Mesentery \u2014 Clinical Correlations",
+      "member_ids": [
+        "anat_ventral_mesentery_derivatives_0005",
+        "anat_ventral_mesentery_derivatives_0006"
+      ],
+      "coverage": "Epiploic foramen boundaries/Pringle maneuver, and caput medusae from ligamentum teres hepatis recanalisation \u2014 the two major clinical applications of this topic."
+    },
+    {
+      "family_name": "Ventral Mesentery \u2014 Comparison and Recognition",
+      "member_ids": [
+        "anat_ventral_mesentery_derivatives_0007",
+        "anat_ventral_mesentery_derivatives_0008"
+      ],
+      "coverage": "Contrast against dorsal mesentery derivatives, and dissection-image recognition of the lesser omentum's two parts."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_ventral_mesentery_derivatives_0001",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Origin and extent",
+      "concept": "Embryological origin of the ventral mesentery",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The ventral mesentery develops from the mesenchyme of which embryonic structure?",
+      "options": [
+        "Septum transversum",
+        "Notochord",
+        "Urogenital ridge",
+        "Cloacal membrane"
+      ],
+      "correct_answer": "Septum transversum",
+      "distractor_rationale": {
+        "Notochord": "A midline axial structure important for neural tube induction and vertebral column development, unrelated to mesentery formation.",
+        "Urogenital ridge": "Gives rise to the developing kidneys and gonads, an entirely separate developmental system.",
+        "Cloacal membrane": "Related to hindgut/urogenital sinus development, not the foregut-associated ventral mesentery."
+      },
+      "explanation": {
+        "core_concept": "The ventral mesentery's origin from the septum transversum \u2014 the same tissue mass contributing to the developing liver \u2014 is exactly why it exists only around the liver-associated foregut and nowhere else, unlike the dorsal mesentery which is a more generic, gut-tube-long structure.",
+        "why_correct": "The septum transversum, a block of mesenchyme that also contributes to part of the liver primordium and the central tendon of the diaphragm, gives rise to the ventral mesentery specifically in the region where the liver is developing.",
+        "why_others_wrong": {
+          "Notochord": "Involved in axial skeletal and neural development, with no role in mesentery formation.",
+          "Urogenital ridge": "Gives rise to kidneys/gonads \u2014 a completely separate organ system from the peritoneal mesenteries.",
+          "Cloacal membrane": "Relevant to hindgut and urogenital sinus development, not the foregut-restricted ventral mesentery."
+        },
+        "high_yield_facts": [
+          "Ventral mesentery = septum transversum mesenchyme.",
+          "This shared origin with the liver primordium is WHY the ventral mesentery is restricted to the liver-associated foregut segment.",
+          "The septum transversum also contributes to the diaphragm's central tendon \u2014 a separate but related high-yield fact."
+        ],
+        "clinical_correlation": "Understanding this shared embryological origin explains why all ventral mesentery derivatives (falciform ligament, lesser omentum) are intimately related to the liver \u2014 none of them exist independently of liver development.",
+        "common_confusions": [
+          "Assuming both mesenteries (dorsal and ventral) share the same generic embryological origin \u2014 the ventral mesentery's specific, liver-linked origin is what explains its much more restricted distribution."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Liver embryology",
+          "Diaphragm central tendon development",
+          "Dorsal mesentery (unrestricted, full gut-tube-length origin)"
+        ],
+        "exam_traps": [
+          "Don't confuse 'septum transversum' with 'urogenital ridge' or other embryonic mesenchymal condensations that sound structurally similar but contribute to entirely different organ systems."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This origin fact directly explains the extent question elsewhere in this set (why the ventral mesentery is foregut-limited)."
+        ],
+        "neet_pg_takeaway": "Ventral mesentery arises from septum transversum mesenchyme \u2014 the same tissue linked to liver development, which is why it exists only around the liver-associated foregut.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard embryology \u2014 Langman's Medical Embryology, gastrointestinal system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the septum transversum as the embryological origin of the ventral mesentery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0002",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Extent along the gut tube",
+      "concept": "Why the ventral mesentery is foregut-limited",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "Unlike the dorsal mesentery, which suspends the gut tube along its entire length, the ventral mesentery is present only in a limited segment. What is that segment?",
+      "options": [
+        "From the lower (caudal) esophagus to the point of bile duct entry into the duodenum",
+        "From the pharynx to the pylorus of the stomach",
+        "The entire length of the small intestine only",
+        "From the duodenum to the rectum"
+      ],
+      "correct_answer": "From the lower (caudal) esophagus to the point of bile duct entry into the duodenum",
+      "distractor_rationale": {
+        "From the pharynx to the pylorus of the stomach": "Overextends the ventral mesentery too far cranially (it doesn't reach the pharynx) and stops too early distally (it continues past the pylorus to the duodenum where the bile duct enters).",
+        "The entire length of the small intestine only": "The ventral mesentery does not extend along the entire small intestine \u2014 it's limited to a short proximal segment near the developing liver, ending well before the rest of the duodenum, jejunum, and ileum, which are instead suspended by the dorsal mesentery (as the mesentery proper).",
+        "From the duodenum to the rectum": "This describes roughly the territory of the DORSAL mesentery's various derivatives, not the ventral mesentery, which is limited to the much shorter foregut segment near the liver."
+      },
+      "explanation": {
+        "core_concept": "The ventral mesentery's restricted extent is a direct, logical consequence of its septum-transversum/liver-linked origin \u2014 it exists only where the developing liver is, and nowhere else, which is a much shorter segment than the dorsal mesentery's full gut-tube-length distribution.",
+        "why_correct": "The ventral mesentery is present specifically from the caudal esophagus down to the point where the bile duct enters the duodenum (roughly the second part of the duodenum) \u2014 the exact region associated with the developing liver and biliary system.",
+        "why_others_wrong": {
+          "From the pharynx to the pylorus of the stomach": "Both boundaries are wrong \u2014 the ventral mesentery doesn't reach as far cranially as the pharynx, and it extends further distally than the pylorus, continuing to where the bile duct enters the duodenum.",
+          "The entire length of the small intestine only": "Vastly overstates the extent \u2014 the ventral mesentery covers only a short proximal segment, not the whole small intestine, which is instead suspended by dorsal mesentery derivatives (the mesentery proper).",
+          "From the duodenum to the rectum": "This territory belongs to dorsal mesentery derivatives, not the much more limited ventral mesentery."
+        },
+        "high_yield_facts": [
+          "Ventral mesentery extent: caudal esophagus \u2192 bile duct entry into the duodenum (~2nd part of duodenum) \u2014 a short, specific segment.",
+          "Everywhere else along the gut tube (rest of duodenum, jejunum, ileum, colon, rectum) is suspended ONLY by dorsal mesentery derivatives.",
+          "This restricted extent is precisely why only TWO named derivatives exist (falciform ligament, lesser omentum) versus the dorsal mesentery's much longer list of derivatives."
+        ],
+        "clinical_correlation": "This limited extent is why surgical structures like the falciform ligament and lesser omentum/hepatoduodenal ligament are found specifically in the upper abdomen around the liver and lesser sac, not distributed throughout the abdominal cavity the way greater omentum (a dorsal mesentery derivative) is.",
+        "common_confusions": [
+          "Assuming both mesenteries have symmetric, equally extensive distributions along the gut tube \u2014 the ventral mesentery is the much more restricted of the two, existing only in this specific short foregut segment."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Dorsal mesentery's full gut-tube extent (for contrast)",
+          "Liver and biliary system embryology",
+          "Duodenal segments"
+        ],
+        "exam_traps": [
+          "Don't extend the ventral mesentery's territory to match the dorsal mesentery's \u2014 this is a common overgeneralisation error, since students sometimes assume both mesenteries behave symmetrically."
+        ],
+        "image_clues": null,
+        "memory_aid": "Ventral mesentery = a short visit, only where the liver is being built.",
+        "other_ways_this_is_tested": [
+          "This extent directly explains why only two derivatives exist, tested as the direct-recall question on named derivatives elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Ventral mesentery: caudal esophagus to the bile duct's entry into the duodenum \u2014 a short, liver-linked segment, unlike the dorsal mesentery's full gut-tube-length distribution.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard embryology \u2014 Langman's Medical Embryology, gastrointestinal system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the precise foregut extent of the ventral mesentery and explain why it's more limited than the dorsal mesentery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0003",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Named derivatives",
+      "concept": "Falciform ligament and lesser omentum",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The ventral mesentery gives rise to which two named adult peritoneal structures?",
+      "options": [
+        "Falciform ligament and lesser omentum",
+        "Greater omentum and mesentery proper",
+        "Gastrosplenic ligament and splenorenal ligament",
+        "Transverse mesocolon and sigmoid mesocolon"
+      ],
+      "correct_answer": "Falciform ligament and lesser omentum",
+      "distractor_rationale": {
+        "Greater omentum and mesentery proper": "Both of these are dorsal mesentery derivatives, not ventral mesentery derivatives \u2014 a common mix-up between the two mesenteries' derivative lists.",
+        "Gastrosplenic ligament and splenorenal ligament": "Also dorsal mesentery derivatives, related to the developing spleen, not the ventral mesentery.",
+        "Transverse mesocolon and sigmoid mesocolon": "Both belong to the dorsal mesentery's much longer list of derivatives covering the colon, unrelated to the liver-linked ventral mesentery."
+      },
+      "explanation": {
+        "core_concept": "Because the ventral mesentery is so restricted in extent, it gives rise to only two named adult structures \u2014 a short, memorable list compared to the dorsal mesentery's much longer roster of derivatives.",
+        "why_correct": "The falciform ligament (liver to anterior abdominal wall) and the lesser omentum (liver to stomach and duodenum, itself subdivided into hepatogastric and hepatoduodenal ligaments) are the two \u2014 and only two \u2014 derivatives of the ventral mesentery.",
+        "why_others_wrong": {
+          "Greater omentum and mesentery proper": "Both are dorsal mesentery derivatives \u2014 the greater omentum from the dorsal mesogastrium, the mesentery proper suspending the jejunum/ileum, neither related to the ventral mesentery.",
+          "Gastrosplenic ligament and splenorenal ligament": "Dorsal mesentery derivatives associated with the developing spleen \u2014 not part of the ventral mesentery's much shorter derivative list.",
+          "Transverse mesocolon and sigmoid mesocolon": "Dorsal mesentery derivatives related to colon suspension, unrelated to the liver-linked ventral mesentery."
+        },
+        "high_yield_facts": [
+          "Ventral mesentery derivatives: ONLY the falciform ligament and lesser omentum \u2014 a short, fixed list worth memorising exactly.",
+          "Lesser omentum further divides into hepatogastric ligament (flat) and hepatoduodenal ligament (free edge, carries the portal triad).",
+          "Everything else peritoneal in the abdomen (greater omentum, mesentery proper, transverse/sigmoid mesocolon, gastrosplenic/splenorenal ligaments) comes from the dorsal mesentery instead."
+        ],
+        "clinical_correlation": "Recognising that the portal triad-carrying hepatoduodenal ligament is specifically a VENTRAL mesentery derivative (not dorsal) is directly relevant to understanding structures like the epiploic foramen and the Pringle maneuver, covered elsewhere in this set.",
+        "common_confusions": [
+          "Mixing up which derivatives belong to which mesentery \u2014 since there are many named peritoneal ligaments/omenta in the abdomen, and only two belong to the ventral mesentery, actively excluding the (much longer) dorsal mesentery derivative list is often the faster way to answer correctly."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Hepatogastric and hepatoduodenal ligament subdivisions",
+          "Dorsal mesentery's longer derivative list (contrast)",
+          "Lesser sac boundaries"
+        ],
+        "exam_traps": [
+          "When four options each pair up two peritoneal structures, check whether BOTH members of the pair are genuinely ventral mesentery derivatives \u2014 some distractors mix one true ventral derivative with one dorsal derivative to test careful reading."
+        ],
+        "image_clues": null,
+        "memory_aid": "Only TWO derivatives for the ventral mesentery \u2014 'Falciform and Lesser' \u2014 short list, short mesentery.",
+        "other_ways_this_is_tested": [
+          "This derivative list is the foundation for the epiploic foramen, Pringle maneuver, and caput medusae questions elsewhere in this set, all of which involve one of these two named structures."
+        ],
+        "neet_pg_takeaway": "Ventral mesentery \u2192 only the falciform ligament and lesser omentum (itself split into hepatogastric and hepatoduodenal ligaments) \u2014 a short, fixed, frequently tested list.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard embryology and peritoneal anatomy \u2014 Langman's Medical Embryology; Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Name the two derivatives of the ventral mesentery and distinguish them from dorsal mesentery derivatives.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0004",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Hepatoduodenal ligament contents",
+      "concept": "Portal triad within the hepatoduodenal ligament",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The hepatoduodenal ligament, part of the lesser omentum, carries which three structures within its two peritoneal layers?",
+      "options": [
+        "Portal vein, hepatic artery proper, and common bile duct",
+        "Hepatic veins, inferior vena cava, and phrenic nerve",
+        "Splenic artery, splenic vein, and pancreatic duct",
+        "Superior mesenteric artery, superior mesenteric vein, and pancreatic duct"
+      ],
+      "correct_answer": "Portal vein, hepatic artery proper, and common bile duct",
+      "distractor_rationale": {
+        "Hepatic veins, inferior vena cava, and phrenic nerve": "These structures relate to the bare area of the liver and the diaphragm, not the hepatoduodenal ligament, which lies at the free edge of the lesser omentum.",
+        "Splenic artery, splenic vein, and pancreatic duct": "These structures are associated with the splenorenal ligament and pancreas, dorsal mesentery-related structures, not the ventral mesentery-derived hepatoduodenal ligament.",
+        "Superior mesenteric artery, superior mesenteric vein, and pancreatic duct": "These vessels run within the root of the mesentery proper (a dorsal mesentery derivative) and near the pancreas, not within the hepatoduodenal ligament."
+      },
+      "explanation": {
+        "core_concept": "The hepatoduodenal ligament's free right edge is where the 'portal triad' \u2014 a classically tested grouping of three structures \u2014 travels together to reach the liver, and this specific location (within a ventral mesentery derivative, at the anterior boundary of the epiploic foramen) is what makes the Pringle maneuver anatomically possible.",
+        "why_correct": "Within the hepatoduodenal ligament's two peritoneal layers run the portal vein (posteriorly), the hepatic artery proper (anteriorly and to the left), and the common bile duct (anteriorly and to the right) \u2014 collectively known as the portal triad, all travelling together toward the porta hepatis.",
+        "why_others_wrong": {
+          "Hepatic veins, inferior vena cava, and phrenic nerve": "These relate to the liver's bare area and diaphragmatic attachments, an entirely different anatomical region from the hepatoduodenal ligament's free edge.",
+          "Splenic artery, splenic vein, and pancreatic duct": "Associated with the splenorenal ligament (a dorsal mesentery derivative) and the pancreas, not the hepatoduodenal ligament.",
+          "Superior mesenteric artery, superior mesenteric vein, and pancreatic duct": "These structures are found at the root of the mesentery proper and near the pancreatic head/uncinate process \u2014 a different location from the hepatoduodenal ligament."
+        },
+        "high_yield_facts": [
+          "Hepatoduodenal ligament = the portal triad: portal vein (posterior), hepatic artery proper (anterior-left), common bile duct (anterior-right).",
+          "This ligament forms the ANTERIOR boundary of the epiploic foramen (of Winslow).",
+          "The Pringle maneuver (temporary compression of this ligament) controls inflow bleeding to the liver by compressing all three structures at once."
+        ],
+        "clinical_correlation": "Because all three portal triad structures run together in this one ligament, a single surgical maneuver (Pringle) can control both arterial and portal venous inflow to the liver simultaneously \u2014 a direct practical consequence of this specific anatomical grouping.",
+        "common_confusions": [
+          "Confusing the portal triad's location (hepatoduodenal ligament) with the porta hepatis itself (where these structures actually enter/exit the liver) \u2014 the ligament is the conduit, the porta hepatis is the destination."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Epiploic foramen boundaries",
+          "Pringle maneuver",
+          "Porta hepatis"
+        ],
+        "exam_traps": [
+          "Don't confuse the 'portal triad' (portal vein, hepatic artery proper, bile duct \u2014 found in the hepatoduodenal ligament) with the 'hepatic triad' terminology sometimes used loosely for portal tract structures at the microscopic/histological level \u2014 this question is asking about the gross anatomical structure."
+        ],
+        "image_clues": null,
+        "memory_aid": "Portal triad = 'Two tubes and a duct': artery in front-left, duct in front-right, vein tucked behind both.",
+        "other_ways_this_is_tested": [
+          "This portal triad content is the direct anatomical basis for both the epiploic foramen boundary question and the Pringle maneuver clinical correlation elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Hepatoduodenal ligament carries the portal triad \u2014 portal vein, hepatic artery proper, common bile duct \u2014 and forms the epiploic foramen's anterior boundary.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard peritoneal and hepatobiliary anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "List the three structures of the portal triad carried within the hepatoduodenal ligament.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0005",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Epiploic foramen",
+      "concept": "Boundaries of the epiploic foramen (of Winslow)",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "During laparoscopic cholecystectomy, a surgeon controls unexpected bleeding by inserting a finger through a natural opening behind the hepatoduodenal ligament and compressing the ligament between finger and thumb. Which structure forms the POSTERIOR boundary of the opening used for this maneuver?",
+      "options": [
+        "Inferior vena cava",
+        "Common bile duct",
+        "Portal vein",
+        "First part of the duodenum"
+      ],
+      "correct_answer": "Inferior vena cava",
+      "distractor_rationale": {
+        "Common bile duct": "Runs WITHIN the anterior boundary (the hepatoduodenal ligament itself), not forming the posterior boundary of the foramen.",
+        "Portal vein": "Also runs within the hepatoduodenal ligament (the anterior boundary), not forming a separate posterior boundary.",
+        "First part of the duodenum": "This structure actually forms the INFERIOR boundary of the epiploic foramen, not the posterior one."
+      },
+      "explanation": {
+        "core_concept": "The epiploic foramen (of Winslow) is the sole natural communication between the greater and lesser peritoneal sacs, and its four boundaries are a classic, tightly packed set of surgical landmarks \u2014 the vignette describes the Pringle maneuver, which specifically relies on the ANTERIOR boundary (hepatoduodenal ligament) being compressible against the fixed POSTERIOR boundary.",
+        "why_correct": "The inferior vena cava runs directly posterior to the epiploic foramen, forming its posterior boundary \u2014 this fixed, relatively rigid structure is what the hepatoduodenal ligament (containing the portal triad) can be compressed AGAINST during the Pringle maneuver, since finger and thumb pinch the ligament between the anterior opening and this posterior wall.",
+        "why_others_wrong": {
+          "Common bile duct": "A component running WITHIN the anterior boundary (inside the hepatoduodenal ligament itself), not a separate boundary of the foramen.",
+          "Portal vein": "Also runs within the anterior boundary's contents (the hepatoduodenal ligament), not forming an independent posterior boundary.",
+          "First part of the duodenum": "This is the INFERIOR boundary of the epiploic foramen, a different boundary from the posterior one asked about here."
+        },
+        "high_yield_facts": [
+          "Epiploic foramen boundaries: ANTERIOR = hepatoduodenal ligament (portal triad); POSTERIOR = inferior vena cava; SUPERIOR = caudate lobe of liver; INFERIOR = first (superior) part of duodenum.",
+          "This is the only natural opening connecting the greater and lesser peritoneal sacs.",
+          "The Pringle maneuver works because the anterior boundary (containing the vessels to control) can be compressed against the posterior boundary (a relatively fixed structure, the IVC)."
+        ],
+        "clinical_correlation": "Knowing these boundaries precisely matters practically during hepatobiliary surgery \u2014 inserting a finger through the epiploic foramen to perform the Pringle maneuver requires understanding exactly what's anterior (the ligament to compress) and posterior (the IVC, which must not itself be injured by overly aggressive finger placement).",
+        "common_confusions": [
+          "Mixing up which specific structure occupies which of the four boundaries \u2014 since all four are individually well-known landmarks (liver, duodenum, IVC, hepatoduodenal ligament), the challenge is correctly assigning EACH to its correct position (anterior/posterior/superior/inferior)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pringle maneuver",
+          "Portal triad contents",
+          "Greater and lesser peritoneal sac anatomy"
+        ],
+        "exam_traps": [
+          "This vignette format (describing the Pringle maneuver clinically, then asking for a specific boundary) tests whether you can connect the CLINICAL scenario back to the underlying anatomical landmark being used \u2014 not just recall the boundaries as an isolated list."
+        ],
+        "image_clues": null,
+        "memory_aid": "Winslow's foramen boundaries, front to back: Ligament (ventral mesentery derivative) in FRONT, vena cava BEHIND; liver lobe ABOVE, duodenum BELOW.",
+        "other_ways_this_is_tested": [
+          "This boundary question directly extends the portal triad content question elsewhere in this set into its surgical/clinical application."
+        ],
+        "neet_pg_takeaway": "Epiploic foramen posterior boundary = inferior vena cava \u2014 the fixed structure the hepatoduodenal ligament (anterior boundary) is compressed against during the Pringle maneuver.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard hepatobiliary surgical anatomy \u2014 Moore's Clinically Oriented Anatomy; Sabiston Textbook of Surgery, liver surgery chapter."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the four boundaries of the epiploic foramen and their relevance to the Pringle maneuver.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0006",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Falciform ligament and portal hypertension",
+      "concept": "Ligamentum teres hepatis recanalisation",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient with cirrhosis and portal hypertension is found to have visibly dilated, tortuous veins radiating outward from the umbilicus on abdominal examination. Which embryological remnant, contained within a ventral mesentery derivative, becomes recanalised to produce this finding?",
+      "options": [
+        "Ligamentum teres hepatis (obliterated left umbilical vein), within the falciform ligament",
+        "Ligamentum venosum (obliterated ductus venosus), within the lesser omentum",
+        "Median umbilical ligament (obliterated urachus), within the peritoneum of the anterior abdominal wall",
+        "Ligamentum arteriosum (obliterated ductus arteriosus), within the mediastinum"
+      ],
+      "correct_answer": "Ligamentum teres hepatis (obliterated left umbilical vein), within the falciform ligament",
+      "distractor_rationale": {
+        "Ligamentum venosum (obliterated ductus venosus), within the lesser omentum": "The ligamentum venosum is a real embryological remnant found within a fissure on the liver's visceral surface, but it is not the structure that recanalises to produce periumbilical caput medusae \u2014 that specific clinical sign is tied to the ligamentum teres hepatis instead.",
+        "Median umbilical ligament (obliterated urachus), within the peritoneum of the anterior abdominal wall": "The median umbilical ligament relates to the obliterated urachus (a fetal bladder-to-umbilicus connection), an entirely different embryological remnant with no role in this portosystemic collateral pathway.",
+        "Ligamentum arteriosum (obliterated ductus arteriosus), within the mediastinum": "A cardiovascular embryological remnant in the thorax, completely unrelated to the abdominal, portal-venous-system finding described here."
+      },
+      "explanation": {
+        "core_concept": "Caput medusae is a direct, visible consequence of one specific embryological remnant \u2014 the obliterated left umbilical vein within the falciform ligament \u2014 reopening under the pressure of portal hypertension, making this a genuinely elegant example of embryology explaining a bedside physical sign.",
+        "why_correct": "The ligamentum teres hepatis, the fibrous remnant of the fetal left umbilical vein, runs within the free inferior margin of the falciform ligament (a ventral mesentery derivative) from the umbilicus to the liver. In portal hypertension, elevated portal pressure can force blood to recanalise this normally-closed embryological channel, creating a portosystemic collateral pathway that dilates periumbilical veins visible radiating from the umbilicus \u2014 the clinical sign called caput medusae.",
+        "why_others_wrong": {
+          "Ligamentum venosum (obliterated ductus venosus), within the lesser omentum": "A real liver-related embryological remnant, but not the one responsible for this specific periumbilical collateral pathway \u2014 its location (within a liver fissure) and role differ from the ligamentum teres hepatis's umbilical connection.",
+          "Median umbilical ligament (obliterated urachus), within the peritoneum of the anterior abdominal wall": "An unrelated embryological remnant (bladder-derived, not venous), with no connection to portal venous collateral pathways.",
+          "Ligamentum arteriosum (obliterated ductus arteriosus), within the mediastinum": "A completely different anatomical region (thorax) and organ system (cardiovascular), with no relevance to this abdominal, portal-hypertension-related finding."
+        },
+        "high_yield_facts": [
+          "Caput medusae = recanalised ligamentum teres hepatis (obliterated LEFT umbilical vein), within the falciform ligament.",
+          "This is one of several classic portosystemic anastomosis sites tested in portal hypertension (others include esophageal varices at the gastroesophageal junction, and hemorrhoids at the anorectal junction) \u2014 the periumbilical route via the falciform ligament is the one specifically tied to ventral mesentery anatomy.",
+          "The falciform ligament is a VENTRAL mesentery derivative \u2014 this vignette is a direct clinical application of that embryological fact."
+        ],
+        "clinical_correlation": "Recognising caput medusae at the bedside, and understanding its embryological basis, helps confirm a diagnosis of significant portal hypertension and points specifically to this collateral pathway among several possible sites of portosystemic shunting.",
+        "common_confusions": [
+          "Mixing up the various fetal liver-related vascular remnants (ligamentum teres hepatis from the umbilical vein, ligamentum venosum from the ductus venosus) \u2014 both are liver-associated but play different roles and sit in different locations, only one of which explains caput medusae specifically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Ligamentum venosum (contrast)",
+          "Other portosystemic anastomosis sites (esophageal, anorectal)",
+          "Falciform ligament anatomy"
+        ],
+        "exam_traps": [
+          "Don't default to 'ligamentum venosum' just because it's a more frequently discussed liver-related remnant in other contexts \u2014 the SPECIFIC clinical sign of caput medusae is tied to the ligamentum teres hepatis and falciform ligament, not the ligamentum venosum."
+        ],
+        "image_clues": null,
+        "memory_aid": "Teres hepatis = umbilical vein = umbilicus-radiating veins (caput medusae) \u2014 the name and the clinical sign share the same anatomical address.",
+        "other_ways_this_is_tested": [
+          "This clinical correlation directly ties back to the falciform ligament's identity as a ventral mesentery derivative, established in the direct-recall question on named derivatives elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Caput medusae results from recanalisation of the ligamentum teres hepatis (obliterated left umbilical vein) within the falciform ligament \u2014 a ventral mesentery derivative \u2014 under portal hypertension.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard hepatology/clinical anatomy correlation \u2014 Harrison's Principles of Internal Medicine, portal hypertension section; Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain caput medusae as recanalisation of the ligamentum teres hepatis within the falciform ligament under portal hypertension.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0007",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Comparison with dorsal mesentery",
+      "concept": "Ventral vs dorsal mesentery derivatives",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Which statement correctly distinguishes ventral mesentery derivatives from dorsal mesentery derivatives?",
+      "options": [
+        "Ventral mesentery gives rise only to the falciform ligament and lesser omentum, restricted to the liver-associated foregut; the dorsal mesentery gives rise to the greater omentum, mesentery proper, and transverse/sigmoid mesocolons, extending the full length of the gut tube",
+        "Both mesenteries give rise to an identical set of derivatives, differing only in the names used on each side",
+        "The dorsal mesentery is restricted to the foregut, while the ventral mesentery extends the full length of the gut tube",
+        "Ventral mesentery derivatives are found only in the pelvis, while dorsal mesentery derivatives are found only in the upper abdomen"
+      ],
+      "correct_answer": "Ventral mesentery gives rise only to the falciform ligament and lesser omentum, restricted to the liver-associated foregut; the dorsal mesentery gives rise to the greater omentum, mesentery proper, and transverse/sigmoid mesocolons, extending the full length of the gut tube",
+      "distractor_rationale": {
+        "Both mesenteries give rise to an identical set of derivatives, differing only in the names used on each side": "Incorrect \u2014 the two mesenteries have entirely different, non-overlapping derivative lists, not just different names for equivalent structures.",
+        "The dorsal mesentery is restricted to the foregut, while the ventral mesentery extends the full length of the gut tube": "Reverses the true relationship \u2014 it's the VENTRAL mesentery that's foregut-restricted, while the dorsal mesentery extends the full gut-tube length.",
+        "Ventral mesentery derivatives are found only in the pelvis, while dorsal mesentery derivatives are found only in the upper abdomen": "Both halves of this statement are wrong \u2014 ventral mesentery derivatives (falciform ligament, lesser omentum) are found in the UPPER abdomen near the liver, and dorsal mesentery derivatives extend throughout the abdomen and into the pelvis (sigmoid mesocolon), not confined to the upper abdomen alone."
+      },
+      "explanation": {
+        "core_concept": "This comparison is the single most efficient way to organise everything in this topic \u2014 knowing that the ventral mesentery is the SHORT, LIVER-LINKED, two-derivative mesentery, while the dorsal mesentery is the LONG, FULL-GUT-TUBE, many-derivative mesentery, lets you correctly sort any peritoneal structure into the right category just by checking which pattern it fits.",
+        "why_correct": "The ventral mesentery, restricted to the liver-associated foregut segment, gives rise to exactly two derivatives (falciform ligament, lesser omentum). The dorsal mesentery, running the full length of the gut tube from the foregut to the hindgut, gives rise to a much longer list including the greater omentum, the mesentery proper (suspending the jejunum and ileum), and the transverse and sigmoid mesocolons, among others.",
+        "why_others_wrong": {
+          "Both mesenteries give rise to an identical set of derivatives, differing only in the names used on each side": "The derivative lists are entirely different in both content and extent \u2014 this option incorrectly suggests symmetry where none exists.",
+          "The dorsal mesentery is restricted to the foregut, while the ventral mesentery extends the full length of the gut tube": "A direct reversal of the correct relationship between the two mesenteries' extents.",
+          "Ventral mesentery derivatives are found only in the pelvis, while dorsal mesentery derivatives are found only in the upper abdomen": "Misplaces both derivative sets \u2014 ventral derivatives are upper-abdominal (liver-associated), and dorsal derivatives span from the upper abdomen down into the pelvis, not confined to either region exclusively."
+        },
+        "high_yield_facts": [
+          "Ventral mesentery: SHORT extent (foregut only), TWO derivatives (falciform ligament, lesser omentum).",
+          "Dorsal mesentery: LONG extent (whole gut tube), MANY derivatives (greater omentum, mesentery proper, transverse mesocolon, sigmoid mesocolon, gastrosplenic and splenorenal ligaments, and more).",
+          "This asymmetry between the two mesenteries is itself the single most important organising fact in gut peritoneal embryology."
+        ],
+        "clinical_correlation": "This comparison underlies why the greater sac and lesser sac (bounded partly by these different mesenteric derivatives) have the specific relationships they do, and why surgical planes and potential spaces in the abdomen follow the particular pattern they do \u2014 much of upper GI surgical anatomy traces back to this ventral/dorsal derivative split.",
+        "common_confusions": [
+          "Assuming that because both structures are called 'mesenteries,' they must be roughly symmetric or equivalent in scope \u2014 this comparison question specifically tests whether that assumption has been corrected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Greater and lesser peritoneal sac formation",
+          "Stomach rotation and mesentery repositioning",
+          "Spleen development (dorsal mesogastrium)"
+        ],
+        "exam_traps": [
+          "When a question lists a peritoneal structure and asks which mesentery it derives from, first check if it's one of the ventral mesentery's ONLY TWO possible answers (falciform ligament, lesser omentum) \u2014 if it's anything else, it's almost certainly a dorsal mesentery derivative by elimination."
+        ],
+        "image_clues": null,
+        "memory_aid": "Ventral = short and liver-linked (2 derivatives). Dorsal = long and everywhere else (many derivatives) \u2014 think 'V for very limited, D for distributed throughout.'",
+        "other_ways_this_is_tested": [
+          "This comparison ties together every other question in this set \u2014 it's the organising principle behind the extent, derivative-naming, and structure-identification questions covered elsewhere."
+        ],
+        "neet_pg_takeaway": "Ventral mesentery = short, liver-linked, two derivatives (falciform ligament, lesser omentum). Dorsal mesentery = full gut-tube length, many derivatives (greater omentum, mesentery proper, mesocolons, and more) \u2014 know this asymmetry as the master organising fact for this topic.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard embryology \u2014 Langman's Medical Embryology, gastrointestinal system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Contrast the extent and derivative lists of the ventral and dorsal mesenteries.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_ventral_mesentery_derivatives_0008",
+      "subject": "Anatomy",
+      "topic": "Ventral Mesentry Derivatives",
+      "subtopic": "Image-based identification",
+      "concept": "Identifying the lesser omentum and its parts on a dissection image",
+      "question_type": "image_based",
+      "difficulty": 2,
+      "question": "[Image: anterior view of the upper abdomen after removal of the anterior abdominal wall, showing a thin peritoneal sheet connecting the liver to the lesser curvature of the stomach and continuing as a thicker free-edged fold connecting the liver to the duodenum, with visible pulsatile vessels within that free edge.] What is the structure indicated, and which part of it contains the visible pulsatile vessels?",
+      "options": [
+        "Lesser omentum; the hepatoduodenal ligament (its free edge) contains the visible pulsatile vessels",
+        "Greater omentum; the gastrocolic ligament contains the pulsatile vessels",
+        "Falciform ligament; its free inferior margin contains the pulsatile vessels",
+        "Gastrosplenic ligament; the splenic hilum contains the pulsatile vessels"
+      ],
+      "correct_answer": "Lesser omentum; the hepatoduodenal ligament (its free edge) contains the visible pulsatile vessels",
+      "distractor_rationale": {
+        "Greater omentum; the gastrocolic ligament contains the pulsatile vessels": "The greater omentum is a dorsal mesentery derivative connecting the stomach to the transverse colon, an entirely different structure and location from the liver-to-stomach/duodenum connection described.",
+        "Falciform ligament; its free inferior margin contains the pulsatile vessels": "The falciform ligament connects the liver to the anterior abdominal wall (not the stomach or duodenum), and its free margin contains the ligamentum teres hepatis (an obliterated vein, not a pulsatile artery-containing structure in the adult).",
+        "Gastrosplenic ligament; the splenic hilum contains the pulsatile vessels": "Connects the stomach to the spleen, a different organ pairing and location from the liver-to-stomach/duodenum structure described."
+      },
+      "explanation": {
+        "core_concept": "The lesser omentum's two-part structure \u2014 a flat hepatogastric portion and a thicker, free-edged hepatoduodenal portion containing the pulsatile hepatic artery \u2014 gives it a genuinely distinctive dissection appearance that directly reflects its two different functional roles (simple suspension vs vessel conduit).",
+        "why_correct": "The image describes a thin sheet (hepatogastric ligament, connecting liver to stomach) continuing as a thicker, free-edged fold (hepatoduodenal ligament, connecting liver to duodenum) \u2014 together these two parts make up the lesser omentum. The pulsatile vessels visible within the free edge are the hepatic artery proper (part of the portal triad, which also includes the non-pulsatile portal vein and common bile duct) running within the hepatoduodenal ligament specifically.",
+        "why_others_wrong": {
+          "Greater omentum; the gastrocolic ligament contains the pulsatile vessels": "Wrong organ connection entirely \u2014 greater omentum/gastrocolic ligament links stomach to transverse colon, not liver to stomach/duodenum.",
+          "Falciform ligament; its free inferior margin contains the pulsatile vessels": "Wrong structure \u2014 falciform ligament connects liver to abdominal wall, and its free margin contains the ligamentum teres hepatis, an obliterated (non-pulsatile) vein remnant, not the hepatic artery.",
+          "Gastrosplenic ligament; the splenic hilum contains the pulsatile vessels": "Wrong organ pairing \u2014 this connects stomach to spleen, not liver to stomach/duodenum as described."
+        },
+        "high_yield_facts": [
+          "Lesser omentum = hepatogastric ligament (thin, flat) + hepatoduodenal ligament (thick, free edge, portal triad).",
+          "The pulsatile vessel within the free edge is the hepatic artery proper \u2014 a useful intraoperative landmark, since the portal vein and bile duct within the same ligament are not pulsatile.",
+          "This free-edge, palpable-pulse feature is exactly what allows surgeons to locate the hepatic artery by palpation during hepatobiliary procedures."
+        ],
+        "clinical_correlation": "Surgeons use the palpable pulse within the hepatoduodenal ligament's free edge to identify the hepatic artery intraoperatively before proceeding with dissection or the Pringle maneuver \u2014 a direct practical application of this anatomical/dissection knowledge.",
+        "common_confusions": [
+          "Confusing the lesser omentum's two named parts (hepatogastric vs hepatoduodenal) with each other, or with the entirely separate falciform ligament, based on superficial visual similarity (all are thin peritoneal sheets near the liver) rather than checking which organs each one actually connects."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Portal triad contents",
+          "Epiploic foramen (bounded anteriorly by the hepatoduodenal ligament)",
+          "Falciform ligament (contrast structure)"
+        ],
+        "exam_traps": [
+          "Use the ORGANS CONNECTED (liver-to-stomach vs liver-to-duodenum vs liver-to-abdominal-wall) as the fastest way to identify which specific ventral mesentery derivative is shown in an image, rather than relying on general appearance alone."
+        ],
+        "image_clues": "Key visual clues: thin sheet from liver to stomach (hepatogastric part) continuing as a thicker fold with a free edge from liver to duodenum (hepatoduodenal part); a palpable/visible pulse within that free edge identifies the hepatic artery specifically.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This dissection-based identification directly reinforces the named-derivatives and portal-triad-contents questions elsewhere in this set with a visual recognition layer."
+        ],
+        "neet_pg_takeaway": "Lesser omentum = hepatogastric ligament (flat) + hepatoduodenal ligament (free edge, portal triad) \u2014 the pulsatile vessel in the free edge is the hepatic artery proper, a useful surgical landmark.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard dissection-based hepatobiliary anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen dissection images."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate upper abdominal dissection image or schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify the lesser omentum's two parts on a dissection image and locate the hepatic artery within the hepatoduodenal ligament's free edge.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

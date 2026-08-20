@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0031",
+    "topic": "Glossopharyngeal Nerve",
+    "chapter_number": 31,
+    "chapter_file": "data/anatomy/ch31_glossopharyngeal_nerve.json",
+    "source_years": [
+      2021
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "comparison"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "CN IX's MOTOR function (sole muscle: stylopharyngeus) is already covered in the Pharyngeal Arch Derivatives chapter (ch17). Verified ch17's exact coverage before building \u2014 this chapter deliberately covers only CN IX's SENSORY and REFLEX functions (gag reflex, carotid sinus/body afferents, posterior tongue sensation, glossopharyngeal neuralgia), none of which ch17 touches.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed against this file and cross-checked against ch17 \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "This chapter covers CN IX's SENSORY and REFLEX functions \u2014 genuinely distinct from its motor role (stylopharyngeus, already covered in the Pharyngeal Arch Derivatives chapter): general sensation and taste from the posterior 1/3 tongue, tonsillar/pharyngeal sensation (the afferent limb of the gag reflex), and baroreceptor/chemoreceptor afferents from the carotid sinus and carotid body \u2014 making CN IX a genuinely multi-functional nerve whose motor territory (one small muscle) is disproportionately tiny compared to its sensory/reflex importance."
+    },
+    "structure_anatomy": {
+      "posterior_tongue_sensation": "CN IX carries BOTH general sensation and taste from the posterior 1/3 of the tongue (circumvallate and posterior foliate papillae) \u2014 see the Tongue - Histology chapter for the full anterior-vs-posterior taste/sensation comparison.",
+      "gag_reflex_afferent": "CN IX is the AFFERENT (sensory) limb of the gag reflex, carrying sensory information from the posterior pharyngeal wall and tonsillar region; the EFFERENT (motor) limb is carried by CN X (vagus), producing pharyngeal muscle contraction \u2014 a classic afferent-CN-IX/efferent-CN-X reflex arc pairing, directly analogous in structure to the corneal reflex's afferent-V1/efferent-VII pairing.",
+      "carotid_sinus_and_body_afferents": "CN IX (specifically via its carotid sinus branch, sometimes called the nerve of Hering) carries baroreceptor afferents from the carotid sinus (sensing blood pressure via wall stretch) and chemoreceptor afferents from the carotid body (sensing blood oxygen, carbon dioxide, and pH) \u2014 both relaying to the medullary cardiovascular and respiratory centres, making CN IX a genuinely important autonomic sensory nerve, not just a nerve for taste and swallowing."
+    },
+    "clinical": {
+      "gag_reflex_testing": "Testing the gag reflex (touching the posterior pharyngeal wall) assesses CN IX (afferent) and CN X (efferent) together \u2014 an absent gag reflex with intact palatal movement on direct stimulation (or vice versa) can help distinguish which limb (afferent vs efferent, i.e. CN IX vs CN X) is more likely affected.",
+      "glossopharyngeal_neuralgia": "A rare but recognised condition producing severe, brief, electric-shock-like pain in the CN IX distribution (throat, tonsillar region, sometimes radiating to the ear), often triggered by swallowing, talking, or coughing \u2014 the CN IX analogue of trigeminal neuralgia, sharing a similar paroxysmal, trigger-provoked character.",
+      "carotid_sinus_hypersensitivity": "Exaggerated carotid sinus baroreceptor reflex sensitivity (carotid sinus syndrome) can cause profound bradycardia and/or hypotension with minimal stimulation (e.g. tight collar, head turning), sometimes causing syncope \u2014 a direct clinical consequence of CN IX's carotid sinus afferent role feeding into vagally-mediated cardiac slowing."
+    },
+    "related_structures": "CN IX's motor territory (stylopharyngeus alone, see Pharyngeal Arch Derivatives chapter) is genuinely tiny compared to its sensory/reflex importance covered here \u2014 a useful contrast worth holding in mind: CN IX is a nerve whose CLINICAL significance is overwhelmingly sensory/autonomic/reflex-based, not motor."
+  },
+  "question_family": [
+    {
+      "family_name": "Glossopharyngeal Nerve \u2014 Sensory and Reflex Functions (4 angles, one concept)",
+      "member_ids": [
+        "anat_glossopharyngeal_nerve_0001",
+        "anat_glossopharyngeal_nerve_0002",
+        "anat_glossopharyngeal_nerve_0003",
+        "anat_glossopharyngeal_nerve_0004"
+      ],
+      "coverage": "Recall (gag reflex arc), mechanism (carotid sinus/body afferents), clinical vignette (carotid sinus hypersensitivity), and comparison (glossopharyngeal vs trigeminal neuralgia) \u2014 four genuinely different angles, deliberately distinct from ch17's motor-only (stylopharyngeus) coverage of CN IX."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_glossopharyngeal_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Glossopharyngeal Nerve",
+      "subtopic": "Gag reflex arc",
+      "concept": "Glossopharyngeal nerve's sensory and reflex functions: gag reflex, carotid sinus/body afferents, and posterior tongue sensation",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "In the gag reflex, which cranial nerve carries the AFFERENT (sensory) limb, and which carries the EFFERENT (motor) limb?",
+      "options": [
+        "Afferent: CN IX (glossopharyngeal). Efferent: CN X (vagus)",
+        "Afferent: CN X (vagus). Efferent: CN IX (glossopharyngeal)",
+        "Both afferent and efferent limbs are carried by CN IX alone",
+        "Both afferent and efferent limbs are carried by CN X alone"
+      ],
+      "correct_answer": "Afferent: CN IX (glossopharyngeal). Efferent: CN X (vagus)",
+      "distractor_rationale": {
+        "Afferent: CN X (vagus). Efferent: CN IX (glossopharyngeal)": "Reverses the correct afferent/efferent assignment.",
+        "Both afferent and efferent limbs are carried by CN IX alone": "Understates CN X's essential efferent (pharyngeal muscle contraction) role.",
+        "Both afferent and efferent limbs are carried by CN X alone": "Understates CN IX's essential afferent (posterior pharyngeal wall sensation) role."
+      },
+      "explanation": {
+        "core_concept": "The gag reflex's afferent-IX/efferent-X split is structurally identical in LOGIC to the corneal reflex's afferent-V1/efferent-VII split \u2014 a cross-cranial-nerve reflex arc pattern worth recognising as a recurring theme, not a coincidence unique to either reflex.",
+        "why_correct": "CN IX (glossopharyngeal) carries the afferent (sensory) signal from the posterior pharyngeal wall/tonsillar region when touched; CN X (vagus) carries the efferent (motor) signal producing pharyngeal muscle contraction (the visible 'gag').",
+        "why_others_wrong": {
+          "Afferent: CN X (vagus). Efferent: CN IX (glossopharyngeal)": "A direct reversal of the correct assignment.",
+          "Both afferent and efferent limbs are carried by CN IX alone": "CN X's efferent motor role is essential and not replaceable by CN IX.",
+          "Both afferent and efferent limbs are carried by CN X alone": "CN IX's afferent sensory role is essential and not replaceable by CN X."
+        },
+        "high_yield_facts": [
+          "Gag reflex: afferent = CN IX, efferent = CN X \u2014 a fixed, frequently tested pairing.",
+          "This mirrors the corneal reflex's afferent-V1/efferent-VII cross-nerve pattern \u2014 recognise the RECURRING PRINCIPLE (sensory nerve in, motor nerve out, different nerves) rather than treating each reflex as an isolated fact.",
+          "Testing the gag reflex assesses BOTH nerves together \u2014 an abnormal result requires further testing to determine which limb is actually affected."
+        ],
+        "clinical_correlation": "An absent gag reflex with normal palatal movement on direct stimulation of the palate (a separate CN X motor test) suggests an afferent (CN IX) problem; absent movement with normal sensation suggests an efferent (CN X) problem \u2014 a genuinely useful localising distinction.",
+        "common_confusions": [
+          "Assuming a single cranial nerve mediates the entire gag reflex \u2014 like several other brainstem reflexes, it's a cross-nerve arc, not a single-nerve loop."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Corneal reflex (V1 afferent, VII efferent \u2014 see Trigeminal Nerve chapter, structurally identical logic)",
+          "Stylopharyngeus and CN IX's motor territory (see Pharyngeal Arch Derivatives chapter)"
+        ],
+        "exam_traps": [
+          "Don't assume gag reflex testing isolates CN IX alone \u2014 it tests BOTH IX and X together, and abnormal findings require further testing to localise which nerve is actually responsible."
+        ],
+        "image_clues": null,
+        "memory_aid": "IX senses IN, X kicks OUT \u2014 glossopharyngeal feels the touch, vagus makes the gag happen.",
+        "other_ways_this_is_tested": [
+          "This afferent/efferent split directly parallels the corneal reflex logic from the Trigeminal Nerve chapter, worth learning as a shared pattern."
+        ],
+        "neet_pg_takeaway": "The gag reflex's afferent limb is CN IX (glossopharyngeal); its efferent limb is CN X (vagus) \u2014 a cross-cranial-nerve reflex arc, structurally parallel to the corneal reflex's V1/VII pairing.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, cranial nerve reflexes section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the afferent (CN IX) and efferent (CN X) limbs of the gag reflex.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_glossopharyngeal_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Glossopharyngeal Nerve",
+      "subtopic": "Carotid sinus and body afferents",
+      "concept": "Glossopharyngeal nerve's sensory and reflex functions: gag reflex, carotid sinus/body afferents, and posterior tongue sensation",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "The carotid sinus (baroreceptors) and carotid body (chemoreceptors) both send afferent information to the brainstem via CN IX. What do each of these two receptor types specifically detect?",
+      "options": [
+        "Carotid sinus: blood pressure (via wall stretch). Carotid body: blood oxygen, carbon dioxide, and pH",
+        "Carotid sinus: blood glucose. Carotid body: blood pressure",
+        "Both structures detect identical parameters (blood pressure only), providing redundant information",
+        "Carotid sinus: blood oxygen. Carotid body: blood pressure \u2014 the reverse of the correct pairing"
+      ],
+      "correct_answer": "Carotid sinus: blood pressure (via wall stretch). Carotid body: blood oxygen, carbon dioxide, and pH",
+      "distractor_rationale": {
+        "Carotid sinus: blood glucose. Carotid body: blood pressure": "Neither structure detects blood glucose; both assignments are incorrect.",
+        "Both structures detect identical parameters (blood pressure only), providing redundant information": "Denies the genuine, distinct functional roles (baroreceptor vs chemoreceptor) of these two separate structures.",
+        "Carotid sinus: blood oxygen. Carotid body: blood pressure \u2014 the reverse of the correct pairing": "Reverses the correct sinus/body functional assignment."
+      },
+      "explanation": {
+        "core_concept": "The carotid sinus (pressure) and carotid body (chemistry) are genuinely distinct structures with distinct sensory modalities, both relayed by the same nerve (CN IX) \u2014 understanding this functional split is what makes CN IX's cardiovascular/respiratory role coherent rather than a vague 'it's involved in blood pressure somehow' impression.",
+        "why_correct": "The carotid sinus (a dilation at the internal/external carotid bifurcation) contains baroreceptors sensing blood pressure via mechanical stretch of the vessel wall. The carotid body (a small structure also near the bifurcation) contains chemoreceptors sensing blood oxygen tension, carbon dioxide tension, and pH. Both send their respective afferent signals via CN IX to the medullary cardiovascular and respiratory centres.",
+        "why_others_wrong": {
+          "Carotid sinus: blood glucose. Carotid body: blood pressure": "Neither structure senses glucose; both assignments are wrong.",
+          "Both structures detect identical parameters (blood pressure only), providing redundant information": "The two structures have genuinely distinct sensory roles (pressure vs chemistry), not redundant identical function.",
+          "Carotid sinus: blood oxygen. Carotid body: blood pressure \u2014 the reverse of the correct pairing": "Reverses the correct sinus (pressure)/body (chemistry) assignment."
+        },
+        "high_yield_facts": [
+          "Carotid SINUS = baroreceptor (pressure/stretch).",
+          "Carotid BODY = chemoreceptor (O2, CO2, pH).",
+          "Both relay via CN IX (the carotid sinus branch, 'nerve of Hering') to the medulla \u2014 a genuinely important autonomic sensory role for a nerve otherwise mostly discussed for taste/swallowing."
+        ],
+        "clinical_correlation": "This mechanism underlies carotid sinus massage (used diagnostically/therapeutically in some arrhythmias, stimulating the baroreceptor reflex to slow heart rate) and explains why carotid body tumours (paragangliomas) can sometimes cause chemoreceptor-related symptoms.",
+        "common_confusions": [
+          "Conflating the carotid sinus and carotid body as a single structure with a single function \u2014 they are anatomically distinct structures with genuinely different sensory roles, simply located near each other."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Carotid sinus hypersensitivity/syncope (this concept, clinical correlation)",
+          "Gag reflex afferent (this concept, another CN IX sensory role)"
+        ],
+        "exam_traps": [
+          "Don't assume 'carotid sinus' and 'carotid body' are interchangeable terms \u2014 actively distinguish baroreceptor (sinus) from chemoreceptor (body) function."
+        ],
+        "image_clues": null,
+        "memory_aid": "SINus senses STRETCH (pressure); BODY senses BLOOD CHEMISTRY (gases, pH).",
+        "other_ways_this_is_tested": [
+          "This mechanism directly explains carotid sinus syndrome, covered in the clinical vignette elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The carotid sinus (baroreceptor, blood pressure via stretch) and carotid body (chemoreceptor, O2/CO2/pH) are functionally distinct structures, both relaying afferent information via CN IX to the medulla.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Guyton and Hall Textbook of Medical Physiology, cardiovascular regulation chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish the carotid sinus's baroreceptor function from the carotid body's chemoreceptor function, both relayed via CN IX.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_glossopharyngeal_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Glossopharyngeal Nerve",
+      "subtopic": "Clinical \u2014 carotid sinus hypersensitivity",
+      "concept": "Glossopharyngeal nerve's sensory and reflex functions: gag reflex, carotid sinus/body afferents, and posterior tongue sensation",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "An elderly man reports episodes of lightheadedness and near-fainting whenever he turns his head sharply or wears a tight collar. Carotid sinus massage in a monitored setting reproduces marked bradycardia and a drop in blood pressure. What is the underlying mechanism?",
+      "options": [
+        "Carotid sinus hypersensitivity \u2014 exaggerated baroreceptor afferent signalling (via CN IX) triggers an excessive vagally-mediated (CN X) reflex slowing of heart rate and vasodilation",
+        "Carotid body tumour directly compressing the airway, causing hypoxia-related symptoms unrelated to any reflex arc",
+        "Glossopharyngeal neuralgia, causing pain-triggered syncope through an unrelated pain pathway",
+        "This presentation reflects primary cardiac arrhythmia with no relationship to any cranial nerve or carotid structure"
+      ],
+      "correct_answer": "Carotid sinus hypersensitivity \u2014 exaggerated baroreceptor afferent signalling (via CN IX) triggers an excessive vagally-mediated (CN X) reflex slowing of heart rate and vasodilation",
+      "distractor_rationale": {
+        "Carotid body tumour directly compressing the airway, causing hypoxia-related symptoms unrelated to any reflex arc": "The vignette's trigger (head turning, tight collar) and reproducible response to carotid massage specifically point to a baroreceptor REFLEX mechanism, not airway compression from a mass.",
+        "Glossopharyngeal neuralgia, causing pain-triggered syncope through an unrelated pain pathway": "Glossopharyngeal neuralgia causes throat/ear PAIN, not the bradycardia/hypotension pattern with mechanical (collar, head-turning) triggers described here.",
+        "This presentation reflects primary cardiac arrhythmia with no relationship to any cranial nerve or carotid structure": "The specific triggers (mechanical stimulation of the carotid sinus region) and the reproducible response to carotid massage directly implicate the baroreceptor reflex arc, not a primary, unrelated cardiac rhythm disorder."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical application of the carotid sinus baroreceptor mechanism established elsewhere in this chapter \u2014 an EXAGGERATED version of the normal baroreceptor reflex (afferent CN IX, efferent vagal CN X to the heart) produces genuinely dangerous bradycardia/hypotension from otherwise trivial mechanical stimuli.",
+        "why_correct": "Carotid sinus hypersensitivity involves an exaggerated baroreceptor reflex response: mechanical stimulation of the carotid sinus (from head turning, a tight collar, or direct massage) produces excessive afferent baroreceptor signalling via CN IX, triggering an excessive efferent vagal (CN X) response \u2014 marked bradycardia and vasodilation/hypotension \u2014 sometimes severe enough to cause syncope.",
+        "why_others_wrong": {
+          "Carotid body tumour directly compressing the airway, causing hypoxia-related symptoms unrelated to any reflex arc": "Doesn't match the specific reflex triggers (positional, mechanical) or the reproducible response to carotid massage, which specifically points to a baroreceptor reflex mechanism.",
+          "Glossopharyngeal neuralgia, causing pain-triggered syncope through an unrelated pain pathway": "Produces throat/ear pain as its primary symptom, not the bradycardia/hypotension pattern described here.",
+          "This presentation reflects primary cardiac arrhythmia with no relationship to any cranial nerve or carotid structure": "The specific mechanical triggers and reproducibility with carotid sinus massage directly implicate the baroreceptor reflex, not an unrelated primary cardiac process."
+        },
+        "high_yield_facts": [
+          "Carotid sinus hypersensitivity: exaggerated baroreceptor reflex \u2192 bradycardia/hypotension from trivial mechanical stimuli (collar, head turning).",
+          "Diagnostic confirmation: carotid sinus massage in a monitored setting, watching for reproducible bradycardia/hypotension.",
+          "This is a genuine, clinically important cause of syncope in older adults, directly reflecting CN IX's baroreceptor afferent role feeding into the vagally-mediated cardiac reflex."
+        ],
+        "clinical_correlation": "Recognising this mechanism guides both diagnosis (carotid sinus massage under monitoring) and management (avoiding known triggers; in severe/recurrent cases, sometimes pacemaker placement if cardioinhibitory symptoms are prominent).",
+        "common_confusions": [
+          "Assuming syncope with head-turning or collar-related triggers must reflect a primary cardiac or vascular flow problem, rather than recognising this specific, reflex-based (baroreceptor hypersensitivity) mechanism."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Carotid sinus/body afferent mechanism (this concept, the mechanism question)",
+          "Vagal (CN X) efferent limb of the baroreceptor reflex"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC trigger pattern (mechanical stimulation of the neck/carotid region) and the diagnostic test (carotid massage reproducing symptoms) to confirm this mechanism rather than defaulting to a primary cardiac arrhythmia explanation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Squeeze the sinus, trip the brake \u2014 an overly sensitive baroreceptor reflex slams the vagal brakes on the heart.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct clinical payoff of the carotid sinus/body mechanism established earlier in this chapter."
+        ],
+        "neet_pg_takeaway": "Carotid sinus hypersensitivity produces exaggerated baroreceptor-reflex bradycardia/hypotension from trivial mechanical neck stimuli, confirmed by reproducible symptoms on carotid sinus massage \u2014 a direct clinical consequence of CN IX's baroreceptor afferent role.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard cardiology teaching on syncope and carotid sinus syndrome."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose carotid sinus hypersensitivity from its characteristic mechanical triggers and reproducible response to carotid sinus massage.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_glossopharyngeal_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Glossopharyngeal Nerve",
+      "subtopic": "Comparison with trigeminal neuralgia",
+      "concept": "Glossopharyngeal nerve's sensory and reflex functions: gag reflex, carotid sinus/body afferents, and posterior tongue sensation",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "Glossopharyngeal neuralgia and trigeminal neuralgia share a similar clinical character. How do they differ in distribution and typical triggers, despite this shared character?",
+      "options": [
+        "Glossopharyngeal neuralgia causes pain in the throat/tonsillar region (sometimes radiating to the ear), triggered by swallowing, talking, or coughing; trigeminal neuralgia causes pain in the V2/V3 facial distribution, triggered by light touch, chewing, or cold air",
+        "Both conditions affect the identical facial distribution and are triggered by identical stimuli, differing only in name",
+        "Glossopharyngeal neuralgia causes facial pain identical to trigeminal neuralgia, while trigeminal neuralgia specifically causes throat pain",
+        "Neither condition has any specific trigger pattern; both cause constant, unprovoked pain"
+      ],
+      "correct_answer": "Glossopharyngeal neuralgia causes pain in the throat/tonsillar region (sometimes radiating to the ear), triggered by swallowing, talking, or coughing; trigeminal neuralgia causes pain in the V2/V3 facial distribution, triggered by light touch, chewing, or cold air",
+      "distractor_rationale": {
+        "Both conditions affect the identical facial distribution and are triggered by identical stimuli, differing only in name": "Denies the genuine, distinct territory (throat/tonsil vs face) and trigger patterns (swallowing/talking vs touch/chewing/cold) that distinguish these two conditions.",
+        "Glossopharyngeal neuralgia causes facial pain identical to trigeminal neuralgia, while trigeminal neuralgia specifically causes throat pain": "Reverses the correct territory assignment for each condition.",
+        "Neither condition has any specific trigger pattern; both cause constant, unprovoked pain": "Both conditions are specifically characterised by PAROXYSMAL, TRIGGER-PROVOKED pain, not constant unprovoked pain \u2014 this option denies their shared defining character."
+      },
+      "explanation": {
+        "core_concept": "Recognising glossopharyngeal neuralgia as the CN IX analogue of trigeminal neuralgia \u2014 sharing the paroxysmal, trigger-provoked character but differing in territory and specific triggers matched to each nerve's own sensory distribution \u2014 is a genuinely useful comparative framework rather than needing to memorise each condition as entirely independent.",
+        "why_correct": "Glossopharyngeal neuralgia produces brief, severe, electric-shock-like pain specifically in the throat/tonsillar region (CN IX's sensory territory), sometimes radiating to the ear, classically triggered by activities involving that region \u2014 swallowing, talking, coughing. Trigeminal neuralgia produces similar-character pain but in the V2/V3 facial distribution (trigeminal territory), triggered by light touch, chewing, or cold air \u2014 activities involving the FACE rather than the throat.",
+        "why_others_wrong": {
+          "Both conditions affect the identical facial distribution and are triggered by identical stimuli, differing only in name": "Denies the genuinely distinct anatomical territories and trigger patterns matched to each nerve's own sensory distribution.",
+          "Glossopharyngeal neuralgia causes facial pain identical to trigeminal neuralgia, while trigeminal neuralgia specifically causes throat pain": "A direct reversal of the correct territory assignment.",
+          "Neither condition has any specific trigger pattern; both cause constant, unprovoked pain": "Both conditions are specifically PAROXYSMAL and TRIGGER-PROVOKED \u2014 denying this shared character misrepresents both conditions."
+        },
+        "high_yield_facts": [
+          "Glossopharyngeal neuralgia: throat/tonsil pain (\u00b1 ear radiation), triggered by swallowing/talking/coughing.",
+          "Trigeminal neuralgia: V2/V3 facial pain, triggered by light touch/chewing/cold air.",
+          "Both share the SAME underlying character (brief, severe, electric-shock-like, paroxysmal) \u2014 the difference is territory and trigger, matched to each nerve's own specific sensory distribution."
+        ],
+        "clinical_correlation": "Correctly distinguishing these two neuralgias guides appropriate treatment planning (both often respond to similar anticonvulsant medications like carbamazepine, but any surgical decompression approach would target the specific, different nerve involved).",
+        "common_confusions": [
+          "Assuming any 'neuralgia' with this paroxysmal character must be trigeminal neuralgia by default \u2014 glossopharyngeal neuralgia is a genuine, distinct entity with its own specific territory, worth actively distinguishing when throat (not facial) pain is described."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Trigeminal neuralgia (see Trigeminal Nerve chapter, for the parallel condition)",
+          "Gag reflex and CN IX sensory territory (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When a vignette describes brief, severe, trigger-provoked pain, check the SPECIFIC location (throat vs face) to distinguish glossopharyngeal from trigeminal neuralgia \u2014 the shared paroxysmal character alone isn't enough to distinguish them."
+        ],
+        "image_clues": null,
+        "memory_aid": "Same electric-shock character, different postcode \u2014 throat/ear for IX, face for V.",
+        "other_ways_this_is_tested": [
+          "This comparison connects directly to the trigeminal neuralgia vignette from the Trigeminal Nerve chapter, reinforcing the shared paroxysmal-neuralgia pattern across different cranial nerves."
+        ],
+        "neet_pg_takeaway": "Glossopharyngeal neuralgia (throat/tonsil pain, triggered by swallowing/talking/coughing) and trigeminal neuralgia (V2/V3 facial pain, triggered by touch/chewing/cold) share the same paroxysmal, electric-shock-like character but differ in territory and specific triggers, each matched to its respective nerve's sensory distribution.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Adams and Victor's Principles of Neurology; standard neurology references on cranial neuralgias."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Compare glossopharyngeal neuralgia with trigeminal neuralgia by territory and trigger pattern, recognising their shared paroxysmal character.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

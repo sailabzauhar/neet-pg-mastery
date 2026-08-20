@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0043",
+    "topic": "Meralgia Paresthetica",
+    "chapter_number": 43,
+    "chapter_file": "data/anatomy/ch43_meralgia_paresthetica.json",
+    "source_years": [
+      2025
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 1,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "diagnostic_reasoning",
+      "association"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Meralgia paresthetica is a purely sensory neuropathy of the lateral cutaneous nerve of the thigh (lateral femoral cutaneous nerve, L2-L3), caused by entrapment as the nerve passes beneath (or occasionally through) the inguinal ligament near the anterior superior iliac spine \u2014 producing burning pain, tingling, and numbness over the anterolateral thigh, WITHOUT any motor weakness, since this nerve carries no motor fibres at all."
+    },
+    "structure_anatomy": {
+      "course": "Arises from the lumbar plexus (L2-L3 ventral rami), crosses the iliacus muscle within the pelvis, then passes beneath (or, in a recognised anatomical variant, occasionally through) the inguinal ligament close to the anterior superior iliac spine (ASIS), before dividing into anterior and posterior branches supplying skin over the anterolateral and lateral thigh respectively.",
+      "purely_sensory": "The lateral cutaneous nerve of the thigh is purely sensory, carrying no motor fibres to any muscle \u2014 this is exactly why meralgia paresthetica, even when symptomatic, never causes any weakness, a genuinely useful fact distinguishing it from nerve entrapment syndromes involving mixed sensory-motor nerves."
+    },
+    "clinical": {
+      "entrapment_risk_factors": "Risk factors for entrapment at the inguinal ligament include obesity, pregnancy, tight clothing/belts, prolonged standing or walking, and conditions increasing intra-abdominal pressure \u2014 all of which can increase tension or compression on the nerve at its fixed anatomical pinch point beneath the inguinal ligament.",
+      "clinical_presentation": "Burning pain, tingling (paraesthesia), and/or numbness confined to the anterolateral thigh, classically WITHOUT any motor weakness and typically without significant back pain or reflex changes \u2014 this purely sensory, well-localised presentation (plus the absence of motor findings) is what distinguishes meralgia paresthetica from an L2-L3 radiculopathy, which would be expected to also affect motor function (e.g. hip flexion, knee extension) given the mixed sensory-motor nature of the actual spinal nerve roots at this level.",
+      "diagnosis_and_management": "Diagnosis is primarily clinical, based on the characteristic symptom distribution and absence of motor findings; management is typically conservative first-line (weight loss if relevant, avoiding tight clothing/belts, addressing other risk factors), with local anaesthetic/corticosteroid injection near the entrapment point or, rarely, surgical decompression reserved for refractory cases."
+    },
+    "related_structures": "The purely sensory nature of the lateral cutaneous nerve of the thigh is the single most useful discriminating fact in this entire topic \u2014 it's exactly what allows meralgia paresthetica (pure sensory symptoms) to be confidently distinguished from L2-L3 radiculopathy (which would also affect motor function, since spinal nerve roots carry both modalities) based on examination findings alone."
+  },
+  "question_family": [
+    {
+      "family_name": "Meralgia Paresthetica \u2014 Entrapment, Sensory-Only Nature, and Clinical Distinction (4 angles, one concept)",
+      "member_ids": [
+        "anat_meralgia_paresthetica_0001",
+        "anat_meralgia_paresthetica_0002",
+        "anat_meralgia_paresthetica_0003",
+        "anat_meralgia_paresthetica_0004"
+      ],
+      "coverage": "Recall (nerve and entrapment site), mechanism (purely sensory nature), diagnostic reasoning (distinction from L2-L3 radiculopathy), and association (risk factors) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_meralgia_paresthetica_0001",
+      "subject": "Anatomy",
+      "topic": "Meralgia Paresthetica",
+      "subtopic": "Nerve and entrapment site",
+      "concept": "Meralgia paresthetica: lateral cutaneous nerve of thigh entrapment, its purely sensory nature, and distinction from L2-L3 radiculopathy",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Meralgia paresthetica results from entrapment of which nerve, at which specific anatomical site?",
+      "options": [
+        "The lateral cutaneous nerve of the thigh (lateral femoral cutaneous nerve), entrapped beneath the inguinal ligament near the ASIS",
+        "The femoral nerve, entrapped within the femoral canal",
+        "The obturator nerve, entrapped within the obturator canal",
+        "The sciatic nerve, entrapped at the piriformis muscle"
+      ],
+      "correct_answer": "The lateral cutaneous nerve of the thigh (lateral femoral cutaneous nerve), entrapped beneath the inguinal ligament near the ASIS",
+      "distractor_rationale": {
+        "The femoral nerve, entrapped within the femoral canal": "A different nerve (mixed sensory-motor) at a different anatomical site \u2014 femoral nerve entrapment would cause additional motor findings (weak knee extension), unlike meralgia paresthetica's purely sensory presentation.",
+        "The obturator nerve, entrapped within the obturator canal": "A different nerve and site entirely, associated with medial thigh (not anterolateral) sensory/motor findings.",
+        "The sciatic nerve, entrapped at the piriformis muscle": "A different nerve, site, and clinical syndrome (piriformis syndrome, affecting the posterior thigh/leg with mixed sensory-motor findings), unrelated to meralgia paresthetica."
+      },
+      "explanation": {
+        "core_concept": "The specific nerve (lateral cutaneous nerve of thigh) and entrapment site (beneath the inguinal ligament near the ASIS) are the foundational facts explaining both the characteristic symptom location (anterolateral thigh) and the purely sensory character of this syndrome.",
+        "why_correct": "Meralgia paresthetica results from entrapment of the lateral cutaneous nerve of the thigh (L2-L3), classically as it passes beneath (or occasionally through) the inguinal ligament close to the anterior superior iliac spine \u2014 a fixed anatomical pinch point vulnerable to compression from various risk factors.",
+        "why_others_wrong": {
+          "The femoral nerve, entrapped within the femoral canal": "A different, mixed sensory-motor nerve; its entrapment would cause additional motor weakness (knee extension), unlike meralgia paresthetica's purely sensory presentation.",
+          "The obturator nerve, entrapped within the obturator canal": "A different nerve/site, associated with medial thigh findings, not the anterolateral thigh distribution of meralgia paresthetica.",
+          "The sciatic nerve, entrapped at the piriformis muscle": "An entirely different nerve, site, and clinical syndrome (piriformis syndrome)."
+        },
+        "high_yield_facts": [
+          "Meralgia paresthetica = lateral cutaneous nerve of thigh (L2-L3) entrapment, at the inguinal ligament near the ASIS.",
+          "The specific entrapment site (a fixed anatomical pinch point) directly explains why certain risk factors (obesity, tight clothing, pregnancy) precipitate symptoms \u2014 they increase compression at this exact point.",
+          "This is a genuinely common, often under-recognised cause of anterolateral thigh symptoms, worth actively considering in appropriate clinical contexts."
+        ],
+        "clinical_correlation": "Recognising this specific nerve and entrapment site directly guides both diagnosis (symptom distribution matching this nerve's territory) and management (addressing modifiable risk factors like tight clothing, or considering local injection at this specific anatomical point).",
+        "common_confusions": [
+          "Confusing meralgia paresthetica's nerve/site with other lower limb nerve entrapment syndromes (femoral, obturator, sciatic) \u2014 each has a distinct nerve, site, and resulting symptom pattern worth keeping separate."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Purely sensory nature (this concept, other question)",
+          "Distinction from L2-L3 radiculopathy (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't confuse this with femoral nerve entrapment simply because both are 'thigh' nerve issues \u2014 the SPECIFIC nerve (lateral cutaneous nerve of thigh vs femoral nerve) and resulting findings (purely sensory vs mixed sensory-motor) are genuinely different."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lateral cutaneous nerve of thigh, pinched right at the belt line near the hip bone (ASIS) \u2014 meralgia paresthetica's signature location.",
+        "other_ways_this_is_tested": [
+          "This entrapment site directly explains the risk factors (tight clothing, obesity, pregnancy) covered implicitly throughout this chapter's clinical content."
+        ],
+        "neet_pg_takeaway": "Meralgia paresthetica results from entrapment of the lateral cutaneous nerve of the thigh beneath the inguinal ligament near the ASIS \u2014 a specific nerve and site distinct from other lower limb nerve entrapment syndromes.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy; standard neurology references on meralgia paresthetica."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the lateral cutaneous nerve of the thigh and its entrapment site as the cause of meralgia paresthetica.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_meralgia_paresthetica_0002",
+      "subject": "Anatomy",
+      "topic": "Meralgia Paresthetica",
+      "subtopic": "Purely sensory nature",
+      "concept": "Meralgia paresthetica: lateral cutaneous nerve of thigh entrapment, its purely sensory nature, and distinction from L2-L3 radiculopathy",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Meralgia paresthetica never causes any motor weakness, regardless of symptom severity. What anatomical fact about the lateral cutaneous nerve of the thigh explains this?",
+      "options": [
+        "The lateral cutaneous nerve of the thigh is purely sensory, carrying no motor fibres to any muscle at all",
+        "The nerve does carry motor fibres, but they are too small in number to ever produce clinically detectable weakness",
+        "Motor weakness IS actually a common feature of meralgia paresthetica, and this premise is incorrect",
+        "The nerve's motor fibres are protected by a special anatomical sheath that prevents them from ever being affected by entrapment"
+      ],
+      "correct_answer": "The lateral cutaneous nerve of the thigh is purely sensory, carrying no motor fibres to any muscle at all",
+      "distractor_rationale": {
+        "The nerve does carry motor fibres, but they are too small in number to ever produce clinically detectable weakness": "Incorrectly claims the nerve carries SOME motor fibres \u2014 it carries NONE at all, a complete absence, not merely a small or negligible number.",
+        "Motor weakness IS actually a common feature of meralgia paresthetica, and this premise is incorrect": "Directly contradicts well-established clinical teaching \u2014 motor weakness is specifically ABSENT in meralgia paresthetica, precisely because of the nerve's purely sensory nature.",
+        "The nerve's motor fibres are protected by a special anatomical sheath that prevents them from ever being affected by entrapment": "Incorrectly presumes the existence of motor fibres requiring protection \u2014 there are none to protect in the first place."
+      },
+      "explanation": {
+        "core_concept": "Understanding that the ABSENCE of motor weakness isn't a matter of degree or protection but reflects the complete, categorical absence of motor fibres in this nerve is exactly what makes 'no weakness, ever' a reliable, absolute diagnostic feature rather than just a usual tendency.",
+        "why_correct": "The lateral cutaneous nerve of the thigh is purely sensory \u2014 it carries NO motor fibres to any muscle whatsoever. This complete absence of motor function is precisely why meralgia paresthetica, regardless of how severe the sensory symptoms become, NEVER produces any motor weakness \u2014 there's simply no motor component to this nerve that entrapment could possibly affect.",
+        "why_others_wrong": {
+          "The nerve does carry motor fibres, but they are too small in number to ever produce clinically detectable weakness": "Incorrectly claims some (even minimal) motor fibre presence \u2014 the nerve is entirely, categorically sensory, with zero motor fibres.",
+          "Motor weakness IS actually a common feature of meralgia paresthetica, and this premise is incorrect": "Contradicts the well-established, defining absence of motor findings in this specific syndrome.",
+          "The nerve's motor fibres are protected by a special anatomical sheath that prevents them from ever being affected by entrapment": "Presupposes motor fibres that don't actually exist in this nerve at all."
+        },
+        "high_yield_facts": [
+          "Lateral cutaneous nerve of thigh = 100% sensory, ZERO motor fibres \u2014 an absolute, not relative, fact.",
+          "This is exactly why meralgia paresthetica NEVER causes weakness, regardless of symptom severity \u2014 there's no motor component to affect.",
+          "This absolute sensory-only nature is the single most useful diagnostic discriminator against L2-L3 radiculopathy, covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "Finding ANY motor weakness in a patient with anterolateral thigh symptoms should immediately prompt reconsidering the diagnosis away from isolated meralgia paresthetica toward an alternative explanation (like radiculopathy), since this nerve's complete absence of motor fibres makes weakness categorically inconsistent with this specific diagnosis.",
+        "common_confusions": [
+          "Assuming 'purely sensory' might still permit MILD weakness in severe cases \u2014 the sensory-only nature is absolute and categorical, not a matter of degree; there is no motor component present at all, mild or otherwise."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Entrapment site (this concept, other question)",
+          "Distinction from L2-L3 radiculopathy (this concept, other question) \u2014 the direct clinical application of this purely sensory fact"
+        ],
+        "exam_traps": [
+          "When a vignette describes anterolateral thigh symptoms WITH any motor finding, that additional finding should specifically argue AGAINST isolated meralgia paresthetica, given this nerve's complete lack of motor fibres."
+        ],
+        "image_clues": null,
+        "memory_aid": "Zero motor fibres means zero possible weakness \u2014 meralgia paresthetica physically CANNOT cause motor findings, by definition of the nerve itself.",
+        "other_ways_this_is_tested": [
+          "This absolute sensory-only fact is the direct basis for the L2-L3 radiculopathy distinction covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The lateral cutaneous nerve of the thigh carries no motor fibres whatsoever \u2014 an absolute, categorical fact explaining why meralgia paresthetica never causes motor weakness, regardless of symptom severity.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, lumbar plexus and lower limb chapters."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the complete absence of motor weakness in meralgia paresthetica based on the nerve's purely sensory nature.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_meralgia_paresthetica_0003",
+      "subject": "Anatomy",
+      "topic": "Meralgia Paresthetica",
+      "subtopic": "Clinical \u2014 distinction from L2-L3 radiculopathy",
+      "concept": "Meralgia paresthetica: lateral cutaneous nerve of thigh entrapment, its purely sensory nature, and distinction from L2-L3 radiculopathy",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "A patient presents with burning pain and numbness over the anterolateral thigh. On examination, hip flexion and knee extension strength are completely normal, and the patellar reflex is intact. How does this examination help distinguish meralgia paresthetica from an L2-L3 radiculopathy, which could theoretically produce a similar sensory distribution?",
+      "options": [
+        "The NORMAL motor findings (hip flexion, knee extension) and intact patellar reflex argue AGAINST radiculopathy (which would be expected to also affect these mixed sensory-motor nerve root functions) and are CONSISTENT WITH isolated meralgia paresthetica, given the lateral cutaneous nerve of thigh's purely sensory nature",
+        "This examination provides no useful distinguishing information between the two possible diagnoses",
+        "Normal motor findings actually confirm radiculopathy rather than meralgia paresthetica, the reverse of the correct interpretation",
+        "The patellar reflex is entirely unrelated to L2-L3 function and provides no relevant information for this specific distinction"
+      ],
+      "correct_answer": "The NORMAL motor findings (hip flexion, knee extension) and intact patellar reflex argue AGAINST radiculopathy (which would be expected to also affect these mixed sensory-motor nerve root functions) and are CONSISTENT WITH isolated meralgia paresthetica, given the lateral cutaneous nerve of thigh's purely sensory nature",
+      "distractor_rationale": {
+        "This examination provides no useful distinguishing information between the two possible diagnoses": "Denies the genuine, significant diagnostic value of these specific motor/reflex findings in distinguishing between these two possible causes of similar sensory symptoms.",
+        "Normal motor findings actually confirm radiculopathy rather than meralgia paresthetica, the reverse of the correct interpretation": "Directly reverses the correct interpretation \u2014 NORMAL motor findings argue AGAINST (not for) radiculopathy, since radiculopathy would be expected to show motor involvement.",
+        "The patellar reflex is entirely unrelated to L2-L3 function and provides no relevant information for this specific distinction": "The patellar reflex (predominantly L3-L4, with some L2 contribution to the broader quadriceps/femoral nerve function) IS relevant to assessing L2-L3-level nerve root function, making this option's dismissal of its relevance incorrect."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question directly synthesises the purely sensory nature of the lateral cutaneous nerve of thigh with the mixed sensory-motor nature of actual spinal nerve roots \u2014 the key insight is that a NERVE ROOT lesion (radiculopathy) would affect BOTH sensory AND motor fibres at that level, while an isolated PERIPHERAL SENSORY NERVE entrapment (meralgia paresthetica) can only ever affect sensation.",
+        "why_correct": "L2-L3 spinal nerve roots are mixed, carrying BOTH sensory AND motor fibres \u2014 motor fibres from these levels contribute to hip flexion (iliopsoas, partly L2-L3) and knee extension (quadriceps femoris, L2-L4, with the patellar reflex testing this same L2-L4 pathway, most heavily L3-L4). A radiculopathy at L2-L3 would therefore be expected to show SOME degree of motor weakness and/or reflex change in addition to sensory symptoms. Since the lateral cutaneous nerve of the thigh (the nerve affected in meralgia paresthetica) is purely sensory and carries no motor fibres, an ISOLATED entrapment of this specific peripheral nerve would show sensory symptoms alone, with COMPLETELY NORMAL motor function and reflexes \u2014 exactly matching this vignette's findings, and specifically arguing against a radiculopathy explanation (which would be expected to show at least some motor/reflex involvement).",
+        "why_others_wrong": {
+          "This examination provides no useful distinguishing information between the two possible diagnoses": "Denies the genuine, significant diagnostic value these specific findings actually provide.",
+          "Normal motor findings actually confirm radiculopathy rather than meralgia paresthetica, the reverse of the correct interpretation": "A direct reversal of the correct logic \u2014 normal motor findings argue AGAINST radiculopathy, not for it.",
+          "The patellar reflex is entirely unrelated to L2-L3 function and provides no relevant information for this specific distinction": "The patellar reflex does test a pathway relevant to this level (broadly L2-L4, heavily L3-L4), making it a genuinely relevant piece of examination information here."
+        },
+        "high_yield_facts": [
+          "Meralgia paresthetica: PURE sensory symptoms, NORMAL motor function and reflexes \u2014 because the affected nerve carries no motor fibres.",
+          "L2-L3 radiculopathy: would be expected to show BOTH sensory symptoms AND some motor/reflex involvement, since spinal nerve roots are mixed (sensory + motor).",
+          "This distinction \u2014 pure sensory vs mixed sensory-motor involvement \u2014 is THE key discriminator between a peripheral SENSORY nerve entrapment and a spinal NERVE ROOT lesion producing a similar sensory distribution."
+        ],
+        "clinical_correlation": "This examination-based distinction directly guides appropriate further workup \u2014 confirmed isolated meralgia paresthetica (normal motor/reflex findings) typically doesn't require spinal imaging, while findings suggesting radiculopathy (any motor or reflex abnormality) would appropriately prompt further spinal evaluation instead.",
+        "common_confusions": [
+          "Assuming any anterolateral thigh sensory symptom must require ruling out spinal pathology with imaging by default \u2014 a careful, thorough motor and reflex examination can often make this distinction confidently on clinical grounds alone, without necessarily requiring immediate imaging."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Purely sensory nature of the lateral cutaneous nerve of thigh (this concept, other question) \u2014 the direct anatomical basis for this diagnostic reasoning"
+        ],
+        "exam_traps": [
+          "When a vignette presents anterolateral thigh sensory symptoms, actively check for the PRESENCE OR ABSENCE of motor/reflex findings as the key discriminator between meralgia paresthetica (pure sensory) and radiculopathy (mixed) \u2014 don't rely on symptom location alone, since both conditions can produce similar sensory distributions."
+        ],
+        "image_clues": null,
+        "memory_aid": "Sensory nerve entrapment = sensory symptoms ONLY. Nerve ROOT problem = sensory AND motor together, since roots carry both.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question is the direct clinical synthesis of the purely sensory mechanism and entrapment site facts established elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Normal motor function and reflexes alongside anterolateral thigh sensory symptoms support isolated meralgia paresthetica over L2-L3 radiculopathy, since the lateral cutaneous nerve of thigh's purely sensory nature means true peripheral entrapment can never produce motor findings, unlike a mixed sensory-motor nerve root lesion.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical neurology references on peripheral nerve entrapment versus radiculopathy differentiation."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish meralgia paresthetica from L2-L3 radiculopathy using motor and reflex examination findings.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_meralgia_paresthetica_0004",
+      "subject": "Anatomy",
+      "topic": "Meralgia Paresthetica",
+      "subtopic": "Risk factors",
+      "concept": "Meralgia paresthetica: lateral cutaneous nerve of thigh entrapment, its purely sensory nature, and distinction from L2-L3 radiculopathy",
+      "question_type": "association",
+      "difficulty": 2,
+      "question": "Which of the following is a recognised risk factor for meralgia paresthetica, given the nerve's fixed anatomical entrapment site?",
+      "options": [
+        "Obesity and tight clothing/belts around the waist",
+        "Recent influenza vaccination",
+        "A diet low in vitamin C",
+        "Chronic use of reading glasses"
+      ],
+      "correct_answer": "Obesity and tight clothing/belts around the waist",
+      "distractor_rationale": {
+        "Recent influenza vaccination": "No established mechanistic or epidemiological link to meralgia paresthetica.",
+        "A diet low in vitamin C": "No established relationship to this specific nerve entrapment syndrome.",
+        "Chronic use of reading glasses": "An unrelated, implausible association with no anatomical or mechanistic connection to this lower limb nerve entrapment."
+      },
+      "explanation": {
+        "core_concept": "Understanding meralgia paresthetica's risk factors as things that specifically increase pressure/tension at the FIXED anatomical entrapment site (inguinal ligament near the ASIS) makes the risk factor list logical and predictable, rather than an arbitrary set of associations to memorise separately.",
+        "why_correct": "Obesity (increased abdominal girth/fat deposition near the entrapment site) and tight clothing or belts around the waist (direct external compression at the inguinal ligament level) are recognised risk factors for meralgia paresthetica, since both increase pressure or tension specifically at the nerve's fixed anatomical pinch point beneath the inguinal ligament near the ASIS \u2014 along with other risk factors like pregnancy and prolonged standing/walking, all sharing this same underlying mechanism of increased compression at this specific site.",
+        "why_others_wrong": {
+          "Recent influenza vaccination": "No established link to this nerve entrapment syndrome.",
+          "A diet low in vitamin C": "No established relationship to this condition.",
+          "Chronic use of reading glasses": "An implausible, unrelated association with no anatomical connection to this lower limb nerve entrapment site."
+        },
+        "high_yield_facts": [
+          "Risk factors: obesity, tight clothing/belts, pregnancy, prolonged standing/walking \u2014 all increasing compression/tension at the fixed inguinal ligament entrapment site.",
+          "Understanding the MECHANISM (increased pressure at a fixed anatomical pinch point) is what makes this risk factor list logical rather than an arbitrary memorisation task.",
+          "First-line management often addresses these SAME modifiable risk factors directly (weight loss, avoiding tight clothing) before considering more invasive interventions."
+        ],
+        "clinical_correlation": "Identifying and addressing modifiable risk factors (weight, clothing choices) is genuinely the first-line management approach for meralgia paresthetica, directly reflecting this mechanistic understanding rather than being a separate, unrelated treatment consideration.",
+        "common_confusions": [
+          "Treating risk factors as an arbitrary list to memorise rather than recognising the underlying shared mechanism (increased compression at the fixed inguinal ligament entrapment site) that connects and explains all of them together."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Entrapment site (this concept, other question) \u2014 the anatomical basis explaining why these specific risk factors matter"
+        ],
+        "exam_traps": [
+          "When risk factors are listed as options, actively reason through whether each one would plausibly increase pressure/compression at the SPECIFIC anatomical entrapment site (inguinal ligament/ASIS region) \u2014 this mechanistic reasoning helps identify genuine risk factors versus implausible distractors."
+        ],
+        "image_clues": null,
+        "memory_aid": "Anything that adds pressure around the belt line \u2014 extra weight, a tight belt, pregnancy \u2014 squeezes the nerve at its one vulnerable pinch point.",
+        "other_ways_this_is_tested": [
+          "These risk factors directly connect to and are explained by the entrapment site fact established in the first question of this chapter."
+        ],
+        "neet_pg_takeaway": "Obesity and tight clothing/belts are recognised meralgia paresthetica risk factors, both increasing compression at the nerve's fixed entrapment site beneath the inguinal ligament near the ASIS.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard neurology/orthopaedic references on meralgia paresthetica risk factors."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify obesity and tight clothing as risk factors for meralgia paresthetica, based on increased compression at the entrapment site.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

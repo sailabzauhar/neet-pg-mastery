@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0057",
+    "topic": "Submandibular Gland Resection",
+    "chapter_number": 57,
+    "chapter_file": "data/anatomy/ch57_submandibular_gland_resection.json",
+    "source_years": [
+      2021
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 3,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "clinical_vignette",
+      "mechanism",
+      "diagnostic_reasoning",
+      "comparison"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This chapter's lingual nerve/chorda tympani mechanism directly applies (without duplicating) the taste-nerve mapping established in the Tongue Histology chapter, and its tongue deviation mechanism directly applies the Hypoglossal Nerve chapter's LMN deviation logic \u2014 genuinely complementary, synthesising both into this specific surgical anatomy context.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch30 (Tongue Histology) and ch21 (Hypoglossal Nerve) \u2014 no duplicate concepts found; genuinely complementary."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Submandibular gland excision requires navigating a genuinely crowded surgical field where THREE separate nerves are at recognised risk \u2014 the marginal mandibular branch of the facial nerve (superiorly, motor to the lower lip), the lingual nerve (deep/superior, sensory to the anterior tongue plus parasympathetic secretomotor fibres to the gland itself), and the hypoglossal nerve (deep/inferior, motor to the tongue) \u2014 each producing a distinct, specific, separately recognisable complication if injured, making this operation a classic, high-yield example of a single surgical field with multiple nerve-specific risks worth understanding as a coherent whole."
+    },
+    "structure_anatomy": {
+      "marginal_mandibular_branch_position": "The marginal mandibular branch of the facial nerve (CN VII) typically runs just below the inferior border of the mandible before curving up to supply the muscles of the lower lip (depressor labii inferioris, depressor anguli oris, mentalis) \u2014 its close proximity to the submandibular gland's superior surface, and its variable course (sometimes dipping BELOW the mandibular border, into the surgical field itself), makes it the single most commonly injured nerve during this specific operation.",
+      "lingual_nerve_relationship": "The lingual nerve (a V3 branch, carrying general sensation from the anterior 2/3 tongue plus, importantly, parasympathetic secretomotor fibres to the submandibular and sublingual glands via the chorda tympani which has joined it) passes close to and loops beneath the submandibular duct within the surgical field, at risk during gland mobilisation and duct ligation specifically.",
+      "hypoglossal_nerve_relationship": "The hypoglossal nerve (CN XII, motor to the tongue) runs deep and inferior to the submandibular gland, crossing the field at a lower level than the lingual nerve \u2014 at risk primarily during deep dissection near the floor of the mouth/tongue base."
+    },
+    "clinical": {
+      "marginal_mandibular_injury": "Injury to the marginal mandibular branch causes an ASYMMETRIC SMILE with DROOPING OF THE LOWER LIP on the affected side (weakness of depressor labii inferioris specifically) \u2014 a genuinely distinctive, visually obvious complication, and the most commonly cited nerve injury risk specifically associated with this operation.",
+      "lingual_nerve_injury": "Injury to the lingual nerve causes ipsilateral anterior 2/3 tongue NUMBNESS (general sensory loss) AND loss of taste in this same distribution (given the chorda tympani fibres travelling with it) \u2014 a combined sensory-plus-taste deficit, genuinely distinct from the marginal mandibular branch's purely motor (lip) complication.",
+      "hypoglossal_nerve_injury": "Injury to the hypoglossal nerve causes ipsilateral tongue weakness, with the tongue deviating TOWARD the affected side on protrusion (the same LMN deviation mechanism covered in the Hypoglossal Nerve chapter) \u2014 a genuinely distinct, purely motor tongue complication, separate from both the lip weakness (marginal mandibular) and the tongue sensory/taste loss (lingual nerve) risks."
+    },
+    "related_structures": "This operation is a genuinely elegant, high-yield illustration of how a SINGLE crowded surgical field can put THREE different nerves \u2014 each with entirely different, separately identifiable functions (facial expression/lip motor, tongue sensation/taste, tongue motor) \u2014 simultaneously at risk, each producing its own distinct, recognisable complication if injured. Understanding all three together as a coherent surgical anatomy 'triad' is far more useful than memorising each nerve's risk in isolation."
+  },
+  "question_family": [
+    {
+      "family_name": "Submandibular Gland Resection \u2014 The Three-Nerve Injury Risk Triad (4 angles, one concept)",
+      "member_ids": [
+        "anat_submandibular_gland_resection_0001",
+        "anat_submandibular_gland_resection_0002",
+        "anat_submandibular_gland_resection_0003",
+        "anat_submandibular_gland_resection_0004"
+      ],
+      "coverage": "Clinical vignette (marginal mandibular branch), mechanism (lingual nerve/chorda tympani), diagnostic reasoning (hypoglossal nerve), and comparison (all three nerves' distinct patterns) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_submandibular_gland_resection_0001",
+      "subject": "Anatomy",
+      "topic": "Submandibular Gland Resection",
+      "subtopic": "Marginal mandibular branch",
+      "concept": "The three nerves at risk during submandibular gland resection (marginal mandibular, lingual, hypoglossal) and their distinct injury patterns",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "Following submandibular gland excision, a patient develops asymmetric drooping of the lower lip on the affected side when smiling, with normal tongue sensation and normal tongue movement. Which nerve has most likely been injured?",
+      "options": [
+        "The marginal mandibular branch of the facial nerve",
+        "The lingual nerve",
+        "The hypoglossal nerve",
+        "The glossopharyngeal nerve"
+      ],
+      "correct_answer": "The marginal mandibular branch of the facial nerve",
+      "distractor_rationale": {
+        "The lingual nerve": "Would cause tongue sensory/taste loss, not lip weakness \u2014 this vignette specifically describes normal tongue sensation, arguing against lingual nerve injury.",
+        "The hypoglossal nerve": "Would cause tongue motor weakness/deviation, not lip weakness \u2014 this vignette specifically describes normal tongue movement, arguing against hypoglossal injury.",
+        "The glossopharyngeal nerve": "Not among the three nerves specifically at risk during this operation, and doesn't produce this lip weakness pattern."
+      },
+      "explanation": {
+        "core_concept": "Lip drooping with normal tongue function specifically isolates the marginal mandibular branch \u2014 the ONE of the three at-risk nerves whose territory is entirely separate from the tongue (facial expression, lower lip specifically) \u2014 a genuinely clean, distinguishable pattern once each nerve's specific territory is understood.",
+        "why_correct": "The marginal mandibular branch of the facial nerve, running close to the submandibular gland's superior surface (sometimes dipping below the mandibular border into the surgical field), supplies the muscles of the lower lip (depressor labii inferioris, depressor anguli oris, mentalis). Its injury causes an asymmetric smile with lower lip drooping on the affected side \u2014 exactly matching this vignette, with the normal tongue sensation and movement specifically arguing against the other two at-risk nerves (lingual, hypoglossal).",
+        "why_others_wrong": {
+          "The lingual nerve": "Its injury causes tongue sensory/taste changes, explicitly absent in this vignette's description of normal tongue sensation.",
+          "The hypoglossal nerve": "Its injury causes tongue motor weakness/deviation, explicitly absent in this vignette's description of normal tongue movement.",
+          "The glossopharyngeal nerve": "Not one of the three nerves specifically at risk during this operation."
+        },
+        "high_yield_facts": [
+          "Marginal mandibular branch injury: asymmetric smile, LOWER LIP drooping \u2014 a purely facial/lip finding, with NO tongue involvement.",
+          "This is the most commonly cited nerve injury risk specifically associated with submandibular gland surgery, given the nerve's close, sometimes variable proximity to the gland's superior surface.",
+          "The KEY distinguishing feature from the other two at-risk nerves (lingual, hypoglossal) is that marginal mandibular injury produces NO tongue-related findings at all."
+        ],
+        "clinical_correlation": "Recognising this specific, isolated pattern helps confirm marginal mandibular branch injury and distinguish it from the other nerve injury risks of this same operation, directly relevant to patient counselling and postoperative assessment.",
+        "common_confusions": [
+          "Assuming any facial/oral asymmetry after submandibular surgery must involve the tongue \u2014 the marginal mandibular branch's injury specifically produces LIP findings only, with the tongue entirely unaffected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Lingual nerve injury (this concept, other question) \u2014 the tongue sensory/taste-affecting alternative",
+          "Hypoglossal nerve injury (this concept, other question) \u2014 the tongue motor-affecting alternative"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC combination of findings (lip weakness with normal tongue function) to confirm marginal mandibular branch injury specifically, rather than a more generic 'facial nerve injury' answer."
+        ],
+        "image_clues": null,
+        "memory_aid": "Marginal mandibular = the LIP nerve of this operation's risk triad \u2014 tongue stays completely unaffected.",
+        "other_ways_this_is_tested": [
+          "This vignette establishes the marginal mandibular branch's distinct injury pattern, directly contrasted against the lingual and hypoglossal nerve injury patterns covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Marginal mandibular branch injury during submandibular gland surgery causes asymmetric lower lip drooping with NO tongue involvement \u2014 a distinctive, isolated pattern distinguishing it from the lingual and hypoglossal nerve injury risks of the same operation.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard head and neck surgery references on submandibular gland excision complications."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose marginal mandibular branch injury from isolated lower lip drooping with normal tongue function after submandibular gland surgery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_submandibular_gland_resection_0002",
+      "subject": "Anatomy",
+      "topic": "Submandibular Gland Resection",
+      "subtopic": "Lingual nerve",
+      "concept": "The three nerves at risk during submandibular gland resection (marginal mandibular, lingual, hypoglossal) and their distinct injury patterns",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Injury to the lingual nerve during submandibular gland excision produces BOTH sensory numbness AND taste loss over the anterior two-thirds of the tongue together. Why does a single nerve injury here affect both modalities?",
+      "options": [
+        "The chorda tympani (a facial nerve branch carrying taste fibres) joins and travels WITH the lingual nerve for part of its course, so lingual nerve injury at this shared segment disrupts both the lingual nerve's own general sensory fibres AND the chorda tympani's taste fibres together",
+        "The lingual nerve independently carries both general sensation and taste on its own, with no contribution from any other cranial nerve",
+        "Taste loss and sensory numbness are actually the same finding described with different terminology, not two genuinely separate modalities",
+        "This combined deficit is coincidental and reflects two entirely separate, unrelated nerve injuries occurring simultaneously"
+      ],
+      "correct_answer": "The chorda tympani (a facial nerve branch carrying taste fibres) joins and travels WITH the lingual nerve for part of its course, so lingual nerve injury at this shared segment disrupts both the lingual nerve's own general sensory fibres AND the chorda tympani's taste fibres together",
+      "distractor_rationale": {
+        "The lingual nerve independently carries both general sensation and taste on its own, with no contribution from any other cranial nerve": "The lingual nerve's OWN fibres (from V3) carry only general sensation \u2014 taste specifically comes from the chorda tympani (facial nerve) fibres that join it, not from the lingual nerve's own intrinsic fibre population.",
+        "Taste loss and sensory numbness are actually the same finding described with different terminology, not two genuinely separate modalities": "These are genuinely distinct sensory modalities (general somatic sensation vs special sensory/taste), not the same finding under different names.",
+        "This combined deficit is coincidental and reflects two entirely separate, unrelated nerve injuries occurring simultaneously": "Denies the genuine, well-established anatomical explanation (chorda tympani travelling WITH the lingual nerve) for why a SINGLE nerve injury produces both findings together."
+      },
+      "explanation": {
+        "core_concept": "This mechanism directly extends the anterior-2/3-tongue taste-nerve mapping already established in the Tongue Histology chapter (chorda tympani/facial nerve carries taste here) \u2014 recognising that the chorda tympani physically JOINS and travels alongside the lingual nerve for part of its course is exactly what explains why a single lingual nerve injury during this surgery disrupts BOTH modalities together.",
+        "why_correct": "The chorda tympani, a branch of the facial nerve carrying taste fibres from the anterior 2/3 tongue (as established in the Tongue Histology chapter), joins the lingual nerve (a V3/trigeminal branch carrying general sensation from this same region) and travels alongside it for part of its course through the infratemporal fossa and into the tongue region. Because these two functionally distinct fibre populations (general sensation from V3, taste from CN VII via chorda tympani) travel together within the same nerve bundle at this point, a single lingual nerve injury during submandibular gland surgery \u2014 where the nerve is at risk near the submandibular duct \u2014 disrupts BOTH fibre populations together, producing the combined sensory-numbness-plus-taste-loss pattern.",
+        "why_others_wrong": {
+          "The lingual nerve independently carries both general sensation and taste on its own, with no contribution from any other cranial nerve": "The lingual nerve's own intrinsic fibres (from V3) carry only general sensation \u2014 taste specifically comes from the joined chorda tympani fibres, a genuinely separate cranial nerve contribution.",
+          "Taste loss and sensory numbness are actually the same finding described with different terminology, not two genuinely separate modalities": "These are genuinely distinct sensory modalities, not the same finding under different names.",
+          "This combined deficit is coincidental and reflects two entirely separate, unrelated nerve injuries occurring simultaneously": "Denies the genuine, well-established anatomical explanation for why one nerve injury produces both findings together."
+        },
+        "high_yield_facts": [
+          "Lingual nerve injury = BOTH general sensation loss (nerve's own V3 fibres) AND taste loss (chorda tympani/CN VII fibres travelling WITH it) \u2014 a combined deficit from a single nerve injury.",
+          "This directly connects to and applies the taste-nerve mapping established in the Tongue Histology chapter (anterior 2/3 taste = facial nerve/chorda tympani, general sensation = trigeminal/lingual nerve).",
+          "This combined pattern is genuinely distinct from BOTH the marginal mandibular branch injury (lip only, no tongue involvement) AND hypoglossal nerve injury (tongue motor only, no sensory/taste involvement) \u2014 three genuinely different injury signatures from this one operation."
+        ],
+        "clinical_correlation": "Recognising this combined sensory-plus-taste pattern specifically confirms lingual nerve involvement (rather than isolated general sensory or isolated taste loss, which would suggest different, more selective pathology), directly relevant to postoperative complication assessment and documentation.",
+        "common_confusions": [
+          "Assuming the lingual nerve independently carries taste fibres of its own \u2014 taste specifically comes from the JOINED chorda tympani contribution, not from the lingual nerve's own intrinsic fibre population, a genuinely important distinction worth actively remembering."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Taste-nerve mapping for the anterior 2/3 tongue (see Tongue Histology chapter) \u2014 the direct anatomical basis for this mechanism",
+          "Marginal mandibular and hypoglossal nerve injury patterns (this concept, other questions) \u2014 the two other, genuinely distinct injury signatures from this same operation"
+        ],
+        "exam_traps": [
+          "Don't assume the lingual nerve is a 'taste nerve' in its own right \u2014 actively recall that taste specifically comes from the chorda tympani fibres joining it, a genuinely separate cranial nerve contribution worth keeping conceptually distinct."
+        ],
+        "image_clues": null,
+        "memory_aid": "Chorda tympani hitches a ride on the lingual nerve \u2014 injure the ride, and both passengers (sensation and taste) go down together.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly builds on and applies the Tongue Histology chapter's taste-nerve mapping to this genuine, high-yield surgical anatomy context."
+        ],
+        "neet_pg_takeaway": "Lingual nerve injury produces combined anterior 2/3 tongue sensory numbness AND taste loss, because the chorda tympani (facial nerve, taste fibres) travels alongside and joins the lingual nerve (trigeminal, general sensation) for part of its course \u2014 a single nerve injury disrupting two functionally distinct fibre populations together.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard head and neck surgery and neuroanatomy references on lingual nerve injury."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the combined sensory and taste loss from lingual nerve injury as a consequence of the chorda tympani travelling alongside it.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_submandibular_gland_resection_0003",
+      "subject": "Anatomy",
+      "topic": "Submandibular Gland Resection",
+      "subtopic": "Hypoglossal nerve",
+      "concept": "The three nerves at risk during submandibular gland resection (marginal mandibular, lingual, hypoglossal) and their distinct injury patterns",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "A patient recovering from submandibular gland excision is found to have tongue deviation toward the operated side on protrusion, with normal lower lip movement and normal tongue sensation. Which of the three at-risk nerves has been injured, and what does the DIRECTION of deviation confirm about the nature of this injury?",
+      "options": [
+        "The hypoglossal nerve \u2014 deviation TOWARD the affected side confirms a lower motor neuron pattern (the same mechanism covered for isolated hypoglossal nerve injury), consistent with direct surgical injury to the nerve itself at this level",
+        "The lingual nerve \u2014 this vignette's findings are classic for lingual, not hypoglossal, nerve injury",
+        "The marginal mandibular branch \u2014 tongue deviation is a classic finding of this specific nerve's injury",
+        "This combination of findings cannot be explained by injury to any of the three nerves at risk during this operation"
+      ],
+      "correct_answer": "The hypoglossal nerve \u2014 deviation TOWARD the affected side confirms a lower motor neuron pattern (the same mechanism covered for isolated hypoglossal nerve injury), consistent with direct surgical injury to the nerve itself at this level",
+      "distractor_rationale": {
+        "The lingual nerve \u2014 this vignette's findings are classic for lingual, not hypoglossal, nerve injury": "Lingual nerve injury causes SENSORY/taste changes, not tongue deviation on protrusion (a motor finding) \u2014 this vignette's normal tongue sensation specifically argues against lingual nerve injury.",
+        "The marginal mandibular branch \u2014 tongue deviation is a classic finding of this specific nerve's injury": "The marginal mandibular branch supplies the LOWER LIP, not the tongue \u2014 it has no role in tongue movement, and this vignette's normal lip movement specifically argues against this nerve's injury.",
+        "This combination of findings cannot be explained by injury to any of the three nerves at risk during this operation": "This is precisely the classic, expected pattern for hypoglossal nerve injury, one of the three genuinely recognised risks of this operation."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question directly applies BOTH the surgical anatomy triad (established across this chapter) AND the deviation mechanism from the Hypoglossal Nerve chapter together \u2014 using the SPECIFIC combination of findings (tongue deviation, normal lip, normal sensation) to confidently isolate hypoglossal nerve injury, and using the DIRECTION of deviation to confirm it's a lower motor neuron (direct nerve) injury rather than a more central process.",
+        "why_correct": "Tongue deviation toward the affected side on protrusion, with normal lower lip movement (ruling out marginal mandibular branch injury) and normal tongue sensation (ruling out lingual nerve injury), specifically confirms hypoglossal nerve injury \u2014 the third of the three nerves at risk during this operation. The DIRECTION of deviation (toward, not away from, the affected side) confirms this is a lower motor neuron pattern, exactly the mechanism established in the Hypoglossal Nerve chapter (unopposed contralateral genioglossus pushing the tongue toward the weak side) \u2014 consistent with direct surgical injury to the hypoglossal nerve itself at the level of the deep dissection near the tongue base, rather than a more central (upper motor neuron) process.",
+        "why_others_wrong": {
+          "The lingual nerve \u2014 this vignette's findings are classic for lingual, not hypoglossal, nerve injury": "Lingual nerve injury produces sensory/taste changes (a sensory finding), not the motor deviation-on-protrusion pattern described \u2014 and this vignette's normal tongue sensation specifically argues against lingual nerve involvement.",
+          "The marginal mandibular branch \u2014 tongue deviation is a classic finding of this specific nerve's injury": "The marginal mandibular branch has no tongue-related function at all (lip only) \u2014 this vignette's normal lip movement specifically rules it out.",
+          "This combination of findings cannot be explained by injury to any of the three nerves at risk during this operation": "This is exactly the classic, recognised pattern for hypoglossal nerve injury, a genuine risk of this specific operation."
+        },
+        "high_yield_facts": [
+          "Hypoglossal nerve injury: tongue deviation TOWARD the affected side, with normal lip movement and normal tongue sensation \u2014 the third, purely MOTOR-tongue pattern among the three at-risk nerves.",
+          "Together, the three nerve injury patterns from this operation are cleanly distinguishable: marginal mandibular (lip only), lingual (tongue sensory/taste only), hypoglossal (tongue motor only) \u2014 each affecting a genuinely different, non-overlapping function.",
+          "The DIRECTION of deviation (toward the lesion) directly applies the LMN mechanism established in the Hypoglossal Nerve chapter, confirming this is a peripheral nerve injury, not a more central process."
+        ],
+        "clinical_correlation": "Correctly identifying which of the three specific nerves has been injured directly guides postoperative counselling, expected recovery course, and, in some cases, further management decisions, since each nerve's injury carries a somewhat different prognosis and functional impact.",
+        "common_confusions": [
+          "Not systematically checking ALL THREE findings (lip movement, tongue sensation, tongue motor/deviation) together before concluding which specific nerve is injured \u2014 using the COMPLETE combination of findings (including which functions are explicitly NORMAL) is what allows confident, precise localisation among the three possible nerve injuries."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Marginal mandibular branch injury (this concept, other question)",
+          "Lingual nerve injury mechanism (this concept, other question)",
+          "Tongue deviation mechanism (see Hypoglossal Nerve chapter) \u2014 directly applied here"
+        ],
+        "exam_traps": [
+          "Use ALL THREE pieces of information (lip status, tongue sensation status, tongue motor/deviation status) together to confidently distinguish among the three possible nerve injuries from this operation, rather than focusing on just one finding in isolation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lip fine, feeling fine, tongue swings toward the operated side \u2014 that's the hypoglossal nerve's specific, purely-motor signature among the surgical triad.",
+        "other_ways_this_is_tested": [
+          "This vignette is the complete diagnostic-reasoning synthesis of all three nerve injury patterns established throughout this chapter, directly applying the deviation mechanism from the Hypoglossal Nerve chapter."
+        ],
+        "neet_pg_takeaway": "Tongue deviation toward the affected side, with normal lip movement and normal tongue sensation, confirms hypoglossal nerve injury during submandibular gland surgery \u2014 the third, purely motor-tongue pattern completing the three distinct nerve injury signatures possible from this operation.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard head and neck surgery references on submandibular gland excision complications; Snell's Clinical Neuroanatomy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose hypoglossal nerve injury from tongue deviation toward the affected side, distinguishing it from marginal mandibular and lingual nerve injury patterns.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_submandibular_gland_resection_0004",
+      "subject": "Anatomy",
+      "topic": "Submandibular Gland Resection",
+      "subtopic": "Comparing all three nerve risks",
+      "concept": "The three nerves at risk during submandibular gland resection (marginal mandibular, lingual, hypoglossal) and their distinct injury patterns",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Submandibular gland excision places THREE separate nerves at risk. Summarise how their injury patterns differ from each other.",
+      "options": [
+        "Marginal mandibular branch: LOWER LIP weakness only. Lingual nerve: anterior tongue SENSORY numbness + TASTE loss. Hypoglossal nerve: tongue MOTOR weakness/deviation only \u2014 three genuinely non-overlapping functional deficits",
+        "All three nerves, if injured, produce the identical clinical finding (tongue deviation), making them clinically indistinguishable from each other",
+        "Marginal mandibular branch injury causes tongue motor weakness; lingual nerve injury causes lip weakness; hypoglossal nerve injury causes tongue sensory loss \u2014 a scrambled, incorrect set of pairings",
+        "None of these three nerves are genuinely at risk during this specific operation; this is a common but inaccurate teaching point"
+      ],
+      "correct_answer": "Marginal mandibular branch: LOWER LIP weakness only. Lingual nerve: anterior tongue SENSORY numbness + TASTE loss. Hypoglossal nerve: tongue MOTOR weakness/deviation only \u2014 three genuinely non-overlapping functional deficits",
+      "distractor_rationale": {
+        "All three nerves, if injured, produce the identical clinical finding (tongue deviation), making them clinically indistinguishable from each other": "Denies the genuine, cleanly distinguishable differences between the three injury patterns \u2014 only hypoglossal nerve injury produces tongue deviation; the other two produce entirely different findings.",
+        "Marginal mandibular branch injury causes tongue motor weakness; lingual nerve injury causes lip weakness; hypoglossal nerve injury causes tongue sensory loss \u2014 a scrambled, incorrect set of pairings": "Scrambles all three correct nerve-to-finding pairings.",
+        "None of these three nerves are genuinely at risk during this specific operation; this is a common but inaccurate teaching point": "Denies the genuine, well-established surgical anatomy risk profile of this specific operation."
+      },
+      "explanation": {
+        "core_concept": "This comparison brings together the complete, three-way distinction established across this chapter \u2014 each nerve's injury pattern occupies a genuinely SEPARATE, non-overlapping functional territory (lip motor / tongue sensory-taste / tongue motor), making this operation a particularly clean, instructive example of how a single surgical field can put multiple distinctly-functioning nerves at risk together.",
+        "why_correct": "Marginal mandibular branch injury causes ISOLATED lower lip weakness (asymmetric smile), with no tongue involvement at all. Lingual nerve injury causes anterior tongue SENSORY numbness plus TASTE loss (via its own V3 fibres plus the joined chorda tympani fibres), with no lip or tongue-motor involvement. Hypoglossal nerve injury causes tongue MOTOR weakness with deviation toward the affected side, with no lip or tongue-sensory involvement. These three injury patterns are genuinely, cleanly non-overlapping \u2014 each nerve's specific, separate function means its injury produces a distinctive, individually recognisable clinical picture.",
+        "why_others_wrong": {
+          "All three nerves, if injured, produce the identical clinical finding (tongue deviation), making them clinically indistinguishable from each other": "Only hypoglossal nerve injury produces tongue deviation \u2014 the other two nerves produce entirely different findings (lip weakness; tongue sensory/taste loss respectively).",
+          "Marginal mandibular branch injury causes tongue motor weakness; lingual nerve injury causes lip weakness; hypoglossal nerve injury causes tongue sensory loss \u2014 a scrambled, incorrect set of pairings": "Every pairing in this option is incorrect relative to the true nerve-to-finding assignments.",
+          "None of these three nerves are genuinely at risk during this specific operation; this is a common but inaccurate teaching point": "Denies well-established, genuine surgical anatomy risk."
+        },
+        "high_yield_facts": [
+          "Marginal mandibular branch: LIP weakness ONLY.",
+          "Lingual nerve: TONGUE SENSORY + TASTE loss ONLY.",
+          "Hypoglossal nerve: TONGUE MOTOR weakness/deviation ONLY.",
+          "Three genuinely SEPARATE, non-overlapping functional territories \u2014 making careful postoperative examination (checking lip movement, tongue sensation/taste, AND tongue motor function separately) essential for correctly identifying which specific nerve, if any, has been affected."
+        ],
+        "clinical_correlation": "This three-way distinction is directly, practically relevant to postoperative assessment protocol after submandibular gland surgery \u2014 systematically checking all three functional domains (lip, tongue sensation/taste, tongue motor) separately is what allows precise, confident identification of any nerve injury that may have occurred.",
+        "common_confusions": [
+          "Testing only ONE functional domain (e.g. just checking for tongue deviation) and assuming this rules out or confirms injury to ALL three nerves \u2014 each requires its OWN specific examination component, since their injury patterns don't overlap."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Each individual nerve's injury vignette (this concept, other questions) \u2014 this comparison synthesises all three into one complete picture"
+        ],
+        "exam_traps": [
+          "When asked to summarise this operation's nerve risks, actively organise your answer by FUNCTION (lip / tongue sensory-taste / tongue motor) rather than trying to recall three disconnected facts \u2014 the functional organisation is what makes all three easy to keep straight."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lip, feeling+taste, movement \u2014 three nerves, three completely separate jobs, three completely separate ways to fail.",
+        "other_ways_this_is_tested": [
+          "This comparison is the complete synthesis of all three individual nerve injury vignettes covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Submandibular gland excision's three at-risk nerves each produce a genuinely distinct, non-overlapping injury pattern: marginal mandibular branch (lip weakness only), lingual nerve (tongue sensory/taste loss only), and hypoglossal nerve (tongue motor weakness/deviation only) \u2014 a clean, instructive three-way surgical anatomy distinction.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy; standard head and neck surgery references on submandibular gland excision."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Summarise and distinguish the three genuinely non-overlapping nerve injury patterns possible during submandibular gland excision.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

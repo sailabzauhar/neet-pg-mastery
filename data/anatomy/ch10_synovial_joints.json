@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0010",
+    "topic": "Synovial Joints",
+    "chapter_number": 10,
+    "chapter_file": "data/anatomy/ch10_synovial_joints.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 2,
+      "L3": 2,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "diagnostic_reasoning",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "scope_note": "A must-do foundational topic spanning basic joint structure, the full movement-based classification system, and a major clinical application (crystal arthropathy diagnosis) \u2014 scaled to 5 MCQs covering breadth (classification) and depth (cartilage nutrition, fluid analysis) without padding with repetitive per-joint-type recall.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Synovial joints are the most mobile class of joints in the body, characterised by a fluid-filled joint cavity enclosed by a fibrous capsule lined internally by synovial membrane, with articulating bone ends covered by hyaline cartilage (except the temporomandibular and sternoclavicular joints, which are covered by fibrocartilage).",
+      "classification": "Classified by the shape of the articulating surfaces and the type/range of movement permitted: plane (gliding), hinge, pivot, condyloid (ellipsoid), saddle, and ball-and-socket joints."
+    },
+    "structure_anatomy": {
+      "capsule": "A two-layered structure: an outer fibrous layer (dense connective tissue, providing mechanical strength and continuous with the periosteum of the articulating bones) and an inner synovial membrane (secretes synovial fluid, does NOT cover the articular cartilage itself or any intra-articular fibrocartilage such as menisci).",
+      "synovial_fluid": "A viscous, hyaluronic-acid-rich ultrafiltrate of plasma produced by synoviocytes, functioning to lubricate the joint, nourish the avascular articular cartilage (which has no direct blood supply and depends on synovial fluid diffusion for nutrition), and remove metabolic waste.",
+      "articular_cartilage": "Hyaline cartilage in most synovial joints (fibrocartilage in the TMJ and sternoclavicular joint) \u2014 avascular, aneural, and alymphatic, relying entirely on diffusion from synovial fluid for nutrition, which is why articular cartilage has very limited capacity for self-repair after injury.",
+      "joint_types_by_movement": {
+        "plane": "Flat or slightly curved surfaces allowing gliding movements only (e.g. intercarpal, intertarsal, acromioclavicular joints).",
+        "hinge": "Uniaxial, permitting flexion-extension only (e.g. elbow, knee \u2014 though the knee has some additional rotation, ankle).",
+        "pivot": "Uniaxial, permitting rotation around a central axis (e.g. atlantoaxial joint, proximal and distal radioulnar joints).",
+        "condyloid_ellipsoid": "Biaxial, permitting flexion-extension and abduction-adduction but not axial rotation (e.g. wrist/radiocarpal joint, metacarpophalangeal joints).",
+        "saddle": "Biaxial, reciprocally concave-convex surfaces permitting a wide range including some rotation (e.g. the classic example: first carpometacarpal joint of the thumb).",
+        "ball_and_socket": "Multiaxial, the greatest range of movement of any joint type (e.g. shoulder, hip)."
+      }
+    },
+    "clinical": {
+      "osteoarthritis": "Progressive degeneration of articular cartilage \u2014 because cartilage is avascular and depends on diffusion for nutrition and has minimal intrinsic repair capacity, once significant cartilage loss occurs it does not regenerate, which is central to why osteoarthritis is a progressive, largely irreversible condition managed rather than cured.",
+      "synovial_fluid_analysis": "Joint aspiration (arthrocentesis) and synovial fluid analysis is a key diagnostic tool \u2014 fluid characteristics (clarity, viscosity, white cell count, presence of crystals) distinguish non-inflammatory (osteoarthritis), inflammatory (rheumatoid arthritis), septic, and crystal arthropathies (gout: needle-shaped, negatively birefringent monosodium urate crystals; pseudogout: rhomboid, positively birefringent calcium pyrophosphate crystals).",
+      "meniscus_note": "Fibrocartilaginous menisci (e.g. in the knee) are NOT covered by synovial membrane on their articulating surfaces, and \u2014 like articular cartilage \u2014 are largely avascular except at their peripheral rim, explaining why central meniscal tears typically have poor intrinsic healing potential while peripheral tears (in the vascularised 'red zone') have better healing capacity."
+    },
+    "related_structures": "The saddle joint (first carpometacarpal, at the base of the thumb) is a favourite single-example question because it's the one joint type most students can name only one true example of, and its degeneration (thumb base osteoarthritis) is a very common real-world clinical presentation."
+  },
+  "question_family": [
+    {
+      "family_name": "Synovial Joints \u2014 Structural Basics",
+      "member_ids": [
+        "anat_synovial_joints_0001",
+        "anat_synovial_joints_0002"
+      ],
+      "coverage": "The two-layer capsule structure and articular cartilage's avascular, diffusion-dependent nutrition \u2014 the foundation for understanding both normal joint function and why joint injury heals poorly."
+    },
+    {
+      "family_name": "Synovial Joints \u2014 Classification by Movement",
+      "member_ids": [
+        "anat_synovial_joints_0003",
+        "anat_synovial_joints_0005"
+      ],
+      "coverage": "The saddle joint's classic single example (first CMC joint) and image-based recognition of the condyloid joint shape, together covering the full six-category movement classification system."
+    },
+    {
+      "family_name": "Synovial Joints \u2014 Clinical Fluid Analysis",
+      "member_ids": [
+        "anat_synovial_joints_0004"
+      ],
+      "coverage": "Crystal arthropathy identification (gout vs pseudogout) via synovial fluid analysis \u2014 the major clinical application of joint fluid anatomy."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_synovial_joints_0001",
+      "subject": "Anatomy",
+      "topic": "Synovial Joints",
+      "subtopic": "Capsule structure",
+      "concept": "Two layers of the joint capsule",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The joint capsule of a synovial joint consists of which two layers?",
+      "options": [
+        "An outer fibrous layer and an inner synovial membrane",
+        "An outer synovial membrane and an inner fibrous layer",
+        "A single fibrous layer only, with no separate synovial component",
+        "An outer periosteal layer and an inner cartilaginous layer"
+      ],
+      "correct_answer": "An outer fibrous layer and an inner synovial membrane",
+      "distractor_rationale": {
+        "An outer synovial membrane and an inner fibrous layer": "Reverses the correct layering \u2014 the synovial membrane is the INNER layer, lining the joint cavity, while the fibrous layer is OUTER, providing structural support.",
+        "A single fibrous layer only, with no separate synovial component": "Understates the capsule's structure \u2014 the synovial membrane is a genuinely distinct, functionally separate inner layer, not merely part of a single fibrous structure.",
+        "An outer periosteal layer and an inner cartilaginous layer": "Misdescribes both layers \u2014 the outer layer is fibrous connective tissue (continuous WITH periosteum at its attachment, but not periosteum itself), and the inner layer is synovial membrane, not cartilage."
+      },
+      "explanation": {
+        "core_concept": "The two-layer capsule structure directly reflects the two different jobs the capsule performs \u2014 mechanical containment (fibrous layer) and fluid/nutrient management (synovial membrane) \u2014 and keeping these two functions and layers straight is foundational to everything else in this topic.",
+        "why_correct": "The joint capsule has an outer fibrous layer, made of dense connective tissue continuous with the periosteum of the articulating bones and providing the joint's main mechanical strength, and an inner synovial membrane, which lines the joint cavity (except over articular cartilage and intra-articular fibrocartilage) and secretes synovial fluid.",
+        "why_others_wrong": {
+          "An outer synovial membrane and an inner fibrous layer": "The layering is specifically reversed from reality \u2014 synovial membrane is always the inner layer.",
+          "A single fibrous layer only, with no separate synovial component": "Fails to recognise the synovial membrane as a distinct, separately functioning layer.",
+          "An outer periosteal layer and an inner cartilaginous layer": "Misassigns both layers \u2014 neither is accurately described as periosteum or cartilage."
+        },
+        "high_yield_facts": [
+          "Fibrous layer = outer, structural, continuous with periosteum.",
+          "Synovial membrane = inner, secretory, does NOT cover articular cartilage or intra-articular fibrocartilage (like menisci).",
+          "This two-layer structure is present in every synovial joint, regardless of its movement-type classification (hinge, pivot, ball-and-socket, etc.)."
+        ],
+        "clinical_correlation": "Understanding that synovial membrane specifically doesn't cover articular cartilage explains why cartilage has no direct access to a blood supply of its own \u2014 it depends entirely on diffusion through the synovial fluid the membrane produces, a fact with major implications for cartilage injury and repair.",
+        "common_confusions": [
+          "Assuming the capsule is a single, undifferentiated structure rather than two functionally and structurally distinct layers with different jobs."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Synovial fluid function",
+          "Articular cartilage nutrition",
+          "Meniscus vascularity (also not covered by synovium)"
+        ],
+        "exam_traps": [
+          "Don't reverse the inner/outer assignment under time pressure \u2014 'synovial' should always be paired with 'inner' in your mental shorthand for this structure."
+        ],
+        "image_clues": null,
+        "memory_aid": "Fibrous is the tough OUTER shell; synovial is the slippery INNER lining.",
+        "other_ways_this_is_tested": [
+          "This layered structure underlies the synovial fluid function question and the meniscus vascularity note elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Synovial joint capsule = outer fibrous layer (mechanical strength) + inner synovial membrane (fluid secretion, doesn't cover cartilage) \u2014 two layers, two distinct jobs.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard joint histology/anatomy \u2014 Ross and Pawlina's Histology: A Text and Atlas; Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Describe the two-layer structure of the synovial joint capsule and each layer's function.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_synovial_joints_0002",
+      "subject": "Anatomy",
+      "topic": "Synovial Joints",
+      "subtopic": "Articular cartilage nutrition",
+      "concept": "Avascularity of articular cartilage",
+      "question_type": "mechanism",
+      "difficulty": 2,
+      "question": "Articular cartilage covering the ends of bones in a synovial joint has no direct blood supply. How does it receive nutrition, and what is the clinical consequence of this arrangement?",
+      "options": [
+        "Nutrition occurs by diffusion from synovial fluid; this gives articular cartilage very limited capacity for self-repair after injury",
+        "Nutrition occurs via small vessels running through the cartilage matrix itself; repair capacity is excellent because of this direct supply",
+        "Nutrition occurs via the periosteum, which extends over the articular surface; repair capacity is normal, similar to bone",
+        "Articular cartilage requires no nutritional supply because its cells are metabolically inactive"
+      ],
+      "correct_answer": "Nutrition occurs by diffusion from synovial fluid; this gives articular cartilage very limited capacity for self-repair after injury",
+      "distractor_rationale": {
+        "Nutrition occurs via small vessels running through the cartilage matrix itself; repair capacity is excellent because of this direct supply": "Articular cartilage is specifically AVASCULAR \u2014 no vessels penetrate the cartilage matrix itself, which is precisely why this option's claim of a direct vascular supply and excellent repair capacity is incorrect.",
+        "Nutrition occurs via the periosteum, which extends over the articular surface; repair capacity is normal, similar to bone": "Periosteum specifically does NOT extend over articular cartilage (it stops at the joint margin) \u2014 this is a genuine and important anatomical distinction, and cartilage's repair capacity is markedly worse than bone's, not comparable to it.",
+        "Articular cartilage requires no nutritional supply because its cells are metabolically inactive": "Chondrocytes within articular cartilage are living, metabolically active cells that do require ongoing nutrition \u2014 they simply receive it via diffusion rather than direct vascular supply, not because they need none at all."
+      },
+      "explanation": {
+        "core_concept": "Articular cartilage's avascularity isn't just a structural curiosity \u2014 it's the single fact that explains why cartilage injuries (unlike most bone or soft tissue injuries) heal so poorly, which has enormous clinical significance for how joint injuries and osteoarthritis are managed.",
+        "why_correct": "Because articular cartilage has no blood vessels within it, its chondrocytes receive oxygen and nutrients solely by diffusion from the synovial fluid bathing the joint surface. This diffusion-dependent nutrition is inherently limited compared to direct vascular supply, which is precisely why articular cartilage has very poor intrinsic capacity to repair itself after injury \u2014 unlike bone, which has a rich blood supply and heals readily.",
+        "why_others_wrong": {
+          "Nutrition occurs via small vessels running through the cartilage matrix itself; repair capacity is excellent because of this direct supply": "Directly contradicts the defining avascular nature of articular cartilage \u2014 no such vessels exist within the cartilage matrix.",
+          "Nutrition occurs via the periosteum, which extends over the articular surface; repair capacity is normal, similar to bone": "Periosteum stops at the joint margin and does not cover the articular surface itself \u2014 and cartilage repair is notably WORSE than bone's, not comparable.",
+          "Articular cartilage requires no nutritional supply because its cells are metabolically inactive": "Chondrocytes are living cells with real metabolic and nutritional needs \u2014 the mechanism of delivery (diffusion) is unusual, not the absence of any need at all."
+        },
+        "high_yield_facts": [
+          "Articular cartilage = avascular, aneural, alymphatic \u2014 nutrition purely by diffusion from synovial fluid.",
+          "This diffusion-dependence is WHY cartilage injuries heal poorly and why osteoarthritis (progressive cartilage loss) is largely irreversible once established.",
+          "This is also why joint movement/loading (which helps 'pump' synovial fluid through the cartilage) is important for cartilage health \u2014 a relevant point in rehabilitation and post-injury management."
+        ],
+        "clinical_correlation": "This mechanism is the direct biological basis for why cartilage-preserving and cartilage-restoration procedures (e.g. microfracture, cartilage grafting techniques) are actively researched and used clinically \u2014 because the tissue cannot reliably repair itself given its avascular nutrition, external intervention is often needed to restore a damaged articular surface.",
+        "common_confusions": [
+          "Assuming all connective tissues in the body have comparable healing capacity \u2014 cartilage's avascularity makes it a specific, important exception to the 'most tissues can heal given time' assumption that applies to well-vascularised tissues like bone or skin."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Osteoarthritis as progressive, largely irreversible cartilage loss",
+          "Meniscus vascularity (a related, partially exceptional case)",
+          "Synovial fluid composition and function"
+        ],
+        "exam_traps": [
+          "Don't assume 'no blood supply' means 'no nutritional needs' \u2014 this is a common logical shortcut that leads to the wrong answer; the cells are alive and need nutrition, just via an indirect (diffusion) route."
+        ],
+        "image_clues": null,
+        "memory_aid": "No vessels IN, only diffusion FROM the fluid AROUND \u2014 cartilage eats through the walls, not through its own kitchen.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly explains the osteoarthritis irreversibility fact and the meniscus healing-zone distinction covered elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Articular cartilage is nourished purely by diffusion from synovial fluid, having no blood supply of its own \u2014 this is why cartilage injury and degeneration (osteoarthritis) heal so poorly compared to vascularised tissues.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard joint biology \u2014 Ross and Pawlina's Histology: A Text and Atlas, cartilage and joints chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the diffusion-based nutrition of articular cartilage and its consequence for repair capacity after injury.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_synovial_joints_0003",
+      "subject": "Anatomy",
+      "topic": "Synovial Joints",
+      "subtopic": "Joint classification by movement",
+      "concept": "Saddle joint \u2014 the first carpometacarpal joint",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The first carpometacarpal joint (at the base of the thumb), formed between the trapezium and the base of the first metacarpal, is the classic example of which type of synovial joint?",
+      "options": [
+        "Saddle joint",
+        "Hinge joint",
+        "Pivot joint",
+        "Ball-and-socket joint"
+      ],
+      "correct_answer": "Saddle joint",
+      "distractor_rationale": {
+        "Hinge joint": "Hinge joints (like the elbow) permit uniaxial flexion-extension only \u2014 the first CMC joint has a much wider range including opposition, which a simple hinge cannot provide.",
+        "Pivot joint": "Pivot joints (like the atlantoaxial joint) permit rotation around a single central axis \u2014 a different movement pattern from the reciprocal concave-convex saddle articulation at the thumb base.",
+        "Ball-and-socket joint": "Ball-and-socket joints (like the hip and shoulder) involve a spherical head within a rounded socket \u2014 the first CMC joint's reciprocally curved (saddle-shaped) surfaces are a structurally distinct arrangement, even though both joint types allow a wide range of movement."
+      },
+      "explanation": {
+        "core_concept": "The first carpometacarpal joint is the textbook example most students can actually name for the saddle joint category \u2014 its reciprocally concave-convex articulating surfaces (each bone is concave in one direction and convex in the perpendicular direction, like a saddle) is what gives this joint type its name and its distinctive range of movement, including the thumb's unique ability to oppose the other fingers.",
+        "why_correct": "The trapezium and the base of the first metacarpal have reciprocally curved surfaces \u2014 each is concave along one axis and convex along the perpendicular axis, fitting together like a rider sitting in a saddle \u2014 permitting flexion-extension, abduction-adduction, and a degree of axial rotation that together produce the thumb's characteristic opposition movement.",
+        "why_others_wrong": {
+          "Hinge joint": "Would restrict the joint to simple flexion-extension only, unable to produce the thumb's opposition movement, which requires a wider range including rotation.",
+          "Pivot joint": "Describes rotation around a fixed central axis (like the head shaking 'no' at the atlantoaxial joint) \u2014 a different movement pattern from the saddle joint's biaxial-plus-rotation range.",
+          "Ball-and-socket joint": "While also permitting a wide range of movement, this describes a spherical-head-in-socket arrangement (hip, shoulder), structurally distinct from the reciprocal saddle-shaped surfaces at the thumb base."
+        },
+        "high_yield_facts": [
+          "First carpometacarpal (thumb base) joint = the classic, most commonly cited saddle joint example.",
+          "Saddle joints have reciprocally concave-convex surfaces, permitting a biaxial range of movement plus some rotation \u2014 enough to produce thumb opposition, a movement unique among the fingers.",
+          "This is a favourite single-example question precisely because most students can name only ONE true saddle joint \u2014 making it a reliable, low-ambiguity test point."
+        ],
+        "clinical_correlation": "Osteoarthritis of the first CMC joint (thumb base arthritis) is a very common real-world clinical presentation, particularly in older adults, causing pain with pinch-grip activities \u2014 directly relevant to recognising this joint's anatomy in a clinical context, not just as an isolated classification fact.",
+        "common_confusions": [
+          "Confusing saddle joints with ball-and-socket joints simply because both allow a relatively wide range of movement \u2014 the SHAPE of the articulating surfaces (reciprocal saddle-curves vs sphere-in-socket) is what actually defines the category, not just the range of motion achieved."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Thumb opposition movement",
+          "First CMC joint osteoarthritis",
+          "Other joint-type classic examples (hinge=elbow, pivot=atlantoaxial, ball-and-socket=hip/shoulder)"
+        ],
+        "exam_traps": [
+          "When asked for 'the' example of a saddle joint, the first CMC joint is almost always the intended answer \u2014 other, less classic examples exist but are rarely what a single-answer exam question is looking for."
+        ],
+        "image_clues": null,
+        "memory_aid": "Saddle joint = you can literally picture a tiny saddle at the base of your thumb.",
+        "other_ways_this_is_tested": [
+          "This joint-type classification underlies the image-based identification question elsewhere in this set, which asks you to recognise joint shape visually."
+        ],
+        "neet_pg_takeaway": "The first carpometacarpal joint (thumb base) is the classic saddle joint example \u2014 reciprocally concave-convex surfaces permitting the wide range of movement (including opposition) unique to the thumb.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard joint classification \u2014 Moore's Clinically Oriented Anatomy, joints chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the first carpometacarpal joint as the classic example of a saddle joint and describe its characteristic articulating surface shape.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_synovial_joints_0004",
+      "subject": "Anatomy",
+      "topic": "Synovial Joints",
+      "subtopic": "Clinical \u2014 synovial fluid analysis",
+      "concept": "Crystal arthropathy identification",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "Synovial fluid aspirated from an acutely inflamed, exquisitely tender first metatarsophalangeal joint is examined under polarised light microscopy, showing needle-shaped crystals with strongly negative birefringence. What is the most likely underlying diagnosis?",
+      "options": [
+        "Gout (monosodium urate crystal deposition)",
+        "Pseudogout (calcium pyrophosphate crystal deposition)",
+        "Septic arthritis",
+        "Osteoarthritis"
+      ],
+      "correct_answer": "Gout (monosodium urate crystal deposition)",
+      "distractor_rationale": {
+        "Pseudogout (calcium pyrophosphate crystal deposition)": "Pseudogout crystals are classically rhomboid-shaped with POSITIVE birefringence \u2014 the opposite crystal morphology and birefringence pattern from what's described here.",
+        "Septic arthritis": "Would show organisms and a markedly elevated, predominantly neutrophilic white cell count on fluid analysis, not crystal findings \u2014 crystals and infection are generally distinct (though can rarely coexist) diagnostic categories.",
+        "Osteoarthritis": "Produces non-inflammatory, clear, high-viscosity synovial fluid without significant crystal deposition \u2014 a very different fluid picture from the inflammatory, crystal-containing fluid described here."
+      },
+      "explanation": {
+        "core_concept": "Synovial fluid crystal analysis under polarised light is a genuinely elegant, specific diagnostic test \u2014 the SHAPE (needle vs rhomboid) and BIREFRINGENCE DIRECTION (negative vs positive) of crystals together definitively distinguish gout from pseudogout, two conditions that can otherwise look clinically similar.",
+        "why_correct": "Needle-shaped crystals with strongly NEGATIVE birefringence under polarised light are the classic, defining laboratory finding of gout, caused by monosodium urate crystal deposition \u2014 and the first metatarsophalangeal joint (the classic site, called podagra when affected) fits the clinical picture perfectly.",
+        "why_others_wrong": {
+          "Pseudogout (calcium pyrophosphate crystal deposition)": "Pseudogout crystals are rhomboid-shaped with POSITIVE birefringence \u2014 both the shape and the birefringence direction are opposite to what's described in this vignette.",
+          "Septic arthritis": "Diagnosed by organisms and a very high, neutrophil-predominant white cell count on fluid analysis, not by crystal morphology \u2014 a fundamentally different category of finding from what's described here.",
+          "Osteoarthritis": "Produces non-inflammatory fluid without notable crystal deposition, inconsistent with the acutely inflamed, crystal-positive picture in this vignette."
+        },
+        "high_yield_facts": [
+          "Gout: needle-shaped crystals, NEGATIVELY birefringent, classic site = first MTP joint (podagra).",
+          "Pseudogout: rhomboid-shaped crystals, POSITIVELY birefringent, classic site = knee.",
+          "'Negative birefringence = needle = urate = gout' and 'Positive birefringence = rhomboid = pyrophosphate = pseudogout' \u2014 two matched, opposite triads worth memorising as a pair."
+        ],
+        "clinical_correlation": "Correctly distinguishing gout from pseudogout via crystal analysis has direct treatment implications \u2014 while both are managed with anti-inflammatory approaches acutely, the longer-term management (e.g., urate-lowering therapy for recurrent gout) differs, making accurate crystal identification clinically consequential, not just an academic exercise.",
+        "common_confusions": [
+          "Mixing up which crystal shape/birefringence pairs with which condition \u2014 since both are 'crystal arthropathies' with somewhat similar acute presentations, actively memorising the specific shape+birefringence+classic-site triad for each is what prevents confusing the two under exam pressure."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Podagra (first MTP joint gout)",
+          "Calcium pyrophosphate deposition disease (pseudogout, classic knee involvement)",
+          "Synovial fluid analysis categories (non-inflammatory, inflammatory, septic, haemorrhagic)"
+        ],
+        "exam_traps": [
+          "Don't rely on joint location alone to distinguish gout from pseudogout \u2014 while first MTP (gout) and knee (pseudogout) are the classic sites, either condition can technically affect other joints, so the crystal morphology/birefringence findings are the definitive discriminator when given in a vignette."
+        ],
+        "image_clues": null,
+        "memory_aid": "Gout is Negative and Needle-shaped (both start with a similar sharp sound); Pseudogout is Positive and shaPed like a rhomboid/Parallelogram.",
+        "other_ways_this_is_tested": [
+          "This crystal analysis question is a direct clinical application of synovial fluid's role (established in the capsule/synovial membrane question earlier in this set) as a diagnostically sampled joint fluid."
+        ],
+        "neet_pg_takeaway": "Needle-shaped, negatively birefringent crystals = gout (monosodium urate); rhomboid-shaped, positively birefringent crystals = pseudogout (calcium pyrophosphate) \u2014 a classic paired discrimination in synovial fluid analysis.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard rheumatology diagnostic criteria \u2014 Harrison's Principles of Internal Medicine, crystal arthropathies section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish gout from pseudogout using synovial fluid crystal shape and birefringence pattern.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_synovial_joints_0005",
+      "subject": "Anatomy",
+      "topic": "Synovial Joints",
+      "subtopic": "Image-based classification",
+      "concept": "Identifying joint type from articulating surface shape",
+      "question_type": "image_based",
+      "difficulty": 3,
+      "question": "[Image: schematic cross-sections of four different joints, each showing the shape of the articulating bone surfaces: (A) a cylindrical peg rotating within a ring formed by bone and ligament; (B) a rounded, convex condyle fitting into a shallow, elongated oval concavity, permitting movement in two perpendicular planes but not rotation; (C) two flat, closely apposed surfaces; (D) a spherical head fitting into a deep, cup-shaped socket.] Which labelled joint corresponds to a condyloid (ellipsoid) joint, and what movements does it characteristically permit?",
+      "options": [
+        "B \u2014 flexion-extension and abduction-adduction (biaxial), but not axial rotation",
+        "A \u2014 uniaxial rotation only",
+        "C \u2014 gliding movements only",
+        "D \u2014 multiaxial movement including rotation, the greatest range of any joint type"
+      ],
+      "correct_answer": "B \u2014 flexion-extension and abduction-adduction (biaxial), but not axial rotation",
+      "distractor_rationale": {
+        "A \u2014 uniaxial rotation only": "This description matches a PIVOT joint (like the atlantoaxial or radioulnar joints) \u2014 a cylindrical peg rotating within a ring is the defining pivot joint arrangement, not condyloid.",
+        "C \u2014 gliding movements only": "This describes a PLANE joint (like intercarpal joints) \u2014 flat, closely apposed surfaces permitting only gliding, a different category from condyloid.",
+        "D \u2014 multiaxial movement including rotation, the greatest range of any joint type": "This describes a BALL-AND-SOCKET joint (like the hip or shoulder) \u2014 a spherical head in a deep socket, permitting rotation as well as the biaxial movements, which is MORE range than a condyloid joint allows."
+      },
+      "explanation": {
+        "core_concept": "Correctly matching a schematic joint shape to its movement category requires recognising that condyloid joints occupy a specific middle ground \u2014 more movement than a simple hinge or pivot, but LESS than a ball-and-socket, because their oval (not spherical) articulating shape specifically excludes axial rotation.",
+        "why_correct": "A rounded, convex condyle fitting into a shallow, ELONGATED OVAL (not circular) concavity is the defining shape of a condyloid (ellipsoid) joint \u2014 this shape permits flexion-extension and abduction-adduction (biaxial movement) but the non-circular, elongated shape of the socket specifically prevents axial rotation, distinguishing it from a true ball-and-socket joint. The wrist (radiocarpal) joint and the metacarpophalangeal joints are classic examples.",
+        "why_others_wrong": {
+          "A \u2014 uniaxial rotation only": "A cylindrical peg rotating within a ring is specifically the pivot joint arrangement (e.g. atlantoaxial joint, proximal radioulnar joint) \u2014 a different shape and movement category from condyloid.",
+          "C \u2014 gliding movements only": "Flat, closely apposed surfaces describe a plane joint (e.g. intercarpal or intertarsal joints), permitting only simple gliding \u2014 a more restricted movement category than condyloid.",
+          "D \u2014 multiaxial movement including rotation, the greatest range of any joint type": "A spherical head in a deep cup-shaped socket describes a ball-and-socket joint (hip, shoulder) \u2014 this permits MORE movement (including rotation) than a condyloid joint's oval-shaped articulation allows."
+        },
+        "high_yield_facts": [
+          "Condyloid (ellipsoid) joint: convex condyle in an OVAL (elongated, non-circular) concavity \u2014 biaxial movement (flexion-extension + abduction-adduction), NO axial rotation.",
+          "Classic examples: wrist (radiocarpal) joint, metacarpophalangeal joints.",
+          "The key visual distinguishing feature from ball-and-socket is the ELONGATED (not spherical/circular) shape of the socket \u2014 this shape difference is exactly what removes the rotation component."
+        ],
+        "clinical_correlation": "Understanding that the MCP joints are condyloid (not hinge) joints explains why the fingers can both flex/extend AND spread apart/together (abduction/adduction) at the knuckle, a functionally important range for hand function, distinct from the pure hinge movement at the interphalangeal joints further along the same finger.",
+        "common_confusions": [
+          "Confusing condyloid joints with ball-and-socket joints because both permit movement in more than one plane \u2014 the DEFINING difference is the shape of the socket (oval/elongated vs spherical), which is what specifically excludes rotation in condyloid joints."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Ball-and-socket joints (contrast, MORE movement)",
+          "Pivot joints (contrast, rotation-only)",
+          "Plane joints (contrast, gliding-only)",
+          "MCP joint function in hand grip and finger spread"
+        ],
+        "exam_traps": [
+          "When an image shows an OVAL (not circular) socket, this is the specific visual cue for condyloid rather than ball-and-socket \u2014 don't classify by 'more than one plane of movement' alone, since that description could fit either category; check the socket's shape specifically."
+        ],
+        "image_clues": "Key visual clue for condyloid joints specifically: the socket/concavity is ELONGATED/OVAL in shape, not circular \u2014 this shape is what permits biaxial movement while excluding rotation.",
+        "memory_aid": "Condyloid = oval socket = 2 directions, no spin. Ball-and-socket = round socket = every direction, including spin.",
+        "other_ways_this_is_tested": [
+          "This image-based classification question synthesises the general joint-type-by-movement framework established in the concept blueprint with the saddle joint example question elsewhere in this set, covering the full classification system."
+        ],
+        "neet_pg_takeaway": "Condyloid (ellipsoid) joints have a convex condyle fitting an OVAL (not circular) concavity, permitting biaxial movement (flexion-extension + abduction-adduction) but NOT axial rotation \u2014 the elongated socket shape is the key visual and functional distinguishing feature from ball-and-socket joints.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard joint classification \u2014 Moore's Clinically Oriented Anatomy, joints chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate schematic of joint articulating-surface shapes must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify a condyloid joint from its characteristic oval articulating surface shape and state the movements it permits and excludes.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

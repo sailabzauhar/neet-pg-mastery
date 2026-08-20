@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0034",
+    "topic": "Elastic Cartilage - Histology",
+    "chapter_number": 34,
+    "chapter_file": "data/anatomy/ch34_elastic_cartilage_histology.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "exception",
+      "clinical_vignette",
+      "comparison"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This chapter completes the cartilage-type trilogy alongside the White Fibrocartilage chapter (ch29) and the Synovial Joints chapter's articular hyaline cartilage coverage (ch10) \u2014 deliberately complementary, each covering a genuinely distinct cartilage type without duplication.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch29 (White Fibrocartilage) and ch10 (Synovial Joints) \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Elastic cartilage is the third cartilage type, matrix dominated by a dense network of ELASTIN fibres interwoven with type II collagen \u2014 giving it the ability to bend and immediately recoil to its original shape, unlike hyaline cartilage's more purely compression-bearing rigidity or fibrocartilage's tensile strength. Found specifically at sites needing repeated flexible bending: the epiglottis, external ear (pinna), auditory tube, and the corniculate/cuneiform (small) laryngeal cartilages."
+    },
+    "structure_anatomy": {
+      "elastin_network": "Elastic fibres form a dense, branching network throughout the matrix, best visualised with special stains (e.g. Verhoeff-Van Gieson, or orcein) that specifically highlight elastin \u2014 on routine H&E staining, elastic cartilage can actually look quite similar to hyaline cartilage, making special stains genuinely important for confident identification.",
+      "perichondrium": "Elastic cartilage typically DOES have a perichondrium (unlike fibrocartilage, covered in the White Fibrocartilage chapter), similar to hyaline cartilage in this respect.",
+      "no_calcification_with_age": "Unlike hyaline cartilage (which frequently calcifies with age, e.g. costal cartilage), elastic cartilage characteristically does NOT calcify with age \u2014 its elastin-rich composition resists the calcification process that affects ageing hyaline cartilage."
+    },
+    "clinical": {
+      "relapsing_polychondritis": "An autoimmune condition causing episodic inflammation and progressive destruction of cartilage throughout the body, with the EAR (elastic cartilage) being one of the most characteristically and visibly affected sites \u2014 producing painful, red, swollen pinna with sparing of the earLOBE specifically (which lacks cartilage entirely, being composed of fibrofatty tissue), a genuinely useful clinical clue since lobe involvement points away from this diagnosis toward an alternative cause (e.g. cellulitis).",
+      "cauliflower_ear": "Repeated trauma to the external ear (e.g. in wrestling, boxing) can cause perichondrial haematoma, which \u2014 if not promptly drained \u2014 can lead to cartilage necrosis and subsequent fibrotic deformity ('cauliflower ear'), a direct consequence of disrupting the elastic cartilage's blood supply (which comes entirely from the perichondrium, since elastic cartilage itself, like all cartilage, is avascular)."
+    },
+    "related_structures": "Elastic cartilage sits alongside hyaline and fibrocartilage as the third member of the cartilage classification triad (see White Fibrocartilage chapter for the fibrocartilage comparison) \u2014 best remembered by matching TISSUE PROPERTY to FUNCTIONAL NEED: elastic cartilage's flexibility/recoil suits structures needing to bend and spring back repeatedly (ear, epiglottis), a genuinely different mechanical need from hyaline cartilage's rigid compression-bearing role or fibrocartilage's tensile-strength role."
+  },
+  "question_family": [
+    {
+      "family_name": "Elastic Cartilage \u2014 Structure, Locations, and Clinical Correlations (4 angles, one concept)",
+      "member_ids": [
+        "anat_elastic_cartilage_0001",
+        "anat_elastic_cartilage_0002",
+        "anat_elastic_cartilage_0003",
+        "anat_elastic_cartilage_0004"
+      ],
+      "coverage": "Recall (elastin matrix), exception (laryngeal cartilage split), clinical vignette (relapsing polychondritis), and comparison (calcification pattern vs hyaline cartilage) \u2014 four genuinely different angles on the same integrated concept, complementary to (not duplicating) the White Fibrocartilage chapter's coverage of the third cartilage type."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_elastic_cartilage_0001",
+      "subject": "Anatomy",
+      "topic": "Elastic Cartilage - Histology",
+      "subtopic": "Matrix composition",
+      "concept": "Elastic cartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Elastic cartilage's extracellular matrix contains a dense network of which fibre type, giving it the ability to bend and recoil?",
+      "options": [
+        "Elastin fibres (interwoven with type II collagen)",
+        "Type I collagen fibres exclusively",
+        "Reticular (type III collagen) fibres exclusively",
+        "No fibres at all \u2014 a purely proteoglycan matrix"
+      ],
+      "correct_answer": "Elastin fibres (interwoven with type II collagen)",
+      "distractor_rationale": {
+        "Type I collagen fibres exclusively": "The dominant fibre of FIBROCARTILAGE, not elastic cartilage \u2014 and elastic cartilage's matrix also contains type II collagen, not type I.",
+        "Reticular (type III collagen) fibres exclusively": "Characteristic of reticular connective tissue (e.g. lymphoid organ stroma), not cartilage.",
+        "No fibres at all \u2014 a purely proteoglycan matrix": "Denies elastic cartilage's genuinely rich elastin and collagen fibre content, which is precisely what gives it its distinctive mechanical properties."
+      },
+      "explanation": {
+        "core_concept": "Elastin is the single defining compositional feature separating elastic cartilage from both hyaline and fibrocartilage \u2014 its dense elastin network is precisely what gives this tissue its unique bend-and-recoil mechanical property, unlike either of the other two cartilage types.",
+        "why_correct": "Elastic cartilage's matrix contains a dense, branching network of elastin fibres, interwoven with a type II collagen framework (similar to hyaline cartilage's collagen type) \u2014 the elastin content is what gives elastic cartilage its distinctive flexibility and immediate recoil after bending.",
+        "why_others_wrong": {
+          "Type I collagen fibres exclusively": "The characteristic fibrocartilage matrix component, and also incorrectly excludes elastic cartilage's genuine type II collagen content.",
+          "Reticular (type III collagen) fibres exclusively": "A different connective tissue's characteristic fibre, unrelated to cartilage matrix composition.",
+          "No fibres at all \u2014 a purely proteoglycan matrix": "Denies elastic cartilage's genuinely rich elastin/collagen fibre content."
+        },
+        "high_yield_facts": [
+          "Elastic cartilage matrix = elastin fibres + type II collagen \u2014 the elastin is the DEFINING addition distinguishing it from plain hyaline cartilage.",
+          "This composition directly explains elastic cartilage's bend-and-immediately-recoil mechanical property, distinct from hyaline (rigid) or fibrocartilage (tensile strength) properties.",
+          "Special elastin stains (e.g. Verhoeff-Van Gieson, orcein) are often needed to confidently distinguish elastic from hyaline cartilage, since they can look similar on routine H&E."
+        ],
+        "clinical_correlation": "Understanding elastin's specific contribution helps explain why elastic cartilage sites (ear, epiglottis) can bend repeatedly without permanent deformation, unlike hyaline cartilage sites, which would crack or deform under similar repeated bending stress.",
+        "common_confusions": [
+          "Assuming elastic cartilage shares fibrocartilage's type I collagen dominance simply because both are 'specialised' cartilage types \u2014 elastic cartilage's defining fibre is specifically ELASTIN, added to a type II collagen base similar to hyaline cartilage, not type I collagen."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Fibrocartilage's type I collagen matrix (see White Fibrocartilage chapter, contrast)",
+          "Elastic cartilage locations and no-calcification property (this concept, other questions)"
+        ],
+        "exam_traps": [
+          "Don't default to 'collagen' generically for elastic cartilage \u2014 actively specify ELASTIN as the defining, additional fibre type."
+        ],
+        "image_clues": null,
+        "memory_aid": "Elastic cartilage = elastin \u2014 the name and the key fibre literally match.",
+        "other_ways_this_is_tested": [
+          "This matrix composition underlies the special-stain identification and no-calcification facts covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Elastic cartilage's matrix contains a dense elastin fibre network interwoven with type II collagen \u2014 the elastin content is the defining feature giving this tissue its characteristic bend-and-recoil property.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, cartilage chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that elastic cartilage's matrix is characterised by a dense elastin fibre network.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_elastic_cartilage_0002",
+      "subject": "Anatomy",
+      "topic": "Elastic Cartilage - Histology",
+      "subtopic": "Locations",
+      "concept": "Elastic cartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "exception",
+      "difficulty": 3,
+      "question": "Of the laryngeal cartilages, most (thyroid, cricoid, arytenoid) are hyaline cartilage. Which laryngeal cartilages are the EXCEPTION, composed of elastic cartilage instead?",
+      "options": [
+        "Corniculate and cuneiform cartilages, plus the tip of the epiglottis-adjacent arytenoid vocal process region",
+        "The thyroid cartilage specifically",
+        "The cricoid cartilage specifically",
+        "All laryngeal cartilages are uniformly hyaline, with no elastic cartilage exceptions"
+      ],
+      "correct_answer": "Corniculate and cuneiform cartilages, plus the tip of the epiglottis-adjacent arytenoid vocal process region",
+      "distractor_rationale": {
+        "The thyroid cartilage specifically": "The thyroid cartilage is hyaline, not elastic \u2014 one of the MAJORITY hyaline laryngeal cartilages, not the exception.",
+        "The cricoid cartilage specifically": "Also hyaline, not the exception.",
+        "All laryngeal cartilages are uniformly hyaline, with no elastic cartilage exceptions": "Denies the genuine, small-cartilage exception (corniculate, cuneiform, and the epiglottis itself) within the larynx."
+      },
+      "explanation": {
+        "core_concept": "The larynx is a genuinely useful single location to see BOTH hyaline and elastic cartilage side by side \u2014 most of its structural cartilages (thyroid, cricoid, most of arytenoid) are hyaline for rigid support, while the smaller, more flexible corniculate and cuneiform cartilages (plus the separate epiglottis) are elastic, suited to their more flexible functional roles.",
+        "why_correct": "The corniculate and cuneiform cartilages (small, paired cartilages within the aryepiglottic folds) are elastic cartilage, along with the vocal process tip region of the arytenoid cartilages in some descriptions \u2014 differing from the larger, structurally rigid thyroid, cricoid, and main body of the arytenoid cartilages, which are hyaline. (The epiglottis itself, a separate laryngeal cartilage entirely, is also elastic \u2014 covered as a related fact.)",
+        "why_others_wrong": {
+          "The thyroid cartilage specifically": "Hyaline, part of the majority rigid-support group, not the elastic exception.",
+          "The cricoid cartilage specifically": "Also hyaline, not the exception.",
+          "All laryngeal cartilages are uniformly hyaline, with no elastic cartilage exceptions": "Denies the genuine small-cartilage exceptions within the larynx."
+        },
+        "high_yield_facts": [
+          "Laryngeal cartilages: MOSTLY hyaline (thyroid, cricoid, most of arytenoid) \u2014 STRUCTURAL support.",
+          "Elastic exceptions: corniculate, cuneiform cartilages (and the separate epiglottis) \u2014 FLEXIBLE, bending roles.",
+          "This split within a single organ (the larynx) is a great illustration of matching cartilage TYPE to the SPECIFIC mechanical job each individual cartilage performs, even within one structure."
+        ],
+        "clinical_correlation": "Age-related calcification (a hyaline cartilage phenomenon) can affect the thyroid and cricoid cartilages, visible on imaging, while the elastic laryngeal cartilages (corniculate, cuneiform, epiglottis) characteristically do NOT calcify with age \u2014 a genuinely useful imaging interpretation point.",
+        "common_confusions": [
+          "Assuming all cartilage within a single organ (like the larynx) must be the same type \u2014 different individual cartilages within the SAME organ can be different types, matched to their own specific local mechanical function."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Elastic cartilage matrix composition (this concept, other question)",
+          "No calcification with age (this concept, other question) \u2014 directly relevant to distinguishing hyaline vs elastic laryngeal cartilages on imaging"
+        ],
+        "exam_traps": [
+          "Don't assume 'laryngeal cartilage' automatically means hyaline \u2014 actively recall the corniculate/cuneiform/epiglottis exception when asked about elastic cartilage locations specifically."
+        ],
+        "image_clues": null,
+        "memory_aid": "Big structural laryngeal cartilages (thyroid, cricoid) = rigid, hyaline. Small, flexible accessory cartilages (corniculate, cuneiform) = bendy, elastic.",
+        "other_ways_this_is_tested": [
+          "This location exception connects directly to the calcification-pattern question elsewhere in this chapter, both relevant to imaging interpretation of the larynx."
+        ],
+        "neet_pg_takeaway": "Within the larynx, most cartilages (thyroid, cricoid, most of arytenoid) are hyaline for structural rigidity, while the corniculate and cuneiform cartilages (plus the separate epiglottis) are elastic, suited to their more flexible mechanical roles.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas; Moore's Clinically Oriented Anatomy, larynx section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the corniculate and cuneiform cartilages as elastic cartilage exceptions among the predominantly hyaline laryngeal cartilages.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_elastic_cartilage_0003",
+      "subject": "Anatomy",
+      "topic": "Elastic Cartilage - Histology",
+      "subtopic": "Clinical \u2014 relapsing polychondritis",
+      "concept": "Elastic cartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient presents with recurrent episodes of painful, red, swollen external ears bilaterally, with the earlobes specifically SPARED from involvement. What is the most likely diagnosis, and why does earlobe sparing support it?",
+      "options": [
+        "Relapsing polychondritis \u2014 an autoimmune disease targeting cartilage (elastic cartilage of the pinna), and the earlobe is spared because it contains NO cartilage at all (it's fibrofatty tissue), consistent with a specifically cartilage-targeting process",
+        "Cellulitis of the ear \u2014 a bacterial skin infection that would be expected to also involve the earlobe, since it's a soft tissue infection rather than a cartilage-specific process",
+        "Contact dermatitis from earrings, which would be expected to affect the earlobe specifically (the piercing site) rather than sparing it",
+        "Relapsing polychondritis does not exist as a real diagnosis; this presentation must reflect a fabricated or incorrect clinical scenario"
+      ],
+      "correct_answer": "Relapsing polychondritis \u2014 an autoimmune disease targeting cartilage (elastic cartilage of the pinna), and the earlobe is spared because it contains NO cartilage at all (it's fibrofatty tissue), consistent with a specifically cartilage-targeting process",
+      "distractor_rationale": {
+        "Cellulitis of the ear \u2014 a bacterial skin infection that would be expected to also involve the earlobe, since it's a soft tissue infection rather than a cartilage-specific process": "Cellulitis, being a soft tissue infection rather than cartilage-specific, would typically involve the ENTIRE ear including the lobe \u2014 the vignette's specific EARLOBE SPARING actually argues against this diagnosis, favouring the cartilage-specific alternative instead.",
+        "Contact dermatitis from earrings, which would be expected to affect the earlobe specifically (the piercing site) rather than sparing it": "Contact dermatitis from earrings would classically affect the LOBE (piercing site) specifically \u2014 the opposite pattern from what's described (lobe SPARED, rest of ear involved).",
+        "Relapsing polychondritis does not exist as a real diagnosis; this presentation must reflect a fabricated or incorrect clinical scenario": "A genuine, well-recognised autoimmune condition with exactly this classic presentation."
+      },
+      "explanation": {
+        "core_concept": "Earlobe sparing is a genuinely elegant diagnostic clue directly explained by histology \u2014 since the lobe has no cartilage at all (unlike the rest of the pinna, which is elastic cartilage), a disease process specifically targeting CARTILAGE will characteristically spare it, while a generic infectious or dermatologic process affecting the whole ear (skin and cartilage together) would not show this selective sparing pattern.",
+        "why_correct": "Relapsing polychondritis is an autoimmune condition causing episodic, often recurrent inflammation and progressive destruction of cartilage throughout the body, with the external ear (elastic cartilage of the pinna) being one of its most characteristic and visible sites of involvement. Because the earlobe contains NO cartilage (being purely fibrofatty tissue), it is characteristically SPARED in relapsing polychondritis \u2014 a genuinely useful, specific clinical sign supporting this diagnosis over alternatives that would be expected to also involve the lobe.",
+        "why_others_wrong": {
+          "Cellulitis of the ear \u2014 a bacterial skin infection that would be expected to also involve the earlobe, since it's a soft tissue infection rather than a cartilage-specific process": "Being a skin/soft-tissue process, cellulitis would typically involve the WHOLE ear including the lobe \u2014 the specific lobe-sparing pattern described argues against this diagnosis.",
+          "Contact dermatitis from earrings, which would be expected to affect the earlobe specifically (the piercing site) rather than sparing it": "Would classically affect the lobe SPECIFICALLY (the piercing site) \u2014 the opposite pattern from the lobe-sparing description given.",
+          "Relapsing polychondritis does not exist as a real diagnosis; this presentation must reflect a fabricated or incorrect clinical scenario": "A genuine, well-documented autoimmune condition, not a fabricated scenario."
+        },
+        "high_yield_facts": [
+          "Relapsing polychondritis: autoimmune, episodic cartilage inflammation/destruction, classic ear involvement WITH earlobe sparing (since the lobe has no cartilage).",
+          "Earlobe sparing is a genuinely useful discriminating clinical sign \u2014 favouring a cartilage-specific process over a generic skin/soft-tissue process (like cellulitis or contact dermatitis), which would typically also involve the lobe.",
+          "Relapsing polychondritis can also affect other cartilage sites (nasal septum \u2014 causing saddle-nose deformity; laryngotracheal cartilage \u2014 potentially causing airway compromise; costal cartilage; joints), a broader systemic pattern worth being aware of beyond just the ear."
+        ],
+        "clinical_correlation": "Recognising this earlobe-sparing pattern directly guides appropriate diagnostic workup (further evaluation for relapsing polychondritis, including assessment of other cartilage sites and airway involvement) rather than pursuing an infectious or dermatologic diagnosis that wouldn't fit this specific pattern.",
+        "common_confusions": [
+          "Assuming any red, swollen, painful ear must reflect infection (cellulitis) \u2014 actively checking whether the LOBE is involved or spared is a genuinely useful, specific diagnostic discriminator between infectious/dermatologic causes and cartilage-specific autoimmune disease."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Elastic cartilage locations (this concept, other question) \u2014 the pinna is a classic elastic cartilage site, the anatomical basis for this entire clinical vignette"
+        ],
+        "exam_traps": [
+          "Actively use the LOBE SPARING detail as a positive diagnostic clue FOR relapsing polychondritis, not just a neutral or confusing detail \u2014 it's specifically included in vignettes to test whether the ear's fibrofatty (non-cartilage) lobe versus cartilaginous pinna distinction has been understood."
+        ],
+        "image_clues": null,
+        "memory_aid": "No cartilage in the lobe, no relapsing polychondritis in the lobe \u2014 the disease can only attack what's actually cartilage.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the elastic cartilage location fact (external ear/pinna) established elsewhere in this chapter to a genuine, high-yield clinical diagnosis."
+        ],
+        "neet_pg_takeaway": "Relapsing polychondritis characteristically involves the cartilaginous pinna while SPARING the earlobe (which contains no cartilage) \u2014 a genuinely useful diagnostic clue directly explained by the earlobe's distinct, non-cartilaginous histology.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Robbins and Cotran Pathologic Basis of Disease; standard rheumatology references on relapsing polychondritis."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose relapsing polychondritis from characteristic ear involvement with earlobe sparing, explained by the lobe's non-cartilaginous composition.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_elastic_cartilage_0004",
+      "subject": "Anatomy",
+      "topic": "Elastic Cartilage - Histology",
+      "subtopic": "No calcification with age",
+      "concept": "Elastic cartilage: matrix composition, locations, and clinical consequences of its structure",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Costal cartilage (hyaline) frequently calcifies with age, visible as radiopaque streaks on chest imaging in older adults. Does elastic cartilage (e.g. of the ear or epiglottis) show this same age-related calcification pattern?",
+      "options": [
+        "No \u2014 elastic cartilage characteristically does NOT calcify with age, unlike hyaline cartilage",
+        "Yes \u2014 elastic cartilage calcifies with age at an even faster rate than hyaline cartilage",
+        "Yes, but only in the epiglottis specifically, while the ear's elastic cartilage never calcifies",
+        "Calcification patterns are identical and indistinguishable between hyaline and elastic cartilage"
+      ],
+      "correct_answer": "No \u2014 elastic cartilage characteristically does NOT calcify with age, unlike hyaline cartilage",
+      "distractor_rationale": {
+        "Yes \u2014 elastic cartilage calcifies with age at an even faster rate than hyaline cartilage": "Reverses the actual pattern \u2014 elastic cartilage specifically RESISTS the age-related calcification that hyaline cartilage characteristically undergoes.",
+        "Yes, but only in the epiglottis specifically, while the ear's elastic cartilage never calcifies": "Incorrectly attributes calcification to elastic cartilage at any site \u2014 the general elastic cartilage pattern is non-calcification, not a partial exception limited to one location.",
+        "Calcification patterns are identical and indistinguishable between hyaline and elastic cartilage": "Denies a genuine, well-established, and clinically relevant difference between these two cartilage types."
+      },
+      "explanation": {
+        "core_concept": "This is a genuinely useful, practically applicable distinguishing feature \u2014 unlike the more abstract matrix composition difference, calcification pattern is something directly visible and clinically relevant on imaging, making it a favourite way to test whether the hyaline-vs-elastic distinction has real, applied understanding.",
+        "why_correct": "Elastic cartilage characteristically does NOT calcify with age, unlike hyaline cartilage (which frequently does, e.g. costal cartilage calcification visible on chest X-ray/CT in older adults) \u2014 a genuine, well-established structural/compositional difference between the two cartilage types, likely related to elastic cartilage's distinct elastin-rich matrix composition.",
+        "why_others_wrong": {
+          "Yes \u2014 elastic cartilage calcifies with age at an even faster rate than hyaline cartilage": "Directly reverses the true pattern.",
+          "Yes, but only in the epiglottis specifically, while the ear's elastic cartilage never calcifies": "Incorrectly attributes calcification to elastic cartilage generally \u2014 the resistance to calcification is a general elastic cartilage property, not site-limited.",
+          "Calcification patterns are identical and indistinguishable between hyaline and elastic cartilage": "Denies a genuine, clinically relevant distinguishing feature."
+        },
+        "high_yield_facts": [
+          "Hyaline cartilage (e.g. costal cartilage): frequently calcifies with age \u2014 visible on imaging.",
+          "Elastic cartilage (ear, epiglottis, corniculate/cuneiform): characteristically does NOT calcify with age.",
+          "This is a practically useful, imaging-relevant distinguishing feature between the two cartilage types, beyond the more abstract matrix composition difference."
+        ],
+        "clinical_correlation": "This distinction is directly relevant to interpreting chest imaging in older adults, where calcified costal cartilage is a normal, expected age-related finding, while calcification at an elastic cartilage site would be an unusual, potentially pathological finding worth further investigation.",
+        "common_confusions": [
+          "Assuming all cartilage ages identically \u2014 hyaline and elastic cartilage genuinely differ in their age-related calcification tendency, a distinguishing feature worth knowing alongside the more commonly emphasised matrix composition difference."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Elastic cartilage matrix composition (this concept, other question)",
+          "Costal cartilage calcification (a related hyaline cartilage fact, not covered in depth in this chapter)"
+        ],
+        "exam_traps": [
+          "Don't assume age-related cartilage calcification is a universal cartilage property \u2014 it's specifically a HYALINE cartilage tendency, with elastic cartilage characteristically resistant to it."
+        ],
+        "image_clues": null,
+        "memory_aid": "Hyaline hardens with age (calcifies); elastic stays flexible (resists calcification) \u2014 matching each type's underlying mechanical philosophy.",
+        "other_ways_this_is_tested": [
+          "This calcification-resistance property connects directly to the laryngeal cartilage exception question elsewhere in this chapter, relevant to distinguishing hyaline from elastic laryngeal cartilages on imaging."
+        ],
+        "neet_pg_takeaway": "Elastic cartilage characteristically does NOT calcify with age, unlike hyaline cartilage (e.g. costal cartilage) \u2014 a genuine, clinically relevant, imaging-applicable distinguishing feature between the two cartilage types.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, cartilage chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Contrast elastic cartilage's resistance to age-related calcification with hyaline cartilage's tendency to calcify.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

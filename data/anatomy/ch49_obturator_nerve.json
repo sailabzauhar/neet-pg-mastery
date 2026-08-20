@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0049",
+    "topic": "Obturator Nerve",
+    "chapter_number": 49,
+    "chapter_file": "data/anatomy/ch49_obturator_nerve.json",
+    "source_years": [
+      2024
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 1,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "comparison",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The obturator nerve (L2-L4, lumbar plexus) supplies the medial (adductor) compartment of the thigh and a small area of medial thigh skin \u2014 its course through the obturator canal makes it vulnerable to a genuinely distinctive entrapment/compression pattern (obturator hernia, and compression by pelvic masses), and its close anatomical relationship to the obturator internus muscle within the pelvis explains a characteristic referred pain pattern worth recognising."
+    },
+    "structure_anatomy": {
+      "origin_and_course": "Arises from the lumbar plexus (L2-L4 ventral rami), descends through psoas major, crosses the pelvic brim, and exits the pelvis via the OBTURATOR CANAL (a gap in the superolateral obturator membrane, alongside the obturator artery and vein) to enter the medial thigh, where it divides into anterior and posterior branches supplying the adductor muscles (adductor longus, brevis, magnus, gracilis, obturator externus) and a small area of medial thigh skin.",
+      "obturator_canal": "The obturator canal is a relatively narrow, fixed anatomical passage \u2014 genuinely important because it's both the nerve's normal, necessary exit route from the pelvis AND a site of two distinct clinical vulnerabilities: entrapment/compression by an adjacent mass (e.g. pelvic tumour, or during pregnancy) causing obturator neuropathy, and \u2014 much less commonly \u2014 herniation of abdominal/pelvic contents through this same canal (obturator hernia)."
+    },
+    "clinical": {
+      "obturator_hernia": "A rare hernia where abdominal contents (typically small bowel) protrude through the obturator canal \u2014 classically presenting in older, thin, multiparous women, and notable for the 'Howship-Romberg sign': pain radiating down the medial thigh (in the obturator nerve's own sensory distribution) that is characteristically WORSENED by hip extension/medial rotation and RELIEVED by hip flexion (which reduces tension/compression on the entrapped/compressed nerve at the canal) \u2014 a genuinely useful, specific diagnostic sign directly reflecting the nerve's compression by the herniating contents at this exact anatomical site.",
+      "obturator_neuropathy_from_pelvic_mass": "Beyond hernia specifically, any pelvic mass or process compressing the nerve near the obturator canal (e.g. a pelvic tumour, or occasionally during difficult labour/delivery) can produce obturator neuropathy \u2014 medial thigh pain/sensory changes and weakness of hip adduction, directly reflecting compression of this nerve at or near its fixed anatomical exit point.",
+      "obturator_internus_referred_pain": "The obturator internus muscle (a pelvic wall/hip external rotator muscle, NOT innervated by the obturator nerve itself \u2014 it's supplied by the nerve to obturator internus, a separate branch of the sacral plexus) lies in close proximity to the obturator nerve within the pelvis; inflammatory or infectious processes near this muscle (e.g. an obturator internus abscess, sometimes associated with appendicitis or other pelvic infection) can cause pain on hip internal rotation with the hip flexed (the 'obturator sign,' a clinical test used in suspected appendicitis or pelvic abscess) \u2014 a genuinely useful clinical correlation, though worth noting this specific muscle is NOT itself obturator-nerve-supplied, only anatomically adjacent to it."
+    },
+    "related_structures": "The obturator sign (hip internal rotation pain, suggesting obturator internus irritation) is a classic point of confusion worth actively clarifying: it tests the OBTURATOR INTERNUS MUSCLE's irritation (a different structure, supplied by a different nerve from the sacral plexus), not the obturator NERVE itself directly \u2014 despite the shared 'obturator' name, these are genuinely different structures being assessed."
+  },
+  "question_family": [
+    {
+      "family_name": "Obturator Nerve \u2014 Course, Hernia, and the Obturator Sign Distinction (4 angles, one concept)",
+      "member_ids": [
+        "anat_obturator_nerve_0001",
+        "anat_obturator_nerve_0002",
+        "anat_obturator_nerve_0003",
+        "anat_obturator_nerve_0004"
+      ],
+      "coverage": "Recall (course/territory), clinical vignette (Howship-Romberg sign/obturator hernia), comparison (obturator sign vs Howship-Romberg \u2014 resolving the shared-terminology trap), and diagnostic reasoning (obturator neuropathy from pelvic mass) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_obturator_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Obturator Nerve",
+      "subtopic": "Course and territory",
+      "concept": "Obturator nerve course through the obturator canal, obturator hernia (Howship-Romberg sign), and the distinct obturator sign/obturator internus",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The obturator nerve exits the pelvis via which structure, and what does it supply in the thigh?",
+      "options": [
+        "The obturator canal \u2014 supplying the medial (adductor) compartment muscles and a small area of medial thigh skin",
+        "The greater sciatic foramen \u2014 supplying the posterior thigh (hamstring) muscles",
+        "The femoral canal \u2014 supplying the anterior thigh (quadriceps) muscles",
+        "The lesser sciatic foramen \u2014 supplying the gluteal muscles"
+      ],
+      "correct_answer": "The obturator canal \u2014 supplying the medial (adductor) compartment muscles and a small area of medial thigh skin",
+      "distractor_rationale": {
+        "The greater sciatic foramen \u2014 supplying the posterior thigh (hamstring) muscles": "The greater sciatic foramen and hamstring territory belong to the SCIATIC nerve, not the obturator nerve.",
+        "The femoral canal \u2014 supplying the anterior thigh (quadriceps) muscles": "The femoral canal is a compartment for the femoral vessels/lymphatics, not the exit route for the obturator nerve, and quadriceps is FEMORAL nerve territory, not obturator.",
+        "The lesser sciatic foramen \u2014 supplying the gluteal muscles": "Neither the exit route nor the muscle territory match the obturator nerve \u2014 gluteal muscles are supplied by the superior/inferior gluteal nerves."
+      },
+      "explanation": {
+        "core_concept": "The obturator canal is both the obturator nerve's normal anatomical exit route AND the site of its two major clinical vulnerabilities (hernia, compression) \u2014 understanding this single structure as the nerve's defining anatomical landmark ties together its normal course and its clinical pathology.",
+        "why_correct": "The obturator nerve exits the pelvis via the obturator canal (a gap in the superolateral obturator membrane), then supplies the medial (adductor) compartment muscles of the thigh (adductor longus, brevis, magnus, gracilis, obturator externus) and a small area of medial thigh skin.",
+        "why_others_wrong": {
+          "The greater sciatic foramen \u2014 supplying the posterior thigh (hamstring) muscles": "Belongs to the sciatic nerve, an entirely different nerve and exit route.",
+          "The femoral canal \u2014 supplying the anterior thigh (quadriceps) muscles": "The femoral canal is unrelated to the obturator nerve's exit route, and quadriceps is femoral nerve (not obturator nerve) territory.",
+          "The lesser sciatic foramen \u2014 supplying the gluteal muscles": "Neither the exit structure nor muscle territory matches the obturator nerve."
+        },
+        "high_yield_facts": [
+          "Obturator nerve exits via the OBTURATOR CANAL \u2014 supplies the medial (adductor) thigh compartment.",
+          "Contrast: femoral nerve (anterior thigh/quadriceps), sciatic nerve (posterior thigh/hamstrings) \u2014 three different nerves, three different thigh compartments.",
+          "This obturator canal exit point is the anatomical basis for BOTH obturator hernia and obturator neuropathy from pelvic mass compression, covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "Correctly assigning the obturator nerve to the medial (adductor) compartment specifically helps predict and interpret the pattern of weakness (hip adduction specifically) seen in obturator nerve lesions, distinguishing it from femoral or sciatic nerve lesions affecting different thigh compartments.",
+        "common_confusions": [
+          "Mixing up which of the three main thigh nerves (femoral, obturator, sciatic) supplies which specific compartment \u2014 each has a genuinely distinct exit route from the pelvis and a distinct thigh compartment territory."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Obturator hernia (this concept, other question) \u2014 directly reflecting this canal's dual role as exit route and hernia site",
+          "Meralgia paresthetica (see that chapter \u2014 a different lumbar plexus nerve, for contrast)"
+        ],
+        "exam_traps": [
+          "Don't confuse the obturator canal (obturator nerve's exit) with the femoral canal (a different, femoral-vessel-related structure) \u2014 despite both being pelvic/thigh-region anatomical passages, they're genuinely distinct."
+        ],
+        "image_clues": null,
+        "memory_aid": "Obturator nerve, obturator canal, adductor (medial) compartment \u2014 three 'ob/ad' facts that all belong together.",
+        "other_ways_this_is_tested": [
+          "This course and territory fact is the foundation for both clinical correlation questions covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The obturator nerve exits the pelvis via the obturator canal to supply the medial (adductor) thigh compartment and a small area of medial thigh skin \u2014 distinct from the femoral nerve (anterior thigh) and sciatic nerve (posterior thigh).",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, lower limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the obturator nerve's exit route (obturator canal) and its medial thigh compartment territory.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_obturator_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Obturator Nerve",
+      "subtopic": "Clinical \u2014 obturator hernia and Howship-Romberg sign",
+      "concept": "Obturator nerve course through the obturator canal, obturator hernia (Howship-Romberg sign), and the distinct obturator sign/obturator internus",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "An elderly, thin, multiparous woman presents with intermittent medial thigh pain, worsened when she extends and medially rotates her hip, and relieved by hip flexion. What diagnosis does this specific pattern suggest, and what is the anatomical basis for the pain relief with hip flexion?",
+      "options": [
+        "Obturator hernia, with the pain reflecting obturator nerve compression by herniating bowel at the obturator canal; hip flexion relieves symptoms by reducing tension/compression on the nerve at this site (a positive Howship-Romberg sign)",
+        "Femoral hernia, with pain reflecting femoral nerve compression, unrelated to the obturator canal or obturator nerve",
+        "This presentation and pattern are inconsistent with any recognised anatomical or clinical entity",
+        "Simple age-related osteoarthritis of the hip joint, with no relationship to any specific nerve or hernia"
+      ],
+      "correct_answer": "Obturator hernia, with the pain reflecting obturator nerve compression by herniating bowel at the obturator canal; hip flexion relieves symptoms by reducing tension/compression on the nerve at this site (a positive Howship-Romberg sign)",
+      "distractor_rationale": {
+        "Femoral hernia, with pain reflecting femoral nerve compression, unrelated to the obturator canal or obturator nerve": "Femoral hernias occur through the femoral canal (a different anatomical structure) and don't classically produce this specific medial-thigh, position-dependent pain pattern tied to the obturator nerve.",
+        "This presentation and pattern are inconsistent with any recognised anatomical or clinical entity": "This IS a specific, well-recognised, classically-described clinical sign (Howship-Romberg sign) for a specific diagnosis (obturator hernia), not an inconsistent or unclassifiable presentation.",
+        "Simple age-related osteoarthritis of the hip joint, with no relationship to any specific nerve or hernia": "Osteoarthritis wouldn't classically produce this SPECIFIC, position-dependent pain pattern in the obturator nerve's own sensory distribution, and doesn't explain the demographic (elderly, thin, multiparous women) classically associated with obturator hernia specifically."
+      },
+      "explanation": {
+        "core_concept": "The Howship-Romberg sign is a genuinely elegant, mechanistically explicable clinical finding \u2014 hip extension/medial rotation increases tension on structures at the obturator canal, worsening nerve compression; hip flexion relaxes this same tension, relieving the compression and the pain \u2014 directly demonstrating how a specific movement-related symptom pattern can be traced back to a precise anatomical mechanism.",
+        "why_correct": "This presentation \u2014 medial thigh pain in an elderly, thin, multiparous woman (the classic demographic for obturator hernia, given reduced pelvic fat/support and increased pelvic floor laxity from multiple pregnancies) \u2014 with pain WORSENED by hip extension/medial rotation and RELIEVED by hip flexion, is the classic Howship-Romberg sign of obturator hernia. The mechanism: herniating bowel through the obturator canal compresses the obturator nerve at this site; hip extension/medial rotation increases tension on the nerve/surrounding structures at the canal, worsening compression and pain, while hip flexion relaxes this tension, relieving symptoms.",
+        "why_others_wrong": {
+          "Femoral hernia, with pain reflecting femoral nerve compression, unrelated to the obturator canal or obturator nerve": "A different hernia type through a different canal, not classically producing this specific position-dependent medial thigh pain pattern.",
+          "This presentation and pattern are inconsistent with any recognised anatomical or clinical entity": "This is a specific, well-established, classically named clinical sign and diagnosis.",
+          "Simple age-related osteoarthritis of the hip joint, with no relationship to any specific nerve or hernia": "Doesn't explain this specific position-dependent pattern or the classic demographic association with obturator hernia."
+        },
+        "high_yield_facts": [
+          "Obturator hernia: classic demographic \u2014 elderly, thin, multiparous women.",
+          "Howship-Romberg sign: medial thigh pain WORSENED by hip extension/medial rotation, RELIEVED by hip flexion \u2014 directly reflecting position-dependent tension/compression on the obturator nerve at the canal.",
+          "This is a genuinely rare but classically tested diagnosis, precisely because the specific, mechanistically explicable sign (Howship-Romberg) makes for a distinctive, memorable exam question."
+        ],
+        "clinical_correlation": "Recognising this specific sign can prompt appropriate imaging (CT) to confirm obturator hernia, particularly important since this hernia type carries a notably HIGH risk of bowel obstruction/strangulation given the narrow, rigid obturator canal, making timely diagnosis and surgical management genuinely important.",
+        "common_confusions": [
+          "Assuming any medial thigh pain in an elderly patient must reflect a generic musculoskeletal cause (like osteoarthritis) without considering this specific, position-dependent pattern and its precise anatomical explanation via obturator nerve compression."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Obturator nerve course through the canal (this concept, other question) \u2014 the direct anatomical basis for this hernia's compressive effect on the nerve",
+          "Obturator sign/obturator internus (this concept, other question) \u2014 a DIFFERENT, easily confused clinical sign despite the shared 'obturator' name"
+        ],
+        "exam_traps": [
+          "Don't confuse the Howship-Romberg sign (obturator HERNIA, nerve compression, medial thigh pain with hip position) with the obturator SIGN (obturator INTERNUS muscle irritation, hip internal rotation pain, associated with appendicitis/pelvic abscess) \u2014 these are genuinely different clinical tests for genuinely different conditions, despite both sharing the word 'obturator.'"
+        ],
+        "image_clues": null,
+        "memory_aid": "Extend and rotate in, pain climbs; flex the hip, pain settles \u2014 the classic Howship-Romberg dance of obturator hernia.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the obturator canal course established in the first question of this chapter to a genuine, classically tested clinical diagnosis."
+        ],
+        "neet_pg_takeaway": "Obturator hernia classically presents in elderly, thin, multiparous women with medial thigh pain following the Howship-Romberg pattern \u2014 worsened by hip extension/medial rotation, relieved by hip flexion \u2014 directly reflecting position-dependent obturator nerve compression at the obturator canal.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard general surgery references on obturator hernia and the Howship-Romberg sign."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose obturator hernia from the classic Howship-Romberg sign and explain its anatomical mechanism.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_obturator_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Obturator Nerve",
+      "subtopic": "Distinguishing the obturator sign from Howship-Romberg",
+      "concept": "Obturator nerve course through the obturator canal, obturator hernia (Howship-Romberg sign), and the distinct obturator sign/obturator internus",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "The 'obturator sign' (pain on internal rotation of the flexed hip, used in suspected appendicitis/pelvic abscess) and the Howship-Romberg sign (of obturator hernia) both involve the word 'obturator,' but test genuinely different structures. How do they differ?",
+      "options": [
+        "The obturator SIGN tests irritation of the OBTURATOR INTERNUS MUSCLE (supplied by a separate sacral plexus branch, not the obturator nerve itself); the Howship-Romberg sign specifically tests OBTURATOR NERVE compression at the obturator canal from a herniating structure",
+        "Both signs test the identical structure (the obturator nerve itself), simply using different provocative movements",
+        "The obturator sign tests the obturator nerve directly, while Howship-Romberg tests the obturator internus muscle \u2014 the reverse of the correct pairing",
+        "Neither sign has any genuine anatomical basis; both are historical curiosities with no modern clinical validity"
+      ],
+      "correct_answer": "The obturator SIGN tests irritation of the OBTURATOR INTERNUS MUSCLE (supplied by a separate sacral plexus branch, not the obturator nerve itself); the Howship-Romberg sign specifically tests OBTURATOR NERVE compression at the obturator canal from a herniating structure",
+      "distractor_rationale": {
+        "Both signs test the identical structure (the obturator nerve itself), simply using different provocative movements": "Denies the genuine, important distinction \u2014 the obturator SIGN specifically tests the obturator INTERNUS MUSCLE (a different structure, different nerve supply), not the obturator nerve itself.",
+        "The obturator sign tests the obturator nerve directly, while Howship-Romberg tests the obturator internus muscle \u2014 the reverse of the correct pairing": "Directly reverses the correct structure-to-sign assignment.",
+        "Neither sign has any genuine anatomical basis; both are historical curiosities with no modern clinical validity": "Denies the genuine, still-taught anatomical basis and clinical relevance of both signs, even accounting for evolving evidence about their diagnostic sensitivity/specificity in modern practice."
+      },
+      "explanation": {
+        "core_concept": "This is precisely the kind of shared-terminology trap worth actively resolving \u2014 'obturator' appears in both sign names, but they assess GENUINELY DIFFERENT anatomical structures (a muscle vs a nerve), and conflating them would lead to misapplying either sign's clinical significance.",
+        "why_correct": "The obturator SIGN specifically tests for irritation/inflammation of the OBTURATOR INTERNUS MUSCLE (a pelvic wall muscle, external rotator of the hip, supplied by its own separate nerve \u2014 the nerve to obturator internus, a sacral plexus branch, NOT the obturator nerve itself) \u2014 pain on hip internal rotation with the hip flexed suggests irritation of this muscle, classically from an adjacent inflammatory/infectious process (e.g. appendicitis, pelvic abscess). The Howship-Romberg sign, by contrast, specifically tests OBTURATOR NERVE compression at the obturator canal (classically from a herniating structure) \u2014 medial thigh pain following the position-dependent pattern covered elsewhere in this chapter. These are genuinely different structures (muscle vs nerve), different underlying pathologies (adjacent inflammation vs direct nerve compression/hernia), and different clinical contexts, despite the shared 'obturator' terminology.",
+        "why_others_wrong": {
+          "Both signs test the identical structure (the obturator nerve itself), simply using different provocative movements": "Denies the genuine distinction \u2014 the obturator sign specifically assesses the MUSCLE, not the nerve.",
+          "The obturator sign tests the obturator nerve directly, while Howship-Romberg tests the obturator internus muscle \u2014 the reverse of the correct pairing": "A direct reversal of the correct structure-to-sign assignment.",
+          "Neither sign has any genuine anatomical basis; both are historical curiosities with no modern clinical validity": "Both signs have genuine, still-taught anatomical explanations, even as their diagnostic accuracy in modern evidence-based practice continues to be studied and refined."
+        },
+        "high_yield_facts": [
+          "Obturator SIGN = obturator INTERNUS MUSCLE irritation (hip internal rotation pain) \u2014 associated with appendicitis/pelvic abscess.",
+          "Howship-Romberg SIGN = obturator NERVE compression at the obturator canal (medial thigh pain, position-dependent) \u2014 associated with obturator hernia.",
+          "Despite sharing the word 'obturator,' these test GENUINELY DIFFERENT structures for GENUINELY DIFFERENT conditions \u2014 a classic naming-trap worth actively resolving."
+        ],
+        "clinical_correlation": "Correctly distinguishing these two signs prevents diagnostic confusion \u2014 a positive obturator sign should prompt consideration of appendicitis/pelvic inflammatory processes, while Howship-Romberg specifically points toward obturator hernia, two very different clinical pathways requiring different workups.",
+        "common_confusions": [
+          "Assuming both 'obturator'-named signs test the same underlying structure \u2014 this is exactly the kind of shared-terminology confusion this comparison question is designed to resolve."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Howship-Romberg sign and obturator hernia (this concept, other question) \u2014 the direct contrast case to the obturator sign covered here"
+        ],
+        "exam_traps": [
+          "When 'obturator sign' and 'Howship-Romberg sign' both appear as options in a vignette, actively verify which STRUCTURE (muscle vs nerve) and which CONDITION (appendicitis/abscess vs hernia) each one actually tests, rather than assuming they're interchangeable given their shared name."
+        ],
+        "image_clues": null,
+        "memory_aid": "Obturator SIGN = muscle test (appendicitis clue). Howship-Romberg = nerve test (hernia clue) \u2014 same word, different job entirely.",
+        "other_ways_this_is_tested": [
+          "This comparison directly resolves the naming ambiguity between the two obturator-related signs covered separately (course/hernia) elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The obturator sign tests obturator internus muscle irritation (relevant to appendicitis/pelvic abscess, via a separate sacral plexus nerve supply), while the Howship-Romberg sign tests obturator nerve compression at the obturator canal (relevant to obturator hernia) \u2014 genuinely different structures and conditions, despite the shared 'obturator' terminology.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard general surgery references on abdominal examination signs (obturator sign) and obturator hernia (Howship-Romberg sign)."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish the obturator sign (obturator internus muscle) from the Howship-Romberg sign (obturator nerve), despite their shared terminology.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_obturator_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Obturator Nerve",
+      "subtopic": "Clinical \u2014 obturator neuropathy from pelvic mass",
+      "concept": "Obturator nerve course through the obturator canal, obturator hernia (Howship-Romberg sign), and the distinct obturator sign/obturator internus",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "A patient with a known pelvic malignancy develops progressive medial thigh pain and weakness of hip adduction on one side, without any weakness of hip flexion or knee extension. What does this specific pattern of weakness suggest about the location and nature of the underlying process?",
+      "options": [
+        "Obturator neuropathy from tumour compression near the obturator canal \u2014 the ISOLATED adductor weakness (sparing hip flexion/knee extension, which are femoral nerve functions) specifically localises the lesion to the obturator nerve rather than a more extensive lumbar plexus process",
+        "Femoral neuropathy, since any pelvic mass affecting the lower limb must involve the femoral nerve specifically",
+        "This pattern indicates a lumbar spinal cord lesion, unrelated to any specific peripheral nerve",
+        "The described weakness pattern provides no useful localising information about which nerve is affected"
+      ],
+      "correct_answer": "Obturator neuropathy from tumour compression near the obturator canal \u2014 the ISOLATED adductor weakness (sparing hip flexion/knee extension, which are femoral nerve functions) specifically localises the lesion to the obturator nerve rather than a more extensive lumbar plexus process",
+      "distractor_rationale": {
+        "Femoral neuropathy, since any pelvic mass affecting the lower limb must involve the femoral nerve specifically": "Femoral neuropathy would cause weakness of hip flexion and knee extension \u2014 explicitly ABSENT in this vignette, arguing against this diagnosis and specifically supporting the isolated obturator nerve pattern instead.",
+        "This pattern indicates a lumbar spinal cord lesion, unrelated to any specific peripheral nerve": "A spinal cord (not peripheral nerve) lesion would typically produce a broader, bilateral, or dermatomal/myotomal pattern with additional findings (e.g. other limb involvement, bowel/bladder dysfunction) not described here \u2014 this isolated, unilateral peripheral pattern points to a peripheral nerve (obturator) process specifically.",
+        "The described weakness pattern provides no useful localising information about which nerve is affected": "Denies the genuine, specific localising value of this precise combination of findings (adductor weakness present, hip flexion/knee extension weakness absent)."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question requires recognising that the ABSENCE of femoral-nerve-territory weakness (hip flexion, knee extension) alongside PRESENT obturator-nerve-territory weakness (hip adduction) is precisely what localises this lesion specifically to the obturator nerve, rather than a more extensive lumbar plexus process affecting multiple nerves together.",
+        "why_correct": "Isolated hip adduction weakness, with hip flexion (iliopsoas, femoral nerve) and knee extension (quadriceps, femoral nerve) both explicitly SPARED, specifically points to an isolated obturator neuropathy \u2014 consistent with localised compression of the obturator nerve by the pelvic malignancy near the obturator canal, rather than a more extensive process affecting the broader lumbar plexus (which would be expected to also involve femoral nerve territory, given both nerves' shared plexus origin).",
+        "why_others_wrong": {
+          "Femoral neuropathy, since any pelvic mass affecting the lower limb must involve the femoral nerve specifically": "Femoral neuropathy would cause hip flexion/knee extension weakness, explicitly absent in this vignette \u2014 this pattern specifically argues against, not for, femoral nerve involvement.",
+          "This pattern indicates a lumbar spinal cord lesion, unrelated to any specific peripheral nerve": "A spinal cord-level process would typically produce a broader, different pattern (bilateral involvement, other systems affected) not described in this isolated, unilateral peripheral nerve pattern.",
+          "The described weakness pattern provides no useful localising information about which nerve is affected": "Denies the genuine, specific localising value of this precise, isolated weakness pattern."
+        },
+        "high_yield_facts": [
+          "Isolated hip ADDUCTION weakness (with hip flexion/knee extension SPARED) = obturator nerve territory specifically, NOT femoral nerve or broader lumbar plexus.",
+          "This precise pattern-matching (which movements are weak, which are spared) is exactly how peripheral nerve lesions are localised clinically, applying the same systematic reasoning used elsewhere for other nerve localisation questions in this syllabus.",
+          "Pelvic malignancy is a recognised, genuine cause of obturator neuropathy via direct tumour compression near the obturator canal \u2014 a practically important cause worth actively considering in appropriate oncology patients."
+        ],
+        "clinical_correlation": "Correctly localising this weakness to isolated obturator neuropathy directly guides further workup (imaging specifically assessing the obturator canal/nerve region) and helps distinguish this from other possible causes of lower limb weakness in a cancer patient (e.g. more extensive plexopathy, spinal metastasis, or a paraneoplastic process), each requiring different management approaches.",
+        "common_confusions": [
+          "Assuming any lower limb weakness in a cancer patient must reflect either a generic 'nerve involvement' or a spinal cord process, without applying the same specific, muscle-by-muscle localising reasoning used for isolated peripheral nerve lesions elsewhere in the syllabus."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Obturator nerve course and territory (this concept, other question) \u2014 the anatomical basis for predicting exactly this isolated weakness pattern"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC pattern of weakness (which movements affected, which spared) to localise the lesion precisely, rather than assuming any pelvic-region nerve involvement must be broad or non-specific."
+        ],
+        "image_clues": null,
+        "memory_aid": "Weak squeeze (adduction), strong kick and lift (knee extension, hip flexion) \u2014 that's the obturator nerve alone, not its femoral nerve neighbour.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question directly applies the obturator nerve's specific territory established in the first question of this chapter to genuine, oncology-relevant clinical localisation."
+        ],
+        "neet_pg_takeaway": "Isolated hip adduction weakness, with hip flexion and knee extension spared, localises to obturator neuropathy specifically \u2014 a recognised complication of pelvic malignancy directly compressing the nerve near the obturator canal, distinguishable from femoral nerve or broader lumbar plexus involvement by this precise weakness pattern.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical oncology/neurology references on obturator neuropathy from pelvic malignancy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise obturator neuropathy from isolated hip adduction weakness with sparing of femoral-nerve-territory movements.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

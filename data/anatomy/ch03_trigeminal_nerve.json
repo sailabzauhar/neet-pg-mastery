@@ -1,0 +1,505 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0003",
+    "topic": "Trigeminal Nerve",
+    "chapter_number": 3,
+    "chapter_file": "data/anatomy/ch03_trigeminal_nerve.json",
+    "source_years": [
+      2025,
+      2022
+    ],
+    "is_repeated_topic": true,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": true,
+    "mcq_count": 6,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 1,
+      "L3": 3,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "diagnostic_reasoning",
+      "exception"
+    ],
+    "confidence_notes": [
+      "The precise vascular structure responsible for trigeminal neuralgia varies case to case \u2014 the superior cerebellar artery is the most classically cited culprit in textbooks, but other vessels (e.g. an anomalous vein, or in rarer cases a tumour or MS plaque) can cause an identical clinical picture; the vascular-compression mechanism itself is well established even where the specific vessel is not identified."
+    ],
+    "scope_note": "A major cranial nerve with three divisions, several clinically important lesion patterns, and a genuinely rich set of testable relationships (reflex arcs, dual-nerve innervation splits) \u2014 scaled to 6 MCQs reflecting real conceptual density even though occurrence in the source PDF was moderate (2 years), not the highest-priority tier. Correction: an earlier draft of this chapter incorrectly flagged two plain-text questions as image-based with no actual image content \u2014 fixed before this chapter was finalized. The source PDF flagged this topic as image-based, but this chapter doesn't yet include a genuine image-based question; worth adding one in a future pass rather than force-fitting one now.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The trigeminal nerve (CN V) is the largest cranial nerve, and the principal sensory nerve of the face, oral cavity, and anterior scalp, plus the motor nerve to the muscles of mastication. It has three divisions: ophthalmic (V1), maxillary (V2, both purely sensory), and mandibular (V3, sensory + motor).",
+      "classification": "Mixed cranial nerve \u2014 largely sensory (via V1, V2, and the sensory component of V3) with a motor root that joins only V3."
+    },
+    "structure_anatomy": {
+      "nucleus_and_ganglion": "Sensory fibres synapse on the large trigeminal (semilunar/Gasserian) ganglion in Meckel's cave, on the floor of the middle cranial fossa; the motor nucleus lies in the pons and its fibres bypass the ganglion, running with V3 only.",
+      "three_divisions": {
+        "V1_ophthalmic": "Purely sensory. Exits the skull through the superior orbital fissure. Supplies the forehead, upper eyelid, cornea, and dorsum of the nose.",
+        "V2_maxillary": "Purely sensory. Exits through the foramen rotundum. Supplies the lower eyelid, cheek, upper lip, and upper teeth/gums.",
+        "V3_mandibular": "Sensory AND motor \u2014 the only division carrying the motor root. Exits through the foramen ovale. Sensory: lower lip, chin, lower teeth/gums, anterior 2/3 tongue (general sensation only, not taste \u2014 that's chorda tympani/facial nerve). Motor: muscles of mastication (temporalis, masseter, medial and lateral pterygoids) plus tensor tympani, tensor veli palatini, mylohyoid, and anterior belly of digastric."
+      },
+      "corneal_reflex": "V1 (nasociliary branch) carries the afferent (sensory) limb; the facial nerve (CN VII) carries the efferent (motor, orbicularis oculi) limb \u2014 a classic cross-nerve reflex arc."
+    },
+    "clinical": {
+      "trigeminal_neuralgia": "Severe, brief, electric-shock-like unilateral facial pain in one or more trigeminal divisions (most often V2/V3), typically triggered by light touch, chewing, or cold air, most often from vascular compression of the nerve root (classically the superior cerebellar artery) near its entry into the pons.",
+      "corneal_reflex_testing": "Loss of the corneal reflex with light touch, but intact reflex when the OTHER eye is touched (i.e., no consensual response either), localises to the ipsilateral V1 (afferent) pathway; if touching the affected eye produces no blink in either eye, but touching the unaffected eye produces bilateral blink, the lesion is on the sensory (trigeminal) side, not the motor (facial) side.",
+      "motor_lesion_sign": "In a unilateral motor (V3) lesion, the jaw deviates TOWARD the side of the lesion on opening (due to unopposed action of the intact lateral pterygoid on the healthy side pushing the jaw across)."
+    },
+    "related_structures": "V3 is the only division that both exits through a separate foramen (ovale, vs V1's superior orbital fissure and V2's foramen rotundum) and carries motor fibres \u2014 this dual distinction is the single most efficient way to remember which division does what."
+  },
+  "question_family": [
+    {
+      "family_name": "Trigeminal Nerve \u2014 Core Divisions and Anatomy",
+      "member_ids": [
+        "anat_trigeminal_nerve_0001",
+        "anat_trigeminal_nerve_0002"
+      ],
+      "coverage": "Which division carries motor fibres, and the fixed division-to-foramen mapping \u2014 the structural spine of the whole topic."
+    },
+    {
+      "family_name": "Trigeminal Nerve \u2014 Reflex and Sensory-Motor Split",
+      "member_ids": [
+        "anat_trigeminal_nerve_0003",
+        "anat_trigeminal_nerve_0006"
+      ],
+      "coverage": "The corneal reflex's cross-nerve arc, and the anterior tongue's split general-sensation/taste innervation \u2014 two of the most conceptually rich 'two nerves, one job' facts in cranial nerve anatomy."
+    },
+    {
+      "family_name": "Trigeminal Nerve \u2014 Clinical Lesions",
+      "member_ids": [
+        "anat_trigeminal_nerve_0004",
+        "anat_trigeminal_nerve_0005"
+      ],
+      "coverage": "Trigeminal neuralgia (sensory pathology) and jaw deviation (motor pathology) \u2014 the two classic bedside-recognisable trigeminal lesion patterns."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_trigeminal_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Trigeminal Nerve",
+      "subtopic": "Divisions overview",
+      "concept": "Which division carries motor fibres",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "Of the three divisions of the trigeminal nerve, which one carries motor fibres in addition to sensory fibres?",
+      "options": [
+        "Ophthalmic (V1)",
+        "Maxillary (V2)",
+        "Mandibular (V3)",
+        "All three divisions carry motor fibres equally"
+      ],
+      "correct_answer": "Mandibular (V3)",
+      "distractor_rationale": {
+        "Ophthalmic (V1)": "Purely sensory \u2014 supplies forehead, cornea, and dorsum of nose with no motor component.",
+        "Maxillary (V2)": "Also purely sensory \u2014 supplies midface skin, upper teeth/gums, with no motor component.",
+        "All three divisions carry motor fibres equally": "Incorrect \u2014 the motor root joins only V3; V1 and V2 are exclusively sensory throughout their course."
+      },
+      "explanation": {
+        "core_concept": "The trigeminal nerve's motor root bypasses the sensory (trigeminal/Gasserian) ganglion entirely and joins only the mandibular division \u2014 this asymmetry is the single fact that determines which muscles are tested when assessing trigeminal nerve function, and which division's lesion produces weakness versus pure sensory loss.",
+        "why_correct": "V3 (mandibular) is the only division with a motor component, supplying the muscles of mastication (temporalis, masseter, medial and lateral pterygoids) plus tensor tympani, tensor veli palatini, mylohyoid, and anterior belly of digastric.",
+        "why_others_wrong": {
+          "Ophthalmic (V1)": "Purely sensory division \u2014 no muscles are supplied by V1.",
+          "Maxillary (V2)": "Also purely sensory \u2014 no motor component at any point in its course.",
+          "All three divisions carry motor fibres equally": "The motor root anatomically joins only V3 as it leaves the pons; it never distributes with V1 or V2."
+        },
+        "high_yield_facts": [
+          "Only V3 (mandibular) carries motor fibres.",
+          "V3 exits through the foramen ovale \u2014 the only trigeminal division to exit there.",
+          "Testing jaw clenching (masseter/temporalis) and jaw opening (pterygoids) tests V3 motor function specifically."
+        ],
+        "clinical_correlation": "A pure V1 or V2 lesion (e.g. isolated sensory loss over the forehead or cheek) should never come with jaw weakness \u2014 if it does, the lesion isn't confined to that division and must involve V3 or a more central/proximal structure.",
+        "common_confusions": [
+          "Assuming a 'motor and sensory' cranial nerve distributes both fibre types evenly across all its branches \u2014 the trigeminal nerve is a clean counter-example where the motor component is concentrated entirely in one division."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Foramen ovale (V3 exit)",
+          "Muscles of mastication",
+          "Jaw deviation sign in V3 motor lesions"
+        ],
+        "exam_traps": [
+          "Don't assume 'largest cranial nerve' implies motor fibres are spread across all three divisions \u2014 size refers to the sensory territory covered, not motor distribution."
+        ],
+        "image_clues": null,
+        "memory_aid": "V3 = 'the one that chews' \u2014 motor to mastication muscles rides only with the third division.",
+        "other_ways_this_is_tested": [
+          "This fact underlies the jaw-deviation clinical sign and the foramen-matching question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Only V3 carries motor fibres \u2014 V1 and V2 are purely sensory in their entirety.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard, uncontested neuroanatomy \u2014 Snell's Clinical Neuroanatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025,
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify which trigeminal division carries motor fibres.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_trigeminal_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Trigeminal Nerve",
+      "subtopic": "Skull exit foramina",
+      "concept": "Matching divisions to their exit foramina",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Which of the following correctly matches a trigeminal division to its skull base exit point?",
+      "options": [
+        "V2 (maxillary) exits through the foramen rotundum",
+        "V1 (ophthalmic) exits through the foramen ovale",
+        "V3 (mandibular) exits through the superior orbital fissure",
+        "V2 (maxillary) exits through the jugular foramen"
+      ],
+      "correct_answer": "V2 (maxillary) exits through the foramen rotundum",
+      "distractor_rationale": {
+        "V1 (ophthalmic) exits through the foramen ovale": "V1 actually exits through the superior orbital fissure \u2014 foramen ovale belongs to V3.",
+        "V3 (mandibular) exits through the superior orbital fissure": "V3 exits through the foramen ovale \u2014 superior orbital fissure belongs to V1.",
+        "V2 (maxillary) exits through the jugular foramen": "The jugular foramen transmits CN IX, X, XI, not any trigeminal division \u2014 this option names a real skull foramen but the wrong one entirely."
+      },
+      "explanation": {
+        "core_concept": "Each trigeminal division has its own dedicated skull base exit \u2014 V1 superior orbital fissure, V2 foramen rotundum, V3 foramen ovale \u2014 and this one-to-one mapping is tested constantly, both directly and as the anatomical basis for localising skull base pathology.",
+        "why_correct": "V2, the maxillary division, exits the middle cranial fossa through the foramen rotundum to enter the pterygopalatine fossa before continuing to the face via the infraorbital foramen.",
+        "why_others_wrong": {
+          "V1 (ophthalmic) exits through the foramen ovale": "This reassigns V1's actual exit (superior orbital fissure) to V3's foramen \u2014 the two are swapped in this option.",
+          "V3 (mandibular) exits through the superior orbital fissure": "The reverse swap \u2014 V3 actually exits through foramen ovale, not the superior orbital fissure, which belongs to V1.",
+          "V2 (maxillary) exits through the jugular foramen": "The jugular foramen is unrelated to any trigeminal division; it transmits the glossopharyngeal, vagus, and accessory nerves plus the internal jugular vein."
+        },
+        "high_yield_facts": [
+          "V1 \u2192 superior orbital fissure.",
+          "V2 \u2192 foramen rotundum.",
+          "V3 \u2192 foramen ovale.",
+          "Alphabetical-numerical trick: V-1/2/3 and O-R-O (superior Orbital fissure, foramen Rotundum, foramen Ovale) \u2014 the divisions and their foramina both run in a consistent front-to-back, superior-to-inferior order through the skull base."
+        ],
+        "clinical_correlation": "A skull base tumour or fracture can be localised by which trigeminal territory loses sensation \u2014 numbness in the V2 distribution with normal V1 and V3 function points specifically to foramen rotundum-region pathology.",
+        "common_confusions": [
+          "Mixing up which foramen goes with which numbered division \u2014 since all three sound similar (ovale/rotundum/orbital), deliberate memorisation of the specific pairing (not just recognising the three names) is necessary."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pterygopalatine fossa (V2's route)",
+          "Cavernous sinus relations (V1 and V2 both relate to it)",
+          "Skull base foramina overview"
+        ],
+        "exam_traps": [
+          "This exact 'match the division to the foramen' format, with foramina deliberately swapped between wrong options, is a very common exam pattern \u2014 always double check you haven't picked a correct foramen name attached to the wrong division."
+        ],
+        "image_clues": null,
+        "memory_aid": "Standing 'Round' at attention: Superior Orbital fissure (V1), foRamen Rotundum (V2), foRamen Ovale (V3) \u2014 front to back as the numbers increase.",
+        "other_ways_this_is_tested": [
+          "This foramen mapping underlies image-based skull base identification questions and cross-subject correlation with ENT/skull base surgery."
+        ],
+        "neet_pg_takeaway": "V1/superior orbital fissure, V2/foramen rotundum, V3/foramen ovale \u2014 a fixed, frequently tested triad.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard skull base osteology \u2014 Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025,
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Correctly match each trigeminal division to its skull base exit foramen.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_trigeminal_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Trigeminal Nerve",
+      "subtopic": "Corneal reflex",
+      "concept": "Afferent and efferent limbs of the corneal reflex",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "On testing the corneal reflex by touching a wisp of cotton to the right cornea, neither eye blinks. Touching the left cornea produces a normal blink in both eyes. Which of the following best localises the lesion?",
+      "options": [
+        "Right ophthalmic nerve (V1) \u2014 afferent limb",
+        "Right facial nerve (VII) \u2014 efferent limb",
+        "Left ophthalmic nerve (V1) \u2014 afferent limb",
+        "Bilateral facial nerve lesion"
+      ],
+      "correct_answer": "Right ophthalmic nerve (V1) \u2014 afferent limb",
+      "distractor_rationale": {
+        "Right facial nerve (VII) \u2014 efferent limb": "A right facial nerve lesion would abolish the blink of the RIGHT eye specifically when either cornea is touched (since the efferent/motor limb on the right would be broken regardless of which side triggers the reflex), but the left eye's blink would still occur normally when the left eye is touched \u2014 this doesn't match the vignette, where touching the LEFT eye produces a normal blink in BOTH eyes.",
+        "Left ophthalmic nerve (V1) \u2014 afferent limb": "Would produce the opposite pattern: touching the left eye would fail to trigger any blink, while touching the right eye would work normally \u2014 the reverse of what's described.",
+        "Bilateral facial nerve lesion": "Would abolish blinking on both sides regardless of which cornea is stimulated \u2014 but this vignette shows a normal bilateral blink when the LEFT eye is touched, ruling out any facial nerve problem."
+      },
+      "explanation": {
+        "core_concept": "The corneal reflex is a genuinely useful example of a cross-cranial-nerve reflex arc \u2014 V1 carries the sensory (afferent) signal in via the nasociliary nerve, and CN VII carries the motor (efferent) blink response out to orbicularis oculi bilaterally, via brainstem interneurons connecting the two sides.",
+        "why_correct": "If touching the RIGHT cornea produces no blink in either eye, but touching the LEFT cornea produces a normal bilateral blink, the sensory signal from the right side is failing to reach the brainstem at all \u2014 meaning the afferent (sensory) limb on the right, i.e. the right V1, is the broken link. The efferent (motor) pathways on both sides must be intact, since stimulating the left eye successfully triggers blinking in both eyes, proving both facial nerves work.",
+        "why_others_wrong": {
+          "Right facial nerve (VII) \u2014 efferent limb": "A right facial (efferent) lesion would selectively prevent the RIGHT eye from blinking no matter which cornea is touched, while the left eye would still blink whenever either cornea is stimulated \u2014 this vignette instead shows a complete failure of BOTH eyes to blink specifically when the right cornea is touched, which points to the afferent side.",
+          "Left ophthalmic nerve (V1) \u2014 afferent limb": "Would produce a mirror-image pattern to what's described \u2014 touching the left eye would fail, not the right.",
+          "Bilateral facial nerve lesion": "Ruled out directly by the normal bilateral blink response when the left cornea is touched, which requires both facial nerves' motor pathways to be functioning."
+        },
+        "high_yield_facts": [
+          "Corneal reflex afferent limb = V1 (nasociliary branch); efferent limb = CN VII (orbicularis oculi), bilaterally via brainstem connections.",
+          "An afferent (V1) lesion abolishes BOTH the direct and consensual response when THAT side is stimulated, but the other side stimulates normally in both eyes.",
+          "An efferent (VII) lesion abolishes blinking on the AFFECTED side only, regardless of which eye is stimulated, while the healthy side still blinks whenever either eye is touched."
+        ],
+        "clinical_correlation": "This exact reasoning process \u2014 comparing direct and consensual responses from each side \u2014 is how corneal reflex testing localises lesions at the bedside, and is a classic method for distinguishing a trigeminal (sensory) from a facial (motor) nerve problem in a patient with facial numbness or weakness.",
+        "common_confusions": [
+          "Jumping to 'facial nerve' whenever a blink is absent, without working through whether the deficit follows the STIMULATED side (afferent/trigeminal problem) or the RESPONDING side (efferent/facial problem)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Facial nerve motor function",
+          "Trigeminal nerve sensory testing",
+          "Brainstem reflex arcs generally"
+        ],
+        "exam_traps": [
+          "Always work out the pattern by testing BOTH sides in the vignette (as this one does) before concluding \u2014 a single stimulation result can be consistent with more than one lesion location; the second data point (stimulating the other eye) is what makes the localisation unambiguous."
+        ],
+        "image_clues": null,
+        "memory_aid": "Sensory IN via V (five senses come in through cranial nerve five); motor OUT via VII (the face moves via nerve seven).",
+        "other_ways_this_is_tested": [
+          "This reflex arc logic is a classic cross-subject integration point tested in both Anatomy and Medicine/Neurology contexts."
+        ],
+        "neet_pg_takeaway": "Corneal reflex: V1 is afferent (in), CN VII is efferent (out) \u2014 trace which side fails to trigger a response from either eye to localise an afferent (trigeminal) versus efferent (facial) lesion.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard neuroanatomy/clinical neurology teaching \u2014 Snell's Clinical Neuroanatomy, brainstem reflexes section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025,
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise a corneal reflex abnormality to the afferent (V1) or efferent (VII) limb using direct and consensual response patterns.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_trigeminal_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Trigeminal Nerve",
+      "subtopic": "Clinical \u2014 trigeminal neuralgia",
+      "concept": "Trigeminal neuralgia presentation and mechanism",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 60-year-old woman describes brief, severe, electric-shock-like episodes of pain over her right cheek and lower jaw, lasting seconds, triggered by chewing and brushing her teeth. Neurological examination, including facial sensation and motor strength, is entirely normal between episodes. What is the most likely diagnosis and its classic underlying mechanism?",
+      "options": [
+        "Trigeminal neuralgia, classically due to vascular compression of the trigeminal nerve root near its entry into the pons",
+        "Bell's palsy, due to inflammation of the facial nerve within the facial canal",
+        "Cluster headache, due to activation of the trigeminal-autonomic reflex",
+        "Temporomandibular joint dysfunction, due to disc displacement"
+      ],
+      "correct_answer": "Trigeminal neuralgia, classically due to vascular compression of the trigeminal nerve root near its entry into the pons",
+      "distractor_rationale": {
+        "Bell's palsy, due to inflammation of the facial nerve within the facial canal": "Bell's palsy causes unilateral facial WEAKNESS (drooping, inability to close the eye), not brief electric-shock pain \u2014 a different cranial nerve and a fundamentally different symptom.",
+        "Cluster headache, due to activation of the trigeminal-autonomic reflex": "Cluster headache causes prolonged (15 minutes to hours), severe unilateral periorbital pain with autonomic features (lacrimation, nasal congestion) \u2014 a very different time course and character from the brief, trigger-provoked shocks described here.",
+        "Temporomandibular joint dysfunction, due to disc displacement": "Typically causes dull, aching jaw pain associated with joint clicking/locking and movement, not brief electric-shock-like paroxysms, and wouldn't typically be triggered by simply brushing teeth without jaw movement."
+      },
+      "explanation": {
+        "core_concept": "Trigeminal neuralgia has a genuinely distinctive clinical signature \u2014 brief, severe, trigger-provoked, electric-shock-like pain in a trigeminal distribution, with a completely normal neurological exam between attacks \u2014 that reliably separates it from other causes of facial pain once you know what to look for.",
+        "why_correct": "The description (brief electric-shock pain, light-touch/chewing triggers, normal exam between episodes, in the V2/V3 distribution) is the classic presentation of trigeminal neuralgia. The most commonly cited underlying mechanism is vascular compression of the trigeminal nerve root by an adjacent vessel (classically the superior cerebellar artery) at its entry (root entry zone) into the pons, causing focal demyelination and aberrant nerve signalling.",
+        "why_others_wrong": {
+          "Bell's palsy, due to inflammation of the facial nerve within the facial canal": "Presents with motor weakness of facial expression muscles, not paroxysmal pain \u2014 this vignette's normal exam and pure-pain character don't fit a facial nerve motor problem at all.",
+          "Cluster headache, due to activation of the trigeminal-autonomic reflex": "The time course is wrong \u2014 cluster headache attacks last much longer than seconds, and prominent autonomic features (tearing, nasal congestion) aren't mentioned here.",
+          "Temporomandibular joint dysfunction, due to disc displacement": "Would typically show findings on jaw examination (clicking, restricted opening) and a different pain character (dull/aching, movement-related) rather than isolated brief electric shocks triggered even by light touch like tooth-brushing."
+        },
+        "high_yield_facts": [
+          "Trigeminal neuralgia: brief, severe, electric-shock-like, trigger-provoked (light touch, chewing, cold air), most often V2/V3 distribution, normal exam between attacks.",
+          "Classic mechanism: vascular compression at the nerve's root entry zone into the pons (superior cerebellar artery most classically cited).",
+          "First-line medical treatment is carboxamide-class anticonvulsants (e.g. carbamazepine) \u2014 a frequently tested pharmacology correlate."
+        ],
+        "clinical_correlation": "A NORMAL neurological exam between episodes is an important supporting feature, not just an incidental negative \u2014 an abnormal exam (persistent sensory loss, weakness) should prompt investigation for a secondary cause (e.g. tumour, multiple sclerosis) rather than assuming classic idiopathic trigeminal neuralgia.",
+        "common_confusions": [
+          "Confusing trigeminal neuralgia (brief, shock-like, trigger-provoked) with other facial pain syndromes that are more continuous or dull in character \u2014 the TIME COURSE and TRIGGER pattern are what should drive the diagnosis, not simply 'facial pain' as a category."
+        ],
+        "exceptions": [
+          "In younger patients, or when the exam IS abnormal between attacks, secondary trigeminal neuralgia (e.g. from multiple sclerosis or a cerebellopontine angle tumour) should be considered rather than assuming the classic idiopathic vascular-compression form."
+        ],
+        "related_concepts": [
+          "Carbamazepine as first-line therapy",
+          "Cerebellopontine angle tumours as a differential",
+          "Multiple sclerosis as a cause of secondary trigeminal neuralgia"
+        ],
+        "exam_traps": [
+          "Don't let 'facial pain' alone pull you toward Bell's palsy \u2014 Bell's palsy is a motor weakness syndrome, and this distinction (pain vs weakness, sensory vs motor nerve territory) is exactly what several wrong options are designed to test."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This vignette pairs naturally with the corneal reflex mechanism question elsewhere in this set \u2014 both test applied understanding of V1-V3 sensory function, from different clinical angles."
+        ],
+        "neet_pg_takeaway": "Brief, electric-shock-like, trigger-provoked facial pain with a normal exam between attacks = trigeminal neuralgia, classically from vascular compression at the nerve's pontine root entry zone.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Classic presentation and mechanism as described in standard neurology texts (e.g. Adams and Victor's Principles of Neurology; Harrison's Principles of Internal Medicine, cranial neuralgias section)."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025,
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose trigeminal neuralgia from its classic presentation and identify its most commonly cited underlying mechanism.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_trigeminal_nerve_0005",
+      "subject": "Anatomy",
+      "topic": "Trigeminal Nerve",
+      "subtopic": "Motor lesion sign",
+      "concept": "Jaw deviation in unilateral V3 motor lesion",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "A patient with a suspected left-sided lesion of the motor root of the trigeminal nerve is asked to open their mouth wide. Which finding would confirm a LEFT-sided motor V3 lesion?",
+      "options": [
+        "The jaw deviates toward the left (affected) side on opening",
+        "The jaw deviates toward the right (unaffected) side on opening",
+        "The jaw remains perfectly midline on opening",
+        "The mouth cannot open at all, even partially"
+      ],
+      "correct_answer": "The jaw deviates toward the left (affected) side on opening",
+      "distractor_rationale": {
+        "The jaw deviates toward the right (unaffected) side on opening": "This is the opposite of the true finding \u2014 deviation goes toward the weak side, not away from it, because the healthy lateral pterygoid overpowers the weak one and pushes the jaw across to the affected side.",
+        "The jaw remains perfectly midline on opening": "Would suggest normal, symmetric lateral pterygoid function bilaterally \u2014 not what's expected with a true unilateral motor lesion.",
+        "The mouth cannot open at all, even partially": "Overstates the deficit \u2014 jaw opening is a bilateral, multi-muscle action (including digastric and mylohyoid, plus gravity), so a unilateral lesion causes deviation, not complete inability to open the mouth."
+      },
+      "explanation": {
+        "core_concept": "Jaw opening (protrusion of the mandible) relies on the lateral pterygoid muscles acting together, symmetrically, to pull the mandibular condyles forward \u2014 when one side is weak, the muscle imbalance visibly deviates the jaw, and understanding WHICH way it deviates is what makes this sign useful rather than just a fact to memorise.",
+        "why_correct": "With a left-sided V3 motor lesion, the left lateral pterygoid is weak while the right one functions normally. On opening, the intact right lateral pterygoid pulls its side of the mandible forward more effectively than the weak left side can resist, causing the jaw to swing/deviate TOWARD the weak (left, affected) side.",
+        "why_others_wrong": {
+          "The jaw deviates toward the right (unaffected) side on opening": "Reverses the actual mechanism \u2014 the STRONGER muscle does the pulling, and since muscle action pulls its own side's condyle forward disproportionately, the net effect is deviation toward the WEAK side, not away from it.",
+          "The jaw remains perfectly midline on opening": "Would only occur with normal, symmetric bilateral lateral pterygoid function \u2014 inconsistent with a genuine unilateral motor lesion being present.",
+          "The mouth cannot open at all, even partially": "Jaw opening isn't solely dependent on one side's lateral pterygoid \u2014 it's a multi-muscle, bilateral action, so a unilateral lesion causes asymmetric deviation rather than complete failure to open."
+        },
+        "high_yield_facts": [
+          "Unilateral V3 motor lesion: jaw deviates TOWARD the affected (weak) side on opening.",
+          "This is analogous to (and often confused with) the tongue deviation sign in hypoglossal nerve (CN XII) lesions, which ALSO deviates toward the affected side \u2014 both follow the same 'weak side loses the pulling contest' logic.",
+          "Jaw clenching (masseter/temporalis) tests different V3 motor fibres than jaw opening/protrusion (pterygoids) \u2014 a lesion can selectively affect one function more than the other depending on which fibres are damaged."
+        ],
+        "clinical_correlation": "This bedside sign is a quick, no-equipment way to lateralise a V3 motor lesion in a patient with suspected trigeminal nerve pathology (e.g. from a skull base tumour compressing the nerve at or after the foramen ovale) without needing imaging first.",
+        "common_confusions": [
+          "Confusing the direction of jaw deviation with tongue deviation direction in hypoglossal lesions \u2014 while they happen to point the same way (toward the lesion) for genuinely different muscle mechanics reasons in each case, mixing up WHY makes it easy to misremember one or the other under exam pressure."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Hypoglossal nerve (CN XII) tongue deviation \u2014 same directional rule, different mechanism",
+          "Muscles of mastication overview",
+          "Foramen ovale lesions (skull base tumours)"
+        ],
+        "exam_traps": [
+          "Don't reflexively apply 'deviates away from the lesion' \u2014 that rule applies to some other cranial nerve signs but NOT to jaw deviation in V3 lesions, where the direction is TOWARD the weak side."
+        ],
+        "image_clues": null,
+        "memory_aid": "The strong side wins the tug-of-war and drags the jaw over to the weak side's territory.",
+        "other_ways_this_is_tested": [
+          "This sign is often paired in exam questions with the hypoglossal (tongue) deviation sign, specifically to test whether the direction has been memorised correctly for each nerve rather than assumed to be identical in mechanism."
+        ],
+        "neet_pg_takeaway": "Unilateral V3 motor lesion: jaw deviates TOWARD the affected side on opening, because the healthy lateral pterygoid overpowers the weak one.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard clinical anatomy correlation \u2014 Snell's Clinical Neuroanatomy and Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025,
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Predict the direction of jaw deviation in a unilateral trigeminal motor (V3) lesion and explain the underlying muscular mechanism.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_trigeminal_nerve_0006",
+      "subject": "Anatomy",
+      "topic": "Trigeminal Nerve",
+      "subtopic": "Taste vs general sensation \u2014 anterior tongue",
+      "concept": "Dual innervation of the anterior 2/3 tongue",
+      "question_type": "exception",
+      "difficulty": 4,
+      "question": "The anterior two-thirds of the tongue receives both general sensation (touch, pain, temperature) and taste sensation, but these two modalities travel via different cranial nerves. Which statement correctly describes this split?",
+      "options": [
+        "General sensation travels via the lingual nerve (V3); taste travels via the chorda tympani (a branch of the facial nerve, CN VII) which joins the lingual nerve",
+        "Both general sensation and taste from the anterior tongue travel entirely within the trigeminal nerve",
+        "General sensation travels via the glossopharyngeal nerve; taste travels via the trigeminal nerve",
+        "Both general sensation and taste from the anterior tongue travel entirely within the facial nerve"
+      ],
+      "correct_answer": "General sensation travels via the lingual nerve (V3); taste travels via the chorda tympani (a branch of the facial nerve, CN VII) which joins the lingual nerve",
+      "distractor_rationale": {
+        "Both general sensation and taste from the anterior tongue travel entirely within the trigeminal nerve": "Overstates the trigeminal nerve's role \u2014 while V3's lingual nerve does carry general sensation, taste fibres are added to it FROM the facial nerve's chorda tympani; they don't originate within the trigeminal nerve itself.",
+        "General sensation travels via the glossopharyngeal nerve; taste travels via the trigeminal nerve": "Reverses both assignments, and also misattributes the general sensory supply \u2014 the glossopharyngeal nerve supplies the POSTERIOR third of the tongue (both general sensation and taste there), not the anterior two-thirds.",
+        "Both general sensation and taste from the anterior tongue travel entirely within the facial nerve": "Overstates the facial nerve's role in the reverse direction \u2014 general sensation is carried by the trigeminal (lingual nerve), not the facial nerve, which contributes only the taste component via chorda tympani."
+      },
+      "explanation": {
+        "core_concept": "This is one of the most elegant 'trick' facts in cranial nerve anatomy: two different sensory modalities from the SAME piece of tongue tissue travel via two DIFFERENT cranial nerves that physically join together and travel as one bundle for part of the way, which is exactly why it's so frequently tested and so frequently gotten wrong.",
+        "why_correct": "The lingual nerve, a branch of V3 (mandibular division of the trigeminal nerve), carries general sensation (touch, pain, temperature) from the anterior two-thirds of the tongue. The chorda tympani, a branch of the facial nerve (CN VII), carries taste fibres from the same anterior two-thirds and physically joins the lingual nerve in the infratemporal fossa, travelling alongside it to reach the tongue \u2014 but the two fibre types remain functionally and developmentally distinct despite sharing a common nerve trunk for part of the journey.",
+        "why_others_wrong": {
+          "Both general sensation and taste from the anterior tongue travel entirely within the trigeminal nerve": "Ignores the chorda tympani's essential contribution \u2014 taste specifically does NOT originate in the trigeminal nerve, even though it travels alongside a trigeminal branch.",
+          "General sensation travels via the glossopharyngeal nerve; taste travels via the trigeminal nerve": "Wrong on both counts, and also confuses anterior with posterior tongue innervation \u2014 glossopharyngeal (CN IX) supplies the posterior third, not the anterior two-thirds.",
+          "Both general sensation and taste from the anterior tongue travel entirely within the facial nerve": "Ignores the lingual nerve's (trigeminal) role in general sensation \u2014 reverses which nerve does which job."
+        },
+        "high_yield_facts": [
+          "Anterior 2/3 tongue: general sensation = lingual nerve (V3); taste = chorda tympani (CN VII), riding along the lingual nerve.",
+          "Posterior 1/3 tongue: BOTH general sensation and taste = glossopharyngeal nerve (CN IX) \u2014 a cleaner, single-nerve arrangement, unlike the anterior two-thirds.",
+          "Extreme posterior tongue/epiglottis region: vagus nerve (CN X) via the internal laryngeal nerve."
+        ],
+        "clinical_correlation": "A chorda tympani lesion (e.g. from middle ear surgery, since it crosses the tympanic membrane) causes loss of taste on the anterior two-thirds of the tongue with general sensation PRESERVED \u2014 a dissociated sensory loss pattern that only makes sense once you know these two modalities travel separately.",
+        "common_confusions": [
+          "Assuming 'one region of tongue = one nerve' \u2014 the anterior two-thirds is the specific exception where two different cranial nerves split the sensory job by modality, not by territory."
+        ],
+        "exceptions": [
+          "The posterior third of the tongue does NOT follow this split pattern \u2014 both taste and general sensation there travel together via the glossopharyngeal nerve, making it the more 'normal,' single-nerve case by comparison."
+        ],
+        "related_concepts": [
+          "Chorda tympani course and injury (e.g., middle ear surgery)",
+          "Facial nerve branches",
+          "Posterior tongue innervation via CN IX"
+        ],
+        "exam_traps": [
+          "This exact modality-split concept is one of the most reliably recurring 'exception' or 'gotcha' facts in cranial nerve exams \u2014 expect it tested from multiple angles (which nerve, what happens with chorda tympani injury, contrast with posterior tongue)."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lingual nerve carries the FEELING (touch/pain/temp, trigeminal/general sensory); chorda tympani carries the FLAVOUR (taste, facial) \u2014 two different jobs, one shared road for part of the trip.",
+        "other_ways_this_is_tested": [
+          "This concept is frequently cross-tested with facial nerve branch anatomy and with posterior tongue (glossopharyngeal) innervation as a contrast case."
+        ],
+        "neet_pg_takeaway": "Anterior 2/3 tongue: general sensation via trigeminal (lingual nerve), taste via facial (chorda tympani) \u2014 two nerves, two jobs, one shared pathway. This split does NOT apply to the posterior third, which uses a single nerve (glossopharyngeal) for both.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard, uncontested cranial nerve anatomy \u2014 Snell's Clinical Neuroanatomy, cranial nerve chapter."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025,
+        2022
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Correctly split general sensory and taste innervation of the anterior two-thirds of the tongue between the trigeminal and facial nerves.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0013",
+    "topic": "Muscles of Mastication",
+    "chapter_number": 13,
+    "chapter_file": "data/anatomy/ch13_muscles_of_mastication.json",
+    "source_years": [
+      2023
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 1,
+      "L3": 2,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "mechanism",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "scope_note": "A must-do topic organised around two powerful facts (shared V3 nerve supply, and the 3-close/1-open functional asymmetry) with two genuinely high-yield clinical applications (trismus mechanism, jaw deviation sign) \u2014 scaled to 4 MCQs covering the organizing logic and its clinical payoff without padding with repetitive individual-muscle-origin/insertion recall.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set and cross-checked against the Trigeminal Nerve chapter (ch03), which covers the jaw deviation sign at the general V3 level \u2014 this chapter's version specifically refines that sign to implicate lateral pterygoid, adding rather than duplicating detail. No duplicates found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The muscles of mastication are four paired muscles acting on the temporomandibular joint to produce jaw movement during chewing \u2014 temporalis, masseter, medial pterygoid, and lateral pterygoid \u2014 unified by a single shared feature that makes them a coherent group: all four are supplied exclusively by the mandibular division of the trigeminal nerve (V3).",
+      "classification": "All four arise embryologically from the mesenchyme of the first pharyngeal arch, which is why they share both their nerve supply (V3, the first arch's nerve) and their collective identity as 'muscles of mastication' despite having quite different actions individually."
+    },
+    "structure_anatomy": {
+      "temporalis": "A fan-shaped muscle filling the temporal fossa, inserting on the coronoid process of the mandible. Elevates the mandible (closes the jaw); its posterior fibres also retract the mandible (pull it backward).",
+      "masseter": "A quadrangular muscle from the zygomatic arch to the angle and ramus of the mandible. The primary, most powerful jaw elevator (closer) \u2014 the main muscle bulge felt when clenching the teeth.",
+      "medial_pterygoid": "Runs from the pterygoid fossa (deep, medial location) to the medial surface of the mandibular angle, running roughly parallel to masseter but on the inner (medial) side of the ramus \u2014 together the two form a 'sling' around the angle of the mandible. Elevates the mandible; assists in protrusion and side-to-side (grinding) movement.",
+      "lateral_pterygoid": "The ONLY muscle of mastication that OPENS the jaw and is active during opening \u2014 runs roughly horizontally from the greater wing of the sphenoid and lateral pterygoid plate to the neck of the mandible AND the TMJ articular disc itself. Its two heads work together to protrude the mandible and depress (open) it, and also produce the side-to-side grinding action of chewing when acting unilaterally in alternation."
+    },
+    "clinical": {
+      "jaw_deviation_sign": "In a unilateral lateral pterygoid weakness/lesion, the jaw deviates TOWARD the affected (weak) side on opening, because the healthy contralateral lateral pterygoid protrudes its own side more effectively, pushing the mandible across to the weaker side \u2014 the same 'stronger side wins the tug-of-war' logic used for any unilateral V3 motor lesion.",
+      "tmj_disc_attachment": "Lateral pterygoid's superior head attaches partly to the TMJ articular disc itself \u2014 a detail relevant to temporomandibular joint dysfunction and disc displacement disorders, since abnormal lateral pterygoid activity/tone is implicated in some TMJ disc derangement presentations.",
+      "trismus": "Lockjaw/trismus (inability to open the mouth, e.g. in tetanus or dental infection with masticatory space involvement) reflects SPASM of the jaw-CLOSING muscles (masseter, temporalis, medial pterygoid) \u2014 understanding that three of the four muscles close the jaw while only one opens it explains why masticatory muscle spasm characteristically causes jaw closure/lockjaw rather than an inability to close."
+    },
+    "related_structures": "The '3 close, 1 opens' asymmetry (temporalis, masseter, medial pterygoid all elevate/close; only lateral pterygoid depresses/opens) is the single most efficient organising fact for this topic \u2014 nearly every clinical and functional question in this topic can be answered by correctly applying this asymmetry."
+  },
+  "question_family": [
+    {
+      "family_name": "Muscles of Mastication \u2014 Shared Identity",
+      "member_ids": [
+        "anat_muscles_of_mastication_0001"
+      ],
+      "coverage": "The single shared nerve supply (V3) that defines this muscle group as a coherent anatomical category."
+    },
+    {
+      "family_name": "Muscles of Mastication \u2014 The Opening/Closing Asymmetry and Its Clinical Consequences",
+      "member_ids": [
+        "anat_muscles_of_mastication_0002",
+        "anat_muscles_of_mastication_0003",
+        "anat_muscles_of_mastication_0004"
+      ],
+      "coverage": "The core 3-close/1-open functional asymmetry, its direct explanation of trismus/lockjaw direction, and its application to the jaw deviation lateralising sign \u2014 three angles on one organising fact."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_muscles_of_mastication_0001",
+      "subject": "Anatomy",
+      "topic": "Muscles of Mastication",
+      "subtopic": "Shared nerve supply",
+      "concept": "All four muscles supplied by V3",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "All four muscles of mastication (temporalis, masseter, medial pterygoid, lateral pterygoid) share which single nerve supply?",
+      "options": [
+        "The mandibular division of the trigeminal nerve (V3)",
+        "The facial nerve (CN VII)",
+        "The maxillary division of the trigeminal nerve (V2)",
+        "The hypoglossal nerve (CN XII)"
+      ],
+      "correct_answer": "The mandibular division of the trigeminal nerve (V3)",
+      "distractor_rationale": {
+        "The facial nerve (CN VII)": "Supplies the muscles of facial EXPRESSION, a developmentally and functionally distinct group from the muscles of mastication.",
+        "The maxillary division of the trigeminal nerve (V2)": "V2 is purely sensory (no motor fibres at all), and supplies a different facial region (midface) \u2014 it plays no role in mastication.",
+        "The hypoglossal nerve (CN XII)": "Supplies the muscles of the tongue, an entirely separate muscle group from the muscles of mastication."
+      },
+      "explanation": {
+        "core_concept": "This single shared nerve supply is precisely what makes 'muscles of mastication' a coherent anatomical category rather than an arbitrary grouping \u2014 all four muscles trace back to the same first pharyngeal arch origin, and V3 (the first arch's nerve) is the unifying thread.",
+        "why_correct": "Temporalis, masseter, medial pterygoid, and lateral pterygoid are all supplied by branches of the mandibular division (V3) of the trigeminal nerve \u2014 the only trigeminal division carrying motor fibres, consistent with this being the shared, defining feature of the whole muscle group.",
+        "why_others_wrong": {
+          "The facial nerve (CN VII)": "Supplies facial expression muscles (a different first-arch-vs-second-arch distinction \u2014 facial expression muscles are SECOND arch derivatives, supplied by CN VII, not V3).",
+          "The maxillary division of the trigeminal nerve (V2)": "Purely sensory, with no motor role in mastication or anywhere else.",
+          "The hypoglossal nerve (CN XII)": "Supplies tongue muscles, unrelated to jaw movement."
+        },
+        "high_yield_facts": [
+          "All 4 muscles of mastication = V3 (mandibular division of trigeminal nerve) \u2014 the shared, defining feature of the group.",
+          "This mirrors the general trigeminal fact that only V3 carries motor fibres among the three trigeminal divisions.",
+          "The muscles of facial expression, by contrast, are CN VII-supplied \u2014 a classic 'don't confuse mastication with expression' pairing, since both are facial muscle groups but from different arches and different nerves."
+        ],
+        "clinical_correlation": "A V3 motor lesion weakens ALL FOUR muscles of mastication together (since they share this single nerve supply), producing the characteristic jaw deviation and weak bite on the affected side \u2014 a clean, single-nerve explanation for a seemingly multi-muscle clinical finding.",
+        "common_confusions": [
+          "Confusing muscles of mastication (V3, first arch) with muscles of facial expression (CN VII, second arch) \u2014 both are 'face muscles' in casual terms, but they come from entirely different pharyngeal arches and nerves."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Trigeminal nerve V1/V2/V3 divisions",
+          "First pharyngeal arch derivatives",
+          "Facial expression muscles and CN VII (contrast)"
+        ],
+        "exam_traps": [
+          "Don't let 'muscles of the face/jaw region' as a loose category blur the V3-vs-CN VII distinction \u2014 always separate mastication (V3) from expression (CN VII) explicitly."
+        ],
+        "image_clues": null,
+        "memory_aid": "Mastication = Mandibular nerve (V3) \u2014 both start with 'M,' and both are about the jaw.",
+        "other_ways_this_is_tested": [
+          "This shared nerve supply is the anatomical basis for the jaw deviation sign and trismus questions elsewhere in this set \u2014 a V3 lesion affects all four muscles together, precisely because of this shared supply."
+        ],
+        "neet_pg_takeaway": "All four muscles of mastication share a single nerve supply \u2014 V3, the mandibular division of the trigeminal nerve \u2014 reflecting their shared first pharyngeal arch origin.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard head and neck anatomy \u2014 Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that all four muscles of mastication share a single nerve supply \u2014 the mandibular division (V3) of the trigeminal nerve.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_muscles_of_mastication_0002",
+      "subject": "Anatomy",
+      "topic": "Muscles of Mastication",
+      "subtopic": "The opening/closing asymmetry",
+      "concept": "Only lateral pterygoid opens the jaw",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "Of the four muscles of mastication, which one is uniquely responsible for OPENING (depressing) the mandible, with the other three all contributing to jaw closure instead?",
+      "options": [
+        "Lateral pterygoid",
+        "Medial pterygoid",
+        "Masseter",
+        "Temporalis"
+      ],
+      "correct_answer": "Lateral pterygoid",
+      "distractor_rationale": {
+        "Medial pterygoid": "An elevator (closer) of the mandible, working alongside masseter as part of the muscular 'sling' around the mandibular angle \u2014 not the muscle responsible for opening.",
+        "Masseter": "The primary, most powerful elevator (closer) of the mandible \u2014 the opposite function from what's being asked.",
+        "Temporalis": "Also an elevator (closer), with its posterior fibres additionally retracting the mandible \u2014 again, the opposite function from opening."
+      },
+      "explanation": {
+        "core_concept": "This 3-close/1-open asymmetry is the single most useful organising fact in this entire topic \u2014 once you know masseter, temporalis, and medial pterygoid are all closers, and lateral pterygoid is the lone opener, most functional and clinical questions in this topic become straightforward applications of that one asymmetric rule.",
+        "why_correct": "Lateral pterygoid is the only one of the four muscles of mastication that depresses (opens) the mandible, acting via its attachment to the mandibular neck and the TMJ articular disc \u2014 the other three (temporalis, masseter, medial pterygoid) are all elevators, closing the jaw.",
+        "why_others_wrong": {
+          "Medial pterygoid": "An elevator, part of the sling mechanism with masseter \u2014 contributes to closing, not opening.",
+          "Masseter": "The single most powerful elevator of the mandible \u2014 a closer, not an opener.",
+          "Temporalis": "An elevator (plus retractor via its posterior fibres) \u2014 also a closer, not the muscle responsible for opening."
+        },
+        "high_yield_facts": [
+          "3 muscles CLOSE the jaw: temporalis, masseter, medial pterygoid.",
+          "1 muscle OPENS the jaw: lateral pterygoid \u2014 the lone exception.",
+          "This asymmetry directly explains why masticatory muscle spasm conditions (like trismus/lockjaw) characteristically cause jaw CLOSURE rather than an inability to close \u2014 three muscles pulling one direction easily overwhelm the single opener."
+        ],
+        "clinical_correlation": "Understanding this asymmetry is directly relevant to interpreting trismus (lockjaw) in conditions like tetanus or dental space infections \u2014 since three of the four muscles close the jaw and only one opens it, spasm of the masticatory muscles overwhelmingly produces jaw closure rather than an inability to close, a pattern that only makes sense once this 3-versus-1 asymmetry is understood.",
+        "common_confusions": [
+          "Assuming the four muscles of mastication split evenly between opening and closing functions \u2014 the real split is heavily asymmetric (3 close, 1 opens), which is precisely why it's worth memorising as an explicit fact rather than assuming symmetry."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Trismus/lockjaw mechanism",
+          "TMJ articular disc attachment (lateral pterygoid)",
+          "Jaw deviation sign in lateral pterygoid lesions"
+        ],
+        "exam_traps": [
+          "Don't assume 'pterygoid' as a category behaves uniformly \u2014 medial and lateral pterygoid have OPPOSITE primary actions (medial closes, lateral opens) despite their similar names and adjacent locations."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lateral pterygoid Lets the jaw down (opens) \u2014 'L' for Lateral and 'L' for Lets-it-open; the other three Lock it shut.",
+        "other_ways_this_is_tested": [
+          "This asymmetry is the direct basis for the trismus mechanism question and the jaw deviation sign question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Lateral pterygoid is the sole jaw-OPENER among the four muscles of mastication; temporalis, masseter, and medial pterygoid are all jaw-closers \u2014 a 3-versus-1 asymmetry that explains several downstream clinical facts.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard head and neck anatomy \u2014 Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify lateral pterygoid as the sole jaw-opening muscle among the four muscles of mastication, contrasting with the other three jaw-closing muscles.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_muscles_of_mastication_0003",
+      "subject": "Anatomy",
+      "topic": "Muscles of Mastication",
+      "subtopic": "Clinical \u2014 trismus mechanism",
+      "concept": "Why masticatory muscle spasm causes lockjaw, not an open jaw",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "A patient with tetanus develops trismus (lockjaw) \u2014 painful spasm of the muscles of mastication causing the jaw to remain forcibly closed and difficult to open. Why does generalized spasm of these muscles produce jaw CLOSURE specifically, rather than the jaw being forced open or remaining neutral?",
+      "options": [
+        "Three of the four muscles of mastication (temporalis, masseter, medial pterygoid) are jaw closers, while only one (lateral pterygoid) opens the jaw, so simultaneous spasm of all four is dominated by the closing action",
+        "Lateral pterygoid is disproportionately larger and stronger than the other three muscles combined, so its spasm alone determines the jaw's position",
+        "Spasm of the muscles of mastication has no logical relationship to jaw position; trismus is purely due to pain-related voluntary guarding, not muscle mechanics",
+        "All four muscles of mastication act to open the jaw, so their spasm should logically cause the jaw to remain open, and trismus is a paradoxical exception to this rule"
+      ],
+      "correct_answer": "Three of the four muscles of mastication (temporalis, masseter, medial pterygoid) are jaw closers, while only one (lateral pterygoid) opens the jaw, so simultaneous spasm of all four is dominated by the closing action",
+      "distractor_rationale": {
+        "Lateral pterygoid is disproportionately larger and stronger than the other three muscles combined, so its spasm alone determines the jaw's position": "Anatomically incorrect \u2014 masseter, not lateral pterygoid, is actually the most powerful of the four muscles, and the mechanism isn't about single-muscle dominance but about the 3-versus-1 numerical/functional imbalance across the whole group.",
+        "Spasm of the muscles of mastication has no logical relationship to jaw position; trismus is purely due to pain-related voluntary guarding, not muscle mechanics": "Understates genuine muscle mechanics \u2014 while pain and reflex guarding contribute to many spasm conditions generally, the specific DIRECTION of trismus (closure, not opening or a neutral position) is well explained by the muscular asymmetry itself, not just pain avoidance.",
+        "All four muscles of mastication act to open the jaw, so their spasm should logically cause the jaw to remain open, and trismus is a paradoxical exception to this rule": "Factually incorrect starting premise \u2014 three of the four muscles close the jaw, not open it; there's no paradox once the correct 3-close/1-open asymmetry is applied."
+      },
+      "explanation": {
+        "core_concept": "Trismus's characteristic direction (closure, not opening) is a direct, logical consequence of the same 3-close/1-open asymmetry that defines the muscles of mastication generally \u2014 when all four spasm together, the three closers numerically and functionally overwhelm the single opener.",
+        "why_correct": "Because temporalis, masseter, and medial pterygoid are all jaw-closing (elevator) muscles, while only lateral pterygoid opens the jaw, simultaneous involuntary spasm/contraction of all four muscles together (as occurs in tetanus, where the toxin causes disinhibited, generalized muscle spasm) results in a net closing force that overwhelms the single opening muscle, forcibly clamping the jaw shut \u2014 hence lockjaw specifically, rather than the jaw locking open or in a neutral position.",
+        "why_others_wrong": {
+          "Lateral pterygoid is disproportionately larger and stronger than the other three muscles combined, so its spasm alone determines the jaw's position": "Gets the anatomy backwards \u2014 masseter is the most powerful of the four, and the actual mechanism is about the NUMBER of muscles pulling each direction (3 vs 1), not any single muscle's disproportionate strength.",
+          "Spasm of the muscles of mastication has no logical relationship to jaw position; trismus is purely due to pain-related voluntary guarding, not muscle mechanics": "Discounts a genuine, well-explained muscular mechanism in favour of an incomplete explanation \u2014 the DIRECTION of trismus specifically (not just its occurrence) is explained by the muscle asymmetry.",
+          "All four muscles of mastication act to open the jaw, so their spasm should logically cause the jaw to remain open, and trismus is a paradoxical exception to this rule": "Starts from an incorrect premise (all four opening) that contradicts the established 3-close/1-open pattern \u2014 there's no actual paradox once the correct functional split is applied."
+        },
+        "high_yield_facts": [
+          "Trismus/lockjaw = jaw CLOSURE from generalized masticatory muscle spasm, explained by the 3-close (temporalis, masseter, medial pterygoid) vs 1-open (lateral pterygoid) asymmetry.",
+          "This is the same underlying muscle-group asymmetry tested directly in the 'which muscle opens the jaw' recall question \u2014 this mechanism question simply applies that fact to explain a real clinical presentation.",
+          "Tetanus toxin (tetanospasmin) causes trismus through disinhibition of motor neurons generally, but the SPECIFIC direction (closure) is explained by this muscular asymmetry, not by the toxin's mechanism itself."
+        ],
+        "clinical_correlation": "Trismus is often one of the earliest recognisable signs of tetanus, and understanding its mechanism (rather than just memorising 'tetanus causes lockjaw' as an isolated fact) helps connect this finding to the broader muscle-physiology picture of generalized muscle spasm seen throughout the disease (including risus sardonicus and opisthotonus, other manifestations of the same disinhibited spasm mechanism affecting different muscle groups).",
+        "common_confusions": [
+          "Memorising 'tetanus causes lockjaw' as an arbitrary, disconnected fact rather than recognising it as a direct, logical consequence of the same muscle-group asymmetry taught for normal mastication \u2014 understanding the mechanism makes the fact far more durable than rote memorisation alone."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Tetanus and tetanospasmin mechanism",
+          "Risus sardonicus and opisthotonus (other tetanus spasm manifestations)",
+          "Dental/masticatory space infections as another cause of trismus"
+        ],
+        "exam_traps": [
+          "Don't treat trismus as an isolated clinical fact to memorise separately from the muscle anatomy \u2014 recognising it as a direct application of the 3-close/1-open asymmetry makes it far easier to reconstruct correctly under exam pressure, rather than needing to recall it independently."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This mechanism question is the clinical payoff of the opening/closing asymmetry established as the core organising fact of this chapter \u2014 read together, they show how one anatomical asymmetry explains a real, exam-relevant clinical sign."
+        ],
+        "neet_pg_takeaway": "Trismus (lockjaw) results in jaw CLOSURE, not opening, because three of the four muscles of mastication close the jaw while only lateral pterygoid opens it \u2014 generalized spasm of all four is dominated by the closing muscles' numerical and functional majority.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical correlation \u2014 Harrison's Principles of Internal Medicine, tetanus section; applied to the muscle anatomy from Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain trismus (lockjaw) in tetanus as a direct consequence of the muscles of mastication's 3-close/1-open functional asymmetry.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_muscles_of_mastication_0004",
+      "subject": "Anatomy",
+      "topic": "Muscles of Mastication",
+      "subtopic": "Clinical \u2014 jaw deviation sign",
+      "concept": "Direction of jaw deviation in unilateral lateral pterygoid weakness",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "A patient with a suspected left-sided lesion affecting the motor root of the trigeminal nerve is asked to open their mouth. The jaw is observed to deviate to the left on opening. Which muscle's weakness on the left side best explains this finding?",
+      "options": [
+        "Left lateral pterygoid",
+        "Left masseter",
+        "Right lateral pterygoid",
+        "Left temporalis"
+      ],
+      "correct_answer": "Left lateral pterygoid",
+      "distractor_rationale": {
+        "Left masseter": "Masseter is a jaw CLOSER, not involved in the protrusion/opening action that produces jaw deviation on opening \u2014 its weakness wouldn't produce this specific finding.",
+        "Right lateral pterygoid": "If the RIGHT lateral pterygoid were weak, the jaw would deviate to the RIGHT (the weak side), not the left \u2014 this option describes the wrong side for the finding given.",
+        "Left temporalis": "Temporalis is a jaw closer/retractor, not involved in the protrusive action of opening \u2014 its weakness doesn't produce the deviation-on-opening sign."
+      },
+      "explanation": {
+        "core_concept": "Jaw deviation on opening follows the same 'weak side loses the tug-of-war' logic used for the general V3 motor lesion sign, but specifically implicates lateral pterygoid because that's the muscle actually responsible for the protrusive component of jaw opening that creates the deviation.",
+        "why_correct": "Lateral pterygoid, on each side, normally pulls the mandibular condyle forward (protrusion) as part of jaw opening. With a LEFT lateral pterygoid weakness, the right lateral pterygoid continues to protrude its side normally while the left side lags, causing the mandible to swing/deviate toward the WEAK (left) side on opening \u2014 exactly the finding described in this vignette.",
+        "why_others_wrong": {
+          "Left masseter": "A jaw-closing muscle uninvolved in the protrusive action that causes deviation during opening \u2014 masseter weakness doesn't produce this specific sign.",
+          "Right lateral pterygoid": "Would produce deviation to the RIGHT (toward that weak side), not the left \u2014 this option has the correct muscle type but the wrong side for the observed finding.",
+          "Left temporalis": "A jaw-closing/retracting muscle, not involved in the protrusive opening action responsible for this deviation sign."
+        },
+        "high_yield_facts": [
+          "Jaw deviates TOWARD the weak side on opening \u2014 the same 'stronger side wins, weak side gets pulled toward' logic as the general V3 motor lesion sign.",
+          "Specifically implicates LATERAL PTERYGOID weakness (not masseter or temporalis), since lateral pterygoid is the muscle responsible for the protrusive component of opening that creates the visible deviation.",
+          "This is a genuinely reliable, easy-to-perform bedside sign for lateralising a V3 motor lesion without needing imaging."
+        ],
+        "clinical_correlation": "This sign is a quick, no-equipment clinical test used when V3 (trigeminal motor) nerve function is in question \u2014 e.g., after a skull base lesion, tumour, or trauma potentially affecting the mandibular division \u2014 helping localise the side of the lesion at the bedside.",
+        "common_confusions": [
+          "Confusing this specific sign (jaw deviation implicating lateral pterygoid on the weak side) with a more generic 'V3 lesion causes some kind of jaw sign' without correctly identifying WHICH muscle and WHICH side is responsible for the deviation direction observed."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "General V3 motor lesion jaw deviation (same principle, broader muscle group)",
+          "Lateral pterygoid's role in jaw protrusion",
+          "Trigeminal nerve motor root anatomy"
+        ],
+        "exam_traps": [
+          "Don't just recall 'jaw deviates toward the lesion' as an isolated fact \u2014 understand that this is SPECIFICALLY because of lateral pterygoid's protrusive action, since this same reasoning process is what lets you correctly work through any variation of this question format."
+        ],
+        "image_clues": null,
+        "memory_aid": "Weak pterygoid, weak push \u2014 that side falls behind, and the jaw swings toward the side that couldn't keep up.",
+        "other_ways_this_is_tested": [
+          "This sign is a specific, muscle-level refinement of the general jaw deviation concept, connecting directly to the opening/closing asymmetry and lateral pterygoid's unique protrusive role established elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Jaw deviation toward one side on opening indicates weakness of that SAME side's lateral pterygoid \u2014 the muscle responsible for the protrusive component of jaw opening, whose imbalance causes the visible deviation.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard clinical anatomy correlation \u2014 Snell's Clinical Neuroanatomy; Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise jaw deviation on opening to weakness of the ipsilateral lateral pterygoid muscle.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

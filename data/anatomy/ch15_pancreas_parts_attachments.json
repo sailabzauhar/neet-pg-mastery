@@ -1,0 +1,919 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0015",
+    "topic": "Pancreas - Parts & attachments",
+    "chapter_number": 15,
+    "chapter_file": "data/anatomy/ch15_pancreas_parts_attachments.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": false,
+    "mcq_count": 12,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 3,
+      "L3": 4,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "clinical_vignette",
+      "comparison",
+      "mechanism",
+      "diagnostic_reasoning",
+      "image_based"
+    ],
+    "confidence_notes": [
+      "The precise anatomical description of exactly how much of the pancreatic head is 'ventral bud' versus 'dorsal bud' derived, and the exact rotational mechanics of ventral bud fusion, varies somewhat in emphasis across embryology texts \u2014 the clinically load-bearing facts (pancreas divisum results from failed fusion; the accessory duct/minor papilla becomes the dominant drainage route when this happens) are consistently taught across sources even where finer embryological detail differs."
+    ],
+    "build_standard_note": "REVISED STANDARD (effective this chapter onward, per explicit direction): rather than covering many concepts once each, this chapter covers exactly 3 core concepts in depth \u2014 parts/relations, duct system/pancreas divisum, and the SMA/SMV/uncinate relationship \u2014 with each concept tested across every genuinely applicable variation type (typically 3-4 types per concept here, chosen because they meaningfully fit that concept's content, not padded to hit a type quota). This produced 10 MCQs from 3 concepts, versus the previous per-chapter pattern of covering many concepts once each. Chapters 1-14 predate this standard and were not retroactively revised (explicit decision \u2014 see project history).",
+    "note": "Dedup pass completed against this file's own question set \u2014 no duplicates found, despite multiple questions per concept, since each tests a genuinely different angle (fact vs mechanism vs application vs visual recognition) rather than rephrasing the same question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The pancreas is a retroperitoneal organ divided into four gross parts \u2014 head (with the uncinate process), neck, body, and tail \u2014 each with a distinct set of anatomical relations that carry real surgical and clinical significance, most notably around the head/neck/uncinate region where the pancreas relates intimately to the superior mesenteric vessels and the common bile duct.",
+      "classification": "This chapter focuses on three core concepts, each explored across multiple question angles rather than many concepts covered once: (1) the parts of the pancreas and their surrounding relations, (2) the duct system and its embryological basis (including pancreas divisum), and (3) the SMA/SMV relationship to the pancreatic neck and uncinate process, which is the single most surgically important anatomical fact in this topic."
+    },
+    "structure_anatomy": {
+      "head_and_uncinate": "The head lies within the C-shaped curve (concavity) of the duodenum. The uncinate process is a hook-like extension of the head that projects posteriorly and to the left, passing BEHIND the superior mesenteric artery and vein \u2014 this specific relationship (uncinate process posterior to the SMA/SMV) is a critical surgical landmark.",
+      "neck": "A short segment connecting head to body, lying directly ANTERIOR to the point where the splenic vein joins the superior mesenteric vein to form the portal vein \u2014 the neck is therefore the anatomical marker for the origin of the portal vein.",
+      "body_and_tail": "The body crosses the aorta and the origin of the superior mesenteric artery at roughly the L1 vertebral level, with the lesser sac and stomach anterior to it and the splenic vessels running along its posterosuperior border. The tail is the only part with a peritoneal covering on all sides (making it relatively mobile) and lies within the splenorenal ligament, reaching the splenic hilum.",
+      "duct_system": "The main pancreatic duct (of Wirsung) runs the length of the gland from tail to head, then turns caudally in the head to join the common bile duct, forming the hepatopancreatic ampulla (of Vater), which opens at the major duodenal papilla. An accessory pancreatic duct (of Santorini) usually persists and drains a portion of the head, opening separately at the minor duodenal papilla, proximal to (above) the major papilla."
+    },
+    "clinical": {
+      "smv_smav_relations": "Because the SMA and SMV pass posterior to the pancreatic neck and anterior to (in the case of the SMV specifically, alongside) the uncinate process, a tumour in the head/neck/uncinate region can compress or invade these vessels \u2014 SMV involvement causing venous congestion/thrombosis, and SMA encasement being a key factor determining surgical UNRESECTABILITY in pancreatic cancer staging.",
+      "pancreas_divisum": "The ventral pancreatic bud (which normally rotates to fuse with the dorsal bud) forms the lower head and uncinate process and normally contributes the distal part of the main duct; the dorsal bud forms the rest of the head, neck, body, and tail, and normally contributes the proximal main duct plus the accessory duct. If the two ducts FAIL to fuse (pancreas divisum, the most common pancreatic congenital anomaly), most pancreatic secretions must drain through the smaller minor papilla via the accessory duct instead of the main papilla \u2014 a relative outflow restriction implicated in some cases of recurrent, otherwise-unexplained acute pancreatitis.",
+      "obstructive_jaundice": "Because the distal common bile duct passes through or immediately adjacent to the pancreatic head before joining the pancreatic duct at the ampulla, a pancreatic head mass can compress the bile duct directly, causing painless obstructive jaundice \u2014 a classic presentation of pancreatic head carcinoma specifically (tail/body tumours don't cause this same early biliary obstruction)."
+    },
+    "related_structures": "This chapter deliberately covers only three concepts in depth (rather than many concepts shallowly) \u2014 parts/relations, duct system/pancreas divisum, and the SMA/SMV/uncinate relationship \u2014 since these three carry essentially all of this topic's genuine exam and clinical weight, and each is explored through multiple question types (recall, conceptual, vignette, diagnostic reasoning, mechanism, comparison) rather than once each."
+  },
+  "question_family": [
+    {
+      "family_name": "Pancreas Parts \u2014 Structural Relations",
+      "member_ids": [
+        "anat_pancreas_parts_0001",
+        "anat_pancreas_parts_0002",
+        "anat_pancreas_parts_0003",
+        "anat_pancreas_parts_0004"
+      ],
+      "coverage": "Full multi-angle coverage of the head/duodenum relationship, the neck/portal-vein landmark, the obstructive jaundice clinical consequence, and the head-vs-tail peritoneal/mobility contrast \u2014 recall, conceptual, clinical vignette, and comparison angles on the same core concept."
+    },
+    {
+      "family_name": "Pancreas Parts \u2014 Duct System and Pancreas Divisum",
+      "member_ids": [
+        "anat_pancreas_parts_0005",
+        "anat_pancreas_parts_0006",
+        "anat_pancreas_parts_0007",
+        "anat_pancreas_parts_0011"
+      ],
+      "coverage": "Full multi-angle coverage of the major/minor papilla anatomy, the embryological mechanism of pancreas divisum, and its clinical presentation/diagnosis \u2014 recall, mechanism, and clinical vignette angles on the same core concept."
+    },
+    {
+      "family_name": "Pancreas Parts \u2014 SMA/SMV/Uncinate Process Relationship",
+      "member_ids": [
+        "anat_pancreas_parts_0008",
+        "anat_pancreas_parts_0009",
+        "anat_pancreas_parts_0010",
+        "anat_pancreas_parts_0012"
+      ],
+      "coverage": "Full multi-angle coverage of the uncinate process's vascular relationship, its application to real oncological staging criteria, and its radiological (CT) identification \u2014 recall, diagnostic reasoning, and image-based angles on the same core concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_pancreas_parts_0001",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Parts and relations",
+      "concept": "Pancreas Parts \u2014 Structural Relations",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The head of the pancreas lies within which anatomical feature?",
+      "options": [
+        "The C-shaped concavity of the duodenum",
+        "The splenorenal ligament",
+        "The lesser omentum",
+        "The transverse mesocolon's root"
+      ],
+      "correct_answer": "The C-shaped concavity of the duodenum",
+      "distractor_rationale": {
+        "The splenorenal ligament": "This is where the TAIL of the pancreas sits, not the head \u2014 a common mix-up between the two ends of the gland.",
+        "The lesser omentum": "A ventral mesentery derivative connecting the liver to the stomach/duodenum \u2014 not the structure cradling the pancreatic head.",
+        "The transverse mesocolon's root": "The transverse mesocolon's root does cross near the pancreas, but the head's defining anatomical relationship is with the duodenal curve, not this mesocolon attachment."
+      },
+      "explanation": {
+        "core_concept": "The head's snug fit within the duodenal C-loop is the single most useful visual/spatial anchor for this whole topic \u2014 nearly every other head-related fact (its relations to the CBD, the uncinate process's position) makes more sense once this basic spatial relationship is fixed in mind.",
+        "why_correct": "The duodenum curves around the pancreatic head in a C (or horseshoe) shape, with the head nestled directly within this concavity \u2014 a close anatomical relationship that also explains why duodenal and pancreatic head pathology are often clinically intertwined.",
+        "why_others_wrong": {
+          "The splenorenal ligament": "The pancreatic TAIL, not the head, lies within this ligament (see the Splenic Ligaments chapter).",
+          "The lesser omentum": "Connects liver to stomach/duodenum \u2014 not directly relevant to the pancreatic head's positioning.",
+          "The transverse mesocolon's root": "Crosses near the pancreas but isn't the structure that defines the head's specific location."
+        },
+        "high_yield_facts": [
+          "Pancreatic head = nestled in the duodenal C-loop.",
+          "Pancreatic tail = within the splenorenal ligament, reaching the splenic hilum.",
+          "This head/tail relational contrast (duodenum vs splenorenal ligament) is a fast, reliable way to orient any question about a specific pancreatic part."
+        ],
+        "clinical_correlation": "This close relationship is why a Whipple procedure (pancreaticoduodenectomy) removes the pancreatic head TOGETHER with the duodenum \u2014 they can't be cleanly separated surgically given how intimately related they are.",
+        "common_confusions": [
+          "Mixing up which pancreatic part relates to the duodenum (head) versus which relates to the spleen (tail) \u2014 these are the two ends of the gland with the most distinct, specific relational anchors."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Whipple procedure (pancreaticoduodenectomy)",
+          "Pancreatic tail/splenorenal ligament relationship",
+          "Uncinate process position"
+        ],
+        "exam_traps": [
+          "Don't default to a spleen-related answer for the HEAD \u2014 that's specifically the tail's relationship instead."
+        ],
+        "image_clues": null,
+        "memory_aid": "Head hugs the duodenum; tail touches the spleen \u2014 the two ends, two completely different neighbours.",
+        "other_ways_this_is_tested": [
+          "This spatial relationship underlies the obstructive jaundice clinical vignette elsewhere in this chapter, since the head's proximity to the CBD (itself related to the duodenum) is what creates that clinical picture."
+        ],
+        "neet_pg_takeaway": "The pancreatic head lies within the C-shaped curve of the duodenum \u2014 the key spatial anchor for the head-related facts throughout this topic.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard abdominal anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that the pancreatic head lies within the duodenal C-loop.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0002",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Parts and relations",
+      "concept": "Pancreas Parts \u2014 Structural Relations",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "The neck of the pancreas is anatomically significant because it lies directly anterior to which venous event?",
+      "options": [
+        "The union of the splenic vein and superior mesenteric vein to form the portal vein",
+        "The union of the two common iliac veins to form the inferior vena cava",
+        "The drainage of the hepatic veins into the inferior vena cava",
+        "The union of the left and right renal veins"
+      ],
+      "correct_answer": "The union of the splenic vein and superior mesenteric vein to form the portal vein",
+      "distractor_rationale": {
+        "The union of the two common iliac veins to form the inferior vena cava": "This venous confluence occurs much lower, at the pelvic brim \u2014 unrelated to the pancreatic neck's location.",
+        "The drainage of the hepatic veins into the inferior vena cava": "Occurs at the liver, posterosuperiorly \u2014 a different location and venous system from the portal vein's formation.",
+        "The union of the left and right renal veins": "The renal veins don't unite with each other at all \u2014 they drain separately into the IVC \u2014 making this option doubly incorrect."
+      },
+      "explanation": {
+        "core_concept": "The pancreatic neck's defining relational fact \u2014 that the portal vein forms directly behind it \u2014 is what makes this short, easily-overlooked segment of the pancreas surgically significant out of proportion to its small size.",
+        "why_correct": "The splenic vein (draining the spleen and running along the pancreatic body's posterior border) joins the superior mesenteric vein (draining the small intestine and proximal colon) directly posterior to the pancreatic neck, forming the portal vein at this exact point \u2014 making the neck a reliable anatomical landmark for locating portal vein formation on imaging or during surgery.",
+        "why_others_wrong": {
+          "The union of the two common iliac veins to form the inferior vena cava": "A pelvic-level venous confluence, unrelated to the pancreas.",
+          "The drainage of the hepatic veins into the inferior vena cava": "Occurs at the liver's posterior surface, a different location and different venous system (systemic, not portal).",
+          "The union of the left and right renal veins": "The renal veins never unite \u2014 this option describes a venous relationship that doesn't exist anywhere in the body."
+        },
+        "high_yield_facts": [
+          "Pancreatic neck = directly anterior to the splenic vein + SMV union forming the portal vein.",
+          "This makes the pancreatic neck a key surgical landmark for locating and safely dissecting around the portal vein's origin.",
+          "During pancreatic surgery (e.g. Whipple procedure), creating a tunnel behind the pancreatic neck (anterior to the portal vein) is a standard surgical step, directly relying on this anatomical relationship."
+        ],
+        "clinical_correlation": "On cross-sectional imaging (CT/MRI), identifying the portal vein's confluence point is often done by first locating the pancreatic neck, then looking immediately posterior to it \u2014 a practical application of this anatomical relationship in everyday radiological interpretation.",
+        "common_confusions": [
+          "Confusing the PORTAL vein's formation (splenic + SMV, behind the pancreatic neck) with other major venous confluences in the abdomen \u2014 each major venous union happens at a distinct, specific location, and mixing them up is a common error under time pressure."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Portal vein and portal hypertension",
+          "Whipple procedure surgical steps",
+          "Splenic vein course along the pancreatic body"
+        ],
+        "exam_traps": [
+          "When asked about a venous confluence 'behind' or 'anterior to' a specific abdominal structure, make sure you're matching the correct VEINS to the correct STRUCTURE \u2014 several plausible-sounding but incorrect venous pairings can be constructed as distractors."
+        ],
+        "image_clues": null,
+        "memory_aid": "Neck of pancreas = birthplace of the portal vein, right behind it.",
+        "other_ways_this_is_tested": [
+          "This landmark relationship is directly relevant to the SMA/SMV/uncinate process concept covered in depth elsewhere in this chapter, since both concern the pancreas's close relationship to the mesenteric venous system."
+        ],
+        "neet_pg_takeaway": "The pancreatic neck lies directly anterior to where the splenic vein and superior mesenteric vein join to form the portal vein \u2014 a key anatomical and surgical landmark.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard abdominal vascular anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the pancreatic neck's relationship to the formation of the portal vein.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0003",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Parts and relations",
+      "concept": "Pancreas Parts \u2014 Structural Relations",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 65-year-old man presents with painless progressive jaundice, pale stools, and dark urine over several weeks, with no history of gallstones. Imaging reveals a mass in the head of the pancreas. What is the anatomical basis for this presentation, and why does the same presentation NOT typically occur early with a tail-of-pancreas mass?",
+      "options": [
+        "The pancreatic head lies immediately adjacent to the distal common bile duct as it passes toward the ampulla, so a head mass can directly compress/obstruct it; a tail mass is anatomically remote from the bile duct and doesn't cause this early biliary obstruction",
+        "Both head and tail masses cause identical, equally early biliary obstruction, since the entire pancreas surrounds the common bile duct uniformly",
+        "The pancreatic tail is more likely to obstruct the bile duct than the head, because the tail lies closer to the liver",
+        "Jaundice from any pancreatic mass is caused by direct liver invasion, not bile duct compression, regardless of the mass's location within the gland"
+      ],
+      "correct_answer": "The pancreatic head lies immediately adjacent to the distal common bile duct as it passes toward the ampulla, so a head mass can directly compress/obstruct it; a tail mass is anatomically remote from the bile duct and doesn't cause this early biliary obstruction",
+      "distractor_rationale": {
+        "Both head and tail masses cause identical, equally early biliary obstruction, since the entire pancreas surrounds the common bile duct uniformly": "The bile duct's close relationship is specifically with the HEAD, not the entire gland uniformly \u2014 a tail mass simply isn't positioned to compress it early in the disease course.",
+        "The pancreatic tail is more likely to obstruct the bile duct than the head, because the tail lies closer to the liver": "Reverses the correct anatomical relationship \u2014 proximity to the liver isn't what matters here; proximity to the distal COMMON BILE DUCT (which the head, not the tail, has) is the relevant relationship.",
+        "Jaundice from any pancreatic mass is caused by direct liver invasion, not bile duct compression, regardless of the mass's location within the gland": "Misattributes the mechanism \u2014 this classic presentation is from mechanical bile duct COMPRESSION/obstruction by the adjacent head mass, not direct liver invasion, which is a different (and much less common initial) mechanism."
+      },
+      "explanation": {
+        "core_concept": "This is a direct, clinically load-bearing application of the pancreatic head's close anatomical relationship with the distal common bile duct \u2014 understanding WHY head masses present differently from tail masses (rather than just memorising 'head masses cause jaundice' as an isolated fact) is what makes this genuinely useful clinical reasoning rather than rote recall.",
+        "why_correct": "As the common bile duct descends toward the duodenum, it passes through or immediately adjacent to the pancreatic head before joining the pancreatic duct at the hepatopancreatic ampulla. A mass arising in the head can therefore directly compress or invade the bile duct at this point, causing progressive, painless obstructive jaundice (with pale stools from reduced bilirubin reaching the gut, and dark urine from conjugated bilirubin being excreted renally instead) \u2014 a classic presentation specifically associated with pancreatic HEAD carcinoma. A tail mass, being anatomically remote from the bile duct's course, doesn't create this same early mechanical obstruction, which is part of why tail (and body) tumours tend to present later, once they've grown large enough to cause symptoms through other mechanisms (pain, mass effect, or metastatic spread) rather than early biliary obstruction.",
+        "why_others_wrong": {
+          "Both head and tail masses cause identical, equally early biliary obstruction, since the entire pancreas surrounds the common bile duct uniformly": "The bile duct's proximity is specifically to the head; it isn't uniformly surrounded by the whole gland, so tail masses don't have the same direct compressive relationship.",
+          "The pancreatic tail is more likely to obstruct the bile duct than the head, because the tail lies closer to the liver": "Proximity to the liver generally isn't the relevant anatomical relationship \u2014 proximity to the bile duct'S COURSE specifically (which passes near the head) is what matters, and reverses the correct head-vs-tail assignment.",
+          "Jaundice from any pancreatic mass is caused by direct liver invasion, not bile duct compression, regardless of the mass's location within the gland": "Misattributes the mechanism for the classic early presentation, which is mechanical duct compression, not liver invasion."
+        },
+        "high_yield_facts": [
+          "Pancreatic HEAD mass \u2192 early painless obstructive jaundice, from direct compression of the adjacent distal common bile duct.",
+          "Pancreatic TAIL/BODY mass \u2192 typically presents LATER (pain, weight loss, or metastatic disease), since it lacks this direct early bile-duct relationship.",
+          "This head-vs-tail presentation difference is a genuinely useful piece of clinical reasoning, not just an isolated fact \u2014 it directly follows from the anatomical relations covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "This anatomical relationship is why pancreatic head cancers, despite carrying the same overall poor prognosis as pancreatic cancer generally, are sometimes diagnosed somewhat earlier than tail/body tumours \u2014 the jaundice, though itself an ominous sign, at least prompts investigation sooner than the vaguer, more delayed presentation of tail tumours.",
+        "common_confusions": [
+          "Treating 'pancreatic cancer causes jaundice' as a location-independent fact \u2014 the specific location (head vs tail) meaningfully changes both the mechanism and the timing of when jaundice would be expected to appear, if at all early in the disease course."
+        ],
+        "exceptions": [
+          "Very large tail or body tumours can eventually cause biliary obstruction through mass effect or nodal compression, but this is a late, less direct mechanism compared to the early, direct compression seen with head tumours."
+        ],
+        "related_concepts": [
+          "Courvoisier's sign (palpable, non-tender gallbladder with painless jaundice)",
+          "Whipple procedure as definitive surgical management for resectable head tumours",
+          "Double duct sign on imaging (dilated CBD + dilated pancreatic duct, from head mass compressing both)"
+        ],
+        "exam_traps": [
+          "Don't treat 'pancreatic mass' as a single undifferentiated category \u2014 always check WHICH PART of the gland is involved, since the head's specific relationship to the bile duct is what drives this particular classic presentation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Head is next to the duct \u2014 block the head, block the duct, back up the bile.",
+        "other_ways_this_is_tested": [
+          "This vignette connects directly to the SMA/SMV/uncinate process concept covered elsewhere in this chapter \u2014 both concern how the pancreatic head's close relationships with adjacent structures (bile duct here, mesenteric vessels there) drive major clinical presentations and surgical decision-making."
+        ],
+        "neet_pg_takeaway": "A pancreatic head mass causes early painless obstructive jaundice by directly compressing the adjacent distal common bile duct \u2014 a relationship the tail lacks, which is why tail tumours present later and differently.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Classic clinical presentation, described in standard surgical and oncology texts (e.g. Sabiston Textbook of Surgery, pancreatic cancer section; Harrison's Principles of Internal Medicine)."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain painless obstructive jaundice from pancreatic head masses via direct compression of the adjacent common bile duct, and why tail masses don't cause the same early presentation.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0004",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Parts and relations",
+      "concept": "Pancreas Parts \u2014 Structural Relations",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Which statement correctly contrasts the peritoneal relationships of the pancreatic head/body versus the tail?",
+      "options": [
+        "The head, neck, and body are retroperitoneal (peritoneum covers only their anterior surface); the tail is unique in being covered by peritoneum on all sides, making it the most mobile part of the gland",
+        "All four parts of the pancreas are equally retroperitoneal, with no part having a more complete peritoneal covering than another",
+        "The head is the most mobile part, fully covered by peritoneum, while the tail is fixed and retroperitoneal",
+        "The pancreas has no peritoneal relationships at all, lying entirely outside the peritoneal cavity's influence"
+      ],
+      "correct_answer": "The head, neck, and body are retroperitoneal (peritoneum covers only their anterior surface); the tail is unique in being covered by peritoneum on all sides, making it the most mobile part of the gland",
+      "distractor_rationale": {
+        "All four parts of the pancreas are equally retroperitoneal, with no part having a more complete peritoneal covering than another": "Denies the tail's genuinely distinct peritoneal relationship \u2014 it specifically has a more complete peritoneal covering (within the splenorenal ligament) than the fixed retroperitoneal head/neck/body.",
+        "The head is the most mobile part, fully covered by peritoneum, while the tail is fixed and retroperitoneal": "Reverses the correct assignment \u2014 the head is the FIXED, retroperitoneal part (nestled in the duodenal curve), while the tail is the mobile, more fully peritonealised part.",
+        "The pancreas has no peritoneal relationships at all, lying entirely outside the peritoneal cavity's influence": "Incorrect \u2014 the pancreas has a genuine, well-described (if partial, for most of the gland) peritoneal relationship, with the anterior surface of the head/neck/body covered by peritoneum even though the gland as a whole is retroperitoneal in position."
+      },
+      "explanation": {
+        "core_concept": "The pancreas is often taught simply as 'a retroperitoneal organ,' but this comparison question tests whether the important EXCEPTION (the tail) has been recognised \u2014 the tail's more complete peritoneal covering, within the splenorenal ligament, is precisely what gives it more mobility than the rest of the fixed gland.",
+        "why_correct": "The head, neck, and body of the pancreas are secondarily retroperitoneal, meaning peritoneum covers only their anterior surface, with the posterior surface fixed directly against the retroperitoneal structures behind them (aorta, IVC, kidneys, major vessels). The tail, by contrast, projects into the splenorenal ligament and is therefore covered by peritoneum on ALL sides, making it a genuinely mobile structure relative to the rest of the fixed gland.",
+        "why_others_wrong": {
+          "All four parts of the pancreas are equally retroperitoneal, with no part having a more complete peritoneal covering than another": "Misses the tail's specific, well-established exception to the otherwise-uniform retroperitoneal pattern of the rest of the gland.",
+          "The head is the most mobile part, fully covered by peritoneum, while the tail is fixed and retroperitoneal": "A direct reversal of the correct head-fixed/tail-mobile relationship.",
+          "The pancreas has no peritoneal relationships at all, lying entirely outside the peritoneal cavity's influence": "Understates the genuine (if partial, for most of the gland) peritoneal relationship the pancreas does have."
+        },
+        "high_yield_facts": [
+          "Head, neck, body = secondarily retroperitoneal, peritoneum on anterior surface ONLY \u2014 fixed in position.",
+          "Tail = peritoneum on ALL sides (within the splenorenal ligament) \u2014 the most mobile part of the gland.",
+          "This mobility difference is why the tail can be more easily mobilised surgically (e.g. during distal pancreatectomy) compared to the more fixed head, which requires more extensive dissection given its retroperitoneal fixation and duodenal relationship."
+        ],
+        "clinical_correlation": "This mobility difference has direct surgical relevance: distal pancreatectomy (removing the tail, sometimes with the spleen given their shared ligamentous relationship) is generally a less extensive procedure than a Whipple procedure (removing the fixed head along with the duodenum), partly reflecting this difference in how mobile/accessible each part is.",
+        "common_confusions": [
+          "Treating 'the pancreas is retroperitoneal' as a uniform, blanket statement applying identically to every part of the gland \u2014 the tail is a genuine, specific, and frequently tested exception to that generalisation."
+        ],
+        "exceptions": [
+          "The tail's degree of peritoneal covering and mobility can vary somewhat between individuals depending on exactly how far it extends into the splenorenal ligament \u2014 but the general principle (tail more peritonealised/mobile than head/neck/body) holds consistently."
+        ],
+        "related_concepts": [
+          "Splenorenal ligament (see Splenic Ligaments chapter)",
+          "Distal pancreatectomy vs Whipple procedure",
+          "Secondary retroperitoneal organs generally (a broader anatomical category the pancreatic head/neck/body belongs to)"
+        ],
+        "exam_traps": [
+          "Don't apply 'retroperitoneal' as an absolute, all-or-nothing descriptor for the whole pancreas \u2014 the tail's exception is specifically what many comparison-style questions in this topic are testing."
+        ],
+        "image_clues": null,
+        "memory_aid": "Tail wags free (fully peritonealised, mobile); head stays put (retroperitoneal, fixed in the duodenal curve).",
+        "other_ways_this_is_tested": [
+          "This peritoneal relationship connects directly to the Splenic Ligaments chapter, since the tail's mobility and peritoneal covering are specifically due to its position within the splenorenal ligament."
+        ],
+        "neet_pg_takeaway": "The pancreatic head, neck, and body are fixed, secondarily retroperitoneal structures (peritoneum on the anterior surface only); the tail is the exception, fully peritonealised within the splenorenal ligament and therefore the most mobile part of the gland.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard abdominal anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter, retroperitoneal organs section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Contrast the peritoneal covering and resulting mobility of the pancreatic tail versus the head, neck, and body.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0005",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Duct system",
+      "concept": "Pancreas Parts \u2014 Duct System and Pancreas Divisum",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The main pancreatic duct joins the common bile duct to form the hepatopancreatic ampulla, opening at the major duodenal papilla. Where does the accessory pancreatic duct typically open, relative to the major papilla?",
+      "options": [
+        "At the minor duodenal papilla, proximal to (above) the major papilla",
+        "At the same major duodenal papilla, alongside the main duct",
+        "At the minor duodenal papilla, distal to (below) the major papilla",
+        "Directly into the stomach, bypassing the duodenum entirely"
+      ],
+      "correct_answer": "At the minor duodenal papilla, proximal to (above) the major papilla",
+      "distractor_rationale": {
+        "At the same major duodenal papilla, alongside the main duct": "The two ducts have separate, distinct openings in typical anatomy \u2014 they don't share the major papilla.",
+        "At the minor duodenal papilla, distal to (below) the major papilla": "Gets the correct papilla (minor) but the wrong relative position \u2014 the minor papilla is actually proximal to (above) the major papilla, not below it.",
+        "Directly into the stomach, bypassing the duodenum entirely": "The pancreatic ducts drain into the duodenum, not the stomach \u2014 this option describes an anatomically incorrect destination."
+      },
+      "explanation": {
+        "core_concept": "Knowing the RELATIVE POSITIONS of the two duodenal papillae (not just that they exist) is what actually matters for correctly interpreting ERCP procedures and understanding pancreas divisum, both of which depend on this precise spatial relationship.",
+        "why_correct": "The accessory pancreatic duct (of Santorini) typically opens at the minor duodenal papilla, which is located proximal to (above/cranial to) the major duodenal papilla where the main pancreatic duct and common bile duct open together via the hepatopancreatic ampulla.",
+        "why_others_wrong": {
+          "At the same major duodenal papilla, alongside the main duct": "The two ducts have anatomically separate openings in the typical (non-fused) pattern \u2014 this option incorrectly merges them into one shared opening.",
+          "At the minor duodenal papilla, distal to (below) the major papilla": "Correctly identifies the minor papilla as the accessory duct's opening but incorrectly reverses its position relative to the major papilla.",
+          "Directly into the stomach, bypassing the duodenum entirely": "Both pancreatic ducts drain into the duodenum specifically, not the stomach."
+        },
+        "high_yield_facts": [
+          "Main pancreatic duct + common bile duct \u2192 hepatopancreatic ampulla \u2192 major duodenal papilla.",
+          "Accessory pancreatic duct \u2192 minor duodenal papilla, located PROXIMAL to (above) the major papilla.",
+          "This spatial relationship (minor papilla above major papilla) is directly relevant to correctly cannulating either duct during ERCP."
+        ],
+        "clinical_correlation": "During ERCP (endoscopic retrograde cholangiopancreatography), correctly identifying and cannulating the major versus minor papilla \u2014 guided by their known relative positions \u2014 is essential for successful duct visualisation and any therapeutic intervention (e.g. stent placement, sphincterotomy).",
+        "common_confusions": [
+          "Assuming the minor papilla is 'below' the major papilla simply because 'accessory' sounds like a secondary, later structure \u2014 the actual anatomical relationship (minor above major) doesn't follow this intuitive-but-incorrect assumption."
+        ],
+        "exceptions": [
+          "The accessory duct's patency and clinical significance vary \u2014 in a notable minority of people it may be absent, small, or non-functional, with the main duct alone handling all drainage; this variability is part of what underlies pancreas divisum's spectrum of clinical presentations."
+        ],
+        "related_concepts": [
+          "ERCP technique and papilla identification",
+          "Hepatopancreatic ampulla (of Vater)",
+          "Pancreas divisum (a direct consequence of these two ducts' developmental origins)"
+        ],
+        "exam_traps": [
+          "Don't assume 'accessory' implies a lower, secondary position \u2014 the minor papilla's actual location (above, not below, the major papilla) is a specific fact that must be memorised rather than inferred from the terminology."
+        ],
+        "image_clues": null,
+        "memory_aid": "Minor is ahead of Major going down the duodenum \u2014 'minor' comes first alphabetically AND positionally in this case (a coincidental but useful memory anchor).",
+        "other_ways_this_is_tested": [
+          "This duct anatomy is the direct anatomical basis for the pancreas divisum mechanism question elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The accessory pancreatic duct opens at the minor duodenal papilla, positioned PROXIMAL to (above) the major duodenal papilla where the main pancreatic duct and common bile duct open together.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard pancreaticobiliary anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the relative positions of the major and minor duodenal papillae and which pancreatic duct opens at each.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0006",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Duct system",
+      "concept": "Pancreas Parts \u2014 Duct System and Pancreas Divisum",
+      "question_type": "mechanism",
+      "difficulty": 4,
+      "question": "Pancreas divisum, the most common congenital pancreatic anomaly, results from a specific embryological event. What is that event, and what is its functional consequence?",
+      "options": [
+        "Failure of fusion between the ventral and dorsal pancreatic buds' duct systems, so that most pancreatic secretion is forced to drain through the smaller accessory duct/minor papilla rather than the main duct/major papilla",
+        "Complete absence of the ventral pancreatic bud, resulting in a pancreas with no head or uncinate process at all",
+        "Duplication of the main pancreatic duct, producing two equally sized main ducts both opening at the major papilla",
+        "Failure of the pancreas to descend from its original thoracic position during development"
+      ],
+      "correct_answer": "Failure of fusion between the ventral and dorsal pancreatic buds' duct systems, so that most pancreatic secretion is forced to drain through the smaller accessory duct/minor papilla rather than the main duct/major papilla",
+      "distractor_rationale": {
+        "Complete absence of the ventral pancreatic bud, resulting in a pancreas with no head or uncinate process at all": "Describes a much more severe (and different) anomaly (agenesis of part of the pancreas) \u2014 pancreas divisum specifically involves a FAILURE OF DUCT FUSION, not absence of an entire embryological component, and the head/uncinate process still form normally.",
+        "Duplication of the main pancreatic duct, producing two equally sized main ducts both opening at the major papilla": "Misdescribes the anomaly \u2014 pancreas divisum involves two SEPARATE, unequally-sized ducts opening at DIFFERENT papillae (major and minor), not duplication of a single duct at one shared opening.",
+        "Failure of the pancreas to descend from its original thoracic position during development": "The pancreas doesn't develop or descend from a thoracic position \u2014 this option describes a mechanism unrelated to actual pancreatic embryology."
+      },
+      "explanation": {
+        "core_concept": "Pancreas divisum makes complete sense once you know the pancreas normally develops from TWO separate buds (ventral and dorsal) with two separate duct systems that normally fuse \u2014 divisum is simply what happens when that expected fusion doesn't occur, leaving the drainage pattern in its original, unfused embryonic configuration.",
+        "why_correct": "The pancreas develops from a ventral bud (which normally rotates around to fuse with the dorsal bud, forming the lower head/uncinate process and contributing the distal main duct) and a larger dorsal bud (forming the rest of the head, neck, body, and tail, normally contributing the proximal main duct and the accessory duct). Pancreas divisum occurs when the ventral and dorsal duct systems FAIL to fuse, so the dorsal duct (draining the bulk of the gland \u2014 body, tail, and most of the head) continues to drain via its original route through the accessory duct and minor papilla, rather than being redirected through the (usually larger) main duct and major papilla \u2014 a relative bottleneck that can predispose to recurrent, otherwise unexplained pancreatitis.",
+        "why_others_wrong": {
+          "Complete absence of the ventral pancreatic bud, resulting in a pancreas with no head or uncinate process at all": "A different, more severe anomaly \u2014 pancreas divisum involves a fusion FAILURE between two normally-formed bud systems, not the absence of one bud entirely.",
+          "Duplication of the main pancreatic duct, producing two equally sized main ducts both opening at the major papilla": "Misdescribes both the mechanism (it's a fusion failure, not duplication) and the outcome (the two ducts in divisum open at DIFFERENT papillae, not the same one).",
+          "Failure of the pancreas to descend from its original thoracic position during development": "Not an actual feature of pancreatic embryology \u2014 the pancreas doesn't develop in or descend from the thorax."
+        },
+        "high_yield_facts": [
+          "Pancreas divisum = failure of fusion between the ventral and dorsal pancreatic duct systems.",
+          "Consequence: the bulk of pancreatic secretion (from the larger dorsal-bud-derived portion of the gland) drains through the smaller accessory duct/minor papilla instead of the main duct/major papilla \u2014 a relative outflow restriction.",
+          "Pancreas divisum is the MOST COMMON congenital pancreatic anomaly, and is implicated in some cases of recurrent, otherwise unexplained acute pancreatitis, though many affected individuals remain entirely asymptomatic."
+        ],
+        "clinical_correlation": "Recognising pancreas divisum as a possible explanation for recurrent idiopathic pancreatitis (pancreatitis without an obvious cause like gallstones or alcohol) can guide further imaging (MRCP is typically the preferred non-invasive study) and, in selected symptomatic cases, endoscopic or surgical intervention (e.g. minor papilla sphincterotomy) to improve drainage.",
+        "common_confusions": [
+          "Assuming pancreas divisum means the pancreas is physically split into two separate organs \u2014 it's actually a single, normally-formed gland with a duct FUSION anomaly, not a structural division of the gland itself."
+        ],
+        "exceptions": [
+          "Most individuals with pancreas divisum remain entirely asymptomatic throughout life \u2014 it's frequently an incidental imaging finding, and only a minority develop clinically significant recurrent pancreatitis attributable to it."
+        ],
+        "related_concepts": [
+          "Recurrent idiopathic acute pancreatitis workup",
+          "MRCP as the preferred imaging modality",
+          "Major and minor duodenal papilla anatomy (the anatomical basis for this anomaly's consequence)"
+        ],
+        "exam_traps": [
+          "Don't confuse pancreas divisum (a duct FUSION failure) with other congenital pancreatic anomalies like annular pancreas (a different developmental error involving abnormal ventral bud rotation causing the pancreas to encircle the duodenum) \u2014 both are pancreatic congenital anomalies but with entirely different mechanisms and consequences."
+        ],
+        "image_clues": null,
+        "memory_aid": "'Divisum' = divided \u2014 the duct systems stay divided instead of fusing into one.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly builds on the major/minor papilla positional fact established in the direct-recall question earlier in this concept group, applying that anatomy to explain a genuine congenital anomaly."
+        ],
+        "neet_pg_takeaway": "Pancreas divisum results from failed fusion of the ventral and dorsal pancreatic duct systems, forcing most pancreatic drainage through the smaller accessory duct/minor papilla \u2014 the most common congenital pancreatic anomaly, and a recognised (though not universal) contributor to recurrent idiopathic pancreatitis.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard embryology and clinical correlation \u2014 Langman's Medical Embryology, gastrointestinal system chapter; Harrison's Principles of Internal Medicine, pancreatitis section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain pancreas divisum as a failure of ventral-dorsal pancreatic duct fusion and its consequence for pancreatic drainage.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0007",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Duct system",
+      "concept": "Pancreas Parts \u2014 Duct System and Pancreas Divisum",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A 28-year-old woman has had three episodes of acute pancreatitis over two years, with no gallstones on ultrasound, no significant alcohol use, normal triglycerides and calcium, and no family history of pancreatitis. MRCP shows a dominant dorsal pancreatic duct draining independently through the minor papilla, with a separate, smaller ventral duct component draining through the major papilla. What is the most likely underlying diagnosis explaining her recurrent pancreatitis?",
+      "options": [
+        "Pancreas divisum",
+        "Choledocholithiasis with an impacted common bile duct stone",
+        "Chronic alcoholic pancreatitis",
+        "Autoimmune (IgG4-related) pancreatitis"
+      ],
+      "correct_answer": "Pancreas divisum",
+      "distractor_rationale": {
+        "Choledocholithiasis with an impacted common bile duct stone": "Already excluded by a negative ultrasound for gallstones, and this vignette's imaging finding (separate dorsal/ventral duct drainage) is a specific ductal ANATOMY finding, not a stone-related obstruction.",
+        "Chronic alcoholic pancreatitis": "Explicitly excluded by the history of no significant alcohol use, and chronic pancreatitis would typically show characteristic parenchymal changes (calcification, atrophy, fibrosis) rather than the specific ductal anatomy described here.",
+        "Autoimmune (IgG4-related) pancreatitis": "Would typically show characteristic imaging findings like diffuse gland enlargement ('sausage-shaped' pancreas) or a mass-like lesion, and requires serological/histological confirmation \u2014 not the specific dual-duct anatomical finding described in this vignette."
+      },
+      "explanation": {
+        "core_concept": "This vignette walks through the standard clinical workup for recurrent idiopathic pancreatitis \u2014 excluding the common causes (gallstones, alcohol, metabolic, familial) one by one \u2014 before arriving at the imaging finding that specifically confirms pancreas divisum as the explanation, directly applying the embryological mechanism established elsewhere in this chapter.",
+        "why_correct": "The MRCP finding described \u2014 a dominant dorsal duct draining independently through the minor papilla, with a separate, smaller ventral duct component draining through the major papilla \u2014 is the classic imaging appearance of pancreas divisum. Combined with the systematic exclusion of the more common causes of recurrent pancreatitis (gallstones, alcohol, hypertriglyceridaemia, hypercalcaemia, and no family history suggesting a hereditary pancreatitis syndrome), pancreas divisum becomes the most likely explanation for this otherwise unexplained recurrent pancreatitis.",
+        "why_others_wrong": {
+          "Choledocholithiasis with an impacted common bile duct stone": "Already excluded by a negative gallstone ultrasound, and doesn't match the specific dual-duct anatomical finding on MRCP.",
+          "Chronic alcoholic pancreatitis": "Excluded by history, and would show different characteristic imaging findings (calcification, ductal dilation/beading, parenchymal atrophy) rather than this specific congenital ductal anatomy.",
+          "Autoimmune (IgG4-related) pancreatitis": "Would show different characteristic imaging (diffuse enlargement or mass-like change) and requires additional serological/histological workup \u2014 not suggested by the ductal anatomy described here."
+        },
+        "high_yield_facts": [
+          "MRCP is the preferred, non-invasive imaging study for diagnosing pancreas divisum.",
+          "Classic MRCP finding: separate dorsal duct (draining via minor papilla) and ventral duct (draining via major papilla), rather than a single fused main duct.",
+          "Pancreas divisum should specifically be considered in recurrent, otherwise unexplained ('idiopathic') pancreatitis, after excluding the more common causes (gallstones, alcohol, hypertriglyceridaemia, hypercalcaemia, hereditary pancreatitis)."
+        ],
+        "clinical_correlation": "Confirming pancreas divisum in a patient with recurrent pancreatitis can lead to consideration of endoscopic minor papilla sphincterotomy or stenting to improve dorsal duct drainage in selected symptomatic cases, though management decisions are individualised since many people with this anatomical variant never develop pancreatitis at all.",
+        "common_confusions": [
+          "Jumping to a diagnosis before systematically excluding the more common causes of pancreatitis \u2014 this vignette's structure (methodically ruling out gallstones, alcohol, metabolic causes, and family history) mirrors the actual clinical reasoning process required before attributing recurrent pancreatitis to a congenital ductal anomaly."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Embryological mechanism of pancreas divisum (see mechanism question elsewhere in this chapter)",
+          "Recurrent idiopathic pancreatitis differential diagnosis",
+          "Endoscopic minor papilla sphincterotomy as a treatment option"
+        ],
+        "exam_traps": [
+          "Don't be distracted by the general category 'recurrent pancreatitis' into picking the statistically most common overall cause (gallstones or alcohol) without checking whether the vignette has specifically excluded those \u2014 always work through the exclusions given before settling on the less common but vignette-supported diagnosis."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This vignette is the direct clinical application of the pancreas divisum mechanism established in the embryology question earlier in this concept group \u2014 together they cover both the 'why' and the 'how it presents/is diagnosed' sides of the same anomaly."
+        ],
+        "neet_pg_takeaway": "Recurrent, otherwise unexplained pancreatitis with an MRCP showing separate dorsal (minor papilla) and ventral (major papilla) duct drainage confirms pancreas divisum \u2014 always exclude the more common causes first before attributing pancreatitis to this congenital ductal anomaly.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard gastroenterology diagnostic workup \u2014 Harrison's Principles of Internal Medicine, pancreatitis section; standard MRCP interpretation references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose pancreas divisum from MRCP findings in a patient with recurrent idiopathic pancreatitis, after appropriate exclusion of more common causes.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0008",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "SMA/SMV relations",
+      "concept": "Pancreas Parts \u2014 SMA/SMV/Uncinate Process Relationship",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The uncinate process of the pancreas passes posterior to which major vessels?",
+      "options": [
+        "The superior mesenteric artery and vein",
+        "The splenic artery and vein",
+        "The renal artery and vein",
+        "The common hepatic artery"
+      ],
+      "correct_answer": "The superior mesenteric artery and vein",
+      "distractor_rationale": {
+        "The splenic artery and vein": "The splenic vessels run along the posterosuperior border of the pancreatic BODY, a different anatomical relationship from the uncinate process's specific relationship to the SMA/SMV.",
+        "The renal artery and vein": "These vessels lie more posteriorly/laterally, related to the kidneys \u2014 not the specific structure the uncinate process passes behind.",
+        "The common hepatic artery": "Runs superior to the pancreas, toward the liver \u2014 not the vessel the uncinate process relates to."
+      },
+      "explanation": {
+        "core_concept": "The uncinate process's position posterior to the SMA/SMV is the single most surgically important anatomical fact in this entire chapter \u2014 it's the specific relationship that makes pancreatic head/uncinate surgery technically demanding and that determines resectability in pancreatic cancer staging.",
+        "why_correct": "The uncinate process, a hook-like extension of the pancreatic head, projects posteriorly and to the left, passing directly BEHIND (posterior to) the superior mesenteric artery and vein as they descend to supply/drain the small intestine \u2014 a close anatomical relationship with major surgical and oncological consequences.",
+        "why_others_wrong": {
+          "The splenic artery and vein": "These relate to the pancreatic BODY's posterosuperior border, a different part of the gland and a different specific relationship from the uncinate process.",
+          "The renal artery and vein": "Positioned more posteriorly and laterally, related primarily to the kidneys, not the uncinate process specifically.",
+          "The common hepatic artery": "Runs superior to the pancreas toward the liver, unrelated to the uncinate process's posterior relationship."
+        },
+        "high_yield_facts": [
+          "Uncinate process = posterior to the SMA and SMV.",
+          "This relationship is THE key anatomical fact determining surgical resectability in pancreatic head cancer \u2014 tumour encasement of the SMA specifically often renders a tumour unresectable.",
+          "The uncinate process's position behind these vessels is also why this region is technically the most challenging part of a Whipple procedure to dissect safely."
+        ],
+        "clinical_correlation": "On staging CT for pancreatic cancer, radiologists specifically assess the degree of tumour contact with the SMA and SMV at the level of the uncinate process/pancreatic neck \u2014 this assessment directly determines whether a patient is offered upfront surgery, neoadjuvant therapy, or is considered unresectable, making this anatomical fact directly consequential for real treatment decisions.",
+        "common_confusions": [
+          "Confusing the uncinate process's relationship (posterior to SMA/SMV) with the pancreatic BODY's relationship to the splenic vessels (posterosuperior border) \u2014 these are two different parts of the gland with two different major vessel relationships, both worth knowing but easily conflated."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pancreatic cancer resectability staging",
+          "Whipple procedure technical difficulty",
+          "Pancreatic neck's relationship to portal vein formation (an adjacent, related landmark)"
+        ],
+        "exam_traps": [
+          "Don't default to 'splenic vessels' for every posterior pancreatic relationship \u2014 the uncinate process specifically relates to the SMA/SMV, a different vessel pair from the splenic vessels relevant to the body."
+        ],
+        "image_clues": null,
+        "memory_aid": "Uncinate hooks behind the SMA/SMV \u2014 'uncinate' literally means hook-shaped, and it hooks right behind these vessels.",
+        "other_ways_this_is_tested": [
+          "This relationship is the direct anatomical basis for both the SMV compression/resectability diagnostic-reasoning question and the image-based CT recognition question elsewhere in this concept group."
+        ],
+        "neet_pg_takeaway": "The uncinate process of the pancreas passes posterior to the superior mesenteric artery and vein \u2014 the single most surgically and oncologically significant anatomical relationship in this entire topic.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard surgical anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter; standard pancreatic surgery references."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that the uncinate process of the pancreas lies posterior to the superior mesenteric artery and vein.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0009",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "SMA/SMV relations",
+      "concept": "Pancreas Parts \u2014 SMA/SMV/Uncinate Process Relationship",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "Staging CT for a patient with pancreatic head adenocarcinoma shows the tumour abutting less than 180 degrees of the superior mesenteric vein circumference with a preserved fat plane, but circumferentially encasing (greater than 180 degrees) the superior mesenteric artery. Based on this finding, which best describes the tumour's surgical resectability?",
+      "options": [
+        "Unresectable, primarily due to SMA encasement \u2014 arterial involvement of this degree generally precludes curative surgical resection",
+        "Resectable without qualification, since venous involvement (SMV) is the only factor that matters for resectability staging",
+        "Definitely resectable, because any degree of vessel involvement can always be surgically reconstructed regardless of which vessel or how much circumference is involved",
+        "The described findings are irrelevant to resectability, which is determined solely by tumour size, not vascular involvement"
+      ],
+      "correct_answer": "Unresectable, primarily due to SMA encasement \u2014 arterial involvement of this degree generally precludes curative surgical resection",
+      "distractor_rationale": {
+        "Resectable without qualification, since venous involvement (SMV) is the only factor that matters for resectability staging": "Understates the arterial finding's significance \u2014 SMA encasement (>180 degrees circumferential involvement) is specifically the factor most strongly associated with unresectability in standard staging criteria, more so than venous involvement of a similar or lesser degree.",
+        "Definitely resectable, because any degree of vessel involvement can always be surgically reconstructed regardless of which vessel or how much circumference is involved": "Overstates surgical capability \u2014 while VENOUS (SMV/portal vein) involvement can sometimes be managed with vascular resection and reconstruction as part of an extended Whipple procedure, ARTERIAL (SMA) encasement of this degree is a different, generally much less favourable situation, typically precluding curative resection.",
+        "The described findings are irrelevant to resectability, which is determined solely by tumour size, not vascular involvement": "Understates the central role vascular involvement plays in modern pancreatic cancer staging \u2014 vessel involvement (particularly arterial) is one of the most important resectability determinants, arguably more so than size alone."
+      },
+      "explanation": {
+        "core_concept": "This question applies the uncinate process/SMA-SMV anatomical relationship directly to real-world cancer staging criteria \u2014 understanding WHY arterial involvement matters more than venous involvement (the vessel's role and reconstructability) is what turns a memorised anatomical fact into genuine clinical reasoning.",
+        "why_correct": "In standard pancreatic cancer resectability criteria, circumferential tumour encasement of the SMA (generally defined as greater than 180 degrees of vessel circumference involved) is considered a marker of surgical unresectability (or at minimum 'borderline resectable/locally advanced' status requiring neoadjuvant therapy first), because the SMA cannot typically be resected and reconstructed without unacceptable risk to bowel viability. This is in contrast to the SMV/portal vein, where even significant involvement can sometimes be managed with venous resection and reconstruction as part of an extended surgical procedure, since venous drainage has more collateral and reconstructive options than the SMA's arterial supply to the entire midgut.",
+        "why_others_wrong": {
+          "Resectable without qualification, since venous involvement (SMV) is the only factor that matters for resectability staging": "Understates the arterial finding, which is actually the more resectability-limiting factor described in this vignette \u2014 the SMV finding here is actually LESS concerning (less than 180 degrees, preserved fat plane) than the SMA finding.",
+          "Definitely resectable, because any degree of vessel involvement can always be surgically reconstructed regardless of which vessel or how much circumference is involved": "Overstates surgical reconstructive capability, particularly for extensive ARTERIAL encasement, which is generally a much less favourable and less reconstructable situation than venous involvement.",
+          "The described findings are irrelevant to resectability, which is determined solely by tumour size, not vascular involvement": "Understates vascular involvement's central, often primary role in modern resectability criteria, independent of tumour size alone."
+        },
+        "high_yield_facts": [
+          "SMA encasement (>180 degrees circumference) = a key marker of unresectability in pancreatic cancer staging.",
+          "SMV/portal vein involvement is generally more 'forgiving' \u2014 even significant involvement can sometimes be managed with venous resection/reconstruction, unlike comparable arterial involvement.",
+          "This asymmetry (arterial involvement much more concerning than similar-degree venous involvement) directly reflects the differing reconstructive options and physiological consequences of sacrificing arterial versus venous flow to the midgut."
+        ],
+        "clinical_correlation": "This staging distinction directly determines real treatment pathways: resectable tumours proceed to upfront Whipple procedure; borderline resectable or locally advanced (SMA-involved) tumours are typically treated with neoadjuvant chemotherapy (sometimes with radiation) first, with resection reconsidered only if the tumour responds and vessel involvement improves.",
+        "common_confusions": [
+          "Treating all vascular involvement in pancreatic cancer staging as equally concerning regardless of which specific vessel (artery vs vein) is involved \u2014 the SMA and SMV have genuinely different implications for resectability, and conflating them leads to incorrect staging conclusions."
+        ],
+        "exceptions": [
+          "Resectability criteria continue to evolve, and some centres with expertise in complex vascular reconstruction may consider more aggressive approaches to borderline cases than described here \u2014 but the general principle (arterial encasement much more concerning than comparable venous involvement) remains a stable, consistently taught teaching point."
+        ],
+        "related_concepts": [
+          "Whipple procedure with vascular resection/reconstruction (for borderline SMV cases)",
+          "Neoadjuvant chemotherapy for borderline/locally advanced pancreatic cancer",
+          "Uncinate process anatomy (the structural basis for why this vessel relationship exists)"
+        ],
+        "exam_traps": [
+          "When a vignette gives BOTH arterial and venous involvement findings, make sure you're weighing them correctly according to their different clinical significance \u2014 don't average them or treat them as equally weighted factors, since arterial encasement is specifically the more resectability-limiting finding."
+        ],
+        "image_clues": null,
+        "memory_aid": "Veins can be rebuilt; the SMA usually can't be sacrificed without consequence \u2014 arterial involvement is the harder red line.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question directly applies the uncinate process/SMA-SMV anatomical relationship established in the direct-recall question earlier in this concept group to real-world oncological staging criteria."
+        ],
+        "neet_pg_takeaway": "SMA encasement (>180 degrees) is a key unresectability marker in pancreatic cancer staging, generally more concerning than comparable SMV/portal vein involvement, which can sometimes be managed with venous reconstruction \u2014 a direct clinical application of the uncinate process's anatomical relationship to these vessels.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard oncological surgical staging criteria \u2014 NCCN guidelines for pancreatic adenocarcinoma; Sabiston Textbook of Surgery, pancreatic cancer section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Apply the anatomical relationship between the pancreatic uncinate process and the SMA/SMV to interpret pancreatic cancer resectability staging criteria.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0010",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "SMA/SMV relations",
+      "concept": "Pancreas Parts \u2014 SMA/SMV/Uncinate Process Relationship",
+      "question_type": "image_based",
+      "difficulty": 3,
+      "question": "[Image: axial CT of the upper abdomen at the level of the pancreatic head, showing a triangular extension of pancreatic tissue projecting posteriorly and to the left, situated directly posterior to two adjacent round vascular structures (one artery, one vein) that lie anterior to the aorta.] What is the triangular pancreatic tissue labelled, and what are the two adjacent vascular structures?",
+      "options": [
+        "Uncinate process; superior mesenteric artery and superior mesenteric vein",
+        "Tail of the pancreas; splenic artery and splenic vein",
+        "Body of the pancreas; celiac trunk and portal vein",
+        "Head of the pancreas; renal artery and renal vein"
+      ],
+      "correct_answer": "Uncinate process; superior mesenteric artery and superior mesenteric vein",
+      "distractor_rationale": {
+        "Tail of the pancreas; splenic artery and splenic vein": "The tail is located far to the left, near the spleen, not as a triangular extension posterior to midline vessels anterior to the aorta \u2014 this describes a different location and different vessel pair entirely.",
+        "Body of the pancreas; celiac trunk and portal vein": "The body is a more elongated, transversely-oriented segment, not the specific triangular, posteriorly-projecting shape described \u2014 and its relevant vessels (splenic vessels along its posterosuperior border) differ from what's described.",
+        "Head of the pancreas; renal artery and renal vein": "While the head is in the correct general region, the specific TRIANGULAR, POSTERIORLY-PROJECTING shape described is the uncinate process specifically (a distinct extension of the head), and the renal vessels are a different vessel pair from the SMA/SMV described."
+      },
+      "explanation": {
+        "core_concept": "Correctly identifying the uncinate process on axial CT depends on recognising both its distinctive TRIANGULAR shape (as it wraps behind the vessels) and its specific vascular neighbours (SMA and SMV, both anterior to the aorta at this level) \u2014 a combination of shape and location that's specific enough to reliably identify this structure even without labels.",
+        "why_correct": "The uncinate process has a characteristic triangular appearance on axial CT at the level where it hooks posterior to the superior mesenteric artery and vein, which appear as two round vascular structures lying anterior to the aorta at this level \u2014 exactly the appearance and relationship described.",
+        "why_others_wrong": {
+          "Tail of the pancreas; splenic artery and splenic vein": "The tail sits far laterally near the spleen, a different location from the described triangular tissue positioned posterior to midline vessels \u2014 and its vascular relationship (splenic vessels) is different from the SMA/SMV pairing described.",
+          "Body of the pancreas; celiac trunk and portal vein": "The body has a different, more elongated transverse shape, and its key vascular relationship (splenic vessels along its posterosuperior border) doesn't match the SMA/SMV pairing described here.",
+          "Head of the pancreas; renal artery and renal vein": "While anatomically nearby, the specific triangular, posteriorly-hooking shape described is the uncinate process (an extension of the head, not the head as a whole), and the renal vessels are a different, more posterolateral vessel pair from the SMA/SMV described."
+        },
+        "high_yield_facts": [
+          "Uncinate process on axial CT: triangular shape, positioned posterior to the SMA and SMV, which appear as two round vessels anterior to the aorta at this level.",
+          "This specific CT appearance is exactly what radiologists assess when staging pancreatic head/uncinate tumours for resectability (see the diagnostic reasoning question in this concept group).",
+          "Recognising this normal anatomical appearance is the necessary first step before being able to identify abnormal findings like tumour encasement or venous compression at this same level."
+        ],
+        "clinical_correlation": "Radiologists and surgeons rely on precisely this CT appearance (triangular uncinate process, adjacent SMA/SMV) as the standard reference point for assessing pancreatic head/uncinate pathology \u2014 recognising normal anatomy at this level is the foundation for detecting and describing any abnormality found there.",
+        "common_confusions": [
+          "Confusing the uncinate process's specific triangular, posteriorly-hooking appearance with the more general 'head of pancreas' region \u2014 the uncinate process is a distinct, identifiable substructure with its own characteristic shape and vascular relationship, not just an undifferentiated part of the broader head."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "SMA encasement and resectability staging (the clinical application of correctly identifying this region)",
+          "Portal vein formation at the pancreatic neck (an adjacent landmark at a slightly different level)",
+          "Whipple procedure surgical anatomy"
+        ],
+        "exam_traps": [
+          "Don't identify pancreatic CT anatomy by region alone ('this is near the head, so it must be the head') \u2014 the SPECIFIC SHAPE (triangular) and SPECIFIC VASCULAR RELATIONSHIP (SMA/SMV, not splenic or renal vessels) are what precisely identify the uncinate process rather than an adjacent structure."
+        ],
+        "image_clues": "Key visual clues: triangular shape of the pancreatic tissue; TWO round vascular structures (not one) situated directly anterior to it; those vessels themselves lying anterior to the aorta at this level.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This image-based identification directly complements the direct-recall and diagnostic-reasoning questions on the uncinate process elsewhere in this concept group, adding the visual/radiological recognition layer to the anatomical and clinical facts already established."
+        ],
+        "neet_pg_takeaway": "The uncinate process appears as a triangular extension of pancreatic tissue on axial CT, positioned directly posterior to the SMA and SMV (both anterior to the aorta at this level) \u2014 a specific shape-plus-vessel-relationship combination that reliably identifies this structure.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard cross-sectional anatomy \u2014 Netter's or equivalent CT anatomy atlas; standard abdominal radiology teaching."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic. A real, radiologically accurate axial CT image or schematic at the level of the pancreatic uncinate process must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify the uncinate process and its relationship to the SMA/SMV on axial CT imaging.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0011",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "Duct system",
+      "concept": "Pancreas Parts \u2014 Duct System and Pancreas Divisum",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "Pancreas divisum and annular pancreas are both congenital pancreatic anomalies arising from abnormal ventral/dorsal bud development, but via different mechanisms with different consequences. How do they differ?",
+      "options": [
+        "Pancreas divisum results from failed FUSION of the ventral and dorsal duct systems (a drainage problem); annular pancreas results from abnormal ventral bud MIGRATION/ROTATION, where pancreatic tissue encircles and can obstruct the duodenum (a structural/mechanical problem)",
+        "Both anomalies result from an identical failure of duct fusion, differing only in severity",
+        "Annular pancreas is a duct drainage problem, while pancreas divisum causes duodenal obstruction",
+        "Neither anomaly involves the ventral pancreatic bud in any way"
+      ],
+      "correct_answer": "Pancreas divisum results from failed FUSION of the ventral and dorsal duct systems (a drainage problem); annular pancreas results from abnormal ventral bud MIGRATION/ROTATION, where pancreatic tissue encircles and can obstruct the duodenum (a structural/mechanical problem)",
+      "distractor_rationale": {
+        "Both anomalies result from an identical failure of duct fusion, differing only in severity": "Denies the genuinely different embryological mechanisms \u2014 one is a fusion problem, the other a migration/rotation problem \u2014 not simply two degrees of the same defect.",
+        "Annular pancreas is a duct drainage problem, while pancreas divisum causes duodenal obstruction": "Reverses the correct mechanism-to-consequence assignment between the two anomalies.",
+        "Neither anomaly involves the ventral pancreatic bud in any way": "Both anomalies specifically involve abnormal ventral bud behaviour (failed fusion in divisum; abnormal migration in annular pancreas) \u2014 the ventral bud is central to both."
+      },
+      "explanation": {
+        "core_concept": "Contrasting pancreas divisum against annular pancreas sharpens understanding of BOTH anomalies by forcing a precise distinction between a drainage-system problem (divisum) and a structural/positional problem (annular) that happen to share a developmental neighbourhood (the ventral bud) but produce very different clinical pictures.",
+        "why_correct": "Pancreas divisum results from failure of the ventral and dorsal pancreatic DUCT SYSTEMS to fuse \u2014 a drainage problem, with drainage defaulting to the smaller accessory duct/minor papilla. Annular pancreas results from abnormal MIGRATION/ROTATION of the ventral pancreatic bud, which fails to rotate normally around the duodenum and instead forms a ring of pancreatic tissue completely encircling (and potentially obstructing) the second part of the duodenum \u2014 a structural, mechanical problem rather than a drainage one.",
+        "why_others_wrong": {
+          "Both anomalies result from an identical failure of duct fusion, differing only in severity": "The two anomalies have genuinely different underlying mechanisms (duct fusion failure vs abnormal bud migration), not a shared mechanism at different severities.",
+          "Annular pancreas is a duct drainage problem, while pancreas divisum causes duodenal obstruction": "Swaps the mechanism-to-consequence pairing between the two anomalies.",
+          "Neither anomaly involves the ventral pancreatic bud in any way": "Both anomalies centre on abnormal ventral bud behaviour."
+        },
+        "high_yield_facts": [
+          "Pancreas divisum = duct FUSION failure = drainage problem (recurrent pancreatitis risk).",
+          "Annular pancreas = abnormal ventral bud MIGRATION = structural problem (duodenal obstruction risk, can present with bilious vomiting in a neonate, sometimes associated with Down syndrome).",
+          "Both trace back to abnormal VENTRAL bud behaviour, but the specific TYPE of abnormality (fusion vs migration) determines the clinical picture."
+        ],
+        "clinical_correlation": "Annular pancreas can present in infancy with signs of duodenal obstruction (bilious vomiting, a 'double bubble' sign on abdominal X-ray similar to duodenal atresia) \u2014 a genuinely different, more acute presentation than pancreas divisum's typically incidental or recurrent-pancreatitis-related discovery.",
+        "common_confusions": [
+          "Lumping all congenital pancreatic ventral-bud anomalies into one category \u2014 the SPECIFIC type of developmental error (fusion vs migration) is what determines whether the clinical consequence is a drainage problem or an obstruction problem."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pancreas divisum mechanism (this same concept)",
+          "Duodenal atresia (a differential for neonatal duodenal obstruction)",
+          "Down syndrome association with annular pancreas"
+        ],
+        "exam_traps": [
+          "Don't assume every 'ventral bud' anomaly produces the same clinical picture \u2014 check whether the question describes a DRAINAGE problem (divisum) or an OBSTRUCTION problem (annular) to correctly identify which anomaly is being tested."
+        ],
+        "image_clues": null,
+        "memory_aid": "Divisum = ducts don't join (flow problem). Annular = ring around the gut (traffic-jam problem).",
+        "other_ways_this_is_tested": [
+          "This comparison extends the pancreas divisum mechanism question in this same concept group into a broader congenital-anomaly context."
+        ],
+        "neet_pg_takeaway": "Pancreas divisum (duct fusion failure, drainage problem) and annular pancreas (abnormal ventral bud migration, duodenal obstruction) both involve the ventral bud but via genuinely different mechanisms producing genuinely different clinical pictures.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Langman's Medical Embryology, gastrointestinal system chapter; Nelson Textbook of Pediatrics, congenital GI anomalies section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish pancreas divisum from annular pancreas by their different ventral-bud developmental mechanisms.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_parts_0012",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Parts & attachments",
+      "subtopic": "SMA/SMV relations",
+      "concept": "Pancreas Parts \u2014 SMA/SMV/Uncinate Process Relationship",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient with chronic pancreatitis affecting the body and tail develops isolated gastric variceal bleeding, with a normal liver, normal portal vein, and normal oesophagus on endoscopy. Which vessel, related anatomically to the pancreatic body's posterior border, is most likely thrombosed, explaining this presentation?",
+      "options": [
+        "Splenic vein",
+        "Superior mesenteric artery",
+        "Inferior vena cava",
+        "Portal vein"
+      ],
+      "correct_answer": "Splenic vein",
+      "distractor_rationale": {
+        "Superior mesenteric artery": "SMA involvement relates to the uncinate process/neck region (a different pancreatic segment) and would cause bowel ischaemia symptoms, not isolated gastric varices.",
+        "Inferior vena cava": "Not specifically related to the pancreatic body's posterior border, and IVC thrombosis produces a very different clinical picture (bilateral leg swelling, not isolated gastric varices).",
+        "Portal vein": "The vignette specifies a NORMAL portal vein and normal liver \u2014 ruling out the more common cause of gastric varices (portal hypertension from cirrhosis), and pointing instead to a more localised, upstream venous problem."
+      },
+      "explanation": {
+        "core_concept": "This vignette tests 'sinistral' (left-sided) portal hypertension \u2014 a specific, less common cause of isolated gastric varices distinct from the far more common cirrhotic portal hypertension, directly explained by the splenic vein's close anatomical relationship to the pancreatic body established in this chapter's core concept.",
+        "why_correct": "The splenic vein runs along the posterosuperior border of the pancreatic body. Chronic pancreatitis affecting the body/tail can cause splenic vein thrombosis due to this close anatomical proximity (inflammation/fibrosis affecting the adjacent vein). Splenic vein thrombosis causes 'sinistral' (left-sided) portal hypertension \u2014 blood from the spleen and short gastric veins is forced through gastric submucosal collaterals to reach the portal system, causing ISOLATED gastric varices (via the short gastric vessels) WITHOUT oesophageal varices and WITHOUT generalised portal hypertension, since the main portal vein and liver remain entirely normal.",
+        "why_others_wrong": {
+          "Superior mesenteric artery": "Relates to the uncinate process/neck, not the pancreatic body's posterior border, and its involvement causes bowel ischaemia, not isolated gastric varices.",
+          "Inferior vena cava": "Not specifically related to the pancreatic body, and its thrombosis produces a different picture (systemic venous congestion, not isolated gastric varices).",
+          "Portal vein": "Explicitly stated as normal in the vignette \u2014 ruling out the common (cirrhotic) mechanism and pointing to the more localised splenic vein problem instead."
+        },
+        "high_yield_facts": [
+          "Splenic vein runs along the pancreatic BODY's posterior/posterosuperior border \u2014 the anatomical basis for splenic vein thrombosis as a chronic pancreatitis complication.",
+          "Splenic vein thrombosis \u2192 'sinistral' (left-sided) portal hypertension \u2192 ISOLATED gastric varices (via short gastric collaterals), with NORMAL oesophagus, NORMAL portal vein, NORMAL liver.",
+          "This is a genuinely important differential to recognise: isolated gastric varices with a normal liver should prompt consideration of splenic vein thrombosis, not typical cirrhotic portal hypertension."
+        ],
+        "clinical_correlation": "Splenectomy is curative for sinistral portal hypertension from splenic vein thrombosis (removing the source of the abnormal collateral flow), a genuinely different management approach from cirrhotic portal hypertension, which requires addressing the underlying liver disease and often TIPS or non-selective beta-blockade rather than splenectomy.",
+        "common_confusions": [
+          "Assuming all gastric/oesophageal varices reflect cirrhotic portal hypertension \u2014 isolated gastric varices with normal liver function and portal vein specifically should raise suspicion for splenic vein thrombosis instead."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Splenic ligaments and splenic vein course (see Splenic Ligaments chapter)",
+          "Chronic pancreatitis complications",
+          "Portal hypertension mechanisms generally"
+        ],
+        "exam_traps": [
+          "The explicit mention of a NORMAL portal vein and NORMAL liver is the key detail redirecting you away from typical cirrhotic portal hypertension toward this more localised, pancreas-related mechanism."
+        ],
+        "image_clues": null,
+        "memory_aid": "Splenic vein runs right along the pancreatic body \u2014 chronic pancreatitis there can quietly clot off this specific vein, backing blood up through the stomach alone.",
+        "other_ways_this_is_tested": [
+          "This vignette extends the pancreatic body's posterior relations (splenic vessels) established in this chapter's core concept into a genuine, exam-relevant clinical complication."
+        ],
+        "neet_pg_takeaway": "Chronic pancreatitis affecting the body/tail can cause splenic vein thrombosis (given their close anatomical relationship), producing sinistral portal hypertension with isolated gastric varices despite a normal liver and portal vein \u2014 a key differential from cirrhotic portal hypertension.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Sabiston Textbook of Surgery, pancreatic disease and portal hypertension sections; Harrison's Principles of Internal Medicine."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recognise splenic vein thrombosis as a chronic pancreatitis complication causing isolated gastric varices via sinistral portal hypertension.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

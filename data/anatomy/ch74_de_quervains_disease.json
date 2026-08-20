@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0074",
+    "topic": "De Quervain's Disease",
+    "chapter_number": 74,
+    "chapter_file": "data/anatomy/ch74_de_quervains_disease.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 3,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "The Anatomical Snuffbox chapter (ch58) already identifies APL and EPB as forming the snuffbox's lateral border. Verified ch58's exact coverage before building \u2014 this chapter deliberately builds on (not duplicates) that tendon identification, adding genuinely new content: the first dorsal compartment concept, De Quervain's tenosynovitis pathology, the Finkelstein test, risk factors, and management, none of which ch58 covers.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed against this file and cross-checked against ch58 \u2014 no duplicate concepts found; genuinely complementary with explicit cross-references."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "De Quervain's tenosynovitis is inflammation of the FIRST DORSAL EXTENSOR COMPARTMENT tendons \u2014 specifically abductor pollicis longus (APL) and extensor pollicis brevis (EPB), the SAME two tendons already established as forming the anatomical snuffbox's lateral border \u2014 genuinely important to recognise as inflammation of these specific, previously-identified structures rather than a separate, unrelated condition, and diagnosed clinically using the FINKELSTEIN TEST, a specific provocative manoeuvre directly reproducing pain by stretching these inflamed tendons."
+    },
+    "structure_anatomy": {
+      "first_dorsal_compartment": "The wrist's extensor tendons are organised into SIX separate compartments as they cross the dorsal wrist, each with its own synovial sheath; the FIRST compartment specifically contains APL and EPB (the same two tendons forming the anatomical snuffbox's lateral border, established in the Anatomical Snuffbox chapter) \u2014 these two tendons share this single, narrow fibro-osseous compartment/sheath, and inflammation within this specific, confined space is what constitutes De Quervain's tenosynovitis."
+    },
+    "clinical": {
+      "finkelstein_test": "The Finkelstein test is the classic, specific clinical examination manoeuvre for De Quervain's disease: the patient makes a fist with the thumb tucked INSIDE the fingers, and the examiner passively deviates the wrist toward the ULNAR side \u2014 this specific combined movement stretches the APL/EPB tendons within their already-inflamed first compartment sheath, reproducing sharp pain over the radial wrist/snuffbox region in a POSITIVE test, a genuinely reliable, specific bedside diagnostic tool for this condition.",
+      "risk_factors": "De Quervain's tenosynovitis is classically associated with REPETITIVE THUMB AND WRIST MOVEMENTS \u2014 including repetitive gripping/lifting motions (classically new mothers repeatedly lifting an infant, sometimes termed 'mother's wrist' or 'baby wrist'), certain occupational repetitive strain activities, and, in modern contexts, excessive texting/smartphone use (sometimes termed 'texting thumb' or, more broadly, gaming-related repetitive strain) \u2014 all sharing the common mechanism of repeated, sustained stress on this specific, narrow tendon compartment.",
+      "management_approach": "First-line management is typically conservative: thumb spica splinting (immobilising the wrist and thumb to rest the inflamed tendons), activity modification (avoiding the specific repetitive movements causing the condition), and NSAIDs for symptomatic relief; corticosteroid injection into the first dorsal compartment is a genuinely effective escalation for persistent cases, with surgical release of the compartment (opening the fibro-osseous sheath to relieve the tendons) reserved for refractory cases not responding to these more conservative measures."
+    },
+    "related_structures": "De Quervain's disease is directly, specifically about the SAME two tendons (APL, EPB) already established as forming the anatomical snuffbox's lateral border in the Anatomical Snuffbox chapter \u2014 this chapter adds genuinely new content (the first dorsal compartment concept, the Finkelstein test, risk factors, and management), while deliberately building on (not duplicating) that earlier chapter's tendon identification."
+  },
+  "question_family": [
+    {
+      "family_name": "De Quervain's Disease \u2014 First Dorsal Compartment, Finkelstein Test, and Management (4 angles, one concept)",
+      "member_ids": [
+        "anat_de_quervains_disease_0001",
+        "anat_de_quervains_disease_0002",
+        "anat_de_quervains_disease_0003",
+        "anat_de_quervains_disease_0004"
+      ],
+      "coverage": "Recall (APL/EPB first compartment tendons), mechanism (Finkelstein test), clinical vignette ('mother's wrist' risk factor), and diagnostic reasoning (stepwise management escalation) \u2014 four genuinely different angles, deliberately building on (not duplicating) the Anatomical Snuffbox chapter's APL/EPB tendon identification."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_de_quervains_disease_0001",
+      "subject": "Anatomy",
+      "topic": "De Quervain's Disease",
+      "subtopic": "First dorsal compartment tendons",
+      "concept": "De Quervain's tenosynovitis: first dorsal compartment (APL/EPB) inflammation, the Finkelstein test, and repetitive strain risk factors",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "De Quervain's tenosynovitis specifically involves inflammation of which two tendons, sharing the wrist's first dorsal extensor compartment?",
+      "options": [
+        "Abductor pollicis longus (APL) and extensor pollicis brevis (EPB)",
+        "Extensor pollicis longus (EPL) and extensor carpi radialis longus",
+        "Flexor carpi radialis and palmaris longus",
+        "Extensor digitorum and extensor indicis"
+      ],
+      "correct_answer": "Abductor pollicis longus (APL) and extensor pollicis brevis (EPB)",
+      "distractor_rationale": {
+        "Extensor pollicis longus (EPL) and extensor carpi radialis longus": "EPL forms the SNUFFBOX'S MEDIAL border (a different tendon in a different compartment, the third dorsal compartment) \u2014 not the first compartment tendons involved in De Quervain's.",
+        "Flexor carpi radialis and palmaris longus": "Palmar (flexor), not dorsal (extensor), tendons \u2014 unrelated to De Quervain's disease, which specifically affects dorsal extensor compartment tendons.",
+        "Extensor digitorum and extensor indicis": "These occupy a different dorsal compartment (the fourth), not the first compartment specifically involved in De Quervain's disease."
+      },
+      "explanation": {
+        "core_concept": "Recognising APL and EPB as the SAME two tendons already established as forming the anatomical snuffbox's lateral border (in the Anatomical Snuffbox chapter) is exactly what connects this condition directly back to that earlier anatomy \u2014 De Quervain's disease is inflammation of structures you've already identified, not a separate set of tendons to learn from scratch.",
+        "why_correct": "De Quervain's tenosynovitis specifically involves inflammation of abductor pollicis longus (APL) and extensor pollicis brevis (EPB), which share the wrist's FIRST dorsal extensor compartment \u2014 the SAME two tendons that form the anatomical snuffbox's lateral (radial) border.",
+        "why_others_wrong": {
+          "Extensor pollicis longus (EPL) and extensor carpi radialis longus": "EPL forms the snuffbox's MEDIAL border (a different tendon, different compartment) \u2014 not involved in De Quervain's disease.",
+          "Flexor carpi radialis and palmaris longus": "Palmar flexor tendons, unrelated to this dorsal extensor compartment condition.",
+          "Extensor digitorum and extensor indicis": "A different dorsal compartment (fourth), not the first."
+        },
+        "high_yield_facts": [
+          "De Quervain's = APL + EPB, sharing the FIRST dorsal extensor compartment.",
+          "These are the SAME two tendons forming the anatomical snuffbox's LATERAL border (see the Anatomical Snuffbox chapter) \u2014 directly connecting this condition to previously established anatomy.",
+          "EPL (snuffbox's MEDIAL border) is a DIFFERENT tendon, in a DIFFERENT compartment (third), NOT involved in De Quervain's disease \u2014 a genuinely important distinction worth actively remembering."
+        ],
+        "clinical_correlation": "Correctly identifying these specific tendons directly explains the classic pain location (radial wrist/snuffbox region) in De Quervain's disease, and directly informs the Finkelstein test's mechanism, covered elsewhere in this chapter.",
+        "common_confusions": [
+          "Confusing APL/EPB (first compartment, De Quervain's, snuffbox's lateral border) with EPL (third compartment, snuffbox's medial border) \u2014 these are genuinely different tendons in different compartments, despite all three being thumb-related extensor/abductor tendons crossing this general wrist region."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Anatomical snuffbox's lateral border (see Anatomical Snuffbox chapter) \u2014 the direct anatomical connection to this chapter's content",
+          "Finkelstein test (this concept, other question) \u2014 directly testing these specific tendons"
+        ],
+        "exam_traps": [
+          "Don't confuse APL/EPB (first compartment, De Quervain's) with EPL (third compartment) \u2014 actively recall which SPECIFIC tendons occupy the first compartment, distinct from the snuffbox's medial border tendon."
+        ],
+        "image_clues": null,
+        "memory_aid": "Same two tendons from the snuffbox's LATERAL wall (APL + EPB) \u2014 just now inflamed within their shared first compartment sheath.",
+        "other_ways_this_is_tested": [
+          "This tendon identification directly sets up the Finkelstein test mechanism and risk factor content covered throughout the rest of this chapter."
+        ],
+        "neet_pg_takeaway": "De Quervain's tenosynovitis involves inflammation of abductor pollicis longus (APL) and extensor pollicis brevis (EPB) within the wrist's first dorsal extensor compartment \u2014 the same two tendons forming the anatomical snuffbox's lateral border.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify APL and EPB as the first dorsal compartment tendons involved in De Quervain's tenosynovitis, connecting to the snuffbox's lateral border.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_de_quervains_disease_0002",
+      "subject": "Anatomy",
+      "topic": "De Quervain's Disease",
+      "subtopic": "Finkelstein test",
+      "concept": "De Quervain's tenosynovitis: first dorsal compartment (APL/EPB) inflammation, the Finkelstein test, and repetitive strain risk factors",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "The Finkelstein test involves the patient making a fist with the thumb tucked inside the fingers, while the examiner passively deviates the wrist ulnarly. Why does this specific combined movement reproduce pain in De Quervain's disease?",
+      "options": [
+        "This position and movement specifically STRETCHES the APL and EPB tendons within their already-inflamed first dorsal compartment sheath, directly reproducing pain over the radial wrist/snuffbox region",
+        "This movement specifically tests median nerve function, unrelated to any tendon or compartment pathology",
+        "This position relaxes the APL and EPB tendons completely, and pain reproduction would actually indicate a different, unrelated diagnosis",
+        "This test has no established mechanistic basis and is performed purely as a matter of clinical tradition without genuine diagnostic value"
+      ],
+      "correct_answer": "This position and movement specifically STRETCHES the APL and EPB tendons within their already-inflamed first dorsal compartment sheath, directly reproducing pain over the radial wrist/snuffbox region",
+      "distractor_rationale": {
+        "This movement specifically tests median nerve function, unrelated to any tendon or compartment pathology": "The Finkelstein test is specifically a TENDON/COMPARTMENT provocative test, not a nerve function test \u2014 unrelated to median nerve assessment.",
+        "This position relaxes the APL and EPB tendons completely, and pain reproduction would actually indicate a different, unrelated diagnosis": "Directly reverses the actual mechanism \u2014 the specific combined position (thumb tucked, ulnar deviation) STRETCHES (not relaxes) these tendons, which is exactly why it reproduces pain in genuine De Quervain's disease.",
+        "This test has no established mechanistic basis and is performed purely as a matter of clinical tradition without genuine diagnostic value": "Denies a genuine, well-established, mechanistically explicable, clinically validated diagnostic test."
+      },
+      "explanation": {
+        "core_concept": "The Finkelstein test's SPECIFIC mechanism \u2014 deliberately stretching the already-inflamed APL/EPB tendons within their confined first compartment sheath \u2014 is exactly what makes this a genuinely reliable, targeted provocative test, rather than a generic wrist movement assessment.",
+        "why_correct": "Tucking the thumb inside a clenched fist, then passively deviating the wrist toward the ulnar side, places the APL and EPB tendons under maximal STRETCH within their already-inflamed, confined first dorsal compartment sheath \u2014 this specific combined position directly reproduces the characteristic sharp pain over the radial wrist/snuffbox region in patients with genuine De Quervain's tenosynovitis, making this a targeted, mechanistically explicable provocative test.",
+        "why_others_wrong": {
+          "This movement specifically tests median nerve function, unrelated to any tendon or compartment pathology": "Not a nerve function test at all \u2014 specifically a tendon/compartment provocative manoeuvre.",
+          "This position relaxes the APL and EPB tendons completely, and pain reproduction would actually indicate a different, unrelated diagnosis": "Reverses the actual mechanism \u2014 the position specifically STRETCHES, not relaxes, these tendons.",
+          "This test has no established mechanistic basis and is performed purely as a matter of clinical tradition without genuine diagnostic value": "Denies a genuine, well-established, mechanistically sound diagnostic test."
+        },
+        "high_yield_facts": [
+          "Finkelstein test: thumb tucked inside fist + passive ULNAR deviation \u2192 STRETCHES APL/EPB within their inflamed first compartment sheath \u2192 reproduces pain in genuine De Quervain's disease.",
+          "This is a targeted, mechanistically explicable provocative test \u2014 not a generic wrist movement assessment.",
+          "Positive test (pain reproduction) directly supports the diagnosis, complementing tenderness over the first dorsal compartment on direct palpation."
+        ],
+        "clinical_correlation": "The Finkelstein test is a standard, essential, easily performed bedside diagnostic tool for De Quervain's disease, directly guiding diagnosis without requiring imaging in most straightforward cases.",
+        "common_confusions": [
+          "Assuming any wrist pain-provoking manoeuvre must be testing nerve function or a joint-related process \u2014 the Finkelstein test specifically targets TENDON stretch within a SPECIFIC compartment, a genuinely distinct mechanism from nerve or joint testing."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "First dorsal compartment tendons (this concept, the foundational question) \u2014 the specific structures this test directly stretches"
+        ],
+        "exam_traps": [
+          "Don't confuse the Finkelstein test's mechanism (tendon stretch within an inflamed compartment) with a nerve conduction or joint stability test \u2014 it's specifically, mechanistically about reproducing tendon-sheath pain through stretch."
+        ],
+        "image_clues": null,
+        "memory_aid": "Tuck the thumb, bend toward the pinky side \u2014 that combination stretches APL and EPB right where they're already inflamed and irritated.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly applies the first dorsal compartment tendon identification established in the first question of this chapter to a genuine, essential clinical diagnostic test."
+        ],
+        "neet_pg_takeaway": "The Finkelstein test (thumb tucked in fist, passive ulnar deviation) reproduces pain in De Quervain's disease by specifically stretching the APL and EPB tendons within their already-inflamed first dorsal compartment sheath \u2014 a targeted, mechanistically sound provocative test.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/hand surgery references on De Quervain's tenosynovitis diagnosis."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the Finkelstein test's mechanism of reproducing pain by stretching the inflamed APL/EPB tendons.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_de_quervains_disease_0003",
+      "subject": "Anatomy",
+      "topic": "De Quervain's Disease",
+      "subtopic": "Clinical \u2014 risk factors",
+      "concept": "De Quervain's tenosynovitis: first dorsal compartment (APL/EPB) inflammation, the Finkelstein test, and repetitive strain risk factors",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A new mother presents six weeks postpartum with pain over the radial aspect of her wrist, worsened by repeatedly lifting and holding her infant. A positive Finkelstein test confirms De Quervain's tenosynovitis. What is the underlying mechanism connecting her specific activity to this diagnosis?",
+      "options": [
+        "Repetitive thumb and wrist movements (from repeatedly lifting/supporting the infant with the thumb positioned for grip) place sustained, repeated stress on the APL/EPB tendons within their confined first dorsal compartment, a classic, well-recognised risk factor sometimes termed 'mother's wrist'",
+        "This presentation has no established relationship between the described activity and De Quervain's disease, reflecting a coincidental, unrelated diagnosis",
+        "The postpartum period itself, independent of any specific repetitive activity, is what directly causes this condition through hormonal mechanisms alone",
+        "This activity pattern is specifically protective against De Quervain's disease, making the diagnosis inconsistent with the described history"
+      ],
+      "correct_answer": "Repetitive thumb and wrist movements (from repeatedly lifting/supporting the infant with the thumb positioned for grip) place sustained, repeated stress on the APL/EPB tendons within their confined first dorsal compartment, a classic, well-recognised risk factor sometimes termed 'mother's wrist'",
+      "distractor_rationale": {
+        "This presentation has no established relationship between the described activity and De Quervain's disease, reflecting a coincidental, unrelated diagnosis": "Denies a genuine, well-established, classically recognised risk factor and clinical association ('mother's wrist').",
+        "The postpartum period itself, independent of any specific repetitive activity, is what directly causes this condition through hormonal mechanisms alone": "Understates the SPECIFIC, well-established mechanical/repetitive-strain mechanism (repeated infant lifting/holding) \u2014 while hormonal factors are sometimes discussed as a possible contributing factor, the primary, well-established mechanism is specifically the repetitive mechanical strain from this activity.",
+        "This activity pattern is specifically protective against De Quervain's disease, making the diagnosis inconsistent with the described history": "Directly contradicts the well-established, classic risk factor association between this specific activity and De Quervain's disease."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical application of the repetitive strain risk factor established elsewhere in this chapter \u2014 'mother's wrist' is a specifically named, classic presentation directly connecting the mechanical demands of repeated infant lifting/holding to sustained stress on the first dorsal compartment tendons.",
+        "why_correct": "Repeatedly lifting and supporting an infant \u2014 a movement typically involving sustained thumb abduction/extension positioning for grip, combined with repetitive wrist movement \u2014 places sustained, repeated mechanical stress specifically on the APL and EPB tendons within their confined first dorsal compartment sheath, a classic, well-recognised risk factor for De Quervain's tenosynovitis in new mothers, sometimes specifically termed 'mother's wrist' or 'baby wrist' given this characteristic association.",
+        "why_others_wrong": {
+          "This presentation has no established relationship between the described activity and De Quervain's disease, reflecting a coincidental, unrelated diagnosis": "Denies a genuine, well-established, classically named risk factor association.",
+          "The postpartum period itself, independent of any specific repetitive activity, is what directly causes this condition through hormonal mechanisms alone": "Understates the specific, well-established mechanical/repetitive-strain mechanism, which is the primary recognised cause in this classic clinical scenario.",
+          "This activity pattern is specifically protective against De Quervain's disease, making the diagnosis inconsistent with the described history": "Directly contradicts the well-established risk factor relationship."
+        },
+        "high_yield_facts": [
+          "'Mother's wrist'/'baby wrist': De Quervain's tenosynovitis from repetitive infant lifting/holding \u2014 a classic, specifically named risk factor presentation.",
+          "General mechanism: repetitive thumb/wrist movements \u2192 sustained stress on APL/EPB within the confined first dorsal compartment \u2192 tenosynovitis.",
+          "Other classic risk factors include occupational repetitive strain and, in modern contexts, excessive texting/smartphone use \u2014 all sharing this same underlying repetitive-strain mechanism."
+        ],
+        "clinical_correlation": "Recognising this classic risk factor association directly guides appropriate patient counselling (activity modification advice) alongside standard treatment (splinting, NSAIDs, and escalating to injection or surgery if needed), genuinely relevant to this common postpartum presentation.",
+        "common_confusions": [
+          "Assuming postpartum wrist pain must reflect a purely hormonal or unrelated process \u2014 the SPECIFIC, well-established mechanical risk factor (repetitive infant lifting/holding) is the primary recognised mechanism in this classic 'mother's wrist' presentation."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "First dorsal compartment tendons and Finkelstein test (this concept, other questions) \u2014 directly relevant to confirming this diagnosis in this clinical context"
+        ],
+        "exam_traps": [
+          "When a new mother presents with radial wrist pain and a positive Finkelstein test, directly connect this to the classic 'mother's wrist' repetitive strain risk factor association, rather than searching for an unrelated or purely hormonal explanation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lifting baby again and again, thumb braced for grip each time \u2014 that's exactly the repeated strain pattern behind 'mother's wrist.'",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the risk factor content established elsewhere in this chapter to a genuine, classic, frequently tested clinical presentation."
+        ],
+        "neet_pg_takeaway": "Repetitive infant lifting/holding is a classic, well-recognised risk factor for De Quervain's tenosynovitis in new mothers ('mother's wrist'), directly reflecting sustained mechanical stress on the APL/EPB tendons within their confined first dorsal compartment.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/hand surgery references on De Quervain's tenosynovitis risk factors."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recognise repetitive infant lifting as a classic risk factor for De Quervain's tenosynovitis ('mother's wrist').",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_de_quervains_disease_0004",
+      "subject": "Anatomy",
+      "topic": "De Quervain's Disease",
+      "subtopic": "Management approach",
+      "concept": "De Quervain's tenosynovitis: first dorsal compartment (APL/EPB) inflammation, the Finkelstein test, and repetitive strain risk factors",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "A patient with confirmed De Quervain's tenosynovitis has already tried thumb spica splinting, activity modification, and NSAIDs for six weeks without adequate symptom improvement. What is the appropriate next step in management, before considering surgical release?",
+      "options": [
+        "Corticosteroid injection into the first dorsal compartment",
+        "Immediate surgical release of the first dorsal compartment, bypassing any intermediate treatment options",
+        "Discontinuing all treatment entirely, since De Quervain's disease is expected to resolve completely without any further intervention regardless of persistent symptoms",
+        "Physical therapy directed at the median nerve specifically, unrelated to the actual tendon pathology"
+      ],
+      "correct_answer": "Corticosteroid injection into the first dorsal compartment",
+      "distractor_rationale": {
+        "Immediate surgical release of the first dorsal compartment, bypassing any intermediate treatment options": "Surgical release is reserved for REFRACTORY cases not responding to LESS invasive escalation steps first (like corticosteroid injection) \u2014 jumping straight to surgery skips this appropriate intermediate step.",
+        "Discontinuing all treatment entirely, since De Quervain's disease is expected to resolve completely without any further intervention regardless of persistent symptoms": "Denies the genuine need for continued, escalating management in a patient with persistent symptoms despite initial conservative treatment.",
+        "Physical therapy directed at the median nerve specifically, unrelated to the actual tendon pathology": "De Quervain's disease is specifically a TENDON/COMPARTMENT condition, not a median nerve pathology \u2014 this option misdirects treatment toward an unrelated structure."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question applies the STEPWISE management escalation established elsewhere in this chapter \u2014 recognising that corticosteroid injection is the appropriate NEXT step after failed initial conservative measures, BEFORE considering surgery, directly reflects standard, evidence-based clinical practice for this specific condition.",
+        "why_correct": "After initial conservative management (thumb spica splinting, activity modification, NSAIDs) fails to provide adequate symptom relief, corticosteroid injection into the first dorsal compartment is the appropriate NEXT step \u2014 a genuinely effective escalation for persistent De Quervain's tenosynovitis, reserving surgical release of the compartment specifically for refractory cases that don't respond even to this injection-based escalation.",
+        "why_others_wrong": {
+          "Immediate surgical release of the first dorsal compartment, bypassing any intermediate treatment options": "Skips the appropriate intermediate step (corticosteroid injection), which should be tried before considering surgery in most cases.",
+          "Discontinuing all treatment entirely, since De Quervain's disease is expected to resolve completely without any further intervention regardless of persistent symptoms": "Denies the genuine need for continued, appropriately escalating management given persistent symptoms.",
+          "Physical therapy directed at the median nerve specifically, unrelated to the actual tendon pathology": "Misdirects treatment toward an unrelated structure \u2014 this is a tendon/compartment condition, not a median nerve pathology."
+        },
+        "high_yield_facts": [
+          "Management escalation: (1) conservative \u2014 splinting, activity modification, NSAIDs; (2) corticosteroid injection into the first dorsal compartment if conservative measures fail; (3) surgical release \u2014 reserved for refractory cases not responding to injection.",
+          "This stepwise approach reflects standard, evidence-based clinical practice for De Quervain's disease specifically.",
+          "This directly builds on and completes the full clinical picture established throughout this chapter (tendon identification, Finkelstein test diagnosis, risk factors, and now management)."
+        ],
+        "clinical_correlation": "Following this appropriate, stepwise escalation avoids both under-treatment (persisting with ineffective conservative measures indefinitely) and over-treatment (proceeding to surgery prematurely, before trying a genuinely effective, less invasive intermediate option).",
+        "common_confusions": [
+          "Assuming failed conservative management should proceed directly to surgery, skipping corticosteroid injection \u2014 this intermediate step is specifically appropriate and often effective, genuinely worth trying before considering the more invasive surgical option."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Risk factors and typical presentation (this concept, other question) \u2014 the complete clinical picture this management approach addresses"
+        ],
+        "exam_traps": [
+          "When conservative management fails in De Quervain's disease, actively recall corticosteroid injection as the appropriate NEXT step, rather than jumping directly to surgical release."
+        ],
+        "image_clues": null,
+        "memory_aid": "Splint and rest first; if that's not enough, a targeted steroid shot into the compartment is the next rung on the ladder \u2014 surgery waits until even that doesn't work.",
+        "other_ways_this_is_tested": [
+          "This management sequence completes the full clinical picture of De Quervain's disease established throughout this chapter, from tendon identification through diagnosis to appropriate, stepwise treatment."
+        ],
+        "neet_pg_takeaway": "Corticosteroid injection into the first dorsal compartment is the appropriate next step for De Quervain's tenosynovitis after failed conservative management (splinting, activity modification, NSAIDs), with surgical release reserved for cases refractory even to this intermediate escalation.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/hand surgery references on De Quervain's tenosynovitis management."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Apply the stepwise management escalation for De Quervain's disease, recognising corticosteroid injection as the appropriate step after failed conservative treatment.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

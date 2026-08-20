@@ -1,0 +1,327 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0027",
+    "topic": "Aortic Arches",
+    "chapter_number": 27,
+    "chapter_file": "data/anatomy/ch27_aortic_arches.json",
+    "source_years": [
+      2023
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "mechanism",
+      "association"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This topic heavily overlaps with Pharyngeal Arch Arteries (ch01), which already comprehensively covers arch derivatives, coarctation, dysphagia lusoria, and RLN course. Verified ch01's exact concept list before building \u2014 deliberately scoped this chapter to genuinely new ground only: interrupted aortic arch (a distinct anomaly from coarctation) and its specific 22q11.2 deletion association, none of which ch01 touches. Deliberately kept to 4 MCQs given the genuine overlap, rather than padding to duplicate ch01's content.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed against this file and cross-checked against ch01 \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "This chapter covers genuinely new ground beyond the Pharyngeal Arch Arteries chapter (ch01), which already covers 3rd/4th/6th arch derivatives, dysphagia lusoria, coarctation, and RLN course in depth. Here: interrupted aortic arch and its striking association with 22q11.2 deletion (DiGeorge) syndrome \u2014 a distinct anomaly (complete discontinuity, not narrowing) tied to 4th pharyngeal arch/aortic sac developmental field defects shared with thymic and parathyroid maldevelopment."
+    },
+    "structure_anatomy": {
+      "interrupted_arch_vs_coarctation": "Interrupted aortic arch (IAA) is COMPLETE loss of luminal continuity between a proximal (ascending) and distal (descending) aortic segment \u2014 distinct from coarctation, which is NARROWING but not complete discontinuity. IAA is classified by the level of interruption (type A: distal to left subclavian; type B: between left common carotid and left subclavian \u2014 the type most associated with 22q11.2 deletion; type C: between the arch vessels proximally)."
+    },
+    "clinical": {
+      "digeorge_association": "IAA type B is strongly associated with 22q11.2 deletion syndrome (DiGeorge syndrome), which also causes thymic aplasia/hypoplasia (T-cell immunodeficiency) and parathyroid aplasia/hypoplasia (hypocalcaemia) \u2014 all three findings (arch anomaly, thymic, parathyroid) trace back to a shared developmental field involving the pharyngeal apparatus (3rd/4th pouches and the aortic sac/4th arch region) during the same critical window, explaining why they cluster together in one syndrome.",
+      "duct_dependent_circulation": "Neonates with IAA depend on a patent ductus arteriosus to perfuse the descending aorta/lower body (since the arch itself provides no continuity) \u2014 prostaglandin E1 infusion to keep the duct open is a life-saving temporising measure before surgical repair."
+    },
+    "related_structures": "See Pharyngeal Arch Arteries (ch01) for coarctation, dysphagia lusoria, and general arch derivative content \u2014 this chapter does not repeat that material."
+  },
+  "question_family": [
+    {
+      "family_name": "Aortic Arches \u2014 Interrupted Arch and DiGeorge Association (4 angles, one concept)",
+      "member_ids": [
+        "anat_aortic_arches_0001",
+        "anat_aortic_arches_0002",
+        "anat_aortic_arches_0003",
+        "anat_aortic_arches_0004"
+      ],
+      "coverage": "Recall (IAA vs coarctation), clinical vignette (DiGeorge features), mechanism (duct dependency), association (type B specificity) \u2014 four genuinely different angles, deliberately distinct from ch01's already-comprehensive arch artery/coarctation/dysphagia lusoria coverage."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_aortic_arches_0001",
+      "subject": "Anatomy",
+      "topic": "Aortic Arches",
+      "subtopic": "IAA vs coarctation",
+      "concept": "Interrupted aortic arch and its association with 22q11.2 deletion (DiGeorge) syndrome",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "How does interrupted aortic arch (IAA) differ structurally from coarctation of the aorta?",
+      "options": [
+        "IAA is COMPLETE discontinuity between proximal and distal aortic segments; coarctation is NARROWING without complete discontinuity",
+        "IAA and coarctation are the same anomaly, just described with different terminology",
+        "IAA is a narrowing; coarctation is a complete discontinuity \u2014 the reverse of the actual definitions",
+        "IAA occurs only in the descending aorta below the diaphragm; coarctation occurs only in the ascending aorta"
+      ],
+      "correct_answer": "IAA is COMPLETE discontinuity between proximal and distal aortic segments; coarctation is NARROWING without complete discontinuity",
+      "distractor_rationale": {
+        "IAA and coarctation are the same anomaly, just described with different terminology": "These are genuinely distinct anomalies with different severity, management urgency, and associations \u2014 not interchangeable terms.",
+        "IAA is a narrowing; coarctation is a complete discontinuity \u2014 the reverse of the actual definitions": "Reverses the correct definitions.",
+        "IAA occurs only in the descending aorta below the diaphragm; coarctation occurs only in the ascending aorta": "Both anomalies occur in the aortic arch/proximal descending aorta region, not the locations described here."
+      },
+      "explanation": {
+        "core_concept": "The completeness of the discontinuity is what separates these two anomalies clinically \u2014 IAA is duct-dependent for survival, while coarctation, though serious, usually permits some antegrade flow even before ductal closure.",
+        "why_correct": "IAA means the aortic lumen is completely discontinuous between a segment proximal (ascending) and distal (descending) to the interruption \u2014 no luminal continuity exists at all. Coarctation is a focal narrowing (stenosis) of the aorta, typically juxtaductal, without complete loss of continuity.",
+        "why_others_wrong": {
+          "IAA and coarctation are the same anomaly, just described with different terminology": "Distinct anomalies with different clinical severity and associations.",
+          "IAA is a narrowing; coarctation is a complete discontinuity \u2014 the reverse of the actual definitions": "Reverses the correct definitions entirely.",
+          "IAA occurs only in the descending aorta below the diaphragm; coarctation occurs only in the ascending aorta": "Both occur in the arch/proximal descending aorta region \u2014 this option misplaces both anomalies."
+        },
+        "high_yield_facts": [
+          "IAA = complete discontinuity. Coarctation = narrowing, continuity preserved.",
+          "IAA is classified by interruption level (types A, B, C) \u2014 type B is most associated with 22q11.2 deletion.",
+          "IAA is duct-dependent for systemic perfusion; coarctation, while also often duct-related, is less immediately catastrophic if the duct closes."
+        ],
+        "clinical_correlation": "This distinction directly determines management urgency \u2014 IAA neonates are critically duct-dependent and need immediate PGE1 infusion and urgent surgical repair.",
+        "common_confusions": [
+          "Treating IAA and coarctation as points on the same severity spectrum rather than distinct anomalies with different definitions."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "22q11.2 deletion association (this concept, other questions)",
+          "Coarctation of the aorta (see Pharyngeal Arch Arteries chapter)"
+        ],
+        "exam_traps": [
+          "Don't assume 'interrupted' is just severe coarctation \u2014 it's a categorically different, complete-discontinuity anomaly."
+        ],
+        "image_clues": null,
+        "memory_aid": "Interrupted = the road is GONE. Coarctation = the road is just NARROWED.",
+        "other_ways_this_is_tested": [
+          "This definitional distinction underlies the DiGeorge association and duct-dependency questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Interrupted aortic arch is complete aortic discontinuity; coarctation is narrowing with preserved continuity \u2014 genuinely different anomalies, not points on one spectrum.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Nelson Textbook of Pediatrics, congenital heart disease chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish interrupted aortic arch from coarctation by completeness of discontinuity.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_aortic_arches_0002",
+      "subject": "Anatomy",
+      "topic": "Aortic Arches",
+      "subtopic": "DiGeorge association",
+      "concept": "Interrupted aortic arch and its association with 22q11.2 deletion (DiGeorge) syndrome",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A neonate presents with signs of duct-dependent systemic circulation and is found on echocardiography to have interrupted aortic arch type B. Genetic testing reveals a 22q11.2 deletion. Given this deletion, which additional findings would you specifically look for?",
+      "options": [
+        "Hypocalcaemia (parathyroid hypoplasia) and recurrent infections from T-cell immunodeficiency (thymic hypoplasia/aplasia)",
+        "Hyperthyroidism and polycythaemia, unrelated to any other pharyngeal-derivative structure",
+        "Isolated hearing loss with no endocrine or immune involvement",
+        "Excess growth hormone secretion causing gigantism"
+      ],
+      "correct_answer": "Hypocalcaemia (parathyroid hypoplasia) and recurrent infections from T-cell immunodeficiency (thymic hypoplasia/aplasia)",
+      "distractor_rationale": {
+        "Hyperthyroidism and polycythaemia, unrelated to any other pharyngeal-derivative structure": "Not features of 22q11.2 deletion syndrome; this option also incorrectly denies the pharyngeal-derivative link.",
+        "Isolated hearing loss with no endocrine or immune involvement": "Understates the syndrome \u2014 DiGeorge's defining additional features are specifically endocrine (parathyroid) and immune (thymic), not hearing loss.",
+        "Excess growth hormone secretion causing gigantism": "Not a feature of this syndrome; unrelated endocrine axis."
+      },
+      "explanation": {
+        "core_concept": "IAA type B, thymic hypoplasia, and parathyroid hypoplasia cluster together because they all trace back to a shared developmental field (3rd/4th pharyngeal pouches and adjacent 4th arch/aortic sac structures) disrupted together by the same 22q11.2 deletion \u2014 recognising one finding should prompt active screening for the others.",
+        "why_correct": "22q11.2 deletion (DiGeorge) syndrome classically causes the triad of conotruncal/aortic arch anomalies (including IAA type B), thymic aplasia/hypoplasia (causing T-cell immunodeficiency and recurrent/opportunistic infections), and parathyroid aplasia/hypoplasia (causing hypocalcaemia, sometimes presenting as neonatal seizures) \u2014 all three sharing a common pharyngeal-apparatus developmental origin.",
+        "why_others_wrong": {
+          "Hyperthyroidism and polycythaemia, unrelated to any other pharyngeal-derivative structure": "Neither is a recognised DiGeorge feature, and the option incorrectly denies the real developmental-field link.",
+          "Isolated hearing loss with no endocrine or immune involvement": "Understates the syndrome's actual, well-established endocrine/immune features.",
+          "Excess growth hormone secretion causing gigantism": "Not a feature of 22q11.2 deletion syndrome."
+        },
+        "high_yield_facts": [
+          "22q11.2 deletion = CATCH-22 mnemonic: Cardiac anomaly (incl. IAA), Abnormal facies, Thymic aplasia, Cleft palate, Hypocalcaemia, 22q11 deletion.",
+          "IAA type B is the aortic arch anomaly most specifically linked to this deletion.",
+          "Screening for hypocalcaemia and immune status is essential once IAA type B (or other conotruncal anomalies) is found, given the real risk of this associated syndrome."
+        ],
+        "clinical_correlation": "Early recognition prompts calcium monitoring, immune workup, and avoidance of live vaccines until immune status is clarified \u2014 genuinely consequential, not just academic.",
+        "common_confusions": [
+          "Treating IAA as an isolated cardiac finding without considering the broader syndromic association."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "IAA vs coarctation (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When IAA type B appears in a vignette, actively screen your answer choices for parathyroid/thymic findings rather than unrelated endocrine distractors."
+        ],
+        "image_clues": null,
+        "memory_aid": "CATCH-22: Cardiac, Abnormal facies, Thymic aplasia, Cleft palate, Hypocalcaemia \u2014 22q11 deletion.",
+        "other_ways_this_is_tested": [
+          "This clinical association is the direct payoff of recognising IAA type B specifically, distinguished from types A and C."
+        ],
+        "neet_pg_takeaway": "IAA type B is strongly linked to 22q11.2 deletion syndrome, which also causes thymic hypoplasia (immunodeficiency) and parathyroid hypoplasia (hypocalcaemia) \u2014 a shared pharyngeal developmental field explaining the clustering.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Nelson Textbook of Pediatrics; standard genetics references on 22q11.2 deletion syndrome."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Associate IAA type B with 22q11.2 deletion syndrome's thymic and parathyroid findings.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_aortic_arches_0003",
+      "subject": "Anatomy",
+      "topic": "Aortic Arches",
+      "subtopic": "Duct dependency",
+      "concept": "Interrupted aortic arch and its association with 22q11.2 deletion (DiGeorge) syndrome",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Why are neonates with interrupted aortic arch critically dependent on a patent ductus arteriosus for survival?",
+      "options": [
+        "Since the aortic arch itself provides no continuity between proximal and distal segments, the only route for blood to reach the descending aorta (and lower body) is via the pulmonary trunk through the ductus arteriosus",
+        "The ductus arteriosus is needed only for oxygenation, unrelated to systemic perfusion in IAA",
+        "IAA neonates do not actually require the ductus arteriosus; this is a common misconception",
+        "The ductus arteriosus bypasses the heart entirely, replacing cardiac output altogether in IAA"
+      ],
+      "correct_answer": "Since the aortic arch itself provides no continuity between proximal and distal segments, the only route for blood to reach the descending aorta (and lower body) is via the pulmonary trunk through the ductus arteriosus",
+      "distractor_rationale": {
+        "The ductus arteriosus is needed only for oxygenation, unrelated to systemic perfusion in IAA": "Understates the duct's role \u2014 in IAA it is literally the only pathway providing systemic (lower body) blood flow, not just oxygenation.",
+        "IAA neonates do not actually require the ductus arteriosus; this is a common misconception": "Directly contradicts well-established, life-critical physiology.",
+        "The ductus arteriosus bypasses the heart entirely, replacing cardiac output altogether in IAA": "Overstates the duct's role \u2014 it redirects flow from the pulmonary trunk to the descending aorta, it doesn't replace cardiac output as a whole."
+      },
+      "explanation": {
+        "core_concept": "With the aortic arch itself discontinuous, the ductus arteriosus becomes the SOLE conduit connecting the (right-heart-derived) pulmonary circulation to the descending aorta \u2014 a dramatic, life-or-death illustration of the duct's normal fetal role repurposed as a survival bridge after birth.",
+        "why_correct": "Because IAA means no direct aortic continuity exists between the ascending and descending segments, blood reaching the descending aorta (and thus the lower body/kidneys/gut) must travel via the pulmonary trunk, through the patent ductus arteriosus, into the descending aorta \u2014 making duct patency absolutely essential until surgical repair.",
+        "why_others_wrong": {
+          "The ductus arteriosus is needed only for oxygenation, unrelated to systemic perfusion in IAA": "Understates the duct's critical systemic-perfusion role specifically in this anomaly.",
+          "IAA neonates do not actually require the ductus arteriosus; this is a common misconception": "Contradicts well-established, critical physiology \u2014 duct closure in IAA is rapidly fatal without intervention.",
+          "The ductus arteriosus bypasses the heart entirely, replacing cardiac output altogether in IAA": "Overstates the duct's role; it redirects a portion of pulmonary trunk flow, not total cardiac output."
+        },
+        "high_yield_facts": [
+          "IAA = duct-dependent systemic circulation \u2014 PGE1 keeps the duct open as a bridge to surgery.",
+          "Duct closure in unrepaired IAA is a genuine emergency, rapidly causing severe lower-body hypoperfusion/shock.",
+          "This mirrors (in reverse severity logic) the general principle that some congenital heart defects are 'duct-dependent' for pulmonary flow, others (like IAA) for systemic flow \u2014 know which category a given lesion falls into."
+        ],
+        "clinical_correlation": "PGE1 infusion is a genuinely life-saving temporising measure in suspected IAA, started before definitive diagnosis is even confirmed if clinical suspicion is high.",
+        "common_confusions": [
+          "Assuming all duct-dependent lesions are duct-dependent for the SAME reason (pulmonary vs systemic flow) \u2014 IAA is specifically systemic-flow-dependent."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PGE1 therapy",
+          "IAA vs coarctation (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Distinguish duct-dependent-for-PULMONARY-flow lesions (e.g. pulmonary atresia) from duct-dependent-for-SYSTEMIC-flow lesions (e.g. IAA, severe coarctation, hypoplastic left heart) \u2014 IAA is the latter category."
+        ],
+        "image_clues": null,
+        "memory_aid": "No arch continuity = the duct becomes the ONLY bridge to the lower body.",
+        "other_ways_this_is_tested": [
+          "This mechanism explains why PGE1 is emergently started in suspected IAA before surgical repair."
+        ],
+        "neet_pg_takeaway": "In IAA, the ductus arteriosus is the sole route for blood to reach the descending aorta, since the arch itself provides no continuity \u2014 making duct patency (maintained with PGE1) critical until surgical repair.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Nelson Textbook of Pediatrics, congenital heart disease chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why IAA neonates are duct-dependent for systemic (not pulmonary) circulation.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_aortic_arches_0004",
+      "subject": "Anatomy",
+      "topic": "Aortic Arches",
+      "subtopic": "IAA type and DiGeorge specificity",
+      "concept": "Interrupted aortic arch and its association with 22q11.2 deletion (DiGeorge) syndrome",
+      "question_type": "association",
+      "difficulty": 4,
+      "question": "Of the three IAA types (A, B, C, classified by interruption location relative to the arch vessels), which is most specifically associated with 22q11.2 deletion syndrome?",
+      "options": [
+        "Type B (interruption between the left common carotid and left subclavian arteries)",
+        "Type A (interruption distal to the left subclavian artery)",
+        "Type C (interruption between the innominate/brachiocephalic and left common carotid arteries)",
+        "All three types are equally and non-specifically associated with 22q11.2 deletion"
+      ],
+      "correct_answer": "Type B (interruption between the left common carotid and left subclavian arteries)",
+      "distractor_rationale": {
+        "Type A (interruption distal to the left subclavian artery)": "Type A is the least specifically associated with 22q11.2 deletion among the three types \u2014 it can occur more often as an isolated anomaly.",
+        "Type C (interruption between the innominate/brachiocephalic and left common carotid arteries)": "The rarest type, without the strong specific 22q11.2 association that type B carries.",
+        "All three types are equally and non-specifically associated with 22q11.2 deletion": "Understates a genuine, well-documented difference in association strength between the types \u2014 type B is specifically and disproportionately linked."
+      },
+      "explanation": {
+        "core_concept": "Recognising WHICH specific IAA type carries the strongest genetic association is a level of detail that distinguishes genuinely applied knowledge from a superficial 'IAA relates to DiGeorge' association \u2014 the location of interruption maps onto which part of the shared 4th-arch/aortic-sac developmental field was disrupted.",
+        "why_correct": "Type B interruption (between the left common carotid and left subclavian arteries) is the type most strongly and specifically associated with 22q11.2 deletion syndrome, reflecting the particular developmental field affected at that level.",
+        "why_others_wrong": {
+          "Type A (interruption distal to the left subclavian artery)": "Carries a weaker specific association; more often occurs without the syndromic deletion.",
+          "Type C (interruption between the innominate/brachiocephalic and left common carotid arteries)": "The rarest type, without type B's strong specific association.",
+          "All three types are equally and non-specifically associated with 22q11.2 deletion": "Denies a genuine, clinically useful difference in association strength across the three types."
+        },
+        "high_yield_facts": [
+          "IAA type B: interruption between left common carotid and left subclavian \u2014 the type MOST linked to 22q11.2 deletion.",
+          "Type A: distal to left subclavian \u2014 least specific association.",
+          "Type C: between innominate and left common carotid \u2014 rarest, also less specifically linked."
+        ],
+        "clinical_correlation": "Confirming IAA type B specifically should prompt heightened suspicion for 22q11.2 deletion and trigger genetic testing and screening for thymic/parathyroid involvement.",
+        "common_confusions": [
+          "Treating all IAA types as carrying an identical genetic risk profile, rather than recognising type B's specific, disproportionate association."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "DiGeorge/22q11.2 clinical features (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When a vignette specifies 'type B,' treat that as a deliberate clue pointing toward the DiGeorge association, not an arbitrary classification detail."
+        ],
+        "image_clues": null,
+        "memory_aid": "Type B, between carotid and subclavian \u2014 the 'B' for '(Di)George's Best-known' association.",
+        "other_ways_this_is_tested": [
+          "This type-specific association refines the general DiGeorge/IAA link established in the clinical vignette elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "IAA type B (interruption between the left common carotid and left subclavian arteries) carries the strongest specific association with 22q11.2 deletion syndrome among the three IAA types.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Nelson Textbook of Pediatrics; standard congenital cardiology references."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify IAA type B as the subtype most specifically associated with 22q11.2 deletion syndrome.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

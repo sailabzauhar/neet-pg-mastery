@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0006",
+    "topic": "Common Peroneal Nerve",
+    "chapter_number": 6,
+    "chapter_file": "data/anatomy/ch06_common_peroneal_nerve.json",
+    "source_years": [
+      2023,
+      2019
+    ],
+    "is_repeated_topic": true,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": true,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 1,
+      "L4": 0,
+      "L5": 1
+    },
+    "variation_types_used": [
+      "conceptual",
+      "clinical_vignette",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "scope_note": "4 MCQs, deliberately weighted toward higher difficulty \u2014 this nerve's exam value concentrates in one genuinely hard, high-yield discrimination (vs L5 radiculopathy) more than in broad territorial recall.",
+    "note": "Representative, high-quality MCQ family for this topic. Dedup pass completed against this file's own question set \u2014 no duplicates found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The common peroneal (common fibular) nerve is one of the two terminal branches of the sciatic nerve, arising in the popliteal fossa, and is the nerve most classically vulnerable to compression/injury at the neck of the fibula due to its superficial, closely applied course there.",
+      "classification": "Mixed nerve, root value L4-S2. Divides into deep and superficial peroneal (fibular) nerves after winding around the fibular neck."
+    },
+    "structure_anatomy": {
+      "course": "Arises from the sciatic nerve bifurcation in the upper popliteal fossa, runs along the medial border of the biceps femoris tendon, crosses the lateral head of gastrocnemius, and winds around the lateral aspect of the neck of the fibula \u2014 here it lies subcutaneously, directly against bone, with essentially no muscular protection, making it uniquely exposed to external compression.",
+      "terminal_branches": "Splits into the deep peroneal nerve (motor to the anterior compartment: tibialis anterior, extensor hallucis longus, extensor digitorum longus, peroneus tertius \u2014 the dorsiflexors and toe extensors; sensory to a small web space between the 1st and 2nd toes) and the superficial peroneal nerve (motor to the lateral compartment: peroneus longus and brevis \u2014 the evertors; sensory to most of the dorsum of the foot)."
+    },
+    "clinical": {
+      "compression_sites": "The fibular neck is the single most important compression site \u2014 vulnerable to fibular neck fracture, tight plaster casts, prolonged squatting or leg-crossing, and habitual leg-crossing during prolonged bed rest or surgery under anaesthesia (positioning injury).",
+      "foot_drop": "Common peroneal nerve palsy causes foot drop \u2014 loss of dorsiflexion (deep peroneal/anterior compartment) \u2014 producing a characteristic high-stepping (steppage) gait to clear the dragging toes, plus loss of eversion (superficial peroneal/lateral compartment) and sensory loss over the dorsum of the foot and lateral leg.",
+      "differentiating_from_l5_radiculopathy": "Common peroneal palsy weakens BOTH dorsiflexion AND foot eversion (since it supplies both the anterior and lateral compartments); an L5 radiculopathy classically weakens dorsiflexion and inversion (tibialis posterior, an L5-innervated but TIBIAL nerve-supplied muscle) while foot eversion (supplied by the peroneal nerve, also L5/S1 root value but a DIFFERENT peripheral nerve) may be relatively preserved \u2014 testing eversion strength is therefore a useful way to distinguish a peripheral common peroneal lesion from an L5 root lesion, since eversion is spared in the latter but lost in the former."
+    },
+    "related_structures": "The deep and superficial peroneal nerves' separate compartment supplies (anterior vs lateral) is why some injuries selectively affect only dorsiflexion OR only eversion, depending on exactly where along the nerve's course the lesion occurs \u2014 a distal lesion after the split can be more selective than a proximal one at the fibular neck, which affects both branches together."
+  },
+  "question_family": [
+    {
+      "family_name": "Common Peroneal Nerve \u2014 Course and Vulnerability",
+      "member_ids": [
+        "anat_common_peroneal_nerve_0001",
+        "anat_common_peroneal_nerve_0003"
+      ],
+      "coverage": "Why the fibular neck is a compression hotspot, and how the nerve's two terminal branches divide dorsiflexion and eversion between them."
+    },
+    {
+      "family_name": "Common Peroneal Nerve \u2014 Clinical Recognition and Differential",
+      "member_ids": [
+        "anat_common_peroneal_nerve_0002",
+        "anat_common_peroneal_nerve_0004"
+      ],
+      "coverage": "Recognising the classic foot drop presentation, then distinguishing it from its closest differential, L5 radiculopathy, at the highest difficulty level in this chapter."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_common_peroneal_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Common Peroneal Nerve",
+      "subtopic": "Vulnerable course",
+      "concept": "Anatomical basis of fibular neck vulnerability",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "The common peroneal nerve is particularly vulnerable to compression injury at the neck of the fibula. What anatomical feature at this location explains this vulnerability?",
+      "options": [
+        "The nerve lies subcutaneously, directly against bone, with no muscular covering at this point",
+        "The nerve is unusually thick and rigid at this location",
+        "The nerve passes through a narrow bony canal at the fibular neck",
+        "The nerve is tethered by a ligament that restricts its movement at the knee"
+      ],
+      "correct_answer": "The nerve lies subcutaneously, directly against bone, with no muscular covering at this point",
+      "distractor_rationale": {
+        "The nerve is unusually thick and rigid at this location": "Not the actual mechanism \u2014 nerve thickness/rigidity isn't the issue; it's the complete lack of soft tissue padding between the nerve and an external compressive force.",
+        "The nerve passes through a narrow bony canal at the fibular neck": "There is no bony canal here \u2014 the nerve winds around the OUTSIDE of the fibular neck subcutaneously, not through an enclosed tunnel.",
+        "The nerve is tethered by a ligament that restricts its movement at the knee": "Not the mechanism of vulnerability at this specific site \u2014 this describes a different kind of injury susceptibility (traction) than the compression injury classically described here."
+      },
+      "explanation": {
+        "core_concept": "Nerve vulnerability to compression injury is almost always explained by lack of protective soft tissue at a specific point along its course, and the common peroneal nerve at the fibular neck is the textbook example of this principle in the lower limb.",
+        "why_correct": "As the common peroneal nerve winds around the lateral aspect of the fibular neck, it lies directly subcutaneously against bone, with essentially no muscle bulk cushioning it from the surface \u2014 any external pressure at this point (a tight cast, leg-crossing, kneeling, direct blow, fibular neck fracture) can compress the nerve against the underlying bone.",
+        "why_others_wrong": {
+          "The nerve is unusually thick and rigid at this location": "Not a real anatomical feature relevant to this vulnerability \u2014 the issue is external exposure, not the nerve's own physical properties.",
+          "The nerve passes through a narrow bony canal at the fibular neck": "No such canal exists at this site \u2014 the nerve's course here is superficial and external to the bone, not enclosed within it.",
+          "The nerve is tethered by a ligament that restricts its movement at the knee": "Describes a traction-injury mechanism, not the compression mechanism that's actually classic at the fibular neck."
+        },
+        "high_yield_facts": [
+          "Fibular neck = subcutaneous, unprotected nerve course = classic compression site.",
+          "Compare to carpal tunnel (median nerve) or cubital tunnel (ulnar nerve) \u2014 those are enclosed-space compressions; fibular neck peroneal nerve injury is a completely different mechanism (external, unprotected exposure), worth not conflating.",
+          "This is the anatomical basis for 'Saturday night palsy'-style leg nerve injury, from prolonged external pressure (e.g. prolonged squatting, leg-crossing, tight cast)."
+        ],
+        "clinical_correlation": "This is exactly why patients are cautioned against prolonged leg-crossing or squatting, and why tight casts/splints around the knee/upper leg are placed with padding specifically over the fibular neck \u2014 direct clinical practice built on this anatomical fact.",
+        "common_confusions": [
+          "Assuming all nerve injury 'vulnerable points' work the same way (enclosed tunnel compression) \u2014 the fibular neck is specifically an EXTERNAL exposure vulnerability, a different mechanism from tunnel syndromes."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Foot drop clinical presentation",
+          "Fibular neck fracture as a cause",
+          "Comparison with tunnel-type nerve compressions (carpal, cubital)"
+        ],
+        "exam_traps": [
+          "Don't assume 'nerve compression = narrow tunnel' as a universal template \u2014 the fibular neck vulnerability is specifically about lack of soft tissue protection over a superficial course, not passage through an enclosed space."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This anatomical exposure is the direct basis for the clinical vignette on foot drop and the diagnostic-reasoning question on typical injury circumstances elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "The common peroneal nerve is vulnerable at the fibular neck because it runs subcutaneously, directly against bone, with no muscular protection \u2014 an external-exposure vulnerability, not a tunnel-compression one.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard lower limb anatomy \u2014 Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023,
+        2019
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the anatomical basis for the common peroneal nerve's vulnerability to compression at the fibular neck.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_common_peroneal_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Common Peroneal Nerve",
+      "subtopic": "Clinical presentation",
+      "concept": "Foot drop and steppage gait",
+      "question_type": "clinical_vignette",
+      "difficulty": 2,
+      "question": "A patient who spent several hours squatting while gardening now has difficulty lifting the front of their right foot and drags their toes while walking, compensating with an exaggerated high-stepping gait. Sensation is reduced over the dorsum of the foot. Which nerve injury best explains this presentation?",
+      "options": [
+        "Common peroneal nerve",
+        "Tibial nerve",
+        "Femoral nerve",
+        "Obturator nerve"
+      ],
+      "correct_answer": "Common peroneal nerve",
+      "distractor_rationale": {
+        "Tibial nerve": "Tibial nerve injury causes loss of PLANTARFLEXION and inversion (weak push-off, difficulty standing on toes) with sensory loss on the SOLE \u2014 the opposite pattern from this vignette's dorsiflexion weakness and dorsal sensory loss.",
+        "Femoral nerve": "Would cause quadriceps weakness (difficulty with knee extension, impaired stair-climbing) and anterior thigh/medial leg sensory loss \u2014 an entirely different pattern from isolated foot drop.",
+        "Obturator nerve": "Would cause weakness of thigh adduction, not any foot or ankle movement \u2014 unrelated to this presentation."
+      },
+      "explanation": {
+        "core_concept": "This vignette links the fibular neck's well-known compression vulnerability directly to its most recognisable clinical consequence \u2014 foot drop with compensatory steppage gait \u2014 via a classic precipitating circumstance (prolonged squatting compressing the nerve against the fibular neck).",
+        "why_correct": "Prolonged squatting is a well-recognised cause of common peroneal nerve compression at the fibular neck. The resulting palsy weakens dorsiflexion (deep peroneal nerve to anterior compartment) causing foot drop, and the patient compensates by lifting the knee unusually high to clear the dragging, plantarflexed foot \u2014 the classic steppage (high-stepping) gait. Sensory loss over the dorsum of the foot fits the combined deep and superficial peroneal nerve sensory territory.",
+        "why_others_wrong": {
+          "Tibial nerve": "Produces the opposite functional deficit (loss of plantarflexion/inversion, sole sensory loss) \u2014 doesn't match this vignette's dorsiflexion weakness and dorsal sensory loss at all.",
+          "Femoral nerve": "A proximal, thigh-level nerve whose injury affects knee extension and anterior thigh sensation \u2014 no connection to ankle dorsiflexion or foot drop.",
+          "Obturator nerve": "Supplies thigh adduction only \u2014 entirely unrelated to any of the findings described in this vignette."
+        },
+        "high_yield_facts": [
+          "Prolonged squatting/kneeling/leg-crossing \u2192 classic precipitant for common peroneal nerve palsy at the fibular neck.",
+          "Foot drop + steppage gait + dorsal foot sensory loss = common peroneal nerve palsy triad.",
+          "This is a genuinely common, real-world presentation (occupational squatting, prolonged immobilisation, anaesthesia positioning) \u2014 not just a textbook curiosity."
+        ],
+        "clinical_correlation": "Recognising the circumstances (prolonged external pressure at the knee/fibular neck) alongside the specific deficit pattern (dorsiflexion + eversion weakness, dorsal sensory loss) is what allows rapid bedside localisation without needing to wait for nerve conduction studies, though those confirm the diagnosis and localise the lesion precisely when needed.",
+        "common_confusions": [
+          "Confusing 'foot drop' generically with any lower limb nerve problem \u2014 the SPECIFIC combination of dorsiflexion weakness plus dorsal (not plantar) sensory loss is what localises specifically to the common peroneal nerve rather than the tibial nerve or a more proximal lesion."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Fibular neck fracture as another cause",
+          "L5 radiculopathy as a differential (see comparison question)",
+          "Deep vs superficial peroneal nerve individual territories"
+        ],
+        "exam_traps": [
+          "Watch for vignettes describing plantarflexion weakness or SOLE sensory loss dressed up as 'foot drop' \u2014 true dorsiflexion-weakness foot drop with DORSAL sensory loss is specifically a common peroneal (not tibial) nerve finding."
+        ],
+        "image_clues": null,
+        "memory_aid": "PED: Peroneal = Eversion + Dorsiflexion lost (and dorsum sensation) \u2014 versus tibial's opposite pattern.",
+        "other_ways_this_is_tested": [
+          "This presentation is the clinical mirror of the anatomical vulnerability question earlier in this set, and sets up the L5 radiculopathy comparison question elsewhere in this family."
+        ],
+        "neet_pg_takeaway": "Foot drop with steppage gait and dorsal foot sensory loss, especially after prolonged squatting/compression at the knee, = common peroneal nerve palsy.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Classic clinical correlation, consistent with Snell's Clinical Anatomy and standard neurology peripheral nerve injury references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2023,
+        2019
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose common peroneal nerve palsy from foot drop, steppage gait, and dorsal foot sensory loss following a classic compression precipitant.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_common_peroneal_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Common Peroneal Nerve",
+      "subtopic": "Terminal branches",
+      "concept": "Deep vs superficial peroneal nerve territories",
+      "question_type": "conceptual",
+      "difficulty": 3,
+      "question": "The common peroneal nerve divides into deep and superficial peroneal nerves. Which pairing of compartment and function is correct?",
+      "options": [
+        "Deep peroneal: anterior compartment, dorsiflexion; Superficial peroneal: lateral compartment, eversion",
+        "Deep peroneal: lateral compartment, eversion; Superficial peroneal: anterior compartment, dorsiflexion",
+        "Deep peroneal: posterior compartment, plantarflexion; Superficial peroneal: anterior compartment, dorsiflexion",
+        "Both nerves supply the same anterior compartment muscles redundantly"
+      ],
+      "correct_answer": "Deep peroneal: anterior compartment, dorsiflexion; Superficial peroneal: lateral compartment, eversion",
+      "distractor_rationale": {
+        "Deep peroneal: lateral compartment, eversion; Superficial peroneal: anterior compartment, dorsiflexion": "Reverses the correct pairing entirely.",
+        "Deep peroneal: posterior compartment, plantarflexion; Superficial peroneal: anterior compartment, dorsiflexion": "The posterior compartment (plantarflexors) is tibial nerve territory, not supplied by either peroneal branch at all.",
+        "Both nerves supply the same anterior compartment muscles redundantly": "Incorrect \u2014 the two nerves supply two DIFFERENT compartments (anterior vs lateral) with no meaningful redundancy between them."
+      },
+      "explanation": {
+        "core_concept": "The common peroneal nerve's two terminal branches split the job of moving the foot at the ankle into two clean, separate functions \u2014 dorsiflexion (deep) and eversion (superficial) \u2014 which is exactly why a lesion distal to the split can selectively affect one function while sparing the other, unlike a lesion at the fibular neck itself which knocks out both together.",
+        "why_correct": "The deep peroneal nerve supplies the anterior compartment (tibialis anterior, extensor hallucis longus, extensor digitorum longus, peroneus tertius) \u2014 the dorsiflexors and toe extensors \u2014 plus sensation to a small web space between the 1st and 2nd toes. The superficial peroneal nerve supplies the lateral compartment (peroneus longus and brevis) \u2014 the evertors \u2014 plus sensation over most of the dorsum of the foot.",
+        "why_others_wrong": {
+          "Deep peroneal: lateral compartment, eversion; Superficial peroneal: anterior compartment, dorsiflexion": "A direct swap of the correct assignments.",
+          "Deep peroneal: posterior compartment, plantarflexion; Superficial peroneal: anterior compartment, dorsiflexion": "Wrongly assigns the posterior compartment (a tibial nerve territory entirely) to the deep peroneal nerve, which never supplies plantarflexors.",
+          "Both nerves supply the same anterior compartment muscles redundantly": "Incorrectly collapses two genuinely distinct compartment/function pairings into one, denying the lateral compartment/eversion function altogether."
+        },
+        "high_yield_facts": [
+          "Deep peroneal = anterior compartment = dorsiflexion (+ small dorsal web-space sensation).",
+          "Superficial peroneal = lateral compartment = eversion (+ most of dorsal foot sensation).",
+          "A lesion AFTER the split (distal) can selectively affect just one branch's function; a lesion AT the fibular neck (before the split) knocks out both together \u2014 this timing/location distinction is itself testable."
+        ],
+        "clinical_correlation": "A patient with isolated foot-drop (dorsiflexion weakness) but PRESERVED eversion suggests a more distal, deep-peroneal-specific lesion (e.g. anterior compartment syndrome, or a more distal entrapment) rather than a fibular-neck-level common peroneal lesion, which would affect both.",
+        "common_confusions": [
+          "Assuming 'peroneal nerve' always means both dorsiflexion AND eversion are lost together \u2014 this is only true for lesions proximal to the deep/superficial split; distal lesions can selectively affect just one branch."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Anterior compartment syndrome (deep peroneal territory)",
+          "L5 radiculopathy differential (see comparison question)",
+          "Fibular neck lesion (affects both branches together)"
+        ],
+        "exam_traps": [
+          "Don't assume every 'peroneal nerve' question is asking about the undivided common peroneal nerve at the fibular neck \u2014 some vignettes specifically test knowledge of the deep/superficial split and its selective involvement patterns."
+        ],
+        "image_clues": null,
+        "memory_aid": "Deep = Dorsiflexion (both start with D); Superficial = everSion (both have that 's' sound) \u2014 a rough phonetic anchor.",
+        "other_ways_this_is_tested": [
+          "This branch-specific knowledge underlies the L5 radiculopathy comparison question elsewhere in this set, where eversion (superficial peroneal) is specifically used to distinguish a peripheral nerve lesion from a nerve root lesion."
+        ],
+        "neet_pg_takeaway": "Deep peroneal nerve \u2192 anterior compartment \u2192 dorsiflexion. Superficial peroneal nerve \u2192 lateral compartment \u2192 eversion. Know both branches' territories, not just the undivided common peroneal nerve.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard lower limb anatomy \u2014 Moore's Clinically Oriented Anatomy, leg compartments chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023,
+        2019
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Correctly assign compartment and function to the deep versus superficial peroneal nerve branches.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_common_peroneal_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Common Peroneal Nerve",
+      "subtopic": "Differential diagnosis",
+      "concept": "Common peroneal palsy vs L5 radiculopathy",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 5,
+      "question": "A patient presents with foot drop. On examination, dorsiflexion is weak. Which additional single finding would best distinguish a common peroneal nerve palsy from an L5 nerve root radiculopathy?",
+      "options": [
+        "Weak foot eversion suggests common peroneal nerve palsy; preserved eversion favours L5 radiculopathy",
+        "Absent ankle jerk reflex is specific to common peroneal nerve palsy and never occurs in L5 radiculopathy",
+        "Sensory loss on the sole of the foot indicates common peroneal nerve palsy",
+        "Weakness of hip abduction is the key distinguishing feature"
+      ],
+      "correct_answer": "Weak foot eversion suggests common peroneal nerve palsy; preserved eversion favours L5 radiculopathy",
+      "distractor_rationale": {
+        "Absent ankle jerk reflex is specific to common peroneal nerve palsy and never occurs in L5 radiculopathy": "The ankle jerk reflex primarily tests S1 (tibial nerve/gastrocnemius), not L5 \u2014 it's not a reliable discriminator for this specific comparison and isn't classically abolished by an isolated common peroneal lesion at all.",
+        "Sensory loss on the sole of the foot indicates common peroneal nerve palsy": "Sole sensation is tibial nerve territory in BOTH scenarios (peripheral nerve or L5 root via the tibial nerve pathway to the sole isn't quite right either) \u2014 this isn't the correct discriminating finding; common peroneal sensory loss is over the DORSUM, not the sole.",
+        "Weakness of hip abduction is the key distinguishing feature": "Hip abduction is supplied by the superior gluteal nerve (L4-S1, gluteus medius/minimus) \u2014 a proximal muscle unrelated to either the common peroneal nerve's distal territory or the specific L5 dermatomal/myotomal foot findings being compared here."
+      },
+      "explanation": {
+        "core_concept": "Both a common peroneal nerve lesion and an L5 radiculopathy can cause dorsiflexion weakness (foot drop) because dorsiflexors share the L5 root value regardless of which peripheral nerve ultimately carries those fibres \u2014 but eversion strength testing separates them, because eversion (peroneus longus/brevis) is peroneal-nerve-specific while foot INVERSION (tibialis posterior) is L5 but TIBIAL-nerve-specific, meaning the two conditions diverge specifically on which peripheral nerve pathway is intact.",
+        "why_correct": "A common peroneal nerve lesion affects BOTH the deep peroneal (dorsiflexion) and superficial peroneal (eversion) branches together (if the lesion is at or proximal to the fibular neck, before the split), so eversion is WEAK. An L5 radiculopathy affects the L5 myotome broadly, but since eversion is carried by the peroneal nerve (a different peripheral pathway from the L5-innervated tibialis posterior/inversion), and because L5 fibres reach the peroneal muscles via a route that can be relatively spared in some radiculopathies, testing eversion \u2014 weak in peroneal nerve palsy, but relatively preserved in many L5 radiculopathies where tibialis posterior (inversion) is more classically affected \u2014 helps distinguish a peripheral nerve lesion from a root lesion. In practice, look for weak INVERSION (tibialis posterior, L5, via the tibial nerve) as an L5-specific finding not explained by a peroneal nerve lesion, alongside preserved eversion strength pointing away from peroneal nerve involvement.",
+        "why_others_wrong": {
+          "Absent ankle jerk reflex is specific to common peroneal nerve palsy and never occurs in L5 radiculopathy": "The ankle jerk (S1, tibial nerve/gastrocnemius-soleus) isn't the relevant reflex for distinguishing an L5-level problem from a common peroneal nerve problem, and isn't classically lost in an isolated common peroneal lesion either.",
+          "Sensory loss on the sole of the foot indicates common peroneal nerve palsy": "Incorrect localisation \u2014 the common peroneal nerve's sensory territory is the DORSUM of the foot, not the sole (tibial nerve territory); sole sensory loss would actually argue AGAINST an isolated common peroneal lesion.",
+          "Weakness of hip abduction is the key distinguishing feature": "Tests an entirely different nerve (superior gluteal) and myotome level, unrelated to the foot-drop differential being drawn here."
+        },
+        "high_yield_facts": [
+          "Both common peroneal palsy and L5 radiculopathy can cause foot drop (dorsiflexion weakness) \u2014 they are NOT distinguished by dorsiflexion testing alone.",
+          "Testing foot INVERSION (tibialis posterior, L5 root but TIBIAL nerve) and EVERSION (peroneal nerve) together is the key: weak eversion + weak dorsiflexion = peroneal nerve lesion (affects both peroneal-supplied functions); weak inversion with foot drop, eversion less affected, points more toward an L5 root problem, since inversion is L5 but travels via a different peripheral nerve than the peroneal-supplied muscles.",
+          "Sensory distribution also helps: common peroneal sensory loss is confined to the dorsum/lateral leg peroneal territory, while an L5 radiculopathy's sensory loss follows the L5 dermatome, which has a different (though overlapping) distribution."
+        ],
+        "clinical_correlation": "This distinction genuinely changes management \u2014 a common peroneal nerve palsy is typically managed with nerve conduction studies, removing the compressive cause, and observation/bracing, while an L5 radiculopathy prompts spinal imaging and a search for a disc or other root-compressing lesion. Getting the localisation right early avoids unnecessary or misdirected investigations.",
+        "common_confusions": [
+          "Assuming any foot drop with an L5-associated muscle weakness must be either purely peripheral or purely radicular based on dorsiflexion testing alone \u2014 dorsiflexion weakness alone cannot distinguish the two; a broader muscle testing pattern (specifically inversion vs eversion) is required."
+        ],
+        "exceptions": [
+          "In practice, distinguishing these two conditions purely on exam can be difficult and often requires electrodiagnostic studies (EMG/nerve conduction studies) for definitive localisation \u2014 the clinical exam findings described here are a genuine but imperfect first step, not a substitute for confirmatory testing when the diagnosis is unclear."
+        ],
+        "related_concepts": [
+          "Tibialis posterior action (inversion, L5, tibial nerve)",
+          "L5 dermatome mapping",
+          "Electrodiagnostic studies for peripheral nerve vs root lesions"
+        ],
+        "exam_traps": [
+          "This is a deliberately high-difficulty discrimination \u2014 don't expect dorsiflexion testing alone to ever answer this kind of question; the exam is testing whether you know to bring in a SECOND muscle (inversion or eversion) supplied by a different peripheral nerve but the same or a different root value."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This comparison directly builds on the deep/superficial peroneal nerve branch-territory question and the foot drop clinical vignette earlier in this set, combining both into the highest-difficulty applied-reasoning question in this chapter."
+        ],
+        "neet_pg_takeaway": "Foot drop alone doesn't distinguish common peroneal nerve palsy from L5 radiculopathy \u2014 test eversion (peroneal-specific) and inversion (L5-specific, tibial nerve) together to localise the lesion.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard neurology/clinical neuroanatomy correlation for peripheral nerve vs radiculopathy localisation \u2014 consistent with Adams and Victor's Principles of Neurology and standard clinical neuroanatomy texts."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2023,
+        2019
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish common peroneal nerve palsy from L5 radiculopathy using eversion and inversion strength testing.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

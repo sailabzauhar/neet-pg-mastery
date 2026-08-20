@@ -1,0 +1,405 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0021",
+    "topic": "Hypoglossal Nerve",
+    "chapter_number": 21,
+    "chapter_file": "data/anatomy/ch21_hypoglossal_nerve.json",
+    "source_years": [
+      2025
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": true,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "comparison",
+      "clinical_vignette",
+      "exception"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "Built with a single, deeply-covered concept (5 question types) from the start, applying the lesson learned from the ch20 correction \u2014 genuinely shared 'concept' labels across all 5 questions, verified against validate_chapter.py before finalizing.",
+    "note": "Dedup pass completed \u2014 the 5 questions test genuinely different angles (fact, mechanism, comparison, application, exception), not rephrased duplicates. Source PDF flagged this topic as image-based but no image-based question was included here since the genuinely testable content (deviation mechanism, UMN/LMN distinction) is better suited to text/vignette formats than a static image; noting this as a deliberate scope choice rather than an oversight."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The hypoglossal nerve (CN XII) is the purely motor nerve to the intrinsic and (with one exception) extrinsic muscles of the tongue, arising from the hypoglossal nucleus in the medulla and exiting the skull through the hypoglossal canal.",
+      "classification": "This chapter covers one integrated concept in depth: hypoglossal nerve motor function and its clinical lesion localisation (tongue deviation), tested across the full range of genuinely applicable question types."
+    },
+    "structure_anatomy": {
+      "course": "Arises from the hypoglossal nucleus in the medulla, exits the skull via the hypoglossal canal (distinct from the jugular foramen, through which CN IX, X, and XI pass), descends in the neck, loops around the occipital artery, and passes deep to the posterior belly of digastric before entering the tongue's muscular floor.",
+      "muscles_supplied": "Supplies all intrinsic tongue muscles (which alter tongue shape) and three of the four extrinsic tongue muscles (genioglossus, hyoglossus, styloglossus \u2014 which alter tongue position). The ONE extrinsic tongue muscle it does NOT supply is palatoglossus, which is instead supplied by the vagus nerve (via the pharyngeal plexus) \u2014 since palatoglossus is developmentally and functionally more a palatal than a tongue muscle.",
+      "genioglossus_action": "Genioglossus is the key protruding muscle of the tongue, pulling the tongue forward and slightly depressing its centre. Its bilateral, symmetric action is what keeps the protruded tongue in the midline \u2014 the anatomical basis for the classic tongue-deviation lesion sign."
+    },
+    "clinical": {
+      "lmn_lesion_deviation": "In a unilateral LOWER motor neuron (LMN) hypoglossal nerve lesion, the tongue deviates TOWARD the side of the lesion on protrusion \u2014 because the weak/paralysed genioglossus on the affected side can no longer push its side of the tongue forward, so the intact contralateral genioglossus pushes the tongue tip across, toward the weak side.",
+      "lmn_vs_umn": "This is an LMN-specific sign. In an UPPER motor neuron lesion (e.g. from a stroke affecting the corticobulbar tract), the tongue also deviates, but classically AWAY from the side of the cortical lesion (i.e., toward the side of the body weakness) \u2014 because each hypoglossal nucleus receives predominantly CONTRALATERAL corticobulbar input, so a lesion above the nucleus produces contralateral tongue weakness, unlike the ipsilateral effect of a nuclear or peripheral (LMN) lesion.",
+      "associated_findings": "LMN hypoglossal lesions also cause tongue muscle wasting (atrophy) and fasciculations on the affected side over time \u2014 findings absent in UMN lesions, since the LMN cell bodies themselves (and their trophic influence on the muscle) remain intact in a purely UMN lesion."
+    },
+    "related_structures": "Hypoglossal canal (CN XII's exit point) is a separate skull base foramen from the jugular foramen (CN IX, X, XI) \u2014 a frequently tested distinction, since students sometimes group all the 'lower' cranial nerves together as exiting through one shared opening."
+  },
+  "question_family": [
+    {
+      "family_name": "Hypoglossal Nerve \u2014 Motor Function and Lesion Localisation (5 angles, one concept)",
+      "member_ids": [
+        "anat_hypoglossal_nerve_0001",
+        "anat_hypoglossal_nerve_0002",
+        "anat_hypoglossal_nerve_0003",
+        "anat_hypoglossal_nerve_0004",
+        "anat_hypoglossal_nerve_0005"
+      ],
+      "coverage": "Recall (palatoglossus exception), mechanism (deviation direction), comparison (UMN vs LMN), clinical vignette (full lesion localisation), and exception (skull base exit) \u2014 five genuinely different angles on the same integrated hypoglossal nerve concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_hypoglossal_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Hypoglossal Nerve",
+      "subtopic": "Muscle supply",
+      "concept": "Hypoglossal nerve motor function and tongue deviation lesion localisation",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The hypoglossal nerve supplies all extrinsic tongue muscles EXCEPT one. Which extrinsic tongue muscle does it NOT supply, and which nerve supplies it instead?",
+      "options": [
+        "Palatoglossus \u2014 supplied by the vagus nerve (via the pharyngeal plexus)",
+        "Genioglossus \u2014 supplied by the facial nerve",
+        "Hyoglossus \u2014 supplied by the glossopharyngeal nerve",
+        "Styloglossus \u2014 supplied by the trigeminal nerve"
+      ],
+      "correct_answer": "Palatoglossus \u2014 supplied by the vagus nerve (via the pharyngeal plexus)",
+      "distractor_rationale": {
+        "Genioglossus \u2014 supplied by the facial nerve": "Genioglossus is very much hypoglossal-nerve-supplied \u2014 it's the key protruding muscle and central to the tongue deviation sign.",
+        "Hyoglossus \u2014 supplied by the glossopharyngeal nerve": "Hyoglossus is hypoglossal-supplied, not the exception.",
+        "Styloglossus \u2014 supplied by the trigeminal nerve": "Styloglossus is also hypoglossal-supplied, not the exception."
+      },
+      "explanation": {
+        "core_concept": "Palatoglossus is the single, well-known exception to 'hypoglossal nerve supplies all tongue muscles' \u2014 its vagal supply reflects that it's developmentally and functionally more a palatal muscle (part of the palatoglossal arch) that happens to attach to the tongue, rather than a true tongue muscle in the same sense as the other three extrinsic muscles.",
+        "why_correct": "Palatoglossus is the sole extrinsic tongue muscle NOT supplied by the hypoglossal nerve \u2014 it's supplied instead by the vagus nerve via the pharyngeal plexus, consistent with its role forming the palatoglossal arch and its close functional association with palatal (not purely lingual) movement.",
+        "why_others_wrong": {
+          "Genioglossus \u2014 supplied by the facial nerve": "Genioglossus is hypoglossal-supplied and is in fact the single most important muscle for the tongue deviation sign \u2014 not the exception.",
+          "Hyoglossus \u2014 supplied by the glossopharyngeal nerve": "Hyoglossus is hypoglossal-supplied.",
+          "Styloglossus \u2014 supplied by the trigeminal nerve": "Styloglossus is also hypoglossal-supplied."
+        },
+        "high_yield_facts": [
+          "Palatoglossus = the ONE extrinsic tongue muscle NOT supplied by CN XII \u2014 it's vagus nerve (pharyngeal plexus) territory instead.",
+          "All INTRINSIC tongue muscles and the other three extrinsic muscles (genioglossus, hyoglossus, styloglossus) = hypoglossal nerve, without exception.",
+          "This single exception is exactly analogous in structure to other 'one nerve, one exception' facts elsewhere in cranial nerve anatomy (e.g. cricothyroid among laryngeal muscles) \u2014 a recurring exam pattern worth recognising as a category."
+        ],
+        "clinical_correlation": "Testing palatal elevation/gag reflex (CN IX/X) versus tongue protrusion (CN XII) separately is exactly how clinicians distinguish vagus-related from hypoglossal-related tongue/palate dysfunction \u2014 palatoglossus's exceptional nerve supply is the anatomical reason these two tests probe genuinely different nerves.",
+        "common_confusions": [
+          "Assuming every muscle with 'glossus' in its name must be hypoglossal-supplied \u2014 palatoglossus is the specific, well-known exception to that assumption."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pharyngeal plexus (vagus nerve territory)",
+          "Genioglossus and tongue protrusion (the next several questions in this set)"
+        ],
+        "exam_traps": [
+          "Don't default to hypoglossal nerve for every tongue-related muscle just because of the name pattern \u2014 actively recall palatoglossus as the specific exception."
+        ],
+        "image_clues": null,
+        "memory_aid": "PalatoGLOSSUS sounds like a tongue muscle, but it's really a PALATE muscle at heart \u2014 vagus, not hypoglossal.",
+        "other_ways_this_is_tested": [
+          "This exception sets up the rest of this chapter's genioglossus-centred tongue deviation questions, all of which rely on knowing which muscles ARE hypoglossal-supplied."
+        ],
+        "neet_pg_takeaway": "Palatoglossus is the sole extrinsic tongue muscle supplied by the vagus nerve (not CN XII) \u2014 every other tongue muscle (intrinsic and the other three extrinsic muscles) is hypoglossal-supplied.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy; Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify palatoglossus as the exception to hypoglossal nerve supply among extrinsic tongue muscles.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_hypoglossal_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Hypoglossal Nerve",
+      "subtopic": "Tongue deviation mechanism",
+      "concept": "Hypoglossal nerve motor function and tongue deviation lesion localisation",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "In a unilateral LOWER motor neuron hypoglossal nerve lesion, the protruded tongue deviates toward the side of the lesion. What is the muscular mechanism behind this?",
+      "options": [
+        "Genioglossus normally pulls the tongue forward symmetrically from both sides; with one side paralysed, the intact contralateral genioglossus pushes the tongue tip across, toward the weak side",
+        "Genioglossus normally retracts the tongue; with one side paralysed, the tongue is pulled backward and to the healthy side",
+        "The tongue deviates away from the lesion because the paralysed side's muscle bulk physically displaces the tongue tip toward the healthy side",
+        "Tongue deviation in hypoglossal palsy is a random, unpredictable finding with no consistent directional mechanism"
+      ],
+      "correct_answer": "Genioglossus normally pulls the tongue forward symmetrically from both sides; with one side paralysed, the intact contralateral genioglossus pushes the tongue tip across, toward the weak side",
+      "distractor_rationale": {
+        "Genioglossus normally retracts the tongue; with one side paralysed, the tongue is pulled backward and to the healthy side": "Genioglossus PROTRUDES the tongue, not retracts it \u2014 this option misstates the muscle's basic action, which is the foundation of the entire mechanism.",
+        "The tongue deviates away from the lesion because the paralysed side's muscle bulk physically displaces the tongue tip toward the healthy side": "A paralysed, weak muscle doesn't gain displacing bulk \u2014 if anything it eventually atrophies (loses bulk); the deviation is an ACTIVE consequence of the intact side's unopposed pull, not a passive bulk effect from the weak side.",
+        "Tongue deviation in hypoglossal palsy is a random, unpredictable finding with no consistent directional mechanism": "Denies a well-established, mechanistically explainable, and clinically reliable directional sign."
+      },
+      "explanation": {
+        "core_concept": "This mechanism follows the same 'unopposed pull from the intact side' logic used for jaw deviation in V3 lesions \u2014 understanding genioglossus's actual action (protrusion, bilaterally symmetric) is what makes the deviation direction predictable rather than something to memorise as an arbitrary fact.",
+        "why_correct": "Genioglossus, the main protruding muscle of the tongue, normally contracts on both sides together to push the tongue straight forward. When one side is paralysed (LMN hypoglossal lesion), only the healthy contralateral genioglossus contracts, pushing its side of the tongue forward while the paralysed side lags \u2014 the net effect is the tongue tip swinging/deviating toward the WEAK (lesioned) side.",
+        "why_others_wrong": {
+          "Genioglossus normally retracts the tongue; with one side paralysed, the tongue is pulled backward and to the healthy side": "Incorrectly states genioglossus's basic action \u2014 it protrudes, not retracts, the tongue, invalidating this entire proposed mechanism.",
+          "The tongue deviates away from the lesion because the paralysed side's muscle bulk physically displaces the tongue tip toward the healthy side": "A weak, paralysed muscle doesn't develop displacing bulk \u2014 the deviation results from the ACTIVE, unopposed contraction of the healthy side, not passive bulk from the weak side.",
+          "Tongue deviation in hypoglossal palsy is a random, unpredictable finding with no consistent directional mechanism": "This is actually one of the most reliable, predictable, and frequently tested directional signs in cranial nerve examination."
+        },
+        "high_yield_facts": [
+          "LMN hypoglossal lesion: tongue deviates TOWARD the side of the lesion on protrusion.",
+          "Mechanism: unopposed contralateral genioglossus pushes the tongue tip toward the weak side.",
+          "This is the SAME underlying logic (weak side loses the pulling contest) used for V3 motor lesion jaw deviation \u2014 recognising the shared pattern across different cranial nerves makes both easier to reconstruct under exam pressure."
+        ],
+        "clinical_correlation": "Tongue protrusion is a standard, simple bedside test for CN XII function \u2014 observing deviation direction is a fast way to lateralise a hypoglossal lesion without needing imaging.",
+        "common_confusions": [
+          "Confusing the direction (toward vs away from the lesion) \u2014 actively working through the muscle mechanism (which side pushes, which side doesn't) prevents this confusion better than memorising the direction as an isolated fact."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Jaw deviation in V3 lesions (same underlying logic, different cranial nerve)",
+          "UMN vs LMN hypoglossal lesion direction (contrast, covered in the next question)"
+        ],
+        "exam_traps": [
+          "Don't confuse this LMN deviation-toward-the-lesion pattern with the UMN pattern, which behaves differently \u2014 always check whether the vignette describes an LMN (nerve/nucleus level) or UMN (corticobulbar tract) lesion."
+        ],
+        "image_clues": null,
+        "memory_aid": "Push from the good side, land on the bad side \u2014 the tongue tip goes where the weak muscle can't stop it from going.",
+        "other_ways_this_is_tested": [
+          "This mechanism is the direct basis for the UMN-vs-LMN comparison and the clinical vignette questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "LMN hypoglossal lesion: the tongue deviates TOWARD the lesion side on protrusion, because the intact contralateral genioglossus's unopposed contraction pushes the tongue tip across.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the genioglossus-based mechanism of tongue deviation toward the side of an LMN hypoglossal lesion.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_hypoglossal_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Hypoglossal Nerve",
+      "subtopic": "UMN vs LMN lesion",
+      "concept": "Hypoglossal nerve motor function and tongue deviation lesion localisation",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "How does tongue deviation direction differ between an upper motor neuron (UMN, e.g. cortical stroke) lesion and a lower motor neuron (LMN, e.g. peripheral CN XII) lesion, and why?",
+      "options": [
+        "LMN lesion: tongue deviates TOWARD the lesion side (weak genioglossus unopposed by the healthy side). UMN lesion: tongue also deviates toward the side of tongue weakness, but this corresponds to the side CONTRALATERAL to the cortical lesion, since each hypoglossal nucleus receives predominantly crossed corticobulbar input",
+        "Both UMN and LMN lesions produce identical deviation patterns with no meaningful difference in localisation value",
+        "LMN lesions never cause tongue deviation, only UMN lesions do",
+        "UMN lesions cause deviation AWAY from the side of tongue weakness, while LMN lesions cause deviation toward the healthy side \u2014 the reverse of the actual pattern"
+      ],
+      "correct_answer": "LMN lesion: tongue deviates TOWARD the lesion side (weak genioglossus unopposed by the healthy side). UMN lesion: tongue also deviates toward the side of tongue weakness, but this corresponds to the side CONTRALATERAL to the cortical lesion, since each hypoglossal nucleus receives predominantly crossed corticobulbar input",
+      "distractor_rationale": {
+        "Both UMN and LMN lesions produce identical deviation patterns with no meaningful difference in localisation value": "Denies a genuine, clinically important localising distinction \u2014 the RELATIONSHIP between deviation side and lesion side differs meaningfully between UMN and LMN lesions once you factor in corticobulbar crossing.",
+        "LMN lesions never cause tongue deviation, only UMN lesions do": "Incorrect \u2014 LMN lesions are actually the classic, most straightforward cause of tongue deviation, as established in the mechanism question elsewhere in this chapter.",
+        "UMN lesions cause deviation AWAY from the side of tongue weakness, while LMN lesions cause deviation toward the healthy side \u2014 the reverse of the actual pattern": "Both halves of this statement reverse the correct relationships."
+      },
+      "explanation": {
+        "core_concept": "This comparison is genuinely subtle and a favourite way to test whether corticobulbar tract crossing has actually been understood, not just tongue muscle anatomy in isolation \u2014 the deviation is ALWAYS toward the side of tongue WEAKNESS in both UMN and LMN lesions (same muscular mechanism), but which side of the BODY/BRAIN that corresponds to differs, because of where the lesion sits relative to the corticobulbar decussation.",
+        "why_correct": "In an LMN lesion (affecting the hypoglossal nerve or nucleus itself), the tongue deviates toward the SAME side as the lesion \u2014 straightforward, since the nerve/nucleus damage directly weakens that side's genioglossus. In a UMN lesion (e.g. a lesion in the corticobulbar tract above the medulla, such as a cortical or capsular stroke), the tongue STILL deviates toward the side of tongue weakness (same muscular mechanism), but because each hypoglossal nucleus receives predominantly CROSSED (contralateral) corticobulbar input, a UMN lesion on one side of the brain weakens the CONTRALATERAL side of the tongue \u2014 so the tongue deviates toward the side opposite the cortical lesion (i.e., the same side as any accompanying limb weakness from that same stroke, since limb weakness is also typically contralateral to a cortical lesion).",
+        "why_others_wrong": {
+          "Both UMN and LMN lesions produce identical deviation patterns with no meaningful difference in localisation value": "Ignores the crossed corticobulbar input that creates a genuine, clinically useful difference in which BRAIN/BODY side a UMN lesion's deviation actually corresponds to.",
+          "LMN lesions never cause tongue deviation, only UMN lesions do": "Backwards \u2014 LMN lesions are the more classic, straightforward cause of tongue deviation; UMN lesions can also cause it, but via the more complex crossed pathway.",
+          "UMN lesions cause deviation AWAY from the side of tongue weakness, while LMN lesions cause deviation toward the healthy side \u2014 the reverse of the actual pattern": "Both halves are reversed \u2014 deviation is always TOWARD the weak side (same muscular mechanism in both UMN and LMN cases); what differs is which BRAIN side that weak side corresponds to."
+        },
+        "high_yield_facts": [
+          "Deviation is ALWAYS toward the side of tongue WEAKNESS, regardless of UMN or LMN \u2014 the muscular mechanism (unopposed contralateral genioglossus) is the same in both cases.",
+          "LMN lesion: weak side = lesion side (nerve/nucleus damage is local).",
+          "UMN lesion: weak side = side CONTRALATERAL to the cortical lesion (because of crossed corticobulbar input) \u2014 this typically matches the side of any accompanying limb weakness from the same stroke."
+        ],
+        "clinical_correlation": "This distinction helps localise a lesion along the neuraxis \u2014 tongue deviation accompanied by ipsilateral tongue atrophy/fasciculations points to an LMN (nerve/nucleus) lesion, while tongue deviation accompanied by contralateral limb weakness without tongue atrophy points to a UMN (corticobulbar) lesion \u2014 genuinely different localisations requiring different diagnostic workups.",
+        "common_confusions": [
+          "Assuming 'tongue deviates toward the lesion' is a universal rule regardless of UMN vs LMN \u2014 it's only straightforwardly true for LMN lesions; for UMN lesions, the deviation is toward the side of WEAKNESS, which is CONTRALATERAL to the actual brain lesion because of tract crossing."
+        ],
+        "exceptions": [
+          "Because each hypoglossal nucleus receives SOME bilateral corticobulbar input in addition to the predominant crossed input, UMN lesions can sometimes cause milder, less obvious tongue deviation than LMN lesions \u2014 a nuance worth knowing exists even if not the primary teaching point."
+        ],
+        "related_concepts": [
+          "Tongue deviation mechanism (genioglossus, covered elsewhere in this chapter)",
+          "Corticobulbar tract crossing pattern",
+          "Associated atrophy/fasciculations distinguishing LMN from UMN lesions"
+        ],
+        "exam_traps": [
+          "When a vignette describes tongue deviation ALONGSIDE other findings (limb weakness, tongue atrophy/fasciculations), use those accompanying findings to determine UMN vs LMN, then apply the correct corresponding rule for which side the lesion is actually on."
+        ],
+        "image_clues": null,
+        "memory_aid": "LMN: what you see is where the lesion is. UMN: what you see is the OPPOSITE side of the actual brain lesion (tract crosses before reaching the nucleus).",
+        "other_ways_this_is_tested": [
+          "This comparison directly extends and refines the basic deviation mechanism established elsewhere in this chapter, adding the crucial UMN/LMN localisation layer."
+        ],
+        "neet_pg_takeaway": "Tongue deviation is always toward the side of weakness (same genioglossus mechanism); in LMN lesions this is the same side as the lesion, but in UMN lesions it's the side CONTRALATERAL to the actual cortical lesion, due to crossed corticobulbar input to the hypoglossal nucleus.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard clinical neurology references on corticobulbar tract lesions."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish UMN from LMN hypoglossal lesions by the relationship between tongue deviation side and the actual lesion location.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_hypoglossal_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Hypoglossal Nerve",
+      "subtopic": "Clinical vignette \u2014 LMN lesion",
+      "concept": "Hypoglossal nerve motor function and tongue deviation lesion localisation",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 60-year-old man presents with several months of progressive tongue weakness. Examination shows the tongue deviates to the LEFT on protrusion, with visible wasting and fasciculations of the left tongue muscles. Limb strength and tone are normal. Which statement correctly localises this lesion?",
+      "options": [
+        "Left-sided LOWER motor neuron lesion of the hypoglossal nerve or nucleus \u2014 the ipsilateral (left) deviation plus wasting/fasciculations are classic LMN findings, inconsistent with a UMN lesion",
+        "Right-sided upper motor neuron lesion in the corticobulbar tract \u2014 deviation and wasting are equally consistent with either UMN or LMN localisation",
+        "This presentation is inconsistent with any hypoglossal nerve pathology and suggests an unrelated primary muscle disease",
+        "Bilateral hypoglossal nerve lesion, since wasting and fasciculations always indicate bilateral, not unilateral, disease"
+      ],
+      "correct_answer": "Left-sided LOWER motor neuron lesion of the hypoglossal nerve or nucleus \u2014 the ipsilateral (left) deviation plus wasting/fasciculations are classic LMN findings, inconsistent with a UMN lesion",
+      "distractor_rationale": {
+        "Right-sided upper motor neuron lesion in the corticobulbar tract \u2014 deviation and wasting are equally consistent with either UMN or LMN localisation": "Wasting and fasciculations are specifically LMN findings (reflecting loss of the trophic influence of the lower motor neuron cell body itself) \u2014 a pure UMN lesion would NOT cause muscle wasting/fasciculations, making this option's claim of equal consistency incorrect.",
+        "This presentation is inconsistent with any hypoglossal nerve pathology and suggests an unrelated primary muscle disease": "The described findings (deviation, wasting, fasciculations, progressive course) are a classic, textbook hypoglossal LMN lesion presentation, not inconsistent with it.",
+        "Bilateral hypoglossal nerve lesion, since wasting and fasciculations always indicate bilateral, not unilateral, disease": "The findings described are strictly UNILATERAL (left-sided only) \u2014 wasting and fasciculations can absolutely occur unilaterally and don't require bilateral involvement."
+      },
+      "explanation": {
+        "core_concept": "This vignette integrates the deviation-direction mechanism with the wasting/fasciculation LMN signature to reach a confident, well-supported localisation \u2014 recognising that wasting and fasciculations are LMN-SPECIFIC findings is what rules out the UMN alternative decisively, beyond deviation direction alone.",
+        "why_correct": "Left-sided tongue deviation on protrusion (via the genioglossus mechanism established elsewhere in this chapter) localises the weak side to the LEFT. The presence of wasting (atrophy) and fasciculations specifically indicates loss of the LOWER motor neuron itself (nerve or nucleus) \u2014 since these findings reflect the LMN cell body's trophic/maintenance influence on the muscle being lost, something that does NOT happen with a pure UMN lesion (where the LMN cell bodies remain intact and continue their trophic function even though upper-level control input is disrupted). Together: LEFT-sided LMN hypoglossal lesion (nerve or nucleus).",
+        "why_others_wrong": {
+          "Right-sided upper motor neuron lesion in the corticobulbar tract \u2014 deviation and wasting are equally consistent with either UMN or LMN localisation": "Wasting and fasciculations are NOT UMN findings \u2014 a pure UMN lesion spares the trophic function of the intact LMN, so wasting/fasciculations specifically argue against (not equally support) a UMN localisation.",
+          "This presentation is inconsistent with any hypoglossal nerve pathology and suggests an unrelated primary muscle disease": "This is actually the classic, textbook presentation of an LMN hypoglossal lesion \u2014 entirely consistent with, not inconsistent with, this specific cranial nerve pathology.",
+          "Bilateral hypoglossal nerve lesion, since wasting and fasciculations always indicate bilateral, not unilateral, disease": "The findings are explicitly unilateral (left-sided) in this vignette \u2014 wasting/fasciculations don't require bilateral involvement to occur."
+        },
+        "high_yield_facts": [
+          "Deviation TOWARD the lesion side + wasting + fasciculations = classic LMN hypoglossal lesion signature.",
+          "Wasting/fasciculations specifically indicate LMN (not UMN) involvement \u2014 a genuinely important discriminating detail in any cranial (or spinal) motor nerve lesion vignette, not unique to CN XII.",
+          "A progressive course over months (as in this vignette) should also prompt consideration of the underlying CAUSE (e.g. skull base tumour, or in some cases a motor neuron disease process affecting the hypoglossal nucleus specifically) \u2014 though pinpointing the exact cause requires further workup beyond the localisation itself."
+        ],
+        "clinical_correlation": "Correctly localising this as an LMN (not UMN) lesion directs appropriate further workup \u2014 for example, imaging of the hypoglossal nerve's course (including the hypoglossal canal specifically) or nucleus, rather than a search for a cortical/corticobulbar lesion, which would be the wrong direction entirely given these findings.",
+        "common_confusions": [
+          "Focusing only on deviation DIRECTION to localise the lesion, without also using the wasting/fasciculation findings to determine WHICH TYPE of lesion (UMN vs LMN) is present \u2014 both pieces of information together give a much more confident, complete localisation than direction alone."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Genioglossus deviation mechanism (this same concept)",
+          "UMN vs LMN comparison (this same concept)",
+          "Hypoglossal canal (the nerve's skull base exit point, a related but separate fact)"
+        ],
+        "exam_traps": [
+          "Don't stop your reasoning at 'the tongue deviates left, so something's wrong on the left' \u2014 actively use the wasting/fasciculation findings to confirm this is specifically an LMN, not UMN, process, since that changes the diagnostic workup direction significantly."
+        ],
+        "image_clues": null,
+        "memory_aid": "Wasting and twitching = the lower motor neuron itself is dying \u2014 that's an LMN signature, every time.",
+        "other_ways_this_is_tested": [
+          "This vignette integrates both the deviation mechanism and the UMN/LMN comparison established in the earlier questions of this chapter into one complete clinical reasoning exercise."
+        ],
+        "neet_pg_takeaway": "Ipsilateral tongue deviation plus wasting and fasciculations together confirm a LOWER motor neuron hypoglossal lesion on that same side \u2014 wasting/fasciculations are the key discriminating findings that rule out a UMN cause.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard clinical neurology examination references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise a lesion as LMN hypoglossal nerve/nucleus pathology using deviation direction plus wasting and fasciculations.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_hypoglossal_nerve_0005",
+      "subject": "Anatomy",
+      "topic": "Hypoglossal Nerve",
+      "subtopic": "Skull base exit",
+      "concept": "Hypoglossal nerve motor function and tongue deviation lesion localisation",
+      "question_type": "exception",
+      "difficulty": 2,
+      "question": "CN IX, X, and XI all exit the skull together through the jugular foramen. Does the hypoglossal nerve (CN XII) exit through this same foramen?",
+      "options": [
+        "No \u2014 CN XII exits through a separate opening, the hypoglossal canal",
+        "Yes \u2014 CN XII exits through the jugular foramen alongside CN IX, X, and XI",
+        "CN XII does not exit the skull at all, remaining entirely intracranial",
+        "CN XII exits through the foramen ovale, the same opening used by the trigeminal nerve's mandibular division"
+      ],
+      "correct_answer": "No \u2014 CN XII exits through a separate opening, the hypoglossal canal",
+      "distractor_rationale": {
+        "Yes \u2014 CN XII exits through the jugular foramen alongside CN IX, X, and XI": "A common assumption, since CN IX-XII are sometimes casually grouped together as the 'lower' cranial nerves \u2014 but CN XII specifically has its OWN separate exit point, not the jugular foramen.",
+        "CN XII does not exit the skull at all, remaining entirely intracranial": "Incorrect \u2014 CN XII must exit the skull to reach and supply the tongue muscles in the neck/oral cavity.",
+        "CN XII exits through the foramen ovale, the same opening used by the trigeminal nerve's mandibular division": "Foramen ovale is specifically V3's exit point \u2014 an entirely different foramen from the hypoglossal canal."
+      },
+      "explanation": {
+        "core_concept": "This exception matters specifically because CN IX, X, XI, and XII are often mentally grouped together as 'the lower cranial nerves,' which can lead to incorrectly assuming they all share the same skull base exit \u2014 recognising CN XII's separate, dedicated foramen (the hypoglossal canal) is exactly the kind of precise detail that distinguishes careful anatomical knowledge from a rough approximation.",
+        "why_correct": "The hypoglossal nerve exits the skull through its own dedicated opening, the hypoglossal canal (in the occipital bone), distinct and separate from the jugular foramen, which is instead used by CN IX, X, and XI (plus the internal jugular vein).",
+        "why_others_wrong": {
+          "Yes \u2014 CN XII exits through the jugular foramen alongside CN IX, X, and XI": "A common but incorrect assumption based on loosely grouping the 'lower' cranial nerves together \u2014 CN XII has its own separate exit.",
+          "CN XII does not exit the skull at all, remaining entirely intracranial": "Incorrect \u2014 CN XII must exit the skull to reach its peripheral targets (tongue muscles).",
+          "CN XII exits through the foramen ovale, the same opening used by the trigeminal nerve's mandibular division": "Foramen ovale is V3's exit specifically \u2014 unrelated to CN XII's actual exit point."
+        },
+        "high_yield_facts": [
+          "CN XII exits via the HYPOGLOSSAL CANAL \u2014 a separate, dedicated foramen, NOT the jugular foramen.",
+          "CN IX, X, XI exit together via the JUGULAR FORAMEN \u2014 a genuinely different opening from CN XII's.",
+          "This distinction is a classic skull base anatomy exam point, precisely because CN IX-XII are so often casually grouped together as 'the lower cranial nerves' without appreciating their genuinely separate exit points."
+        ],
+        "clinical_correlation": "Skull base tumours or fractures can selectively affect CN XII (via hypoglossal canal involvement) while sparing CN IX-XI (jugular foramen), or vice versa \u2014 understanding these as anatomically SEPARATE foramina is directly relevant to interpreting which combination of cranial nerve deficits a given skull base lesion location would be expected to produce.",
+        "common_confusions": [
+          "Assuming 'lower cranial nerves' (IX-XII) all share one exit point simply because they're often discussed together as a functional/positional group \u2014 jugular foramen (IX, X, XI) and hypoglossal canal (XII) are genuinely separate, independently testable foramina."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Jugular foramen syndrome (combined IX, X, XI involvement, sparing XII)",
+          "Skull base foramina overview"
+        ],
+        "exam_traps": [
+          "When a question asks about 'the lower cranial nerves' exit point,' don't assume a single shared answer applies to all of IX through XII \u2014 CN XII specifically breaks from the jugular foramen group."
+        ],
+        "image_clues": null,
+        "memory_aid": "Nine, Ten, Eleven share the Jugular door; Twelve gets its own private Hypoglossal exit.",
+        "other_ways_this_is_tested": [
+          "This skull base fact rounds out the complete hypoglossal nerve picture alongside the muscle supply and clinical lesion questions covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "CN XII exits the skull via the hypoglossal canal, a separate foramen from the jugular foramen used by CN IX, X, and XI \u2014 a frequently tested exception to the casual grouping of 'lower cranial nerves.'",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the hypoglossal canal as CN XII's distinct skull base exit, separate from the jugular foramen used by CN IX, X, and XI.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

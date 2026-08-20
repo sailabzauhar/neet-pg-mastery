@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0061",
+    "topic": "Cerebellum - Blood Supply",
+    "chapter_number": 61,
+    "chapter_file": "data/anatomy/ch61_cerebellum_blood_supply.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "comparison"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This chapter's nucleus ambiguus reference directly connects to (without duplicating) the Gag Reflex chapter's brainstem circuitry content \u2014 that chapter covers the reflex arc itself; this chapter covers the VASCULAR territory (PICA) supplying this same nucleus and its clinical consequence when infarcted.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch46 (Gag Reflex) \u2014 no duplicate concepts found; genuinely complementary."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The cerebellum is supplied by three paired arteries \u2014 PICA (posterior inferior cerebellar artery, from the vertebral artery), AICA (anterior inferior cerebellar artery, from the basilar artery), and SCA (superior cerebellar artery, also from the basilar artery) \u2014 and PICA occlusion specifically produces one of the most classically tested brainstem/cerebellar stroke syndromes (lateral medullary syndrome/Wallenberg syndrome), given PICA's territory extending beyond the cerebellum itself into the lateral medulla."
+    },
+    "structure_anatomy": {
+      "three_arteries_origin": "PICA: arises from the VERTEBRAL artery (the only one of the three NOT arising from the basilar artery), supplying the posterior inferior cerebellum PLUS the lateral medulla. AICA: arises from the proximal BASILAR artery, supplying the anterior inferior cerebellum plus contributing to internal auditory artery territory (inner ear). SCA: arises from the distal BASILAR artery (near its termination into the posterior cerebral arteries), supplying the superior cerebellum.",
+      "pica_medullary_territory": "PICA's territory is genuinely unusual among the three cerebellar arteries \u2014 it doesn't supply the cerebellum exclusively, but ALSO supplies a substantial portion of the LATERAL MEDULLA (including the nucleus ambiguus, spinal trigeminal nucleus/tract, vestibular nuclei, inferior cerebellar peduncle, and the sympathetic descending fibres) \u2014 this dual territory (cerebellum PLUS brainstem) is exactly why PICA occlusion produces such a rich, multi-system clinical syndrome rather than a purely cerebellar (ataxia-only) presentation."
+    },
+    "clinical": {
+      "wallenberg_syndrome": "PICA occlusion causes lateral medullary syndrome (Wallenberg syndrome), a classic, richly multi-system stroke presentation directly reflecting the SPECIFIC structures within PICA's combined medullary/cerebellar territory: dysphagia and dysarthria with an absent gag reflex (nucleus ambiguus \u2014 CN IX/X motor nucleus, connecting directly to the Gag Reflex chapter's brainstem circuitry content), loss of pain/temperature sensation on the IPSILATERAL face (spinal trigeminal nucleus/tract) and CONTRALATERAL body (spinothalamic tract, already crossed at spinal cord level before ascending), vertigo/nystagmus (vestibular nuclei), ipsilateral limb ataxia (inferior cerebellar peduncle/cerebellar territory itself), and ipsilateral Horner syndrome (descending sympathetic fibres) \u2014 a genuinely elegant, structure-by-structure explicable syndrome once PICA's specific anatomical territory is understood.",
+      "crossed_sensory_pattern": "The crossed (ipsilateral face, contralateral body) pattern of pain/temperature loss in Wallenberg syndrome is a genuinely distinctive, specific finding directly reflecting WHERE each pathway crosses relative to the medulla: the spinal trigeminal tract/nucleus (face) has NOT yet crossed at this medullary level (crossing occurs more rostrally), while the spinothalamic tract (body) has ALREADY crossed at the spinal cord level before ascending \u2014 making this crossed pattern a genuinely useful, specific localising sign pointing to a lateral medullary (not a more rostral pontine or thalamic) lesion level."
+    },
+    "related_structures": "PICA's inclusion of the nucleus ambiguus within its territory directly connects Wallenberg syndrome's dysphagia/absent-gag-reflex finding to the SAME brainstem nucleus (and the SAME afferent-CN-IX/efferent-CN-X reflex arc logic) established in the Gag Reflex chapter \u2014 a genuinely useful cross-chapter connection, since understanding nucleus ambiguus's role there directly explains WHY this specific finding appears as part of Wallenberg syndrome here."
+  },
+  "question_family": [
+    {
+      "family_name": "Cerebellum Blood Supply \u2014 PICA/AICA/SCA and Wallenberg Syndrome (4 angles, one concept)",
+      "member_ids": [
+        "anat_cerebellum_blood_supply_0001",
+        "anat_cerebellum_blood_supply_0002",
+        "anat_cerebellum_blood_supply_0003",
+        "anat_cerebellum_blood_supply_0004"
+      ],
+      "coverage": "Recall (PICA's vertebral artery origin), mechanism (PICA's dual cerebellar-medullary territory), clinical vignette (complete Wallenberg syndrome diagnosis and localisation), and comparison (AICA/SCA's more limited syndromes) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_cerebellum_blood_supply_0001",
+      "subject": "Anatomy",
+      "topic": "Cerebellum - Blood Supply",
+      "subtopic": "Three arteries and origins",
+      "concept": "Cerebellar arterial territories (PICA/AICA/SCA) and PICA occlusion causing lateral medullary (Wallenberg) syndrome",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "Of the three paired cerebellar arteries (PICA, AICA, SCA), which one is the ONLY one arising from the vertebral artery rather than the basilar artery?",
+      "options": [
+        "PICA (posterior inferior cerebellar artery)",
+        "AICA (anterior inferior cerebellar artery)",
+        "SCA (superior cerebellar artery)",
+        "All three arteries arise exclusively from the basilar artery, with none arising from the vertebral artery"
+      ],
+      "correct_answer": "PICA (posterior inferior cerebellar artery)",
+      "distractor_rationale": {
+        "AICA (anterior inferior cerebellar artery)": "Arises from the proximal BASILAR artery, not the vertebral artery.",
+        "SCA (superior cerebellar artery)": "Arises from the distal BASILAR artery, not the vertebral artery.",
+        "All three arteries arise exclusively from the basilar artery, with none arising from the vertebral artery": "Denies PICA's genuine, distinctive vertebral artery origin \u2014 it's specifically the ONE exception among the three."
+      },
+      "explanation": {
+        "core_concept": "PICA's distinctive VERTEBRAL (not basilar) origin is a genuinely important, frequently tested detail, and directly connects to why its occlusion pattern (Wallenberg syndrome) differs so much from AICA or SCA occlusion \u2014 PICA's more proximal, vertebral-artery-level origin corresponds to its more caudal, medulla-including territory.",
+        "why_correct": "PICA (posterior inferior cerebellar artery) is the only one of the three paired cerebellar arteries arising from the VERTEBRAL artery \u2014 AICA and SCA both arise from the basilar artery instead (AICA proximally, SCA distally, near the basilar's termination).",
+        "why_others_wrong": {
+          "AICA (anterior inferior cerebellar artery)": "A basilar artery branch, not vertebral.",
+          "SCA (superior cerebellar artery)": "Also a basilar artery branch, not vertebral.",
+          "All three arteries arise exclusively from the basilar artery, with none arising from the vertebral artery": "Denies PICA's genuine, distinctive exception to this pattern."
+        },
+        "high_yield_facts": [
+          "PICA: from the VERTEBRAL artery (the exception among the three).",
+          "AICA: from the PROXIMAL basilar artery.",
+          "SCA: from the DISTAL basilar artery, near its termination into the posterior cerebral arteries.",
+          "This origin pattern directly correlates with each artery's relative vertical territory: PICA (lowest, vertebral-level) \u2192 posterior inferior cerebellum + medulla; AICA (mid) \u2192 anterior inferior cerebellum; SCA (highest, near basilar termination) \u2192 superior cerebellum."
+        ],
+        "clinical_correlation": "PICA's vertebral origin is directly relevant to understanding vertebral artery dissection or occlusion as a cause of PICA territory stroke (Wallenberg syndrome), a genuinely important, specific mechanism worth knowing alongside basilar-artery-related causes of AICA/SCA territory strokes.",
+        "common_confusions": [
+          "Assuming all three cerebellar arteries share an identical basilar artery origin \u2014 PICA is specifically, genuinely the vertebral-artery exception among the three, a detail worth actively remembering."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PICA's medullary territory and Wallenberg syndrome (this concept, other questions) \u2014 directly building on this vessel's specific origin and territory"
+        ],
+        "exam_traps": [
+          "Don't default to 'basilar artery' for all three cerebellar arteries \u2014 actively recall PICA specifically as the vertebral artery exception."
+        ],
+        "image_clues": null,
+        "memory_aid": "PICA sits lowest, closest to where the vertebral arteries are still separate \u2014 it's the one that branches off before they've even joined into the basilar artery.",
+        "other_ways_this_is_tested": [
+          "This origin fact directly sets up the PICA territory and Wallenberg syndrome content covered in depth elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "PICA is the only one of the three cerebellar arteries arising from the vertebral artery \u2014 AICA and SCA both arise from the basilar artery instead, a distinction directly correlating with each vessel's relative vertical territory.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, cerebellar vasculature section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify PICA as the only cerebellar artery arising from the vertebral artery, distinct from AICA and SCA's basilar artery origin.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_cerebellum_blood_supply_0002",
+      "subject": "Anatomy",
+      "topic": "Cerebellum - Blood Supply",
+      "subtopic": "PICA's dual territory",
+      "concept": "Cerebellar arterial territories (PICA/AICA/SCA) and PICA occlusion causing lateral medullary (Wallenberg) syndrome",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Unlike AICA and SCA, PICA's territory extends beyond the cerebellum itself. What additional structure does PICA supply, and why is this significant?",
+      "options": [
+        "The LATERAL MEDULLA (including nucleus ambiguus, spinal trigeminal nucleus/tract, vestibular nuclei, and descending sympathetic fibres) \u2014 this dual territory is exactly why PICA occlusion produces a rich, multi-system syndrome rather than purely cerebellar (ataxia-only) findings",
+        "The entire cerebral cortex, making PICA occlusion equivalent to a massive, whole-brain stroke",
+        "The spinal cord below the level of the medulla, extending PICA's territory into the thoracic spine",
+        "PICA supplies only the cerebellum, identical to AICA and SCA, with no additional territory"
+      ],
+      "correct_answer": "The LATERAL MEDULLA (including nucleus ambiguus, spinal trigeminal nucleus/tract, vestibular nuclei, and descending sympathetic fibres) \u2014 this dual territory is exactly why PICA occlusion produces a rich, multi-system syndrome rather than purely cerebellar (ataxia-only) findings",
+      "distractor_rationale": {
+        "The entire cerebral cortex, making PICA occlusion equivalent to a massive, whole-brain stroke": "Vastly overstates PICA's actual territory \u2014 it supplies a SPECIFIC portion of the lateral medulla, not the entire cerebral cortex.",
+        "The spinal cord below the level of the medulla, extending PICA's territory into the thoracic spine": "PICA's territory is specifically the LATERAL MEDULLA (a brainstem structure), not the spinal cord itself.",
+        "PICA supplies only the cerebellum, identical to AICA and SCA, with no additional territory": "Denies PICA's genuinely distinctive additional territory, which is precisely what distinguishes it from AICA and SCA."
+      },
+      "explanation": {
+        "core_concept": "PICA's inclusion of specific lateral medullary structures \u2014 each with its own distinct function \u2014 is THE single fact explaining why Wallenberg syndrome is such a rich, seemingly scattered multi-system presentation from ONE vessel's occlusion, directly echoing the same 'one structure, multiple functional territories' logic already established for the Vagus Nerve and ACoA aneurysm chapters.",
+        "why_correct": "PICA supplies not only the posterior inferior cerebellum but also a substantial portion of the LATERAL MEDULLA, including the nucleus ambiguus (CN IX/X motor nucleus), the spinal trigeminal nucleus/tract (facial pain/temperature sensation), the vestibular nuclei (balance), the inferior cerebellar peduncle, and descending sympathetic fibres. This dual, combined territory (cerebellum PLUS specific medullary structures) is exactly why PICA occlusion produces the rich, multi-system Wallenberg syndrome, rather than a more limited, purely cerebellar (ataxia-only) presentation that might be expected from a 'cerebellar artery' occlusion alone.",
+        "why_others_wrong": {
+          "The entire cerebral cortex, making PICA occlusion equivalent to a massive, whole-brain stroke": "Vastly overstates PICA's genuinely specific, limited additional territory.",
+          "The spinal cord below the level of the medulla, extending PICA's territory into the thoracic spine": "Misidentifies the additional territory as spinal cord rather than the actual lateral medulla (a brainstem, not spinal cord, structure).",
+          "PICA supplies only the cerebellum, identical to AICA and SCA, with no additional territory": "Denies PICA's genuinely distinctive additional medullary territory."
+        },
+        "high_yield_facts": [
+          "PICA territory = posterior inferior CEREBELLUM + LATERAL MEDULLA (nucleus ambiguus, spinal trigeminal tract/nucleus, vestibular nuclei, descending sympathetics, inferior cerebellar peduncle).",
+          "This dual territory is exactly why PICA occlusion (Wallenberg syndrome) produces such a broad, multi-system presentation, covered in depth elsewhere in this chapter.",
+          "AICA and SCA, by contrast, supply predominantly CEREBELLAR territory alone, without this same significant additional brainstem component \u2014 making their occlusion syndromes generally more limited/different in character."
+        ],
+        "clinical_correlation": "Understanding PICA's specific medullary territory is exactly what allows a clinician to predict and recognise the FULL Wallenberg syndrome presentation, rather than being confused by what might otherwise seem like an unrelated collection of findings (dysphagia, facial numbness, vertigo, ataxia, Horner syndrome) from a single vascular event.",
+        "common_confusions": [
+          "Assuming all three cerebellar arteries supply purely cerebellar territory, producing similar (ataxia-predominant) occlusion syndromes \u2014 PICA's SPECIFIC additional medullary territory is what makes its occlusion syndrome genuinely, richly different from AICA or SCA occlusion."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Wallenberg syndrome full presentation (this concept, other question) \u2014 the direct clinical consequence of this dual territory",
+          "Nucleus ambiguus (see Gag Reflex chapter) \u2014 one of the specific structures within this territory, directly connecting to that chapter's content"
+        ],
+        "exam_traps": [
+          "Don't assume PICA occlusion produces the same limited (ataxia-only) presentation as AICA or SCA occlusion \u2014 actively recall PICA's DISTINCTIVE additional medullary territory as the reason for its much richer, multi-system syndrome."
+        ],
+        "image_clues": null,
+        "memory_aid": "PICA doesn't just feed the cerebellum \u2014 it feeds a whole neighbourhood of important medullary structures too, which is why losing it causes so much more trouble than 'just' cerebellar symptoms.",
+        "other_ways_this_is_tested": [
+          "This dual-territory fact is the direct anatomical basis for the full Wallenberg syndrome presentation and crossed sensory pattern covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "PICA uniquely supplies both the posterior inferior cerebellum AND a substantial portion of the lateral medulla (nucleus ambiguus, spinal trigeminal tract, vestibular nuclei, descending sympathetics) \u2014 this dual territory is exactly why PICA occlusion produces the rich, multi-system Wallenberg syndrome rather than isolated cerebellar findings.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, brainstem and cerebellar vasculature sections."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain PICA's dual cerebellar-plus-lateral-medullary territory as the basis for Wallenberg syndrome's multi-system presentation.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_cerebellum_blood_supply_0003",
+      "subject": "Anatomy",
+      "topic": "Cerebellum - Blood Supply",
+      "subtopic": "Clinical \u2014 crossed sensory pattern",
+      "concept": "Cerebellar arterial territories (PICA/AICA/SCA) and PICA occlusion causing lateral medullary (Wallenberg) syndrome",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient with sudden-onset vertigo, hoarseness, and difficulty swallowing is found to have loss of pain and temperature sensation on the LEFT side of the face but the RIGHT side of the body, along with left-sided limb ataxia and left-sided Horner syndrome. Which vessel occlusion explains this complete presentation, and what does the crossed (left face, right body) sensory pattern specifically indicate?",
+      "options": [
+        "Left PICA occlusion (Wallenberg syndrome) \u2014 the crossed pattern reflects that the spinal trigeminal tract (face) has NOT yet crossed at this medullary level, while the spinothalamic tract (body) already crossed at the spinal cord level before ascending, localising the lesion specifically to the lateral medulla",
+        "Right PICA occlusion \u2014 the crossed sensory pattern described is inconsistent with a left-sided vascular lesion",
+        "Bilateral AICA occlusion, given the combination of vertigo and multiple additional findings described",
+        "This combination of findings is anatomically impossible and cannot result from any single vascular occlusion"
+      ],
+      "correct_answer": "Left PICA occlusion (Wallenberg syndrome) \u2014 the crossed pattern reflects that the spinal trigeminal tract (face) has NOT yet crossed at this medullary level, while the spinothalamic tract (body) already crossed at the spinal cord level before ascending, localising the lesion specifically to the lateral medulla",
+      "distractor_rationale": {
+        "Right PICA occlusion \u2014 the crossed sensory pattern described is inconsistent with a left-sided vascular lesion": "The LEFT-sided facial sensory loss (uncrossed spinal trigeminal pathway at this level) directly indicates a LEFT-sided lesion \u2014 along with the LEFT-sided ataxia and Horner syndrome (both ipsilateral findings), this vignette specifically points to LEFT, not right, PICA occlusion.",
+        "Bilateral AICA occlusion, given the combination of vertigo and multiple additional findings described": "AICA's territory doesn't include the SAME combination of structures (nucleus ambiguus, spinal trigeminal tract, descending sympathetics) producing this SPECIFIC symptom combination \u2014 this is the classic PICA (Wallenberg), not AICA, presentation, and bilateral occlusion is also not the expected mechanism for this unilateral-pattern presentation.",
+        "This combination of findings is anatomically impossible and cannot result from any single vascular occlusion": "This is precisely the classic, well-recognised, complete Wallenberg syndrome presentation from a single PICA occlusion \u2014 not an impossible or inconsistent combination."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the complete clinical synthesis of PICA's dual territory \u2014 using EVERY specific finding (dysphagia/hoarseness from nucleus ambiguus, crossed sensory pattern from the differently-crossing trigeminal and spinothalamic pathways, ataxia from cerebellar/peduncle territory, Horner syndrome from descending sympathetics, vertigo from vestibular nuclei) together to confirm PICA occlusion AND to precisely localise the lesion side using the crossed sensory pattern's own internal logic.",
+        "why_correct": "This is the complete, classic Wallenberg syndrome (lateral medullary syndrome) presentation from LEFT PICA occlusion: hoarseness/dysphagia (nucleus ambiguus), left facial pain/temperature loss (spinal trigeminal tract/nucleus \u2014 this pathway has NOT yet crossed at the medullary level, so facial sensory loss is IPSILATERAL to the lesion), right body pain/temperature loss (spinothalamic tract \u2014 this pathway ALREADY crossed at the spinal cord level before ascending, so body sensory loss is CONTRALATERAL to the lesion), left limb ataxia (cerebellar/inferior cerebellar peduncle territory, ipsilateral), left Horner syndrome (descending sympathetic fibres, ipsilateral), and vertigo (vestibular nuclei) \u2014 every single finding directly traces back to a specific structure within PICA's combined cerebellar-medullary territory, and the crossed sensory pattern specifically confirms the lesion is at the LATERAL MEDULLA level, where these two sensory pathways have this specific, differing crossing status.",
+        "why_others_wrong": {
+          "Right PICA occlusion \u2014 the crossed sensory pattern described is inconsistent with a left-sided vascular lesion": "The LEFT-sided facial loss, ataxia, and Horner syndrome (all ipsilateral findings) specifically confirm a LEFT-sided lesion, consistent with LEFT PICA occlusion, not right.",
+          "Bilateral AICA occlusion, given the combination of vertigo and multiple additional findings described": "This specific combination of findings (particularly the crossed sensory pattern, Horner syndrome, and dysphagia/hoarseness from nucleus ambiguus involvement) is the classic PICA, not AICA, territory presentation.",
+          "This combination of findings is anatomically impossible and cannot result from any single vascular occlusion": "This is exactly the well-recognised, classic, complete Wallenberg syndrome from a single PICA occlusion."
+        },
+        "high_yield_facts": [
+          "Wallenberg syndrome (PICA occlusion): dysphagia/hoarseness (nucleus ambiguus) + crossed pain/temp loss (ipsilateral face, contralateral body) + ipsilateral ataxia + ipsilateral Horner + vertigo \u2014 ALL from ONE vessel's territory.",
+          "The crossed sensory pattern specifically LOCALISES to the lateral medulla: spinal trigeminal tract (face) hasn't crossed yet at this level; spinothalamic tract (body) already crossed at the spinal cord.",
+          "ALL the ipsilateral findings (face sensory loss, ataxia, Horner syndrome) point to the SAME side as the lesion \u2014 use these together to confirm laterality, while the CONTRALATERAL body sensory loss is the one deliberately 'crossed' finding that shouldn't be mistaken for indicating the opposite side."
+        ],
+        "clinical_correlation": "Recognising this complete syndrome and correctly localising it to PICA (rather than a more diffuse or different-vessel process) directly guides appropriate stroke workup (vascular imaging of the vertebral/PICA territory specifically) and management.",
+        "common_confusions": [
+          "Getting confused by the crossed sensory pattern and assuming it indicates a lesion on the OPPOSITE side from the other (ipsilateral) findings \u2014 actively remember that the crossed pattern reflects DIFFERENT PATHWAYS' crossing points, not a genuinely different lesion side; the ipsilateral findings (face, ataxia, Horner) correctly identify the actual lesion side."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PICA's dual territory (this concept, the foundational mechanism question)",
+          "Nucleus ambiguus and the gag reflex arc (see Gag Reflex chapter) \u2014 directly explaining the dysphagia/hoarseness component of this syndrome"
+        ],
+        "exam_traps": [
+          "Use the IPSILATERAL findings (facial sensory loss, ataxia, Horner syndrome \u2014 all on the SAME side) to correctly identify the lesion side, and understand the CONTRALATERAL body sensory loss as a separate, expected feature of the SAME lesion, not evidence of a different or bilateral process."
+        ],
+        "image_clues": null,
+        "memory_aid": "Face numb on the bad side, body numb on the good side, everything else (ataxia, droopy eye) on the bad side too \u2014 that crossed sensory piece is Wallenberg's signature twist.",
+        "other_ways_this_is_tested": [
+          "This vignette is the complete diagnostic synthesis of PICA's dual territory and its specific structural components, established throughout this chapter."
+        ],
+        "neet_pg_takeaway": "Left PICA occlusion (Wallenberg syndrome) produces dysphagia/hoarseness, ipsilateral (left) facial sensory loss, contralateral (right) body sensory loss, ipsilateral ataxia, ipsilateral Horner syndrome, and vertigo \u2014 the crossed sensory pattern specifically reflects the differing crossing points of the spinal trigeminal (face) and spinothalamic (body) pathways at the lateral medullary level.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard vascular neurology references on lateral medullary (Wallenberg) syndrome."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose Wallenberg syndrome from the complete constellation of findings and explain the crossed sensory pattern's localising significance.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_cerebellum_blood_supply_0004",
+      "subject": "Anatomy",
+      "topic": "Cerebellum - Blood Supply",
+      "subtopic": "AICA and SCA territories",
+      "concept": "Cerebellar arterial territories (PICA/AICA/SCA) and PICA occlusion causing lateral medullary (Wallenberg) syndrome",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "How do AICA and SCA occlusion syndromes typically differ in character from PICA occlusion (Wallenberg syndrome)?",
+      "options": [
+        "AICA and SCA occlusion syndromes are generally more limited to cerebellar (and, for AICA, some inner ear) territory, lacking the same rich, multi-system medullary findings (crossed sensory loss, dysphagia, Horner syndrome) that specifically characterise PICA/Wallenberg syndrome",
+        "AICA and SCA occlusion produce an identical clinical picture to PICA occlusion, including the same crossed sensory pattern and dysphagia",
+        "AICA and SCA occlusion syndromes are typically MORE severe and multi-system than PICA occlusion, the reverse of the actual pattern",
+        "AICA and SCA territories do not exist as distinct entities; all cerebellar blood supply is provided exclusively by PICA"
+      ],
+      "correct_answer": "AICA and SCA occlusion syndromes are generally more limited to cerebellar (and, for AICA, some inner ear) territory, lacking the same rich, multi-system medullary findings (crossed sensory loss, dysphagia, Horner syndrome) that specifically characterise PICA/Wallenberg syndrome",
+      "distractor_rationale": {
+        "AICA and SCA occlusion produce an identical clinical picture to PICA occlusion, including the same crossed sensory pattern and dysphagia": "Denies the genuine, significant difference in territory (and therefore clinical presentation) between PICA and the other two cerebellar arteries.",
+        "AICA and SCA occlusion syndromes are typically MORE severe and multi-system than PICA occlusion, the reverse of the actual pattern": "Reverses the actual comparative pattern \u2014 PICA's dual territory specifically makes IT the more multi-system, richly symptomatic occlusion, not AICA or SCA.",
+        "AICA and SCA territories do not exist as distinct entities; all cerebellar blood supply is provided exclusively by PICA": "Denies the well-established, genuine existence of AICA and SCA as separate, distinct arterial territories."
+      },
+      "explanation": {
+        "core_concept": "This comparison completes the full three-artery picture established across this chapter \u2014 recognising that PICA's dual cerebellar-plus-medullary territory makes its occlusion syndrome genuinely richer and more multi-system than AICA or SCA occlusion (which are more purely cerebellar, without this same extensive additional brainstem component) is exactly what makes PICA/Wallenberg syndrome such a favourite, high-yield exam topic relative to the other two.",
+        "why_correct": "AICA and SCA occlusion syndromes are generally more LIMITED, predominantly reflecting their more purely cerebellar territory (plus, for AICA specifically, some inner ear/internal auditory artery-related findings like hearing loss, given AICA's contribution to this territory) \u2014 they lack the same rich constellation of medullary findings (crossed sensory loss, dysphagia/hoarseness from nucleus ambiguus, Horner syndrome from descending sympathetics) that specifically characterises PICA occlusion (Wallenberg syndrome), since AICA and SCA don't share PICA's distinctive additional medullary territory.",
+        "why_others_wrong": {
+          "AICA and SCA occlusion produce an identical clinical picture to PICA occlusion, including the same crossed sensory pattern and dysphagia": "Denies the genuine, significant territorial (and therefore clinical) difference between PICA and the other two arteries.",
+          "AICA and SCA occlusion syndromes are typically MORE severe and multi-system than PICA occlusion, the reverse of the actual pattern": "Reverses the actual comparative relationship \u2014 PICA is specifically the one with the richer, more multi-system occlusion syndrome.",
+          "AICA and SCA territories do not exist as distinct entities; all cerebellar blood supply is provided exclusively by PICA": "Denies the well-established existence of AICA and SCA as genuinely separate, important arterial territories."
+        },
+        "high_yield_facts": [
+          "PICA occlusion (Wallenberg): rich, multi-system syndrome (cerebellar + medullary findings together) \u2014 the classic, most frequently tested cerebellar artery occlusion syndrome.",
+          "AICA/SCA occlusion: more limited, predominantly cerebellar findings (plus some inner ear involvement for AICA specifically) \u2014 genuinely less extensive than PICA's combined territory produces.",
+          "This comparison directly explains why PICA/Wallenberg syndrome receives disproportionate exam attention relative to AICA/SCA occlusion \u2014 its territory simply produces a richer, more instructive, more testable clinical picture."
+        ],
+        "clinical_correlation": "Recognising this comparative difference helps set appropriate clinical expectations when localising a cerebellar stroke \u2014 a presentation with ONLY cerebellar signs (ataxia, dysmetria) without the additional medullary findings should prompt consideration of AICA or SCA territory rather than PICA/Wallenberg syndrome specifically.",
+        "common_confusions": [
+          "Assuming any cerebellar artery occlusion produces the SAME rich, Wallenberg-like multi-system presentation \u2014 this specific, extensive symptom complex is a PICA-territory-specific phenomenon, directly reflecting its unique dual cerebellar-plus-medullary territory, not shared by AICA or SCA."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PICA's dual territory and Wallenberg syndrome (this concept, other questions) \u2014 the direct contrast case for this comparison"
+        ],
+        "exam_traps": [
+          "Don't assume all three cerebellar artery occlusions are clinically interchangeable or equally likely to be tested with the SAME rich symptom complex \u2014 PICA/Wallenberg syndrome specifically deserves the deepest, most detailed understanding given its genuinely distinctive, richer territory."
+        ],
+        "image_clues": null,
+        "memory_aid": "PICA's occlusion tells a whole story (medulla plus cerebellum); AICA and SCA's occlusions tell a shorter, simpler one (mostly just cerebellum).",
+        "other_ways_this_is_tested": [
+          "This comparison completes the full three-artery picture, synthesising the origin, territory, and clinical consequence facts established throughout this chapter."
+        ],
+        "neet_pg_takeaway": "AICA and SCA occlusion syndromes are generally more limited to cerebellar (and, for AICA, some inner ear) territory, lacking the rich, multi-system medullary findings (crossed sensory loss, dysphagia, Horner syndrome) that specifically characterise PICA occlusion/Wallenberg syndrome, given PICA's uniquely extensive dual cerebellar-plus-medullary territory.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, cerebellar vasculature and brainstem stroke syndromes."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Compare the more limited AICA/SCA occlusion syndromes with PICA's richer, multi-system Wallenberg syndrome.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

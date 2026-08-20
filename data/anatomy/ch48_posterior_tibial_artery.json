@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0048",
+    "topic": "Posterior Tibial Artery",
+    "chapter_number": 48,
+    "chapter_file": "data/anatomy/ch48_posterior_tibial_artery.json",
+    "source_years": [
+      2024
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 2,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "mechanism",
+      "association"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The posterior tibial artery, one of the two terminal branches of the popliteal artery (the other being the anterior tibial artery), supplies the posterior and (via its branches) plantar compartments of the leg and foot \u2014 its palpable pulse behind the medial malleolus is a standard, clinically essential peripheral vascular examination point, and its course through the tarsal tunnel makes it (along with the tibial nerve) subject to a recognised entrapment syndrome."
+    },
+    "structure_anatomy": {
+      "origin_and_course": "Arises as one of the two terminal branches of the popliteal artery (at the lower border of popliteus), descends through the posterior compartment of the leg (deep to the soleus/gastrocnemius, between the superficial and deep posterior compartment muscle layers), passes posterior to the medial malleolus within the tarsal tunnel (alongside the tibial nerve and the tendons of tibialis posterior, flexor digitorum longus, and flexor hallucis longus), then divides into the medial and lateral plantar arteries supplying the sole of the foot.",
+      "major_branch": "The fibular (peroneal) artery is the major branch of the posterior tibial artery, arising in the proximal leg and descending along the posterior/lateral aspect to supply the lateral compartment structures and contribute to the lateral ankle's blood supply, running close to but distinct from the posterior tibial artery's own more medial course.",
+      "pulse_landmark": "The posterior tibial pulse is classically palpated posterior to (behind) the medial malleolus \u2014 one of the standard peripheral pulse examination points in the lower limb, alongside the dorsalis pedis pulse (anterior tibial artery's continuation) on the dorsum of the foot."
+    },
+    "clinical": {
+      "peripheral_arterial_disease_assessment": "Palpating the posterior tibial pulse (alongside the dorsalis pedis pulse) is a standard, essential component of peripheral arterial disease assessment \u2014 an absent or diminished posterior tibial pulse, particularly in the context of risk factors (diabetes, smoking, hyperlipidaemia) or symptoms (claudication, non-healing foot wounds), raises concern for significant lower limb arterial insufficiency and directly informs further vascular workup (e.g. ankle-brachial index measurement, Doppler studies).",
+      "tarsal_tunnel_syndrome": "The tibial nerve, accompanying the posterior tibial artery and vein through the tarsal tunnel (posterior to the medial malleolus, beneath the flexor retinaculum), can become entrapped within this confined space \u2014 tarsal tunnel syndrome \u2014 producing burning pain, tingling, and numbness on the SOLE of the foot (the tibial nerve's plantar sensory territory via its terminal medial and lateral plantar nerve branches), classically worsened by prolonged standing or walking, analogous in general mechanism to carpal tunnel syndrome in the upper limb but affecting a different nerve and a different anatomical tunnel."
+    },
+    "related_structures": "The posterior tibial pulse (behind the medial malleolus) and the tibial nerve's close anatomical companionship through the same tarsal tunnel are the two most clinically load-bearing facts in this topic \u2014 one is a routine vascular examination point, the other explains a genuine, recognised nerve entrapment syndrome, both directly reflecting the artery's (and its companion nerve's) shared anatomical course through this specific confined space."
+  },
+  "question_family": [
+    {
+      "family_name": "Posterior Tibial Artery \u2014 Course, Pulse Landmark, and Tarsal Tunnel (4 angles, one concept)",
+      "member_ids": [
+        "anat_posterior_tibial_artery_0001",
+        "anat_posterior_tibial_artery_0002",
+        "anat_posterior_tibial_artery_0003",
+        "anat_posterior_tibial_artery_0004"
+      ],
+      "coverage": "Recall (origin/pulse landmark), clinical vignette (peripheral arterial disease), mechanism (tarsal tunnel syndrome), and association (fibular artery branch) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_posterior_tibial_artery_0001",
+      "subject": "Anatomy",
+      "topic": "Posterior Tibial Artery",
+      "subtopic": "Origin and course",
+      "concept": "Posterior tibial artery course, its palpable pulse landmark, and tarsal tunnel syndrome (shared course with the tibial nerve)",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The posterior tibial artery is a terminal branch of which vessel, and where can its pulse classically be palpated?",
+      "options": [
+        "A terminal branch of the popliteal artery; pulse palpated posterior to the medial malleolus",
+        "A terminal branch of the femoral artery; pulse palpated in the femoral triangle",
+        "A branch of the anterior tibial artery; pulse palpated on the dorsum of the foot",
+        "A terminal branch of the popliteal artery; pulse palpated anterior to the lateral malleolus"
+      ],
+      "correct_answer": "A terminal branch of the popliteal artery; pulse palpated posterior to the medial malleolus",
+      "distractor_rationale": {
+        "A terminal branch of the femoral artery; pulse palpated in the femoral triangle": "The femoral artery gives rise to the popliteal artery further down the limb, and the femoral pulse is palpated in the femoral triangle \u2014 a different vessel and location from the posterior tibial artery's own pulse point.",
+        "A branch of the anterior tibial artery; pulse palpated on the dorsum of the foot": "The anterior tibial artery is the OTHER terminal branch of the popliteal artery (not a parent vessel of the posterior tibial artery), and the dorsum of the foot pulse point (dorsalis pedis) belongs to the anterior tibial artery's continuation, not the posterior tibial artery.",
+        "A terminal branch of the popliteal artery; pulse palpated anterior to the lateral malleolus": "Correctly identifies the parent vessel but incorrectly locates the pulse \u2014 the posterior tibial pulse is specifically POSTERIOR to the MEDIAL malleolus, not anterior to the lateral malleolus."
+      },
+      "explanation": {
+        "core_concept": "The posterior tibial pulse location (behind the medial malleolus) is one of the most routinely, practically important anatomical landmarks in clinical medicine \u2014 a standard component of every lower limb vascular examination, making its precise location worth memorising exactly.",
+        "why_correct": "The posterior tibial artery is one of the two terminal branches of the popliteal artery (the other being the anterior tibial artery), and its pulse is classically palpated posterior to (behind) the medial malleolus, a standard peripheral pulse examination point.",
+        "why_others_wrong": {
+          "A terminal branch of the femoral artery; pulse palpated in the femoral triangle": "The femoral pulse is a separate, more proximal landmark; the femoral artery gives rise to the popliteal artery, not directly to the posterior tibial artery.",
+          "A branch of the anterior tibial artery; pulse palpated on the dorsum of the foot": "Misassigns the parent vessel (anterior tibial artery is the OTHER, sibling terminal branch, not a parent of the posterior tibial artery) and the pulse location (dorsum of foot is the dorsalis pedis/anterior tibial pulse point).",
+          "A terminal branch of the popliteal artery; pulse palpated anterior to the lateral malleolus": "Correct parent vessel, but the pulse location is incorrect \u2014 it's posterior to the MEDIAL (not anterior to the lateral) malleolus."
+        },
+        "high_yield_facts": [
+          "Posterior tibial artery = terminal branch of the popliteal artery (with anterior tibial artery as the sibling branch).",
+          "Posterior tibial PULSE = palpated posterior to the MEDIAL malleolus.",
+          "This pulse point is examined ALONGSIDE the dorsalis pedis pulse (anterior tibial artery's continuation, on the dorsum of the foot) as the two standard distal lower limb pulse examination points."
+        ],
+        "clinical_correlation": "Both the posterior tibial and dorsalis pedis pulses are routinely checked together in peripheral arterial disease assessment \u2014 absence or asymmetry of either pulse is a genuinely important clinical finding directly guiding further vascular workup.",
+        "common_confusions": [
+          "Confusing the posterior tibial pulse's location (behind the medial malleolus) with the dorsalis pedis pulse's location (dorsum of the foot) \u2014 both are standard lower limb pulse points but at genuinely different anatomical positions."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Tarsal tunnel syndrome (this concept, other question) \u2014 the artery's companion nerve traveling through the same anatomical region"
+        ],
+        "exam_traps": [
+          "Don't mix up 'posterior tibial' (behind the medial malleolus) with 'anterior tibial/dorsalis pedis' (front of the ankle/dorsum of foot) pulse locations \u2014 these are two distinct examination points, both routinely checked together."
+        ],
+        "image_clues": null,
+        "memory_aid": "Posterior tibial pulse hides just BEHIND the inner ankle bone (medial malleolus) \u2014 a reliable, standard vascular check point.",
+        "other_ways_this_is_tested": [
+          "This pulse landmark and course fact is the anatomical basis for both the peripheral arterial disease assessment and tarsal tunnel syndrome content covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The posterior tibial artery is a terminal branch of the popliteal artery, with its pulse classically palpated posterior to the medial malleolus \u2014 a standard, essential lower limb vascular examination landmark.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, lower limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the posterior tibial artery's origin (popliteal artery) and its pulse location (posterior to the medial malleolus).",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_posterior_tibial_artery_0002",
+      "subject": "Anatomy",
+      "topic": "Posterior Tibial Artery",
+      "subtopic": "Clinical \u2014 peripheral arterial disease",
+      "concept": "Posterior tibial artery course, its palpable pulse landmark, and tarsal tunnel syndrome (shared course with the tibial nerve)",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 68-year-old diabetic smoker presents with calf pain on walking that resolves with rest (claudication) and a non-healing ulcer on the foot. Examination reveals an absent posterior tibial pulse on the affected side. What does this finding suggest, and why is it clinically significant in this context?",
+      "options": [
+        "Significant peripheral arterial disease affecting the posterior tibial artery's territory, consistent with the claudication and non-healing ulcer described \u2014 directly warranting further vascular assessment (e.g. ankle-brachial index, Doppler studies)",
+        "This finding is a normal anatomical variant present in a large proportion of the population and has no clinical significance in this context",
+        "This finding indicates venous, not arterial, insufficiency, and is unrelated to the patient's claudication symptoms",
+        "An absent posterior tibial pulse specifically confirms acute compartment syndrome, unrelated to peripheral arterial disease"
+      ],
+      "correct_answer": "Significant peripheral arterial disease affecting the posterior tibial artery's territory, consistent with the claudication and non-healing ulcer described \u2014 directly warranting further vascular assessment (e.g. ankle-brachial index, Doppler studies)",
+      "distractor_rationale": {
+        "This finding is a normal anatomical variant present in a large proportion of the population and has no clinical significance in this context": "While an absent posterior tibial pulse CAN occasionally be a normal congenital variant in a small proportion of people, in THIS specific clinical context (risk factors, claudication, non-healing ulcer), it should be treated as clinically significant, not dismissed as an incidental variant.",
+        "This finding indicates venous, not arterial, insufficiency, and is unrelated to the patient's claudication symptoms": "An ABSENT ARTERIAL PULSE specifically indicates reduced/absent arterial flow, not a venous problem \u2014 venous insufficiency doesn't typically abolish arterial pulses, and claudication is a classic ARTERIAL insufficiency symptom.",
+        "An absent posterior tibial pulse specifically confirms acute compartment syndrome, unrelated to peripheral arterial disease": "Compartment syndrome is a different, typically more acute condition with distinct additional findings (severe pain, tense compartments) \u2014 this vignette's chronic claudication pattern and risk factor profile specifically points to peripheral arterial disease instead."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical application of the posterior tibial pulse examination point \u2014 putting together the classic risk factors (diabetes, smoking), symptom (claudication), and complication (non-healing ulcer) of peripheral arterial disease with the confirmatory physical examination finding (absent pulse) at this specific, standard landmark.",
+        "why_correct": "In a patient with classic peripheral arterial disease risk factors (diabetes, smoking) and symptoms (claudication, non-healing ulcer \u2014 both consistent with chronically reduced arterial blood flow), an absent posterior tibial pulse directly confirms significant arterial insufficiency in this vessel's territory, warranting further vascular assessment (ankle-brachial index measurement, Doppler ultrasound) to characterise the severity and guide management, which may include risk factor modification, medical therapy, or revascularisation depending on severity.",
+        "why_others_wrong": {
+          "This finding is a normal anatomical variant present in a large proportion of the population and has no clinical significance in this context": "While pulse variants exist, dismissing this finding as insignificant in a patient with this specific risk factor and symptom profile would be clinically inappropriate.",
+          "This finding indicates venous, not arterial, insufficiency, and is unrelated to the patient's claudication symptoms": "An absent ARTERIAL pulse specifically reflects arterial (not venous) flow reduction, and claudication is itself a classic arterial insufficiency symptom, directly consistent with this finding.",
+          "An absent posterior tibial pulse specifically confirms acute compartment syndrome, unrelated to peripheral arterial disease": "This vignette's chronic symptom pattern and risk factor profile point to peripheral arterial disease, not the distinct, typically acute presentation of compartment syndrome."
+        },
+        "high_yield_facts": [
+          "Absent posterior tibial pulse + claudication + risk factors (diabetes, smoking) + non-healing ulcer = classic peripheral arterial disease presentation.",
+          "This pulse examination is a standard, essential, low-cost bedside test directly informing the need for further vascular workup.",
+          "Non-healing foot ulcers in this context reflect the same underlying reduced arterial perfusion impairing normal wound healing \u2014 a genuinely important, practical clinical consequence of significant arterial insufficiency."
+        ],
+        "clinical_correlation": "This finding directly guides further evaluation (ankle-brachial index, imaging) and management planning (risk factor modification, medical therapy, possible revascularisation), and is a routine, essential part of diabetic foot examination specifically, given diabetics' elevated risk for both peripheral arterial disease and impaired wound healing.",
+        "common_confusions": [
+          "Dismissing an absent pulse finding without considering the FULL clinical context (risk factors, symptoms) \u2014 in an appropriate clinical setting, this finding is genuinely significant and actionable, not something to overlook as incidental."
+        ],
+        "exceptions": [
+          "A small proportion of otherwise healthy individuals do have a congenitally absent posterior tibial pulse as a normal anatomical variant \u2014 but this should be interpreted cautiously and in the FULL clinical context, not assumed by default in a patient with concerning risk factors and symptoms."
+        ],
+        "related_concepts": [
+          "Posterior tibial pulse location (this concept, other question) \u2014 the specific landmark being assessed here"
+        ],
+        "exam_traps": [
+          "Don't reflexively dismiss an absent pulse as 'probably just a variant' when the clinical context (risk factors, symptoms) strongly suggests genuine pathology \u2014 always weigh the finding against the FULL clinical picture."
+        ],
+        "image_clues": null,
+        "memory_aid": "Diabetic smoker, calf pain on walking, foot ulcer, no pulse behind the ankle \u2014 the textbook picture of peripheral arterial disease.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the pulse landmark established in the first question of this chapter to a genuine, high-yield clinical presentation."
+        ],
+        "neet_pg_takeaway": "An absent posterior tibial pulse in a patient with peripheral arterial disease risk factors and symptoms (claudication, non-healing ulcer) confirms significant arterial insufficiency, directly warranting further vascular assessment.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard vascular surgery references on peripheral arterial disease assessment."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Interpret an absent posterior tibial pulse as a finding of significant peripheral arterial disease in an appropriate clinical context.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_posterior_tibial_artery_0003",
+      "subject": "Anatomy",
+      "topic": "Posterior Tibial Artery",
+      "subtopic": "Clinical \u2014 tarsal tunnel syndrome",
+      "concept": "Posterior tibial artery course, its palpable pulse landmark, and tarsal tunnel syndrome (shared course with the tibial nerve)",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "The tibial nerve travels alongside the posterior tibial artery through the tarsal tunnel behind the medial malleolus. What is the anatomical basis for tarsal tunnel syndrome, and what symptoms does it produce?",
+      "options": [
+        "The tibial nerve, confined within the tarsal tunnel (a fixed space beneath the flexor retinaculum, shared with the posterior tibial artery/vein and several tendons), can become entrapped, producing burning pain, tingling, and numbness on the SOLE of the foot",
+        "The posterior tibial ARTERY itself becomes entrapped, causing sole-of-foot numbness through arterial insufficiency rather than nerve compression",
+        "Tarsal tunnel syndrome affects the dorsum (not sole) of the foot, since the tibial nerve supplies only the dorsal foot surface",
+        "This syndrome has no relationship to the tibial nerve or tarsal tunnel and instead reflects a primary muscular process"
+      ],
+      "correct_answer": "The tibial nerve, confined within the tarsal tunnel (a fixed space beneath the flexor retinaculum, shared with the posterior tibial artery/vein and several tendons), can become entrapped, producing burning pain, tingling, and numbness on the SOLE of the foot",
+      "distractor_rationale": {
+        "The posterior tibial ARTERY itself becomes entrapped, causing sole-of-foot numbness through arterial insufficiency rather than nerve compression": "Tarsal tunnel syndrome is specifically a NERVE entrapment syndrome (tibial nerve), not primarily an arterial insufficiency process \u2014 this option misattributes the mechanism.",
+        "Tarsal tunnel syndrome affects the dorsum (not sole) of the foot, since the tibial nerve supplies only the dorsal foot surface": "The tibial nerve (via its terminal medial and lateral plantar nerve branches) specifically supplies the SOLE (plantar surface) of the foot, not the dorsum \u2014 this option reverses the correct sensory territory.",
+        "This syndrome has no relationship to the tibial nerve or tarsal tunnel and instead reflects a primary muscular process": "Denies the well-established, specific nerve entrapment mechanism underlying this genuine, recognised clinical syndrome."
+      },
+      "explanation": {
+        "core_concept": "Tarsal tunnel syndrome directly parallels carpal tunnel syndrome's general mechanism (a peripheral nerve entrapped within a fixed anatomical tunnel alongside other structures) \u2014 recognising this shared, transferable principle, applied here to the tibial nerve and its close anatomical companionship with the posterior tibial vessels through the tarsal tunnel, is what makes this syndrome's mechanism and symptom pattern predictable.",
+        "why_correct": "The tibial nerve travels through the tarsal tunnel \u2014 a fixed anatomical space posterior to the medial malleolus, bounded by the flexor retinaculum, shared with the posterior tibial artery and vein and the tendons of tibialis posterior, flexor digitorum longus, and flexor hallucis longus. Within this confined space, the nerve can become compressed/entrapped (from swelling, a mass, or other space-occupying processes), producing burning pain, tingling, and numbness specifically on the SOLE of the foot \u2014 the tibial nerve's plantar sensory territory via its terminal medial and lateral plantar nerve branches, classically worsened by prolonged standing or walking.",
+        "why_others_wrong": {
+          "The posterior tibial ARTERY itself becomes entrapped, causing sole-of-foot numbness through arterial insufficiency rather than nerve compression": "This is specifically a NERVE (tibial nerve) entrapment syndrome, not primarily an arterial process, despite the artery's anatomical proximity within the same tunnel.",
+          "Tarsal tunnel syndrome affects the dorsum (not sole) of the foot, since the tibial nerve supplies only the dorsal foot surface": "Reverses the tibial nerve's actual sensory territory \u2014 it specifically supplies the PLANTAR (sole) surface via its terminal branches, not the dorsum.",
+          "This syndrome has no relationship to the tibial nerve or tarsal tunnel and instead reflects a primary muscular process": "Denies the well-established, specific tibial nerve entrapment mechanism underlying this genuine syndrome."
+        },
+        "high_yield_facts": [
+          "Tarsal tunnel syndrome = tibial nerve entrapment within the tarsal tunnel (behind the medial malleolus, beneath the flexor retinaculum).",
+          "Symptoms: burning pain, tingling, numbness on the SOLE of the foot (plantar surface) \u2014 the tibial nerve's sensory territory via its terminal branches.",
+          "This directly parallels carpal tunnel syndrome's general mechanism (nerve entrapment within a fixed anatomical tunnel) \u2014 a transferable principle worth recognising across different specific nerve entrapment syndromes."
+        ],
+        "clinical_correlation": "Recognising tarsal tunnel syndrome as a distinct diagnosis (rather than attributing plantar foot symptoms to a more generic or unrelated cause) directly guides appropriate workup (e.g. nerve conduction studies) and management (addressing any identifiable space-occupying cause, supportive measures, or occasionally surgical release of the flexor retinaculum in refractory cases).",
+        "common_confusions": [
+          "Assuming any foot numbness/tingling must reflect a peripheral neuropathy (e.g. diabetic) rather than considering a specific, localised nerve entrapment syndrome like tarsal tunnel syndrome, particularly when symptoms are UNILATERAL and localised to the plantar surface specifically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Posterior tibial artery's shared course through the tarsal tunnel (this concept, other question) \u2014 the anatomical context explaining why the tibial nerve travels through this specific confined space alongside the vessels"
+        ],
+        "exam_traps": [
+          "Don't confuse tarsal tunnel syndrome's PLANTAR (sole) symptom distribution with a dorsal foot symptom pattern \u2014 actively recall that the tibial nerve's terminal branches supply the sole specifically."
+        ],
+        "image_clues": null,
+        "memory_aid": "Tarsal tunnel is the ankle's version of carpal tunnel \u2014 same general squeeze-the-nerve-in-a-tight-space story, different nerve (tibial), different location (behind the medial malleolus).",
+        "other_ways_this_is_tested": [
+          "This mechanism directly builds on the posterior tibial artery's shared anatomical course established in the first question of this chapter, extending it to explain the tibial nerve's own entrapment vulnerability at this same site."
+        ],
+        "neet_pg_takeaway": "Tarsal tunnel syndrome results from tibial nerve entrapment within the tarsal tunnel (shared with the posterior tibial vessels), producing burning pain, tingling, and numbness specifically on the sole of the foot \u2014 directly analogous in mechanism to carpal tunnel syndrome.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic/podiatric references on tarsal tunnel syndrome."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain tarsal tunnel syndrome as tibial nerve entrapment within the tarsal tunnel, producing plantar foot symptoms.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_posterior_tibial_artery_0004",
+      "subject": "Anatomy",
+      "topic": "Posterior Tibial Artery",
+      "subtopic": "Major branch",
+      "concept": "Posterior tibial artery course, its palpable pulse landmark, and tarsal tunnel syndrome (shared course with the tibial nerve)",
+      "question_type": "association",
+      "difficulty": 2,
+      "question": "The posterior tibial artery gives rise to a major branch supplying the lateral compartment structures of the leg and contributing to the lateral ankle's blood supply. What is this branch called?",
+      "options": [
+        "Fibular (peroneal) artery",
+        "Anterior tibial artery",
+        "Dorsalis pedis artery",
+        "Popliteal artery"
+      ],
+      "correct_answer": "Fibular (peroneal) artery",
+      "distractor_rationale": {
+        "Anterior tibial artery": "The OTHER (sibling) terminal branch of the popliteal artery, not a branch of the posterior tibial artery itself.",
+        "Dorsalis pedis artery": "The continuation of the anterior tibial artery onto the dorsum of the foot, not a branch of the posterior tibial artery.",
+        "Popliteal artery": "The PARENT vessel giving rise to both tibial arteries, not a branch arising from the posterior tibial artery."
+      },
+      "explanation": {
+        "core_concept": "The fibular (peroneal) artery's specific relationship to the posterior tibial artery (as its major branch, not a separate sibling vessel) is worth distinguishing clearly from the anterior tibial artery (a genuinely separate, sibling terminal branch of the popliteal artery) \u2014 a common point of confusion given all three vessels' similar lower leg territory.",
+        "why_correct": "The fibular (peroneal) artery is the major branch of the posterior tibial artery, arising in the proximal leg and descending along the posterior/lateral aspect to supply lateral compartment structures and contribute to the lateral ankle's blood supply.",
+        "why_others_wrong": {
+          "Anterior tibial artery": "A separate, sibling terminal branch of the popliteal artery (not a branch OF the posterior tibial artery itself) \u2014 the two tibial arteries arise together from the popliteal artery, they don't branch from each other.",
+          "Dorsalis pedis artery": "The distal continuation of the anterior tibial artery, unrelated to the posterior tibial artery's own branching pattern.",
+          "Popliteal artery": "The parent vessel that gives rise to BOTH tibial arteries \u2014 not a branch arising from the posterior tibial artery."
+        },
+        "high_yield_facts": [
+          "Fibular (peroneal) artery = the major BRANCH of the posterior tibial artery (not a separate sibling vessel like the anterior tibial artery).",
+          "Anterior and posterior tibial arteries are both SIBLING terminal branches of the popliteal artery \u2014 a genuinely different relationship from the fibular artery's branch-of-posterior-tibial status.",
+          "The fibular artery supplies lateral compartment structures, complementing the posterior tibial artery's own posterior/plantar compartment territory."
+        ],
+        "clinical_correlation": "Understanding this branching pattern is relevant to interpreting lower limb vascular imaging and to surgical/interventional planning in the leg, where correctly identifying each specific vessel (anterior tibial, posterior tibial, fibular) matters for accurate diagnosis and treatment.",
+        "common_confusions": [
+          "Assuming the anterior and posterior tibial arteries have a parent-branch relationship to each other \u2014 they're actually SIBLING branches of the SAME parent (popliteal artery), a genuinely different relationship from the fibular artery's true branch-of-posterior-tibial status."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Posterior tibial artery's own origin and course (this concept, other question) \u2014 the parent vessel of this branch"
+        ],
+        "exam_traps": [
+          "Don't confuse 'branch of the posterior tibial artery' (fibular/peroneal artery) with 'sibling branch of the popliteal artery alongside the posterior tibial artery' (anterior tibial artery) \u2014 these are genuinely different relationships."
+        ],
+        "image_clues": null,
+        "memory_aid": "Fibular artery grows OUT of the posterior tibial artery \u2014 a child branch, not a twin sibling like the anterior tibial artery is.",
+        "other_ways_this_is_tested": [
+          "This branching fact completes the full vascular picture of the leg alongside the posterior tibial artery's own course and clinical correlations covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The fibular (peroneal) artery is the major branch of the posterior tibial artery, supplying lateral leg compartment structures \u2014 distinct from the anterior tibial artery, which is a separate, sibling terminal branch of the popliteal artery.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, lower limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the fibular (peroneal) artery as the major branch of the posterior tibial artery, distinct from the sibling anterior tibial artery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

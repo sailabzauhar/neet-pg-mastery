@@ -1,0 +1,567 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0008",
+    "topic": "Pancreas - Histology",
+    "chapter_number": 8,
+    "chapter_file": "data/anatomy/ch08_pancreas_histology.json",
+    "source_years": [
+      2022
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 7,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 3,
+      "L3": 3,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "comparison",
+      "image_based",
+      "clinical_vignette"
+    ],
+    "confidence_notes": [
+      "Islet cell type PROPORTIONS (commonly cited as roughly 70% beta, 20% alpha, 5-10% delta, small remainder PP/F cells) vary somewhat between sources and are approximate population averages rather than fixed values \u2014 the RELATIVE ordering (beta most numerous, alpha second, delta and PP/F smaller minorities) is the more consistently taught and more exam-relevant fact than any single precise percentage."
+    ],
+    "scope_note": "A must-do histology topic bridging Anatomy, Pathology, and Endocrinology (chronic pancreatitis, insulinoma) \u2014 scaled to 7 MCQs covering exocrine structure, endocrine architecture, image recognition, and two major clinical correlations.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The pancreas is a mixed exocrine and endocrine gland \u2014 roughly 85% of its mass is exocrine (serous acinar tissue producing digestive enzymes), with the endocrine component (islets of Langerhans) making up only about 1-2% of the gland by volume, despite its disproportionately large clinical importance.",
+      "classification": "Exocrine portion: a compound tubuloacinar serous gland. Endocrine portion: scattered clusters of hormone-secreting cells (islets), most numerous in the tail of the pancreas."
+    },
+    "structure_anatomy": {
+      "exocrine_acini": "Pyramidal serous acinar cells arranged around a small central lumen, with basophilic rough endoplasmic reticulum concentrated basally (for protein/enzyme synthesis) and eosinophilic zymogen granules concentrated apically (for enzyme storage before secretion) \u2014 the classic polarised appearance of a protein-secreting serous cell.",
+      "centroacinar_cells": "A distinctive, pancreas-specific feature: the initial (intercalated) duct cells extend INTO the centre of the acinus itself, appearing as pale-staining cells within the acinar lumen on histology \u2014 no other exocrine gland in the body has duct cells positioned this way, making centroacinar cells one of the most reliable single features for identifying pancreatic tissue on a slide.",
+      "duct_system": "Intercalated ducts (containing the centroacinar cells) \u2192 intralobular ducts \u2192 interlobular ducts \u2192 main pancreatic duct (duct of Wirsung), with epithelium becoming progressively taller/more columnar toward the main duct. Unlike salivary glands, the pancreas has NO striated ducts at any point in this sequence \u2014 a key comparative histology fact.",
+      "islets_of_langerhans": "Pale-staining, well-vascularised endocrine clusters scattered throughout the exocrine tissue, most numerous in the pancreatic tail. Composed of several cell types distinguishable reliably only by immunohistochemistry or special stains, not by routine H&E: beta cells (insulin, majority ~70%, centrally located within the islet), alpha cells (glucagon, ~20%, peripherally located), delta cells (somatostatin, ~5-10%), and PP/F cells (pancreatic polypeptide, a small minority)."
+    },
+    "clinical": {
+      "chronic_pancreatitis": "Histology shows acinar atrophy, interlobular and periductal fibrosis, chronic inflammatory infiltrate, ductal dilation, and often intraductal calcifications (calculi) \u2014 a progressive, largely irreversible pattern of exocrine tissue loss and replacement fibrosis.",
+      "insulinoma": "A beta-cell tumour of the islets, causing episodic hypoglycaemia (classically fitting Whipple's triad: symptoms of hypoglycaemia, a low blood glucose documented at the time of symptoms, and relief of symptoms with glucose administration) from inappropriate, unregulated insulin secretion.",
+      "glucagonoma": "An alpha-cell tumour causing a distinctive skin finding (necrolytic migratory erythema) alongside mild diabetes and weight loss \u2014 a classic cross-subject (dermatology-endocrinology) pairing worth knowing alongside insulinoma."
+    },
+    "related_structures": "The comparison against the parotid gland (also a purely serous acinar gland) is the most frequently tested histological contrast in this topic \u2014 the parotid HAS striated ducts and LACKS centroacinar cells, the exact reverse pattern from the pancreas, making these two features together a reliable way to distinguish the two glands on a slide even though both are serous."
+  },
+  "question_family": [
+    {
+      "family_name": "Pancreas Histology \u2014 Exocrine Structure",
+      "member_ids": [
+        "anat_pancreas_histology_0001",
+        "anat_pancreas_histology_0002",
+        "anat_pancreas_histology_0003"
+      ],
+      "coverage": "Exocrine-vs-endocrine mass proportion, centroacinar cells, and the duct system (including the pancreas-vs-parotid striated duct comparison) \u2014 the structural foundation of pancreatic histology."
+    },
+    {
+      "family_name": "Pancreas Histology \u2014 Endocrine (Islet) Structure",
+      "member_ids": [
+        "anat_pancreas_histology_0004"
+      ],
+      "coverage": "Islet cell types, their relative proportions, and spatial arrangement within the islet."
+    },
+    {
+      "family_name": "Pancreas Histology \u2014 Recognition and Clinical Correlation",
+      "member_ids": [
+        "anat_pancreas_histology_0005",
+        "anat_pancreas_histology_0006",
+        "anat_pancreas_histology_0007"
+      ],
+      "coverage": "Image-based tissue identification, chronic pancreatitis's histological pattern, and insulinoma as the clinical application of islet cell biology."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_pancreas_histology_0001",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Exocrine vs endocrine proportion",
+      "concept": "Relative mass of exocrine vs endocrine pancreas",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "By mass, which component makes up the large majority of the pancreas?",
+      "options": [
+        "Exocrine acinar tissue",
+        "Islets of Langerhans (endocrine tissue)",
+        "Ductal epithelium alone",
+        "Connective tissue stroma alone"
+      ],
+      "correct_answer": "Exocrine acinar tissue",
+      "distractor_rationale": {
+        "Islets of Langerhans (endocrine tissue)": "Despite their major clinical and physiological importance (insulin, glucagon regulation), the islets make up only about 1-2% of total pancreatic mass \u2014 a small minority, not the bulk of the gland.",
+        "Ductal epithelium alone": "The duct system is a comparatively minor component by mass compared to the acinar tissue it drains.",
+        "Connective tissue stroma alone": "Stroma provides structural support and vasculature but doesn't constitute the bulk of the gland's functional mass, which is dominated by acinar cells."
+      },
+      "explanation": {
+        "core_concept": "There's a useful mismatch worth internalising here: the endocrine pancreas (islets) gets disproportionate clinical attention because of diabetes and islet-cell tumours, but by sheer mass the gland is overwhelmingly exocrine \u2014 a fact that matters for correctly interpreting pancreatic histology slides, where acinar tissue should dominate the field of view with islets appearing as scattered, comparatively small pale clusters.",
+        "why_correct": "Roughly 85% of the pancreas by mass is exocrine acinar tissue, organised into serous acini producing digestive enzymes, with the endocrine islets making up only about 1-2% of the gland.",
+        "why_others_wrong": {
+          "Islets of Langerhans (endocrine tissue)": "A small minority by mass (~1-2%), despite outsized clinical significance.",
+          "Ductal epithelium alone": "A minor structural component relative to the acinar tissue it collects secretions from.",
+          "Connective tissue stroma alone": "Present but not the dominant tissue type by volume in a normal pancreas."
+        },
+        "high_yield_facts": [
+          "Exocrine (acinar) tissue: ~85% of pancreatic mass.",
+          "Endocrine (islets): ~1-2% of pancreatic mass, despite major physiological importance.",
+          "This mismatch is why islets appear as small, scattered, pale clusters against a background of much more abundant, more deeply eosinophilic acinar tissue on a low-power histology slide."
+        ],
+        "clinical_correlation": "This proportion explains why chronic pancreatitis (which primarily damages exocrine acinar tissue) can cause severe malabsorption and exocrine insufficiency while endocrine function (insulin secretion) may remain relatively preserved until later in the disease course \u2014 the exocrine tissue simply has so much more mass to lose function from.",
+        "common_confusions": [
+          "Assuming the islets, because of their outsized clinical importance in diabetes, must also dominate the gland by mass \u2014 the two things (clinical importance and tissue proportion) are not correlated here."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Islet cell types and proportions",
+          "Exocrine acinar structure",
+          "Chronic pancreatitis histology"
+        ],
+        "exam_traps": [
+          "Don't let clinical familiarity with insulin/diabetes bias you toward overestimating how much of the pancreas is actually endocrine tissue on a histology slide."
+        ],
+        "image_clues": null,
+        "memory_aid": "85% exocrine, doing the digestive heavy lifting; 1-2% endocrine, doing the hormonal heavy lifting \u2014 small tissue, big job.",
+        "other_ways_this_is_tested": [
+          "This proportion sets up correct interpretation of the low-power histology image question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "The pancreas is overwhelmingly exocrine by mass (~85% acinar tissue) despite the endocrine islets' major clinical significance \u2014 islets are a small (~1-2%) minority component.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard histology \u2014 Ross and Pawlina's Histology: A Text and Atlas, digestive glands chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the relative mass proportion of exocrine versus endocrine pancreatic tissue.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_histology_0002",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Centroacinar cells",
+      "concept": "Pancreas-specific centroacinar cells",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "On histological examination, pale-staining cells are seen extending into the centre of the pancreatic acinar lumen. What are these cells, and what is their significance?",
+      "options": [
+        "Centroacinar cells \u2014 intercalated duct cells uniquely extending into the acinus, a feature specific to the pancreas among exocrine glands",
+        "Islet beta cells that have migrated into the exocrine acini",
+        "Myoepithelial cells contracting to expel secretions, as seen in salivary glands",
+        "Degenerating acinar cells undergoing apoptosis"
+      ],
+      "correct_answer": "Centroacinar cells \u2014 intercalated duct cells uniquely extending into the acinus, a feature specific to the pancreas among exocrine glands",
+      "distractor_rationale": {
+        "Islet beta cells that have migrated into the exocrine acini": "Islet cells form discrete, separate endocrine clusters and do not migrate into or intermingle with acinar lumens in this way.",
+        "Myoepithelial cells contracting to expel secretions, as seen in salivary glands": "Myoepithelial cells surround acini externally (basally) to aid secretion by contraction \u2014 they are not found within the acinar lumen, and the pancreas's centroacinar cells serve a completely different (ductal, not contractile) role.",
+        "Degenerating acinar cells undergoing apoptosis": "Centroacinar cells are a normal, expected, healthy structural feature of pancreatic histology, not a sign of cell death or pathology."
+      },
+      "explanation": {
+        "core_concept": "Centroacinar cells are the single most reliable identifying feature of pancreatic tissue on a histology slide \u2014 no other gland in the body has intercalated duct cells positioned this way, extending into the very centre of the acinus rather than beginning only after the acinus ends.",
+        "why_correct": "Centroacinar cells are the pale-staining initial (intercalated) duct cells that uniquely extend into the lumen of the pancreatic acinus itself \u2014 elsewhere in the body, intercalated ducts begin only after the acinus, never projecting into it. This makes centroacinar cells a pancreas-specific diagnostic feature on histology.",
+        "why_others_wrong": {
+          "Islet beta cells that have migrated into the exocrine acini": "Islets remain as discrete, separate endocrine clusters; their cells do not migrate into or intermix with acinar lumens.",
+          "Myoepithelial cells contracting to expel secretions, as seen in salivary glands": "Myoepithelial cells are a basal/peripheral feature of some exocrine glands (notably salivary and mammary glands) and are notably ABSENT from the pancreas \u2014 this option describes a feature the pancreas specifically lacks, applied to the wrong location even where it does exist elsewhere.",
+          "Degenerating acinar cells undergoing apoptosis": "Centroacinar cells are a completely normal structural feature, not a marker of cell injury or death."
+        },
+        "high_yield_facts": [
+          "Centroacinar cells = intercalated duct cells extending INTO the acinar lumen \u2014 pancreas-specific among all exocrine glands.",
+          "This is the single fastest way to identify pancreatic tissue on an unlabelled histology slide.",
+          "The pancreas also notably LACKS myoepithelial cells (present in some other exocrine glands like salivary and mammary glands) \u2014 a second distinguishing negative feature worth knowing alongside the centroacinar cell positive feature."
+        ],
+        "clinical_correlation": "Recognising centroacinar cells is practically useful in surgical pathology when identifying pancreatic tissue in a specimen or confirming pancreatic origin of a tumour, since this feature is not replicated by any other organ.",
+        "common_confusions": [
+          "Confusing centroacinar cells with islet cells simply because both are 'special' pancreatic histological features \u2014 they are structurally, functionally, and positionally completely distinct (ductal/exocrine-system cells within acini, versus separate endocrine clusters between acini)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Absence of myoepithelial cells in the pancreas",
+          "Intercalated duct system",
+          "Comparison with parotid gland histology"
+        ],
+        "exam_traps": [
+          "When an image-based question shows pale cells WITHIN an acinar lumen (not surrounding it, not as a separate cluster), this is centroacinar cells and points specifically to pancreatic tissue \u2014 don't confuse this position with islets, which sit BETWEEN acini, not within them."
+        ],
+        "image_clues": null,
+        "memory_aid": "Centroacinar = 'centre of the acinus' \u2014 literally named for exactly where to look for them.",
+        "other_ways_this_is_tested": [
+          "This feature is the primary basis for the comparison question against the parotid gland and the image-recognition question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Centroacinar cells \u2014 intercalated duct cells extending into the acinar lumen \u2014 are unique to the pancreas and the fastest way to identify pancreatic tissue histologically.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard histology \u2014 Ross and Pawlina's Histology: A Text and Atlas, digestive glands chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify centroacinar cells as pancreas-specific intercalated duct cells extending into the acinus.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_histology_0003",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Duct system",
+      "concept": "Absence of striated ducts in the pancreas",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Both the pancreas and the parotid gland are purely serous exocrine glands. Which statement correctly distinguishes their duct systems?",
+      "options": [
+        "The parotid gland has striated ducts (with basal mitochondrial infoldings for ion transport); the pancreas has no striated ducts at any point in its duct system",
+        "The pancreas has striated ducts, while the parotid gland lacks them entirely",
+        "Both glands have an identical duct sequence, including striated ducts, with no meaningful difference",
+        "Neither gland has any ductal system; both secrete directly into surrounding connective tissue"
+      ],
+      "correct_answer": "The parotid gland has striated ducts (with basal mitochondrial infoldings for ion transport); the pancreas has no striated ducts at any point in its duct system",
+      "distractor_rationale": {
+        "The pancreas has striated ducts, while the parotid gland lacks them entirely": "The exact reverse of the correct pairing \u2014 striated ducts are a salivary gland feature (parotid, submandibular, sublingual), specifically absent from the pancreas.",
+        "Both glands have an identical duct sequence, including striated ducts, with no meaningful difference": "Incorrect \u2014 this is precisely the point of difference the question is testing; the two glands' duct systems are not identical.",
+        "Neither gland has any ductal system; both secrete directly into surrounding connective tissue": "Both are exocrine glands with well-developed duct systems draining their secretions to a destination (the parotid to the oral cavity via Stensen's duct, the pancreas to the duodenum via the pancreatic duct) \u2014 neither secretes directly into surrounding tissue."
+      },
+      "explanation": {
+        "core_concept": "Striated ducts and centroacinar cells are the two features that most reliably distinguish pancreas from parotid on histology, and they run in OPPOSITE directions between the two glands \u2014 the parotid has striated ducts but no centroacinar cells, while the pancreas has centroacinar cells but no striated ducts \u2014 making this comparison a clean, symmetric, and frequently tested pairing.",
+        "why_correct": "Striated ducts, named for the basal striations created by infolded plasma membrane with associated mitochondria (an ion-transport adaptation that modifies the salt content of secretions), are a feature of the salivary gland duct system, including the parotid. The pancreatic duct system \u2014 intercalated ducts (with centroacinar cells) \u2192 intralobular \u2192 interlobular \u2192 main pancreatic duct \u2014 has NO striated duct segment at any point.",
+        "why_others_wrong": {
+          "The pancreas has striated ducts, while the parotid gland lacks them entirely": "Reverses the correct assignment \u2014 striated ducts belong to the parotid (and other salivary glands), not the pancreas.",
+          "Both glands have an identical duct sequence, including striated ducts, with no meaningful difference": "Denies a real and specifically testable difference between the two duct systems.",
+          "Neither gland has any ductal system; both secrete directly into surrounding connective tissue": "Both glands are clearly ducted exocrine glands with defined duct systems draining to a specific destination \u2014 this option misdescribes basic exocrine gland organisation for both."
+        },
+        "high_yield_facts": [
+          "Parotid gland: HAS striated ducts, LACKS centroacinar cells.",
+          "Pancreas: LACKS striated ducts, HAS centroacinar cells.",
+          "This exact opposite pairing is the standard way examiners test whether you can distinguish these two purely serous glands on histology."
+        ],
+        "clinical_correlation": "This distinction matters practically in histopathology when identifying the tissue of origin of a serous-appearing gland on a slide, particularly in the context of tumours or biopsies where gross location isn't immediately obvious from the specimen alone.",
+        "common_confusions": [
+          "Assuming that because both glands are 'purely serous' and structurally similar at the acinar level, their duct systems must also be similar \u2014 the acinar similarity does NOT extend to the duct system, which is the key discriminating feature."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Centroacinar cells (pancreas-specific)",
+          "Myoepithelial cells (present in parotid, absent in pancreas)",
+          "Salivary gland duct system overview"
+        ],
+        "exam_traps": [
+          "When distinguishing pancreas from parotid on a slide, check BOTH features together (centroacinar cells present/absent AND striated ducts present/absent) \u2014 a slide showing neither feature clearly might require looking at additional clues (islets for pancreas, or duct calibre) rather than assuming based on incomplete information."
+        ],
+        "image_clues": null,
+        "memory_aid": "Parotid STRIPES (striated ducts) but has no CENTRE cells; Pancreas has CENTRE cells (centroacinar) but no STRIPES.",
+        "other_ways_this_is_tested": [
+          "This comparison directly complements the centroacinar cell question and sets up the image-recognition question elsewhere in this set, which relies on both features together."
+        ],
+        "neet_pg_takeaway": "Parotid gland: striated ducts present, centroacinar cells absent. Pancreas: striated ducts absent, centroacinar cells present \u2014 an exact opposite pairing worth memorising together.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard comparative histology \u2014 Ross and Pawlina's Histology: A Text and Atlas, exocrine gland comparison."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish the pancreatic and parotid duct systems by the presence or absence of striated ducts.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_histology_0004",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Islet cell types",
+      "concept": "Relative proportions and locations of islet cell types",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Within a typical islet of Langerhans, which cell type is both the most numerous and characteristically located centrally within the islet?",
+      "options": [
+        "Beta cells (insulin)",
+        "Alpha cells (glucagon)",
+        "Delta cells (somatostatin)",
+        "PP/F cells (pancreatic polypeptide)"
+      ],
+      "correct_answer": "Beta cells (insulin)",
+      "distractor_rationale": {
+        "Alpha cells (glucagon)": "The second most numerous islet cell type (roughly 20%), but characteristically located peripherally within the islet, not centrally, and not the majority population.",
+        "Delta cells (somatostatin)": "A smaller minority population (roughly 5-10%), neither the most numerous nor centrally located as the dominant feature.",
+        "PP/F cells (pancreatic polypeptide)": "The smallest minority population among the major islet cell types, not a majority or centrally-dominant population."
+      },
+      "explanation": {
+        "core_concept": "Islet architecture follows a fairly consistent pattern \u2014 a beta-cell-dominated core surrounded by a rim of alpha and delta cells \u2014 and knowing both the relative abundance AND the spatial arrangement together is what lets you correctly interpret an immunohistochemically-stained islet image, not just recite percentages in isolation.",
+        "why_correct": "Beta cells, which produce insulin, are both the most numerous islet cell type (commonly cited as roughly 70% of islet cells) and are characteristically located centrally within the islet, with the other cell types arranged more peripherally around this beta-cell core.",
+        "why_others_wrong": {
+          "Alpha cells (glucagon)": "The second most abundant type (~20%) but peripherally, not centrally, located \u2014 doesn't match either criterion (most numerous AND central) being asked for together.",
+          "Delta cells (somatostatin)": "A smaller minority (~5-10%), neither dominant in number nor central in typical position.",
+          "PP/F cells (pancreatic polypeptide)": "The smallest of the commonly described populations, not matching either the numerical majority or central-location criteria."
+        },
+        "high_yield_facts": [
+          "Beta cells: most numerous (~70%), CENTRAL location, secrete insulin.",
+          "Alpha cells: second most numerous (~20%), PERIPHERAL location, secrete glucagon.",
+          "Delta cells: smaller minority (~5-10%), secrete somatostatin (paracrine inhibitor of both alpha and beta cell secretion).",
+          "PP/F cells: smallest minority, secrete pancreatic polypeptide.",
+          "H&E staining alone cannot reliably distinguish these cell types \u2014 immunohistochemistry or special stains are needed for definitive identification."
+        ],
+        "clinical_correlation": "This central-beta/peripheral-alpha architecture is thought to support paracrine regulation within the islet (e.g., insulin from central beta cells influencing peripheral alpha cell glucagon secretion) \u2014 a structural arrangement with genuine functional significance, not just a static anatomical curiosity.",
+        "common_confusions": [
+          "Memorising the percentages without the spatial arrangement, or vice versa \u2014 exam questions (and real islet images) often test both together, since a stained image showing a central population is a strong visual clue pointing to beta cells even before considering proportions."
+        ],
+        "exceptions": [
+          "Islet cell type proportions and precise architecture can vary somewhat between the pancreatic head/body and tail, and some sources describe additional minor cell types beyond the four major ones \u2014 the core teaching points (beta-central-majority, alpha-peripheral-second) hold across sources even where finer detail varies."
+        ],
+        "related_concepts": [
+          "Insulinoma (beta cell tumour)",
+          "Glucagonoma (alpha cell tumour)",
+          "Somatostatin's paracrine inhibitory role"
+        ],
+        "exam_traps": [
+          "Don't assume the 'central' cell type must always be alpha simply because glucagon is often discussed prominently \u2014 beta cells, not alpha, occupy the central position in a normal islet."
+        ],
+        "image_clues": null,
+        "memory_aid": "Beta cells are in the middle of the party (central, majority) \u2014 insulin is the main event.",
+        "other_ways_this_is_tested": [
+          "This spatial/proportional architecture underlies the insulinoma clinical vignette elsewhere in this set, which specifically involves the majority, centrally-located beta cell population."
+        ],
+        "neet_pg_takeaway": "Beta cells (insulin) are both the most numerous (~70%) and centrally located islet cell type \u2014 alpha (glucagon, peripheral, ~20%), delta (somatostatin, ~5-10%), and PP/F cells make up the remainder.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard endocrine histology \u2014 Ross and Pawlina's Histology: A Text and Atlas, endocrine pancreas section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify beta cells as the most numerous and centrally located islet cell type, and know the relative arrangement of the other islet cell types.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_histology_0005",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Image-based identification",
+      "concept": "Distinguishing pancreatic exocrine tissue, islets, and centroacinar cells on a micrograph",
+      "question_type": "image_based",
+      "difficulty": 2,
+      "question": "[Image: H&E-stained pancreatic tissue section showing abundant deeply eosinophilic acinar tissue arranged in rounded clusters, a pale-staining rounded cluster of cells with a rich capillary network embedded among the acini, and pale cells visible within the centre of several acinar lumens.] Which THREE features, taken together, confirm this is pancreatic tissue rather than another serous gland?",
+      "options": [
+        "Serous acini + a pale, well-vascularised islet of Langerhans + centroacinar cells within the acinar lumens",
+        "Serous acini + striated ducts + myoepithelial cells",
+        "Mucous acini + a fibrous capsule + numerous lymphoid follicles",
+        "Serous demilunes + striated ducts + a well-defined capsule with septa"
+      ],
+      "correct_answer": "Serous acini + a pale, well-vascularised islet of Langerhans + centroacinar cells within the acinar lumens",
+      "distractor_rationale": {
+        "Serous acini + striated ducts + myoepithelial cells": "Striated ducts and myoepithelial cells are salivary gland features specifically ABSENT from the pancreas \u2014 their presence would actually argue AGAINST pancreatic tissue, not confirm it.",
+        "Mucous acini + a fibrous capsule + numerous lymphoid follicles": "The pancreas has serous, not mucous, acini \u2014 this option starts from an incorrect acinar type and adds features (prominent lymphoid follicles) not characteristic of normal pancreatic histology.",
+        "Serous demilunes + striated ducts + a well-defined capsule with septa": "Serous demilunes (crescent-shaped serous caps on mucous acini) are a feature of mixed seromucous glands like the submandibular gland, not the purely serous pancreas \u2014 and striated ducts are again a salivary, not pancreatic, feature."
+      },
+      "explanation": {
+        "core_concept": "Correctly reading a pancreatic histology image means recognising three things together \u2014 the abundant serous acinar background, the scattered pale islets, and the pancreas-specific centroacinar cells \u2014 rather than relying on any single feature alone, since acinar tissue by itself looks similar to other serous glands.",
+        "why_correct": "The combination described \u2014 deeply eosinophilic serous acini (the abundant exocrine background), a separate pale-staining, richly vascularised cluster (an islet of Langerhans, providing the endocrine component), and pale cells specifically WITHIN acinar lumens (centroacinar cells, the pancreas-specific ductal feature) \u2014 together confirm pancreatic tissue. No other gland combines all three features this way.",
+        "why_others_wrong": {
+          "Serous acini + striated ducts + myoepithelial cells": "Both striated ducts and myoepithelial cells are features the pancreas specifically LACKS \u2014 their presence in an image would point toward a salivary gland (or another myoepithelial-containing gland) instead.",
+          "Mucous acini + a fibrous capsule + numerous lymphoid follicles": "Starts from the wrong acinar type (pancreas is serous, not mucous) and includes features not characteristic of normal pancreatic tissue.",
+          "Serous demilunes + striated ducts + a well-defined capsule with septa": "Serous demilunes belong to mixed seromucous glands, not the purely serous pancreas, and striated ducts again point away from pancreatic tissue."
+        },
+        "high_yield_facts": [
+          "Confirm pancreatic tissue using THREE features together: serous acini + islets (pale, vascular clusters) + centroacinar cells (pale cells within acinar lumens).",
+          "The ABSENCE of striated ducts and myoepithelial cells is just as diagnostically useful as the presence of centroacinar cells and islets \u2014 a slide showing striated ducts should make you reconsider a pancreas diagnosis.",
+          "Islets appear pale relative to surrounding acinar tissue because they lack the deeply eosinophilic zymogen granules that give acinar cells their staining intensity."
+        ],
+        "clinical_correlation": "This same combination of features is exactly what a pathologist uses to confirm pancreatic origin of a tissue sample, distinguish normal pancreas from adjacent structures during surgical margin assessment, or identify residual normal pancreatic tissue at the edge of a tumour resection.",
+        "common_confusions": [
+          "Relying on just ONE feature (e.g., 'I see acini, so it must be pancreas') without checking for the absence of salivary-gland-specific features (striated ducts, myoepithelial cells) that would argue against that conclusion."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Parotid gland histology (contrast case)",
+          "Chronic pancreatitis histological changes (a pathological variation on this normal picture)",
+          "Islet cell immunohistochemistry"
+        ],
+        "exam_traps": [
+          "Don't assume 'serous acini alone' is sufficient to identify pancreatic tissue in an image-based question \u2014 the parotid gland ALSO has purely serous acini, so the additional features (centroacinar cells present, striated ducts absent, islets present) are what actually clinch pancreatic identification."
+        ],
+        "image_clues": "Key visual clues: (1) uniform, deeply eosinophilic acinar clusters; (2) at least one paler, richly vascularised rounded cluster distinct from the acini (an islet); (3) pale cells visible WITHIN some acinar centres, not just surrounding them (centroacinar cells).",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This image-recognition question directly synthesises the centroacinar cell, islet cell type, and pancreas-vs-parotid comparison questions from elsewhere in this set into one integrated visual task."
+        ],
+        "neet_pg_takeaway": "Confirm pancreatic tissue on a slide using all three features together: serous acini + islets + centroacinar cells \u2014 and the deliberate ABSENCE of striated ducts and myoepithelial cells reinforces the diagnosis.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard histology atlas images \u2014 Ross and Pawlina's Histology: A Text and Atlas, digestive glands chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, histologically accurate H&E pancreas micrograph or schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify pancreatic tissue on a histology image by the combined presence of serous acini, islets, and centroacinar cells.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_histology_0006",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Clinical \u2014 chronic pancreatitis",
+      "concept": "Histological changes in chronic pancreatitis",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A pancreatic biopsy from a patient with long-standing chronic pancreatitis shows loss of acinar tissue, replacement fibrosis extending between lobules, dilated ducts, and scattered intraductal calcified deposits. Which additional histological feature would be the LEAST expected finding in this specimen?",
+      "options": [
+        "Well-preserved, normal-appearing islets of Langerhans in normal numbers throughout the specimen",
+        "Chronic inflammatory cell infiltrate within the fibrotic stroma",
+        "Ductal epithelial hyperplasia adjacent to areas of obstruction",
+        "Relative sparing of islets compared to the more severely affected exocrine tissue, at least early in the disease course"
+      ],
+      "correct_answer": "Well-preserved, normal-appearing islets of Langerhans in normal numbers throughout the specimen",
+      "distractor_rationale": {
+        "Chronic inflammatory cell infiltrate within the fibrotic stroma": "An expected, classic component of chronic pancreatitis histology \u2014 ongoing or recurrent inflammation is part of the disease process, not something absent.",
+        "Ductal epithelial hyperplasia adjacent to areas of obstruction": "A recognised reactive change seen in chronic pancreatitis, particularly near obstructed or dilated ducts \u2014 an expected finding, not an unexpected one.",
+        "Relative sparing of islets compared to the more severely affected exocrine tissue, at least early in the disease course": "This IS the expected pattern \u2014 islets tend to be relatively preserved, especially early on, even as exocrine acinar tissue is progressively destroyed and replaced by fibrosis \u2014 making this a correct, expected description rather than the least-expected finding being asked for."
+      },
+      "explanation": {
+        "core_concept": "This question specifically tests whether the exocrine-predominant destruction pattern of chronic pancreatitis has been understood, by asking what would be LEAST expected \u2014 and 'islets in completely normal numbers throughout' actually somewhat undersells how advanced chronic pancreatitis typically does eventually affect the endocrine component too, even though early relative sparing is real.",
+        "why_correct": "While islets are often relatively preserved EARLY in chronic pancreatitis compared to the exocrine tissue, describing them as 'well-preserved, normal-appearing, in NORMAL NUMBERS' in a specimen already showing significant established changes (extensive fibrosis, ductal dilation, calcifications \u2014 i.e., advanced disease) is the least consistent finding, since progressive chronic pancreatitis eventually does reduce islet mass and can lead to pancreatogenic (type 3c) diabetes as endocrine tissue is also lost over time, alongside the already-described exocrine destruction.",
+        "why_others_wrong": {
+          "Chronic inflammatory cell infiltrate within the fibrotic stroma": "A core, expected feature of chronic pancreatitis \u2014 inflammation driving the ongoing fibrotic process is part of the basic disease definition.",
+          "Ductal epithelial hyperplasia adjacent to areas of obstruction": "A recognised reactive histological change in chronic pancreatitis, particularly relevant near obstructed/dilated ducts \u2014 an expected, not unexpected, finding.",
+          "Relative sparing of islets compared to the more severely affected exocrine tissue, at least early in the disease course": "Correctly describes the EARLY disease pattern (which is a real, expected phenomenon) rather than describing something inconsistent with the vignette \u2014 this option is actually accurate for early disease, making it a poor answer to a question asking for the LEAST expected finding in an ADVANCED specimen."
+        },
+        "high_yield_facts": [
+          "Chronic pancreatitis histology: acinar atrophy, interlobular/periductal fibrosis, chronic inflammation, ductal dilation, intraductal calcification.",
+          "Islets are relatively spared EARLY in the disease relative to exocrine tissue, but advanced disease does eventually affect endocrine function too, producing pancreatogenic (type 3c) diabetes in a meaningful proportion of long-standing cases.",
+          "This exocrine-predominant-but-not-exclusive damage pattern is why chronic pancreatitis often presents with malabsorption/steatorrhea (exocrine insufficiency) before or alongside diabetes (endocrine insufficiency), rather than the two appearing simultaneously from disease onset."
+        ],
+        "clinical_correlation": "Recognising that advanced chronic pancreatitis can eventually cause type 3c (pancreatogenic) diabetes \u2014 a distinct category from type 1 or type 2 diabetes \u2014 is clinically important because its management differs somewhat (e.g., these patients often need enzyme replacement alongside glucose management, and have distinct risk profiles for treatment-related hypoglycaemia).",
+        "common_confusions": [
+          "Treating 'islets are relatively spared in chronic pancreatitis' as an absolute, disease-stage-independent rule rather than recognising it as most true EARLY in the disease, with progressive endocrine involvement as fibrosis advances \u2014 the vignette specifically describes ADVANCED changes, which should shift expectations accordingly."
+        ],
+        "exceptions": [
+          "The degree and timing of endocrine involvement varies considerably between chronic pancreatitis aetiologies (e.g., alcohol-related vs hereditary vs autoimmune) \u2014 the general exocrine-before-endocrine pattern holds across most cases but isn't perfectly uniform."
+        ],
+        "related_concepts": [
+          "Type 3c (pancreatogenic) diabetes",
+          "Acute vs chronic pancreatitis histology (contrast)",
+          "Pancreatic calcifications on imaging"
+        ],
+        "exam_traps": [
+          "This 'least expected finding' question format requires checking each option against the SPECIFIC severity/stage described in the vignette, not just against chronic pancreatitis as a general disease category \u2014 a technically-true-early-disease statement can still be the best answer to 'least expected' if the vignette describes advanced disease."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This clinical vignette builds directly on the normal histology (acini, islets, ducts) established in the earlier questions of this set, applying that baseline to interpret a pathological specimen."
+        ],
+        "neet_pg_takeaway": "Chronic pancreatitis progressively destroys exocrine tissue (fibrosis, atrophy, ductal changes, calcification) with islets relatively spared early \u2014 but advanced disease eventually affects endocrine tissue too, so 'completely normal islets' in an advanced specimen is the least expected finding.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard pathology teaching \u2014 Robbins and Cotran Pathologic Basis of Disease, pancreas chapter."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Describe the histological changes of chronic pancreatitis and the typical timing of exocrine versus endocrine tissue involvement.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_pancreas_histology_0007",
+      "subject": "Anatomy",
+      "topic": "Pancreas - Histology",
+      "subtopic": "Clinical \u2014 insulinoma",
+      "concept": "Beta-cell tumour and Whipple's triad",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 45-year-old woman has recurrent episodes of confusion and sweating relieved promptly by eating, with a documented blood glucose of 40 mg/dL during one such episode. Imaging reveals a small, well-vascularised pancreatic tail mass. Which islet cell type is this tumour most likely composed of?",
+      "options": [
+        "Beta cells",
+        "Alpha cells",
+        "Delta cells",
+        "PP/F cells"
+      ],
+      "correct_answer": "Beta cells",
+      "distractor_rationale": {
+        "Alpha cells": "An alpha-cell tumour (glucagonoma) causes hyperglycaemia and a distinctive skin rash (necrolytic migratory erythema), not the hypoglycaemic episodes described here.",
+        "Delta cells": "A delta-cell tumour (somatostatinoma) classically causes a triad of diabetes, gallstones, and steatorrhea from somatostatin's broad inhibitory effects \u2014 not episodic hypoglycaemia.",
+        "PP/F cells": "PPomas are often clinically silent or cause vague abdominal symptoms, without the specific hypoglycaemic pattern described here."
+      },
+      "explanation": {
+        "core_concept": "This vignette is a direct clinical application of the islet cell type/hormone pairing established earlier in this set \u2014 recognising Whipple's triad and connecting it to insulin's hypoglycaemic effect is what identifies the tumour's cell of origin without needing to see the histology directly.",
+        "why_correct": "Recurrent neuroglycopenic and adrenergic symptoms (confusion, sweating) relieved by eating, with a documented low glucose during symptoms, is Whipple's triad \u2014 the classic presentation of an insulinoma, a beta-cell tumour causing inappropriate, unregulated insulin secretion and resultant hypoglycaemia. Insulinomas are typically small, well-vascularised, and can occur anywhere in the pancreas including the tail.",
+        "why_others_wrong": {
+          "Alpha cells": "Alpha-cell tumours (glucagonomas) cause the opposite metabolic picture \u2014 mild diabetes/hyperglycaemia \u2014 plus necrolytic migratory erythema, not hypoglycaemic episodes.",
+          "Delta cells": "Somatostatinomas present with a distinct triad (diabetes, gallstones, steatorrhea) unrelated to the hypoglycaemic pattern in this vignette.",
+          "PP/F cells": "PPomas typically lack a specific hormonal hypersecretion syndrome matching this presentation."
+        },
+        "high_yield_facts": [
+          "Insulinoma = beta-cell tumour, classic presentation is Whipple's triad: hypoglycaemic symptoms + documented low glucose during symptoms + relief with glucose.",
+          "Most insulinomas are small, benign, solitary, and well-vascularised \u2014 they can be difficult to localise on standard imaging despite being hypervascular.",
+          "Contrast with glucagonoma (alpha cell): hyperglycaemia + necrolytic migratory erythema + weight loss \u2014 essentially the metabolic and clinical opposite of insulinoma."
+        ],
+        "clinical_correlation": "Confirming an insulinoma diagnosis in practice typically involves a supervised fasting test demonstrating inappropriately elevated insulin (and C-peptide) levels at the time of hypoglycaemia, since imaging alone can miss small tumours \u2014 the biochemical confirmation of inappropriate insulin secretion is what definitively links the clinical picture to the beta-cell origin.",
+        "common_confusions": [
+          "Jumping to 'pancreatic tumour' generically without working through which specific hormone/cell type would explain the SPECIFIC clinical picture described (hypoglycaemia specifically implicates excess insulin, therefore beta cells, not just 'a pancreatic tumour' in general)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Glucagonoma (alpha cell, contrast case)",
+          "Somatostatinoma (delta cell)",
+          "Whipple's triad as a diagnostic framework"
+        ],
+        "exam_traps": [
+          "Don't let 'pancreatic tail mass' alone drive the answer \u2014 the tail location doesn't specify cell type (all islet cell types can theoretically arise anywhere islets are found); it's the HORMONAL/METABOLIC clinical picture (hypoglycaemia here) that identifies the specific cell type."
+        ],
+        "image_clues": null,
+        "memory_aid": "Whipple's triad \u2192 think insulin \u2192 think beta cells \u2192 think insulinoma.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the islet cell type/hormone/location facts established in the direct-recall question on islet architecture earlier in this set."
+        ],
+        "neet_pg_takeaway": "Whipple's triad (hypoglycaemic symptoms + documented low glucose + relief with glucose) points to an insulinoma \u2014 a beta-cell tumour \u2014 distinguishing it from alpha-cell (glucagonoma), delta-cell (somatostatinoma), and PP-cell tumours by their very different clinical/metabolic pictures.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard endocrinology \u2014 Harrison's Principles of Internal Medicine, pancreatic neuroendocrine tumours section."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2022
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose insulinoma from Whipple's triad and identify beta cells as its cell of origin, contrasting with other islet cell tumours.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

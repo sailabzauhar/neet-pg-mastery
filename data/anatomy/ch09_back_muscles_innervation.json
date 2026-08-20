@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0009",
+    "topic": "Back Muscles - Innervation",
+    "chapter_number": 9,
+    "chapter_file": "data/anatomy/ch09_back_muscles_innervation.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 3,
+      "L3": 1,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "conceptual",
+      "exception",
+      "direct_recall",
+      "clinical_vignette",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "scope_note": "A must-do topic organised around one powerful, exception-light rule (function predicts nerve supply) plus one genuine, well-known exception (trapezius/CN XI) and a real clinical application (medial branch blocks) \u2014 scaled to 5 MCQs that cover the organizing principle, its application, its exception, and visual recognition, rather than padding with repetitive individual-muscle recall questions.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The muscles of the back are divided into two functionally and developmentally distinct groups with completely different nerve supplies: extrinsic (superficial) back muscles, which act on the upper limb and are supplied by ventral rami (anterior primary rami) of spinal nerves, and intrinsic (deep, 'true') back muscles, which act on the vertebral column itself and are supplied exclusively by dorsal rami (posterior primary rami).",
+      "classification": "Extrinsic back muscles are further split into a superficial group (trapezius, latissimus dorsi \u2014 supplied by cranial nerve XI and a plexus branch respectively, not typical dorsal rami) and an intermediate group (levator scapulae, rhomboids \u2014 supplied by plexus branches). Intrinsic back muscles form three layers (superficial/erector spinae, intermediate/transversospinalis, deep/short segmental muscles), all dorsal-rami-supplied."
+    },
+    "structure_anatomy": {
+      "extrinsic_superficial": "Trapezius \u2014 supplied by the spinal accessory nerve (CN XI), with proprioceptive contribution from C3-C4 ventral rami. Latissimus dorsi \u2014 supplied by the thoracodorsal nerve (C6-C8), a branch of the posterior cord of the brachial plexus.",
+      "extrinsic_intermediate": "Levator scapulae \u2014 supplied by the dorsal scapular nerve (C5) and direct branches from C3-C4. Rhomboid major and minor \u2014 supplied by the dorsal scapular nerve (C4-C5).",
+      "intrinsic_true_back_muscles": "ALL intrinsic back muscles \u2014 including erector spinae (iliocostalis, longissimus, spinalis), transversospinalis group (semispinalis, multifidus, rotatores), and the short segmental muscles (interspinales, intertransversarii) \u2014 are supplied by the dorsal rami of spinal nerves, at the corresponding segmental level, with no exceptions.",
+      "key_rule": "The single organizing rule for this entire topic: if a muscle moves the vertebral column itself (extension, lateral flexion of the trunk), it is intrinsic and dorsal-rami-supplied. If a muscle primarily moves the upper limb/scapula (even though it happens to attach to the back), it is extrinsic and supplied by ventral rami or plexus branches, NOT dorsal rami."
+    },
+    "clinical": {
+      "surgical_relevance": "During posterior spinal surgery (e.g., laminectomy, spinal fusion), the dorsal rami supplying the intrinsic back muscles can be at risk \u2014 understanding that these muscles are dorsal-rami-supplied (not ventral-rami-supplied like most other muscles the surgeon might reflexively expect) is directly relevant to avoiding iatrogenic denervation.",
+      "back_pain_correlation": "Facet joint and paraspinal muscle pain often involves the medial branch of the dorsal ramus at the corresponding level \u2014 medial branch blocks (targeting dorsal rami specifically) are a recognised diagnostic and therapeutic procedure for facet-joint-mediated back pain, directly built on this innervation pattern."
+    },
+    "related_structures": "The extrinsic-vs-intrinsic, ventral-rami-vs-dorsal-rami distinction is the single most tested organizing concept in this topic \u2014 nearly every question either directly tests this rule or tests a specific muscle's supply as an application of it."
+  },
+  "question_family": [
+    {
+      "family_name": "Back Muscles \u2014 The Organizing Rule",
+      "member_ids": [
+        "anat_back_muscles_innervation_0001"
+      ],
+      "coverage": "The function-over-location principle that predicts nerve supply for any back muscle."
+    },
+    {
+      "family_name": "Back Muscles \u2014 Extrinsic Muscle Supply",
+      "member_ids": [
+        "anat_back_muscles_innervation_0002"
+      ],
+      "coverage": "Trapezius's cranial nerve (CN XI) exception within the extrinsic group."
+    },
+    {
+      "family_name": "Back Muscles \u2014 Intrinsic Muscle Supply and Clinical Application",
+      "member_ids": [
+        "anat_back_muscles_innervation_0003",
+        "anat_back_muscles_innervation_0004"
+      ],
+      "coverage": "The uniform dorsal rami supply to all intrinsic back muscles, and its direct clinical application in medial branch blocks for facet joint pain."
+    },
+    {
+      "family_name": "Back Muscles \u2014 Layered Dissection Recognition",
+      "member_ids": [
+        "anat_back_muscles_innervation_0005"
+      ],
+      "coverage": "Visual identification of each muscle layer and its corresponding nerve supply in a superficial-to-deep dissection sequence."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_back_muscles_innervation_0001",
+      "subject": "Anatomy",
+      "topic": "Back Muscles - Innervation",
+      "subtopic": "Organizing rule",
+      "concept": "Dorsal vs ventral rami supply to back muscles",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "What single rule most reliably predicts whether a given back muscle is supplied by dorsal rami or by ventral rami/plexus branches?",
+      "options": [
+        "If the muscle acts on the vertebral column itself, it is dorsal-rami-supplied (intrinsic); if it primarily acts on the upper limb/scapula, it is supplied by ventral rami or plexus branches (extrinsic), regardless of its position on the back",
+        "Any muscle located superficially on the back is dorsal-rami-supplied, while deep muscles are ventral-rami-supplied",
+        "All back muscles, regardless of function, are supplied by ventral rami",
+        "All back muscles, regardless of function, are supplied by dorsal rami"
+      ],
+      "correct_answer": "If the muscle acts on the vertebral column itself, it is dorsal-rami-supplied (intrinsic); if it primarily acts on the upper limb/scapula, it is supplied by ventral rami or plexus branches (extrinsic), regardless of its position on the back",
+      "distractor_rationale": {
+        "Any muscle located superficially on the back is dorsal-rami-supplied, while deep muscles are ventral-rami-supplied": "Gets the logic backwards on a technicality that matters: position (superficial vs deep) is NOT the determining factor \u2014 trapezius and latissimus dorsi are superficial but ventral-rami/plexus-supplied, while some intrinsic (dorsal-rami) muscles lie in intermediate or deep layers. Function, not depth, is the reliable predictor.",
+        "All back muscles, regardless of function, are supplied by ventral rami": "Overgeneralizes \u2014 the entire intrinsic (true) back muscle group is specifically dorsal-rami-supplied, a major exception this option ignores entirely.",
+        "All back muscles, regardless of function, are supplied by dorsal rami": "Overgeneralizes in the opposite direction \u2014 trapezius, latissimus dorsi, levator scapulae, and rhomboids are all located on the back but are NOT dorsal-rami-supplied."
+      },
+      "explanation": {
+        "core_concept": "This is the single fact that makes the entire back-muscle-innervation topic learnable as a system rather than a disconnected list \u2014 function (what the muscle actually moves) predicts nerve supply far more reliably than location (where the muscle sits) does.",
+        "why_correct": "Muscles whose job is to move the vertebral column (extension, lateral flexion \u2014 the intrinsic/'true' back muscles: erector spinae, transversospinalis group, short segmental muscles) are supplied by dorsal rami, without exception. Muscles that happen to be located on the back but primarily move the upper limb or scapula (trapezius, latissimus dorsi, levator scapulae, rhomboids) are extrinsic muscles supplied by ventral rami, plexus branches, or cranial nerve XI (trapezius) instead \u2014 their back-surface location is developmentally coincidental to their limb-moving function.",
+        "why_others_wrong": {
+          "Any muscle located superficially on the back is dorsal-rami-supplied, while deep muscles are ventral-rami-supplied": "Trapezius and latissimus dorsi are both superficial yet are NOT dorsal-rami-supplied \u2014 position on the back doesn't reliably predict nerve supply the way function does.",
+          "All back muscles, regardless of function, are supplied by ventral rami": "Fails to account for the entire intrinsic back muscle group, which is dorsal-rami-supplied without exception.",
+          "All back muscles, regardless of function, are supplied by dorsal rami": "Fails to account for the extrinsic muscles (trapezius, latissimus dorsi, levator scapulae, rhomboids), none of which receive dorsal rami supply."
+        },
+        "high_yield_facts": [
+          "Intrinsic (vertebral-column-moving) back muscles = dorsal rami, always.",
+          "Extrinsic (limb-moving) back muscles = ventral rami, plexus branches, or CN XI \u2014 never dorsal rami.",
+          "This function-over-location rule is the fastest way to correctly assign nerve supply to ANY back muscle you're asked about, even ones not explicitly memorised."
+        ],
+        "clinical_correlation": "This rule is what surgeons and anatomists rely on to predict which nerves are at risk during any given posterior approach \u2014 a superficial dissection reaching only trapezius/latissimus territory risks different nerves entirely from a deep dissection reaching the true intrinsic musculature.",
+        "common_confusions": [
+          "Assuming 'back muscle' is a single homogeneous category with one nerve supply pattern \u2014 it's actually two developmentally and functionally distinct groups with completely different, non-overlapping innervation patterns."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Trapezius innervation (CN XI, an exception even within the extrinsic group)",
+          "Erector spinae segmental dorsal rami supply",
+          "Medial branch blocks for facet joint pain"
+        ],
+        "exam_traps": [
+          "Don't use superficial/deep LOCATION as your shortcut \u2014 always ask 'what does this muscle actually move?' first, since that functional question is what actually predicts the nerve supply correctly."
+        ],
+        "image_clues": null,
+        "memory_aid": "Moves the SPINE \u2192 dorsal rami. Moves the LIMB (even if it's sitting on your back) \u2192 NOT dorsal rami.",
+        "other_ways_this_is_tested": [
+          "This organizing rule is applied directly in the specific-muscle-supply questions elsewhere in this set (trapezius, latissimus dorsi, erector spinae)."
+        ],
+        "neet_pg_takeaway": "Function predicts nerve supply for back muscles: vertebral-column-movers = dorsal rami (intrinsic); limb-movers = ventral rami/plexus branches/CN XI (extrinsic) \u2014 position on the back is not the deciding factor.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard back anatomy \u2014 Moore's Clinically Oriented Anatomy, back chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Apply the function-based rule distinguishing dorsal-rami-supplied intrinsic back muscles from ventral-rami/plexus-supplied extrinsic back muscles.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_back_muscles_innervation_0002",
+      "subject": "Anatomy",
+      "topic": "Back Muscles - Innervation",
+      "subtopic": "Trapezius \u2014 the exception within the exception",
+      "concept": "Trapezius innervation by CN XI",
+      "question_type": "exception",
+      "difficulty": 2,
+      "question": "Trapezius is an extrinsic back muscle supplied by which nerve, distinguishing it from the pattern followed by most other extrinsic back muscles?",
+      "options": [
+        "Spinal accessory nerve (CN XI), with proprioceptive contribution from C3-C4 ventral rami",
+        "Thoracodorsal nerve (C6-C8)",
+        "Dorsal scapular nerve (C5)",
+        "Direct dorsal rami at multiple thoracic levels"
+      ],
+      "correct_answer": "Spinal accessory nerve (CN XI), with proprioceptive contribution from C3-C4 ventral rami",
+      "distractor_rationale": {
+        "Thoracodorsal nerve (C6-C8)": "This supplies latissimus dorsi, a different extrinsic back muscle \u2014 not trapezius.",
+        "Dorsal scapular nerve (C5)": "This supplies levator scapulae and the rhomboids, not trapezius.",
+        "Direct dorsal rami at multiple thoracic levels": "This describes the pattern for INTRINSIC back muscles, the opposite category from trapezius, which is extrinsic."
+      },
+      "explanation": {
+        "core_concept": "Trapezius is genuinely unusual even among extrinsic back muscles \u2014 while most extrinsic muscles are supplied by named peripheral nerves arising from the brachial plexus (like latissimus dorsi and the rhomboids), trapezius's motor supply comes from a CRANIAL nerve, CN XI, reflecting its distinct embryological origin from branchial arch mesoderm rather than limb bud mesoderm.",
+        "why_correct": "Trapezius receives its motor innervation from the spinal accessory nerve (CN XI), with an additional proprioceptive (sensory) contribution from the ventral rami of C3 and C4 \u2014 a nerve supply pattern shared with sternocleidomastoid (also CN XI-supplied), reflecting both muscles' shared branchial arch developmental origin rather than a typical limb-plexus origin.",
+        "why_others_wrong": {
+          "Thoracodorsal nerve (C6-C8)": "The nerve supply to latissimus dorsi, a separate extrinsic back muscle with a typical brachial plexus-derived nerve supply, unlike trapezius.",
+          "Dorsal scapular nerve (C5)": "Supplies levator scapulae and the rhomboids \u2014 extrinsic muscles with typical plexus-branch supply, distinct from trapezius's cranial nerve supply.",
+          "Direct dorsal rami at multiple thoracic levels": "This is the INTRINSIC back muscle pattern \u2014 trapezius, being extrinsic, does not follow this pattern at all."
+        },
+        "high_yield_facts": [
+          "Trapezius = CN XI (spinal accessory nerve) motor supply + C3-C4 ventral rami proprioception \u2014 NOT a brachial plexus branch, and NOT dorsal rami.",
+          "This is the same nerve (CN XI) that supplies sternocleidomastoid \u2014 both muscles share a branchial arch developmental origin.",
+          "Testing trapezius function (shoulder shrug) is a standard part of CN XI cranial nerve examination specifically because of this innervation."
+        ],
+        "clinical_correlation": "Injury to CN XI (e.g., during neck surgery or lymph node dissection in the posterior triangle) causes trapezius weakness with shoulder drooping and winging of the scapula \u2014 recognising this connects a cranial nerve exam finding directly to a 'back muscle' weakness, a commonly tested cross-subject link.",
+        "common_confusions": [
+          "Assuming trapezius, being an extrinsic BACK muscle, must follow the same brachial-plexus-branch pattern as latissimus dorsi, levator scapulae, or the rhomboids \u2014 trapezius's cranial nerve supply is the specific exception within the extrinsic group worth remembering separately."
+        ],
+        "exceptions": [
+          "The C3-C4 ventral rami contribution to trapezius is proprioceptive/sensory only, not motor \u2014 motor function is purely CN XI's responsibility, a nuance sometimes tested directly."
+        ],
+        "related_concepts": [
+          "Sternocleidomastoid (shared CN XI supply)",
+          "Posterior triangle of the neck (CN XI's vulnerable course)",
+          "Latissimus dorsi/thoracodorsal nerve (contrast)"
+        ],
+        "exam_traps": [
+          "Don't default to 'brachial plexus branch' for every extrinsic back muscle \u2014 trapezius is the specific, frequently tested exception with cranial nerve (not plexus) supply."
+        ],
+        "image_clues": null,
+        "memory_aid": "Trapezius and sternocleidomastoid are CN XI's two 'accessory' territories \u2014 remember them as a pair.",
+        "other_ways_this_is_tested": [
+          "Trapezius's CN XI injury pattern (shoulder drooping, scapular winging) is a classic cross-subject question connecting cranial nerve exam findings to back/shoulder muscle weakness."
+        ],
+        "neet_pg_takeaway": "Trapezius, despite being an extrinsic BACK muscle, is supplied by the cranial nerve CN XI (plus C3-C4 proprioceptive fibres) \u2014 not a brachial plexus branch and not dorsal rami, making it an exception worth memorising on its own.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard back/neck anatomy \u2014 Moore's Clinically Oriented Anatomy, back and neck chapters."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify CN XI (spinal accessory nerve) as the motor supply to trapezius, distinguishing it from the typical brachial plexus branch pattern of other extrinsic back muscles.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_back_muscles_innervation_0003",
+      "subject": "Anatomy",
+      "topic": "Back Muscles - Innervation",
+      "subtopic": "Intrinsic back muscles",
+      "concept": "Dorsal rami supply to erector spinae and deep back muscles",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The erector spinae group and the deeper transversospinalis muscles (semispinalis, multifidus, rotatores) are supplied by which nerves?",
+      "options": [
+        "Dorsal rami of spinal nerves, at the corresponding segmental levels",
+        "Ventral rami of spinal nerves",
+        "Branches of the brachial plexus",
+        "The spinal accessory nerve (CN XI)"
+      ],
+      "correct_answer": "Dorsal rami of spinal nerves, at the corresponding segmental levels",
+      "distractor_rationale": {
+        "Ventral rami of spinal nerves": "Ventral rami supply the extrinsic back muscles and the limbs/anterior trunk \u2014 the intrinsic muscles specifically follow the opposite (dorsal rami) pattern.",
+        "Branches of the brachial plexus": "The brachial plexus supplies the upper limb and some extrinsic back/shoulder muscles, not the deep intrinsic back muscles, which have a segmental, non-plexus nerve supply.",
+        "The spinal accessory nerve (CN XI)": "CN XI supplies trapezius and sternocleidomastoid specifically \u2014 an extrinsic muscle exception, not the intrinsic back muscle group."
+      },
+      "explanation": {
+        "core_concept": "Every muscle in all three layers of the true (intrinsic) back muscles \u2014 without exception \u2014 follows the same segmental dorsal rami supply pattern, making this one of the cleanest, most rule-based nerve supply facts in the entire upper/lower limb and trunk anatomy syllabus.",
+        "why_correct": "The erector spinae (iliocostalis, longissimus, spinalis) and the transversospinalis group (semispinalis, multifidus, rotatores), along with the short segmental muscles (interspinales, intertransversarii), are all intrinsic back muscles supplied by the dorsal rami of spinal nerves at the corresponding vertebral level \u2014 a segmental pattern that holds true throughout the entire length of the vertebral column.",
+        "why_others_wrong": {
+          "Ventral rami of spinal nerves": "This is the extrinsic back muscle and limb/trunk pattern \u2014 the intrinsic muscles specifically do NOT follow this pattern.",
+          "Branches of the brachial plexus": "The brachial plexus supplies upper limb muscles and specific extrinsic back muscles (latissimus dorsi, rhomboids, levator scapulae) \u2014 not the deep intrinsic musculature, which has a purely segmental, non-plexus supply.",
+          "The spinal accessory nerve (CN XI)": "CN XI's territory is limited to trapezius and sternocleidomastoid \u2014 it plays no role in supplying the intrinsic back muscles."
+        },
+        "high_yield_facts": [
+          "ALL intrinsic back muscles (all three layers) = dorsal rami, segmentally, no exceptions.",
+          "This is one of the most reliable, rule-based nerve supply patterns in the whole syllabus \u2014 once you know a muscle is 'true'/intrinsic back muscle, dorsal rami supply follows automatically.",
+          "The segmental nature (each level's dorsal ramus supplying the muscle at that level) is why localized back pain/spasm can sometimes be mapped to a specific vertebral level."
+        ],
+        "clinical_correlation": "This segmental, dorsal-rami pattern is the anatomical basis for medial branch blocks \u2014 a diagnostic/therapeutic procedure targeting the medial branch of the dorsal ramus at a specific level to treat facet-joint-mediated back pain, directly built on this innervation fact.",
+        "common_confusions": [
+          "Trying to assign individual, muscle-specific named nerves to intrinsic back muscles (the way extrinsic muscles each have a distinctly named nerve) \u2014 intrinsic muscles don't have individually named nerves; they simply follow the segmental dorsal rami pattern uniformly."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Medial branch blocks for facet joint pain",
+          "Segmental dermatomes/myotomes",
+          "Extrinsic back muscle nerve supply (contrast)"
+        ],
+        "exam_traps": [
+          "Don't overthink intrinsic back muscle nerve supply by trying to recall a specific named nerve \u2014 'dorsal rami, segmentally' is the complete and sufficient answer for any intrinsic back muscle."
+        ],
+        "image_clues": null,
+        "memory_aid": "True back muscles = true to the dorsal rami, every single layer, every single level.",
+        "other_ways_this_is_tested": [
+          "This segmental supply is the anatomical basis for the medial branch block clinical correlation question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Erector spinae, transversospinalis, and the short segmental muscles \u2014 the entire intrinsic back muscle group \u2014 are supplied by dorsal rami at the corresponding spinal level, without exception.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard back anatomy \u2014 Moore's Clinically Oriented Anatomy, back chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that all intrinsic (true) back muscles are supplied by dorsal rami at the corresponding segmental level.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_back_muscles_innervation_0004",
+      "subject": "Anatomy",
+      "topic": "Back Muscles - Innervation",
+      "subtopic": "Clinical correlation",
+      "concept": "Medial branch block for facet joint pain",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient with chronic lower back pain, worse with extension and rotation and localised to the paraspinal region without radiating leg symptoms, is being considered for a diagnostic nerve block targeting suspected facet joint pain at a specific lumbar level. Which nerve structure is the target of this procedure, based on the innervation of the paraspinal muscles and facet joints at that level?",
+      "options": [
+        "The medial branch of the dorsal ramus at the corresponding (and adjacent) spinal level(s)",
+        "The ventral ramus at the corresponding spinal level",
+        "The sinuvertebral nerve",
+        "A branch of the lumbar plexus"
+      ],
+      "correct_answer": "The medial branch of the dorsal ramus at the corresponding (and adjacent) spinal level(s)",
+      "distractor_rationale": {
+        "The ventral ramus at the corresponding spinal level": "Ventral rami supply the anterior trunk, limbs, and extrinsic back muscles \u2014 not the facet joints or intrinsic paraspinal muscles, which are dorsal-rami territory.",
+        "The sinuvertebral nerve": "The sinuvertebral (recurrent meningeal) nerve supplies structures WITHIN the vertebral canal (posterior longitudinal ligament, outer annulus fibrosus, dura) \u2014 a genuinely related but anatomically distinct target from the facet joints, which lie posterior/lateral to the canal and are supplied by the medial branch of the dorsal ramus instead.",
+        "A branch of the lumbar plexus": "The lumbar plexus supplies the lower limb and anterior abdominal wall/pelvis, not the posteriorly-located facet joints or paraspinal muscles."
+      },
+      "explanation": {
+        "core_concept": "Facet joints and the intrinsic paraspinal muscles overlying them share the same dorsal rami-derived innervation, which is exactly why a procedure targeting suspected facet-joint pain (medial branch block) makes anatomical sense as both diagnostic and therapeutic \u2014 and why understanding intrinsic back muscle innervation directly explains a real interventional pain procedure.",
+        "why_correct": "The facet (zygapophyseal) joints, along with the overlying intrinsic paraspinal muscles, are supplied by the medial branch of the dorsal ramus \u2014 typically from the level of the joint AND the level above, since each facet joint receives dual segmental innervation. A medial branch block anaesthetises this specific nerve branch to determine whether it's the source of the patient's pain (diagnostic) and can be followed by radiofrequency ablation of the same nerve for longer-term relief (therapeutic) if the diagnostic block is successful.",
+        "why_others_wrong": {
+          "The ventral ramus at the corresponding spinal level": "Ventral rami are not involved in facet joint or intrinsic paraspinal muscle innervation \u2014 this is exclusively dorsal ramus territory.",
+          "The sinuvertebral nerve": "Supplies structures inside the vertebral canal (disc annulus, posterior longitudinal ligament, dura) \u2014 a related but anatomically and functionally distinct target from the facet joints themselves, which lie outside the canal.",
+          "A branch of the lumbar plexus": "The lumbar plexus supplies the lower limb and anterior structures, with no role in facet joint or posterior paraspinal muscle innervation."
+        },
+        "high_yield_facts": [
+          "Facet joints + overlying intrinsic paraspinal muscles = medial branch of the dorsal ramus.",
+          "Each facet joint typically receives dual innervation \u2014 from the medial branch at its own level AND the level above \u2014 which is why medial branch blocks often target two adjacent levels for a single suspected facet joint.",
+          "This procedure is BOTH diagnostic (confirming facet joint as the pain source) and potentially therapeutic (via subsequent radiofrequency ablation of the same nerve)."
+        ],
+        "clinical_correlation": "This is a genuinely common, real-world interventional pain management procedure \u2014 understanding the underlying anatomy (dorsal rami supply to both facet joints and paraspinal muscles) is directly why the procedure is designed the way it is, not just an abstract anatomical fact.",
+        "common_confusions": [
+          "Confusing the medial branch of the dorsal ramus (facet joints, paraspinal muscles) with the sinuvertebral nerve (intraspinal structures) \u2014 both are relevant to back pain but target anatomically distinct pain generators, and a real clinical workup needs to distinguish which is suspected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Sinuvertebral nerve and discogenic pain (contrast target)",
+          "Radiofrequency ablation as therapeutic follow-up",
+          "Segmental dorsal rami supply to intrinsic back muscles"
+        ],
+        "exam_traps": [
+          "When a vignette describes facet-joint-pattern pain (worse with extension/rotation, no radicular leg symptoms), don't default to a disc-related structure (sinuvertebral nerve) \u2014 match the CLINICAL PATTERN described to the correct anatomical target."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This procedure directly applies the segmental dorsal rami supply to intrinsic back muscles established in the direct-recall question earlier in this set to a genuine clinical intervention."
+        ],
+        "neet_pg_takeaway": "Medial branch blocks target the medial branch of the dorsal ramus \u2014 the same nerve supplying both the facet joints and the overlying intrinsic paraspinal muscles \u2014 for diagnosing and treating facet-joint-mediated back pain.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard interventional pain medicine anatomy \u2014 consistent with descriptions in pain medicine and spine surgery literature (e.g. Fischgrund's spine texts; interventional pain management references)."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the medial branch of the dorsal ramus as the shared nerve supply to facet joints and paraspinal muscles, and its role in medial branch blocks.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_back_muscles_innervation_0005",
+      "subject": "Anatomy",
+      "topic": "Back Muscles - Innervation",
+      "subtopic": "Image-based identification",
+      "concept": "Identifying extrinsic vs intrinsic back muscle layers on a dissection",
+      "question_type": "image_based",
+      "difficulty": 3,
+      "question": "[Image: posterior dissection of the back showing, from superficial to deep: a broad flat muscle covering the upper back and shoulder region, then a muscle running from the lower ribs/lumbar region diagonally up to the humerus, then \u2014 after removal of both \u2014 a group of longitudinally-oriented muscle columns running parallel to the spine from the sacrum to the skull.] The deepest, longitudinally-oriented muscle group shown is supplied by which type of nerve?",
+      "options": [
+        "Dorsal rami, segmentally",
+        "Ventral rami",
+        "The spinal accessory nerve (CN XI)",
+        "The thoracodorsal nerve"
+      ],
+      "correct_answer": "Dorsal rami, segmentally",
+      "distractor_rationale": {
+        "Ventral rami": "Ventral rami supply the two more superficial muscles described (trapezius territory aside, which is CN XI) \u2014 the deep longitudinal group (erector spinae) specifically does NOT follow the ventral rami pattern.",
+        "The spinal accessory nerve (CN XI)": "This describes the FIRST (most superficial, trapezius) layer in the image, not the deepest longitudinal muscle group being asked about.",
+        "The thoracodorsal nerve": "This describes the SECOND layer (latissimus dorsi, the diagonally-oriented muscle to the humerus), not the deepest longitudinal group."
+      },
+      "explanation": {
+        "core_concept": "This image describes a classic back dissection sequence \u2014 trapezius, then latissimus dorsi, then erector spinae \u2014 and each layer has a completely different nerve supply, making 'which layer, which nerve' a natural and frequently tested image-based question format.",
+        "why_correct": "The deepest, longitudinally-oriented muscle columns running parallel to the spine from sacrum to skull describe the erector spinae group \u2014 an intrinsic back muscle group, and therefore supplied by dorsal rami, segmentally, at each corresponding vertebral level.",
+        "why_others_wrong": {
+          "Ventral rami": "This pattern applies to some deeper structures elsewhere in the body but not to erector spinae, which is specifically dorsal-rami-supplied as an intrinsic back muscle.",
+          "The spinal accessory nerve (CN XI)": "This is the nerve supply to the FIRST/most superficial layer described (trapezius) \u2014 the question asks about the DEEPEST layer, a different muscle entirely.",
+          "The thoracodorsal nerve": "This is the nerve supply to the SECOND layer described (latissimus dorsi, running diagonally to the humerus) \u2014 again, not the deepest longitudinal group being asked about."
+        },
+        "high_yield_facts": [
+          "Dissection sequence from superficial to deep: trapezius (CN XI) \u2192 latissimus dorsi (thoracodorsal nerve) \u2192 erector spinae (dorsal rami, segmental).",
+          "Each layer removed reveals a completely different nerve supply pattern \u2014 this progression is a common way to test whether all three patterns have been learned together, not in isolation.",
+          "The longitudinal, spine-parallel orientation is the key visual identifier of erector spinae specifically, as opposed to the more obliquely/diagonally oriented extrinsic muscles superficial to it."
+        ],
+        "clinical_correlation": "Surgeons performing progressively deeper posterior spinal exposures encounter exactly this sequence of muscle layers and their correspondingly different nerve supplies \u2014 understanding which nerve is at risk at each dissection depth is directly relevant to surgical planning and nerve preservation.",
+        "common_confusions": [
+          "Assuming that because all three muscle layers are visually 'on the back,' they share a single nerve supply pattern \u2014 the image specifically illustrates that they do not, each layer requiring separate identification."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Trapezius/CN XI (superficial layer)",
+          "Latissimus dorsi/thoracodorsal nerve (second layer)",
+          "Medial branch block (clinical application of erector spinae's dorsal rami supply)"
+        ],
+        "exam_traps": [
+          "Read the image description carefully for WHICH layer is being asked about \u2014 'deepest' and 'longitudinal, spine-parallel' are the specific clues pointing to erector spinae and therefore dorsal rami, not the more superficial layers with their different nerve supplies."
+        ],
+        "image_clues": "Key visual clues for erector spinae specifically: deepest visible layer (after removing the two more superficial muscles), oriented longitudinally/parallel to the spine (not diagonally toward the limb, as latissimus dorsi is), spanning sacrum to skull.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This image-based question synthesises the trapezius (CN XI), latissimus dorsi/extrinsic pattern, and erector spinae/dorsal rami facts established individually elsewhere in this set into one integrated dissection-sequence task."
+        ],
+        "neet_pg_takeaway": "In a superficial-to-deep back dissection, the deepest longitudinal muscle group (erector spinae) is dorsal-rami-supplied \u2014 distinct from the more superficial trapezius (CN XI) and latissimus dorsi (thoracodorsal nerve) layers above it.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard back dissection sequence \u2014 Moore's Clinically Oriented Anatomy, back chapter dissection images."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate posterior back dissection image or schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify the erector spinae group on a layered back dissection image and correctly assign its dorsal rami nerve supply.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

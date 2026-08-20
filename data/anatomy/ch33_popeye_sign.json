@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0033",
+    "topic": "Popeye Sign",
+    "chapter_number": 33,
+    "chapter_file": "data/anatomy/ch33_popeye_sign.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "mechanism",
+      "clinical_vignette",
+      "comparison",
+      "association"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The Popeye sign is a visible deformity of the arm \u2014 a bulging, ball-like mass in the mid-anterior arm, most obvious on active elbow flexion \u2014 resulting from rupture of the long head of biceps brachii tendon, most commonly at its origin near the supraglenoid tubercle/bicipital groove, causing the unrestrained muscle belly to retract distally and bunch up."
+    },
+    "structure_anatomy": {
+      "long_head_biceps_course": "The long head of biceps brachii originates from the supraglenoid tubercle of the scapula, passes THROUGH the shoulder joint capsule, and runs within the intertubercular (bicipital) groove of the humerus, held in place by the transverse humeral ligament \u2014 this intra-articular, intracapsular course through a narrow groove makes it particularly vulnerable to degenerative wear and rupture, especially where it exits the joint capsule.",
+      "rupture_mechanism": "Long head of biceps tendon rupture typically occurs on a background of chronic tendinopathy/degeneration (often associated with rotator cuff pathology, since the long head tendon runs close to and shares some pathological processes with the rotator cuff), with the acute rupture itself sometimes triggered by a sudden eccentric load or occurring with minimal trauma in an already-degenerated tendon."
+    },
+    "clinical": {
+      "popeye_deformity": "When the long head tendon ruptures, the muscle belly \u2014 no longer anchored proximally at the shoulder \u2014 retracts distally under the pull of its distal attachment and remaining short head anchor, bunching into a visible, ball-like bulge in the mid-to-distal arm, most pronounced on active elbow flexion against resistance \u2014 the 'Popeye sign,' named for its resemblance to the cartoon character's disproportionately bulging forearm/arm muscle.",
+      "preserved_function": "Because the SHORT head of biceps (originating from the coracoid process, entirely outside the joint capsule) remains intact and functional, elbow flexion and forearm supination strength are typically only MILDLY reduced (not absent) after an isolated long head rupture \u2014 a genuinely important point, since the deformity looks dramatic but functional loss is often surprisingly modest.",
+      "distinguishing_from_distal_rupture": "A PROXIMAL (long head) rupture causes the muscle belly to bunch DISTALLY (toward the elbow), producing the classic Popeye sign; a DISTAL biceps tendon rupture (at the radial tuberosity insertion, much less common) causes the muscle belly to retract PROXIMALLY instead, producing a different bulge pattern higher in the arm, closer to the shoulder \u2014 the direction of bulging is a genuinely useful clue to which end has actually ruptured."
+    },
+    "related_structures": "The long head of biceps's course through the shoulder joint capsule and bicipital groove is worth understanding alongside rotator cuff anatomy, since long head tendinopathy/rupture frequently occurs alongside (and shares degenerative mechanisms with) rotator cuff pathology, particularly supraspinatus tendon disease."
+  },
+  "question_family": [
+    {
+      "family_name": "Popeye Sign \u2014 Long Head Biceps Rupture (4 angles, one concept)",
+      "member_ids": [
+        "anat_popeye_sign_0001",
+        "anat_popeye_sign_0002",
+        "anat_popeye_sign_0003",
+        "anat_popeye_sign_0004"
+      ],
+      "coverage": "Mechanism (which structure ruptures), clinical vignette (preserved function), comparison (proximal vs distal bulge direction), and association (rotator cuff link) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_popeye_sign_0001",
+      "subject": "Anatomy",
+      "topic": "Popeye Sign",
+      "subtopic": "Mechanism",
+      "concept": "Popeye sign: mechanism, direction of deformity, and preserved function after long head biceps rupture",
+      "question_type": "mechanism",
+      "difficulty": 2,
+      "question": "The Popeye sign \u2014 a ball-like bulge in the mid-arm, worsened by active elbow flexion \u2014 results from rupture of which specific structure?",
+      "options": [
+        "The long head of biceps brachii tendon, typically near its proximal (intracapsular/bicipital groove) attachment",
+        "The short head of biceps brachii tendon at the coracoid process",
+        "The distal biceps tendon at its radial tuberosity insertion",
+        "The brachialis muscle belly itself, mid-substance"
+      ],
+      "correct_answer": "The long head of biceps brachii tendon, typically near its proximal (intracapsular/bicipital groove) attachment",
+      "distractor_rationale": {
+        "The short head of biceps brachii tendon at the coracoid process": "Short head rupture is much less common and doesn't typically produce this classic deformity pattern in the same way.",
+        "The distal biceps tendon at its radial tuberosity insertion": "A distal rupture causes PROXIMAL bunching (toward the shoulder), not the distal mid-arm bulge of the classic Popeye sign.",
+        "The brachialis muscle belly itself, mid-substance": "Brachialis is a separate muscle from biceps; its injury doesn't produce this specific classic deformity."
+      },
+      "explanation": {
+        "core_concept": "The long head's specific, vulnerable anatomical course (intracapsular, through the bicipital groove) is exactly why it \u2014 rather than the short head or brachialis \u2014 is the classic structure implicated in this deformity.",
+        "why_correct": "The Popeye sign classically results from rupture of the LONG HEAD of biceps brachii, typically near its proximal attachment (intracapsular portion or where it exits the bicipital groove) \u2014 a site of chronic degenerative vulnerability given this tendon's intra-articular course.",
+        "why_others_wrong": {
+          "The short head of biceps brachii tendon at the coracoid process": "Much less commonly ruptured and not the classic structure implicated in this specific deformity.",
+          "The distal biceps tendon at its radial tuberosity insertion": "Produces the OPPOSITE bulge direction (proximal, not distal) \u2014 a different, distinguishable presentation.",
+          "The brachialis muscle belly itself, mid-substance": "An entirely separate muscle, not implicated in this classic biceps-tendon-specific deformity."
+        },
+        "high_yield_facts": [
+          "Popeye sign = long head of biceps tendon rupture, typically proximal (intracapsular/bicipital groove).",
+          "The long head's intra-articular course makes it specifically vulnerable to chronic degeneration and rupture, often alongside rotator cuff pathology.",
+          "This is a classic, visually distinctive orthopaedic sign \u2014 recognisable on inspection alone."
+        ],
+        "clinical_correlation": "Recognising the Popeye deformity on physical examination, especially in an older patient with a history of shoulder pain/rotator cuff disease, should prompt consideration of long head biceps tendon rupture as the underlying cause.",
+        "common_confusions": [
+          "Assuming any biceps deformity implicates the same (proximal) rupture site \u2014 the specific DIRECTION of bulging (distal vs proximal) actually distinguishes proximal from distal rupture, covered in the comparison question elsewhere in this chapter."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Preserved function after long head rupture (this concept, other question)",
+          "Proximal vs distal rupture bulge direction (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't assume the short head or brachialis could produce this sign \u2014 the LONG head's specific vulnerable course is what's being tested."
+        ],
+        "image_clues": null,
+        "memory_aid": "Popeye's bulging 'muscle' sits low in the arm \u2014 matching where the unanchored long head belly bunches up after rupturing proximally.",
+        "other_ways_this_is_tested": [
+          "This mechanism underlies both other questions in this chapter (preserved function, and bulge-direction comparison)."
+        ],
+        "neet_pg_takeaway": "The Popeye sign results from long head of biceps brachii tendon rupture, typically at its proximal, intracapsular attachment \u2014 a site of characteristic degenerative vulnerability.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard orthopaedic sports medicine references on biceps tendon rupture."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify long head of biceps tendon rupture as the cause of the Popeye sign.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_popeye_sign_0002",
+      "subject": "Anatomy",
+      "topic": "Popeye Sign",
+      "subtopic": "Preserved function",
+      "concept": "Popeye sign: mechanism, direction of deformity, and preserved function after long head biceps rupture",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A 62-year-old man notices a sudden painless bulge in his arm after lifting a bag of groceries, with the deformity worsening on active elbow flexion. On examination, elbow flexion and forearm supination strength are only mildly reduced, not absent. Why is strength relatively preserved despite the visible deformity?",
+      "options": [
+        "The short head of biceps brachii, which originates from the coracoid process entirely outside the joint capsule, remains intact and continues contributing to flexion/supination, along with brachialis (elbow flexion) and supinator (forearm supination)",
+        "Strength is actually completely lost, and this vignette's description is clinically inaccurate",
+        "The long head tendon has not actually ruptured; the bulge is unrelated to any tendon injury",
+        "Only the short head has ruptured, explaining why the long head continues to provide normal strength"
+      ],
+      "correct_answer": "The short head of biceps brachii, which originates from the coracoid process entirely outside the joint capsule, remains intact and continues contributing to flexion/supination, along with brachialis (elbow flexion) and supinator (forearm supination)",
+      "distractor_rationale": {
+        "Strength is actually completely lost, and this vignette's description is clinically inaccurate": "Mild (not complete) strength reduction is precisely the well-established, expected clinical finding after isolated long head rupture \u2014 this option denies accurate clinical teaching.",
+        "The long head tendon has not actually ruptured; the bulge is unrelated to any tendon injury": "The described bulge, worsened by active flexion, is the classic long head rupture presentation \u2014 denying the rupture contradicts the vignette's own findings.",
+        "Only the short head has ruptured, explaining why the long head continues to provide normal strength": "Reverses which head has actually ruptured \u2014 the classic Popeye deformity specifically results from LONG head rupture, with the short head remaining intact, not the reverse."
+      },
+      "explanation": {
+        "core_concept": "Understanding that MULTIPLE muscles/tendons contribute to elbow flexion and supination (not biceps' long head alone) is what explains the genuinely important, sometimes counter-intuitive clinical point that a dramatic-looking deformity produces only mild functional impairment.",
+        "why_correct": "The short head of biceps brachii originates from the coracoid process, entirely outside the shoulder joint capsule, and remains structurally and functionally intact after an isolated long head rupture \u2014 continuing to contribute to elbow flexion and forearm supination. Additionally, brachialis (a separate, powerful elbow flexor) and supinator (a separate forearm supinator) are unaffected by this injury, together explaining why strength is only mildly reduced despite the visible deformity.",
+        "why_others_wrong": {
+          "Strength is actually completely lost, and this vignette's description is clinically inaccurate": "Contradicts well-established clinical teaching \u2014 mild, not complete, weakness is the expected and accurate finding.",
+          "The long head tendon has not actually ruptured; the bulge is unrelated to any tendon injury": "The described findings are the classic presentation of long head rupture \u2014 this option denies the vignette's own diagnostic findings.",
+          "Only the short head has ruptured, explaining why the long head continues to provide normal strength": "Reverses which structure has actually ruptured relative to the classic presentation described."
+        },
+        "high_yield_facts": [
+          "Isolated long head biceps rupture \u2192 MILD (not complete) weakness of elbow flexion/supination \u2014 short head, brachialis, and supinator all remain intact and functional.",
+          "This is a genuinely important clinical teaching point: dramatic deformity does NOT equal dramatic functional loss in this specific injury.",
+          "Many patients with long head rupture, especially older or less physically demanding individuals, may simply be managed conservatively given this preserved function, rather than requiring surgical repair."
+        ],
+        "clinical_correlation": "Recognising preserved function helps set appropriate patient expectations and informs the decision between conservative management (often sufficient given retained function) versus surgical tenodesis/repair (more often considered in younger, more physically demanding patients where the deformity or subtle strength loss is more functionally significant).",
+        "common_confusions": [
+          "Assuming a visibly dramatic muscle deformity must correspond to equally dramatic functional loss \u2014 this specific injury is a good illustration that visible deformity and functional impairment don't always correlate proportionally."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Long head rupture mechanism (this concept, other question)",
+          "Short head anatomy (coracoid origin, extracapsular course)"
+        ],
+        "exam_traps": [
+          "Don't assume 'tendon rupture' always means 'major functional loss' \u2014 the SPECIFIC redundancy provided by other intact muscles (short head, brachialis, supinator) is what explains preserved function here."
+        ],
+        "image_clues": null,
+        "memory_aid": "Short head, brachialis, and supinator keep the job going even after the long head clocks out.",
+        "other_ways_this_is_tested": [
+          "This preserved-function fact is directly relevant to real clinical management decisions after long head rupture."
+        ],
+        "neet_pg_takeaway": "After isolated long head biceps rupture, elbow flexion and supination strength are only mildly reduced (not absent), since the short head, brachialis, and supinator all remain intact and continue contributing to these movements.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic sports medicine teaching on biceps tendon rupture management."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why elbow flexion/supination strength is only mildly reduced after isolated long head biceps rupture.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_popeye_sign_0003",
+      "subject": "Anatomy",
+      "topic": "Popeye Sign",
+      "subtopic": "Proximal vs distal rupture",
+      "concept": "Popeye sign: mechanism, direction of deformity, and preserved function after long head biceps rupture",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "How does the direction of muscle belly bulging differ between a PROXIMAL (long head) biceps tendon rupture and a DISTAL biceps tendon rupture (at the radial tuberosity)?",
+      "options": [
+        "Proximal rupture: muscle belly bunches DISTALLY (toward the elbow) \u2014 the classic Popeye sign. Distal rupture: muscle belly retracts PROXIMALLY (toward the shoulder), producing a bulge higher in the arm",
+        "Both proximal and distal ruptures produce an identical distal bulge pattern, with no distinguishing direction",
+        "Proximal rupture causes proximal bunching; distal rupture causes distal bunching \u2014 the reverse of the correct pattern",
+        "Neither type of rupture produces any visible muscle belly deformity"
+      ],
+      "correct_answer": "Proximal rupture: muscle belly bunches DISTALLY (toward the elbow) \u2014 the classic Popeye sign. Distal rupture: muscle belly retracts PROXIMALLY (toward the shoulder), producing a bulge higher in the arm",
+      "distractor_rationale": {
+        "Both proximal and distal ruptures produce an identical distal bulge pattern, with no distinguishing direction": "Denies a genuine, clinically useful distinguishing feature between these two rupture locations.",
+        "Proximal rupture causes proximal bunching; distal rupture causes distal bunching \u2014 the reverse of the correct pattern": "Reverses the correct direction assignment for both rupture types.",
+        "Neither type of rupture produces any visible muscle belly deformity": "Both rupture types characteristically DO produce a visible deformity \u2014 this option denies well-established clinical findings for both."
+      },
+      "explanation": {
+        "core_concept": "The bulge direction follows simple mechanical logic \u2014 the muscle belly, no longer anchored at the RUPTURED end, retracts toward its still-intact opposite attachment, pulled by the remaining tension there \u2014 understanding this logic makes the direction predictable rather than requiring separate memorisation for each rupture type.",
+        "why_correct": "In a proximal (long head) rupture, the tendon's proximal anchor is lost, so the unrestrained muscle belly is pulled by its still-intact DISTAL attachment (at the radial tuberosity) toward the elbow, bunching DISTALLY \u2014 the classic Popeye sign. In a distal rupture, the tendon's distal anchor is lost, so the muscle belly is instead pulled by its still-intact PROXIMAL attachments (both heads at the shoulder) toward the shoulder, bunching PROXIMALLY \u2014 producing a bulge higher in the arm, a different and less classically 'Popeye'-named presentation, though still a recognisable deformity.",
+        "why_others_wrong": {
+          "Both proximal and distal ruptures produce an identical distal bulge pattern, with no distinguishing direction": "Denies the genuine mechanical logic (pulled toward the intact end) that produces genuinely different bulge directions for the two rupture types.",
+          "Proximal rupture causes proximal bunching; distal rupture causes distal bunching \u2014 the reverse of the correct pattern": "Directly reverses the correct mechanical logic and resulting bulge directions.",
+          "Neither type of rupture produces any visible muscle belly deformity": "Both rupture types produce visible, characteristic deformities \u2014 this option denies well-established clinical findings."
+        },
+        "high_yield_facts": [
+          "Proximal (long head) rupture \u2192 distal bulge (classic Popeye sign).",
+          "Distal (radial tuberosity) rupture \u2192 proximal bulge (higher in the arm, closer to shoulder) \u2014 less commonly termed 'Popeye sign' but still a recognisable deformity.",
+          "The general mechanical rule: the muscle belly always bunches TOWARD its remaining intact attachment, AWAY from the ruptured end \u2014 a logic transferable to understanding other tendon rupture deformities too."
+        ],
+        "clinical_correlation": "Distal biceps rupture (though less common than proximal/long head rupture) is a distinct clinical entity, often associated with different mechanisms (forceful extension against a flexed, supinated forearm) and different management considerations (surgical repair more often favoured given greater functional consequences, since BOTH heads' contribution is lost distally, unlike the isolated long head loss in proximal rupture).",
+        "common_confusions": [
+          "Assuming 'Popeye sign' applies to any biceps rupture regardless of location \u2014 the term and its classic distal-bulge appearance specifically describe the PROXIMAL (long head) rupture pattern."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Long head rupture mechanism (this concept, other question)",
+          "Preserved function after long head rupture (this concept, other question, versus more significant functional loss expected with distal rupture, given both heads' distal insertion is affected there)"
+        ],
+        "exam_traps": [
+          "When a vignette describes a bulge, check whether it's described as being CLOSER TO THE ELBOW (proximal rupture) or CLOSER TO THE SHOULDER (distal rupture) \u2014 this detail is the key discriminator between the two rupture locations."
+        ],
+        "image_clues": null,
+        "memory_aid": "The belly always runs AWAY from the break and TOWARD the remaining anchor \u2014 proximal break, belly runs down; distal break, belly runs up.",
+        "other_ways_this_is_tested": [
+          "This comparison completes the picture established by the mechanism and preserved-function questions elsewhere in this chapter, adding the distal-rupture contrast case."
+        ],
+        "neet_pg_takeaway": "Proximal (long head) biceps rupture causes distal muscle belly bunching (the classic Popeye sign); distal biceps rupture causes proximal bunching instead \u2014 the muscle belly always retracts toward its remaining intact attachment.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard orthopaedic references on proximal versus distal biceps tendon rupture."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Contrast the direction of muscle belly bulging between proximal and distal biceps tendon ruptures.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_popeye_sign_0004",
+      "subject": "Anatomy",
+      "topic": "Popeye Sign",
+      "subtopic": "Associated pathology",
+      "concept": "Popeye sign: mechanism, direction of deformity, and preserved function after long head biceps rupture",
+      "question_type": "association",
+      "difficulty": 3,
+      "question": "Long head of biceps tendon rupture in older adults frequently occurs alongside which commonly associated shoulder pathology, reflecting a shared degenerative process?",
+      "options": [
+        "Rotator cuff disease (particularly supraspinatus tendinopathy/tear)",
+        "Anterior cruciate ligament tear",
+        "Carpal tunnel syndrome",
+        "Achilles tendon rupture"
+      ],
+      "correct_answer": "Rotator cuff disease (particularly supraspinatus tendinopathy/tear)",
+      "distractor_rationale": {
+        "Anterior cruciate ligament tear": "A knee ligament injury, anatomically and mechanistically unrelated to shoulder tendon degeneration.",
+        "Carpal tunnel syndrome": "A wrist/hand nerve compression condition, unrelated to shoulder tendon pathology.",
+        "Achilles tendon rupture": "A lower limb tendon injury with a different mechanism, unrelated to the shoulder's degenerative processes."
+      },
+      "explanation": {
+        "core_concept": "Recognising the SHARED degenerative environment linking long head biceps pathology and rotator cuff disease is what makes finding one prompt appropriate evaluation for the other \u2014 both structures sit in the same subacromial/glenohumeral region, exposed to similar mechanical and degenerative stresses over time.",
+        "why_correct": "Long head of biceps tendon rupture commonly occurs alongside rotator cuff disease, particularly supraspinatus tendinopathy or tear \u2014 both structures are anatomically close (the long head runs near the supraspinatus tendon and through the subacromial space) and share similar age-related degenerative and mechanical (impingement-related) processes, so finding one should prompt evaluation for the other.",
+        "why_others_wrong": {
+          "Anterior cruciate ligament tear": "An anatomically and mechanistically unrelated knee injury.",
+          "Carpal tunnel syndrome": "An unrelated wrist/hand condition.",
+          "Achilles tendon rupture": "An unrelated lower limb tendon injury, though interestingly it shares SOME general degenerative-tendon-rupture principles with biceps rupture, it isn't the SPECIFIC, anatomically-linked association being tested here."
+        },
+        "high_yield_facts": [
+          "Long head biceps rupture is frequently associated with rotator cuff disease (especially supraspinatus) \u2014 a shared degenerative/mechanical process in the same shoulder region.",
+          "Finding a Popeye deformity should prompt shoulder examination/imaging for possible concurrent rotator cuff pathology, not just isolated biceps assessment.",
+          "This association reflects genuine anatomical proximity and shared pathophysiology, not coincidence."
+        ],
+        "clinical_correlation": "This association directly influences clinical workup \u2014 patients presenting with Popeye deformity often warrant shoulder imaging (ultrasound or MRI) to assess for concurrent rotator cuff pathology, since management decisions may need to address both conditions together.",
+        "common_confusions": [
+          "Treating long head biceps rupture as an isolated, unrelated finding rather than recognising its frequent, mechanistically-linked co-occurrence with rotator cuff disease."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Long head rupture mechanism (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When a vignette describes Popeye sign alongside shoulder pain or weakness of abduction/external rotation, actively consider concurrent rotator cuff pathology rather than treating the biceps finding in isolation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Same neighbourhood, same wear and tear \u2014 long head biceps and rotator cuff often break down together.",
+        "other_ways_this_is_tested": [
+          "This association is directly relevant to comprehensive clinical assessment whenever a Popeye deformity is identified."
+        ],
+        "neet_pg_takeaway": "Long head of biceps tendon rupture frequently co-occurs with rotator cuff disease (particularly supraspinatus pathology), reflecting their shared anatomical proximity and degenerative mechanism \u2014 finding one should prompt evaluation for the other.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic sports medicine references on shoulder tendon pathology."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Associate long head biceps tendon rupture with concurrent rotator cuff disease.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

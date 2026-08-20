@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0059",
+    "topic": "Facial Nerve",
+    "chapter_number": 59,
+    "chapter_file": "data/anatomy/ch59_facial_nerve.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "comparison",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This is the first dedicated Facial Nerve chapter \u2014 prior chapters (Muscles of Mastication, Digastric, Greater Auricular Nerve/parotidectomy) mention the facial nerve only tangentially (e.g. marginal mandibular branch risk in parotid/submandibular surgery). This chapter's core focus \u2014 LMN vs UMN facial palsy localisation via forehead sparing \u2014 is genuinely new, foundational content not covered elsewhere. Verified against ch13, ch22, ch40, and ch57 \u2014 no duplicate concepts found.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against all facial-nerve-adjacent chapters \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The facial nerve (CN VII) carries a genuinely complex mix of functional components (SVE motor to facial expression muscles, GVE parasympathetic to lacrimal/salivary glands, SVA taste from the anterior 2/3 tongue via chorda tympani) \u2014 but its single most exam-relevant, high-yield clinical application is the LMN-vs-UMN facial palsy distinction, which hinges on a specific anatomical fact: the forehead's bilateral cortical (UMN) innervation, unique among the facial muscles."
+    },
+    "structure_anatomy": {
+      "bilateral_forehead_innervation": "Unlike the lower facial muscles (which receive UMN input predominantly from the CONTRALATERAL motor cortex only), the muscles of the UPPER face/forehead (frontalis, orbicularis oculi) receive UMN input from BOTH cerebral hemispheres (bilateral cortical representation) \u2014 this is the single anatomical fact explaining the entire LMN-vs-UMN facial palsy distinction covered in depth in this chapter's clinical content.",
+      "intracranial_course_landmarks": "The facial nerve's intracranial/intratemporal course passes through the internal acoustic meatus, the facial canal (with its genu, where the geniculate ganglion sits), giving off the greater petrosal nerve (parasympathetic to lacrimal gland), the nerve to stapedius (motor), and the chorda tympani (taste + parasympathetic to submandibular/sublingual glands) at different points along this course BEFORE exiting the skull via the stylomastoid foramen to reach the face \u2014 the LEVEL of a lesion along this intracranial course can be inferred from WHICH of these branches' functions are also affected alongside the facial weakness itself."
+    },
+    "clinical": {
+      "lmn_vs_umn_facial_palsy": "LOWER motor neuron facial palsy (e.g. Bell's palsy, or any lesion of the facial nerve itself after it leaves the brainstem) affects BOTH the upper AND lower face on the SAME side \u2014 the patient cannot wrinkle the forehead or close the eye on the affected side, since the LMN pathway to the entire ipsilateral face (which received its bilateral UMN cortical input already, but now has lost its actual nerve/LMN output entirely) is interrupted. UPPER motor neuron facial palsy (e.g. from a stroke affecting the contralateral motor cortex or corticobulbar tract) SPARES the forehead/upper face, affecting only the LOWER face on the side opposite the lesion \u2014 because the forehead's BILATERAL cortical representation means the intact, contralateral hemisphere can still supply UMN input to the forehead muscles even when the OTHER hemisphere is damaged, while the lower face (with only contralateral, unilateral UMN input) loses its supply entirely.",
+      "forehead_sparing_as_the_key_discriminator": "This 'forehead sparing' pattern is THE single most important, high-yield clinical discriminator in facial nerve pathology: if the patient CANNOT wrinkle the forehead (forehead involved) \u2192 LMN lesion (facial nerve itself, e.g. Bell's palsy). If the patient CAN wrinkle the forehead despite lower facial weakness (forehead spared) \u2192 UMN lesion (stroke or other central lesion affecting the corticobulbar pathway) \u2014 a single, elegant bedside test directly localising the lesion to either the peripheral nerve or the central nervous system.",
+      "bells_palsy": "Bell's palsy, an idiopathic (though possibly viral-related, e.g. HSV reactivation) LOWER motor neuron facial nerve palsy, classically presents with sudden-onset, COMPLETE ipsilateral facial weakness (both upper and lower face affected together, confirming the LMN pattern), sometimes with hyperacusis (from stapedius weakness) or taste changes (from chorda tympani involvement) depending on the exact lesion level within the facial canal \u2014 most cases improve substantially with time, sometimes aided by corticosteroids started early."
+    },
+    "related_structures": "The forehead-sparing distinction directly parallels and extends the general UMN-vs-LMN reflex principle already established in the Gag Reflex chapter (bulbar = LMN = reflex arc damaged = absent findings; pseudobulbar = UMN = reflex arc intact, disinhibited = exaggerated findings) \u2014 here applied specifically to facial MOTOR function rather than a brainstem reflex, but following the exact same underlying logic: LMN lesions damage the final common pathway completely, while UMN lesions leave peripheral structures intact but disrupt only the cortical control layer, with bilateral cortical representation (forehead specifically) providing a built-in backup that unilateral UMN lesions can't fully eliminate."
+  },
+  "question_family": [
+    {
+      "family_name": "Facial Nerve \u2014 LMN vs UMN Palsy Localisation (4 angles, one concept)",
+      "member_ids": [
+        "anat_facial_nerve_0001",
+        "anat_facial_nerve_0002",
+        "anat_facial_nerve_0003",
+        "anat_facial_nerve_0004"
+      ],
+      "coverage": "Recall (bilateral forehead representation), clinical vignette (LMN palsy pattern), comparison (UMN forehead-sparing pattern), and diagnostic reasoning (hyperacusis/stapedius branch level localisation) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_facial_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Facial Nerve",
+      "subtopic": "Bilateral forehead innervation",
+      "concept": "Facial palsy localisation: LMN (forehead involved) vs UMN (forehead spared) based on the forehead's unique bilateral cortical representation",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "Unlike the lower facial muscles, the muscles of the forehead (frontalis, orbicularis oculi) receive upper motor neuron (cortical) input from which source?",
+      "options": [
+        "BOTH cerebral hemispheres (bilateral cortical representation)",
+        "Only the contralateral (opposite-side) cerebral hemisphere, identical to the lower face",
+        "Only the ipsilateral (same-side) cerebral hemisphere, unlike the lower face",
+        "No cortical input at all; forehead muscles are controlled entirely by brainstem reflexes"
+      ],
+      "correct_answer": "BOTH cerebral hemispheres (bilateral cortical representation)",
+      "distractor_rationale": {
+        "Only the contralateral (opposite-side) cerebral hemisphere, identical to the lower face": "This describes the LOWER face's UMN pattern \u2014 the forehead specifically differs by having BILATERAL (not solely contralateral) cortical representation.",
+        "Only the ipsilateral (same-side) cerebral hemisphere, unlike the lower face": "Understates the forehead's actual pattern \u2014 it receives input from BOTH hemispheres, not just the ipsilateral one alone.",
+        "No cortical input at all; forehead muscles are controlled entirely by brainstem reflexes": "Denies genuine, voluntary cortical (UMN) control of the forehead muscles, which do receive cortical input, simply from both sides rather than one."
+      },
+      "explanation": {
+        "core_concept": "This single anatomical fact \u2014 bilateral cortical representation of the forehead, unlike the unilateral (contralateral-only) representation of the lower face \u2014 is THE foundational fact explaining the entire, high-yield LMN-vs-UMN facial palsy distinction covered throughout this chapter.",
+        "why_correct": "The forehead/upper face muscles (frontalis, orbicularis oculi) receive upper motor neuron input from BOTH cerebral hemispheres (bilateral cortical representation) \u2014 genuinely unlike the lower facial muscles, which receive UMN input predominantly from only the CONTRALATERAL hemisphere.",
+        "why_others_wrong": {
+          "Only the contralateral (opposite-side) cerebral hemisphere, identical to the lower face": "This is specifically the LOWER face's pattern \u2014 the forehead's defining feature is its DIFFERENT, bilateral pattern.",
+          "Only the ipsilateral (same-side) cerebral hemisphere, unlike the lower face": "Understates the forehead's actual bilateral (both hemispheres) representation.",
+          "No cortical input at all; forehead muscles are controlled entirely by brainstem reflexes": "Denies genuine voluntary cortical control, which the forehead muscles do receive, just from both sides."
+        },
+        "high_yield_facts": [
+          "Forehead/upper face: BILATERAL cortical (UMN) representation \u2014 both hemispheres contribute.",
+          "Lower face: UNILATERAL, contralateral-only cortical representation \u2014 only the OPPOSITE hemisphere contributes.",
+          "This single anatomical asymmetry is THE explanation for the entire forehead-sparing clinical sign, covered in depth elsewhere in this chapter."
+        ],
+        "clinical_correlation": "This bilateral representation is precisely why a UNILATERAL cortical/UMN lesion cannot fully eliminate forehead function (the intact, opposite hemisphere still supplies it), while it CAN fully eliminate lower face function (which relied solely on the now-damaged hemisphere) \u2014 the direct anatomical basis for the forehead-sparing sign.",
+        "common_confusions": [
+          "Assuming all facial muscles share the same UMN innervation pattern \u2014 the forehead is specifically, uniquely bilateral, while the rest of the face follows the more typical unilateral (contralateral-only) pattern seen throughout most of the body's voluntary musculature."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "LMN vs UMN facial palsy (this concept, other questions) \u2014 the direct clinical application of this anatomical fact"
+        ],
+        "exam_traps": [
+          "Don't assume the forehead follows the same UMN pattern as the rest of the face \u2014 actively recall its UNIQUE bilateral cortical representation, which is precisely why forehead findings differ from lower face findings in UMN lesions."
+        ],
+        "image_clues": null,
+        "memory_aid": "The forehead has TWO bosses (both hemispheres) \u2014 lose one, the other still runs the show. The lower face has only ONE boss \u2014 lose it, and that's it.",
+        "other_ways_this_is_tested": [
+          "This foundational anatomical fact is what makes the entire LMN-vs-UMN facial palsy distinction, covered throughout the rest of this chapter, logical and predictable."
+        ],
+        "neet_pg_takeaway": "The forehead/upper face muscles uniquely receive bilateral cortical (UMN) representation from both cerebral hemispheres, unlike the lower face's unilateral, contralateral-only representation \u2014 the single anatomical fact underlying the entire LMN-vs-UMN facial palsy distinction.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, facial nerve and corticobulbar pathway sections."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that the forehead uniquely receives bilateral cortical (UMN) representation, unlike the lower face's contralateral-only representation.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_facial_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Facial Nerve",
+      "subtopic": "LMN facial palsy",
+      "concept": "Facial palsy localisation: LMN (forehead involved) vs UMN (forehead spared) based on the forehead's unique bilateral cortical representation",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient develops sudden-onset facial weakness on the right side, unable to wrinkle the forehead OR close the right eye, with drooping of the right side of the mouth. What type of facial palsy does this represent, and what does the forehead involvement specifically indicate about the lesion location?",
+      "options": [
+        "Lower motor neuron (LMN) facial palsy \u2014 forehead involvement indicates the lesion affects the facial nerve itself (or its nucleus), since only a LMN lesion can eliminate the forehead's bilaterally-represented function entirely",
+        "Upper motor neuron (UMN) facial palsy \u2014 forehead involvement is the classic, expected finding in UMN lesions specifically",
+        "This combination of findings (forehead plus lower face involvement together) is inconsistent with any recognised facial palsy pattern",
+        "The forehead involvement is clinically irrelevant and provides no localising information about the lesion"
+      ],
+      "correct_answer": "Lower motor neuron (LMN) facial palsy \u2014 forehead involvement indicates the lesion affects the facial nerve itself (or its nucleus), since only a LMN lesion can eliminate the forehead's bilaterally-represented function entirely",
+      "distractor_rationale": {
+        "Upper motor neuron (UMN) facial palsy \u2014 forehead involvement is the classic, expected finding in UMN lesions specifically": "UMN lesions classically SPARE the forehead (given its bilateral representation) \u2014 this vignette's COMPLETE forehead involvement specifically argues AGAINST a UMN lesion, pointing toward LMN instead.",
+        "This combination of findings (forehead plus lower face involvement together) is inconsistent with any recognised facial palsy pattern": "This is precisely the classic, expected, well-recognised LMN facial palsy pattern (e.g. Bell's palsy) \u2014 not an inconsistent or unusual combination.",
+        "The forehead involvement is clinically irrelevant and provides no localising information about the lesion": "Denies the forehead's genuine, highly specific localising value \u2014 it's precisely the single most useful discriminating finding in facial palsy localisation."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical application of the bilateral forehead representation fact \u2014 because ONLY a lesion affecting the facial nerve itself (LMN, after the bilateral cortical inputs have already converged onto this single final pathway) can eliminate forehead function entirely, complete forehead involvement definitively localises the lesion to the LMN level, ruling out a UMN (cortical/corticobulbar) process.",
+        "why_correct": "Complete ipsilateral facial weakness \u2014 affecting BOTH the forehead (unable to wrinkle it or close the eye) AND the lower face (mouth drooping) together on the same side \u2014 is the classic pattern of LOWER motor neuron facial palsy (e.g. Bell's palsy). This occurs because the lesion affects the facial nerve itself (or its brainstem nucleus) \u2014 the single final common pathway AFTER the bilateral cortical inputs to the forehead have already converged \u2014 so BOTH the bilaterally-represented forehead function AND the unilaterally-represented lower face function are lost together, since the entire nerve/final pathway on that side is interrupted.",
+        "why_others_wrong": {
+          "Upper motor neuron (UMN) facial palsy \u2014 forehead involvement is the classic, expected finding in UMN lesions specifically": "UMN lesions classically SPARE the forehead \u2014 this vignette's complete forehead involvement is the opposite of the expected UMN pattern, specifically arguing for LMN instead.",
+          "This combination of findings (forehead plus lower face involvement together) is inconsistent with any recognised facial palsy pattern": "This is exactly the classic, well-recognised LMN pattern, not an inconsistent combination.",
+          "The forehead involvement is clinically irrelevant and provides no localising information about the lesion": "Denies the forehead's genuine, highly specific, single most useful localising value in this exact clinical context."
+        },
+        "high_yield_facts": [
+          "LMN facial palsy: BOTH forehead AND lower face involved together, on the SAME side \u2014 the classic Bell's palsy pattern.",
+          "Forehead involvement specifically confirms the lesion is at the LMN level (facial nerve itself or its nucleus), since UMN lesions cannot eliminate the bilaterally-represented forehead function.",
+          "This is THE single most useful bedside discriminator in facial nerve pathology \u2014 always specifically test forehead wrinkling/eye closure alongside lower face movement when facial weakness is present."
+        ],
+        "clinical_correlation": "Correctly identifying this as an LMN pattern (rather than assuming any facial weakness suggests stroke) directly guides appropriate management \u2014 Bell's palsy (the most common LMN facial palsy cause) is managed differently (often with corticosteroids, supportive eye care) from a stroke-related UMN facial palsy, which requires urgent stroke workup and management instead.",
+        "common_confusions": [
+          "Assuming ANY facial weakness suggests stroke by default \u2014 the SPECIFIC pattern (forehead involved vs spared) is what actually distinguishes a peripheral (LMN, e.g. Bell's palsy) cause from a central (UMN, stroke) cause, and this distinction has major, different management implications."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Bilateral forehead cortical representation (this concept, the foundational question) \u2014 the direct anatomical basis for this vignette's interpretation",
+          "UMN facial palsy (this concept, other question) \u2014 the direct contrast case"
+        ],
+        "exam_traps": [
+          "Whenever facial weakness is described, actively check whether the vignette specifies forehead involvement \u2014 this single detail is precisely what distinguishes LMN from UMN facial palsy, with major implications for the correct diagnosis and management."
+        ],
+        "image_clues": null,
+        "memory_aid": "Whole side of the face goes down, forehead included \u2014 that's the nerve itself failing (LMN), not just the brain's control over it (UMN).",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the bilateral forehead representation fact established in the first question of this chapter to the classic LMN presentation."
+        ],
+        "neet_pg_takeaway": "Complete ipsilateral facial weakness, including the forehead, confirms lower motor neuron facial palsy (e.g. Bell's palsy) \u2014 the lesion is at the facial nerve/nucleus level, since only this level can eliminate the forehead's bilaterally-represented function entirely.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical neurology references on Bell's palsy and LMN facial palsy diagnosis."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose LMN facial palsy from complete ipsilateral facial weakness including forehead involvement.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_facial_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Facial Nerve",
+      "subtopic": "UMN facial palsy (forehead sparing)",
+      "concept": "Facial palsy localisation: LMN (forehead involved) vs UMN (forehead spared) based on the forehead's unique bilateral cortical representation",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "A patient presents with left-sided facial droop after a suspected stroke. The lower face is weak, but the patient CAN wrinkle the forehead symmetrically and close both eyes normally. How does this 'forehead-sparing' pattern differ from LMN facial palsy, and what does it indicate?",
+      "options": [
+        "This is UPPER motor neuron (UMN) facial palsy \u2014 forehead sparing occurs because the intact, contralateral hemisphere continues supplying the bilaterally-represented forehead muscles, even though the damaged hemisphere can no longer supply the unilaterally-represented lower face",
+        "This is also LMN facial palsy, since any facial weakness \u2014 regardless of forehead involvement \u2014 must reflect a facial nerve lesion",
+        "Forehead sparing indicates the lesion is actually MORE severe than LMN facial palsy, affecting a larger brain territory",
+        "This pattern is clinically identical to LMN facial palsy, with the forehead sparing being an insignificant, coincidental finding"
+      ],
+      "correct_answer": "This is UPPER motor neuron (UMN) facial palsy \u2014 forehead sparing occurs because the intact, contralateral hemisphere continues supplying the bilaterally-represented forehead muscles, even though the damaged hemisphere can no longer supply the unilaterally-represented lower face",
+      "distractor_rationale": {
+        "This is also LMN facial palsy, since any facial weakness \u2014 regardless of forehead involvement \u2014 must reflect a facial nerve lesion": "Denies the genuine, well-established forehead-sparing distinction specifically indicating a UMN (not LMN) process \u2014 facial weakness does NOT always mean facial nerve/LMN pathology.",
+        "Forehead sparing indicates the lesion is actually MORE severe than LMN facial palsy, affecting a larger brain territory": "Misattributes severity \u2014 forehead sparing specifically reflects a DIFFERENT LESION LEVEL (UMN, cortical/corticobulbar) rather than indicating greater severity of the same LMN process.",
+        "This pattern is clinically identical to LMN facial palsy, with the forehead sparing being an insignificant, coincidental finding": "Denies the forehead sparing's major, genuine clinical significance \u2014 it's precisely the key distinguishing feature between UMN and LMN facial palsy, not an insignificant detail."
+      },
+      "explanation": {
+        "core_concept": "Forehead sparing is the direct, logical CONSEQUENCE of the bilateral cortical representation established as the foundational fact of this chapter \u2014 a unilateral UMN lesion damages only ONE hemisphere's contribution, and since the forehead has a SECOND, intact source of supply (the opposite hemisphere), it remains functional, while the lower face (with only ONE source, now damaged) loses function entirely.",
+        "why_correct": "This is upper motor neuron (UMN) facial palsy, classically from a stroke affecting the contralateral motor cortex or corticobulbar tract. Forehead sparing occurs specifically because the forehead muscles receive BILATERAL cortical representation \u2014 even though the lesion has damaged the RIGHT hemisphere's contribution (causing the LEFT-sided lower face weakness, given the crossed corticobulbar pathway), the INTACT LEFT hemisphere continues supplying its own contribution to BOTH sides' forehead muscles, preserving forehead function bilaterally. The lower face, receiving UMN input predominantly from only the (now-damaged) contralateral hemisphere, loses function on the affected side, since it has no equivalent backup source.",
+        "why_others_wrong": {
+          "This is also LMN facial palsy, since any facial weakness \u2014 regardless of forehead involvement \u2014 must reflect a facial nerve lesion": "Denies the fundamental, well-established distinction \u2014 facial WEAKNESS can result from either LMN (facial nerve) OR UMN (cortical/corticobulbar) pathology, and the forehead involvement pattern is precisely what distinguishes between them.",
+          "Forehead sparing indicates the lesion is actually MORE severe than LMN facial palsy, affecting a larger brain territory": "Misattributes the finding to severity rather than to a genuinely DIFFERENT anatomical lesion level (UMN vs LMN).",
+          "This pattern is clinically identical to LMN facial palsy, with the forehead sparing being an insignificant, coincidental finding": "Denies the forehead sparing's major, defining clinical significance as THE key UMN-vs-LMN discriminator."
+        },
+        "high_yield_facts": [
+          "UMN facial palsy: forehead SPARED (intact, bilateral representation from the opposite, undamaged hemisphere), lower face WEAK (unilateral representation lost).",
+          "LMN facial palsy: BOTH forehead AND lower face affected together (the nerve itself is damaged, eliminating the final common pathway regardless of how many cortical sources fed into it).",
+          "This forehead-sparing/forehead-involved distinction is THE single most clinically important facial palsy localising sign, directly guiding urgent stroke workup (UMN) versus Bell's palsy management (LMN)."
+        ],
+        "clinical_correlation": "Correctly recognising forehead sparing as a UMN sign directly triggers urgent stroke evaluation and management, genuinely different and more time-critical than the management approach for LMN (Bell's palsy) facial weakness \u2014 making this single examination finding directly, practically consequential for patient care.",
+        "common_confusions": [
+          "Assuming facial weakness always points toward the same underlying process (either always facial nerve/Bell's palsy, or always stroke) \u2014 the forehead-sparing distinction is EXACTLY what allows confident, rapid differentiation between these two very different underlying causes and management pathways."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Bilateral forehead cortical representation (this concept, the foundational question) \u2014 the direct anatomical basis for this vignette",
+          "LMN facial palsy/Bell's palsy (this concept, other question) \u2014 the direct contrast case"
+        ],
+        "exam_traps": [
+          "When forehead SPARING is described (patient CAN wrinkle forehead/close eyes despite lower face weakness), this specifically points to UMN pathology \u2014 don't default to assuming any facial weakness must be Bell's palsy or another LMN process."
+        ],
+        "image_clues": null,
+        "memory_aid": "Forehead still wrinkles because the OTHER side of the brain is still on the job \u2014 only the lower face, with just one boss, goes dark.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct clinical demonstration of the bilateral forehead representation fact established in the first question of this chapter, completing the full LMN-vs-UMN comparison."
+        ],
+        "neet_pg_takeaway": "Forehead-sparing facial weakness indicates UMN facial palsy (e.g. stroke) \u2014 the intact contralateral hemisphere continues supplying the bilaterally-represented forehead, while the lower face (unilateral representation only) loses function on the affected side \u2014 the key clinical distinguishing feature from LMN facial palsy.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard clinical neurology references on UMN versus LMN facial palsy localisation."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain forehead sparing in UMN facial palsy as a consequence of bilateral cortical representation, contrasting with LMN facial palsy.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_facial_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Facial Nerve",
+      "subtopic": "Bell's palsy additional findings by lesion level",
+      "concept": "Facial palsy localisation: LMN (forehead involved) vs UMN (forehead spared) based on the forehead's unique bilateral cortical representation",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "A patient with LMN facial palsy (confirmed by forehead involvement) also reports hyperacusis (increased sensitivity to loud sounds) on the affected side. What does this additional finding suggest about the specific level of the facial nerve lesion, and why?",
+      "options": [
+        "The lesion is at or proximal to the point where the nerve to stapedius branches off within the facial canal \u2014 stapedius normally dampens the transmission of loud sounds, so its paralysis removes this dampening effect, causing hyperacusis",
+        "Hyperacusis has no relationship to facial nerve lesion level and is an unrelated, coincidental finding",
+        "The lesion must be distal to the stylomastoid foramen, after all intratemporal branches have already been given off, explaining the hyperacusis",
+        "Hyperacusis specifically indicates the lesion spares the facial nerve entirely and instead reflects primary inner ear pathology"
+      ],
+      "correct_answer": "The lesion is at or proximal to the point where the nerve to stapedius branches off within the facial canal \u2014 stapedius normally dampens the transmission of loud sounds, so its paralysis removes this dampening effect, causing hyperacusis",
+      "distractor_rationale": {
+        "Hyperacusis has no relationship to facial nerve lesion level and is an unrelated, coincidental finding": "Denies the genuine, well-established, level-specific significance of this finding \u2014 hyperacusis directly localises the lesion relative to the nerve to stapedius's branch point.",
+        "The lesion must be distal to the stylomastoid foramen, after all intratemporal branches have already been given off, explaining the hyperacusis": "A lesion distal to the stylomastoid foramen (after the nerve to stapedius has already branched off) would SPARE stapedius function, NOT cause hyperacusis \u2014 this option reverses the correct level relationship.",
+        "Hyperacusis specifically indicates the lesion spares the facial nerve entirely and instead reflects primary inner ear pathology": "Hyperacusis in this context is SPECIFICALLY explained by facial nerve (stapedius branch) involvement, not by sparing the facial nerve or by unrelated inner ear pathology."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question applies the general principle (established for other cranial nerves throughout this syllabus, e.g. the Radial Nerve chapter's triceps-sparing localisation) that the SPECIFIC combination of findings present or absent can precisely localise a lesion along a nerve's course, based on where each specific branch is given off relative to the lesion site.",
+        "why_correct": "The nerve to stapedius, a branch of the facial nerve given off within the facial canal (proximal to the chorda tympani and well proximal to the stylomastoid foramen exit), supplies stapedius muscle \u2014 which normally contracts reflexively in response to loud sounds, dampening the transmission of sound vibrations through the middle ear ossicles (the stapedial reflex, part of the acoustic reflex). A facial nerve lesion AT OR PROXIMAL TO this specific branch point (within the facial canal, before the nerve to stapedius has been given off) paralyses stapedius, removing this normal dampening function and causing hyperacusis (increased perceived loudness/sensitivity to sound) on the affected side \u2014 directly localising the lesion to this level or higher within the facial canal.",
+        "why_others_wrong": {
+          "Hyperacusis has no relationship to facial nerve lesion level and is an unrelated, coincidental finding": "Denies the genuine, well-established, specifically localising significance of this finding.",
+          "The lesion must be distal to the stylomastoid foramen, after all intratemporal branches have already been given off, explaining the hyperacusis": "A lesion this distal would have already SPARED the nerve to stapedius (given off well before this point), meaning stapedius function would be PRESERVED, not lost \u2014 this reverses the correct localisation logic.",
+          "Hyperacusis specifically indicates the lesion spares the facial nerve entirely and instead reflects primary inner ear pathology": "In this specific clinical context (accompanying confirmed facial nerve palsy), hyperacusis is directly explained by facial nerve (stapedius branch) involvement, not by an unrelated, separate inner ear process."
+        },
+        "high_yield_facts": [
+          "Hyperacusis in facial palsy = lesion AT OR PROXIMAL to the nerve to stapedius's branch point within the facial canal.",
+          "Mechanism: stapedius paralysis removes its normal sound-dampening (stapedial reflex) function.",
+          "This is a genuinely useful, specific localising sign \u2014 similar in LOGIC to using triceps sparing to localise radial nerve lesions (see the Radial Nerve chapter) \u2014 using the presence or absence of a SPECIFIC branch's function to pinpoint lesion level."
+        ],
+        "clinical_correlation": "Recognising hyperacusis as a level-specific localising sign in facial palsy helps clinicians assess lesion extent/severity within the facial canal, complementing other level-specific findings (e.g. taste changes from chorda tympani involvement, tear production changes from greater petrosal nerve involvement) to build a complete picture of exactly where along the nerve's intratemporal course the lesion sits.",
+        "common_confusions": [
+          "Assuming hyperacusis in the context of facial palsy must reflect a separate, unrelated ear problem rather than recognising it as a DIRECT, specifically localising consequence of the SAME facial nerve lesion, via its stapedius branch specifically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "LMN facial palsy/Bell's palsy general presentation (this concept, other question) \u2014 hyperacusis as one possible additional finding depending on exact lesion level",
+          "Similar branch-based localisation logic (see Radial Nerve chapter, triceps sparing) \u2014 a transferable diagnostic reasoning principle"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC additional finding (hyperacusis, taste change, dry eye, etc.) together with knowledge of WHERE each corresponding branch is given off along the facial nerve's course, to precisely localise the lesion level, rather than treating facial palsy as a single, undifferentiated diagnosis regardless of these additional clues."
+        ],
+        "image_clues": null,
+        "memory_aid": "No stapedius, no sound dampening \u2014 loud noises suddenly feel too loud, pointing straight to a lesion at or above that specific branch point.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question extends the basic LMN facial palsy presentation established elsewhere in this chapter into a genuine, precise, level-specific localisation exercise."
+        ],
+        "neet_pg_takeaway": "Hyperacusis accompanying LMN facial palsy indicates the lesion is at or proximal to the nerve to stapedius's branch point within the facial canal \u2014 stapedius paralysis removes its normal sound-dampening function, directly localising the lesion level within the nerve's intratemporal course.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard clinical neurology references on facial nerve lesion localisation."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise a facial nerve lesion using hyperacusis, reflecting involvement of the nerve to stapedius within the facial canal.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

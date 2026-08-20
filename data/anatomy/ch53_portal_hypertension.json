@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0053",
+    "topic": "Portal Hypertension",
+    "chapter_number": 53,
+    "chapter_file": "data/anatomy/ch53_portal_hypertension.json",
+    "source_years": [
+      2023
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "association"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch14 (Splenic Ligaments) \u2014 no duplicate concepts found; complementary content."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "Portal hypertension results from increased resistance to portal venous blood flow (classically from cirrhosis, a form of intrahepatic obstruction), causing blood to seek alternative return routes to the systemic circulation via PORTOSYSTEMIC ANASTOMOSES \u2014 normally low-flow, insignificant venous connections that become dramatically dilated and clinically important once portal pressure rises, producing a set of specific, predictable, anatomically-explicable clinical findings at each anastomotic site."
+    },
+    "structure_anatomy": {
+      "four_classic_anastomoses": "(1) Oesophageal: left gastric vein (portal) \u2194 oesophageal veins draining to the azygos system (systemic) \u2014 dilation produces oesophageal varices, the most clinically dangerous site given their propensity for massive, life-threatening haemorrhage. (2) Umbilical/paraumbilical: paraumbilical veins (portal, running along the ligamentum teres/round ligament in the falciform ligament) \u2194 superficial epigastric veins of the anterior abdominal wall (systemic) \u2014 dilation produces caput medusae, visible dilated periumbilical veins radiating outward. (3) Rectal/anal: superior rectal vein (portal) \u2194 middle and inferior rectal veins (systemic) \u2014 dilation produces (controversially termed, but classically taught) 'internal haemorrhoids' or rectal varices, distinct in mechanism from typical haemorrhoids in patients WITHOUT portal hypertension. (4) Retroperitoneal (of Retzius): veins of the ascending/descending colon, duodenum, pancreas, and other secondarily retroperitoneal organs draining into the retroperitoneal systemic venous system \u2014 clinically less prominent/visible than the other three sites, but still a genuine anastomotic pathway."
+    },
+    "clinical": {
+      "caput_medusae_mechanism": "Caput medusae (named for its resemblance to the snake-haired Medusa of Greek mythology) results specifically from portal blood being shunted through the RECANALISED paraumbilical veins (which normally carry minimal or no flow in the adult, the ligamentum teres being the obliterated remnant of the fetal umbilical vein) \u2014 under portal hypertension, these veins reopen and dilate, becoming visible as a radiating pattern of engorged veins around the umbilicus, a genuinely striking, specific physical sign directly reflecting this specific anastomotic pathway.",
+      "esophageal_varices_severity": "Because the oesophageal anastomosis involves relatively thin-walled, submucosal veins in a location subject to mechanical trauma (from food passage, coughing, retching), oesophageal varices are the SITE MOST PRONE TO SEVERE, LIFE-THREATENING HAEMORRHAGE among the four classic portosystemic anastomoses \u2014 variceal bleeding is a genuine medical emergency and a leading cause of death in patients with advanced cirrhosis/portal hypertension.",
+      "splenomegaly": "While not itself a portosystemic anastomosis, splenomegaly is a classic, frequently co-occurring finding in portal hypertension, resulting from passive venous congestion transmitted backward through the splenic vein (a portal tributary) \u2014 its presence supports the portal hypertension diagnosis and can itself cause secondary complications (e.g. thrombocytopenia from splenic sequestration of platelets)."
+    },
+    "related_structures": "The paraumbilical veins' course within the falciform ligament, alongside the ligamentum teres hepatis (the obliterated fetal umbilical vein \u2014 see the Umbilical Cord and related embryology content), is the direct anatomical basis for caput medusae \u2014 recognising this fetal remnant's adult recanalisation potential connects this chapter's clinical sign directly back to earlier fetal circulation anatomy."
+  },
+  "question_family": [
+    {
+      "family_name": "Portal Hypertension \u2014 Portosystemic Anastomoses (4 angles, one concept)",
+      "member_ids": [
+        "anat_portal_hypertension_0001",
+        "anat_portal_hypertension_0002",
+        "anat_portal_hypertension_0003",
+        "anat_portal_hypertension_0004"
+      ],
+      "coverage": "Recall (oesophageal anastomosis site), mechanism (caput medusae/paraumbilical veins), clinical vignette (variceal bleeding severity), and association (splenomegaly mechanism) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_portal_hypertension_0001",
+      "subject": "Anatomy",
+      "topic": "Portal Hypertension",
+      "subtopic": "Four classic anastomoses",
+      "concept": "Portosystemic anastomoses in portal hypertension: the four classic sites and their specific clinical manifestations",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "Which of the following is one of the four classic portosystemic anastomotic sites that become clinically significant in portal hypertension?",
+      "options": [
+        "Left gastric vein (portal) with oesophageal veins draining to the azygos system (systemic), at the lower oesophagus",
+        "Renal vein with hepatic vein, at the level of the kidney",
+        "Femoral vein with popliteal vein, in the lower limb",
+        "Internal jugular vein with subclavian vein, in the neck"
+      ],
+      "correct_answer": "Left gastric vein (portal) with oesophageal veins draining to the azygos system (systemic), at the lower oesophagus",
+      "distractor_rationale": {
+        "Renal vein with hepatic vein, at the level of the kidney": "Not one of the classic portosystemic anastomotic sites \u2014 both are actually systemic (or portal-adjacent but not classically anastomotic in this specific context) venous structures without this specific clinically significant connection.",
+        "Femoral vein with popliteal vein, in the lower limb": "Both are systemic veins in continuity with each other as part of normal venous drainage, not a portosystemic anastomosis.",
+        "Internal jugular vein with subclavian vein, in the neck": "Both systemic veins, unrelated to the portal venous system entirely."
+      },
+      "explanation": {
+        "core_concept": "The oesophageal anastomosis is the single most clinically important of the four classic sites, given its propensity for massive haemorrhage \u2014 anchoring this specific site (left gastric vein meeting the azygos-draining oesophageal veins) as the foundational example makes the rest of the anastomotic system easier to build on.",
+        "why_correct": "The left gastric vein (a portal tributary) anastomoses with the oesophageal veins (draining to the azygos system, systemic) at the lower oesophagus \u2014 one of the four classic portosystemic anastomotic sites, and the one responsible for oesophageal varices, the most clinically dangerous manifestation of portal hypertension.",
+        "why_others_wrong": {
+          "Renal vein with hepatic vein, at the level of the kidney": "Not a recognised classic portosystemic anastomotic site.",
+          "Femoral vein with popliteal vein, in the lower limb": "A normal, continuous systemic venous pathway, not a portosystemic anastomosis.",
+          "Internal jugular vein with subclavian vein, in the neck": "Both systemic veins, entirely unrelated to portal circulation."
+        },
+        "high_yield_facts": [
+          "Oesophageal anastomosis: left gastric vein (portal) \u2194 oesophageal veins/azygos system (systemic) \u2192 oesophageal VARICES.",
+          "This is the MOST clinically dangerous of the four classic portosystemic anastomoses, given the risk of massive, life-threatening variceal haemorrhage.",
+          "The other three classic sites (umbilical/paraumbilical, rectal, retroperitoneal) are covered elsewhere in this chapter, each with its own distinct clinical manifestation."
+        ],
+        "clinical_correlation": "Oesophageal varices are routinely screened for via endoscopy in patients with known or suspected cirrhosis/portal hypertension, given the genuine, serious bleeding risk this specific anastomotic site carries.",
+        "common_confusions": [
+          "Assuming any venous connection in the abdomen/thorax region could be a portosystemic anastomosis \u2014 only specific, anatomically defined sites (four classic ones) carry this designation and clinical significance."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Oesophageal varices bleeding risk (this concept, other question)",
+          "Caput medusae/umbilical anastomosis (this concept, other question) \u2014 the second classic site"
+        ],
+        "exam_traps": [
+          "Don't confuse a portosystemic anastomosis (portal vein tributary meeting a systemic vein tributary) with an ordinary, continuous systemic venous pathway \u2014 the DEFINING feature is the connection between the TWO DIFFERENT venous systems (portal and systemic)."
+        ],
+        "image_clues": null,
+        "memory_aid": "Left gastric vein meets the oesophageal veins right where food passes \u2014 a genuinely risky spot for dilated, fragile veins to sit.",
+        "other_ways_this_is_tested": [
+          "This foundational anastomotic site sets up the full four-site system covered across this chapter."
+        ],
+        "neet_pg_takeaway": "The left gastric vein (portal) anastomoses with oesophageal veins draining to the azygos system (systemic) at the lower oesophagus \u2014 one of the four classic portosystemic anastomotic sites, and the one responsible for the most clinically dangerous manifestation of portal hypertension (oesophageal varices).",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, abdomen chapter, portal venous system."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the oesophageal portosystemic anastomosis (left gastric vein/azygos system) as one of the four classic sites.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_portal_hypertension_0002",
+      "subject": "Anatomy",
+      "topic": "Portal Hypertension",
+      "subtopic": "Caput medusae mechanism",
+      "concept": "Portosystemic anastomoses in portal hypertension: the four classic sites and their specific clinical manifestations",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Caput medusae \u2014 visible, radiating dilated veins around the umbilicus in portal hypertension \u2014 results from recanalisation and dilation of which specific veins, and what is their normal (pre-pathological) state?",
+      "options": [
+        "Paraumbilical veins, which run within the falciform ligament alongside the ligamentum teres hepatis (the obliterated fetal umbilical vein) and normally carry minimal or no flow in adults",
+        "The renal veins, which normally carry a large volume of flow and become further engorged in portal hypertension",
+        "The internal thoracic (mammary) veins, which have no relationship to the portal venous system or the umbilical region",
+        "The femoral veins, which drain into the umbilical region directly under normal circumstances"
+      ],
+      "correct_answer": "Paraumbilical veins, which run within the falciform ligament alongside the ligamentum teres hepatis (the obliterated fetal umbilical vein) and normally carry minimal or no flow in adults",
+      "distractor_rationale": {
+        "The renal veins, which normally carry a large volume of flow and become further engorged in portal hypertension": "The renal veins are unrelated to the umbilical/paraumbilical anastomosis and don't produce the periumbilical caput medusae pattern.",
+        "The internal thoracic (mammary) veins, which have no relationship to the portal venous system or the umbilical region": "Not the vessels responsible for caput medusae, and this option also incorrectly denies any portal system relationship for veins that aren't actually part of this specific mechanism.",
+        "The femoral veins, which drain into the umbilical region directly under normal circumstances": "The femoral veins don't drain into the umbilical region under normal circumstances, and are unrelated to the caput medusae mechanism."
+      },
+      "explanation": {
+        "core_concept": "Caput medusae's mechanism directly connects back to fetal circulation anatomy \u2014 the paraumbilical veins' normal adult quiescence (alongside the obliterated ligamentum teres) is exactly what makes their portal-hypertension-driven recanalisation and dilation such a striking, visually distinctive physical finding, rather than a subtle change to an already-active vessel.",
+        "why_correct": "The paraumbilical veins run within the falciform ligament, alongside the ligamentum teres hepatis (the fibrous remnant of the obliterated fetal umbilical vein), and normally carry minimal to no significant flow in adults. Under portal hypertension, these veins RECANALISE and dilate, becoming a functional portosystemic anastomosis connecting portal blood (via the paraumbilical veins) to systemic circulation (via the superficial epigastric veins of the anterior abdominal wall), producing the visible, radiating pattern of engorged periumbilical veins known as caput medusae.",
+        "why_others_wrong": {
+          "The renal veins, which normally carry a large volume of flow and become further engorged in portal hypertension": "Unrelated to this specific anastomosis and the umbilical/periumbilical pattern.",
+          "The internal thoracic (mammary) veins, which have no relationship to the portal venous system or the umbilical region": "Not the vessels responsible for this sign.",
+          "The femoral veins, which drain into the umbilical region directly under normal circumstances": "Don't normally drain into the umbilical region, and are unrelated to this mechanism."
+        },
+        "high_yield_facts": [
+          "Caput medusae = recanalised, dilated PARAUMBILICAL veins (within the falciform ligament, alongside the ligamentum teres hepatis).",
+          "These veins normally carry minimal/no flow in adults \u2014 their pathological recanalisation under portal hypertension is what makes this such a specific, visually striking sign.",
+          "This directly connects to fetal circulation anatomy: the ligamentum teres hepatis is the obliterated fetal umbilical vein, and the paraumbilical veins are its small, normally-quiescent adult companions that can reopen under sufficient pressure."
+        ],
+        "clinical_correlation": "Caput medusae is a specific, visually diagnostic physical examination finding directly supporting a portal hypertension diagnosis, often prompting further evaluation for underlying liver disease/cirrhosis.",
+        "common_confusions": [
+          "Assuming caput medusae results from a generic, non-specific abdominal wall venous engorgement rather than understanding its SPECIFIC mechanism \u2014 recanalisation of the paraumbilical veins, tracing directly back to fetal umbilical vein anatomy."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Ligamentum teres hepatis and fetal umbilical vein (see Umbilical Cord chapter for related fetal circulation content)",
+          "Oesophageal varices (this concept, the other major, more dangerous anastomotic site)"
+        ],
+        "exam_traps": [
+          "Don't confuse caput medusae's mechanism (paraumbilical vein recanalisation) with a more generic explanation \u2014 the SPECIFIC vessel and its fetal developmental origin are exactly what's being tested."
+        ],
+        "image_clues": null,
+        "memory_aid": "The old umbilical vein pathway (long dormant since birth) wakes back up under pressure, radiating outward like Medusa's snakes.",
+        "other_ways_this_is_tested": [
+          "This mechanism directly explains the caput medusae physical finding as one of the four classic portosystemic anastomoses covered across this chapter."
+        ],
+        "neet_pg_takeaway": "Caput medusae results from recanalisation and dilation of the paraumbilical veins (within the falciform ligament, alongside the ligamentum teres hepatis), which normally carry minimal flow in adults \u2014 a striking physical sign directly reflecting the reopening of this dormant fetal-remnant venous pathway under portal hypertension.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy; Robbins and Cotran Pathologic Basis of Disease, portal hypertension section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain caput medusae as recanalisation of the paraumbilical veins, tracing back to the ligamentum teres hepatis/fetal umbilical vein.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_portal_hypertension_0003",
+      "subject": "Anatomy",
+      "topic": "Portal Hypertension",
+      "subtopic": "Clinical \u2014 variceal bleeding severity",
+      "concept": "Portosystemic anastomoses in portal hypertension: the four classic sites and their specific clinical manifestations",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient with known cirrhosis presents with sudden massive haematemesis (vomiting blood) and haemodynamic instability. Which of the four classic portosystemic anastomotic sites is most likely responsible, and why is bleeding at this specific site so clinically dangerous compared to the other three sites?",
+      "options": [
+        "The oesophageal (left gastric vein/azygos) site \u2014 these submucosal veins are thin-walled and subject to mechanical trauma from food passage/retching, making them prone to sudden, massive, life-threatening haemorrhage",
+        "The rectal (superior rectal vein/middle-inferior rectal veins) site \u2014 this is the classic site for sudden massive haematemesis specifically",
+        "The retroperitoneal (of Retzius) site \u2014 bleeding here classically presents as haematemesis given its direct connection to the upper GI tract lumen",
+        "All four anastomotic sites carry an identical, equally high risk of causing sudden massive haematemesis"
+      ],
+      "correct_answer": "The oesophageal (left gastric vein/azygos) site \u2014 these submucosal veins are thin-walled and subject to mechanical trauma from food passage/retching, making them prone to sudden, massive, life-threatening haemorrhage",
+      "distractor_rationale": {
+        "The rectal (superior rectal vein/middle-inferior rectal veins) site \u2014 this is the classic site for sudden massive haematemesis specifically": "The rectal anastomosis, if it bleeds, would cause rectal bleeding (haematochezia or melena from a lower source), not haematemesis \u2014 an anatomically mismatched symptom for this specific site.",
+        "The retroperitoneal (of Retzius) site \u2014 bleeding here classically presents as haematemesis given its direct connection to the upper GI tract lumen": "The retroperitoneal anastomosis is not directly connected to the GI tract lumen in a way that would produce haematemesis, and this site is not classically associated with this dramatic bleeding presentation.",
+        "All four anastomotic sites carry an identical, equally high risk of causing sudden massive haematemesis": "Denies the genuine, well-established difference in clinical severity and bleeding risk between the oesophageal site and the other three, less immediately dangerous sites."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical payoff of understanding WHY the oesophageal anastomosis specifically (among the four classic sites) is the one most associated with sudden, massive, life-threatening bleeding \u2014 its thin-walled, submucosal, mechanically-exposed veins in a location subject to regular trauma from swallowing and retching.",
+        "why_correct": "Oesophageal varices, from the left gastric vein/azygos system anastomosis, are the site most prone to sudden, massive, life-threatening haemorrhage among the four classic portosystemic anastomoses \u2014 the thin-walled, submucosal varices in the lower oesophagus are subject to mechanical trauma from food passage, coughing, or retching, and their rupture classically presents with sudden, dramatic haematemesis and haemodynamic instability exactly as described in this vignette, representing a genuine medical emergency and a leading cause of death in advanced cirrhosis.",
+        "why_others_wrong": {
+          "The rectal (superior rectal vein/middle-inferior rectal veins) site \u2014 this is the classic site for sudden massive haematemesis specifically": "Would present with rectal bleeding, not haematemesis (vomited blood) \u2014 an anatomically mismatched symptom.",
+          "The retroperitoneal (of Retzius) site \u2014 bleeding here classically presents as haematemesis given its direct connection to the upper GI tract lumen": "Not classically associated with this presentation or mechanism.",
+          "All four anastomotic sites carry an identical, equally high risk of causing sudden massive haematemesis": "Denies the genuine, clinically important difference in bleeding risk and severity between the oesophageal site and the other three."
+        },
+        "high_yield_facts": [
+          "Oesophageal varices = the SITE MOST PRONE to sudden, massive, life-threatening haemorrhage among the four classic portosystemic anastomoses.",
+          "Mechanism: thin-walled, submucosal veins + mechanical trauma exposure (food passage, retching) = high rupture risk.",
+          "This is a genuine medical emergency requiring urgent endoscopic (or other) intervention \u2014 a leading cause of mortality in advanced cirrhosis/portal hypertension."
+        ],
+        "clinical_correlation": "This understanding directly justifies routine endoscopic screening for oesophageal varices in patients with known cirrhosis, and prophylactic treatment (e.g. non-selective beta-blockers, endoscopic band ligation) for varices identified as high-risk, given the genuinely severe consequences of variceal rupture.",
+        "common_confusions": [
+          "Assuming all four portosystemic anastomotic sites carry equal clinical urgency \u2014 the oesophageal site is SPECIFICALLY and SIGNIFICANTLY more dangerous than the other three, given its unique combination of thin walls and mechanical exposure."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Four classic anastomotic sites (this concept, the foundational question)",
+          "Caput medusae mechanism (this concept, other question) \u2014 a much less immediately dangerous, though still diagnostically important, manifestation"
+        ],
+        "exam_traps": [
+          "When a vignette describes sudden HAEMATEMESIS specifically (not rectal bleeding or another symptom), this should point you toward the OESOPHAGEAL anastomotic site specifically, matching the symptom to the correct anatomical location."
+        ],
+        "image_clues": null,
+        "memory_aid": "Thin veins, right where food and retching pass through \u2014 the oesophagus is the anastomotic site most likely to blow.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the oesophageal anastomosis site established in the first question of this chapter to a genuine, high-stakes clinical emergency."
+        ],
+        "neet_pg_takeaway": "Oesophageal varices, from the left gastric vein/azygos anastomosis, are the portosystemic site most prone to sudden, massive, life-threatening haemorrhage \u2014 reflecting their thin-walled, submucosal, mechanically-exposed nature, distinct from the other three, generally less acutely dangerous anastomotic sites.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard gastroenterology/hepatology references on variceal haemorrhage in portal hypertension."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why oesophageal varices carry the highest bleeding risk among the four classic portosystemic anastomotic sites.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_portal_hypertension_0004",
+      "subject": "Anatomy",
+      "topic": "Portal Hypertension",
+      "subtopic": "Splenomegaly association",
+      "concept": "Portosystemic anastomoses in portal hypertension: the four classic sites and their specific clinical manifestations",
+      "question_type": "association",
+      "difficulty": 2,
+      "question": "Splenomegaly is a classic, frequently co-occurring finding in portal hypertension, though it is not itself a portosystemic anastomosis. What is the mechanism connecting splenomegaly to portal hypertension?",
+      "options": [
+        "Passive venous congestion transmitted backward through the splenic vein (a portal tributary), causing splenic enlargement",
+        "Direct bacterial infection of the spleen, unrelated to any venous pressure changes",
+        "Splenic artery thrombosis, causing compensatory splenic hypertrophy",
+        "Splenomegaly has no established mechanistic relationship to portal hypertension and is purely coincidental when both occur together"
+      ],
+      "correct_answer": "Passive venous congestion transmitted backward through the splenic vein (a portal tributary), causing splenic enlargement",
+      "distractor_rationale": {
+        "Direct bacterial infection of the spleen, unrelated to any venous pressure changes": "Not the mechanism connecting splenomegaly to portal hypertension \u2014 this describes an entirely different, unrelated process (infection).",
+        "Splenic artery thrombosis, causing compensatory splenic hypertrophy": "Not the established mechanism \u2014 arterial thrombosis would more likely cause splenic infarction/shrinkage in the affected territory, not hypertrophy, and isn't the recognised portal hypertension-splenomegaly connection.",
+        "Splenomegaly has no established mechanistic relationship to portal hypertension and is purely coincidental when both occur together": "Denies a genuine, well-established, frequently co-occurring, mechanistically explicable clinical association."
+      },
+      "explanation": {
+        "core_concept": "Splenomegaly's connection to portal hypertension is a direct, simple consequence of the splenic vein being a PORTAL tributary \u2014 elevated portal pressure transmits backward through this vein to the spleen itself, causing passive congestion and enlargement, exactly analogous to how elevated pressure anywhere in a venous system backs up into the structures draining into it.",
+        "why_correct": "The splenic vein is a tributary of the portal venous system (joining the superior mesenteric vein to help form the portal vein). In portal hypertension, elevated pressure within the portal system is transmitted backward through this venous connection to the spleen itself, causing passive venous congestion and resulting splenic enlargement (splenomegaly) \u2014 a direct, simple haemodynamic consequence of the spleen's venous drainage relationship to the portal system.",
+        "why_others_wrong": {
+          "Direct bacterial infection of the spleen, unrelated to any venous pressure changes": "An entirely different, unrelated mechanism (infection), not the actual cause of portal-hypertension-associated splenomegaly.",
+          "Splenic artery thrombosis, causing compensatory splenic hypertrophy": "Not the established mechanism, and arterial thrombosis would more typically cause tissue loss/infarction rather than compensatory enlargement.",
+          "Splenomegaly has no established mechanistic relationship to portal hypertension and is purely coincidental when both occur together": "Denies a genuine, well-established, frequently observed, mechanistically clear clinical association."
+        },
+        "high_yield_facts": [
+          "Splenomegaly in portal hypertension = passive venous congestion via the splenic vein (a portal tributary).",
+          "This is a DIRECT haemodynamic consequence, not a separate, coincidental process \u2014 elevated portal pressure backs up through the splenic vein into the spleen itself.",
+          "Splenomegaly's presence supports a portal hypertension diagnosis and can itself cause secondary complications (e.g. hypersplenism, with thrombocytopenia from splenic platelet sequestration)."
+        ],
+        "clinical_correlation": "Recognising splenomegaly as a portal hypertension consequence (rather than a coincidental or unrelated finding) is directly relevant to the diagnostic workup of suspected liver disease, and explains why patients with cirrhosis often present with or develop thrombocytopenia (from splenic platelet sequestration in the enlarged spleen).",
+        "common_confusions": [
+          "Assuming splenomegaly must reflect a primary splenic or haematological process when found alongside signs of liver disease \u2014 in the context of portal hypertension, splenomegaly is often a direct, secondary haemodynamic consequence rather than an independent, separate pathology."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "The four classic portosystemic anastomoses (this concept, other questions) \u2014 splenomegaly itself isn't one of these anastomotic sites, but shares the same underlying elevated portal pressure driving force"
+        ],
+        "exam_traps": [
+          "Don't classify splenomegaly as one of the four classic portosystemic ANASTOMOSES \u2014 it's a related, frequently co-occurring finding from portal venous congestion, but not itself an anastomotic connection between the portal and systemic systems."
+        ],
+        "image_clues": null,
+        "memory_aid": "The spleen drains INTO the portal system \u2014 so when portal pressure rises, the backup reaches all the way to the spleen, swelling it.",
+        "other_ways_this_is_tested": [
+          "This association rounds out the complete clinical picture of portal hypertension alongside the specific anastomotic site findings covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Splenomegaly in portal hypertension results from passive venous congestion transmitted backward through the splenic vein (a portal tributary) \u2014 a direct haemodynamic consequence of elevated portal pressure, distinct from (though related to) the four classic portosystemic anastomotic sites.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Robbins and Cotran Pathologic Basis of Disease, portal hypertension section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2023
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain splenomegaly in portal hypertension as passive venous congestion via the splenic vein, distinct from the four classic anastomotic sites.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

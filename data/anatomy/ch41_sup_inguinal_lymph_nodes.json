@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0041",
+    "topic": "Sup. Inguinal Lymph Nodes",
+    "chapter_number": 41,
+    "chapter_file": "data/anatomy/ch41_sup_inguinal_lymph_nodes.json",
+    "source_years": [
+      2025
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "exception",
+      "comparison",
+      "clinical_vignette"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The superficial inguinal lymph nodes, arranged in a roughly horizontal and a vertical group along the inguinal ligament and femoral vein respectively, drain lymph from an unexpectedly broad, multi-organ territory \u2014 the lower limb, the anterior abdominal wall below the umbilicus, the external genitalia, the anal canal below the pectinate line, and (notably) the fundus of the uterus via a specific accessory pathway \u2014 making these nodes clinically important sentinels for malignancies in several genuinely different organ systems."
+    },
+    "structure_anatomy": {
+      "horizontal_group": "Lies along the inguinal ligament; drains the anterior abdominal wall skin BELOW the umbilicus, the external genitalia (penis/scrotal skin or vulva \u2014 but NOT the testis itself, which drains to para-aortic nodes given its embryological origin and descent), the perineum, and the anal canal below the pectinate line (the anal canal above the pectinate line drains to internal iliac nodes instead, following the embryological gut-derived vs ectodermal-derived boundary).",
+      "vertical_group": "Lies along the terminal great saphenous vein/femoral vein; drains the superficial lymphatics of the lower limb.",
+      "round_ligament_pathway": "A specific, genuinely important accessory pathway: lymph from the FUNDUS of the uterus can drain along the round ligament of the uterus, through the inguinal canal, to the superficial inguinal lymph nodes \u2014 a notable EXCEPTION to the general rule that most pelvic organ lymphatics drain to iliac/para-aortic nodes, and clinically relevant to certain gynaecological malignancy spread patterns."
+    },
+    "clinical": {
+      "sentinel_node_for_multiple_cancers": "Because of this broad, multi-territory drainage, superficial inguinal lymphadenopathy can be the presenting sign of malignancy at several genuinely different primary sites \u2014 vulvar or penile carcinoma, anal canal carcinoma (specifically below the pectinate line), lower limb melanoma or other skin cancers, and (via the round ligament pathway) occasionally uterine fundal pathology \u2014 making a systematic differential diagnosis approach essential when these nodes are found enlarged.",
+      "testis_exception": "A genuinely important, frequently tested EXCEPTION: despite the testis being an external genital-region organ, it does NOT drain to the superficial inguinal nodes \u2014 testicular lymphatics instead drain to the PARA-AORTIC (lumbar) nodes, directly reflecting the testis's embryological origin high on the posterior abdominal wall and its subsequent descent, which the lymphatic drainage pattern continues to reflect even after full descent into the scrotum.",
+      "anal_canal_pectinate_line_boundary": "The anal canal's lymphatic drainage splits exactly at the pectinate line: ABOVE (endoderm-derived, hindgut origin) drains to internal iliac nodes; BELOW (ectoderm-derived, proctodeum origin) drains to superficial inguinal nodes \u2014 directly mirroring the same embryological boundary that also determines the anal canal's differing blood supply, venous drainage, and epithelial type above versus below this line."
+    },
+    "related_structures": "The testis's exception (draining to para-aortic, NOT inguinal, nodes) and the anal canal's pectinate-line-based split are the two most frequently tested, high-yield specific details in this topic \u2014 both directly illustrate how lymphatic drainage patterns trace back to embryological origin rather than simple adult anatomical proximity."
+  },
+  "question_family": [
+    {
+      "family_name": "Superficial Inguinal Lymph Nodes \u2014 Drainage Territory and Exceptions (4 angles, one concept)",
+      "member_ids": [
+        "anat_inguinal_lymph_nodes_0001",
+        "anat_inguinal_lymph_nodes_0002",
+        "anat_inguinal_lymph_nodes_0003",
+        "anat_inguinal_lymph_nodes_0004"
+      ],
+      "coverage": "Recall (general territory), exception (testis), comparison (anal canal pectinate line split), and clinical vignette (round ligament/uterine fundus pathway) \u2014 four genuinely different angles on the same integrated concept, all unified by embryological origin determining lymphatic drainage."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_inguinal_lymph_nodes_0001",
+      "subject": "Anatomy",
+      "topic": "Sup. Inguinal Lymph Nodes",
+      "subtopic": "Drainage territory",
+      "concept": "Superficial inguinal lymph node drainage territory and its embryologically-based exceptions (testis, anal canal, uterine fundus)",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The superficial inguinal lymph nodes drain lymph from which of the following territories?",
+      "options": [
+        "Lower limb, anterior abdominal wall below the umbilicus, external genitalia, and the anal canal below the pectinate line",
+        "The entire abdominal cavity and all pelvic viscera without exception",
+        "Only the lower limb, with no contribution from the trunk or perineum",
+        "The testis specifically, along with all other external genital structures"
+      ],
+      "correct_answer": "Lower limb, anterior abdominal wall below the umbilicus, external genitalia, and the anal canal below the pectinate line",
+      "distractor_rationale": {
+        "The entire abdominal cavity and all pelvic viscera without exception": "Vastly overstates the territory \u2014 most pelvic viscera and the abdominal cavity generally drain to iliac/para-aortic nodes, not superficial inguinal nodes.",
+        "Only the lower limb, with no contribution from the trunk or perineum": "Understates the territory \u2014 the anterior abdominal wall below the umbilicus, external genitalia, and lower anal canal also drain here, not just the lower limb.",
+        "The testis specifically, along with all other external genital structures": "The testis is specifically an EXCEPTION (draining to para-aortic nodes instead) \u2014 this option incorrectly includes it."
+      },
+      "explanation": {
+        "core_concept": "This multi-territory drainage pattern is exactly why superficial inguinal lymphadenopathy requires a broad differential diagnosis \u2014 no single organ system's pathology can be assumed without considering the others sharing this same nodal drainage.",
+        "why_correct": "The superficial inguinal lymph nodes drain the lower limb (vertical group), the anterior abdominal wall skin below the umbilicus, the external genitalia (excluding the testis), the perineum, and the anal canal below the pectinate line (horizontal group).",
+        "why_others_wrong": {
+          "The entire abdominal cavity and all pelvic viscera without exception": "Vastly overstates the actual, more limited territory \u2014 most abdominal/pelvic viscera drain elsewhere.",
+          "Only the lower limb, with no contribution from the trunk or perineum": "Understates the territory, omitting the genuinely included trunk/perineal/anal contributions.",
+          "The testis specifically, along with all other external genital structures": "Incorrectly includes the testis, which is a specific, well-known exception draining elsewhere instead."
+        },
+        "high_yield_facts": [
+          "Superficial inguinal nodes drain: lower limb + anterior abdominal wall (below umbilicus) + external genitalia + anal canal below the pectinate line.",
+          "This multi-organ drainage is exactly why enlarged inguinal nodes require considering several genuinely different primary sites.",
+          "The testis is a specific, important EXCEPTION \u2014 covered in depth elsewhere in this chapter."
+        ],
+        "clinical_correlation": "This broad drainage territory is the anatomical basis for using superficial inguinal lymph node examination/biopsy as part of the staging workup for several different cancers (vulvar, penile, anal, lower limb melanoma).",
+        "common_confusions": [
+          "Assuming inguinal node drainage covers all pelvic/genital structures uniformly \u2014 the testis exception specifically breaks this assumption, and needs to be actively remembered separately."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Testis exception (this concept, other question)",
+          "Anal canal pectinate line split (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't assume every genital or pelvic structure drains to the superficial inguinal nodes \u2014 always check for the specific, well-known exceptions (testis, structures above the pectinate line, most pelvic viscera)."
+        ],
+        "image_clues": null,
+        "memory_aid": "Superficial inguinal nodes catch the SKIN and SURFACE structures of the lower body \u2014 not the deep internal organs.",
+        "other_ways_this_is_tested": [
+          "This general territory is the foundation for both specific exception questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Superficial inguinal lymph nodes drain the lower limb, lower anterior abdominal wall, external genitalia, and anal canal below the pectinate line \u2014 a broad, multi-organ territory with important, specific exceptions (notably the testis).",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, lower limb and pelvis chapters."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the broad, multi-organ drainage territory of the superficial inguinal lymph nodes.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_inguinal_lymph_nodes_0002",
+      "subject": "Anatomy",
+      "topic": "Sup. Inguinal Lymph Nodes",
+      "subtopic": "Testis exception",
+      "concept": "Superficial inguinal lymph node drainage territory and its embryologically-based exceptions (testis, anal canal, uterine fundus)",
+      "question_type": "exception",
+      "difficulty": 3,
+      "question": "Despite being located in the external genital region, the testis does NOT drain to the superficial inguinal lymph nodes. Where does testicular lymphatic drainage actually go, and why?",
+      "options": [
+        "Para-aortic (lumbar) nodes \u2014 reflecting the testis's embryological origin high on the posterior abdominal wall, a pattern the lymphatic drainage continues to follow even after the testis descends into the scrotum",
+        "Superficial inguinal nodes, following the same pattern as scrotal skin, with no genuine exception",
+        "Deep cervical lymph nodes, an anatomically unrelated and implausible drainage route",
+        "The testis has no lymphatic drainage at all"
+      ],
+      "correct_answer": "Para-aortic (lumbar) nodes \u2014 reflecting the testis's embryological origin high on the posterior abdominal wall, a pattern the lymphatic drainage continues to follow even after the testis descends into the scrotum",
+      "distractor_rationale": {
+        "Superficial inguinal nodes, following the same pattern as scrotal skin, with no genuine exception": "Denies the genuine, well-established, frequently tested exception \u2014 the testis specifically does NOT follow the scrotal skin's drainage pattern, despite their close anatomical proximity in the adult.",
+        "Deep cervical lymph nodes, an anatomically unrelated and implausible drainage route": "An anatomically implausible, unrelated drainage route with no genuine basis.",
+        "The testis has no lymphatic drainage at all": "Denies a genuine, well-characterised lymphatic drainage pathway (to para-aortic nodes specifically)."
+      },
+      "explanation": {
+        "core_concept": "The testis's lymphatic drainage is a classic, elegant illustration of embryology determining adult lymphatic anatomy \u2014 despite ending up in the scrotum (an external genital, superficial location), its lymphatics 'remember' its original high, posterior abdominal wall origin and drain accordingly, completely independent of the overlying scrotal SKIN's separate, more locally-appropriate drainage to inguinal nodes.",
+        "why_correct": "Testicular lymphatics drain to the PARA-AORTIC (lumbar) lymph nodes, directly reflecting the testis's embryological origin high on the posterior abdominal wall (near the developing kidney) and its testicular vessels' correspondingly high origin from the aorta \u2014 a pattern that persists even after the testis descends through the inguinal canal into the scrotum during development, since the lymphatic (and vascular) drainage doesn't 're-route' to match the final adult position.",
+        "why_others_wrong": {
+          "Superficial inguinal nodes, following the same pattern as scrotal skin, with no genuine exception": "Denies the well-established, genuine exception \u2014 testicular lymphatics specifically do NOT follow the scrotal skin's separate, more locally-based inguinal drainage pattern.",
+          "Deep cervical lymph nodes, an anatomically unrelated and implausible drainage route": "No anatomical basis for this drainage route.",
+          "The testis has no lymphatic drainage at all": "Denies a genuine, well-characterised drainage pathway."
+        },
+        "high_yield_facts": [
+          "Testis lymphatic drainage = para-aortic (lumbar) nodes, NOT superficial inguinal nodes.",
+          "This reflects the testis's embryological origin high on the posterior abdominal wall \u2014 the SAME logic explaining why testicular VESSELS (arteries, veins) also arise/drain at this high, aortic/renal-vein level, not at the groin.",
+          "SCROTAL SKIN, by contrast, DOES drain to the superficial inguinal nodes (following simple local/surface anatomy) \u2014 this is exactly the contrast worth holding in mind: testis (para-aortic) vs scrotal skin (inguinal) are genuinely different drainage patterns despite occupying the same adult anatomical region."
+        ],
+        "clinical_correlation": "This exception has major, genuinely practical oncological significance \u2014 testicular cancer staging and surgical management (radical orchiectomy via an INGUINAL, not scrotal, approach, specifically to avoid disrupting this high lymphatic drainage pattern and avoid seeding the scrotal/inguinal lymphatics) are directly built on this embryologically-determined drainage fact.",
+        "common_confusions": [
+          "Assuming the testis drains like its surrounding scrotal skin, simply because of their adult anatomical proximity \u2014 the testis's OWN internal structures (vessels, lymphatics) follow their embryological origin, completely independent of the overlying skin's separate, local drainage pattern."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Testicular cancer surgical approach (inguinal orchiectomy, directly reflecting this drainage pattern)",
+          "Anal canal pectinate line exception (this concept, other question) \u2014 another embryologically-based lymphatic drainage exception"
+        ],
+        "exam_traps": [
+          "Don't assume the testis follows scrotal skin's inguinal drainage just because of anatomical proximity \u2014 actively recall this as THE classic exception, tested precisely because it's counter-intuitive without the embryological explanation."
+        ],
+        "image_clues": null,
+        "memory_aid": "The testis never really 'moves' its lymphatic address \u2014 it still reports to the high, abdominal para-aortic nodes, just like where it was originally built.",
+        "other_ways_this_is_tested": [
+          "This exception directly explains why testicular cancer surgery uses an inguinal (not scrotal) approach, a genuinely important clinical application."
+        ],
+        "neet_pg_takeaway": "Testicular lymphatics drain to para-aortic (lumbar) nodes, NOT superficial inguinal nodes \u2014 reflecting the testis's high embryological origin, a pattern persisting despite its adult scrotal location, and directly explaining the inguinal (not scrotal) surgical approach to testicular cancer.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Langman's Medical Embryology; Moore's Clinically Oriented Anatomy, testis lymphatic drainage."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain testicular lymphatic drainage to para-aortic nodes as a reflection of its embryological origin, distinct from scrotal skin's inguinal drainage.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_inguinal_lymph_nodes_0003",
+      "subject": "Anatomy",
+      "topic": "Sup. Inguinal Lymph Nodes",
+      "subtopic": "Anal canal pectinate line split",
+      "concept": "Superficial inguinal lymph node drainage territory and its embryologically-based exceptions (testis, anal canal, uterine fundus)",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "The anal canal's lymphatic drainage splits at the pectinate line. How does drainage differ above versus below this line, and what does this pattern reflect?",
+      "options": [
+        "ABOVE the pectinate line (endoderm-derived, hindgut origin): drains to internal iliac nodes. BELOW the pectinate line (ectoderm-derived, proctodeum origin): drains to superficial inguinal nodes",
+        "Both above and below the pectinate line drain identically to superficial inguinal nodes, with no meaningful difference",
+        "ABOVE the pectinate line drains to superficial inguinal nodes; BELOW drains to internal iliac nodes \u2014 the reverse of the correct pattern",
+        "The pectinate line has no relationship to lymphatic drainage patterns, only to blood supply and epithelial type"
+      ],
+      "correct_answer": "ABOVE the pectinate line (endoderm-derived, hindgut origin): drains to internal iliac nodes. BELOW the pectinate line (ectoderm-derived, proctodeum origin): drains to superficial inguinal nodes",
+      "distractor_rationale": {
+        "Both above and below the pectinate line drain identically to superficial inguinal nodes, with no meaningful difference": "Denies the genuine, embryologically-based split in drainage pattern.",
+        "ABOVE the pectinate line drains to superficial inguinal nodes; BELOW drains to internal iliac nodes \u2014 the reverse of the correct pattern": "Directly reverses the correct above/below assignment.",
+        "The pectinate line has no relationship to lymphatic drainage patterns, only to blood supply and epithelial type": "Denies a genuine, well-established additional dimension (lymphatic drainage) of the pectinate line's broader embryological significance \u2014 it affects MULTIPLE features together, not just blood supply and epithelium."
+      },
+      "explanation": {
+        "core_concept": "The pectinate line is the single organizing embryological boundary explaining SEVERAL different anatomical features of the anal canal together \u2014 blood supply, venous drainage, epithelial type, AND lymphatic drainage all split at this exact same line, because it marks the genuine embryological boundary between hindgut (endoderm) and proctodeum (ectoderm) origin.",
+        "why_correct": "Above the pectinate line, the anal canal is endoderm-derived (hindgut origin) and drains to internal iliac lymph nodes \u2014 consistent with the rest of the hindgut's typical lymphatic drainage pattern. Below the pectinate line, the anal canal is ectoderm-derived (from the embryonic proctodeum) and drains to the superficial inguinal lymph nodes instead \u2014 consistent with its more 'skin-like,' surface-derived embryological origin, following the same general pattern as other perineal/external skin structures.",
+        "why_others_wrong": {
+          "Both above and below the pectinate line drain identically to superficial inguinal nodes, with no meaningful difference": "Denies the genuine, embryologically-grounded split in drainage pattern.",
+          "ABOVE the pectinate line drains to superficial inguinal nodes; BELOW drains to internal iliac nodes \u2014 the reverse of the correct pattern": "A direct reversal of the correct assignment.",
+          "The pectinate line has no relationship to lymphatic drainage patterns, only to blood supply and epithelial type": "Understates the pectinate line's full embryological significance \u2014 it determines MULTIPLE features together (blood supply, venous drainage, epithelium, AND lymphatic drainage), not a limited subset."
+        },
+        "high_yield_facts": [
+          "Above pectinate line (endoderm/hindgut): drains to INTERNAL ILIAC nodes.",
+          "Below pectinate line (ectoderm/proctodeum): drains to SUPERFICIAL INGUINAL nodes.",
+          "This same pectinate line boundary ALSO determines differing blood supply (superior rectal artery above vs inferior rectal artery below), venous drainage (portal above vs systemic below \u2014 relevant to haemorrhoid classification), and epithelial type (columnar above vs stratified squamous below) \u2014 a single embryological boundary explaining FOUR different anatomical features together."
+        ],
+        "clinical_correlation": "This lymphatic drainage split has direct oncological significance \u2014 anal canal cancers ABOVE the pectinate line spread to internal iliac (pelvic) nodes, while those BELOW spread to superficial inguinal (groin) nodes, directly influencing staging workup and radiation field planning for anal cancer.",
+        "common_confusions": [
+          "Assuming the ENTIRE anal canal shares one uniform lymphatic drainage pattern \u2014 the pectinate line specifically creates a genuine, clinically important split, exactly mirroring the same boundary's effect on blood supply and epithelial type."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Testis exception (this concept, other question) \u2014 another embryologically-based lymphatic exception",
+          "Haemorrhoid classification (internal vs external, based on the same pectinate line boundary, not covered in depth here)"
+        ],
+        "exam_traps": [
+          "When anal canal lymphatic drainage is tested, actively use the SAME embryological logic (endoderm/hindgut above, ectoderm/proctodeum below) already familiar from blood supply and epithelial type \u2014 the lymphatic pattern follows the identical boundary, making it predictable rather than requiring separate memorisation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Above the line, it's still 'gut' \u2014 drains like the gut (internal iliac). Below the line, it's basically 'skin' \u2014 drains like skin (inguinal).",
+        "other_ways_this_is_tested": [
+          "This pectinate-line-based split directly parallels the testis exception covered elsewhere in this chapter \u2014 both illustrate embryological origin determining adult lymphatic drainage pattern."
+        ],
+        "neet_pg_takeaway": "The anal canal's lymphatic drainage splits at the pectinate line: above (endoderm/hindgut) drains to internal iliac nodes; below (ectoderm/proctodeum) drains to superficial inguinal nodes \u2014 directly reflecting the same embryological boundary that also determines blood supply and epithelial type at this exact line.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy; Langman's Medical Embryology, anal canal development."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Contrast the lymphatic drainage of the anal canal above versus below the pectinate line, and its embryological basis.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_inguinal_lymph_nodes_0004",
+      "subject": "Anatomy",
+      "topic": "Sup. Inguinal Lymph Nodes",
+      "subtopic": "Clinical \u2014 round ligament/uterine fundus pathway",
+      "concept": "Superficial inguinal lymph node drainage territory and its embryologically-based exceptions (testis, anal canal, uterine fundus)",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient with a fundal uterine malignancy is found, on staging workup, to have enlarged superficial inguinal lymph nodes without evidence of pelvic (iliac) nodal involvement. What anatomical pathway explains this specific, somewhat unusual pattern of spread?",
+      "options": [
+        "Lymphatic drainage from the uterine fundus can travel along the round ligament of the uterus, through the inguinal canal, to reach the superficial inguinal lymph nodes \u2014 a genuine, if less common, accessory pathway distinct from the more typical pelvic (iliac/para-aortic) drainage of most of the uterus",
+        "This finding is impossible and must reflect a laboratory or imaging error, since the uterus has no lymphatic connection to the inguinal region under any circumstances",
+        "The inguinal nodes in this case reflect an unrelated, coincidental second malignancy, entirely disconnected from the uterine cancer",
+        "All uterine lymphatic drainage exclusively follows the round ligament pathway to inguinal nodes, with no other drainage route existing"
+      ],
+      "correct_answer": "Lymphatic drainage from the uterine fundus can travel along the round ligament of the uterus, through the inguinal canal, to reach the superficial inguinal lymph nodes \u2014 a genuine, if less common, accessory pathway distinct from the more typical pelvic (iliac/para-aortic) drainage of most of the uterus",
+      "distractor_rationale": {
+        "This finding is impossible and must reflect a laboratory or imaging error, since the uterus has no lymphatic connection to the inguinal region under any circumstances": "Denies a genuine, well-documented (if less commonly emphasised than the main pelvic drainage routes) accessory lymphatic pathway.",
+        "The inguinal nodes in this case reflect an unrelated, coincidental second malignancy, entirely disconnected from the uterine cancer": "Unnecessarily invokes a coincidental second cancer when a genuine, direct anatomical pathway (round ligament) fully explains the finding without needing this assumption.",
+        "All uterine lymphatic drainage exclusively follows the round ligament pathway to inguinal nodes, with no other drainage route existing": "Overstates the round ligament pathway's role \u2014 it's specifically an ACCESSORY route for the FUNDUS particularly, with most of the uterus (body, cervix) draining via the more typical, dominant iliac/para-aortic routes instead."
+      },
+      "explanation": {
+        "core_concept": "The round ligament pathway is a genuinely important, specific exception to the general rule that pelvic organs drain primarily to iliac/para-aortic nodes \u2014 understanding this accessory route is what makes an otherwise puzzling finding (uterine cancer spreading to the GROIN, not the pelvis) anatomically explicable rather than seemingly anomalous.",
+        "why_correct": "Lymphatic vessels from the uterine FUNDUS specifically can follow the round ligament of the uterus through the inguinal canal to reach the superficial inguinal lymph nodes \u2014 a genuine, recognised accessory lymphatic pathway, distinct from (and less commonly the dominant route than) the uterus's more typical drainage via the broad ligament to iliac and para-aortic nodes. This pathway directly explains why fundal uterine malignancy can occasionally present with or spread specifically to inguinal nodes.",
+        "why_others_wrong": {
+          "This finding is impossible and must reflect a laboratory or imaging error, since the uterus has no lymphatic connection to the inguinal region under any circumstances": "Denies a genuine, anatomically real, well-documented pathway.",
+          "The inguinal nodes in this case reflect an unrelated, coincidental second malignancy, entirely disconnected from the uterine cancer": "Unnecessarily complicates the explanation when a direct, single anatomical pathway (round ligament) fully accounts for the finding.",
+          "All uterine lymphatic drainage exclusively follows the round ligament pathway to inguinal nodes, with no other drainage route existing": "Overstates this specific pathway's role \u2014 it's an ACCESSORY route specifically for the fundus, not the uterus's dominant or exclusive drainage pattern overall."
+        },
+        "high_yield_facts": [
+          "Round ligament pathway: uterine FUNDUS lymphatics \u2192 round ligament \u2192 inguinal canal \u2192 superficial inguinal nodes.",
+          "This is an ACCESSORY, less common pathway \u2014 most uterine lymphatic drainage (body, cervix) follows the more typical broad ligament \u2192 iliac/para-aortic node routes instead.",
+          "This pathway is exactly why fundal uterine malignancy staging sometimes specifically includes assessment of inguinal nodes, in addition to the more usual pelvic nodal assessment."
+        ],
+        "clinical_correlation": "Recognising this accessory pathway is directly relevant to comprehensive staging workup for uterine malignancy, particularly fundal tumours, ensuring inguinal involvement isn't overlooked simply because it's a less typical/expected site for uterine cancer spread.",
+        "common_confusions": [
+          "Assuming all uterine lymphatic drainage must follow a single, uniform pattern (purely pelvic) \u2014 the round ligament accessory pathway is a genuine, specific exception worth actively remembering, particularly for fundal tumours specifically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "General superficial inguinal node territory (this concept, direct recall question)",
+          "Testis and anal canal exceptions (this concept, other questions) \u2014 together illustrating several different embryologically/anatomically-based exceptions to expected lymphatic drainage patterns"
+        ],
+        "exam_traps": [
+          "When inguinal lymphadenopathy is found with a pelvic/gynaecological malignancy, don't assume this must reflect an unrelated process or an error \u2014 actively consider the round ligament pathway as a genuine, if less common, explanation, particularly for FUNDAL uterine tumours specifically."
+        ],
+        "image_clues": null,
+        "memory_aid": "The fundus has a 'back door' route to the groin nodes \u2014 following the round ligament straight through the inguinal canal.",
+        "other_ways_this_is_tested": [
+          "This accessory pathway completes the set of superficial inguinal node drainage exceptions covered in this chapter, alongside the testis and anal canal exceptions."
+        ],
+        "neet_pg_takeaway": "Lymphatic drainage from the uterine fundus can follow the round ligament through the inguinal canal to the superficial inguinal nodes \u2014 a genuine, specific accessory pathway explaining occasional inguinal nodal spread from fundal uterine malignancy.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Moore's Clinically Oriented Anatomy; standard gynaecologic oncology references on uterine lymphatic drainage."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the round ligament pathway as an accessory route for uterine fundal lymphatic drainage to the superficial inguinal nodes.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

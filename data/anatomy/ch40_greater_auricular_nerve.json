@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0040",
+    "topic": "Greater Auricular Nerve",
+    "chapter_number": 40,
+    "chapter_file": "data/anatomy/ch40_greater_auricular_nerve.json",
+    "source_years": [
+      2018
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 3,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "association"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The greater auricular nerve is the largest ascending branch of the cervical plexus (C2-C3), a purely sensory nerve supplying skin over the parotid gland region, the angle of the mandible, and both surfaces of the lower ear (pinna) \u2014 genuinely important clinically because its superficial course directly across the sternocleidomastoid muscle places it at recognised, specific risk during parotidectomy, making it one of the most frequently injured nerves in that particular operation."
+    },
+    "structure_anatomy": {
+      "origin_and_course": "Arises from the cervical plexus (ventral rami of C2-C3), emerges from behind the middle of the posterior border of sternocleidomastoid (at Erb's point, alongside the other major cutaneous branches of the cervical plexus), then ascends obliquely, running superficially and directly ACROSS the surface of sternocleidomastoid (not deep to it) toward the parotid region and ear \u2014 this superficial, exposed course over the muscle is exactly what makes it vulnerable during neck surgery in this region.",
+      "sensory_territory": "Supplies skin over the parotid gland, the angle of the mandible, and both the anterior (facial) and posterior (cranial) surfaces of the lower ear/pinna \u2014 NOT a motor nerve, carrying no muscle innervation at all."
+    },
+    "clinical": {
+      "parotidectomy_injury_risk": "The greater auricular nerve's superficial course directly across sternocleidomastoid means it is frequently encountered and at risk during parotidectomy (the standard surgical approach to the parotid gland crosses directly over this nerve's course) \u2014 injury causes numbness over the ear lobe, lower ear, and angle of the jaw region, a common, often intentionally accepted trade-off in parotid surgery (the nerve is sometimes deliberately sacrificed if involved by tumour, or preserved when possible, but numbness in this distribution is a well-recognised, consented-for risk even with careful technique).",
+      "landmark_for_facial_nerve": "The greater auricular nerve's course, running roughly parallel to and just posterior to the external jugular vein on the surface of sternocleidomastoid, is sometimes used as a secondary surface landmark during parotid surgery to help orient toward the facial nerve's expected location, though the facial nerve itself is identified using other, more direct landmarks (e.g. the posterior belly of digastric, tragal pointer, tympanomastoid suture).",
+      "nerve_graft_source": "Because the greater auricular nerve is purely sensory, relatively expendable (its sensory loss is a manageable, often-accepted deficit), and conveniently located in a region often already exposed during head/neck procedures, it is sometimes deliberately harvested as a DONOR nerve graft \u2014 for example, to bridge a facial nerve gap after facial nerve resection (e.g. during radical parotidectomy for malignancy involving the facial nerve) \u2014 a genuinely practical surgical application of this nerve's expendability."
+    },
+    "related_structures": "The greater auricular nerve's course directly across sternocleidomastoid \u2014 rather than deep to it \u2014 is the single anatomical fact explaining both its vulnerability during parotid surgery and its use as a secondary surgical landmark; this superficial position is what makes it one of the most reliably, easily encountered structures early in a standard parotidectomy dissection."
+  },
+  "question_family": [
+    {
+      "family_name": "Greater Auricular Nerve \u2014 Course, Territory, and Parotid Surgery Applications (4 angles, one concept)",
+      "member_ids": [
+        "anat_greater_auricular_nerve_0001",
+        "anat_greater_auricular_nerve_0002",
+        "anat_greater_auricular_nerve_0003",
+        "anat_greater_auricular_nerve_0004"
+      ],
+      "coverage": "Recall (origin/territory), mechanism (superficial course explaining vulnerability), clinical vignette (parotidectomy injury), and association (nerve graft harvesting) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_greater_auricular_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Greater Auricular Nerve",
+      "subtopic": "Origin and territory",
+      "concept": "Greater auricular nerve: course, sensory territory, and parotidectomy injury risk",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The greater auricular nerve arises from which plexus, and what does it supply?",
+      "options": [
+        "Cervical plexus (C2-C3) \u2014 purely sensory, supplying skin over the parotid region, angle of mandible, and lower ear",
+        "Brachial plexus (C5-C6) \u2014 motor supply to the deltoid and biceps",
+        "Cervical plexus (C2-C3) \u2014 motor supply to sternocleidomastoid",
+        "Trigeminal nerve (V3) \u2014 sensory supply to the upper ear and temple"
+      ],
+      "correct_answer": "Cervical plexus (C2-C3) \u2014 purely sensory, supplying skin over the parotid region, angle of mandible, and lower ear",
+      "distractor_rationale": {
+        "Brachial plexus (C5-C6) \u2014 motor supply to the deltoid and biceps": "The brachial plexus supplies the upper limb \u2014 an entirely different plexus and territory from the greater auricular nerve.",
+        "Cervical plexus (C2-C3) \u2014 motor supply to sternocleidomastoid": "Correctly identifies the plexus but incorrectly assigns a motor function \u2014 the greater auricular nerve is purely SENSORY, and sternocleidomastoid's motor supply comes from a different source (CN XI).",
+        "Trigeminal nerve (V3) \u2014 sensory supply to the upper ear and temple": "A different nerve (trigeminal, not cervical plexus) supplying a different region (upper ear/temple, via the auriculotemporal nerve, not the greater auricular nerve's lower ear territory)."
+      },
+      "explanation": {
+        "core_concept": "The greater auricular nerve's pure sensory role and cervical plexus origin are the two foundational facts that explain both its clinical significance (numbness after injury, not motor weakness) and its surgical relevance (sensory-only, making it expendable and harvestable as a nerve graft).",
+        "why_correct": "The greater auricular nerve is the largest ascending branch of the cervical plexus (C2-C3 ventral rami), a purely sensory nerve supplying skin over the parotid gland region, the angle of the mandible, and both surfaces of the lower ear (pinna).",
+        "why_others_wrong": {
+          "Brachial plexus (C5-C6) \u2014 motor supply to the deltoid and biceps": "An entirely different plexus (brachial, not cervical) and territory (upper limb, not neck/ear).",
+          "Cervical plexus (C2-C3) \u2014 motor supply to sternocleidomastoid": "Correct plexus, but the greater auricular nerve itself is purely sensory \u2014 sternocleidomastoid's motor supply is CN XI (accessory nerve), a different nerve.",
+          "Trigeminal nerve (V3) \u2014 sensory supply to the upper ear and temple": "A different nerve (trigeminal) and a different specific territory (upper ear/temple is auriculotemporal nerve territory, not greater auricular nerve territory)."
+        },
+        "high_yield_facts": [
+          "Greater auricular nerve = cervical plexus (C2-C3), PURELY SENSORY.",
+          "Territory: parotid region skin, angle of mandible, lower ear (both surfaces).",
+          "This is DISTINCT from the auriculotemporal nerve (a V3/trigeminal branch), which supplies the UPPER ear and temple region \u2014 two different nerves, two different ear-region territories, worth actively distinguishing."
+        ],
+        "clinical_correlation": "Its purely sensory nature is directly relevant to its surgical use as a donor nerve graft (covered elsewhere in this chapter) \u2014 sensory-only nerves are generally more 'expendable' surgically than motor nerves, since the resulting deficit (numbness) is usually better tolerated than motor weakness.",
+        "common_confusions": [
+          "Confusing the greater auricular nerve with the auriculotemporal nerve \u2014 both supply parts of the ear region, but from different nerve origins (cervical plexus vs trigeminal) and different specific territories (lower ear vs upper ear/temple)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Parotidectomy injury risk (this concept, other question)",
+          "Auriculotemporal nerve (a related but distinct ear-region sensory nerve, not covered in depth here)"
+        ],
+        "exam_traps": [
+          "Don't default to trigeminal nerve for ANY ear-region sensory question \u2014 the LOWER ear/parotid region specifically is greater auricular nerve (cervical plexus) territory, distinct from the upper ear/temple (trigeminal/auriculotemporal) territory."
+        ],
+        "image_clues": null,
+        "memory_aid": "Greater auricular nerve = the 'lower ear and jaw angle' nerve, from the NECK (cervical plexus), not the face (trigeminal).",
+        "other_ways_this_is_tested": [
+          "This origin and territory fact underlies both the parotidectomy risk and nerve graft applications covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The greater auricular nerve arises from the cervical plexus (C2-C3) and is purely sensory, supplying skin over the parotid region, angle of the mandible, and lower ear.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the greater auricular nerve's cervical plexus origin and its purely sensory territory.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_greater_auricular_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Greater Auricular Nerve",
+      "subtopic": "Course over sternocleidomastoid",
+      "concept": "Greater auricular nerve: course, sensory territory, and parotidectomy injury risk",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Why is the greater auricular nerve particularly vulnerable to injury during neck and parotid surgery, in terms of its specific anatomical course?",
+      "options": [
+        "It runs superficially, directly ACROSS the surface of sternocleidomastoid (not deep to it), making it one of the first, most exposed structures encountered during a standard surgical dissection in this region",
+        "It runs deep within the substance of the parotid gland itself, entirely protected from any surgical approach",
+        "It has no fixed anatomical course, making its location unpredictable and therefore impossible to injure predictably",
+        "It runs alongside the carotid artery deep in the neck, far from any typical surgical field"
+      ],
+      "correct_answer": "It runs superficially, directly ACROSS the surface of sternocleidomastoid (not deep to it), making it one of the first, most exposed structures encountered during a standard surgical dissection in this region",
+      "distractor_rationale": {
+        "It runs deep within the substance of the parotid gland itself, entirely protected from any surgical approach": "The nerve runs superficially, external to and crossing OVER sternocleidomastoid, not deep within the parotid gland substance itself \u2014 this option misdescribes its actual, exposed course.",
+        "It has no fixed anatomical course, making its location unpredictable and therefore impossible to injure predictably": "Denies the nerve's genuine, well-established, predictable anatomical course \u2014 it's precisely because its course IS predictable that surgeons can anticipate and either preserve or deliberately manage it during surgery.",
+        "It runs alongside the carotid artery deep in the neck, far from any typical surgical field": "Misdescribes its actual course \u2014 it runs superficially over sternocleidomastoid, not deep alongside the carotid artery."
+      },
+      "explanation": {
+        "core_concept": "The greater auricular nerve's SUPERFICIAL position \u2014 crossing directly over, not deep to, sternocleidomastoid \u2014 is exactly what makes it one of the earliest, most exposed structures a surgeon encounters when approaching the parotid region, directly explaining its high injury rate in this specific procedure.",
+        "why_correct": "After emerging from behind the posterior border of sternocleidomastoid (at Erb's point), the greater auricular nerve runs superficially, directly across the outer surface of the muscle (not deep to it), ascending toward the parotid region and ear \u2014 this exposed, superficial position makes it one of the first structures encountered during standard surgical dissection approaching the parotid gland, directly explaining its recognised vulnerability during parotidectomy.",
+        "why_others_wrong": {
+          "It runs deep within the substance of the parotid gland itself, entirely protected from any surgical approach": "Misdescribes the nerve's actual course, which is superficial to and external to the parotid gland, crossing sternocleidomastoid on its way there.",
+          "It has no fixed anatomical course, making its location unpredictable and therefore impossible to injure predictably": "Denies the well-established, predictable anatomical course that is precisely what allows surgeons to anticipate its location.",
+          "It runs alongside the carotid artery deep in the neck, far from any typical surgical field": "Misdescribes the nerve's actual, superficial course over sternocleidomastoid."
+        },
+        "high_yield_facts": [
+          "Greater auricular nerve runs SUPERFICIALLY, directly ACROSS sternocleidomastoid \u2014 not deep to it.",
+          "This superficial position makes it one of the FIRST structures encountered in a standard parotidectomy dissection, directly explaining its injury vulnerability.",
+          "This same superficial position is also why it can serve as a secondary surgical landmark, covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "Surgeons performing parotidectomy specifically identify and, where oncologically appropriate, attempt to preserve the greater auricular nerve's posterior branch given this predictable course, though some sacrifice is often unavoidable or intentional depending on the surgical goals.",
+        "common_confusions": [
+          "Assuming a nerve near a deep gland like the parotid must itself run deep \u2014 the greater auricular nerve's SUPERFICIAL course (over the muscle, before even reaching the gland region) is specifically what makes it so frequently encountered early in dissection."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Parotidectomy injury and resulting numbness (this concept, other question)",
+          "Nerve graft harvesting (this concept, other question) \u2014 its superficial, accessible course also facilitates this application"
+        ],
+        "exam_traps": [
+          "Don't assume 'near a deep structure' means 'itself deep' \u2014 the greater auricular nerve's specific SUPERFICIAL course over sternocleidomastoid is the key anatomical detail explaining its clinical relevance."
+        ],
+        "image_clues": null,
+        "memory_aid": "Right on the surface of the muscle \u2014 the greater auricular nerve doesn't hide, which is exactly why surgeons run into it so early.",
+        "other_ways_this_is_tested": [
+          "This superficial course is the anatomical basis for both the parotidectomy injury risk and the surgical landmark use covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The greater auricular nerve runs superficially, directly across the surface of sternocleidomastoid \u2014 this exposed position is exactly why it's one of the first structures encountered (and at risk) during parotid gland surgery.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the greater auricular nerve's superficial course over sternocleidomastoid as the basis for its surgical vulnerability.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_greater_auricular_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Greater Auricular Nerve",
+      "subtopic": "Clinical \u2014 parotidectomy",
+      "concept": "Greater auricular nerve: course, sensory territory, and parotidectomy injury risk",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient undergoes parotidectomy for a benign parotid tumour. Postoperatively, they report numbness over the earlobe and angle of the jaw, but facial movement is completely normal and symmetric. What does this finding pattern indicate?",
+      "options": [
+        "Injury to the greater auricular nerve (a purely sensory nerve) during the surgical approach \u2014 a common, generally well-tolerated finding, distinct from and NOT indicating any facial nerve injury",
+        "This finding indicates facial nerve injury, since any numbness after parotidectomy must reflect facial nerve damage",
+        "This presentation is inconsistent with any known parotidectomy complication and requires urgent further investigation",
+        "The numbness indicates injury to the auriculotemporal nerve specifically, an entirely different structure from what was actually affected"
+      ],
+      "correct_answer": "Injury to the greater auricular nerve (a purely sensory nerve) during the surgical approach \u2014 a common, generally well-tolerated finding, distinct from and NOT indicating any facial nerve injury",
+      "distractor_rationale": {
+        "This finding indicates facial nerve injury, since any numbness after parotidectomy must reflect facial nerve damage": "The facial nerve is predominantly MOTOR (facial expression) \u2014 normal, symmetric facial movement specifically argues AGAINST facial nerve injury; sensory numbness in this distribution instead points to the sensory greater auricular nerve.",
+        "This presentation is inconsistent with any known parotidectomy complication and requires urgent further investigation": "This is actually one of the MOST common, well-recognised, and generally benign complications of parotidectomy \u2014 not an inconsistent or alarming finding requiring urgent additional workup.",
+        "The numbness indicates injury to the auriculotemporal nerve specifically, an entirely different structure from what was actually affected": "The auriculotemporal nerve supplies the UPPER ear/temple region, not the earlobe/angle of jaw territory described \u2014 the described findings specifically match greater auricular nerve territory instead."
+      },
+      "explanation": {
+        "core_concept": "This vignette specifically tests whether the greater auricular nerve's PURELY SENSORY nature and specific territory have been understood well enough to correctly distinguish this common, generally benign finding from the much more clinically significant possibility of facial nerve (motor) injury during the same operation.",
+        "why_correct": "Numbness over the earlobe and angle of the jaw, WITH completely normal facial movement, is the classic presentation of greater auricular nerve injury during parotidectomy \u2014 a common, generally well-tolerated sensory complication, genuinely distinct from facial nerve injury (which would cause facial weakness/asymmetry, not numbness in this specific distribution).",
+        "why_others_wrong": {
+          "This finding indicates facial nerve injury, since any numbness after parotidectomy must reflect facial nerve damage": "The facial nerve is predominantly motor \u2014 the NORMAL facial movement described specifically rules out facial nerve injury, and numbness (a sensory finding) doesn't match facial nerve's primarily motor function anyway.",
+          "This presentation is inconsistent with any known parotidectomy complication and requires urgent further investigation": "This is actually one of the most common, well-documented, generally benign parotidectomy complications \u2014 not an alarming or inconsistent finding.",
+          "The numbness indicates injury to the auriculotemporal nerve specifically, an entirely different structure from what was actually affected": "The auriculotemporal nerve's territory (upper ear/temple) doesn't match the described earlobe/jaw angle distribution, which specifically matches greater auricular nerve territory instead."
+        },
+        "high_yield_facts": [
+          "Earlobe + angle of jaw numbness after parotidectomy, WITH normal facial movement = classic greater auricular nerve injury.",
+          "This is genuinely DISTINCT from facial nerve injury (which causes facial weakness/asymmetry, a motor finding, not numbness).",
+          "This is one of the most common parotidectomy complications, generally well-tolerated and often improving somewhat over time, though some persistent numbness is common."
+        ],
+        "clinical_correlation": "Recognising this specific, benign complication pattern (versus the much more significant facial nerve injury) is directly relevant to appropriate patient counselling before parotidectomy and to correctly reassuring patients postoperatively when this expected finding occurs.",
+        "common_confusions": [
+          "Assuming any numbness/sensory change after a procedure near the parotid gland must reflect facial nerve injury \u2014 actively distinguish SENSORY findings (greater auricular nerve territory) from MOTOR findings (facial nerve territory), since these implicate genuinely different nerves with very different clinical significance."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Greater auricular nerve territory and course (this concept, other questions)"
+        ],
+        "exam_traps": [
+          "The specific detail 'facial movement is completely normal and symmetric' is doing real diagnostic work \u2014 use it to actively RULE OUT facial nerve injury and confirm this is a purely sensory (greater auricular nerve) finding instead."
+        ],
+        "image_clues": null,
+        "memory_aid": "Numb but still smiling symmetrically \u2014 sensory nerve down, motor nerve fine. Greater auricular, not facial.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the territory and course facts established elsewhere in this chapter to genuine, common postoperative clinical findings."
+        ],
+        "neet_pg_takeaway": "Postoperative earlobe/jaw-angle numbness with normal facial movement after parotidectomy indicates greater auricular nerve injury \u2014 a common, sensory-only, generally well-tolerated complication, genuinely distinct from facial nerve (motor) injury.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard head and neck surgery references on parotidectomy complications."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish greater auricular nerve injury (sensory) from facial nerve injury (motor) after parotidectomy.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_greater_auricular_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Greater Auricular Nerve",
+      "subtopic": "Clinical \u2014 nerve graft harvesting",
+      "concept": "Greater auricular nerve: course, sensory territory, and parotidectomy injury risk",
+      "question_type": "association",
+      "difficulty": 3,
+      "question": "During radical parotidectomy for malignancy involving the facial nerve, the facial nerve must be resected along with the tumour, leaving a nerve gap. Which nearby, conveniently located, purely sensory nerve is sometimes deliberately harvested as a donor graft to bridge this gap?",
+      "options": [
+        "Greater auricular nerve",
+        "Vagus nerve",
+        "Hypoglossal nerve",
+        "Optic nerve"
+      ],
+      "correct_answer": "Greater auricular nerve",
+      "distractor_rationale": {
+        "Vagus nerve": "A vital, predominantly motor/autonomic nerve with essential functions (swallowing, voice, cardiovascular/GI autonomic regulation) \u2014 far too functionally important and not conveniently positioned to be sacrificed as a graft donor.",
+        "Hypoglossal nerve": "An essential motor nerve to the tongue \u2014 sacrificing it would cause significant functional deficit, making it an inappropriate graft donor choice.",
+        "Optic nerve": "Carries vision \u2014 an essential, irreplaceable sensory pathway, absolutely not an appropriate or even remotely considered graft donor."
+      },
+      "explanation": {
+        "core_concept": "The greater auricular nerve's specific combination of properties \u2014 purely sensory (so its loss is well-tolerated), conveniently positioned near the surgical field, and of adequate calibre \u2014 makes it a genuinely practical, real-world nerve graft donor choice, directly connecting its 'expendable, purely sensory' anatomical identity to an actual surgical application.",
+        "why_correct": "The greater auricular nerve is purely sensory, already located conveniently close to the parotid/facial nerve surgical field, and of a calibre suitable for grafting \u2014 making it a practical, frequently used donor nerve to bridge a facial nerve gap after radical parotidectomy requiring facial nerve resection, restoring some facial nerve continuity and potential for functional recovery.",
+        "why_others_wrong": {
+          "Vagus nerve": "Far too functionally essential (swallowing, voice, autonomic regulation) to sacrifice as a graft donor, and not conveniently positioned for this specific application.",
+          "Hypoglossal nerve": "An essential motor nerve to the tongue \u2014 sacrificing it would cause a significant, unacceptable functional deficit.",
+          "Optic nerve": "Carries vision, an entirely irreplaceable function \u2014 never considered as a graft donor."
+        },
+        "high_yield_facts": [
+          "Greater auricular nerve: a genuinely practical facial nerve graft donor choice \u2014 purely sensory, conveniently positioned, adequate calibre.",
+          "This application directly reflects its 'expendable, sensory-only' anatomical identity \u2014 the SAME property (pure sensory function) that makes its own injury well-tolerated also makes it a good candidate to sacrifice deliberately for grafting purposes elsewhere.",
+          "This is a genuine, real-world surgical technique, not just a theoretical possibility \u2014 used specifically when facial nerve resection is oncologically necessary."
+        ],
+        "clinical_correlation": "This grafting technique aims to restore SOME facial nerve function/continuity after necessary oncological resection, though outcomes vary and full return of normal facial function is not guaranteed \u2014 a genuinely important reconstructive option in complex head and neck cancer surgery.",
+        "common_confusions": [
+          "Assuming any 'nearby' nerve could serve as a graft donor without considering its OWN functional importance \u2014 the greater auricular nerve's specific PURELY SENSORY nature is exactly what makes it appropriate, unlike the essential motor/mixed nerves listed as distractors."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Greater auricular nerve's purely sensory territory (this concept, other question) \u2014 the direct basis for its expendability and graft suitability"
+        ],
+        "exam_traps": [
+          "When asked about nerve graft donors for facial nerve reconstruction, actively recall the greater auricular nerve's SPECIFIC combination of properties (sensory, convenient, adequate size) rather than defaulting to any nearby cranial nerve without considering its own essential function."
+        ],
+        "image_clues": null,
+        "memory_aid": "Purely sensory and conveniently placed \u2014 the greater auricular nerve is the 'spare parts' nerve for facial nerve reconstruction.",
+        "other_ways_this_is_tested": [
+          "This surgical application directly builds on the purely sensory territory fact established in the direct-recall question earlier in this chapter."
+        ],
+        "neet_pg_takeaway": "The greater auricular nerve, being purely sensory and conveniently positioned near the parotid surgical field, is sometimes deliberately harvested as a donor nerve graft to bridge a facial nerve gap after radical parotidectomy.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard head and neck reconstructive surgery references on facial nerve grafting techniques."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the greater auricular nerve as a practical donor nerve graft for facial nerve reconstruction.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0036",
+    "topic": "Inferior Alveolar Nerve",
+    "chapter_number": 36,
+    "chapter_file": "data/anatomy/ch36_inferior_alveolar_nerve.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 2,
+      "L3": 1,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "diagnostic_reasoning",
+      "association"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "The IAN's mylohyoid nerve branch is briefly mentioned in the Digastric Muscle chapter (ch22) as the anterior belly's motor supply. Verified ch22's exact coverage before building \u2014 this chapter focuses on the IAN's own course, its sensory (mental nerve) territory, and clinical applications (dental block, third molar injury, mandibular fracture), none of which ch22 covers.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch22 (Digastric Muscle) \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The inferior alveolar nerve (IAN), a branch of the mandibular division of the trigeminal nerve (V3), enters the mandibular foramen, runs within the mandibular canal supplying all the mandibular teeth on that side, then exits via the mental foramen as the mental nerve to supply skin of the chin and lower lip \u2014 a course that makes it both a key target for dental local anaesthesia and a structure at recognised risk during specific dental and surgical procedures."
+    },
+    "structure_anatomy": {
+      "course": "Descends from V3 in the infratemporal fossa, enters the mandibular canal via the mandibular foramen (on the medial surface of the mandibular ramus), runs forward within the bony canal giving off dental branches to all the lower teeth on that side, and terminates by exiting via the mental foramen (near the mandibular premolars) as the mental nerve.",
+      "mylohyoid_nerve_branch": "Just before entering the mandibular foramen, the IAN gives off the mylohyoid nerve, which supplies mylohyoid and the anterior belly of digastric (see the Digastric Muscle chapter) \u2014 the ONE motor branch of the otherwise almost entirely sensory IAN.",
+      "mental_nerve": "The terminal cutaneous branch, exiting via the mental foramen, supplying skin and mucosa of the chin and lower lip \u2014 the specific structure tested with light touch to assess IAN/mental nerve integrity after mandibular procedures."
+    },
+    "clinical": {
+      "dental_block": "The inferior alveolar nerve block is one of the most commonly performed local anaesthesia techniques in dentistry, anaesthetising all the lower teeth on one side (plus the lower lip/chin via the mental nerve territory) for procedures like extractions or restorative work on the mandibular teeth \u2014 injected near the mandibular foramen (identified via the pterygomandibular raphe/space as a landmark) before the nerve enters the canal.",
+      "third_molar_extraction_injury": "The IAN's course through the mandibular canal places it at recognised risk during lower third molar (wisdom tooth) extraction, particularly when the tooth roots lie close to or overlap the canal on imaging \u2014 nerve injury during this specific procedure can cause temporary or, less commonly, permanent numbness/paraesthesia of the lower lip and chin (mental nerve territory), a well-recognised, consented-for surgical risk.",
+      "mandibular_fracture": "Fractures through the body or angle of the mandible can directly injure the IAN within its bony canal, producing lower lip/chin numbness \u2014 testing mental nerve sensation (lower lip/chin light touch) is therefore a standard, genuinely useful part of assessing suspected mandibular fracture, both for injury documentation and because altered sensation itself can be a clue to fracture location along the mandible."
+    },
+    "related_structures": "The mylohyoid nerve branch connects this chapter directly to the Digastric Muscle chapter (which covers its motor supply to mylohyoid and the anterior belly of digastric) \u2014 this chapter focuses on the IAN's own course and its predominantly SENSORY territory and clinical applications, genuinely different content from that earlier, motor-focused chapter."
+  },
+  "question_family": [
+    {
+      "family_name": "Inferior Alveolar Nerve \u2014 Course and Clinical Applications (4 angles, one concept)",
+      "member_ids": [
+        "anat_inferior_alveolar_nerve_0001",
+        "anat_inferior_alveolar_nerve_0002",
+        "anat_inferior_alveolar_nerve_0003",
+        "anat_inferior_alveolar_nerve_0004"
+      ],
+      "coverage": "Recall (mental nerve territory), clinical vignette (dental block), diagnostic reasoning (third molar extraction risk), and association (mandibular fracture) \u2014 four genuinely different angles on the same integrated concept, deliberately distinct from the Digastric Muscle chapter's coverage of the mylohyoid nerve branch."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_inferior_alveolar_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Inferior Alveolar Nerve",
+      "subtopic": "Course and territory",
+      "concept": "Inferior alveolar nerve course, mental nerve territory, and clinical injury risk",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The inferior alveolar nerve, after supplying all the mandibular teeth on one side, exits the mandible via the mental foramen as which terminal branch, and what does it supply?",
+      "options": [
+        "The mental nerve \u2014 supplies skin and mucosa of the chin and lower lip",
+        "The lingual nerve \u2014 supplies the anterior 2/3 tongue",
+        "The buccal nerve \u2014 supplies the cheek mucosa and skin",
+        "The auriculotemporal nerve \u2014 supplies the temple and external ear region"
+      ],
+      "correct_answer": "The mental nerve \u2014 supplies skin and mucosa of the chin and lower lip",
+      "distractor_rationale": {
+        "The lingual nerve \u2014 supplies the anterior 2/3 tongue": "A separate V3 branch, running a different course (through the floor of the mouth to the tongue), not the IAN's own terminal branch.",
+        "The buccal nerve \u2014 supplies the cheek mucosa and skin": "Another separate V3 branch with a different course, unrelated to the IAN's mental foramen exit.",
+        "The auriculotemporal nerve \u2014 supplies the temple and external ear region": "A separate V3 branch with an entirely different course and territory."
+      },
+      "explanation": {
+        "core_concept": "The mental nerve is precisely the structure clinicians test (lower lip/chin sensation) to assess IAN integrity, making this specific terminal branch and its territory the most practically important fact in this entire topic.",
+        "why_correct": "After running through the mandibular canal and supplying the mandibular teeth, the inferior alveolar nerve exits via the mental foramen (near the mandibular premolars) as the mental nerve, which supplies skin and mucosa of the chin and lower lip.",
+        "why_others_wrong": {
+          "The lingual nerve \u2014 supplies the anterior 2/3 tongue": "A separate, distinct V3 branch with its own separate course to the tongue, not the IAN's terminal continuation.",
+          "The buccal nerve \u2014 supplies the cheek mucosa and skin": "Another separate V3 branch, unrelated to the IAN's specific course and termination.",
+          "The auriculotemporal nerve \u2014 supplies the temple and external ear region": "A separate V3 branch entirely, with a different course and territory."
+        },
+        "high_yield_facts": [
+          "IAN's terminal branch = mental nerve, exiting via the mental foramen, supplying chin/lower lip skin and mucosa.",
+          "Testing lower lip/chin sensation is the standard clinical way to assess IAN/mental nerve integrity.",
+          "This is DISTINCT from other V3 branches (lingual, buccal, auriculotemporal) which have their own separate courses and territories, not connected to the IAN's mandibular canal pathway."
+        ],
+        "clinical_correlation": "Mental nerve territory sensation testing is directly relevant after mandibular fracture, third molar extraction, or IAN block, as a practical assessment of nerve integrity/anaesthesia extent.",
+        "common_confusions": [
+          "Confusing the mental nerve with other V3 branches that supply nearby but genuinely distinct facial/oral regions \u2014 each has its own separate course, not derived from the IAN."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Mylohyoid nerve (the IAN's motor branch, see Digastric Muscle chapter)",
+          "IAN block, third molar injury, mandibular fracture (this concept, other questions)"
+        ],
+        "exam_traps": [
+          "Don't confuse the mental nerve (IAN's own terminal branch) with other, separately-arising V3 branches serving nearby facial territory."
+        ],
+        "image_clues": null,
+        "memory_aid": "Mental nerve exits at the MENTUM (chin) \u2014 the name directly tells you its territory.",
+        "other_ways_this_is_tested": [
+          "This terminal branch and its territory is the anatomical basis for all the clinical correlation questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The inferior alveolar nerve's terminal branch, the mental nerve, exits via the mental foramen to supply skin and mucosa of the chin and lower lip \u2014 the structure directly tested to assess IAN integrity clinically.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the mental nerve as the inferior alveolar nerve's terminal branch and state its cutaneous territory.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_inferior_alveolar_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Inferior Alveolar Nerve",
+      "subtopic": "Clinical \u2014 dental block",
+      "concept": "Inferior alveolar nerve course, mental nerve territory, and clinical injury risk",
+      "question_type": "clinical_vignette",
+      "difficulty": 2,
+      "question": "A dentist performs an inferior alveolar nerve block before extracting a lower molar tooth. Which structures would be expected to become anaesthetised as a result?",
+      "options": [
+        "All the mandibular teeth on that side, plus the skin/mucosa of the ipsilateral lower lip and chin (via the mental nerve territory)",
+        "Only the specific tooth being extracted, with no effect on any other teeth or soft tissue",
+        "The upper (maxillary) teeth on the same side",
+        "The tongue's taste sensation bilaterally"
+      ],
+      "correct_answer": "All the mandibular teeth on that side, plus the skin/mucosa of the ipsilateral lower lip and chin (via the mental nerve territory)",
+      "distractor_rationale": {
+        "Only the specific tooth being extracted, with no effect on any other teeth or soft tissue": "Understates the IAN block's actual territory \u2014 since the nerve is blocked BEFORE it branches to individual teeth, ALL mandibular teeth on that side become anaesthetised, not just the target tooth.",
+        "The upper (maxillary) teeth on the same side": "The maxillary teeth are supplied by an entirely different nerve (V2, via superior alveolar branches) \u2014 unaffected by an IAN (V3-territory) block.",
+        "The tongue's taste sensation bilaterally": "Taste is a facial nerve (chorda tympani) function, unrelated to the IAN block, and certainly not affected bilaterally by a unilateral procedure."
+      },
+      "explanation": {
+        "core_concept": "Because the IAN block anaesthetises the nerve trunk BEFORE it branches to individual teeth (and before it gives off the mental nerve), the resulting anaesthesia territory is much broader than just the target tooth \u2014 a genuinely practical, clinically important consequence of the nerve's course.",
+        "why_correct": "An inferior alveolar nerve block, injected near the mandibular foramen (before the nerve branches to individual teeth), anaesthetises ALL the mandibular teeth on that side, plus (via the mental nerve, the IAN's terminal continuation) the skin and mucosa of the ipsilateral lower lip and chin \u2014 a broad, whole-hemimandible anaesthesia territory, not limited to a single tooth.",
+        "why_others_wrong": {
+          "Only the specific tooth being extracted, with no effect on any other teeth or soft tissue": "Understates the block's actual, broader territory \u2014 blocking the nerve trunk affects everything distal to the injection site, not just one tooth's specific dental branch.",
+          "The upper (maxillary) teeth on the same side": "Supplied by V2 (maxillary division), an entirely separate nerve unaffected by an IAN block.",
+          "The tongue's taste sensation bilaterally": "An unrelated function (facial nerve/chorda tympani), not affected by this block, and certainly not bilaterally from a unilateral procedure."
+        },
+        "high_yield_facts": [
+          "IAN block anaesthetises: ALL mandibular teeth on that side + ipsilateral lower lip/chin (mental nerve territory).",
+          "This broad territory is exactly why patients report numb lip/chin sensation after dental procedures using this block \u2014 a normal, expected finding, not a complication.",
+          "The block is administered near the mandibular foramen, BEFORE the nerve gives off its individual dental branches \u2014 this is precisely why the whole hemimandible's teeth become anaesthetised together."
+        ],
+        "clinical_correlation": "Patients should be counselled to expect temporary lower lip/chin numbness after an IAN block (a normal effect of the anaesthetic, resolving as it wears off), distinct from the much less common, genuinely concerning possibility of persistent numbness from actual nerve injury (covered in the third molar extraction question elsewhere in this chapter).",
+        "common_confusions": [
+          "Assuming a dental nerve block only affects the single tooth being treated \u2014 understanding the nerve's course (trunk block before individual dental branches) explains why the anaesthesia territory is actually much broader."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Mental nerve territory (this concept, direct recall question)",
+          "Third molar extraction injury risk (this concept, other question) \u2014 both directly relevant to real dental practice"
+        ],
+        "exam_traps": [
+          "Don't assume any local anaesthetic block is tooth-specific \u2014 the LEVEL at which the nerve is blocked (trunk vs individual branch) determines how broad the resulting anaesthesia territory actually is."
+        ],
+        "image_clues": null,
+        "memory_aid": "Block the trunk before it splits, numb everything downstream \u2014 all the teeth AND the lip/chin together.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the IAN's course and mental nerve territory established in the direct-recall question earlier in this chapter to routine, genuinely common clinical dental practice."
+        ],
+        "neet_pg_takeaway": "An inferior alveolar nerve block anaesthetises all mandibular teeth on that side plus the ipsilateral lower lip/chin (mental nerve territory), since the block is administered before the nerve branches to individual teeth.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard dental local anaesthesia references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Describe the anaesthesia territory produced by an inferior alveolar nerve block.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_inferior_alveolar_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Inferior Alveolar Nerve",
+      "subtopic": "Clinical \u2014 third molar extraction injury",
+      "concept": "Inferior alveolar nerve course, mental nerve territory, and clinical injury risk",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "Pre-operative imaging before lower third molar (wisdom tooth) extraction shows the tooth roots directly overlapping the mandibular canal. Why does this specific finding raise particular concern, and what would postoperative numbness of the lower lip and chin specifically indicate if it occurred?",
+      "options": [
+        "Root overlap with the canal indicates the roots lie close to the inferior alveolar nerve, raising the risk of intraoperative nerve injury; postoperative lower lip/chin numbness would indicate IAN (specifically mental nerve territory) injury during the extraction",
+        "This imaging finding is clinically irrelevant and does not affect surgical risk in any way",
+        "Root overlap with the canal specifically threatens the lingual nerve, not the inferior alveolar nerve, since they share an identical course",
+        "Postoperative numbness of the lower lip and chin after third molar extraction always indicates a maxillary (not mandibular) nerve injury"
+      ],
+      "correct_answer": "Root overlap with the canal indicates the roots lie close to the inferior alveolar nerve, raising the risk of intraoperative nerve injury; postoperative lower lip/chin numbness would indicate IAN (specifically mental nerve territory) injury during the extraction",
+      "distractor_rationale": {
+        "This imaging finding is clinically irrelevant and does not affect surgical risk in any way": "Directly contradicts well-established surgical risk assessment practice \u2014 root-to-canal proximity on imaging is specifically used to predict and counsel patients about IAN injury risk before third molar extraction.",
+        "Root overlap with the canal specifically threatens the lingual nerve, not the inferior alveolar nerve, since they share an identical course": "The lingual nerve has a DIFFERENT course (through the floor of the mouth, not within the bony mandibular canal) \u2014 root-to-CANAL overlap specifically implicates the IAN, which runs within that canal, not the lingual nerve.",
+        "Postoperative numbness of the lower lip and chin after third molar extraction always indicates a maxillary (not mandibular) nerve injury": "The lower lip/chin is specifically MENTAL NERVE (IAN/mandibular) territory, not maxillary nerve territory \u2014 this option misattributes the affected nerve entirely."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question connects pre-operative imaging findings to actual surgical risk and postoperative symptom interpretation \u2014 demonstrating that understanding the IAN's precise anatomical course (within the bony mandibular canal specifically) is what makes root-to-canal proximity on imaging a genuinely meaningful, actionable risk marker.",
+        "why_correct": "Because the inferior alveolar nerve runs within the bony mandibular canal, and lower third molar roots can sometimes lie directly adjacent to or overlapping this canal, imaging showing this overlap indicates the roots are anatomically close to the IAN \u2014 raising the risk that extraction could directly injure the nerve. If injury does occur, the resulting numbness would specifically affect the mental nerve's territory (lower lip and chin), directly reflecting IAN involvement, since the mental nerve is the IAN's own terminal cutaneous branch.",
+        "why_others_wrong": {
+          "This imaging finding is clinically irrelevant and does not affect surgical risk in any way": "Contradicts standard, well-established surgical risk assessment practice using exactly this imaging finding.",
+          "Root overlap with the canal specifically threatens the lingual nerve, not the inferior alveolar nerve, since they share an identical course": "The lingual nerve runs a genuinely different course (soft tissue, floor of mouth), not within the bony mandibular canal \u2014 canal overlap specifically implicates the IAN, not the lingual nerve.",
+          "Postoperative numbness of the lower lip and chin after third molar extraction always indicates a maxillary (not mandibular) nerve injury": "Misattributes the affected nerve \u2014 lower lip/chin is specifically mandibular (mental nerve/IAN) territory."
+        },
+        "high_yield_facts": [
+          "Root-to-mandibular-canal overlap on imaging = recognised risk marker for IAN injury during third molar extraction.",
+          "Postoperative lower lip/chin numbness after this procedure specifically indicates IAN (mental nerve territory) involvement \u2014 a well-recognised, consented-for surgical risk.",
+          "The lingual nerve is a SEPARATE nerve at risk during the same procedure (from a different mechanism \u2014 soft tissue retraction/injury, not canal proximity), worth knowing as a related but anatomically distinct risk."
+        ],
+        "clinical_correlation": "This imaging-based risk assessment directly informs pre-operative patient counselling (discussing the specific, elevated risk of temporary or rarely permanent IAN injury) and can influence surgical technique or even the decision to proceed with extraction versus a more conservative approach in high-risk cases.",
+        "common_confusions": [
+          "Confusing which of the two nerves at risk during third molar extraction (IAN, within the bony canal, versus lingual nerve, in adjacent soft tissue) corresponds to which specific imaging finding and which specific postoperative symptom pattern (lip/chin numbness = IAN; tongue numbness/taste change = lingual nerve, a separate, non-IAN-related risk)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Mental nerve territory (this concept, direct recall question)",
+          "IAN course within the mandibular canal (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When distinguishing which nerve is at risk in third molar surgery, use the SPECIFIC anatomical relationship described (canal overlap = IAN; soft tissue/lingual plate proximity = lingual nerve) rather than assuming both nerves share identical risk mechanisms."
+        ],
+        "image_clues": null,
+        "memory_aid": "Canal overlap on imaging = IAN risk; lip/chin numbness after surgery = IAN injury confirmed \u2014 the canal and the mental nerve territory are directly, predictably linked.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question directly applies the IAN's mandibular canal course and mental nerve territory, both established elsewhere in this chapter, to genuine, high-yield oral surgery risk assessment."
+        ],
+        "neet_pg_takeaway": "Third molar root overlap with the mandibular canal on imaging predicts elevated IAN injury risk during extraction; resulting lower lip/chin numbness specifically confirms IAN (mental nerve territory) injury \u2014 directly reflecting the nerve's course within that bony canal.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard oral and maxillofacial surgery references on third molar extraction risk assessment."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the significance of root-to-mandibular-canal overlap on imaging as a marker of IAN injury risk during third molar extraction.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_inferior_alveolar_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Inferior Alveolar Nerve",
+      "subtopic": "Clinical \u2014 mandibular fracture",
+      "concept": "Inferior alveolar nerve course, mental nerve territory, and clinical injury risk",
+      "question_type": "association",
+      "difficulty": 3,
+      "question": "A patient with facial trauma is found to have numbness of the lower lip and chin on one side. Which underlying injury does this specific finding suggest, given the inferior alveolar nerve's anatomical course?",
+      "options": [
+        "A fracture of the mandibular body or angle on that side, directly injuring the IAN within its bony canal",
+        "A fracture of the zygomatic arch, unrelated to the inferior alveolar nerve's course",
+        "A fracture of the orbital floor, affecting the infraorbital nerve instead",
+        "This finding has no localising value and could result from injury anywhere in the head and neck"
+      ],
+      "correct_answer": "A fracture of the mandibular body or angle on that side, directly injuring the IAN within its bony canal",
+      "distractor_rationale": {
+        "A fracture of the zygomatic arch, unrelated to the inferior alveolar nerve's course": "The zygomatic arch is anatomically unrelated to the mandibular canal/IAN course \u2014 a fracture there wouldn't be expected to affect this nerve.",
+        "A fracture of the orbital floor, affecting the infraorbital nerve instead": "The infraorbital nerve (V2 territory, supplying the cheek/upper lip) is a different nerve altogether, unrelated to the mandible/IAN and to lower lip/chin sensation specifically.",
+        "This finding has no localising value and could result from injury anywhere in the head and neck": "Denies the genuine, specific localising value of this finding, which directly points to the IAN's territory and therefore its anatomical course (the mandibular body/angle)."
+      },
+      "explanation": {
+        "core_concept": "Because the IAN runs within a fixed, bony canal through the mandibular body, a fracture through this specific bone directly threatens the nerve \u2014 making lower lip/chin numbness a genuinely useful, specific localising sign pointing toward mandibular (not other facial bone) fracture.",
+        "why_correct": "The inferior alveolar nerve runs within the mandibular canal through the body of the mandible; a fracture through the mandibular body or angle can directly injure the nerve within this bony canal, producing lower lip/chin numbness (mental nerve territory) \u2014 making this finding a genuinely useful clinical sign both confirming nerve injury and helping localise the fracture to the mandible specifically.",
+        "why_others_wrong": {
+          "A fracture of the zygomatic arch, unrelated to the inferior alveolar nerve's course": "Anatomically unrelated to the IAN's mandibular canal course.",
+          "A fracture of the orbital floor, affecting the infraorbital nerve instead": "Involves a different nerve (infraorbital, V2) with a different sensory territory (cheek/upper lip, not lower lip/chin).",
+          "This finding has no localising value and could result from injury anywhere in the head and neck": "Denies the genuine, specific localising value this finding actually has."
+        },
+        "high_yield_facts": [
+          "Lower lip/chin numbness after facial trauma = suggests mandibular body/angle fracture with IAN involvement.",
+          "Testing mental nerve sensation is a standard, practically useful part of assessing suspected mandibular trauma.",
+          "This is a genuinely useful, LOCALISING clinical sign \u2014 not just a nonspecific finding \u2014 precisely because of the IAN's fixed, predictable bony canal course through the mandible."
+        ],
+        "clinical_correlation": "This finding, combined with other clinical and imaging assessment, helps confirm mandibular fracture location and can be documented as part of injury assessment, since traumatic IAN injury (temporary or occasionally permanent) is a recognised consequence of mandibular fractures in this region.",
+        "common_confusions": [
+          "Assuming any facial numbness after trauma is nonspecific \u2014 the SPECIFIC territory affected (lower lip/chin vs cheek/upper lip vs forehead) has genuine, different localising value depending on which specific facial nerve territory (and therefore which specific facial bone) is involved."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Mental nerve territory (this concept, direct recall question)",
+          "IAN course within the mandibular canal (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC sensory territory described (lower lip/chin vs other facial regions) to correctly localise which facial bone/nerve is involved, rather than treating any facial numbness as a generic, non-localising finding."
+        ],
+        "image_clues": null,
+        "memory_aid": "Numb lip and chin points straight to the mandible \u2014 the IAN's fixed canal course makes this sign a reliable anatomical signpost.",
+        "other_ways_this_is_tested": [
+          "This association directly applies the IAN's mandibular canal course and mental nerve territory, both established elsewhere in this chapter, to trauma assessment."
+        ],
+        "neet_pg_takeaway": "Lower lip/chin numbness after facial trauma suggests a mandibular body/angle fracture directly injuring the IAN within its bony canal \u2014 a genuinely useful, specific localising clinical sign.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard oral and maxillofacial trauma references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Associate lower lip/chin numbness after facial trauma with mandibular body/angle fracture and IAN injury.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

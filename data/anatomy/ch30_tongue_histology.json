@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0030",
+    "topic": "Tongue - Histology",
+    "chapter_number": 30,
+    "chapter_file": "data/anatomy/ch30_tongue_histology.json",
+    "source_years": [
+      2021
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": true,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "exception",
+      "direct_recall",
+      "comparison",
+      "clinical_vignette",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This chapter's taste-nerve mapping directly connects to (without duplicating) the general-sensation mapping already established in the Trigeminal Nerve chapter (ch03) \u2014 that chapter covers general sensation split by modality; this chapter covers taste specifically and compares the two patterns directly.",
+    "build_standard_note": "One deeply-covered concept, 5 question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch03 (Trigeminal Nerve) \u2014 no duplicate concepts found; genuinely complementary. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The tongue's dorsal surface bears four types of papillae, three of which carry taste buds (filiform papillae are the exception \u2014 purely mechanical, no taste function), and the tongue's mucosa/nerve supply pattern for taste directly extends the general-sensation split covered in the Trigeminal Nerve chapter into the specifically GUSTATORY (taste) domain \u2014 a genuinely distinct, commonly tested mapping."
+    },
+    "structure_anatomy": {
+      "filiform_papillae": "The most numerous papillae, covering most of the anterior 2/3 dorsal tongue, conical/thread-like, KERATINISED, and containing NO taste buds \u2014 purely mechanical, providing a rough surface for manipulating food.",
+      "fungiform_papillae": "Mushroom-shaped, scattered among filiform papillae (more concentrated at the tongue tip and margins), containing taste buds on their SUPERIOR (dorsal) surface, richly vascularised (giving them a red appearance visible to the naked eye against the paler filiform papillae).",
+      "circumvallate_papillae": "Large (8-12 total), arranged in a V-shaped row just anterior to the sulcus terminalis, each surrounded by a deep circular trench/moat; taste buds line the LATERAL walls of each papilla, and von Ebner's glands (serous, minor salivary glands) empty into the trench, continuously flushing it to allow taste buds to detect new stimuli.",
+      "foliate_papillae": "Poorly developed in humans, found as vertical folds on the posterolateral tongue margins, containing some taste buds \u2014 the least emphasised of the four papillae types in most teaching."
+    },
+    "clinical": {
+      "taste_nerve_split": "Taste from the anterior 2/3 of the tongue (filiform, fungiform, and anterior foliate papillae) is carried by the facial nerve (CN VII) via the chorda tympani \u2014 NOT the trigeminal nerve, which carries only GENERAL sensation from this same region via the lingual nerve (see the Trigeminal Nerve chapter). Taste from the posterior 1/3 (circumvallate and posterior foliate papillae) is carried by the glossopharyngeal nerve (CN IX), which ALSO carries general sensation from this same posterior region \u2014 unlike the anterior 2/3's split arrangement, the posterior 1/3 has BOTH taste and general sensation from the SAME nerve (CN IX).",
+      "clinical_taste_testing": "Testing taste on the anterior tongue (e.g. with a sweet or salty solution applied to one side) assesses chorda tympani/facial nerve function; testing taste on the posterior tongue assesses glossopharyngeal nerve function \u2014 a genuinely useful, if under-utilised, component of cranial nerve examination."
+    },
+    "related_structures": "This taste-nerve mapping directly parallels (and should be learned alongside) the GENERAL sensation mapping already covered in the Trigeminal Nerve chapter: anterior 2/3 general sensation = trigeminal (lingual nerve); anterior 2/3 TASTE = facial (chorda tympani) \u2014 two different nerves for two different modalities in the SAME region, exactly the 'two nerves, one job split by modality' pattern already established there. Posterior 1/3 breaks this pattern by using a SINGLE nerve (CN IX) for both modalities."
+  },
+  "question_family": [
+    {
+      "family_name": "Tongue Histology \u2014 Papillae Types and Taste-Nerve Mapping (5 angles, one concept)",
+      "member_ids": [
+        "anat_tongue_histology_0001",
+        "anat_tongue_histology_0002",
+        "anat_tongue_histology_0003",
+        "anat_tongue_histology_0004",
+        "anat_tongue_histology_0005"
+      ],
+      "coverage": "Exception (filiform's lack of taste buds), recall (von Ebner's glands), comparison (taste vs general sensation nerve mapping), clinical vignette (facial nerve lesion localisation), and image-based (gross papillae identification) \u2014 five genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_tongue_histology_0001",
+      "subject": "Anatomy",
+      "topic": "Tongue - Histology",
+      "subtopic": "Papillae types",
+      "concept": "Tongue papillae types and their taste-nerve supply mapping",
+      "question_type": "exception",
+      "difficulty": 2,
+      "question": "Of the four types of lingual papillae, which one contains NO taste buds at all?",
+      "options": [
+        "Filiform papillae",
+        "Fungiform papillae",
+        "Circumvallate papillae",
+        "Foliate papillae"
+      ],
+      "correct_answer": "Filiform papillae",
+      "distractor_rationale": {
+        "Fungiform papillae": "Contain taste buds on their superior surface \u2014 not the taste-bud-free exception.",
+        "Circumvallate papillae": "Contain taste buds along their lateral walls \u2014 not the exception.",
+        "Foliate papillae": "Contain some taste buds, though poorly developed in humans \u2014 not the taste-bud-free exception."
+      },
+      "explanation": {
+        "core_concept": "Filiform papillae's purely mechanical role (no taste function at all) is the single most useful organising exception in this topic \u2014 the other three papillae types all share taste function, differing mainly in distribution and specific structural arrangement of their taste buds.",
+        "why_correct": "Filiform papillae are the most numerous papillae type, keratinised and conical/thread-shaped, providing mechanical roughness for food manipulation \u2014 they contain NO taste buds, unlike the other three papillae types.",
+        "why_others_wrong": {
+          "Fungiform papillae": "Taste buds present on the superior surface.",
+          "Circumvallate papillae": "Taste buds present along the lateral walls.",
+          "Foliate papillae": "Some taste buds present, though a less developed structure in humans overall."
+        },
+        "high_yield_facts": [
+          "Filiform papillae: NO taste buds, purely mechanical, most numerous, keratinised.",
+          "Fungiform, circumvallate, and foliate papillae ALL contain taste buds \u2014 filiform is the sole exception.",
+          "This exception is a classic, frequently tested single fact worth memorising precisely."
+        ],
+        "clinical_correlation": "Understanding filiform papillae's purely mechanical role helps explain why conditions affecting them (e.g. atrophic glossitis, where filiform papillae are lost, producing a smooth-appearing tongue) primarily affect tongue TEXTURE rather than taste function directly.",
+        "common_confusions": [
+          "Assuming all papillae types share the same basic taste function, simply distributed differently \u2014 filiform papillae are a genuine functional exception, not just a structural variant."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Fungiform, circumvallate, foliate papillae distribution and taste-nerve mapping (this concept, other questions)"
+        ],
+        "exam_traps": [
+          "Don't assume 'papilla' automatically implies taste function \u2014 filiform papillae are specifically the non-taste exception, frequently tested precisely because it's easy to over-generalise taste function to all four types."
+        ],
+        "image_clues": null,
+        "memory_aid": "Filiform = 'thread-like,' purely for texture and grip \u2014 the one papilla type that skips taste entirely.",
+        "other_ways_this_is_tested": [
+          "This exception sets up correct understanding of the other three papillae types' taste-bud distribution covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Filiform papillae are the sole lingual papillae type without taste buds \u2014 purely mechanical, unlike fungiform, circumvallate, and foliate papillae, which all contain taste buds.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, digestive system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify filiform papillae as the sole lingual papillae type without taste buds.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tongue_histology_0002",
+      "subject": "Anatomy",
+      "topic": "Tongue - Histology",
+      "subtopic": "Circumvallate papillae structure",
+      "concept": "Tongue papillae types and their taste-nerve supply mapping",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "Circumvallate papillae are surrounded by a deep circular trench into which serous glands empty. What is the function of these glands, and what are they called?",
+      "options": [
+        "Von Ebner's glands \u2014 continuously flush the trench with serous secretion, allowing taste buds to detect new stimuli by washing away previous tastants",
+        "Von Ebner's glands \u2014 produce mucus to lubricate the tongue surface for swallowing",
+        "Minor salivary glands of Blandin-Nuhn \u2014 produce the bulk of resting salivary secretion",
+        "Parotid gland ducts \u2014 drain directly into the circumvallate trench"
+      ],
+      "correct_answer": "Von Ebner's glands \u2014 continuously flush the trench with serous secretion, allowing taste buds to detect new stimuli by washing away previous tastants",
+      "distractor_rationale": {
+        "Von Ebner's glands \u2014 produce mucus to lubricate the tongue surface for swallowing": "Correctly names the glands but misattributes their function \u2014 von Ebner's glands are SEROUS (watery), not mucous, and their specific role is trench-flushing for taste renewal, not general lubrication.",
+        "Minor salivary glands of Blandin-Nuhn \u2014 produce the bulk of resting salivary secretion": "The glands of Blandin-Nuhn are a different set of minor salivary glands (near the tongue tip/apex), not the ones associated with circumvallate papillae, and they don't produce the BULK of resting saliva (that's the major salivary glands, particularly submandibular at rest).",
+        "Parotid gland ducts \u2014 drain directly into the circumvallate trench": "The parotid duct (Stensen's duct) drains into the oral vestibule opposite the second upper molar, not into the circumvallate trench."
+      },
+      "explanation": {
+        "core_concept": "Von Ebner's glands' continuous flushing function is a genuinely elegant, functionally important detail \u2014 without this active clearance mechanism, taste buds within the deep circumvallate trench would be bathed in a static pool of previous tastants, impairing the ability to detect NEW taste stimuli.",
+        "why_correct": "Von Ebner's glands are serous minor salivary glands that empty into the deep circular trench surrounding each circumvallate papilla, continuously flushing the trench with watery secretion \u2014 this clears previous tastants, allowing the taste buds lining the trench walls to reset and detect new stimuli effectively.",
+        "why_others_wrong": {
+          "Von Ebner's glands \u2014 produce mucus to lubricate the tongue surface for swallowing": "Misattributes the gland's secretion type (serous, not mucous) and specific function (taste-bud renewal via flushing, not general swallowing lubrication).",
+          "Minor salivary glands of Blandin-Nuhn \u2014 produce the bulk of resting salivary secretion": "A different, anatomically distinct set of minor salivary glands (near the tongue apex), and doesn't produce the bulk of resting saliva.",
+          "Parotid gland ducts \u2014 drain directly into the circumvallate trench": "The parotid duct has an entirely different drainage location (oral vestibule), unrelated to the circumvallate trench."
+        },
+        "high_yield_facts": [
+          "Von Ebner's glands: SEROUS minor salivary glands, empty into the circumvallate trench.",
+          "Function: continuously flush the trench, clearing previous tastants so taste buds can detect new stimuli.",
+          "This is a genuinely functional, not just structural, detail \u2014 without this flushing, taste discrimination would be impaired by residual tastant accumulation."
+        ],
+        "clinical_correlation": "Reduced von Ebner's gland secretion (e.g. in some causes of xerostomia/dry mouth) can contribute to taste disturbances, directly reflecting this gland's functional role in taste bud renewal.",
+        "common_confusions": [
+          "Assuming all minor salivary glands serve the same generic lubrication function \u2014 von Ebner's glands have a SPECIFIC, taste-related flushing role tied directly to circumvallate papilla structure, not a generic lubrication purpose."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Circumvallate papilla taste bud location (lateral walls, this concept, other question)",
+          "Taste-nerve mapping (this concept, other questions)"
+        ],
+        "exam_traps": [
+          "Don't confuse von Ebner's glands with other named salivary glands (Blandin-Nuhn, major salivary glands) \u2014 von Ebner's glands are SPECIFICALLY associated with circumvallate papillae and taste bud function."
+        ],
+        "image_clues": null,
+        "memory_aid": "Von Ebner's glands are the taste buds' 'palate cleansers' \u2014 constantly rinsing the trench so every new taste registers fresh.",
+        "other_ways_this_is_tested": [
+          "This structural/functional detail directly supports correct interpretation of circumvallate papilla histology on any dissection or microscopy image."
+        ],
+        "neet_pg_takeaway": "Von Ebner's glands are serous minor salivary glands emptying into the circumvallate papillae's surrounding trench, continuously flushing it to allow taste buds to detect new stimuli.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Ross and Pawlina's Histology: A Text and Atlas, digestive system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify von Ebner's glands and their trench-flushing function around circumvallate papillae.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tongue_histology_0003",
+      "subject": "Anatomy",
+      "topic": "Tongue - Histology",
+      "subtopic": "Taste-nerve mapping",
+      "concept": "Tongue papillae types and their taste-nerve supply mapping",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "How does the nerve supply for TASTE differ between the anterior 2/3 and posterior 1/3 of the tongue, and how does this compare with the general SENSATION nerve supply pattern in these same regions?",
+      "options": [
+        "Anterior 2/3: taste via facial nerve (chorda tympani), general sensation via trigeminal nerve (lingual nerve) \u2014 two DIFFERENT nerves for the two modalities. Posterior 1/3: BOTH taste and general sensation via glossopharyngeal nerve \u2014 the SAME nerve for both modalities",
+        "Both anterior and posterior tongue regions use the same single nerve for both taste and general sensation, with no regional or modality-based variation",
+        "Anterior 2/3: taste via trigeminal nerve, general sensation via facial nerve \u2014 the reverse of the correct pairing",
+        "Posterior 1/3 has no taste function at all; only the anterior 2/3 carries any taste sensation"
+      ],
+      "correct_answer": "Anterior 2/3: taste via facial nerve (chorda tympani), general sensation via trigeminal nerve (lingual nerve) \u2014 two DIFFERENT nerves for the two modalities. Posterior 1/3: BOTH taste and general sensation via glossopharyngeal nerve \u2014 the SAME nerve for both modalities",
+      "distractor_rationale": {
+        "Both anterior and posterior tongue regions use the same single nerve for both taste and general sensation, with no regional or modality-based variation": "Denies the genuine, well-established difference in pattern between the anterior 2/3 (split by modality, two nerves) and posterior 1/3 (single nerve, both modalities).",
+        "Anterior 2/3: taste via trigeminal nerve, general sensation via facial nerve \u2014 the reverse of the correct pairing": "Reverses the correct nerve-to-modality assignment for the anterior tongue.",
+        "Posterior 1/3 has no taste function at all; only the anterior 2/3 carries any taste sensation": "Incorrect \u2014 the posterior 1/3 (circumvallate and posterior foliate papillae) genuinely does have taste function, via the glossopharyngeal nerve."
+      },
+      "explanation": {
+        "core_concept": "This comparison brings together the general-sensation split (already established for the anterior tongue in the Trigeminal Nerve chapter) with the taste-specific mapping covered in this chapter, revealing a genuinely elegant pattern: the anterior 2/3 splits its two sensory modalities across two DIFFERENT nerves, while the posterior 1/3 uses just ONE nerve for both \u2014 a pattern asymmetry worth understanding as a whole rather than learning each region's facts in isolation.",
+        "why_correct": "In the anterior 2/3 of the tongue: general sensation (touch, pain, temperature) travels via the trigeminal nerve's lingual nerve branch (V3), while TASTE travels via the facial nerve's chorda tympani branch, which joins and travels alongside the lingual nerve for part of its course \u2014 two different nerves for the two different modalities in the same territory. In the posterior 1/3: BOTH general sensation AND taste travel together via the glossopharyngeal nerve (CN IX) \u2014 a single nerve carrying both modalities, a cleaner, less split arrangement than the anterior two-thirds.",
+        "why_others_wrong": {
+          "Both anterior and posterior tongue regions use the same single nerve for both taste and general sensation, with no regional or modality-based variation": "Denies the genuine anterior-vs-posterior pattern difference (split nerves vs single nerve) that is specifically what makes this topic worth testing.",
+          "Anterior 2/3: taste via trigeminal nerve, general sensation via facial nerve \u2014 the reverse of the correct pairing": "A direct reversal of the correct assignment \u2014 taste is facial nerve (chorda tympani), general sensation is trigeminal (lingual nerve) in the anterior 2/3.",
+          "Posterior 1/3 has no taste function at all; only the anterior 2/3 carries any taste sensation": "Incorrect \u2014 circumvallate papillae (posterior 1/3) genuinely have taste buds and genuine taste function via CN IX."
+        },
+        "high_yield_facts": [
+          "Anterior 2/3: taste (facial/chorda tympani) + general sensation (trigeminal/lingual nerve) = TWO different nerves, split by modality.",
+          "Posterior 1/3: taste AND general sensation both via glossopharyngeal nerve (CN IX) = ONE nerve, both modalities together.",
+          "This asymmetry (split anteriorly, unified posteriorly) is a favourite, frequently tested pattern precisely because it's genuinely counter-intuitive that the SAME two modalities are handled so differently in adjacent tongue regions."
+        ],
+        "clinical_correlation": "This mapping directly guides clinical taste testing \u2014 testing anterior tongue taste specifically assesses CN VII (chorda tympani), while testing posterior tongue taste assesses CN IX, a genuinely useful lateralising/localising tool in cranial nerve examination.",
+        "common_confusions": [
+          "Assuming the SAME split pattern (two different nerves for the two modalities) applies uniformly to both the anterior and posterior tongue \u2014 the posterior 1/3 specifically does NOT follow the split pattern, using a single nerve for both taste and general sensation instead."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Trigeminal nerve general sensation to the anterior tongue (see Trigeminal Nerve chapter)",
+          "Circumvallate papillae and posterior tongue taste (this concept, other question)"
+        ],
+        "exam_traps": [
+          "When asked about posterior 1/3 tongue innervation, don't assume the same two-nerve split pattern used anteriorly \u2014 actively recall that CN IX alone handles BOTH modalities there."
+        ],
+        "image_clues": null,
+        "memory_aid": "Anterior tongue: two nerves share the job (V for feeling, VII for flavour). Posterior tongue: one nerve (IX) does it all.",
+        "other_ways_this_is_tested": [
+          "This comparison directly connects and extends the general-sensation mapping from the Trigeminal Nerve chapter with the taste-specific facts established elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Anterior 2/3 tongue: taste (CN VII/chorda tympani) and general sensation (CN V3/lingual nerve) use TWO different nerves. Posterior 1/3: taste AND general sensation both use the SAME nerve (CN IX) \u2014 a genuinely asymmetric, frequently tested pattern.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy; Moore's Clinically Oriented Anatomy, head and neck chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Compare the taste and general sensation nerve supply patterns between the anterior 2/3 and posterior 1/3 of the tongue.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tongue_histology_0004",
+      "subject": "Anatomy",
+      "topic": "Tongue - Histology",
+      "subtopic": "Clinical \u2014 taste testing lateralisation",
+      "concept": "Tongue papillae types and their taste-nerve supply mapping",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient with a suspected facial nerve lesion is found to have loss of taste sensation on the anterior two-thirds of the tongue on the affected side, but normal taste on the posterior third of the same side. General touch/pain sensation on the anterior tongue is also intact. What does this pattern suggest about the level of the facial nerve lesion?",
+      "options": [
+        "The lesion is proximal to (before) the point where the chorda tympani branches off the facial nerve, but the intact general sensation confirms the trigeminal nerve (a separate nerve) is unaffected \u2014 consistent with an isolated facial nerve/chorda tympani problem rather than a combined lesion",
+        "This pattern is impossible; facial nerve lesions never cause isolated taste loss without also affecting facial movement",
+        "The pattern indicates a glossopharyngeal nerve lesion instead, since posterior tongue taste is preserved",
+        "The pattern indicates the lesion must be distal to the stylomastoid foramen, affecting only facial expression muscles with no possible taste involvement at that level"
+      ],
+      "correct_answer": "The lesion is proximal to (before) the point where the chorda tympani branches off the facial nerve, but the intact general sensation confirms the trigeminal nerve (a separate nerve) is unaffected \u2014 consistent with an isolated facial nerve/chorda tympani problem rather than a combined lesion",
+      "distractor_rationale": {
+        "This pattern is impossible; facial nerve lesions never cause isolated taste loss without also affecting facial movement": "Facial nerve lesions CAN affect the chorda tympani branch (taste) with or without prominent facial movement involvement, depending on the exact lesion level \u2014 this pattern is a recognised, real clinical presentation, not impossible.",
+        "The pattern indicates a glossopharyngeal nerve lesion instead, since posterior tongue taste is preserved": "PRESERVED posterior taste argues AGAINST (not for) a glossopharyngeal lesion \u2014 if CN IX were affected, posterior taste would be LOST, not preserved as described.",
+        "The pattern indicates the lesion must be distal to the stylomastoid foramen, affecting only facial expression muscles with no possible taste involvement at that level": "The chorda tympani branches off the facial nerve trunk PROXIMAL to (before) the stylomastoid foramen \u2014 a lesion distal to this point (after the stylomastoid foramen) would actually SPARE taste function, the opposite of what's described in this vignette."
+      },
+      "explanation": {
+        "core_concept": "This vignette applies the taste-nerve mapping to real lesion localisation \u2014 recognising that anterior taste loss with preserved general sensation points specifically to a facial nerve (not trigeminal) problem, and that preserved posterior taste helps confirm the glossopharyngeal nerve is unaffected, together triangulating the lesion to a facial nerve level proximal to the chorda tympani's branch point.",
+        "why_correct": "Loss of taste (facial nerve/chorda tympani territory) with PRESERVED general sensation (trigeminal nerve/lingual nerve territory) on the anterior tongue confirms this is specifically a facial nerve problem, not a combined or trigeminal lesion. The lesion must be at or proximal to the point where the chorda tympani branches off the facial nerve trunk (this branch point is proximal to the stylomastoid foramen) for taste to be affected. Preserved posterior tongue taste confirms the glossopharyngeal nerve is separately unaffected, consistent with an isolated facial nerve lesion rather than a more extensive process.",
+        "why_others_wrong": {
+          "This pattern is impossible; facial nerve lesions never cause isolated taste loss without also affecting facial movement": "A real, recognised clinical pattern \u2014 facial nerve lesions can affect chorda tympani function with variable involvement of the motor (facial expression) fibres depending on exact lesion level and cause.",
+          "The pattern indicates a glossopharyngeal nerve lesion instead, since posterior tongue taste is preserved": "Backwards logic \u2014 preserved posterior taste specifically argues AGAINST glossopharyngeal involvement, not for it.",
+          "The pattern indicates the lesion must be distal to the stylomastoid foramen, affecting only facial expression muscles with no possible taste involvement at that level": "Gets the anatomy backwards \u2014 a lesion DISTAL to the stylomastoid foramen (after the chorda tympani has already branched off) would SPARE taste, not cause the taste loss described."
+        },
+        "high_yield_facts": [
+          "Anterior 2/3 taste loss + intact general sensation = facial nerve/chorda tympani problem, NOT trigeminal.",
+          "Chorda tympani branches off the facial nerve PROXIMAL to the stylomastoid foramen \u2014 a lesion must be at or before this point to affect taste.",
+          "Preserved posterior tongue taste helps confirm glossopharyngeal nerve is unaffected, supporting an isolated (not combined) facial nerve lesion."
+        ],
+        "clinical_correlation": "This level of localisation (using taste testing alongside facial motor testing) can help distinguish different levels of facial nerve pathology (e.g. within the facial canal vs distal to the stylomastoid foramen), which has real implications for identifying the underlying cause and expected recovery.",
+        "common_confusions": [
+          "Assuming any tongue sensory finding automatically implicates the trigeminal nerve \u2014 TASTE specifically implicates the facial (anterior) or glossopharyngeal (posterior) nerve, while GENERAL sensation implicates trigeminal (anterior) or glossopharyngeal (posterior) \u2014 actively distinguish which modality is affected before concluding which nerve is involved."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Taste-nerve mapping (this concept, the comparison question)",
+          "Facial nerve course and stylomastoid foramen (a related anatomical landmark)"
+        ],
+        "exam_traps": [
+          "Use BOTH pieces of information given (which modality is lost, which tongue region) together to localise the lesion precisely \u2014 using only one piece of information risks an incomplete or incorrect localisation."
+        ],
+        "image_clues": null,
+        "memory_aid": "Taste gone, touch fine, anterior tongue = chorda tympani (facial nerve) is the problem, not the trigeminal nerve.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct clinical application of the comparison question elsewhere in this chapter, using the taste-nerve mapping to localise a real lesion."
+        ],
+        "neet_pg_takeaway": "Anterior tongue taste loss with preserved general sensation localises to a facial nerve lesion at or proximal to the chorda tympani's branch point \u2014 using the modality-specific nerve mapping to precisely localise cranial nerve pathology.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard clinical neurology examination references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise a facial nerve lesion using the pattern of anterior tongue taste loss with preserved general sensation.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_tongue_histology_0005",
+      "subject": "Anatomy",
+      "topic": "Tongue - Histology",
+      "subtopic": "Image-based identification",
+      "concept": "Tongue papillae types and their taste-nerve supply mapping",
+      "question_type": "image_based",
+      "difficulty": 2,
+      "question": "[Image: dorsal view of the tongue showing numerous small, cone-shaped, pale keratinised projections covering most of the anterior surface, interspersed with occasional larger, rounded, red-appearing projections, and a V-shaped row of 8-12 large, dome-shaped projections each surrounded by a visible trench near the back of the tongue.] Identify the three papillae types visible in this image.",
+      "options": [
+        "Filiform (numerous, pale, cone-shaped), fungiform (occasional, red, rounded), circumvallate (large, V-shaped row, trenched)",
+        "Fungiform (numerous, pale, cone-shaped), filiform (occasional, red, rounded), foliate (large, V-shaped row, trenched)",
+        "Circumvallate (numerous, pale, cone-shaped), foliate (occasional, red, rounded), filiform (large, V-shaped row, trenched)",
+        "All three visible structures are the same papillae type (filiform) at different stages of maturation"
+      ],
+      "correct_answer": "Filiform (numerous, pale, cone-shaped), fungiform (occasional, red, rounded), circumvallate (large, V-shaped row, trenched)",
+      "distractor_rationale": {
+        "Fungiform (numerous, pale, cone-shaped), filiform (occasional, red, rounded), foliate (large, V-shaped row, trenched)": "Reverses filiform and fungiform's described appearances, and misidentifies the V-shaped trenched row as foliate rather than circumvallate papillae.",
+        "Circumvallate (numerous, pale, cone-shaped), foliate (occasional, red, rounded), filiform (large, V-shaped row, trenched)": "Scrambles all three identifications \u2014 circumvallate papillae are specifically the large, V-shaped-row, trenched structures, not the numerous pale ones.",
+        "All three visible structures are the same papillae type (filiform) at different stages of maturation": "These are three genuinely distinct papillae types with different structures and functions, not maturational stages of a single type."
+      },
+      "explanation": {
+        "core_concept": "Correctly identifying tongue papillae by their gross visual appearance (number, colour, shape, arrangement) is a practical extension of the structural facts established throughout this chapter, directly relevant to clinical tongue examination.",
+        "why_correct": "Numerous, pale, cone-shaped projections covering most of the anterior tongue = filiform papillae (purely mechanical, keratinised, most numerous). Occasional, red, rounded projections interspersed among them = fungiform papillae (taste buds present, richly vascularised giving the red appearance). Large, dome-shaped structures arranged in a V-shaped row near the back, each with a surrounding trench = circumvallate papillae (taste buds on lateral walls, von Ebner's gland trench).",
+        "why_others_wrong": {
+          "Fungiform (numerous, pale, cone-shaped), filiform (occasional, red, rounded), foliate (large, V-shaped row, trenched)": "Reverses the filiform/fungiform appearances (fungiform are the RED, occasional ones, not the numerous pale ones) and misidentifies the trenched row as foliate rather than circumvallate.",
+          "Circumvallate (numerous, pale, cone-shaped), foliate (occasional, red, rounded), filiform (large, V-shaped row, trenched)": "Assigns all three identifications incorrectly relative to their actual defining features.",
+          "All three visible structures are the same papillae type (filiform) at different stages of maturation": "These are structurally and functionally distinct papillae types, not different maturation stages of one type."
+        },
+        "high_yield_facts": [
+          "Filiform: numerous, pale, cone-shaped, no taste buds, most of anterior tongue.",
+          "Fungiform: occasional, RED (vascularised), rounded/mushroom-shaped, taste buds on top, concentrated at tip/margins.",
+          "Circumvallate: large, V-shaped row near the sulcus terminalis, each with a surrounding trench, taste buds on lateral walls."
+        ],
+        "clinical_correlation": "Recognising these papillae types on direct tongue examination is a basic but genuinely useful clinical skill \u2014 for example, loss of filiform papillae (producing a smooth, red tongue) is a recognised finding in certain nutritional deficiencies (e.g. vitamin B12, iron) and other systemic conditions.",
+        "common_confusions": [
+          "Confusing fungiform (red, scattered) with circumvallate (large, V-shaped row) simply because both contain taste buds \u2014 their gross appearance and location are quite distinct once actively compared."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Filiform papillae's lack of taste buds (this concept, the exception question)",
+          "Von Ebner's glands and circumvallate trench function (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC combination of number, colour, shape, AND arrangement together to distinguish the three papillae types \u2014 any single feature alone (e.g. just 'red') could be ambiguous without the others."
+        ],
+        "image_clues": "Key visual clues: filiform = numerous + pale + cone-shaped; fungiform = occasional + red + rounded; circumvallate = large + V-shaped row + trenched.",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This gross visual identification directly complements the histological (microscopic) facts about each papillae type established elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "On gross tongue examination, filiform papillae appear numerous/pale/cone-shaped, fungiform papillae appear occasional/red/rounded, and circumvallate papillae appear as a large, V-shaped, trenched row near the tongue's posterior third.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard oral anatomy/histology atlas images."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic. A real, anatomically accurate dorsal tongue image or schematic showing all papillae types must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify filiform, fungiform, and circumvallate papillae by their gross visual appearance and arrangement on the tongue.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

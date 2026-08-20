@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0045",
+    "topic": "Scapula",
+    "chapter_number": 45,
+    "chapter_file": "data/anatomy/ch45_scapula.json",
+    "source_years": [
+      2025
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "clinical_vignette",
+      "comparison",
+      "direct_recall",
+      "mechanism"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 questions across 3 distinct types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The scapula is a flat, triangular bone with several clinically important surface landmarks (spine, acromion, coracoid process, glenoid cavity, borders, and angles) and a genuinely important muscular attachment pattern \u2014 the SUPRASCAPULAR NOTCH specifically, where the suprascapular nerve passes beneath the superior transverse scapular ligament, is a recognised site of nerve entrapment producing a distinctive pattern of shoulder weakness."
+    },
+    "structure_anatomy": {
+      "surface_landmarks": "Spine of the scapula (a prominent posterior ridge dividing supraspinous and infraspinous fossae), acromion (the spine's lateral continuation, articulating with the clavicle at the acromioclavicular joint), coracoid process (an anterior, hook-like projection, attachment for several muscles/ligaments), glenoid cavity (the shallow socket articulating with the humeral head), and three borders (superior, medial/vertebral, lateral/axillary) plus three angles (superior, inferior, lateral).",
+      "suprascapular_notch": "A notch on the superior border of the scapula, bridged by the superior transverse scapular ligament, through which the SUPRASCAPULAR NERVE passes (while the suprascapular ARTERY typically passes ABOVE this ligament instead \u2014 a genuinely useful, frequently tested distinction, sometimes remembered as 'artery above, nerve below/through' at this specific point).",
+      "muscle_attachments": "Supraspinatus and infraspinatus fill the supraspinous and infraspinous fossae respectively (both supplied by the suprascapular nerve, which passes through the suprascapular notch to reach supraspinatus first, then continues around the spinoglenoid notch to reach infraspinatus) \u2014 making the suprascapular notch the single anatomical bottleneck relevant to BOTH these rotator cuff muscles' nerve supply."
+    },
+    "clinical": {
+      "suprascapular_nerve_entrapment": "Entrapment of the suprascapular nerve at the suprascapular notch (e.g. from ligament thickening, a ganglion cyst, or repetitive overhead activity in certain sports/occupations) causes weakness of BOTH supraspinatus (weak initial arm abduction) AND infraspinatus (weak external rotation), since the nerve supplies both muscles after passing through this single notch \u2014 a genuinely useful localising pattern, since entrapment further along the nerve's course (at the spinoglenoid notch specifically, a second, more distal potential entrapment site) would spare supraspinatus (already given off its branch) while still affecting infraspinatus alone.",
+      "spinoglenoid_notch_variant": "Entrapment specifically at the SPINOGLENOID notch (more distal along the nerve's course, after the supraspinatus branch has already been given off) causes ISOLATED infraspinatus weakness (external rotation weakness) with supraspinatus SPARED \u2014 a genuinely useful distinguishing pattern from suprascapular notch-level entrapment, and a recognised finding in certain athletes (e.g. volleyball players) from repetitive overhead motion causing traction on the nerve at this specific point."
+    },
+    "related_structures": "The suprascapular notch/artery-above-ligament, nerve-below-ligament relationship is the single most frequently tested specific detail in scapular surface anatomy \u2014 a compact, high-yield fact directly explaining both normal nerve supply to two rotator cuff muscles and a genuine, recognisable clinical entrapment syndrome."
+  },
+  "question_family": [
+    {
+      "family_name": "Scapula \u2014 Suprascapular Notch and Nerve Entrapment (4 angles, one concept)",
+      "member_ids": [
+        "anat_scapula_0001",
+        "anat_scapula_0002",
+        "anat_scapula_0003",
+        "anat_scapula_0004",
+        "anat_scapula_0005"
+      ],
+      "coverage": "Recall (artery-above/nerve-below relationship, coracoid process landmark), clinical vignette (suprascapular notch entrapment), and comparison (spinoglenoid notch variant) \u2014 four genuinely different angles on the same integrated concept. Also mechanism (why the notch is a vulnerable fixed-tunnel entrapment site)."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_scapula_0001",
+      "subject": "Anatomy",
+      "topic": "Scapula",
+      "subtopic": "Suprascapular notch relations",
+      "concept": "Scapula's suprascapular notch: the artery-above/nerve-below relationship and suprascapular nerve entrapment",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "At the suprascapular notch, bridged by the superior transverse scapular ligament, how do the suprascapular nerve and suprascapular artery relate to this ligament?",
+      "options": [
+        "The suprascapular NERVE passes BENEATH (through) the ligament/notch; the suprascapular ARTERY typically passes ABOVE the ligament",
+        "Both the nerve and artery pass beneath the ligament together, with no difference in their relationship to it",
+        "The suprascapular ARTERY passes beneath the ligament; the NERVE passes above it \u2014 the reverse of the correct relationship",
+        "Neither the nerve nor the artery has any relationship to this specific ligament or notch"
+      ],
+      "correct_answer": "The suprascapular NERVE passes BENEATH (through) the ligament/notch; the suprascapular ARTERY typically passes ABOVE the ligament",
+      "distractor_rationale": {
+        "Both the nerve and artery pass beneath the ligament together, with no difference in their relationship to it": "Denies the genuine, frequently tested, and clinically relevant difference in their paths relative to this ligament.",
+        "The suprascapular ARTERY passes beneath the ligament; the NERVE passes above it \u2014 the reverse of the correct relationship": "Directly reverses the correct nerve/artery relationship to the ligament.",
+        "Neither the nerve nor the artery has any relationship to this specific ligament or notch": "Denies the well-established, anatomically important relationship both structures have to this specific site."
+      },
+      "explanation": {
+        "core_concept": "This artery-above/nerve-below relationship at the suprascapular notch is one of the most compact, frequently tested single facts in scapular anatomy, precisely because it's a genuine, specific, easily-tested point of anatomical detail with direct clinical relevance (nerve entrapment specifically, since only the nerve is confined within the tight osseoligamentous tunnel).",
+        "why_correct": "The suprascapular nerve passes THROUGH (beneath) the suprascapular notch, confined by the superior transverse scapular ligament above it, while the suprascapular artery typically passes OVER (above) this same ligament instead \u2014 a genuine anatomical difference in their respective paths at this exact point.",
+        "why_others_wrong": {
+          "Both the nerve and artery pass beneath the ligament together, with no difference in their relationship to it": "Denies their genuinely different paths at this specific site.",
+          "The suprascapular ARTERY passes beneath the ligament; the NERVE passes above it \u2014 the reverse of the correct relationship": "A direct reversal of the correct relationship.",
+          "Neither the nerve nor the artery has any relationship to this specific ligament or notch": "Denies a well-established, clinically relevant anatomical relationship."
+        },
+        "high_yield_facts": [
+          "Suprascapular NERVE: beneath the superior transverse scapular ligament (through the notch).",
+          "Suprascapular ARTERY: above the ligament.",
+          "This differing relationship is exactly why the NERVE specifically (not the artery) is vulnerable to entrapment at this tight osseoligamentous tunnel \u2014 the artery has more room to pass over the top."
+        ],
+        "clinical_correlation": "This anatomical relationship directly explains why suprascapular nerve entrapment (not arterial compromise) is the recognised clinical syndrome at this specific site \u2014 only the nerve is confined within the tight notch/ligament tunnel.",
+        "common_confusions": [
+          "Mixing up which structure (nerve vs artery) goes above versus below the ligament \u2014 this exact detail is a favourite, compact single-fact exam question."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Suprascapular nerve entrapment (this concept, other question)",
+          "Spinoglenoid notch (this concept, other question) \u2014 a second, more distal entrapment site"
+        ],
+        "exam_traps": [
+          "Use a specific memory anchor for this relationship, since 'above vs below' facts like this are easy to reverse under exam pressure without one."
+        ],
+        "image_clues": null,
+        "memory_aid": "Army (Artery) marches OVER the bridge; Nerve sneaks UNDER it \u2014 'A' for Above, both alliterating with Artery.",
+        "other_ways_this_is_tested": [
+          "This structural relationship is the direct anatomical basis for the suprascapular nerve entrapment syndrome covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "At the suprascapular notch, the suprascapular nerve passes beneath the superior transverse scapular ligament while the suprascapular artery passes above it \u2014 a compact, frequently tested anatomical detail directly explaining why only the nerve is vulnerable to entrapment here.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the differing relationship of the suprascapular nerve (below) and artery (above) to the superior transverse scapular ligament.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_scapula_0002",
+      "subject": "Anatomy",
+      "topic": "Scapula",
+      "subtopic": "Clinical \u2014 suprascapular notch entrapment",
+      "concept": "Scapula's suprascapular notch: the artery-above/nerve-below relationship and suprascapular nerve entrapment",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient presents with weakness of the initial phase of arm abduction AND weakness of external rotation of the shoulder, without any sensory deficit. Which nerve entrapment, at which specific site, best explains this combined pattern?",
+      "options": [
+        "Suprascapular nerve entrapment AT the suprascapular notch \u2014 affecting both supraspinatus (initial abduction) and infraspinatus (external rotation), since the nerve supplies both muscles after passing through this single site",
+        "Suprascapular nerve entrapment at the spinoglenoid notch \u2014 this would be expected to spare supraspinatus, inconsistent with this vignette's combined weakness pattern",
+        "Axillary nerve injury, affecting deltoid alone, with no relationship to external rotation weakness",
+        "Musculocutaneous nerve injury, affecting elbow flexion, with no relationship to shoulder abduction or rotation"
+      ],
+      "correct_answer": "Suprascapular nerve entrapment AT the suprascapular notch \u2014 affecting both supraspinatus (initial abduction) and infraspinatus (external rotation), since the nerve supplies both muscles after passing through this single site",
+      "distractor_rationale": {
+        "Suprascapular nerve entrapment at the spinoglenoid notch \u2014 this would be expected to spare supraspinatus, inconsistent with this vignette's combined weakness pattern": "Spinoglenoid notch entrapment occurs AFTER the supraspinatus branch has already been given off, so it would SPARE supraspinatus (initial abduction preserved) \u2014 inconsistent with this vignette's COMBINED weakness of both muscles.",
+        "Axillary nerve injury, affecting deltoid alone, with no relationship to external rotation weakness": "The axillary nerve supplies deltoid and teres minor, a different pattern (affecting the main bulk of abduction, not the INITIAL phase specifically, and different from infraspinatus's external rotation role) \u2014 doesn't match this specific combined pattern.",
+        "Musculocutaneous nerve injury, affecting elbow flexion, with no relationship to shoulder abduction or rotation": "An entirely different nerve and muscle group (elbow flexors), unrelated to shoulder abduction/external rotation findings."
+      },
+      "explanation": {
+        "core_concept": "This vignette applies the suprascapular notch's specific anatomical position (BEFORE the nerve branches to either muscle) to explain why entrapment HERE specifically affects BOTH supraspinatus and infraspinatus together \u2014 directly contrasting with the more distal spinoglenoid notch site, which would spare supraspinatus.",
+        "why_correct": "The suprascapular nerve passes through the suprascapular notch BEFORE branching to supply supraspinatus (initial arm abduction, before deltoid becomes the dominant abductor) and then continuing around the spinoglenoid notch to reach infraspinatus (external rotation). Entrapment AT the suprascapular notch itself, before this branching, therefore affects BOTH muscles together \u2014 exactly matching this vignette's combined weakness pattern, with no sensory findings since the suprascapular nerve is purely motor.",
+        "why_others_wrong": {
+          "Suprascapular nerve entrapment at the spinoglenoid notch \u2014 this would be expected to spare supraspinatus, inconsistent with this vignette's combined weakness pattern": "This MORE DISTAL entrapment site is specifically AFTER the supraspinatus branch has already departed, so it would spare supraspinatus (initial abduction preserved) \u2014 not matching this vignette's combined weakness of both muscles.",
+          "Axillary nerve injury, affecting deltoid alone, with no relationship to external rotation weakness": "A different nerve/muscle pattern (deltoid/teres minor), not matching the specific supraspinatus+infraspinatus combination described.",
+          "Musculocutaneous nerve injury, affecting elbow flexion, with no relationship to shoulder abduction or rotation": "An unrelated nerve and muscle group entirely."
+        },
+        "high_yield_facts": [
+          "Suprascapular NOTCH entrapment (proximal) \u2192 BOTH supraspinatus AND infraspinatus weak (combined initial abduction + external rotation weakness).",
+          "Spinoglenoid NOTCH entrapment (more distal) \u2192 infraspinatus ALONE weak (supraspinatus spared, since its branch already departed).",
+          "Both entrapment sites are purely MOTOR syndromes (suprascapular nerve carries no significant cutaneous sensory territory), so NO sensory findings accompany either pattern \u2014 a useful confirming detail."
+        ],
+        "clinical_correlation": "Correctly localising WHICH specific site (suprascapular vs spinoglenoid notch) is involved, based on whether supraspinatus is affected or spared, directly guides further workup (e.g. MRI looking for a ganglion cyst at the implicated specific site) and surgical planning if decompression is being considered.",
+        "common_confusions": [
+          "Assuming any suprascapular nerve entrapment produces an identical clinical picture regardless of exact site \u2014 the LEVEL of entrapment (before vs after the supraspinatus branch) genuinely changes which muscles are affected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Artery-above/nerve-below relationship at the suprascapular notch (this concept, other question) \u2014 the anatomical basis for why this nerve specifically is vulnerable here"
+        ],
+        "exam_traps": [
+          "When a vignette describes COMBINED supraspinatus + infraspinatus weakness, localise to the suprascapular notch specifically (not spinoglenoid), since spinoglenoid-level entrapment would spare supraspinatus."
+        ],
+        "image_clues": null,
+        "memory_aid": "Notch before the split = both muscles affected. Notch after the split (spinoglenoid) = only the second muscle (infraspinatus) affected.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the suprascapular notch's structural position (before branching) established in the first question of this chapter to genuine, applied clinical localisation."
+        ],
+        "neet_pg_takeaway": "Suprascapular nerve entrapment at the suprascapular notch (proximal, before branching) causes combined supraspinatus and infraspinatus weakness; entrapment at the more distal spinoglenoid notch spares supraspinatus, affecting infraspinatus alone \u2014 a genuinely useful localising distinction.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard orthopaedic sports medicine references on suprascapular nerve entrapment syndromes."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise suprascapular nerve entrapment to the suprascapular notch (versus spinoglenoid notch) based on combined versus isolated muscle weakness.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_scapula_0003",
+      "subject": "Anatomy",
+      "topic": "Scapula",
+      "subtopic": "Spinoglenoid notch variant",
+      "concept": "Scapula's suprascapular notch: the artery-above/nerve-below relationship and suprascapular nerve entrapment",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "A competitive volleyball player develops isolated weakness of shoulder external rotation, with normal strength of the initial phase of arm abduction. Which entrapment site best explains this ISOLATED pattern, and why is this population classically affected?",
+      "options": [
+        "Spinoglenoid notch entrapment \u2014 occurring after the supraspinatus branch has already departed, so only infraspinatus (external rotation) is affected; repetitive overhead motion in sports like volleyball causes traction/compression on the nerve specifically at this more distal site",
+        "Suprascapular notch entrapment \u2014 this would be expected to also affect supraspinatus, inconsistent with the isolated pattern described",
+        "This isolated pattern is inconsistent with any known suprascapular nerve entrapment site and cannot be anatomically explained",
+        "Axillary nerve entrapment at the quadrangular space, unrelated to the suprascapular nerve or its notches entirely"
+      ],
+      "correct_answer": "Spinoglenoid notch entrapment \u2014 occurring after the supraspinatus branch has already departed, so only infraspinatus (external rotation) is affected; repetitive overhead motion in sports like volleyball causes traction/compression on the nerve specifically at this more distal site",
+      "distractor_rationale": {
+        "Suprascapular notch entrapment \u2014 this would be expected to also affect supraspinatus, inconsistent with the isolated pattern described": "Suprascapular notch entrapment occurs BEFORE the supraspinatus branch departs, so it would affect BOTH muscles \u2014 inconsistent with this vignette's ISOLATED infraspinatus weakness.",
+        "This isolated pattern is inconsistent with any known suprascapular nerve entrapment site and cannot be anatomically explained": "This IS a well-recognised, specifically named pattern (spinoglenoid notch entrapment), not an inexplicable or inconsistent finding.",
+        "Axillary nerve entrapment at the quadrangular space, unrelated to the suprascapular nerve or its notches entirely": "The axillary nerve supplies deltoid/teres minor, a different muscle pattern from the isolated external rotation (infraspinatus) weakness described \u2014 an unrelated nerve and site."
+      },
+      "explanation": {
+        "core_concept": "This vignette completes the suprascapular-vs-spinoglenoid notch comparison with a genuine, recognisable sports medicine presentation \u2014 repetitive overhead athletic motion (volleyball serving/spiking specifically) is a classic, real-world cause of traction injury at this specific, more distal entrapment site.",
+        "why_correct": "Spinoglenoid notch entrapment occurs distal to where the suprascapular nerve has already given off its branch to supraspinatus, so ONLY infraspinatus (external rotation) is affected, with supraspinatus (initial abduction) function preserved \u2014 exactly matching this vignette's isolated weakness pattern. Repetitive overhead motion, classically in volleyball players (from the specific mechanics of serving and spiking), is a recognised cause of traction-related injury to the nerve specifically at this more distal site.",
+        "why_others_wrong": {
+          "Suprascapular notch entrapment \u2014 this would be expected to also affect supraspinatus, inconsistent with the isolated pattern described": "Would produce COMBINED weakness (both muscles), inconsistent with this vignette's isolated infraspinatus-only pattern.",
+          "This isolated pattern is inconsistent with any known suprascapular nerve entrapment site and cannot be anatomically explained": "A genuine, well-recognised, specifically named clinical entity (spinoglenoid notch syndrome), not an inexplicable finding.",
+          "Axillary nerve entrapment at the quadrangular space, unrelated to the suprascapular nerve or its notches entirely": "A different nerve and muscle pattern (deltoid/teres minor), not matching the isolated external rotation weakness described."
+        },
+        "high_yield_facts": [
+          "Spinoglenoid notch entrapment: ISOLATED infraspinatus weakness (external rotation), supraspinatus SPARED.",
+          "Classic association: repetitive OVERHEAD athletic motion (volleyball serving/spiking specifically) causing traction injury at this more distal site.",
+          "This is the direct clinical contrast case to suprascapular notch entrapment (combined weakness), completing the full spectrum of suprascapular nerve entrapment presentations."
+        ],
+        "clinical_correlation": "Recognising this specific, sport-associated pattern in an appropriate athletic population directly guides diagnosis (often supported by MRI, sometimes revealing a paralabral cyst at the spinoglenoid notch specifically) and management (activity modification, sometimes surgical decompression in refractory cases).",
+        "common_confusions": [
+          "Assuming ANY external rotation weakness with normal abduction must reflect a rotator cuff TEAR rather than considering nerve entrapment \u2014 the SPECIFIC clinical context (overhead athlete, isolated pattern) should prompt considering spinoglenoid notch entrapment as a genuine alternative or additional diagnosis."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Suprascapular notch entrapment (this concept, other question) \u2014 the contrasting, more proximal entrapment site with combined weakness"
+        ],
+        "exam_traps": [
+          "Use the SPECIFIC combination of isolated (not combined) weakness PLUS the athletic/overhead-motion context to confirm spinoglenoid notch entrapment specifically, rather than the more proximal suprascapular notch site."
+        ],
+        "image_clues": null,
+        "memory_aid": "Volleyball serves and spikes repeatedly stress the nerve right at the spinoglenoid notch \u2014 the 'second' bottleneck, sparing supraspinatus since it already got its branch.",
+        "other_ways_this_is_tested": [
+          "This vignette completes the suprascapular nerve entrapment spectrum established in the earlier questions of this chapter, providing the isolated-weakness contrast case."
+        ],
+        "neet_pg_takeaway": "Spinoglenoid notch entrapment causes isolated infraspinatus (external rotation) weakness with supraspinatus spared, classically from repetitive overhead athletic motion (e.g. volleyball) \u2014 the distal counterpart to suprascapular notch entrapment's combined weakness pattern.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard sports medicine references on spinoglenoid notch syndrome in overhead athletes."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose spinoglenoid notch entrapment from isolated infraspinatus weakness in an overhead athlete, contrasting with suprascapular notch entrapment.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_scapula_0004",
+      "subject": "Anatomy",
+      "topic": "Scapula",
+      "subtopic": "Surface landmarks",
+      "concept": "Scapula's suprascapular notch: the artery-above/nerve-below relationship and suprascapular nerve entrapment",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Which scapular landmark serves as the attachment point for several muscles/ligaments and projects anteriorly as a hook-like process, distinct from the acromion?",
+      "options": [
+        "Coracoid process",
+        "Spine of the scapula",
+        "Inferior angle",
+        "Superior border"
+      ],
+      "correct_answer": "Coracoid process",
+      "distractor_rationale": {
+        "Spine of the scapula": "A posterior ridge dividing the supraspinous and infraspinous fossae \u2014 a different landmark, posteriorly located, not the anteriorly-projecting hook-like process described.",
+        "Inferior angle": "The lowest point of the scapula, not an anteriorly-projecting hook-like structure.",
+        "Superior border": "One of the scapula's three borders (superior, medial, lateral), not a discrete hook-like process."
+      },
+      "explanation": {
+        "core_concept": "The coracoid process's distinct anterior, hook-like projection makes it a reliable palpable landmark and an important attachment point for several structures (short head of biceps, coracobrachialis, pectoralis minor, and coracoclavicular/coracoacromial ligaments) \u2014 worth distinguishing clearly from the acromion, a genuinely different, more posteriorly/laterally positioned scapular landmark.",
+        "why_correct": "The coracoid process is a hook-like, anteriorly-projecting bony process of the scapula, serving as an attachment point for several muscles (short head of biceps brachii, coracobrachialis) and ligaments (coracoclavicular, coracoacromial) \u2014 distinct from the acromion, which is the spine's lateral continuation, projecting more laterally/posteriorly to articulate with the clavicle.",
+        "why_others_wrong": {
+          "Spine of the scapula": "A posterior ridge, not the anterior hook-like process described.",
+          "Inferior angle": "The scapula's lowest point, an entirely different landmark.",
+          "Superior border": "One of the scapula's borders, not a discrete process."
+        },
+        "high_yield_facts": [
+          "Coracoid process = anterior, hook-like projection \u2014 attachment for short head biceps, coracobrachialis, and several ligaments.",
+          "Distinct from the ACROMION, which is the spine's lateral continuation, articulating with the clavicle (AC joint) \u2014 two different scapular processes, easily confused by name similarity but anatomically and functionally distinct.",
+          "The coracoid process is a genuinely useful palpable clinical landmark, e.g. for shoulder examination and certain injection procedures."
+        ],
+        "clinical_correlation": "The coracoid process is a practical clinical landmark for locating and assessing structures in the anterior shoulder region, and coracoid fractures (though less common than other shoulder fractures) are a recognised, specific injury pattern.",
+        "common_confusions": [
+          "Confusing the coracoid process with the acromion simply because both are scapular bony projections near the shoulder \u2014 they're anatomically distinct, in different positions, with different attachments and different clinical significance."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Suprascapular notch (this concept, other questions) \u2014 a different, superior border landmark on the same bone"
+        ],
+        "exam_traps": [
+          "Don't confuse coracoid (anterior, hook-like, biceps short head/coracobrachialis attachment) with acromion (lateral/posterior, articulates with clavicle) \u2014 these are genuinely different landmarks despite superficial name similarity."
+        ],
+        "image_clues": null,
+        "memory_aid": "Coracoid = 'crow's beak' shaped, hooking forward \u2014 a completely different structure from the acromion's flat, lateral shelf.",
+        "other_ways_this_is_tested": [
+          "This basic landmark knowledge provides the anatomical context for correctly locating the suprascapular notch (on the superior border, near but distinct from the coracoid process) covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The coracoid process is the scapula's anteriorly-projecting, hook-like bony process, serving as an attachment point for the short head of biceps, coracobrachialis, and several ligaments \u2014 distinct from the acromion.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the coracoid process as a distinct scapular landmark from the acromion, with its own specific attachments.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_scapula_0005",
+      "subject": "Anatomy",
+      "topic": "Scapula",
+      "subtopic": "Mechanism of entrapment vulnerability",
+      "concept": "Scapula's suprascapular notch: the artery-above/nerve-below relationship and suprascapular nerve entrapment",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "Why is the suprascapular notch specifically vulnerable to nerve entrapment, in terms of the general anatomical mechanism involved?",
+      "options": [
+        "The superior transverse scapular ligament converts the notch into a rigid, narrow, fixed-diameter osseoligamentous tunnel with no room to accommodate swelling or a mass, so any space-occupying process there directly compresses the nerve against unyielding boundaries",
+        "Because the suprascapular artery, not the nerve, occupies most of the available space within the notch, leaving little room for the nerve",
+        "Because the notch has no ligament at all, leaving the nerve exposed and mobile with no anatomical vulnerability",
+        "Because the nerve at this location carries sensory fibres from the skin, making any compression here immediately and severely painful, unlike compression of purely motor nerves"
+      ],
+      "correct_answer": "The superior transverse scapular ligament converts the notch into a rigid, narrow, fixed-diameter osseoligamentous tunnel with no room to accommodate swelling or a mass, so any space-occupying process there directly compresses the nerve against unyielding boundaries",
+      "distractor_rationale": {
+        "Because the suprascapular artery, not the nerve, occupies most of the available space within the notch, leaving little room for the nerve": "The artery typically passes above (not through) the notch alongside the nerve.",
+        "Because the notch has no ligament at all, leaving the nerve exposed and mobile with no anatomical vulnerability": "The notch is specifically bridged by the superior transverse scapular ligament, which is exactly what creates the confined tunnel.",
+        "Because the nerve at this location carries sensory fibres from the skin, making any compression here immediately and severely painful, unlike compression of purely motor nerves": "The suprascapular nerve is predominantly motor, without significant cutaneous sensory territory."
+      },
+      "explanation": {
+        "core_concept": "Understanding WHY the suprascapular notch is a vulnerable entrapment site \u2014 a rigid, narrow bony-ligamentous tunnel through which the nerve must pass, with no room to accommodate any swelling or space-occupying lesion \u2014 is what explains why this specific site (rather than the nerve's course elsewhere) is where entrapment characteristically occurs.",
+        "why_correct": "The suprascapular notch is bridged by the rigid, unyielding superior transverse scapular ligament, converting the notch into a narrow, fixed-diameter osseoligamentous tunnel through which the suprascapular nerve must pass. Because this tunnel cannot expand, any space-occupying process within it (ligament thickening, a ganglion cyst, or even repetitive mechanical stress from certain movements) directly compresses the nerve against the unyielding bony/ligamentous boundaries \u2014 the same fundamental mechanism underlying nerve entrapment at other fixed anatomical tunnels throughout the body (e.g. carpal tunnel syndrome).",
+        "why_others_wrong": {
+          "Because the suprascapular artery, not the nerve, occupies most of the available space within the notch, leaving little room for the nerve": "The artery typically passes ABOVE the ligament (not through the notch itself alongside the nerve) \u2014 this option incorrectly places the artery within the same confined space as the nerve.",
+          "Because the notch has no ligament at all, leaving the nerve exposed and mobile with no anatomical vulnerability": "The suprascapular notch is specifically bridged by the superior transverse scapular ligament \u2014 denying this ligament's presence removes the very structure that creates the confined tunnel responsible for entrapment vulnerability.",
+          "Because the nerve at this location carries sensory fibres from the skin, making any compression here immediately and severely painful, unlike compression of purely motor nerves": "The suprascapular nerve is predominantly motor with minimal to no significant cutaneous sensory territory \u2014 this option incorrectly attributes its entrapment vulnerability to a sensory component it largely lacks."
+        },
+        "high_yield_facts": [
+          "The suprascapular notch is converted into a rigid, narrow tunnel by the superior transverse scapular ligament \u2014 a fixed-diameter space with no room to accommodate swelling or a mass.",
+          "This is the SAME general mechanism (nerve confined within an unyielding anatomical tunnel) underlying other classic entrapment neuropathies (e.g. carpal tunnel syndrome) \u2014 a transferable principle across different specific nerve entrapment sites.",
+          "This confined-tunnel vulnerability is exactly why a ganglion cyst or ligament thickening at this specific site can directly compress and injure the nerve."
+        ],
+        "clinical_correlation": "This mechanism directly explains why suprascapular nerve entrapment often responds to surgical release of the superior transverse scapular ligament (in refractory cases) \u2014 decompressing the fixed tunnel relieves the underlying compressive mechanism.",
+        "common_confusions": [
+          "Assuming nerve entrapment syndromes occur randomly along a nerve's course \u2014 they characteristically occur at specific, PREDICTABLE anatomical bottlenecks (fixed tunnels, notches bridged by ligaments) where the nerve has no room to accommodate any additional pressure or swelling."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Suprascapular notch entrapment presentation (this concept, other question)",
+          "Carpal tunnel syndrome (a different nerve, same general fixed-tunnel entrapment mechanism, not covered in depth here)"
+        ],
+        "exam_traps": [
+          "Recognise the GENERAL PRINCIPLE (rigid anatomical tunnel = entrapment vulnerability) as transferable across different specific nerve entrapment syndromes, not unique trivia about this one site alone."
+        ],
+        "image_clues": null,
+        "memory_aid": "A ligament turns an open notch into a closed tunnel \u2014 and closed tunnels are where nerves get pinched.",
+        "other_ways_this_is_tested": [
+          "This mechanism is the anatomical 'why' behind both the suprascapular notch and spinoglenoid notch clinical vignettes covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The suprascapular notch's vulnerability to nerve entrapment stems from the superior transverse scapular ligament converting it into a rigid, fixed-diameter tunnel with no room to accommodate compression \u2014 the same general mechanism underlying other classic entrapment neuropathies.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy; standard orthopaedic references on nerve entrapment mechanisms."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2025
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the general fixed-tunnel mechanism underlying the suprascapular notch's vulnerability to nerve entrapment.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

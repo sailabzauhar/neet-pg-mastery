@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0004",
+    "topic": "Lumbricals - Actions",
+    "chapter_number": 4,
+    "chapter_file": "data/anatomy/ch04_lumbricals_actions.json",
+    "source_years": [
+      2018
+    ],
+    "is_repeated_topic": true,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": true,
+    "mcq_count": 7,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 2,
+      "L3": 2,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "clinical_vignette",
+      "comparison",
+      "mechanism",
+      "image_based"
+    ],
+    "confidence_notes": [
+      "The exact functional balance in ulnar claw hand \u2014 specifically how much residual IP flexion persists in the ring/little fingers from an ulnar-supplied FDP that is itself partly paralysed in a pure ulnar nerve lesion \u2014 is explained with varying emphasis across texts; the core teaching point (lumbrical loss contributes to the deformity via unopposed MCP extension) is consistent even where the finer mechanistic detail varies."
+    ],
+    "scope_note": "A must-do topic with genuine conceptual depth (unique origin, unique combined action, split nerve supply, a well-known mechanical curiosity, and a major clinical correlation) \u2014 scaled to 7 MCQs reflecting that depth despite a single source-PDF occurrence.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set \u2014 no duplicates found. This chapter DOES include a genuine image-based question (0007), correcting the gap noted in Chapter 3's build."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The lumbricals are four small intrinsic muscles of the hand, unique among all skeletal muscles in that they arise from a TENDON (flexor digitorum profundus) rather than from bone, and insert into the extensor expansion rather than directly onto a bone.",
+      "classification": "Intrinsic hand muscles, numbered 1st to 4th from the index to little finger side."
+    },
+    "structure_anatomy": {
+      "origin": "1st and 2nd lumbricals: unipennate, arising from the radial (lateral) side of the tendons of flexor digitorum profundus to the index and middle fingers respectively. 3rd and 4th lumbricals: bipennate, arising from the adjacent sides of the FDP tendons to middle-ring and ring-little fingers respectively.",
+      "insertion": "Into the radial side of the extensor expansion (dorsal digital expansion / extensor hood) of the corresponding finger, passing palmar to the deep transverse metacarpal ligament and the axis of MCP joint movement.",
+      "action": "Flex the metacarpophalangeal (MCP) joints while simultaneously extending the interphalangeal (PIP and DIP) joints \u2014 a unique combined action possible because of where they insert relative to each joint's axis of movement.",
+      "nerve_supply": "1st and 2nd lumbricals: median nerve. 3rd and 4th lumbricals: deep branch of the ulnar nerve. This 2-and-2 split (radial two = median, ulnar two = ulnar) is one of the most consistently tested nerve supply facts in upper limb anatomy."
+    },
+    "clinical": {
+      "claw_hand": "In ulnar nerve palsy, the 3rd and 4th lumbricals (ring and little finger) are paralysed. Without their MCP-flexing, IP-extending action to balance the long flexors and extensors, the ring and little fingers develop hyperextension at the MCP joints (unopposed extensor digitorum) with flexion at the IP joints (unopposed flexor digitorum profundus, which is itself ulnar-supplied for the ring/little fingers and therefore paradoxically often SPARED enough to still flex \u2014 see exam trap below) \u2014 producing the claw hand (main en griffe) deformity, most marked in the ring and little fingers.",
+      "total_claw_hand": "Combined median and ulnar nerve palsy paralyses all four lumbricals, producing clawing of all four fingers \u2014 a more complete deformity than ulnar palsy alone.",
+      "lumbrical_grip": "A clinical test position (holding an object with MCP joints flexed and IP joints extended, as in a 'duck-bill' pen grip) used to isolate and test flexor digitorum profundus function without the confounding effect of superficialis."
+    },
+    "related_structures": "The relationship between lumbricals and interossei is the most frequently tested comparison in this topic \u2014 both flex MCP and extend IP joints, but they differ in origin (tendon vs metacarpal bone), nerve supply, and the interossei's additional abduction/adduction function that lumbricals lack entirely."
+  },
+  "question_family": [
+    {
+      "family_name": "Lumbricals \u2014 Core Structural Anatomy",
+      "member_ids": [
+        "anat_lumbricals_actions_0001",
+        "anat_lumbricals_actions_0002",
+        "anat_lumbricals_actions_0003"
+      ],
+      "coverage": "Unique tendinous origin, the combined MCP-flex/IP-extend action, and the median/ulnar nerve supply split \u2014 the three foundational facts everything else in this topic builds on."
+    },
+    {
+      "family_name": "Lumbricals \u2014 Clinical Correlation (Claw Hand)",
+      "member_ids": [
+        "anat_lumbricals_actions_0004"
+      ],
+      "coverage": "Direct clinical application of the nerve-supply split to explain the distribution of ulnar claw hand."
+    },
+    {
+      "family_name": "Lumbricals \u2014 Comparison and Mechanism",
+      "member_ids": [
+        "anat_lumbricals_actions_0005",
+        "anat_lumbricals_actions_0006"
+      ],
+      "coverage": "Contrast against the interossei (the most common point of confusion) and the unique 'self-unloading' mechanical consequence of the tendinous origin."
+    },
+    {
+      "family_name": "Lumbricals \u2014 Visual Recognition",
+      "member_ids": [
+        "anat_lumbricals_actions_0007"
+      ],
+      "coverage": "Dissection-based identification, tying the origin fact to what it actually looks like in a real specimen."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_lumbricals_actions_0001",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Unique origin",
+      "concept": "Lumbrical origin from tendon, not bone",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The lumbrical muscles of the hand are anatomically unusual because they originate from which structure?",
+      "options": [
+        "Tendons of flexor digitorum profundus",
+        "The metacarpal bones",
+        "The carpal bones of the wrist",
+        "The palmar aponeurosis"
+      ],
+      "correct_answer": "Tendons of flexor digitorum profundus",
+      "distractor_rationale": {
+        "The metacarpal bones": "This is where the interossei (the lumbricals' close functional relatives) arise from \u2014 a common point of confusion between the two muscle groups.",
+        "The carpal bones of the wrist": "No hand intrinsic muscle central to this comparison arises from the carpal bones in this way.",
+        "The palmar aponeurosis": "The palmar aponeurosis is a fascial structure related to palmaris longus, not the origin of the lumbricals."
+      },
+      "explanation": {
+        "core_concept": "The lumbricals are the only muscles in the entire human body that arise from a tendon at one end and insert into a soft-tissue expansion at the other, with no direct bony attachment at all \u2014 this single unusual fact is the reason their action (simultaneously flexing one joint while extending another) is possible and worth understanding, not just memorising.",
+        "why_correct": "All four lumbricals arise from the tendons of flexor digitorum profundus within the palm \u2014 the 1st and 2nd from the radial side of the index and middle finger FDP tendons respectively (unipennate), the 3rd and 4th from adjacent sides of neighbouring FDP tendons (bipennate).",
+        "why_others_wrong": {
+          "The metacarpal bones": "This is specifically the interossei's origin, not the lumbricals' \u2014 a frequently tested point of contrast between these two muscle groups.",
+          "The carpal bones of the wrist": "Not the origin of any of the four lumbricals.",
+          "The palmar aponeurosis": "An unrelated palmar fascial structure, not a lumbrical attachment point."
+        },
+        "high_yield_facts": [
+          "Lumbricals = only muscles arising from a TENDON, not bone.",
+          "Interossei, by contrast, DO arise from bone (metacarpals) \u2014 this origin difference is the fastest way to distinguish the two muscle groups when a question doesn't state the name outright.",
+          "1st/2nd lumbricals: unipennate, from one FDP tendon each. 3rd/4th: bipennate, from two adjacent FDP tendons each."
+        ],
+        "clinical_correlation": "Because the lumbricals' origin moves WITH the flexor tendon rather than staying fixed to bone, contracting a lumbrical actually pulls slack into its own antagonist tendon (FDP) at the same time it acts \u2014 a genuinely unique 'self-relaxing' mechanical property covered in the mechanism question elsewhere in this set.",
+        "common_confusions": [
+          "Mixing up lumbrical (tendon) and interosseous (bone) origins \u2014 since both muscle groups share a very similar combined action (flex MCP, extend IP), origin is often the fastest way to tell a question is really asking about one versus the other."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Interossei origin from metacarpals",
+          "Extensor expansion / dorsal digital expansion",
+          "Flexor digitorum profundus"
+        ],
+        "exam_traps": [
+          "Don't assume 'intrinsic hand muscle' automatically means 'arises from a hand bone' \u2014 the lumbricals are the standard textbook exception to that assumption."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lumbricals live on borrowed ground \u2014 they set up shop on a TENDON instead of buying their own bone.",
+        "other_ways_this_is_tested": [
+          "This origin is the anatomical basis for the mechanism question on the lumbrical 'self-relaxing' property elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Lumbricals arise from FDP tendons, not bone \u2014 the single most distinctive anatomical fact about this muscle group.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard, uncontested hand anatomy \u2014 Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recall that the lumbricals uniquely originate from FDP tendons rather than bone.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_actions_0002",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Combined action",
+      "concept": "MCP flexion with IP extension",
+      "question_type": "conceptual",
+      "difficulty": 2,
+      "question": "What movement do the lumbrical muscles produce at the metacarpophalangeal (MCP) and interphalangeal (IP) joints simultaneously?",
+      "options": [
+        "Flexion at the MCP joints with extension at the IP joints",
+        "Extension at the MCP joints with flexion at the IP joints",
+        "Flexion at both the MCP and IP joints",
+        "Extension at both the MCP and IP joints"
+      ],
+      "correct_answer": "Flexion at the MCP joints with extension at the IP joints",
+      "distractor_rationale": {
+        "Extension at the MCP joints with flexion at the IP joints": "This is the reverse of the true action, and is actually closer to the deformity pattern seen when lumbricals are PARALYSED (as in claw hand), not their normal action.",
+        "Flexion at both the MCP and IP joints": "This describes ordinary finger flexion by the long flexors (FDS/FDP) alone, without the extensor-expansion pull that gives lumbricals their distinctive combined action.",
+        "Extension at both the MCP and IP joints": "Not the lumbrical action at all \u2014 no single muscle group produces pure extension at both joint sets simultaneously in this way."
+      },
+      "explanation": {
+        "core_concept": "The lumbricals' insertion point \u2014 into the extensor expansion, passing on the palmar side of the MCP joint axis but the dorsal side of the IP joint axes \u2014 is what allows a single muscle to flex one joint while extending another, an action no other hand muscle replicates in quite this way.",
+        "why_correct": "Because the lumbrical tendon passes palmar to the MCP joint's axis of movement, its pull flexes the MCP joint; but because it inserts into the extensor expansion dorsal to the IP joints' axes, that same pull extends the PIP and DIP joints \u2014 one contraction, two opposite-looking effects at two different joints.",
+        "why_others_wrong": {
+          "Extension at the MCP joints with flexion at the IP joints": "This is essentially the CLAW HAND pattern seen when lumbricals are lost, not their normal action \u2014 a useful contrast to hold onto rather than a plausible alternative description of what they normally do.",
+          "Flexion at both the MCP and IP joints": "Describes the long flexors' typical combined action, missing the specific IP-extending component that makes lumbrical action distinctive.",
+          "Extension at both the MCP and IP joints": "Doesn't match either the lumbricals' normal action or any recognised clinical deformity pattern relevant to this muscle group."
+        },
+        "high_yield_facts": [
+          "Lumbrical action: MCP flexion + IP extension, simultaneously, from ONE muscle contraction.",
+          "This is the exact position seen when someone holds a pen in a 'lumbrical grip' or makes the classic 'OK, now straighten your fingers while keeping your knuckles bent' test position.",
+          "This combined action is shared with the interossei, which is why the two groups are so often tested together as a pair, not lumbricals in isolation."
+        ],
+        "clinical_correlation": "This action is deliberately tested at the bedside by asking a patient to hold their MCP joints flexed with IP joints extended (as in gripping a pen 'lumbrical-style') \u2014 inability to hold this position, or reliance on trick movements, suggests lumbrical or interosseous weakness.",
+        "common_confusions": [
+          "Confusing normal lumbrical action with the DEFORMITY seen in their absence \u2014 remember that claw hand (MCP extension + IP flexion) is what happens when this muscle's normal action (MCP flexion + IP extension) is LOST, not what the muscle itself produces."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Extensor expansion mechanics",
+          "Claw hand as the deformity from lumbrical loss",
+          "Interossei's shared MCP-flex/IP-extend action"
+        ],
+        "exam_traps": [
+          "A very common trap is picking the claw-hand pattern (MCP extension, IP flexion) when asked for the NORMAL lumbrical action \u2014 always check whether the question is asking what the muscle DOES versus what happens when it's LOST."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lumbricals write with a pen: knuckles bent, fingertips straight.",
+        "other_ways_this_is_tested": [
+          "This normal action is the direct baseline against which the claw hand vignette elsewhere in this set makes sense as a deficit."
+        ],
+        "neet_pg_takeaway": "Lumbricals flex the MCP joints while extending the IP joints \u2014 the opposite pattern from claw hand, which is what you see when this action is lost.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard biomechanics of hand intrinsic muscles \u2014 Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the combined MCP-flexion/IP-extension action of the lumbricals and distinguish it from the claw-hand deformity pattern.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_actions_0003",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Nerve supply split",
+      "concept": "Median vs ulnar innervation of the four lumbricals",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "Which nerve supplies the 1st and 2nd lumbricals, and which supplies the 3rd and 4th?",
+      "options": [
+        "Median nerve supplies 1st and 2nd; ulnar nerve supplies 3rd and 4th",
+        "Ulnar nerve supplies 1st and 2nd; median nerve supplies 3rd and 4th",
+        "Median nerve supplies all four lumbricals",
+        "Ulnar nerve supplies all four lumbricals"
+      ],
+      "correct_answer": "Median nerve supplies 1st and 2nd; ulnar nerve supplies 3rd and 4th",
+      "distractor_rationale": {
+        "Ulnar nerve supplies 1st and 2nd; median nerve supplies 3rd and 4th": "Reverses the true assignment \u2014 this is the single most common way this fact is gotten wrong.",
+        "Median nerve supplies all four lumbricals": "Overstates the median nerve's territory \u2014 it supplies only the radial (1st, 2nd) two.",
+        "Ulnar nerve supplies all four lumbricals": "Overstates the ulnar nerve's territory in the opposite direction \u2014 it supplies only the ulnar (3rd, 4th) two."
+      },
+      "explanation": {
+        "core_concept": "The lumbricals' nerve supply follows the same radial-median/ulnar-ulnar pattern seen elsewhere in the hand's intrinsic muscle innervation, and getting the SIDE right (which two are median, which two are ulnar) is the entire test \u2014 both distractor directions are equally tempting under time pressure.",
+        "why_correct": "The 1st and 2nd lumbricals (to the index and middle fingers, the radial/lateral side of the hand) are supplied by the median nerve; the 3rd and 4th (to the ring and little fingers, the ulnar/medial side) are supplied by the deep branch of the ulnar nerve.",
+        "why_others_wrong": {
+          "Ulnar nerve supplies 1st and 2nd; median nerve supplies 3rd and 4th": "The exact reverse of the correct pairing \u2014 a classic 'flip the answer' distractor.",
+          "Median nerve supplies all four lumbricals": "The median nerve's intrinsic hand muscle territory is limited to the thenar muscles (partly) and the radial two lumbricals only \u2014 it doesn't reach the ulnar two.",
+          "Ulnar nerve supplies all four lumbricals": "The ulnar nerve supplies most other intrinsic hand muscles (interossei, hypothenar, adductor pollicis) but only the ulnar TWO lumbricals, not all four."
+        },
+        "high_yield_facts": [
+          "1st + 2nd lumbricals = median nerve (radial side, index + middle finger).",
+          "3rd + 4th lumbricals = ulnar nerve, deep branch (ulnar side, ring + little finger).",
+          "This is the ONLY place in the hand where the median nerve supplies any of the deep intrinsic muscles typically dominated by the ulnar nerve \u2014 worth remembering as the exception to 'ulnar nerve = all intrinsic hand muscles except thenar and lateral two lumbricals.'"
+        ],
+        "clinical_correlation": "This split explains why isolated ulnar nerve palsy produces a MORE pronounced claw deformity in the ring and little fingers (3rd/4th lumbricals lost) while the index and middle fingers are relatively spared (1st/2nd lumbricals, median-supplied, still functioning) \u2014 directly relevant to the claw hand vignette elsewhere in this set.",
+        "common_confusions": [
+          "Trying to apply a single blanket rule ('ulnar nerve does all intrinsic hand muscles') without remembering the lumbricals are the specific, most commonly tested exception where median nerve territory extends deeper than expected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Claw hand pattern (ulnar vs combined palsy)",
+          "Median nerve territory in the hand",
+          "Ulnar nerve deep branch territory"
+        ],
+        "exam_traps": [
+          "When asked 'which nerve is affected if the 1st lumbrical is paralysed,' don't default to ulnar nerve just because it supplies most other intrinsic hand muscles \u2014 the 1st and 2nd lumbricals are median-supplied specifically."
+        ],
+        "image_clues": null,
+        "memory_aid": "'Media-2, Ulnar-2' \u2014 index and middle stick with the median nerve (lateral/radial side); ring and little go ulnar (medial side).",
+        "other_ways_this_is_tested": [
+          "This nerve-supply split directly explains why ulnar claw hand is worse in the ring/little fingers than the index/middle \u2014 tested as a clinical vignette elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "1st/2nd lumbricals = median nerve; 3rd/4th lumbricals = ulnar nerve \u2014 the hand's one deep-muscle exception to 'ulnar nerve does everything except thenar and lateral two lumbricals.'",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard, uncontested peripheral nerve anatomy \u2014 Moore's Clinically Oriented Anatomy; Snell's Clinical Anatomy."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Correctly assign median vs ulnar nerve supply to the four lumbricals by their radial/ulnar position.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_actions_0004",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Claw hand mechanism",
+      "concept": "Ulnar claw hand and lumbrical loss",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient with a laceration at the wrist involving the ulnar nerve develops hyperextension at the MCP joints and flexion at the IP joints of the ring and little fingers, with the index and middle fingers relatively spared. Which mechanism best explains why the deformity is most marked in the ring and little fingers specifically?",
+      "options": [
+        "The 3rd and 4th lumbricals, which normally flex the MCP and extend the IP joints of the ring and little fingers, are ulnar-supplied and therefore paralysed, leaving those actions unopposed by the still-functioning extensor and flexor tendons",
+        "The 1st and 2nd lumbricals are paralysed, directly causing the ring and little finger deformity",
+        "The ulnar nerve directly supplies the extensor digitorum tendons to the ring and little fingers, and its injury causes uncontrolled extensor overactivity",
+        "The deformity is caused by loss of the palmar interossei alone, unrelated to lumbrical function"
+      ],
+      "correct_answer": "The 3rd and 4th lumbricals, which normally flex the MCP and extend the IP joints of the ring and little fingers, are ulnar-supplied and therefore paralysed, leaving those actions unopposed by the still-functioning extensor and flexor tendons",
+      "distractor_rationale": {
+        "The 1st and 2nd lumbricals are paralysed, directly causing the ring and little finger deformity": "The 1st and 2nd lumbricals supply the INDEX and MIDDLE fingers, not the ring and little \u2014 and they're median-supplied, so an ulnar nerve injury wouldn't paralyse them at all, consistent with those fingers being spared in this vignette.",
+        "The ulnar nerve directly supplies the extensor digitorum tendons to the ring and little fingers, and its injury causes uncontrolled extensor overactivity": "Extensor digitorum is supplied by the radial nerve (posterior interosseous branch), not the ulnar nerve \u2014 this option misattributes both the muscle's innervation and the mechanism (it's UNOPPOSED action from lumbrical loss, not increased extensor activity, that drives the deformity).",
+        "The deformity is caused by loss of the palmar interossei alone, unrelated to lumbrical function": "The interossei do contribute a similar action and are also ulnar-supplied, compounding the deformity, but the question specifically asks about the mechanism explaining why RING AND LITTLE FINGERS specifically are affected \u2014 and dismissing lumbrical involvement entirely is inaccurate, since both muscle groups are lost together in an ulnar lesion and both matter."
+      },
+      "explanation": {
+        "core_concept": "Claw hand is a textbook example of a deformity caused not by an overactive muscle, but by the LOSS of a muscle's normal balancing action, allowing its unopposed antagonists to pull the joints into an abnormal position \u2014 understanding this 'unopposed action' logic, rather than memorising the deformity shape alone, is what lets you predict which fingers are affected in any given nerve lesion.",
+        "why_correct": "The 3rd and 4th lumbricals (ring and little finger) are supplied by the ulnar nerve and are paralysed by this injury. Their normal job \u2014 flexing the MCP joint and extending the IP joints \u2014 is lost, so the still-functioning extensor digitorum (radial nerve) pulls the MCP joints into hyperextension unopposed, while the still-functioning flexor digitorum profundus (largely ulnar-supplied for the ring/little fingers, but its tendon action at the IP joints is no longer balanced by lumbrical IP-extension) allows the IP joints to flex \u2014 the combination produces the claw posture, and it's specifically the RING and LITTLE fingers because those are the fingers whose lumbricals (3rd, 4th) are ulnar-supplied and therefore lost, while the median-supplied 1st/2nd lumbricals to the index/middle fingers remain intact.",
+        "why_others_wrong": {
+          "The 1st and 2nd lumbricals are paralysed, directly causing the ring and little finger deformity": "Wrong fingers and wrong nerve \u2014 the 1st/2nd lumbricals belong to the index/middle fingers and are median-supplied, unaffected by an ulnar nerve injury.",
+          "The ulnar nerve directly supplies the extensor digitorum tendons to the ring and little fingers, and its injury causes uncontrolled extensor overactivity": "Misattributes extensor digitorum's nerve supply (radial, not ulnar) and misstates the mechanism \u2014 the deformity comes from lumbrical LOSS unmasking normal extensor action, not from any new extensor overactivity.",
+          "The deformity is caused by loss of the palmar interossei alone, unrelated to lumbrical function": "Understates the lumbricals' genuine contribution \u2014 while interossei loss compounds the deformity, the question is specifically testing the lumbrical mechanism, which is real and directly relevant, not something to dismiss."
+        },
+        "high_yield_facts": [
+          "Ulnar claw hand: most marked in ring and little fingers, because the 3rd/4th lumbricals (their MCP-flexors/IP-extensors) are ulnar-supplied and lost.",
+          "Index and middle fingers are relatively spared because their lumbricals (1st, 2nd) are median-supplied and remain functional.",
+          "Combined median + ulnar nerve injury paralyses all four lumbricals, producing a more complete 'total claw hand' affecting all four fingers."
+        ],
+        "clinical_correlation": "This exact pattern (claw worse in ulnar-innervated fingers, sparing the median-innervated ones) is a key bedside way to distinguish a pure ulnar nerve lesion from a more proximal or combined nerve injury \u2014 the DISTRIBUTION of the claw, not just its presence, carries diagnostic information.",
+        "common_confusions": [
+          "Assuming claw hand always affects all four fingers equally \u2014 the distribution specifically tracks which lumbricals (and by extension which nerve) has been lost, and a pure ulnar lesion spares the index/middle fingers relatively."
+        ],
+        "exceptions": [
+          "A 'high' ulnar nerve lesion (at or above the elbow) can paradoxically produce a LESS obvious claw than a 'low' lesion (at the wrist), because a high lesion also affects flexor digitorum profundus to the ring/little fingers, reducing the unopposed IP flexion component \u2014 this is the classic 'ulnar paradox,' worth knowing exists even if not the focus of this particular question."
+        ],
+        "related_concepts": [
+          "Median nerve lesion effects on 1st/2nd lumbricals",
+          "Total claw hand (combined median + ulnar palsy)",
+          "The 'ulnar paradox' of high vs low lesions"
+        ],
+        "exam_traps": [
+          "Don't describe claw hand as simply 'extensor overactivity' \u2014 the mechanism tested here is specifically UNOPPOSED action from lumbrical loss, and examiners frequently offer 'overactive extensor' as a plausible-sounding but mechanistically wrong distractor."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This mechanism directly builds on the nerve-supply-split fact and the normal-action fact established earlier in this set \u2014 read together, all three questions build one coherent clinical picture."
+        ],
+        "neet_pg_takeaway": "Ulnar claw hand is worst in the ring/little fingers specifically because their lumbricals (3rd/4th) are ulnar-supplied and lost, unmasking unopposed extensor and flexor tendon action \u2014 the index/middle fingers are spared because their lumbricals are median-supplied.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Classic clinical anatomy correlation, consistent across Moore's Clinically Oriented Anatomy and standard orthopaedic/hand surgery texts on ulnar nerve palsy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why ulnar claw hand selectively affects the ring and little fingers via the lumbricals' nerve-supply split.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_actions_0005",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Comparison with interossei",
+      "concept": "Lumbricals vs interossei",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Both lumbricals and interossei flex the MCP joints while extending the IP joints. Which of the following correctly identifies a genuine difference between the two muscle groups?",
+      "options": [
+        "Interossei additionally abduct and adduct the fingers, an action the lumbricals do not perform, and interossei arise from the metacarpal bones rather than from tendons",
+        "Lumbricals abduct and adduct the fingers, while interossei have no such action",
+        "Both muscle groups are entirely supplied by the median nerve",
+        "Interossei arise from FDP tendons, exactly like the lumbricals"
+      ],
+      "correct_answer": "Interossei additionally abduct and adduct the fingers, an action the lumbricals do not perform, and interossei arise from the metacarpal bones rather than from tendons",
+      "distractor_rationale": {
+        "Lumbricals abduct and adduct the fingers, while interossei have no such action": "Reverses the true assignment \u2014 finger abduction/adduction (via the palmar and dorsal interossei, remembered as 'PAD and DAB') belongs to the interossei, not the lumbricals, which have no ab/adduction function at all.",
+        "Both muscle groups are entirely supplied by the median nerve": "Incorrect for both groups \u2014 interossei are entirely ulnar-supplied, and lumbricals are split between median (1st/2nd) and ulnar (3rd/4th), not uniformly median.",
+        "Interossei arise from FDP tendons, exactly like the lumbricals": "Incorrect \u2014 this is specifically the lumbricals' unique origin; interossei arise from the metacarpal bones instead."
+      },
+      "explanation": {
+        "core_concept": "Lumbricals and interossei are the hand's two 'MCP-flex, IP-extend' muscle groups, and examiners rely on exactly three differences to separate them: origin (tendon vs bone), additional action (none vs abduction/adduction), and full nerve supply pattern (split median/ulnar vs entirely ulnar).",
+        "why_correct": "The interossei \u2014 both palmar (adduct: 'PAD') and dorsal (abduct: 'DAB') \u2014 provide finger abduction and adduction at the MCP joints, an action the lumbricals cannot perform at all since they insert only into the extensor expansion without the bony leverage interossei have via their metacarpal origin. Interossei arise from the metacarpal bones themselves, unlike the lumbricals' unique tendinous origin from FDP.",
+        "why_others_wrong": {
+          "Lumbricals abduct and adduct the fingers, while interossei have no such action": "The exact reverse of the true assignment \u2014 a classic swap-the-groups distractor.",
+          "Both muscle groups are entirely supplied by the median nerve": "Wrong for both \u2014 interossei are entirely ulnar nerve territory, and lumbricals split 2-and-2 between median and ulnar, never 'entirely median.'",
+          "Interossei arise from FDP tendons, exactly like the lumbricals": "Assigns the lumbricals' distinctive tendinous origin to the interossei incorrectly \u2014 interossei have a conventional bony (metacarpal) origin."
+        },
+        "high_yield_facts": [
+          "Shared action: both flex MCP + extend IP joints.",
+          "Interossei-only action: abduction/adduction of the fingers ('PAD' = Palmar ADduct, 'DAB' = Dorsal ABduct).",
+          "Origin: lumbricals from FDP tendons (unique); interossei from metacarpal bones (conventional).",
+          "Nerve supply: interossei entirely ulnar; lumbricals split \u2014 1st/2nd median, 3rd/4th ulnar."
+        ],
+        "clinical_correlation": "Testing finger abduction/adduction (e.g. asking a patient to spread their fingers apart against resistance) specifically isolates interosseous function, since lumbricals contribute nothing to this movement \u2014 a useful bedside way to test interossei somewhat independently of lumbrical function.",
+        "common_confusions": [
+          "Assuming that because lumbricals and interossei share the MCP-flex/IP-extend action, they're functionally interchangeable \u2014 the additional ab/adduction action is exclusive to interossei and is the fastest way to test whether a question is really asking about one group versus the other."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "PAD and DAB mnemonic for interossei action",
+          "Froment's sign (adductor pollicis, ulnar nerve testing)",
+          "Claw hand (combined lumbrical + interosseous loss in ulnar palsy)"
+        ],
+        "exam_traps": [
+          "When a question describes finger SPREADING or SQUEEZING TOGETHER, it's testing interossei specifically \u2014 don't attribute this action to lumbricals even though both groups share the MCP/IP action."
+        ],
+        "image_clues": null,
+        "memory_aid": "Interossei do more (PAD/DAB abduction-adduction on top of the shared action) and come from more conventional stock (bone, not tendon) \u2014 'more action, more ordinary origin.'",
+        "other_ways_this_is_tested": [
+          "This comparison sets up Froment's sign and other ulnar-nerve-testing questions that rely on isolating interosseous (not lumbrical) function specifically."
+        ],
+        "neet_pg_takeaway": "Lumbricals and interossei share MCP-flex/IP-extend action, but only interossei abduct/adduct fingers and arise from metacarpal bone \u2014 the lumbricals' tendinous origin and lack of ab/adduction are what set them apart.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard hand intrinsic muscle comparison \u2014 Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish lumbricals from interossei by origin, additional action, and nerve supply pattern.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_actions_0006",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Unique mechanical property",
+      "concept": "The lumbrical 'unloading' phenomenon",
+      "question_type": "mechanism",
+      "difficulty": 4,
+      "question": "Because the lumbricals originate from the flexor digitorum profundus tendon itself rather than from a fixed bony point, what happens to FDP tension when a lumbrical contracts?",
+      "options": [
+        "The lumbrical's origin is pulled distally along with its own contraction, which slackens tension in the FDP tendon proximal to that point \u2014 a self-relaxing effect unique to this muscle group",
+        "FDP tension increases proportionally every time a lumbrical contracts, reinforcing the flexor pull",
+        "Lumbrical contraction has no mechanical effect on FDP tendon tension at all",
+        "The lumbrical origin becomes fixed and immobile the moment the muscle contracts, behaving exactly like a bony-origin muscle"
+      ],
+      "correct_answer": "The lumbrical's origin is pulled distally along with its own contraction, which slackens tension in the FDP tendon proximal to that point \u2014 a self-relaxing effect unique to this muscle group",
+      "distractor_rationale": {
+        "FDP tension increases proportionally every time a lumbrical contracts, reinforcing the flexor pull": "The opposite of the true relationship \u2014 lumbrical contraction slackens, not reinforces, its own origin tendon's proximal tension.",
+        "Lumbrical contraction has no mechanical effect on FDP tendon tension at all": "Understates a genuinely unique and well-described mechanical property \u2014 because the lumbrical's origin is mobile (attached to a moving tendon rather than fixed bone), its contraction necessarily changes the tension distribution along that tendon.",
+        "The lumbrical origin becomes fixed and immobile the moment the muscle contracts, behaving exactly like a bony-origin muscle": "Contradicts the entire premise of the lumbricals' unique tendinous origin \u2014 the origin remains mobile precisely because it's attached to tendon, not bone, regardless of whether the lumbrical itself is contracting."
+      },
+      "explanation": {
+        "core_concept": "Because a lumbrical's origin is a moving tendon rather than a fixed bone, contracting the lumbrical necessarily drags that origin point distally, which mechanically slackens the FDP tendon proximal to it \u2014 an elegant, genuinely unique consequence of the lumbricals' tendinous origin that has no equivalent in any other muscle in the body.",
+        "why_correct": "As the lumbrical contracts and shortens, its origin (on the FDP tendon) is pulled distally along with the muscle's action. Since that origin point moving distally effectively 'pays out' some of the FDP tendon's length on the proximal side, the tension in FDP proximal to the lumbrical's origin decreases \u2014 meaning lumbrical contraction actively assists in relaxing its own antagonist (FDP) at the very moment it's acting, a mechanical property sometimes described as the lumbricals 'unloading' their own flexor tendon.",
+        "why_others_wrong": {
+          "FDP tension increases proportionally every time a lumbrical contracts, reinforcing the flexor pull": "Gets the direction of the mechanical effect backwards \u2014 lumbrical contraction reduces, not increases, proximal FDP tension.",
+          "Lumbrical contraction has no mechanical effect on FDP tendon tension at all": "Denies a real and specifically well-known mechanical consequence of the lumbricals' unusual tendinous origin.",
+          "The lumbrical origin becomes fixed and immobile the moment the muscle contracts, behaving exactly like a bony-origin muscle": "Contradicts the premise that makes the lumbricals unique in the first place \u2014 their origin stays mobile precisely because it's tendon-based, not bone-based, and that mobility is what produces the tension-slackening effect."
+        },
+        "high_yield_facts": [
+          "Lumbrical contraction slackens tension in its own FDP origin tendon \u2014 a unique 'self-relaxing' property tied directly to its tendinous origin.",
+          "This is sometimes cited as helping smooth, coordinated finger movement \u2014 reducing FDP resistance at exactly the moment the lumbrical is producing IP extension, so the two don't fight each other mechanically.",
+          "No other skeletal muscle in the body has an origin that moves in response to its own contraction in quite this self-referential way."
+        ],
+        "clinical_correlation": "This mechanical property is mostly of physiological/biomechanical interest rather than a frequently tested bedside sign, but it's a well-known 'unique fact' style question precisely because it follows logically from the tendinous origin covered earlier in this set \u2014 testing whether that origin fact has been understood mechanically, not just memorised as a label.",
+        "common_confusions": [
+          "Treating the tendinous origin as a purely descriptive anatomical curiosity without working through its actual mechanical CONSEQUENCE \u2014 the 'why does this matter' step is exactly what this question is testing."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Lumbrical tendinous origin (the anatomical basis for this mechanism)",
+          "Coordinated finger flexion-extension biomechanics"
+        ],
+        "exam_traps": [
+          "This is a genuinely advanced/nuanced mechanism question \u2014 don't expect it to be common, but when it does appear, work through the logic (moving origin -> slackened proximal tendon) rather than trying to recall it as an isolated, disconnected fact."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This mechanism question directly builds on and rewards understanding of the origin fact established as the very first question in this set."
+        ],
+        "neet_pg_takeaway": "Because the lumbrical's origin is mobile (on a tendon, not bone), its own contraction slackens tension in FDP proximal to that point \u2014 a unique, mechanically elegant consequence of the tendinous origin covered earlier in this chapter.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Described in hand biomechanics literature and referenced in some anatomy texts as the lumbricals' 'unloading' or 'self-relaxing' property (e.g. discussed in hand surgery/biomechanics reviews); treat as a well-supported mechanical explanation rather than universally emphasized core teaching in every anatomy textbook."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain the mechanical consequence of the lumbricals' mobile tendinous origin on FDP tendon tension during contraction.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_lumbricals_actions_0007",
+      "subject": "Anatomy",
+      "topic": "Lumbricals - Actions",
+      "subtopic": "Image-based identification",
+      "concept": "Identifying lumbricals in a palm dissection",
+      "question_type": "image_based",
+      "difficulty": 2,
+      "question": "[Image: palmar dissection of the hand showing four small worm-like muscles arising from the flexor digitorum profundus tendons in the palm, each passing to the radial side of its corresponding finger to insert into the extensor expansion.] What are the muscles indicated in this dissection?",
+      "options": [
+        "Lumbricals",
+        "Palmar interossei",
+        "Dorsal interossei",
+        "Flexor digiti minimi brevis"
+      ],
+      "correct_answer": "Lumbricals",
+      "distractor_rationale": {
+        "Palmar interossei": "Arise from the metacarpal bones (not FDP tendons) and lie between the metacarpals, a different location and origin from what's shown.",
+        "Dorsal interossei": "Also arise from adjacent metacarpal bones, located dorsally between the metacarpals, not as slender muscles running from flexor tendons.",
+        "Flexor digiti minimi brevis": "A single small hypothenar muscle acting only on the little finger, not a set of four muscles distributed across all fingers arising from flexor tendons."
+      },
+      "explanation": {
+        "core_concept": "The lumbricals have an unmistakable dissection appearance once you know what to look for: four small, worm-like ('lumbrical' literally means worm-like) muscles arising directly from the FDP tendons in the palm \u2014 no other hand muscle group has this specific origin or appearance.",
+        "why_correct": "The description \u2014 four small muscles arising from FDP tendons, each passing to the radial side of its finger to insert into the extensor expansion \u2014 is the defining dissection appearance of the lumbricals, and matches no other muscle group in the hand.",
+        "why_others_wrong": {
+          "Palmar interossei": "Arise from metacarpal shafts, not tendons, and are located between the metacarpal bones rather than running alongside FDP tendons in the way described.",
+          "Dorsal interossei": "Similarly arise from metacarpal bones (from adjacent sides of two metacarpals each), a different origin and location from the tendon-arising muscles shown.",
+          "Flexor digiti minimi brevis": "A single muscle of the hypothenar eminence acting only on the little finger \u2014 doesn't match a set of four muscles distributed to multiple fingers."
+        },
+        "high_yield_facts": [
+          "Lumbricals: 4 small, worm-shaped muscles, arising from FDP tendons in the palm \u2014 visually and anatomically distinctive.",
+          "'Lumbrical' comes from Latin 'lumbricus' (earthworm) \u2014 a direct description of their appearance in dissection.",
+          "Their radial-side insertion into the extensor expansion of each finger is the other key identifying feature on dissection."
+        ],
+        "clinical_correlation": "Surgeons identifying the lumbricals intraoperatively (e.g. during flexor tendon repair or Dupuytren's contracture surgery) rely on exactly this dissection appearance \u2014 small, tendon-arising, worm-like muscles \u2014 to avoid inadvertent injury during palmar surgery.",
+        "common_confusions": [
+          "Confusing lumbricals with interossei on dissection simply because both are small intrinsic hand muscles with similar actions \u2014 origin (tendon vs bone) is the fastest way to tell them apart visually, not just conceptually."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Interossei dissection appearance (for contrast)",
+          "Extensor expansion",
+          "Flexor tendon sheath anatomy"
+        ],
+        "exam_traps": [
+          "Don't identify hand intrinsic muscles by action alone in an image-based question \u2014 use the visible ORIGIN point (tendon vs bone) as the definitive visual clue, since action can look similar across different muscle groups in a static image."
+        ],
+        "image_clues": "Key visual clue: small, slender muscles arising directly FROM a tendon (not from bone), passing distally to the radial side of each finger.",
+        "memory_aid": "'Lumbricus' = earthworm in Latin \u2014 literally named for their dissection appearance.",
+        "other_ways_this_is_tested": [
+          "This visual identification pairs with the comparison question against interossei elsewhere in this set, adding a dissection-recognition layer to the conceptual distinction."
+        ],
+        "neet_pg_takeaway": "Lumbricals are visually distinctive on dissection: four small, worm-like muscles arising from FDP tendons \u2014 origin from tendon (not bone) is the definitive identifying feature.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard dissection-based anatomy teaching \u2014 Moore's Clinically Oriented Anatomy, hand dissection images."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2018
+      ],
+      "is_repeated_topic": true,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate palmar dissection image or schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify the lumbricals on a palmar dissection image by their characteristic tendinous origin and worm-like appearance.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

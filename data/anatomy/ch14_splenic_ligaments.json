@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0014",
+    "topic": "Splenic Ligaments",
+    "chapter_number": 14,
+    "chapter_file": "data/anatomy/ch14_splenic_ligaments.json",
+    "source_years": [
+      2021
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": true,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 1,
+      "L2": 0,
+      "L3": 3,
+      "L4": 0,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "clinical_vignette",
+      "comparison"
+    ],
+    "confidence_notes": [],
+    "scope_note": "A must-do topic with a compact but genuinely high-yield core (two ligaments, their contents, and one major named surgical complication) \u2014 scaled to 4 MCQs covering structure, contents, clinical application, and embryological context without padding.",
+    "note": "Representative, high-quality MCQ family for this topic, not necessarily exhaustive. Dedup pass completed against this file's own question set and cross-checked against the Ventral Mesentery Derivatives chapter (ch07), which covers the comparison/contrast dorsal-vs-ventral mesentery point from the opposite (ventral) side \u2014 no duplicate concepts found; the two chapters are complementary."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The spleen is suspended by two peritoneal ligaments \u2014 the gastrosplenic ligament and the splenorenal (lienorenal) ligament \u2014 both derivatives of the dorsal mesentery (dorsal mesogastrium), formed as the stomach rotates during development and the spleen develops within the dorsal mesogastrium itself.",
+      "classification": "Both ligaments together form the boundary between the greater and lesser peritoneal sacs at the level of the spleen, and both carry major vascular structures within their two peritoneal layers \u2014 this vascular content is the single most clinically important fact about each ligament."
+    },
+    "structure_anatomy": {
+      "gastrosplenic_ligament": "Connects the greater curvature of the stomach to the hilum of the spleen. Carries the short gastric vessels and the left gastro-omental (gastroepiploic) vessels within its two peritoneal layers. Forms part of the anterior boundary of the lesser sac at this level.",
+      "splenorenal_ligament": "Connects the hilum of the spleen to the anterior surface of the left kidney (specifically, the anterior pararenal region). Carries the splenic vessels (splenic artery and vein) and the tail of the pancreas within its two peritoneal layers \u2014 a genuinely important surgical fact, since the pancreatic tail's proximity here means it can be injured during splenectomy if this ligament isn't handled carefully.",
+      "shared_origin": "Both ligaments are dorsal mesentery derivatives \u2014 specifically, both arise from the dorsal mesogastrium, the same mesentery that also gives rise to the greater omentum, reflecting the spleen's own developmental origin within this same mesentery."
+    },
+    "clinical": {
+      "splenectomy_risk": "During splenectomy, the splenorenal ligament must be divided to mobilise the spleen \u2014 because the tail of the pancreas lies within (or immediately adjacent to, depending on individual anatomy) this ligament, it is at recognised risk of injury during this step, potentially causing pancreatic fistula or post-splenectomy pancreatitis if not carefully avoided.",
+      "splenic_trauma": "Because the short gastric and splenic vessels run within these ligaments right up to the spleen's hilum, blunt abdominal trauma causing splenic capsule/ligament tearing can result in significant, sometimes delayed (in the case of subcapsular haematoma), haemorrhage \u2014 understanding the ligamentous vascular anatomy is directly relevant to why splenic trauma is managed with such caution.",
+      "wandering_spleen": "Congenital laxity or absence of the normal splenic ligaments (including the splenorenal and gastrosplenic ligaments) can result in a hypermobile 'wandering spleen,' at risk of torsion on its vascular pedicle \u2014 a rare but recognised clinical entity directly explained by failure of normal ligamentous fixation."
+    },
+    "related_structures": "The gastrosplenic and splenorenal ligaments together form the lateral boundary of the lesser sac at the level of the spleen, and are frequently tested as a PAIR \u2014 knowing which vessels/organs run in EACH one specifically (short gastric/left gastro-omental vessels in the gastrosplenic; splenic vessels/pancreatic tail in the splenorenal) is the single most tested discriminating fact in this topic."
+  },
+  "question_family": [
+    {
+      "family_name": "Splenic Ligaments \u2014 Structure and Contents",
+      "member_ids": [
+        "anat_splenic_ligaments_0001",
+        "anat_splenic_ligaments_0002"
+      ],
+      "coverage": "Which structures each ligament connects, and the specific vessels/organs each one carries \u2014 the foundation for the surgical clinical correlation."
+    },
+    {
+      "family_name": "Splenic Ligaments \u2014 Clinical and Embryological Context",
+      "member_ids": [
+        "anat_splenic_ligaments_0003",
+        "anat_splenic_ligaments_0004"
+      ],
+      "coverage": "Pancreatic tail injury during splenectomy (the major clinical application), and the shared dorsal mesentery origin connecting this topic to the broader mesentery/omentum embryology system."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_splenic_ligaments_0001",
+      "subject": "Anatomy",
+      "topic": "Splenic Ligaments",
+      "subtopic": "The two ligaments and their connections",
+      "concept": "Gastrosplenic vs splenorenal ligament attachments",
+      "question_type": "direct_recall",
+      "difficulty": 1,
+      "question": "The spleen is suspended by two peritoneal ligaments. Which structures does each connect?",
+      "options": [
+        "Gastrosplenic ligament: stomach to spleen. Splenorenal ligament: spleen to kidney",
+        "Gastrosplenic ligament: spleen to kidney. Splenorenal ligament: stomach to spleen",
+        "Both ligaments connect the spleen to the diaphragm",
+        "Both ligaments connect the spleen to the pancreas only"
+      ],
+      "correct_answer": "Gastrosplenic ligament: stomach to spleen. Splenorenal ligament: spleen to kidney",
+      "distractor_rationale": {
+        "Gastrosplenic ligament: spleen to kidney. Splenorenal ligament: stomach to spleen": "Reverses the correct pairing \u2014 this is the single most common way this fact is gotten wrong, since the two ligament names could plausibly be swapped without extra care.",
+        "Both ligaments connect the spleen to the diaphragm": "Neither ligament connects to the diaphragm \u2014 a splenophrenic connection isn't part of the standard two-ligament description of splenic suspension.",
+        "Both ligaments connect the spleen to the pancreas only": "The pancreas is a structure that runs WITHIN the splenorenal ligament (its tail), not a direct attachment point that the ligament connects the spleen to \u2014 and the gastrosplenic ligament has no pancreatic connection at all."
+      },
+      "explanation": {
+        "core_concept": "The two ligament NAMES themselves tell you exactly what each connects, once you read them literally \u2014 'gastro-splenic' = stomach to spleen, 'spleno-renal' = spleen to kidney \u2014 making this one of the more self-explanatory nerve/vessel-naming conventions in anatomy, as long as you don't accidentally swap them under pressure.",
+        "why_correct": "The gastrosplenic ligament runs from the greater curvature of the stomach to the splenic hilum. The splenorenal (lienorenal) ligament runs from the splenic hilum to the anterior surface of the left kidney \u2014 each name directly describes its two attachment points.",
+        "why_others_wrong": {
+          "Gastrosplenic ligament: spleen to kidney. Splenorenal ligament: stomach to spleen": "Swaps the two ligaments' connections \u2014 read each name literally to avoid this error.",
+          "Both ligaments connect the spleen to the diaphragm": "No standard splenic ligament connects directly to the diaphragm in this two-ligament description.",
+          "Both ligaments connect the spleen to the pancreas only": "The pancreatic tail runs WITHIN the splenorenal ligament as contained structure, not as the ligament's actual attachment point \u2014 and the gastrosplenic ligament has no pancreatic relationship at all."
+        },
+        "high_yield_facts": [
+          "Gastrosplenic ligament = stomach (greater curvature) to spleen (hilum).",
+          "Splenorenal ligament = spleen (hilum) to kidney (left, anterior surface).",
+          "Reading each ligament's name literally, left-to-right, gives you its two attachment points directly \u2014 a rare case where anatomical naming is maximally transparent."
+        ],
+        "clinical_correlation": "Knowing exactly which ligament connects to which structure is directly relevant to surgical splenic mobilisation during splenectomy \u2014 the surgeon divides each ligament in turn, and knowing what's attached (and what runs within) each one prevents inadvertent injury to adjacent structures.",
+        "common_confusions": [
+          "Swapping which ligament goes with which pair of organs \u2014 despite the names being logically transparent, exam pressure can still cause this specific reversal error."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Vessels within the gastrosplenic ligament (short gastric, left gastro-omental)",
+          "Vessels/organs within the splenorenal ligament (splenic vessels, pancreatic tail)",
+          "Lesser sac boundaries at the level of the spleen"
+        ],
+        "exam_traps": [
+          "When four options simply swap two correct facts between each other, slow down and verify each pairing individually rather than pattern-matching to 'this sounds about right.'"
+        ],
+        "image_clues": null,
+        "memory_aid": "Read the names literally, left to right: GASTRO-splenic = stomach side; SPLENO-RENAL = kidney side.",
+        "other_ways_this_is_tested": [
+          "This attachment-point fact is the foundation for the vessel/organ-content questions elsewhere in this set, which test what runs WITHIN each ligament rather than just what it connects."
+        ],
+        "neet_pg_takeaway": "Gastrosplenic ligament connects stomach to spleen; splenorenal ligament connects spleen to kidney \u2014 read each name literally to keep the pairing straight.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard peritoneal anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the two attachment points of the gastrosplenic and splenorenal ligaments respectively.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_splenic_ligaments_0002",
+      "subject": "Anatomy",
+      "topic": "Splenic Ligaments",
+      "subtopic": "Contents of each ligament",
+      "concept": "Vessels and organs carried within each ligament",
+      "question_type": "conceptual",
+      "difficulty": 3,
+      "question": "Which statement correctly describes the vascular/organ contents carried within the two splenic ligaments?",
+      "options": [
+        "Gastrosplenic ligament carries the short gastric and left gastro-omental vessels; splenorenal ligament carries the splenic vessels and the tail of the pancreas",
+        "Both ligaments carry identical contents \u2014 the splenic artery, splenic vein, and pancreatic tail",
+        "Gastrosplenic ligament carries the splenic vessels and pancreatic tail; splenorenal ligament carries the short gastric vessels",
+        "Neither ligament carries any vascular structures \u2014 all splenic vessels run outside the peritoneal ligaments entirely"
+      ],
+      "correct_answer": "Gastrosplenic ligament carries the short gastric and left gastro-omental vessels; splenorenal ligament carries the splenic vessels and the tail of the pancreas",
+      "distractor_rationale": {
+        "Both ligaments carry identical contents \u2014 the splenic artery, splenic vein, and pancreatic tail": "Incorrect \u2014 the main splenic vessels and pancreatic tail are specifically splenorenal ligament contents; the gastrosplenic ligament carries a different, smaller set of vessels (short gastric, left gastro-omental) instead.",
+        "Gastrosplenic ligament carries the splenic vessels and pancreatic tail; splenorenal ligament carries the short gastric vessels": "Swaps the two ligaments' contents \u2014 the single most common way this fact is gotten wrong.",
+        "Neither ligament carries any vascular structures \u2014 all splenic vessels run outside the peritoneal ligaments entirely": "Incorrect \u2014 carrying vessels between two peritoneal layers is precisely what makes these structures functionally important, not just simple suspensory bands."
+      },
+      "explanation": {
+        "core_concept": "Correctly assigning contents to each ligament (not just attachment points) is what actually matters surgically \u2014 the splenorenal ligament's pancreatic tail content specifically is the fact most directly tied to a real, named surgical complication, making this distinction worth more than rote memorisation.",
+        "why_correct": "The gastrosplenic ligament carries the short gastric vessels (multiple small branches supplying the fundus) and the left gastro-omental (gastroepiploic) vessels, running between the stomach and spleen. The splenorenal ligament carries the main splenic artery and vein (running to/from the splenic hilum) AND the tail of the pancreas, which extends into this ligament as it approaches the splenic hilum.",
+        "why_others_wrong": {
+          "Both ligaments carry identical contents \u2014 the splenic artery, splenic vein, and pancreatic tail": "The gastrosplenic ligament does NOT carry the main splenic vessels or pancreatic tail \u2014 those are specifically splenorenal ligament contents.",
+          "Gastrosplenic ligament carries the splenic vessels and pancreatic tail; splenorenal ligament carries the short gastric vessels": "The exact reverse of the correct assignment.",
+          "Neither ligament carries any vascular structures \u2014 all splenic vessels run outside the peritoneal ligaments entirely": "Contradicts the well-established fact that these ligaments serve as conduits for major vessels, not just simple suspensory attachments."
+        },
+        "high_yield_facts": [
+          "Gastrosplenic ligament contents: short gastric vessels + left gastro-omental vessels.",
+          "Splenorenal ligament contents: splenic artery + splenic vein + TAIL OF PANCREAS.",
+          "The pancreatic tail's presence in the splenorenal ligament specifically is the single fact with the most direct surgical relevance in this entire topic."
+        ],
+        "clinical_correlation": "During splenectomy, dividing the splenorenal ligament requires particular care because of the closely related (sometimes directly contained within the ligament) pancreatic tail \u2014 inadvertent injury here can cause pancreatic fistula or post-operative pancreatitis, a genuinely important, named surgical complication directly traceable to this specific anatomical fact.",
+        "common_confusions": [
+          "Assuming both ligaments carry similar or identical vascular content simply because both are 'splenic ligaments' \u2014 the content is actually quite different between the two, and this difference is exactly what's tested."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Splenectomy technique and pancreatic tail injury risk",
+          "Short gastric vessels (relevant to gastric fundus blood supply)",
+          "Splenic artery course (tortuous, running along the pancreas before entering the splenorenal ligament)"
+        ],
+        "exam_traps": [
+          "Don't assume symmetry between the two ligaments' contents just because they're a commonly paired duo \u2014 always verify which SPECIFIC vessels/organs belong to which SPECIFIC ligament rather than assuming they're interchangeable."
+        ],
+        "image_clues": null,
+        "memory_aid": "Splenorenal ligament = 'S' for Splenic vessels AND 'S' for the pancreaS tail hiding alongside them.",
+        "other_ways_this_is_tested": [
+          "This content distinction is the direct anatomical basis for the splenectomy pancreatic injury risk question elsewhere in this set."
+        ],
+        "neet_pg_takeaway": "Gastrosplenic ligament carries short gastric + left gastro-omental vessels; splenorenal ligament carries the splenic vessels AND the pancreatic tail \u2014 the pancreatic tail content is the single highest-yield surgical fact in this topic.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard peritoneal and hepatobiliary/splenic surgical anatomy \u2014 Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Correctly assign vascular and organ contents to the gastrosplenic versus splenorenal ligament.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_splenic_ligaments_0003",
+      "subject": "Anatomy",
+      "topic": "Splenic Ligaments",
+      "subtopic": "Clinical \u2014 splenectomy complication",
+      "concept": "Pancreatic tail injury during splenectomy",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A patient develops a persistent left upper quadrant fluid collection with elevated amylase content one week after undergoing splenectomy for traumatic splenic rupture. Injury to which structure, related anatomically to one of the splenic ligaments, is the most likely explanation?",
+      "options": [
+        "Tail of the pancreas, injured during division of the splenorenal ligament",
+        "Left kidney, injured during division of the splenorenal ligament",
+        "Gastric fundus, injured during division of the gastrosplenic ligament",
+        "Left adrenal gland, injured during splenic mobilisation"
+      ],
+      "correct_answer": "Tail of the pancreas, injured during division of the splenorenal ligament",
+      "distractor_rationale": {
+        "Left kidney, injured during division of the splenorenal ligament": "While the splenorenal ligament does attach near the kidney, kidney injury would typically present with haematuria or renal-specific findings, not an amylase-rich fluid collection \u2014 the elevated amylase is a specific clue pointing to pancreatic, not renal, injury.",
+        "Gastric fundus, injured during division of the gastrosplenic ligament": "Gastric injury would more likely present with signs of a gastric leak (different fluid character, potential for more overt peritonitis from gastric contents) rather than isolated amylase elevation, and doesn't fit the splenorenal-ligament-specific mechanism as precisely.",
+        "Left adrenal gland, injured during splenic mobilisation": "Adrenal injury wouldn't produce an amylase-rich collection, and the adrenal gland isn't a structure classically described as running within either splenic ligament."
+      },
+      "explanation": {
+        "core_concept": "Elevated amylase in a post-splenectomy fluid collection is a classic, specific biochemical clue pointing directly to pancreatic injury \u2014 and understanding that the pancreatic TAIL specifically runs within the splenorenal ligament is what explains exactly how and why this injury occurs during splenectomy.",
+        "why_correct": "During splenectomy, the splenorenal ligament must be divided to fully mobilise and remove the spleen. Because the tail of the pancreas runs within (or in very close proximity to) this ligament as it approaches the splenic hilum, it is at recognised risk of injury during this step. Pancreatic tail injury classically presents with a left upper quadrant fluid collection (pseudocyst or simple fluid collection) with an elevated AMYLASE content \u2014 a specific, well-known biochemical signature of pancreatic tissue or duct injury.",
+        "why_others_wrong": {
+          "Left kidney, injured during division of the splenorenal ligament": "Renal injury would more typically present with haematuria or other renal-specific findings, not an isolated amylase-rich fluid collection \u2014 the specific biochemical clue given points away from this option.",
+          "Gastric fundus, injured during division of the gastrosplenic ligament": "Gastric injury has a different expected presentation (gastric content leak, more overt signs of peritonitis) rather than isolated amylase elevation, and the elevated-amylase clue specifically implicates pancreatic tissue.",
+          "Left adrenal gland, injured during splenic mobilisation": "The adrenal gland isn't a structure classically described as running within the splenic ligaments, and adrenal injury wouldn't produce this amylase-rich fluid finding."
+        },
+        "high_yield_facts": [
+          "Post-splenectomy LUQ fluid collection with elevated amylase = think pancreatic tail injury, from splenorenal ligament division.",
+          "This is a well-recognised, named complication of splenectomy \u2014 not a rare curiosity, but a genuine consideration in post-splenectomy complication workups.",
+          "Careful, deliberate splenorenal ligament division (rather than blunt/rushed mobilisation) is a recognised technique point specifically to reduce this risk during splenectomy."
+        ],
+        "clinical_correlation": "Recognising this complication pattern (amylase-rich collection after splenectomy) prompts appropriate further workup (e.g. imaging, possibly ERCP or MRCP if a ductal injury/leak is suspected) and management (drainage, sometimes octreotide to reduce pancreatic secretion) \u2014 a direct, practical extension of the anatomical fact into real post-operative care.",
+        "common_confusions": [
+          "Assuming any post-splenectomy fluid collection must simply be a haematoma or seroma from the splenic bed itself, without considering the SPECIFIC biochemical clue (amylase) that should redirect suspicion toward the pancreas specifically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pancreatic fistula",
+          "Splenorenal ligament contents (splenic vessels + pancreatic tail)",
+          "Post-splenectomy complications more broadly (e.g. overwhelming post-splenectomy infection, though a distinct, non-anatomic complication)"
+        ],
+        "exam_traps": [
+          "The specific detail 'elevated amylase' is doing real diagnostic work in this vignette \u2014 don't let it get lost among the other clinical details; it's the key biochemical clue pointing specifically to pancreatic (not renal, gastric, or adrenal) involvement."
+        ],
+        "image_clues": null,
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This vignette is the direct clinical payoff of the ligament-contents fact established in the conceptual question elsewhere in this set \u2014 recognising the pancreatic tail's presence in the splenorenal ligament is what makes this vignette solvable."
+        ],
+        "neet_pg_takeaway": "A post-splenectomy left upper quadrant fluid collection with elevated amylase points to pancreatic tail injury during splenorenal ligament division \u2014 a well-recognised, anatomically explainable surgical complication.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Recognised surgical complication, described in standard surgical texts (e.g. Sabiston Textbook of Surgery, spleen chapter) and hepatobiliary/splenic surgery literature."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recognise pancreatic tail injury as a splenectomy complication arising from the pancreatic tail's course within the splenorenal ligament.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_splenic_ligaments_0004",
+      "subject": "Anatomy",
+      "topic": "Splenic Ligaments",
+      "subtopic": "Embryological origin",
+      "concept": "Both ligaments as dorsal mesentery derivatives",
+      "question_type": "comparison",
+      "difficulty": 3,
+      "question": "Both the gastrosplenic and splenorenal ligaments, along with the greater omentum, share a common embryological origin. Which mesentery do they all derive from?",
+      "options": [
+        "Dorsal mesentery (dorsal mesogastrium)",
+        "Ventral mesentery",
+        "Both ventral and dorsal mesenteries equally",
+        "Neither mesentery \u2014 they form independently as the spleen enlarges"
+      ],
+      "correct_answer": "Dorsal mesentery (dorsal mesogastrium)",
+      "distractor_rationale": {
+        "Ventral mesentery": "The ventral mesentery gives rise to only the falciform ligament and lesser omentum, both liver-associated \u2014 the spleen and its ligaments are not ventral mesentery derivatives.",
+        "Both ventral and dorsal mesenteries equally": "Overstates the ventral mesentery's role \u2014 the spleen and its suspensory ligaments derive entirely from the dorsal mesentery, with no ventral mesentery contribution.",
+        "Neither mesentery \u2014 they form independently as the spleen enlarges": "Understates the genuine embryological relationship \u2014 the spleen develops WITHIN the dorsal mesogastrium specifically, and its ligaments are direct derivatives of this same structure, not independently formed."
+      },
+      "explanation": {
+        "core_concept": "The spleen's peritoneal ligaments make the most sense once you know the spleen itself develops within the dorsal mesogastrium \u2014 the ligaments aren't separate structures that happen to attach to the spleen, they're literally the persisting portions of the same mesentery the spleen grew inside of.",
+        "why_correct": "The spleen develops as a condensation of mesenchyme within the dorsal mesogastrium (the dorsal mesentery associated with the developing stomach). As the stomach rotates during development, the dorsal mesogastrium is thrown into folds, portions of which become the gastrosplenic ligament (between stomach and spleen) and the splenorenal ligament (between spleen and the posterior body wall/kidney) \u2014 both are therefore dorsal mesentery derivatives, sharing this origin with the greater omentum (also a dorsal mesogastrium derivative).",
+        "why_others_wrong": {
+          "Ventral mesentery": "The ventral mesentery's derivatives (falciform ligament, lesser omentum) are specifically liver-associated \u2014 the spleen has no ventral mesentery relationship at all.",
+          "Both ventral and dorsal mesenteries equally": "Incorrectly attributes a ventral mesentery contribution that doesn't exist for the spleen or its ligaments.",
+          "Neither mesentery \u2014 they form independently as the spleen enlarges": "Denies the genuine, well-established embryological relationship between the spleen's development within the dorsal mesogastrium and its resulting ligamentous attachments."
+        },
+        "high_yield_facts": [
+          "Gastrosplenic ligament + splenorenal ligament + greater omentum = all dorsal mesentery (dorsal mesogastrium) derivatives, sharing a common embryological origin with the spleen's own development.",
+          "This is the same dorsal mesentery that, in a different embryological chapter, also gives rise to the mesentery proper and the mesocolons \u2014 but the specific gastrosplenic/splenorenal/greater omentum trio all relate specifically to the STOMACH-associated portion (dorsal mesogastrium) of the broader dorsal mesentery.",
+          "This origin directly contrasts with the VENTRAL mesentery's much shorter, liver-associated derivative list (falciform ligament, lesser omentum) covered in a separate topic."
+        ],
+        "clinical_correlation": "Understanding this shared embryological origin explains why the greater omentum, gastrosplenic ligament, and splenorenal ligament are all anatomically continuous with one another in the adult \u2014 a continuity that has real surgical navigation relevance when mobilising the spleen or stomach.",
+        "common_confusions": [
+          "Assuming every peritoneal ligament in the upper abdomen has the same (ventral or dorsal) origin without checking which SPECIFIC organ system it's associated with \u2014 liver-related structures are ventral mesentery derivatives, while stomach/spleen-related structures (including the spleen's ligaments) are dorsal mesentery derivatives."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Ventral mesentery derivatives (contrast \u2014 falciform ligament, lesser omentum)",
+          "Stomach rotation during development",
+          "Greater omentum (shared dorsal mesogastrium origin)"
+        ],
+        "exam_traps": [
+          "Don't assume the spleen's ligaments share an origin with the falciform ligament or lesser omentum just because all are 'abdominal peritoneal ligaments' \u2014 the spleen-associated ligaments are specifically DORSAL mesentery derivatives, an entirely separate embryological lineage from the VENTRAL mesentery derivatives associated with the liver."
+        ],
+        "image_clues": null,
+        "memory_aid": "Spleen grows up INSIDE the dorsal mesogastrium \u2014 its ligaments are just that same tissue, left behind after the stomach rotates around it.",
+        "other_ways_this_is_tested": [
+          "This shared embryological origin connects this chapter directly to the Ventral Mesentery Derivatives chapter, providing a natural comparison point between the two major upper-abdominal mesenteries."
+        ],
+        "neet_pg_takeaway": "The gastrosplenic ligament, splenorenal ligament, and greater omentum are all dorsal mesentery (dorsal mesogastrium) derivatives \u2014 reflecting the spleen's own development within this same mesentery, and contrasting directly with the liver-associated ventral mesentery derivatives.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard embryology \u2014 Langman's Medical Embryology, gastrointestinal system chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2021
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify the dorsal mesentery (dorsal mesogastrium) as the shared embryological origin of the splenic ligaments and the greater omentum.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

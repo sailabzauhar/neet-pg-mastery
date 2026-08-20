@@ -1,0 +1,403 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0024",
+    "topic": "Medial Pectoral Nerve",
+    "chapter_number": 24,
+    "chapter_file": "data/anatomy/ch24_medial_pectoral_nerve.json",
+    "source_years": [
+      2024
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": true,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "conceptual",
+      "clinical_vignette",
+      "image_based"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "Built with one deeply-covered concept (5 questions across 4 distinct types, with 2 direct_recall angles on genuinely different sub-facts \u2014 origin and muscle supply \u2014 both still meaningfully different enough to warrant separate questions) from the start, following the corrected process \u2014 genuinely shared 'concept' label, verified against validate_chapter.py before finalizing.",
+    "note": "Dedup pass completed \u2014 the 5 questions test genuinely different angles (origin, naming-logic mechanism, muscle supply, clinical application, image recognition), not rephrased duplicates. Includes a genuine image-based question."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The medial pectoral nerve is a genuinely counter-intuitive named structure in brachial plexus anatomy: despite its name suggesting a medial position and origin, it arises from the MEDIAL CORD of the brachial plexus but takes a course that brings it to lie LATERAL to the axillary artery for part of its path, and it supplies BOTH pectoralis minor and (via fibres piercing through pectoralis minor) part of pectoralis major \u2014 making 'medial' a name describing its cord of origin, not a reliable guide to its final course or sole target muscle.",
+      "classification": "This chapter covers one integrated concept in depth: the medial pectoral nerve's naming logic, course, and muscle supply (including its surgical relevance), tested across the full range of genuinely applicable question types."
+    },
+    "structure_anatomy": {
+      "origin": "Arises from the medial cord of the brachial plexus, carrying fibres from C8 and T1 \u2014 'medial' in its name refers specifically to its cord of origin (the medial cord), not to its final anatomical position or course.",
+      "course": "Runs between the axillary artery and vein initially, then pierces (or passes around the lower border of) pectoralis minor to reach and supply it, with some fibres continuing through pectoralis minor to also reach and supply the lower, sternocostal part of pectoralis major.",
+      "muscles_supplied": "Supplies pectoralis minor entirely, PLUS part of pectoralis major (the lower/sternocostal portion, via fibres that pass through pectoralis minor) \u2014 a genuinely counter-intuitive pairing, since the LATERAL pectoral nerve (from the lateral cord) supplies the clavicular part of pectoralis major, meaning pectoralis major actually receives its nerve supply from BOTH the medial AND lateral pectoral nerves together, not from the lateral pectoral nerve alone as the name might suggest."
+    },
+    "clinical": {
+      "surgical_landmark": "During axillary lymph node dissection (e.g. for breast cancer staging/treatment), the medial pectoral nerve is a structure surgeons must actively identify and preserve \u2014 injury causes atrophy of pectoralis minor and the lower part of pectoralis major, producing a visible chest wall contour deformity and (though less functionally significant than some other brachial plexus nerve injuries) a recognised, avoidable surgical complication.",
+      "pectoralis_major_dual_supply_relevance": "Because pectoralis major receives dual innervation (lateral pectoral nerve to the clavicular head, medial pectoral nerve to the sternocostal head), a lesion of ONLY ONE of these two nerves produces PARTIAL, not complete, pectoralis major weakness \u2014 a genuinely useful, if subtle, clinical localising principle, and a good illustration of how a single named muscle can have compound, split innervation from two different nerves following two different naming logics (lateral cord vs medial cord origin, not lateral vs medial final muscle position)."
+    },
+    "related_structures": "The medial and lateral pectoral nerves are a classic 'reverse-naming-logic' pair worth learning together: the LATERAL pectoral nerve, from the lateral cord, supplies ONLY the clavicular head of pectoralis major (arguably the more 'superior/lateral' part), while the MEDIAL pectoral nerve, from the medial cord, supplies pectoralis minor PLUS the sternocostal head of pectoralis major \u2014 meaning the medial pectoral nerve actually has the LARGER, more extensive muscle territory despite its 'medial' name suggesting a more limited, purely medial role."
+  },
+  "question_family": [
+    {
+      "family_name": "Medial Pectoral Nerve \u2014 Origin, Course, and Muscle Supply (5 angles, one concept)",
+      "member_ids": [
+        "anat_medial_pectoral_nerve_0001",
+        "anat_medial_pectoral_nerve_0002",
+        "anat_medial_pectoral_nerve_0003",
+        "anat_medial_pectoral_nerve_0004",
+        "anat_medial_pectoral_nerve_0005"
+      ],
+      "coverage": "Recall (cord of origin), conceptual (naming vs actual course), recall (dual muscle supply), clinical vignette (surgical injury pattern), and image-based (integrated dissection recognition) \u2014 five genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_medial_pectoral_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Medial Pectoral Nerve",
+      "subtopic": "Origin",
+      "concept": "Medial pectoral nerve: naming logic, origin, course, and muscle supply",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The medial pectoral nerve arises from which cord of the brachial plexus?",
+      "options": [
+        "Medial cord",
+        "Lateral cord",
+        "Posterior cord",
+        "It arises directly from spinal nerve roots, bypassing the cords entirely"
+      ],
+      "correct_answer": "Medial cord",
+      "distractor_rationale": {
+        "Lateral cord": "This is the origin of the LATERAL pectoral nerve, a separate named nerve \u2014 not the medial pectoral nerve.",
+        "Posterior cord": "The posterior cord gives rise to different named nerves entirely (e.g. axillary, radial) \u2014 unrelated to either pectoral nerve.",
+        "It arises directly from spinal nerve roots, bypassing the cords entirely": "The medial pectoral nerve, like the other named terminal/cord-level branches of the brachial plexus, arises specifically from a cord (the medial cord), not directly from roots."
+      },
+      "explanation": {
+        "core_concept": "The medial pectoral nerve's name accurately reflects only its cord of origin \u2014 this is the single most important framing fact for the whole topic, since it's exactly what makes the nerve's actual course and muscle territory counter-intuitive relative to what 'medial' might otherwise suggest.",
+        "why_correct": "The medial pectoral nerve arises from the medial cord of the brachial plexus, carrying C8 and T1 fibres \u2014 its name is accurate specifically with respect to this cord of origin.",
+        "why_others_wrong": {
+          "Lateral cord": "The origin of the LATERAL pectoral nerve specifically, a different named nerve.",
+          "Posterior cord": "Gives rise to entirely different nerves (axillary, radial, among others), unrelated to the pectoral nerves.",
+          "It arises directly from spinal nerve roots, bypassing the cords entirely": "Named brachial plexus branches at this level arise from the cords, not directly from roots."
+        },
+        "high_yield_facts": [
+          "Medial pectoral nerve = medial cord (C8, T1).",
+          "Lateral pectoral nerve = lateral cord \u2014 a direct, useful contrast pairing.",
+          "The name accurately tracks CORD OF ORIGIN, but \u2014 as covered elsewhere in this chapter \u2014 does NOT reliably predict the nerve's final course or complete muscle territory, which is the genuinely counter-intuitive part of this topic."
+        ],
+        "clinical_correlation": "Understanding this cord-based naming convention helps correctly predict which brachial plexus level (root, trunk, division, cord, or terminal branch) a given nerve injury affects, based on where in the plexus a lesion occurs.",
+        "common_confusions": [
+          "Assuming the medial pectoral nerve's name predicts its final ANATOMICAL POSITION or complete muscle territory \u2014 the name specifically refers to cord of origin only, a distinction explored further elsewhere in this chapter."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Lateral pectoral nerve and the lateral cord (contrast)",
+          "Brachial plexus cord-level organisation generally"
+        ],
+        "exam_traps": [
+          "Don't assume 'medial' in this nerve's name means it has a purely medial course or role \u2014 that assumption is specifically what the rest of this chapter's questions are designed to correct."
+        ],
+        "image_clues": null,
+        "memory_aid": "Medial pectoral nerve, medial CORD \u2014 the name is honest about its origin, just not about where it ends up or what all it supplies.",
+        "other_ways_this_is_tested": [
+          "This origin fact is the starting point for the course and muscle-supply questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The medial pectoral nerve arises from the medial cord of the brachial plexus (C8, T1) \u2014 its name accurately reflects this origin, even though (as covered elsewhere) its course and muscle territory turn out to be less straightforwardly 'medial' than the name might suggest.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that the medial pectoral nerve arises from the medial cord of the brachial plexus.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_medial_pectoral_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Medial Pectoral Nerve",
+      "subtopic": "Course",
+      "concept": "Medial pectoral nerve: naming logic, origin, course, and muscle supply",
+      "question_type": "conceptual",
+      "difficulty": 4,
+      "question": "Despite arising from the medial cord, the medial pectoral nerve's course brings it to lie LATERAL to the axillary artery for part of its path before it reaches pectoralis minor. What does this illustrate about interpreting brachial plexus nerve names?",
+      "options": [
+        "A brachial plexus nerve's name (based on its cord of origin) does not necessarily predict its final anatomical position or course \u2014 'medial' and 'lateral' pectoral nerve refer to which CORD each arises from, not to their relative positions once they reach their target muscles",
+        "The medial pectoral nerve's course described here is anatomically impossible and reflects an error in standard anatomical teaching",
+        "This course pattern means the medial pectoral nerve should actually be renamed the 'lateral' pectoral nerve to reflect its true final position",
+        "All brachial plexus nerves named for a cord always maintain that same relative position throughout their entire course, with no exceptions"
+      ],
+      "correct_answer": "A brachial plexus nerve's name (based on its cord of origin) does not necessarily predict its final anatomical position or course \u2014 'medial' and 'lateral' pectoral nerve refer to which CORD each arises from, not to their relative positions once they reach their target muscles",
+      "distractor_rationale": {
+        "The medial pectoral nerve's course described here is anatomically impossible and reflects an error in standard anatomical teaching": "This course is a genuine, well-documented anatomical fact, not an error \u2014 the nerve's path relative to the axillary vessels is a real, teachable point.",
+        "This course pattern means the medial pectoral nerve should actually be renamed the 'lateral' pectoral nerve to reflect its true final position": "Misunderstands the naming convention \u2014 the name is based on CORD OF ORIGIN (a fixed embryological/anatomical fact), not on final course, so no renaming is warranted; the 'inconsistency' is simply a feature of how these nerves are named, not an error requiring correction.",
+        "All brachial plexus nerves named for a cord always maintain that same relative position throughout their entire course, with no exceptions": "Directly contradicted by the medial pectoral nerve itself, which is precisely the counter-example to this claim."
+      },
+      "explanation": {
+        "core_concept": "This is the single most important conceptual lesson of the entire chapter \u2014 recognising that anatomical NAMES are historical/positional labels reflecting a specific reference point (here, cord of origin), not a guarantee about every subsequent anatomical relationship the named structure will have \u2014 a genuinely transferable insight applicable well beyond just this one nerve.",
+        "why_correct": "The medial and lateral pectoral nerves are named for their CORDS OF ORIGIN (medial cord and lateral cord respectively) \u2014 a naming convention fixed at the level of the brachial plexus itself. This naming says nothing about, and doesn't need to predict, the nerve's subsequent course or final position relative to other structures (like the axillary artery) as it travels toward its target muscles. The medial pectoral nerve's course lateral to the axillary artery for part of its path is simply a real anatomical fact that happens to not match a naive assumption based on the nerve's name alone.",
+        "why_others_wrong": {
+          "The medial pectoral nerve's course described here is anatomically impossible and reflects an error in standard anatomical teaching": "A real, standard, well-taught anatomical fact \u2014 not an error.",
+          "This course pattern means the medial pectoral nerve should actually be renamed the 'lateral' pectoral nerve to reflect its true final position": "Misunderstands that the name tracks cord of origin, a stable reference point, not final course \u2014 there's no actual naming inconsistency requiring correction.",
+          "All brachial plexus nerves named for a cord always maintain that same relative position throughout their entire course, with no exceptions": "The medial pectoral nerve is itself the direct counter-example disproving this claim."
+        },
+        "high_yield_facts": [
+          "Medial/lateral pectoral nerve names = based on CORD OF ORIGIN, not final course or position.",
+          "The medial pectoral nerve genuinely can lie lateral to the axillary artery for part of its course \u2014 a real, teachable anatomical fact, not a contradiction requiring resolution.",
+          "This is a valuable general lesson for interpreting ANY anatomically-named structure: check what the name is actually tracking (origin, target, shape, position at a SPECIFIC point) before assuming it predicts every anatomical relationship throughout the structure's entire course."
+        ],
+        "clinical_correlation": "Surgeons operating in the axilla need to know the ACTUAL course of the medial pectoral nerve relative to the axillary vessels (not just its name) to correctly identify and preserve it \u2014 a naming-based assumption alone would be an unreliable guide during actual dissection.",
+        "common_confusions": [
+          "Assuming anatomical names are always fully descriptive of a structure's entire course and every anatomical relationship \u2014 many anatomical names (like this one) are fixed at one specific reference point (here, cord of origin) and don't promise consistency elsewhere."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Medial pectoral nerve's muscle supply (also counter-intuitive \u2014 see other questions in this chapter)",
+          "General principle of anatomical naming conventions"
+        ],
+        "exam_traps": [
+          "Don't let a nerve's name talk you out of a genuine anatomical fact about its course \u2014 if a question describes the medial pectoral nerve lying lateral to a structure, that's consistent with real anatomy, not an error to second-guess."
+        ],
+        "image_clues": null,
+        "memory_aid": "The name remembers where the nerve was BORN (medial cord), not where it ends up living (its actual course).",
+        "other_ways_this_is_tested": [
+          "This conceptual lesson directly frames and explains the muscle-supply counter-intuition covered in the next question of this chapter."
+        ],
+        "neet_pg_takeaway": "The medial pectoral nerve's name reflects its medial cord origin, not its final course \u2014 it genuinely can and does lie lateral to the axillary artery for part of its path, illustrating that brachial plexus nerve names track cord of origin, not guaranteed final position.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Recognise that the medial pectoral nerve's name reflects cord of origin, not its actual course relative to the axillary vessels.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_medial_pectoral_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Medial Pectoral Nerve",
+      "subtopic": "Muscle supply",
+      "concept": "Medial pectoral nerve: naming logic, origin, course, and muscle supply",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "The medial pectoral nerve supplies pectoralis minor. Does it also contribute to pectoralis major, and if so, which part?",
+      "options": [
+        "Yes \u2014 fibres pass through pectoralis minor to supply the lower (sternocostal) part of pectoralis major",
+        "No \u2014 pectoralis major is supplied entirely and exclusively by the lateral pectoral nerve",
+        "Yes \u2014 the medial pectoral nerve supplies the entire pectoralis major, with no contribution from the lateral pectoral nerve",
+        "No \u2014 pectoralis major has no nerve supply from either the medial or lateral pectoral nerve"
+      ],
+      "correct_answer": "Yes \u2014 fibres pass through pectoralis minor to supply the lower (sternocostal) part of pectoralis major",
+      "distractor_rationale": {
+        "No \u2014 pectoralis major is supplied entirely and exclusively by the lateral pectoral nerve": "Understates the medial pectoral nerve's real contribution \u2014 pectoralis major actually receives DUAL innervation from both nerves, not from the lateral pectoral nerve alone.",
+        "Yes \u2014 the medial pectoral nerve supplies the entire pectoralis major, with no contribution from the lateral pectoral nerve": "Overstates the medial pectoral nerve's territory \u2014 the CLAVICULAR head of pectoralis major is specifically lateral-pectoral-nerve territory, not medial.",
+        "No \u2014 pectoralis major has no nerve supply from either the medial or lateral pectoral nerve": "Incorrect \u2014 pectoralis major's entire nerve supply comes from exactly these two nerves together."
+      },
+      "explanation": {
+        "core_concept": "This dual, split innervation of pectoralis major (by BOTH the medial and lateral pectoral nerves, each supplying a different part) is the clinically and conceptually richest fact in this entire chapter \u2014 it directly explains why partial pectoralis major weakness is possible from an isolated lesion of just one of these two nerves.",
+        "why_correct": "The medial pectoral nerve supplies pectoralis minor completely, and some of its fibres continue THROUGH pectoralis minor to also reach and supply the LOWER (sternocostal) part of pectoralis major \u2014 meaning pectoralis major's full innervation actually comes from TWO different nerves working together: the lateral pectoral nerve (clavicular head) and the medial pectoral nerve (sternocostal head).",
+        "why_others_wrong": {
+          "No \u2014 pectoralis major is supplied entirely and exclusively by the lateral pectoral nerve": "A common but incorrect assumption based on the 'lateral pectoral nerve for pectoralis major, medial pectoral nerve for pectoralis minor' oversimplification \u2014 the reality is more nuanced, with genuine dual contribution to pectoralis major.",
+          "Yes \u2014 the medial pectoral nerve supplies the entire pectoralis major, with no contribution from the lateral pectoral nerve": "Overstates the medial pectoral nerve's role \u2014 the clavicular head is specifically lateral pectoral nerve territory.",
+          "No \u2014 pectoralis major has no nerve supply from either the medial or lateral pectoral nerve": "Factually incorrect \u2014 these two nerves ARE pectoralis major's complete nerve supply, together."
+        },
+        "high_yield_facts": [
+          "Medial pectoral nerve: ALL of pectoralis minor + the LOWER (sternocostal) part of pectoralis major.",
+          "Lateral pectoral nerve: the UPPER (clavicular) part of pectoralis major only.",
+          "Pectoralis major therefore has DUAL innervation from two different nerves \u2014 a genuinely important, frequently tested fact that the oversimplified 'one nerve per pec muscle' framing misses entirely."
+        ],
+        "clinical_correlation": "This dual innervation means an isolated lesion of just the lateral OR just the medial pectoral nerve produces PARTIAL pectoralis major weakness (affecting only the clavicular or sternocostal portion respectively), not complete paralysis of the whole muscle \u2014 a genuinely useful, subtle localising clue in brachial plexus injury assessment.",
+        "common_confusions": [
+          "Assuming a simple 1-nerve-1-muscle mapping ('lateral pectoral nerve = pec major, medial pectoral nerve = pec minor') \u2014 the reality involves genuine dual innervation of pectoralis major specifically, which is exactly the nuance worth actively correcting."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Lateral pectoral nerve and the clavicular head of pectoralis major",
+          "Surgical injury to the medial pectoral nerve during axillary dissection (clinical vignette elsewhere in this chapter)"
+        ],
+        "exam_traps": [
+          "Don't oversimplify pectoralis major's nerve supply to a single nerve \u2014 actively recall that it's genuinely dual (lateral pectoral nerve for the clavicular head, medial pectoral nerve for the sternocostal head), a detail frequently tested specifically because the simpler assumption is so common."
+        ],
+        "image_clues": null,
+        "memory_aid": "Medial pectoral nerve does double duty: ALL of pec minor, PLUS the lower half of pec major, sneaking through on its way.",
+        "other_ways_this_is_tested": [
+          "This dual-innervation fact is the anatomical basis for the partial-weakness clinical correlation and the surgical injury vignette elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The medial pectoral nerve supplies all of pectoralis minor plus (via fibres passing through it) the lower/sternocostal part of pectoralis major \u2014 meaning pectoralis major has genuine dual innervation from both the medial and lateral pectoral nerves together, not a single nerve alone.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State that the medial pectoral nerve supplies pectoralis minor plus the sternocostal head of pectoralis major, establishing pectoralis major's dual nerve supply.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_medial_pectoral_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Medial Pectoral Nerve",
+      "subtopic": "Clinical \u2014 axillary surgery injury",
+      "concept": "Medial pectoral nerve: naming logic, origin, course, and muscle supply",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient undergoes axillary lymph node dissection for breast cancer staging. Postoperatively, she is noted to have a subtle chest wall contour irregularity with weakness of the lower part of pectoralis major on resisted adduction, but normal strength of the upper (clavicular) portion. Which nerve was most likely injured during surgery, and why is the weakness only partial?",
+      "options": [
+        "Medial pectoral nerve \u2014 because it supplies specifically the lower (sternocostal) part of pectoralis major (plus pectoralis minor entirely), while the upper (clavicular) part remains intact via the separately-supplied, uninjured lateral pectoral nerve",
+        "Lateral pectoral nerve \u2014 because it supplies the lower part of pectoralis major exclusively",
+        "Long thoracic nerve \u2014 this nerve directly supplies both parts of pectoralis major equally",
+        "Thoracodorsal nerve \u2014 this nerve is responsible for pectoralis major's sternocostal head specifically"
+      ],
+      "correct_answer": "Medial pectoral nerve \u2014 because it supplies specifically the lower (sternocostal) part of pectoralis major (plus pectoralis minor entirely), while the upper (clavicular) part remains intact via the separately-supplied, uninjured lateral pectoral nerve",
+      "distractor_rationale": {
+        "Lateral pectoral nerve \u2014 because it supplies the lower part of pectoralis major exclusively": "The lateral pectoral nerve supplies the UPPER (clavicular) part of pectoralis major, not the lower part \u2014 this option assigns the wrong territory to this nerve.",
+        "Long thoracic nerve \u2014 this nerve directly supplies both parts of pectoralis major equally": "The long thoracic nerve supplies serratus anterior, an entirely different muscle, and has no role in pectoralis major innervation at all.",
+        "Thoracodorsal nerve \u2014 this nerve is responsible for pectoralis major's sternocostal head specifically": "The thoracodorsal nerve supplies latissimus dorsi, an entirely different muscle, with no role in pectoralis major innervation."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct, real-world clinical payoff of understanding pectoralis major's dual innervation \u2014 recognising that PARTIAL (not complete) pectoralis major weakness, specifically affecting the LOWER portion, points precisely to an isolated medial pectoral nerve injury, a genuinely practical piece of surgical anatomy given how often axillary dissection is performed.",
+        "why_correct": "The medial pectoral nerve is at recognised risk during axillary lymph node dissection, given its course through the axilla. Injury here weakens pectoralis minor (usually less clinically apparent) and specifically the LOWER (sternocostal) part of pectoralis major, which it supplies \u2014 while the UPPER (clavicular) part, supplied by the separate, anatomically distinct lateral pectoral nerve, remains unaffected if that nerve is spared, producing exactly the partial weakness pattern (weak lower portion, normal upper portion) described in this vignette.",
+        "why_others_wrong": {
+          "Lateral pectoral nerve \u2014 because it supplies the lower part of pectoralis major exclusively": "The lateral pectoral nerve's territory is specifically the UPPER (clavicular) part \u2014 the reverse of what's described as weak in this vignette.",
+          "Long thoracic nerve \u2014 this nerve directly supplies both parts of pectoralis major equally": "The long thoracic nerve is entirely unrelated to pectoralis major \u2014 its injury causes serratus anterior weakness (winged scapula), a completely different clinical picture.",
+          "Thoracodorsal nerve \u2014 this nerve is responsible for pectoralis major's sternocostal head specifically": "The thoracodorsal nerve supplies latissimus dorsi, unrelated to pectoralis major."
+        },
+        "high_yield_facts": [
+          "Isolated medial pectoral nerve injury \u2192 weakness of pectoralis minor + the LOWER (sternocostal) part of pectoralis major specifically, with the upper (clavicular) part spared.",
+          "This is a recognised, genuinely avoidable complication of axillary surgery \u2014 careful nerve identification during dissection is the practical preventive measure.",
+          "The PARTIAL nature of the weakness (only the lower portion affected) is itself the diagnostic clue pointing to isolated medial (not combined medial+lateral) pectoral nerve involvement."
+        ],
+        "clinical_correlation": "Recognising this specific partial weakness pattern helps confirm medial pectoral nerve injury clinically and distinguishes it from a more extensive brachial plexus injury that might affect both pectoral nerves (and other structures) together \u2014 directly relevant to postoperative complication assessment and counselling.",
+        "common_confusions": [
+          "Assuming ANY pectoralis major weakness after axillary surgery must reflect a single, simple nerve injury without recognising that the SPECIFIC PATTERN (partial vs complete, upper vs lower) is what precisely localises which of the two pectoral nerves is actually involved."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Dual pectoralis major innervation (this same concept, direct recall question)",
+          "Long thoracic nerve and winged scapula (a different axillary surgery complication, for contrast)",
+          "Thoracodorsal nerve and latissimus dorsi (another distinct axillary nerve, for contrast)"
+        ],
+        "exam_traps": [
+          "When a vignette describes PARTIAL pectoralis major weakness (specifically one part affected, not the whole muscle), don't default to a generic 'pectoral nerve injury' answer \u2014 use the specific portion affected (upper/lateral vs lower/medial) to identify exactly which of the two nerves is involved."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lower pec weak, upper pec fine = medial pectoral nerve down, lateral pectoral nerve still working.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the dual pectoralis major innervation fact established in the direct-recall question earlier in this chapter to a genuine, clinically realistic surgical scenario."
+        ],
+        "neet_pg_takeaway": "Isolated medial pectoral nerve injury during axillary surgery causes partial pectoralis major weakness (lower/sternocostal portion only, sparing the upper/clavicular portion) plus pectoralis minor weakness \u2014 a specific, recognisable pattern directly reflecting this nerve's precise muscle territory.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard breast/axillary surgical anatomy \u2014 Sabiston Textbook of Surgery, breast surgery chapter; Moore's Clinically Oriented Anatomy."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose isolated medial pectoral nerve injury from the specific pattern of partial (lower-portion-only) pectoralis major weakness after axillary surgery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_medial_pectoral_nerve_0005",
+      "subject": "Anatomy",
+      "topic": "Medial Pectoral Nerve",
+      "subtopic": "Image-based identification",
+      "concept": "Medial pectoral nerve: naming logic, origin, course, and muscle supply",
+      "question_type": "image_based",
+      "difficulty": 3,
+      "question": "[Image: axillary dissection showing the brachial plexus cords and their branches, with a small nerve arising from the medial cord seen crossing anterior to the axillary artery before passing toward and piercing the deep surface of a small, deep pectoral muscle, with visible fibres continuing through this muscle toward the overlying larger pectoral muscle's lower portion.] Identify the labelled nerve and both muscles it is shown supplying.",
+      "options": [
+        "Medial pectoral nerve; supplying pectoralis minor (the deep muscle) and the lower/sternocostal part of pectoralis major (the overlying larger muscle)",
+        "Lateral pectoral nerve; supplying pectoralis major (the deep muscle) and pectoralis minor (the overlying larger muscle)",
+        "Long thoracic nerve; supplying serratus anterior and pectoralis minor",
+        "Axillary nerve; supplying deltoid and teres minor"
+      ],
+      "correct_answer": "Medial pectoral nerve; supplying pectoralis minor (the deep muscle) and the lower/sternocostal part of pectoralis major (the overlying larger muscle)",
+      "distractor_rationale": {
+        "Lateral pectoral nerve; supplying pectoralis major (the deep muscle) and pectoralis minor (the overlying larger muscle)": "Misassigns the origin (lateral, not medial cord), and also incorrectly reverses which muscle is deep (pectoralis minor is the deep, small muscle; pectoralis major is the larger, overlying one) and which nerve supplies which.",
+        "Long thoracic nerve; supplying serratus anterior and pectoralis minor": "The long thoracic nerve supplies serratus anterior specifically, running along the chest wall in a different course entirely \u2014 unrelated to this piercing-pectoralis-minor pattern.",
+        "Axillary nerve; supplying deltoid and teres minor": "The axillary nerve supplies entirely different muscles (deltoid, teres minor) in a different region (posterior to the surgical neck of the humerus), unrelated to this anterior axillary/pectoral region finding."
+      },
+      "explanation": {
+        "core_concept": "This image-based question tests the complete picture established throughout this chapter \u2014 origin (medial cord), course (anterior to the axillary artery, piercing pectoralis minor), and dual muscle supply (pectoralis minor plus the lower part of pectoralis major) \u2014 all in one integrated visual recognition task.",
+        "why_correct": "A nerve arising from the medial cord, crossing anterior to the axillary artery, and piercing pectoralis minor with fibres continuing to the lower part of pectoralis major matches exactly the medial pectoral nerve's described origin, course, and dual muscle supply established throughout this chapter.",
+        "why_others_wrong": {
+          "Lateral pectoral nerve; supplying pectoralis major (the deep muscle) and pectoralis minor (the overlying larger muscle)": "Wrong cord of origin, and also reverses which muscle is anatomically deep (pectoralis minor) versus superficial/overlying (pectoralis major) relative to each other.",
+          "Long thoracic nerve; supplying serratus anterior and pectoralis minor": "A different nerve with an entirely different course (along the chest wall to serratus anterior) and muscle target, not matching the piercing-pectoralis-minor pattern shown.",
+          "Axillary nerve; supplying deltoid and teres minor": "Supplies entirely different muscles in a different anatomical region, unrelated to this anterior pectoral finding."
+        },
+        "high_yield_facts": [
+          "Medial pectoral nerve identification on dissection: medial cord origin + course anterior to axillary artery + piercing pectoralis minor + fibres continuing to lower pectoralis major.",
+          "Pectoralis minor is the SMALL, DEEP muscle; pectoralis major is the LARGER, more superficial/overlying muscle \u2014 correctly identifying which is which is essential to interpreting this image correctly.",
+          "This combination of course and dual-muscle targeting is specific enough to reliably identify the medial pectoral nerve on a real dissection or image, distinguishing it from other axillary/brachial plexus branches."
+        ],
+        "clinical_correlation": "Surgeons performing axillary dissection rely on exactly this visual/anatomical recognition pattern to identify and preserve the medial pectoral nerve intraoperatively, directly preventing the partial pectoralis major weakness complication covered in the clinical vignette elsewhere in this chapter.",
+        "common_confusions": [
+          "Confusing which pectoral muscle is deep (minor) versus superficial (major) when interpreting a dissection image \u2014 getting this backwards leads to misidentifying which nerve is shown supplying which muscle."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Medial pectoral nerve origin, course, and dual muscle supply (all established elsewhere in this chapter)",
+          "Pectoralis minor and major relative positions"
+        ],
+        "exam_traps": [
+          "Use the SEQUENCE of structures pierced/reached (small deep muscle first, then fibres continuing to the larger overlying muscle) as the key identifying clue, rather than relying on any single feature alone."
+        ],
+        "image_clues": "Key visual clues: origin from the medial cord; course anterior to the axillary artery; piercing the SMALL, DEEP muscle (pectoralis minor) with fibres continuing to the LARGER, more superficial muscle's LOWER portion (pectoralis major, sternocostal head).",
+        "memory_aid": null,
+        "other_ways_this_is_tested": [
+          "This image-based question integrates the origin, course, and muscle-supply facts established across all the other questions in this chapter into one complete visual recognition task."
+        ],
+        "neet_pg_takeaway": "The medial pectoral nerve is identified on dissection by its medial cord origin, its course anterior to the axillary artery, and its characteristic piercing of pectoralis minor with fibres continuing to the lower part of pectoralis major.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, axilla dissection images."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2024
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": true,
+      "image_ref": {
+        "type": "GENERATED_IMAGE",
+        "note": "No source image exists in the uploaded PDF for this topic (the source PDF marked this topic image-based but did not include the actual image). A real, anatomically accurate axillary dissection image or schematic must be generated/sourced and explicitly tagged GENERATED_IMAGE before this question goes live \u2014 never presented as SOURCE_IMAGE."
+      },
+      "learning_objective": "Identify the medial pectoral nerve on a dissection image by its origin, course, and dual muscle supply pattern.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

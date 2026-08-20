@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0065",
+    "topic": "Stomach - Blood Supply",
+    "chapter_number": 65,
+    "chapter_file": "data/anatomy/ch65_stomach_blood_supply.json",
+    "source_years": [
+      2020
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 3,
+      "L4": 1,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "exception",
+      "clinical_vignette",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "The Splenic Ligaments chapter (ch14) covers the gastrosplenic ligament's general vessel content. Verified ch14's exact coverage before building \u2014 this chapter adds the SPECIFIC identity and clinical significance of the short gastric arteries travelling within it, genuinely complementary, not duplicative.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch14 (Splenic Ligaments) \u2014 no duplicate concepts found; genuinely complementary with explicit cross-references."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The stomach's rich blood supply forms two arterial arcades along its lesser and greater curvatures, all ultimately derived from the CELIAC TRUNK (via its three main branches: left gastric, splenic, and common hepatic arteries) \u2014 this dual-arcade, multi-source arrangement is exactly why the stomach can safely have large portions mobilised or resected in bariatric and oncologic surgery while retaining adequate perfusion through the remaining, unsacrificed vessels."
+    },
+    "structure_anatomy": {
+      "lesser_curvature_arcade": "LEFT gastric artery (a direct celiac trunk branch, the only one of the stomach's named arteries arising DIRECTLY from the celiac trunk rather than from one of its other branches) anastomoses with the RIGHT gastric artery (a branch of the common hepatic artery, via the proper hepatic artery) along the LESSER curvature.",
+      "greater_curvature_arcade": "RIGHT gastroepiploic (gastro-omental) artery (a branch of the gastroduodenal artery, itself a branch of the common hepatic artery) anastomoses with the LEFT gastroepiploic (gastro-omental) artery (a branch of the splenic artery) along the GREATER curvature.",
+      "short_gastric_arteries": "Multiple SHORT GASTRIC arteries, branches of the splenic artery, supply the FUNDUS specifically \u2014 the one part of the stomach NOT directly included within either of the two main arcades, relying instead on these separate, dedicated branches."
+    },
+    "clinical": {
+      "surgical_significance_of_dual_supply": "This rich, dual-arcade, multi-source arrangement (left gastric, right gastric, right gastroepiploic, left gastroepiploic, plus short gastrics) is exactly why the stomach tolerates extensive surgical mobilisation remarkably well \u2014 for example, in a gastric pull-up procedure (used in oesophagectomy reconstruction), the ENTIRE stomach can be mobilised on the RIGHT gastroepiploic artery alone (preserving just this ONE vessel) while safely sacrificing the left gastric, right gastric, and short gastric vessels, since the right gastroepiploic's connections via the arcades can still perfuse the whole stomach.",
+      "left_gastric_artery_bleeding_source": "Because the left gastric artery is the SOLE direct celiac trunk branch supplying the stomach (all other gastric vessels arise indirectly, via splenic or hepatic artery branches), it's a particularly important vessel to identify and control during upper GI bleeding source localisation or during gastrectomy \u2014 being the most direct, highest-pressure arterial inflow to the lesser curvature region.",
+      "splenic_artery_and_short_gastrics_in_splenectomy": "During splenectomy, the short gastric arteries (splenic artery branches supplying the gastric fundus) must be carefully identified and ligated separately from the main splenic artery/vein, since simply ligating the main splenic vessels would NOT address these separate, direct fundal branches \u2014 directly connecting to the splenic ligament anatomy already covered in the Splenic Ligaments chapter (the short gastric vessels travel within the gastrosplenic ligament specifically)."
+    },
+    "related_structures": "The short gastric arteries' course within the GASTROSPLENIC ligament directly connects this chapter to the Splenic Ligaments chapter \u2014 that chapter established the gastrosplenic ligament's vessel content in general terms; this chapter adds the SPECIFIC identity (short gastric arteries, splenic artery branches, fundus-supplying) of the vessels running within it, completing a genuinely coherent, cross-referenced picture of this single anatomical region."
+  },
+  "question_family": [
+    {
+      "family_name": "Stomach Blood Supply \u2014 Dual Arcades and Surgical Significance (4 angles, one concept)",
+      "member_ids": [
+        "anat_stomach_blood_supply_0001",
+        "anat_stomach_blood_supply_0002",
+        "anat_stomach_blood_supply_0003",
+        "anat_stomach_blood_supply_0004"
+      ],
+      "coverage": "Recall (lesser curvature arcade), exception (fundus/short gastric supply), clinical vignette (gastric pull-up surgery), and diagnostic reasoning (short gastric ligation in splenectomy) \u2014 four genuinely different angles on the same integrated concept, directly connecting to the Splenic Ligaments chapter's gastrosplenic ligament content."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_stomach_blood_supply_0001",
+      "subject": "Anatomy",
+      "topic": "Stomach - Blood Supply",
+      "subtopic": "Lesser curvature arcade",
+      "concept": "The stomach's dual arterial arcades (lesser and greater curvature) from the celiac trunk, and their surgical significance",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "Along the lesser curvature of the stomach, the left gastric artery anastomoses with which vessel, and what is that vessel's origin?",
+      "options": [
+        "The right gastric artery, a branch of the common hepatic artery (via the proper hepatic artery)",
+        "The right gastroepiploic artery, a branch of the gastroduodenal artery",
+        "The splenic artery directly, without any intervening branch",
+        "The superior mesenteric artery directly"
+      ],
+      "correct_answer": "The right gastric artery, a branch of the common hepatic artery (via the proper hepatic artery)",
+      "distractor_rationale": {
+        "The right gastroepiploic artery, a branch of the gastroduodenal artery": "The right gastroepiploic artery specifically anastomoses with the LEFT gastroepiploic artery along the GREATER curvature \u2014 a different arcade entirely from the lesser curvature's gastric artery pairing.",
+        "The splenic artery directly, without any intervening branch": "The splenic artery contributes to the stomach's supply via ITS branches (left gastroepiploic, short gastrics), not by directly anastomosing with the left gastric artery on the lesser curvature.",
+        "The superior mesenteric artery directly": "Not part of the stomach's blood supply at all \u2014 the SMA supplies structures from the duodenum (distal to the ampulla) through part of the transverse colon, not the stomach."
+      },
+      "explanation": {
+        "core_concept": "The left gastric/right gastric arcade along the lesser curvature is one of the two organizing arterial arcades of the entire stomach \u2014 correctly identifying both vessels AND their respective origins (left gastric directly from celiac trunk; right gastric from the hepatic artery system) is the foundational fact for this whole topic.",
+        "why_correct": "Along the lesser curvature, the left gastric artery (arising DIRECTLY from the celiac trunk) anastomoses with the right gastric artery (a branch of the common hepatic artery, via the proper hepatic artery) \u2014 together forming the lesser curvature's arterial arcade.",
+        "why_others_wrong": {
+          "The right gastroepiploic artery, a branch of the gastroduodenal artery": "This vessel specifically belongs to the GREATER curvature arcade (anastomosing with the left gastroepiploic artery), not the lesser curvature.",
+          "The splenic artery directly, without any intervening branch": "The splenic artery contributes via its OWN branches, not by directly anastomosing with the left gastric artery.",
+          "The superior mesenteric artery directly": "Not part of the stomach's blood supply at all."
+        },
+        "high_yield_facts": [
+          "Lesser curvature arcade: LEFT gastric artery (direct celiac trunk branch) + RIGHT gastric artery (from common/proper hepatic artery).",
+          "The left gastric artery is the ONLY stomach-supplying vessel arising DIRECTLY from the celiac trunk \u2014 every other gastric vessel arises indirectly, via the splenic or hepatic artery branches.",
+          "This distinction (direct vs indirect celiac trunk origin) is directly relevant to the left gastric artery's clinical significance as a bleeding source, covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "Correctly tracing this arcade's origin is directly relevant to gastrectomy surgical planning and to localising/controlling upper GI bleeding specifically originating from this lesser curvature territory.",
+        "common_confusions": [
+          "Confusing the lesser curvature arcade (left/right gastric arteries) with the greater curvature arcade (left/right gastroepiploic arteries) \u2014 these are TWO SEPARATE arcades, each with its own distinct pair of vessels."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Greater curvature arcade (this concept, other question) \u2014 the second, separate arterial arcade",
+          "Left gastric artery's direct celiac origin (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't mix up 'gastric' (lesser curvature) with 'gastroepiploic/gastro-omental' (greater curvature) arteries \u2014 these are genuinely different vessel pairs supplying different curvatures."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lesser curvature = the 'gastric' pair (left and right gastric arteries) \u2014 greater curvature = the 'gastroepiploic' pair, a separate arcade entirely.",
+        "other_ways_this_is_tested": [
+          "This foundational arcade fact is the basis for understanding the stomach's overall rich, multi-source blood supply, directly relevant to the surgical significance content covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The left gastric artery (direct celiac trunk branch) anastomoses with the right gastric artery (from the common/proper hepatic artery) along the lesser curvature \u2014 one of the stomach's two main arterial arcades.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Trace the lesser curvature arterial arcade (left gastric to right gastric artery) and each vessel's specific origin.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_stomach_blood_supply_0002",
+      "subject": "Anatomy",
+      "topic": "Stomach - Blood Supply",
+      "subtopic": "Fundus supply",
+      "concept": "The stomach's dual arterial arcades (lesser and greater curvature) from the celiac trunk, and their surgical significance",
+      "question_type": "exception",
+      "difficulty": 3,
+      "question": "Unlike the rest of the stomach (supplied by the two main curvature arcades), the FUNDUS relies on which separate, dedicated set of arteries?",
+      "options": [
+        "Short gastric arteries, branches of the splenic artery",
+        "The right gastric artery exclusively, with no other contribution",
+        "The superior mesenteric artery's direct gastric branches",
+        "The fundus has no arterial supply and relies entirely on venous collateral flow"
+      ],
+      "correct_answer": "Short gastric arteries, branches of the splenic artery",
+      "distractor_rationale": {
+        "The right gastric artery exclusively, with no other contribution": "The right gastric artery supplies the lesser curvature region, not the fundus specifically \u2014 a different, separate territory.",
+        "The superior mesenteric artery's direct gastric branches": "The SMA doesn't supply the stomach at all \u2014 an entirely unrelated arterial territory.",
+        "The fundus has no arterial supply and relies entirely on venous collateral flow": "Denies genuine, essential arterial supply \u2014 no functional stomach tissue survives on venous flow alone; arteries are required."
+      },
+      "explanation": {
+        "core_concept": "The fundus's reliance on SEPARATE short gastric arteries (rather than being included within either main arcade) is a genuinely important exception worth recognising \u2014 and directly connects to the Splenic Ligaments chapter's gastrosplenic ligament content, since these are the SAME vessels travelling within that specific ligament.",
+        "why_correct": "The fundus, the one part of the stomach not directly included within either the lesser curvature (left/right gastric) or greater curvature (left/right gastroepiploic) arcades, relies on multiple SHORT GASTRIC arteries \u2014 branches of the splenic artery, travelling within the gastrosplenic ligament \u2014 for its dedicated arterial supply.",
+        "why_others_wrong": {
+          "The right gastric artery exclusively, with no other contribution": "The right gastric artery supplies the lesser curvature, a different specific territory from the fundus.",
+          "The superior mesenteric artery's direct gastric branches": "The SMA has no role in gastric blood supply at all.",
+          "The fundus has no arterial supply and relies entirely on venous collateral flow": "Denies essential, genuine arterial supply, which all functional tissue requires."
+        },
+        "high_yield_facts": [
+          "Fundus = short gastric arteries (splenic artery branches) \u2014 the ONE part of the stomach outside the two main curvature arcades.",
+          "These vessels travel within the GASTROSPLENIC LIGAMENT (see the Splenic Ligaments chapter) \u2014 directly connecting this chapter's content to that earlier one.",
+          "This is exactly why short gastric arteries must be SEPARATELY identified and ligated during splenectomy, covered elsewhere in this chapter \u2014 simply ligating the main splenic vessels wouldn't address these separate, direct fundal branches."
+        ],
+        "clinical_correlation": "This specific fundal supply is directly relevant to splenectomy surgical technique (separate short gastric ligation required) and to understanding gastric fundus perfusion in the context of extensive gastric mobilisation procedures.",
+        "common_confusions": [
+          "Assuming the fundus is simply included within one of the two main arcades like the rest of the stomach \u2014 it specifically relies on its OWN separate, dedicated short gastric arteries instead, a genuine exception worth remembering."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Gastrosplenic ligament and short gastric vessel course (see Splenic Ligaments chapter) \u2014 the direct anatomical continuation of this content",
+          "Splenectomy and short gastric ligation (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't assume the fundus is supplied by the same lesser/greater curvature arcades as the rest of the stomach \u2014 actively recall its SEPARATE, dedicated short gastric artery supply."
+        ],
+        "image_clues": null,
+        "memory_aid": "The fundus sits up near the spleen, and gets its own private supply line (short gastrics) straight from the splenic artery, bypassing the main two arcades entirely.",
+        "other_ways_this_is_tested": [
+          "This fundal supply fact directly connects to and extends the Splenic Ligaments chapter's gastrosplenic ligament content, completing a coherent picture across both chapters."
+        ],
+        "neet_pg_takeaway": "The gastric fundus, unlike the rest of the stomach, relies on separate, dedicated short gastric arteries (splenic artery branches, travelling within the gastrosplenic ligament) rather than being included within either main curvature arcade.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, abdomen chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify short gastric arteries (splenic artery branches) as the fundus's dedicated arterial supply, distinct from the two main curvature arcades.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_stomach_blood_supply_0003",
+      "subject": "Anatomy",
+      "topic": "Stomach - Blood Supply",
+      "subtopic": "Clinical \u2014 gastric pull-up surgery",
+      "concept": "The stomach's dual arterial arcades (lesser and greater curvature) from the celiac trunk, and their surgical significance",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "During a gastric pull-up procedure (stomach mobilised as a conduit for oesophagectomy reconstruction), the surgeon deliberately sacrifices the left gastric, right gastric, and short gastric arteries, preserving only ONE vessel to perfuse the entire mobilised stomach. Which single vessel is this, and why is this approach anatomically safe?",
+      "options": [
+        "The right gastroepiploic artery \u2014 because the stomach's dual-arcade, richly interconnected arterial supply means this single vessel's connections (via the greater curvature arcade) can adequately perfuse the ENTIRE stomach once the other named vessels are divided",
+        "The splenic artery directly \u2014 preserving this single vessel is the standard, described technique for this procedure",
+        "This procedure is not surgically feasible, since the stomach cannot survive on a single preserved vessel under any circumstances",
+        "The left gastroepiploic artery \u2014 the vessel classically preserved for this specific procedure"
+      ],
+      "correct_answer": "The right gastroepiploic artery \u2014 because the stomach's dual-arcade, richly interconnected arterial supply means this single vessel's connections (via the greater curvature arcade) can adequately perfuse the ENTIRE stomach once the other named vessels are divided",
+      "distractor_rationale": {
+        "The splenic artery directly \u2014 preserving this single vessel is the standard, described technique for this procedure": "The splenic artery is not the vessel specifically preserved in this classic technique \u2014 the right gastroepiploic artery (a hepatic-artery-system-derived vessel) is the one specifically relied upon.",
+        "This procedure is not surgically feasible, since the stomach cannot survive on a single preserved vessel under any circumstances": "Denies a genuine, well-established, commonly performed surgical technique \u2014 the stomach's rich arcade interconnections specifically DO allow survival on a single preserved vessel, exactly the point this vignette is testing.",
+        "The left gastroepiploic artery \u2014 the vessel classically preserved for this specific procedure": "The RIGHT (not left) gastroepiploic artery is specifically the vessel preserved in this classic technique, given its more robust, reliable calibre and connection pattern."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct, genuine surgical payoff of understanding the stomach's rich, interconnected dual-arcade blood supply \u2014 a single preserved vessel (the right gastroepiploic artery) can perfuse the ENTIRE mobilised stomach specifically because of the extensive arcade interconnections established throughout this chapter, a genuinely elegant, practical demonstration of anatomical redundancy enabling a real surgical technique.",
+        "why_correct": "In gastric pull-up procedures, the entire stomach can be safely mobilised while preserving ONLY the right gastroepiploic artery (sacrificing the left gastric, right gastric, and short gastric arteries) \u2014 this is anatomically safe because the right gastroepiploic artery's connections, via the greater curvature arcade (and the rich sub-mucosal/intramural collateral network throughout the stomach wall), can adequately perfuse the entire stomach once mobilised, directly demonstrating the genuine functional redundancy created by the stomach's dual-arcade, multi-source arterial supply.",
+        "why_others_wrong": {
+          "The splenic artery directly \u2014 preserving this single vessel is the standard, described technique for this procedure": "Not the vessel specifically relied upon in this classic technique.",
+          "This procedure is not surgically feasible, since the stomach cannot survive on a single preserved vessel under any circumstances": "Denies a genuine, well-established, commonly performed technique that specifically demonstrates this vessel-redundancy principle.",
+          "The left gastroepiploic artery \u2014 the vessel classically preserved for this specific procedure": "The RIGHT gastroepiploic artery, not the left, is specifically the vessel preserved in this technique."
+        },
+        "high_yield_facts": [
+          "Gastric pull-up: entire stomach mobilised on the RIGHT GASTROEPIPLOIC ARTERY alone \u2014 all other named gastric vessels sacrificed.",
+          "This is possible specifically because of the stomach's rich, interconnected dual-arcade blood supply, established throughout this chapter.",
+          "This is a genuine, real-world surgical technique (used in oesophagectomy reconstruction) \u2014 not a theoretical possibility, directly demonstrating the practical clinical significance of understanding this anatomy."
+        ],
+        "clinical_correlation": "Understanding this specific vessel-preservation technique and its anatomical basis is directly relevant to oesophageal/upper GI surgery, where correct identification and preservation of this single critical vessel is essential to gastric conduit viability after extensive mobilisation.",
+        "common_confusions": [
+          "Assuming any single stomach-supplying vessel could serve as an adequate sole perfusion source \u2014 the RIGHT gastroepiploic artery specifically is the one relied upon in this technique, given its particular calibre and connection pattern, not an arbitrary or interchangeable choice among the stomach's several vessels."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Greater curvature arcade (this concept, other question) \u2014 the direct anatomical basis for this vessel's adequacy as a sole perfusion source"
+        ],
+        "exam_traps": [
+          "When gastric pull-up or similar extensive gastric mobilisation procedures are described, actively recall the RIGHT gastroepiploic artery specifically as the vessel relied upon, not a generic or interchangeable 'gastric artery' answer."
+        ],
+        "image_clues": null,
+        "memory_aid": "One good highway (right gastroepiploic) with enough connecting roads (the arcades) can still get blood to the whole city (the stomach) \u2014 that's the whole logic behind gastric pull-up surgery.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct, practical clinical application of the dual-arcade blood supply system established throughout this chapter."
+        ],
+        "neet_pg_takeaway": "In gastric pull-up procedures, the entire stomach can be mobilised while preserving only the right gastroepiploic artery \u2014 anatomically safe because of the stomach's rich, interconnected dual-arcade arterial supply, allowing this single vessel to adequately perfuse the whole organ.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard thoracic/upper GI surgery references on gastric pull-up technique for oesophagectomy reconstruction."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain gastric pull-up surgery's reliance on the right gastroepiploic artery, given the stomach's interconnected arcade blood supply.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_stomach_blood_supply_0004",
+      "subject": "Anatomy",
+      "topic": "Stomach - Blood Supply",
+      "subtopic": "Clinical \u2014 short gastric ligation in splenectomy",
+      "concept": "The stomach's dual arterial arcades (lesser and greater curvature) from the celiac trunk, and their surgical significance",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 3,
+      "question": "During splenectomy, a surgeon ligates the main splenic artery and vein but does NOT separately identify and ligate the short gastric arteries. What complication is this oversight most likely to cause, and why?",
+      "options": [
+        "Continued bleeding from the short gastric arteries specifically, since these vessels branch directly from the splenic artery WITHIN the gastrosplenic ligament, proximal enough to the stomach that they may retain their own separate blood flow even after the main splenic vessels are controlled",
+        "No complication would result, since ligating the main splenic artery automatically controls all of its branches, including the short gastrics, without requiring separate attention",
+        "This oversight would cause gastric fundus ISCHAEMIA (not bleeding), since the short gastric arteries are the fundus's sole blood supply and their patency, not their ligation, is the actual concern",
+        "This oversight is clinically irrelevant, since the short gastric arteries have no meaningful flow or clinical significance in adults"
+      ],
+      "correct_answer": "Continued bleeding from the short gastric arteries specifically, since these vessels branch directly from the splenic artery WITHIN the gastrosplenic ligament, proximal enough to the stomach that they may retain their own separate blood flow even after the main splenic vessels are controlled",
+      "distractor_rationale": {
+        "No complication would result, since ligating the main splenic artery automatically controls all of its branches, including the short gastrics, without requiring separate attention": "Denies the genuine, well-established surgical teaching point that short gastric arteries require SEPARATE identification and ligation \u2014 depending on exactly where the short gastrics branch off relative to the main splenic vessel ligation point, they may retain independent flow, particularly if any collateral connections or if the ligation point is proximal to where they branch off.",
+        "This oversight would cause gastric fundus ISCHAEMIA (not bleeding), since the short gastric arteries are the fundus's sole blood supply and their patency, not their ligation, is the actual concern": "Reverses the clinical concern \u2014 the surgical RISK specifically relates to unligated (still-bleeding) vessels causing haemorrhage, not to their ligation causing ischaemia (and the fundus also retains blood supply from the other gastric arcade connections even if short gastrics were appropriately ligated).",
+        "This oversight is clinically irrelevant, since the short gastric arteries have no meaningful flow or clinical significance in adults": "Denies these vessels' genuine, clinically significant blood flow and the real bleeding risk their unligated persistence creates."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question applies the specific anatomical fact (short gastric arteries as SEPARATE splenic artery branches, not automatically controlled by main splenic vessel ligation alone) to a genuine, practical surgical safety concern \u2014 understanding WHY these vessels need separate attention is what prevents a real, recognised complication.",
+        "why_correct": "The short gastric arteries branch from the splenic artery WITHIN the gastrosplenic ligament, and depending on the exact anatomical branch point relative to where the main splenic vessels are ligated, these vessels can retain their own separate, potentially significant blood flow even after the main splenic artery/vein are controlled \u2014 failing to separately identify and ligate them during splenectomy is a recognised cause of continued, sometimes significant intraoperative or postoperative bleeding from this specific, separate source.",
+        "why_others_wrong": {
+          "No complication would result, since ligating the main splenic artery automatically controls all of its branches, including the short gastrics, without requiring separate attention": "Denies the genuine, well-established surgical teaching that these vessels require separate ligation, given their specific branch point anatomy relative to the main vessel ligation site.",
+          "This oversight would cause gastric fundus ISCHAEMIA (not bleeding), since the short gastric arteries are the fundus's sole blood supply and their patency, not their ligation, is the actual concern": "Reverses the actual clinical concern \u2014 the risk is BLEEDING from unligated vessels, not ischaemia from their (in this scenario, absent) ligation.",
+          "This oversight is clinically irrelevant, since the short gastric arteries have no meaningful flow or clinical significance in adults": "Denies these vessels' genuine, clinically significant blood flow and real bleeding risk."
+        },
+        "high_yield_facts": [
+          "Short gastric arteries require SEPARATE identification and ligation during splenectomy \u2014 simply ligating the main splenic artery/vein is NOT automatically sufficient.",
+          "Failure to do this is a recognised cause of continued intraoperative/postoperative bleeding specifically from this vessel group.",
+          "This is a genuinely practical, high-yield surgical anatomy teaching point, directly connecting this chapter's fundal blood supply content to real operative technique."
+        ],
+        "clinical_correlation": "This is a standard, essential step in safe splenectomy technique \u2014 surgeons specifically identify and separately control the short gastric vessels within the gastrosplenic ligament as a distinct operative step, precisely to avoid this recognised bleeding complication.",
+        "common_confusions": [
+          "Assuming ligating a 'main' vessel automatically controls all of its downstream branches \u2014 depending on the SPECIFIC branch point anatomy, some branches (like the short gastrics here) can retain independent flow and require their own separate surgical attention."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Fundus supply via short gastric arteries (this concept, other question) \u2014 the direct anatomical basis for this surgical safety concern",
+          "Gastrosplenic ligament (see Splenic Ligaments chapter) \u2014 the specific anatomical location where these vessels must be identified and controlled"
+        ],
+        "exam_traps": [
+          "Don't assume ligating a major named vessel (like the splenic artery) automatically secures ALL of its branches \u2014 actively consider whether specific branches (like the short gastrics here) require separate, dedicated surgical attention given their specific anatomical relationship to the ligation site."
+        ],
+        "image_clues": null,
+        "memory_aid": "The short gastrics branch off early enough that tying off the main splenic vessel doesn't automatically catch them too \u2014 they need their own separate stitch.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question directly applies the fundal blood supply fact established earlier in this chapter to a genuine, practical surgical complication scenario."
+        ],
+        "neet_pg_takeaway": "Failure to separately identify and ligate the short gastric arteries during splenectomy (relying on main splenic vessel ligation alone) is a recognised cause of continued bleeding, since these vessels branch from the splenic artery within the gastrosplenic ligament and can retain independent flow.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard general surgery references on splenectomy technique and short gastric vessel management."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2020
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain why short gastric arteries require separate ligation during splenectomy, distinct from main splenic vessel control.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

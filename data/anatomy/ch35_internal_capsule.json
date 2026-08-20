@@ -1,0 +1,329 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0035",
+    "topic": "Internal Capsule",
+    "chapter_number": 35,
+    "chapter_file": "data/anatomy/ch35_internal_capsule.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "mechanism",
+      "clinical_vignette",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The internal capsule is a compact, V-shaped band of white matter (ascending and descending fibre tracts) between the thalamus/caudate nucleus medially and the lentiform nucleus laterally \u2014 its extreme concentration of nearly all cortical afferent/efferent fibres into a small area makes even a small lacunar infarct here capable of producing a large, severe neurological deficit disproportionate to the infarct's physical size."
+    },
+    "structure_anatomy": {
+      "three_parts": "Anterior limb (between caudate and lentiform nucleus): carries frontopontine fibres and thalamocortical fibres to frontal lobe. Genu (the bend, at the junction of anterior/posterior limbs): carries corticobulbar fibres (to cranial nerve motor nuclei). Posterior limb (between thalamus and lentiform nucleus): carries corticospinal fibres (to the body, arranged somatotopically \u2014 face fibres most anterior/genu-adjacent, leg fibres most posterior), plus thalamocortical sensory radiations and some visual/auditory radiations in its most posterior part (retrolenticular/sublenticular portions).",
+      "somatotopic_organisation": "Within the posterior limb specifically, corticospinal fibres are somatotopically arranged from anterior to posterior: face (most anterior, near the genu), arm (middle), leg (most posterior) \u2014 meaning the LOCATION of a posterior limb lesion within this small space can predict which body part is most affected.",
+      "blood_supply": "The internal capsule is supplied predominantly by lenticulostriate arteries (small, deep perforating branches of the middle cerebral artery) \u2014 small-calibre vessels particularly prone to lipohyalinosis and lacunar (small vessel) infarction, especially in the context of chronic hypertension, making the internal capsule one of the classic, most common sites for lacunar stroke."
+    },
+    "clinical": {
+      "pure_motor_stroke": "A lacunar infarct affecting the posterior limb (specifically the corticospinal fibres) classically causes PURE MOTOR hemiparesis/hemiplegia \u2014 contralateral weakness of the face, arm, and leg together, WITHOUT sensory loss, visual field defect, or cortical signs (like aphasia or neglect) \u2014 the most common lacunar stroke syndrome, and a genuinely important pattern-recognition diagnosis distinguishing lacunar (small vessel) stroke from cortical (large vessel) stroke.",
+      "disproportionate_deficit": "Because the internal capsule concentrates fibres serving the ENTIRE contralateral body/face into such a small physical space, even a small-volume lacunar infarct here can cause a severe, complete hemiplegia \u2014 a disproportion between infarct SIZE and deficit SEVERITY that is a hallmark, teaching-worthy feature of internal capsule strokes specifically, contrasting with similarly-sized infarcts elsewhere in the brain that might cause much more limited deficits."
+    },
+    "related_structures": "The internal capsule's genu/posterior-limb boundary and the somatotopic (face-anterior, leg-posterior) organisation within the posterior limb are the two most exam-relevant structural details \u2014 together, they explain both WHY complete contralateral hemiplegia occurs with posterior limb lesions (concentrated fibres) and WHY the specific PATTERN of weakness (which body part most affected) can vary depending on exactly where within the posterior limb the lesion sits."
+  },
+  "question_family": [
+    {
+      "family_name": "Internal Capsule \u2014 Structure, Vascular Supply, and Lacunar Stroke (4 angles, one concept)",
+      "member_ids": [
+        "anat_internal_capsule_0001",
+        "anat_internal_capsule_0002",
+        "anat_internal_capsule_0003",
+        "anat_internal_capsule_0004"
+      ],
+      "coverage": "Recall (posterior limb fibre content), mechanism (lenticulostriate blood supply), clinical vignette (pure motor hemiparesis), and diagnostic reasoning (somatotopic lesion localisation) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_internal_capsule_0001",
+      "subject": "Anatomy",
+      "topic": "Internal Capsule",
+      "subtopic": "Three-part structure",
+      "concept": "Internal capsule structure, blood supply, and lacunar stroke (pure motor hemiparesis)",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "The internal capsule is divided into three parts. Which fibre tracts characteristically run through the posterior limb specifically?",
+      "options": [
+        "Corticospinal fibres (to the body), somatotopically arranged, plus thalamocortical sensory radiations",
+        "Corticobulbar fibres (to cranial nerve nuclei) exclusively",
+        "Frontopontine fibres exclusively",
+        "Olfactory tract fibres exclusively"
+      ],
+      "correct_answer": "Corticospinal fibres (to the body), somatotopically arranged, plus thalamocortical sensory radiations",
+      "distractor_rationale": {
+        "Corticobulbar fibres (to cranial nerve nuclei) exclusively": "Corticobulbar fibres run through the GENU specifically, not the posterior limb.",
+        "Frontopontine fibres exclusively": "Frontopontine fibres run through the ANTERIOR limb, not the posterior limb.",
+        "Olfactory tract fibres exclusively": "The olfactory tract has no significant relationship to the internal capsule's fibre content."
+      },
+      "explanation": {
+        "core_concept": "Correctly assigning fibre tracts to each of the three internal capsule parts (anterior limb, genu, posterior limb) is the essential foundation for understanding lesion localisation \u2014 the posterior limb's corticospinal content specifically is what explains the classic pure motor stroke syndrome covered elsewhere in this chapter.",
+        "why_correct": "The posterior limb of the internal capsule carries corticospinal fibres (descending motor fibres to the body), somatotopically arranged (face anterior, leg posterior), along with thalamocortical sensory radiations and, in its most posterior portions, some visual/auditory radiation fibres.",
+        "why_others_wrong": {
+          "Corticobulbar fibres (to cranial nerve nuclei) exclusively": "These run through the GENU, the bend between anterior and posterior limbs, not the posterior limb itself.",
+          "Frontopontine fibres exclusively": "Run through the ANTERIOR limb, not the posterior limb.",
+          "Olfactory tract fibres exclusively": "Not part of the internal capsule's fibre content."
+        },
+        "high_yield_facts": [
+          "Anterior limb: frontopontine + thalamocortical (frontal lobe) fibres.",
+          "Genu: corticobulbar fibres.",
+          "Posterior limb: corticospinal fibres (somatotopic) + thalamocortical sensory radiations (+ some visual/auditory fibres posteriorly)."
+        ],
+        "clinical_correlation": "This precise fibre-to-location mapping directly predicts the clinical deficit pattern of a lesion at each specific internal capsule location \u2014 posterior limb lesions specifically explain pure motor hemiparesis, covered elsewhere in this chapter.",
+        "common_confusions": [
+          "Mixing up which specific fibre tracts run through which of the three internal capsule parts \u2014 each part has a genuinely distinct, specific fibre content worth memorising precisely."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Somatotopic organisation within the posterior limb (this concept, other question)",
+          "Lacunar stroke and pure motor hemiparesis (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't lump all internal capsule fibres together as a single undifferentiated 'motor and sensory pathway' \u2014 the THREE-PART division with distinct fibre content per part is exactly what's tested."
+        ],
+        "image_clues": null,
+        "memory_aid": "Anterior=frontal lobe fibres, Genu=face/cranial nerves (corticobulbar), Posterior=body (corticospinal) \u2014 following the brain's own front-to-back organisation.",
+        "other_ways_this_is_tested": [
+          "This structural foundation underlies the somatotopic organisation and lacunar stroke questions elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The internal capsule's posterior limb carries corticospinal fibres (somatotopically arranged) plus thalamocortical sensory radiations \u2014 distinct from the anterior limb (frontopontine/thalamocortical frontal fibres) and genu (corticobulbar fibres).",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, internal capsule section."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the fibre content of the internal capsule's posterior limb, contrasting with the anterior limb and genu.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_internal_capsule_0002",
+      "subject": "Anatomy",
+      "topic": "Internal Capsule",
+      "subtopic": "Blood supply",
+      "concept": "Internal capsule structure, blood supply, and lacunar stroke (pure motor hemiparesis)",
+      "question_type": "mechanism",
+      "difficulty": 3,
+      "question": "The internal capsule is particularly susceptible to lacunar (small vessel) infarction. Which vessels supply the internal capsule, and what property makes them prone to this specific stroke type?",
+      "options": [
+        "Lenticulostriate arteries \u2014 small-calibre, deep perforating branches of the middle cerebral artery, particularly prone to lipohyalinosis and occlusion in the context of chronic hypertension",
+        "The posterior cerebral artery directly, a large-calibre vessel not typically associated with lacunar infarction",
+        "The anterior spinal artery, which has no anatomical relationship to the internal capsule",
+        "The internal capsule has no dedicated blood supply and relies entirely on diffusion from surrounding structures"
+      ],
+      "correct_answer": "Lenticulostriate arteries \u2014 small-calibre, deep perforating branches of the middle cerebral artery, particularly prone to lipohyalinosis and occlusion in the context of chronic hypertension",
+      "distractor_rationale": {
+        "The posterior cerebral artery directly, a large-calibre vessel not typically associated with lacunar infarction": "The internal capsule's dominant supply is from the small, deep-perforating lenticulostriate arteries (MCA branches), not the PCA directly.",
+        "The anterior spinal artery, which has no anatomical relationship to the internal capsule": "The anterior spinal artery supplies the spinal cord, not the internal capsule \u2014 an anatomically unrelated vessel.",
+        "The internal capsule has no dedicated blood supply and relies entirely on diffusion from surrounding structures": "Denies a genuine, well-characterised dedicated arterial supply essential to understanding this structure's stroke vulnerability."
+      },
+      "explanation": {
+        "core_concept": "Understanding lenticulostriate arteries' small calibre and hypertension-related vulnerability (lipohyalinosis) is exactly what explains WHY the internal capsule is such a classic, frequently tested lacunar stroke location \u2014 the vascular anatomy directly predicts the pathology.",
+        "why_correct": "The internal capsule (along with the basal ganglia) is supplied predominantly by lenticulostriate arteries, small-calibre, deep perforating branches arising from the middle cerebral artery's proximal (M1) segment. These small vessels are particularly susceptible to lipohyalinosis (a small-vessel degenerative process) and subsequent occlusion, especially in patients with chronic hypertension \u2014 making the internal capsule one of the most classic locations for lacunar (small vessel) infarction.",
+        "why_others_wrong": {
+          "The posterior cerebral artery directly, a large-calibre vessel not typically associated with lacunar infarction": "Not the internal capsule's dominant supply, and PCA territory strokes are typically larger-vessel events with a different clinical pattern.",
+          "The anterior spinal artery, which has no anatomical relationship to the internal capsule": "Supplies the spinal cord, an anatomically unrelated structure.",
+          "The internal capsule has no dedicated blood supply and relies entirely on diffusion from surrounding structures": "Denies a genuine, well-characterised arterial supply."
+        },
+        "high_yield_facts": [
+          "Internal capsule blood supply = lenticulostriate arteries (small, deep MCA perforating branches).",
+          "These small vessels are classically prone to lipohyalinosis/occlusion in chronic hypertension \u2014 the vascular basis for lacunar stroke here.",
+          "This is one of the MOST classic lacunar stroke locations, directly explaining the pure motor hemiparesis syndrome covered elsewhere in this chapter."
+        ],
+        "clinical_correlation": "Recognising this vascular vulnerability directly informs stroke risk factor management (blood pressure control specifically) as the primary preventive strategy for lacunar strokes in this and other classic lacunar territories.",
+        "common_confusions": [
+          "Assuming all strokes reflect large-vessel (cortical territory) occlusion \u2014 lacunar strokes specifically reflect small-vessel (perforating artery) disease, a genuinely different mechanism with different risk factors and typically different clinical presentation (focal, often 'pure' syndromes without cortical signs)."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pure motor hemiparesis and lacunar stroke syndrome (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Don't assume internal capsule strokes are large-vessel/cortical events \u2014 actively recall the lenticulostriate/small-vessel mechanism, which directly explains the classic 'pure' (no cortical signs) lacunar syndrome pattern."
+        ],
+        "image_clues": null,
+        "memory_aid": "Lenticulostriate = 'the arteries of stroke' in classic teaching \u2014 small vessels, big (hypertension-related) trouble.",
+        "other_ways_this_is_tested": [
+          "This vascular mechanism directly explains why lacunar strokes classically occur at this location, setting up the pure motor hemiparesis clinical vignette elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The internal capsule is supplied by lenticulostriate arteries \u2014 small, deep MCA perforating branches particularly prone to hypertension-related lipohyalinosis and occlusion \u2014 making it one of the most classic locations for lacunar (small vessel) stroke.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard vascular neurology references on lacunar stroke."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Identify lenticulostriate arteries as the internal capsule's blood supply and their vulnerability to lacunar infarction.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_internal_capsule_0003",
+      "subject": "Anatomy",
+      "topic": "Internal Capsule",
+      "subtopic": "Clinical \u2014 pure motor hemiparesis",
+      "concept": "Internal capsule structure, blood supply, and lacunar stroke (pure motor hemiparesis)",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A 68-year-old hypertensive man develops sudden-onset weakness of the right face, arm, and leg equally, without any sensory loss, visual field defect, aphasia, or neglect. MRI shows a small infarct in the posterior limb of the left internal capsule. Why does such a small infarct produce this complete, severe pattern of weakness, and why are sensory/cortical functions specifically spared?",
+      "options": [
+        "The posterior limb concentrates ALL descending corticospinal fibres to the contralateral face/arm/leg into a very small space, so even a small infarct there affects the complete motor pathway; sensory/cortical functions are spared because this is a PURE motor lacunar syndrome, sparing the separately-organised sensory radiations and not involving the cortex itself",
+        "This presentation is inconsistent with a small internal capsule infarct; such a severe, complete deficit could only result from a large cortical stroke",
+        "The weakness reflects damage limited to the corticobulbar fibres in the genu, unrelated to the posterior limb finding on imaging",
+        "Sensory sparing indicates the infarct must actually be in the thalamus, not the internal capsule, despite the imaging finding"
+      ],
+      "correct_answer": "The posterior limb concentrates ALL descending corticospinal fibres to the contralateral face/arm/leg into a very small space, so even a small infarct there affects the complete motor pathway; sensory/cortical functions are spared because this is a PURE motor lacunar syndrome, sparing the separately-organised sensory radiations and not involving the cortex itself",
+      "distractor_rationale": {
+        "This presentation is inconsistent with a small internal capsule infarct; such a severe, complete deficit could only result from a large cortical stroke": "Directly contradicts the well-established, classic teaching point that internal capsule lacunar infarcts characteristically produce SEVERE deficits DESPITE small infarct size \u2014 precisely because of fibre concentration, not requiring a large cortical lesion.",
+        "The weakness reflects damage limited to the corticobulbar fibres in the genu, unrelated to the posterior limb finding on imaging": "Corticobulbar (genu) damage alone wouldn't explain BODY (arm/leg) weakness \u2014 the described face+arm+leg pattern specifically implicates the posterior limb's corticospinal fibres, consistent with the actual imaging finding.",
+        "Sensory sparing indicates the infarct must actually be in the thalamus, not the internal capsule, despite the imaging finding": "Denies the imaging finding in favour of an unsupported alternative \u2014 a posterior limb lesion CAN selectively affect corticospinal fibres while sparing the separately-organised sensory radiations within the SAME structure, without needing to invoke a different location entirely."
+      },
+      "explanation": {
+        "core_concept": "This vignette is THE classic lacunar stroke syndrome \u2014 pure motor hemiparesis \u2014 and understanding WHY it happens (fibre concentration) and WHY it's 'pure' (selective corticospinal involvement without cortex or sensory radiation involvement) is what makes this pattern recognisable and clinically distinct from cortical stroke syndromes.",
+        "why_correct": "The posterior limb of the internal capsule concentrates essentially ALL descending corticospinal fibres destined for the contralateral face, arm, and leg into a very compact area \u2014 so even a small-volume lacunar infarct here can interrupt the complete motor pathway, producing severe, complete contralateral weakness disproportionate to the infarct's physical size. Sensory loss, visual field defects, and cortical signs (aphasia, neglect) are absent because this is a PURE MOTOR lacunar syndrome \u2014 the infarct is small and localised enough to selectively affect the corticospinal fibres without extending to the separately-organised thalamocortical sensory radiations (also passing through the posterior limb, but in a somewhat different, non-identical location) or to the cerebral cortex itself (where sensory processing, language, and attention/neglect functions are actually generated).",
+        "why_others_wrong": {
+          "This presentation is inconsistent with a small internal capsule infarct; such a severe, complete deficit could only result from a large cortical stroke": "Directly contradicts the classic, well-established teaching that internal capsule lacunar infarcts produce SEVERE deficits from SMALL lesions, precisely because of fibre concentration \u2014 no large cortical lesion is required.",
+          "The weakness reflects damage limited to the corticobulbar fibres in the genu, unrelated to the posterior limb finding on imaging": "Corticobulbar (genu) damage alone doesn't explain body (arm/leg) weakness \u2014 the described pattern specifically matches posterior limb corticospinal involvement, consistent with the imaging.",
+          "Sensory sparing indicates the infarct must actually be in the thalamus, not the internal capsule, despite the imaging finding": "Unnecessarily invokes an alternative location when the imaging-confirmed posterior limb lesion, with selective corticospinal involvement, fully explains the presentation without needing to override the actual imaging finding."
+        },
+        "high_yield_facts": [
+          "Pure motor hemiparesis: face+arm+leg weakness equally, WITHOUT sensory loss, visual field defect, or cortical signs \u2014 the classic, most common lacunar stroke syndrome.",
+          "Location: posterior limb of the internal capsule (corticospinal fibre concentration).",
+          "Small lesion, big deficit \u2014 the disproportion between infarct SIZE and deficit SEVERITY is the hallmark teaching point of internal capsule lacunar stroke specifically."
+        ],
+        "clinical_correlation": "Recognising pure motor hemiparesis as a classic lacunar syndrome (rather than assuming any severe hemiparesis must reflect a large cortical stroke) directly guides appropriate stroke workup and secondary prevention strategy, which for lacunar strokes centres heavily on blood pressure and other small-vessel risk factor control.",
+        "common_confusions": [
+          "Assuming deficit severity must correlate with infarct size \u2014 the internal capsule is specifically the counter-example demonstrating that fibre CONCENTRATION, not lesion size, determines deficit severity at this particular location."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Lenticulostriate artery vulnerability (this concept, the mechanism question)",
+          "Somatotopic organisation within the posterior limb (this concept, other question) \u2014 relevant when weakness is NOT equal across face/arm/leg, pointing to a more restricted lesion location"
+        ],
+        "exam_traps": [
+          "Don't assume a severe, complete hemiparesis rules out a small lacunar infarct \u2014 the internal capsule is specifically where small lesions produce disproportionately severe, complete deficits, precisely opposite to what intuition might suggest."
+        ],
+        "image_clues": null,
+        "memory_aid": "Small lake, whole river blocked \u2014 the posterior limb is so narrow that even a tiny infarct dams the entire motor flow to one side of the body.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct clinical payoff of the fibre-concentration and blood-supply facts established earlier in this chapter."
+        ],
+        "neet_pg_takeaway": "Pure motor hemiparesis (equal face/arm/leg weakness, no sensory/cortical involvement) results from a posterior limb internal capsule lacunar infarct \u2014 even a small lesion causes severe, complete deficit because of the extreme concentration of corticospinal fibres in this small space.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard vascular neurology references on lacunar stroke syndromes."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain pure motor hemiparesis as the classic lacunar stroke syndrome resulting from posterior limb internal capsule infarction.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_internal_capsule_0004",
+      "subject": "Anatomy",
+      "topic": "Internal Capsule",
+      "subtopic": "Somatotopic organisation",
+      "concept": "Internal capsule structure, blood supply, and lacunar stroke (pure motor hemiparesis)",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "Within the posterior limb of the internal capsule, corticospinal fibres are somatotopically arranged from anterior to posterior (face, then arm, then leg). A patient has a small lacunar infarct affecting only the MOST POSTERIOR portion of the posterior limb. Which body part would be expected to show the MOST severe weakness?",
+      "options": [
+        "The leg (most posterior corticospinal fibres)",
+        "The face (most anterior corticospinal fibres)",
+        "The arm exclusively, with complete sparing of both face and leg",
+        "All body parts would be affected completely equally, since somatotopic organisation doesn't apply within the posterior limb"
+      ],
+      "correct_answer": "The leg (most posterior corticospinal fibres)",
+      "distractor_rationale": {
+        "The face (most anterior corticospinal fibres)": "Face fibres are the MOST ANTERIOR within the posterior limb (closest to the genu) \u2014 a lesion in the MOST POSTERIOR portion would be expected to spare face fibres relatively more, not affect them most severely.",
+        "The arm exclusively, with complete sparing of both face and leg": "Arm fibres sit in the MIDDLE of this anterior-to-posterior somatotopic arrangement \u2014 a posterior-most lesion would be expected to affect leg fibres most, not arm fibres exclusively.",
+        "All body parts would be affected completely equally, since somatotopic organisation doesn't apply within the posterior limb": "Denies the genuine, well-established somatotopic arrangement specifically within the posterior limb, which is precisely why a restricted lesion CAN produce disproportionate involvement of one body part over others."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question applies the somatotopic organisation fact to predict a specific clinical pattern from a specific, restricted lesion location \u2014 demonstrating that the classic 'complete, equal' pure motor hemiparesis pattern isn't the ONLY possible presentation; a smaller, more restricted lesion within the posterior limb can produce disproportionate, body-part-specific weakness instead.",
+        "why_correct": "Because corticospinal fibres within the posterior limb are somatotopically arranged with LEG fibres in the most POSTERIOR position, a lacunar infarct restricted to the most posterior portion of the posterior limb would be expected to most severely affect the LEG, with relatively greater sparing of the face and arm (whose fibres sit more anteriorly, further from this restricted lesion).",
+        "why_others_wrong": {
+          "The face (most anterior corticospinal fibres)": "Face fibres sit at the OPPOSITE (most anterior) end of this somatotopic arrangement \u2014 a posterior-most lesion would be expected to spare, not most affect, the face.",
+          "The arm exclusively, with complete sparing of both face and leg": "Arm fibres occupy the MIDDLE position \u2014 a posterior-most lesion is specifically positioned closer to leg fibres, not arm fibres, making leg involvement the more expected predominant finding.",
+          "All body parts would be affected completely equally, since somatotopic organisation doesn't apply within the posterior limb": "Denies the genuine somatotopic organisation that specifically explains why restricted lesions CAN produce disproportionate, body-part-specific patterns rather than always producing the 'complete, equal' pattern."
+        },
+        "high_yield_facts": [
+          "Posterior limb somatotopy (anterior to posterior): face \u2192 arm \u2192 leg.",
+          "A lesion restricted to one part of this anterior-posterior gradient can produce disproportionate weakness of the corresponding body part, rather than the 'complete, equal' pure motor hemiparesis pattern seen with more extensive posterior limb involvement.",
+          "This somatotopic reasoning is directly analogous to (and worth comparing with) the motor cortex's own somatotopic organisation (the motor homunculus) \u2014 the internal capsule essentially funnels the cortex's own somatotopic map into a compact bottleneck."
+        ],
+        "clinical_correlation": "Recognising that lacunar stroke presentations can show disproportionate (not just equal, 'complete') weakness patterns, depending on exact lesion location within the posterior limb, helps avoid dismissing a lacunar stroke diagnosis simply because the deficit isn't perfectly equal across face/arm/leg.",
+        "common_confusions": [
+          "Assuming ALL internal capsule lacunar strokes must produce the 'textbook' complete, equal face+arm+leg weakness pattern \u2014 smaller, more restricted lesions within the posterior limb can produce a more selective, somatotopically-predictable pattern instead."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Pure motor hemiparesis (this concept, the classic 'complete' presentation, for contrast)",
+          "Motor cortex somatotopic organisation (motor homunculus, a related but separate topic)"
+        ],
+        "exam_traps": [
+          "When a vignette describes DISPROPORTIONATE weakness (e.g. leg much worse than face/arm) rather than equal involvement, use the somatotopic organisation to correctly localise the lesion within the posterior limb, rather than assuming this pattern rules out an internal capsule cause altogether."
+        ],
+        "image_clues": null,
+        "memory_aid": "Face up front (near the genu), leg out back \u2014 a lesion's position along this line predicts which body part suffers most.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question extends the somatotopic fact established in the first question of this chapter into a genuine, applied clinical localisation exercise."
+        ],
+        "neet_pg_takeaway": "Within the posterior limb's anterior-to-posterior somatotopic organisation (face, arm, leg), a lesion restricted to the most posterior portion would be expected to most severely affect the leg \u2014 demonstrating that restricted internal capsule lesions can produce disproportionate, predictable patterns of weakness.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Snell's Clinical Neuroanatomy, internal capsule and corticospinal tract sections."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Apply the posterior limb's somatotopic organisation to predict which body part is most affected by a restricted lesion location.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

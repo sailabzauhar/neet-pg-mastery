@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0068",
+    "topic": "Heart - Blood Supply",
+    "chapter_number": 68,
+    "chapter_file": "data/anatomy/ch68_heart_blood_supply.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 4,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 0,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "direct_recall",
+      "clinical_vignette",
+      "association",
+      "diagnostic_reasoning"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "This chapter's structural logic (a single vessel's combined territory explaining a multi-system clinical presentation) directly parallels the Cerebellum Blood Supply chapter's PICA/Wallenberg syndrome content \u2014 genuinely complementary, different organ systems, explicitly cross-referenced.",
+    "build_standard_note": "One deeply-covered concept, 4 genuinely applicable question types, verified against validate_chapter.py.",
+    "note": "Dedup pass completed \u2014 no duplicate concepts found within this file; this is the first dedicated cardiac blood supply chapter."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "The heart's blood supply divides between the RIGHT coronary artery (RCA) and LEFT coronary artery (via its two main branches, LAD and circumflex) \u2014 with CORONARY DOMINANCE (determined by which artery gives rise to the posterior descending/interventricular artery, supplying the inferior wall and posterior third of the septum) being a genuinely important, frequently tested classification with direct implications for predicting the territory and consequences of occlusion at different specific sites."
+    },
+    "structure_anatomy": {
+      "rca_territory": "RCA: supplies the right atrium, most of the right ventricle, and (in the RIGHT-dominant circulation, present in the majority of people) gives rise to the POSTERIOR DESCENDING ARTERY (PDA), supplying the inferior wall of the left ventricle and the posterior third of the interventricular septum. The RCA also typically supplies the SA node (in the large majority of people) and the AV node (in most people) \u2014 making RCA occlusion a classic cause of bradyarrhythmias.",
+      "lad_territory": "LAD (left anterior descending, a branch of the left coronary artery): supplies the anterior wall of the left ventricle and the anterior two-thirds of the interventricular septum \u2014 given the LARGE territory and CRITICAL structures (much of the conduction system's distal components, plus the bulk of LV anterior wall) this vessel supplies, LAD occlusion is sometimes called the 'widow-maker' given its potential for severe, extensive myocardial damage and high mortality.",
+      "circumflex_territory": "Circumflex artery (the other main branch of the left coronary artery): supplies the lateral wall of the left ventricle.",
+      "coronary_dominance": "Coronary dominance is determined by WHICH artery gives rise to the posterior descending artery: RIGHT dominance (majority, ~70-80% of people) = RCA gives rise to the PDA. LEFT dominance (minority) = the circumflex artery (a left coronary artery branch) gives rise to the PDA instead. CO-dominance (a smaller minority) = both RCA and circumflex contribute to this territory. This classification directly determines which vessel's occlusion produces INFERIOR wall MI specifically \u2014 RCA in right-dominant hearts (the majority), circumflex in left-dominant hearts."
+    },
+    "clinical": {
+      "inferior_mi_and_conduction_disturbances": "Because the RCA supplies the SA node (in most people) and AV node (in most people) IN ADDITION to the inferior wall (via the PDA in right-dominant circulation), RCA occlusion (inferior wall MI) is classically associated with bradyarrhythmias and AV block \u2014 a genuinely useful, specific clinical correlation directly reflecting this vessel's combined conduction-system-plus-myocardial territory, distinct from anterior wall MI (LAD occlusion), which more classically causes pump failure/cardiogenic shock and different rhythm disturbances (given LAD's own distal conduction system contributions, particularly to the bundle branches).",
+      "lad_widow_maker": "LAD occlusion, particularly proximal occlusion (before it gives off major branches), is sometimes termed the 'widow-maker' given the LARGE myocardial territory at risk (anterior LV wall plus anterior septum) and the correspondingly high potential for severe pump failure, cardiogenic shock, and mortality if not rapidly treated \u2014 reflecting this vessel's outsized contribution to overall LV function compared to the other coronary vessels.",
+      "ecg_localisation": "Different ECG lead groups reflect different coronary territories, directly connecting to this anatomical framework: inferior leads (II, III, aVF) reflect the RCA/PDA territory; anterior/septal leads (V1-V4) reflect LAD territory; lateral leads (I, aVL, V5-V6) reflect circumflex territory \u2014 a genuinely practical, clinically essential application of this coronary anatomy, allowing ECG changes to directly predict which specific vessel is likely occluded."
+    },
+    "related_structures": "The RCA's combined supply of BOTH the SA/AV nodes AND (via the PDA in right dominance) the inferior myocardial wall is the single fact explaining why inferior MI so specifically, classically produces bradyarrhythmias \u2014 a genuinely coherent structure-function-clinical-consequence story, directly parallel in logic to how PICA's combined cerebellar-plus-medullary territory (see the Cerebellum Blood Supply chapter) explains Wallenberg syndrome's multi-system presentation."
+  },
+  "question_family": [
+    {
+      "family_name": "Heart Blood Supply \u2014 Coronary Dominance, RCA/LAD Territories, and ECG Localisation (4 angles, one concept)",
+      "member_ids": [
+        "anat_heart_blood_supply_0001",
+        "anat_heart_blood_supply_0002",
+        "anat_heart_blood_supply_0003",
+        "anat_heart_blood_supply_0004"
+      ],
+      "coverage": "Recall (coronary dominance definition), clinical vignette (inferior MI/bradyarrhythmia), association (LAD widow-maker territory), and diagnostic reasoning (ECG lead-to-territory localisation) \u2014 four genuinely different angles on the same integrated concept."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_heart_blood_supply_0001",
+      "subject": "Anatomy",
+      "topic": "Heart - Blood Supply",
+      "subtopic": "Coronary dominance",
+      "concept": "Coronary dominance (RCA vs circumflex giving rise to the PDA) and the RCA's combined SA/AV node plus inferior wall territory explaining inferior MI's bradyarrhythmia association",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "Coronary dominance is determined by which specific criterion?",
+      "options": [
+        "Which artery (RCA or circumflex) gives rise to the posterior descending artery (PDA)",
+        "Which artery is anatomically larger in overall calibre, regardless of its specific branches",
+        "Which artery supplies the SA node specifically, regardless of any other territory",
+        "Which artery arises first from the aortic root, based purely on order of origin"
+      ],
+      "correct_answer": "Which artery (RCA or circumflex) gives rise to the posterior descending artery (PDA)",
+      "distractor_rationale": {
+        "Which artery is anatomically larger in overall calibre, regardless of its specific branches": "Not the defining criterion \u2014 dominance is specifically about WHICH VESSEL gives rise to the PDA, not a generic size comparison.",
+        "Which artery supplies the SA node specifically, regardless of any other territory": "SA node supply (typically RCA, in most people) is a SEPARATE fact from dominance classification \u2014 dominance is specifically about the PDA origin, not SA node supply.",
+        "Which artery arises first from the aortic root, based purely on order of origin": "Not the defining criterion for dominance \u2014 this classification is specifically about PDA origin, not order of arterial origin from the aorta."
+      },
+      "explanation": {
+        "core_concept": "Correctly defining coronary dominance by its SPECIFIC criterion (PDA origin) \u2014 rather than a vaguer notion like 'bigger vessel' or 'more territory' \u2014 is essential, since this precise definition is exactly what determines which vessel's occlusion produces inferior wall MI in a given individual.",
+        "why_correct": "Coronary dominance is specifically determined by WHICH artery gives rise to the posterior descending (posterior interventricular) artery: right dominance (the majority pattern) means the RCA gives rise to the PDA; left dominance (a minority pattern) means the circumflex artery gives rise to it instead; co-dominance means both contribute.",
+        "why_others_wrong": {
+          "Which artery is anatomically larger in overall calibre, regardless of its specific branches": "Not the defining criterion \u2014 dominance is specifically about PDA origin, not a general size comparison.",
+          "Which artery supplies the SA node specifically, regardless of any other territory": "SA node supply is a separate, related fact, not the defining criterion for dominance classification itself.",
+          "Which artery arises first from the aortic root, based purely on order of origin": "Not the relevant criterion for this specific classification."
+        },
+        "high_yield_facts": [
+          "Coronary dominance = defined by WHICH vessel gives rise to the POSTERIOR DESCENDING ARTERY (PDA).",
+          "RIGHT dominance (majority, ~70-80%): RCA \u2192 PDA.",
+          "LEFT dominance (minority): circumflex \u2192 PDA. CO-dominance: both contribute."
+        ],
+        "clinical_correlation": "This classification directly determines which specific vessel's occlusion produces inferior wall MI in a given patient \u2014 genuinely important for correctly interpreting coronary angiography findings and predicting the consequences of occlusion at different sites.",
+        "common_confusions": [
+          "Assuming dominance relates to overall vessel size or general territory extent \u2014 it's specifically, precisely defined by PDA origin alone, a genuinely narrow, specific criterion worth remembering exactly."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "RCA territory and inferior MI bradyarrhythmias (this concept, other question) \u2014 directly building on this dominance concept"
+        ],
+        "exam_traps": [
+          "Don't define coronary dominance vaguely (e.g. 'bigger vessel') \u2014 actively recall the SPECIFIC, precise criterion: which vessel gives rise to the PDA."
+        ],
+        "image_clues": null,
+        "memory_aid": "Dominance is all about who 'owns' the PDA \u2014 whoever gives rise to that one specific vessel wins the dominance title.",
+        "other_ways_this_is_tested": [
+          "This precise definition is essential context for understanding the RCA's combined territory and inferior MI's clinical consequences, covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "Coronary dominance is specifically determined by which artery (RCA or circumflex) gives rise to the posterior descending artery \u2014 right dominance (RCA\u2192PDA) is the majority pattern, with left dominance (circumflex\u2192PDA) and co-dominance as less common alternatives.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard cardiology/cardiac anatomy references on coronary artery dominance classification."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Define coronary dominance by the specific criterion of which vessel gives rise to the posterior descending artery.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_heart_blood_supply_0002",
+      "subject": "Anatomy",
+      "topic": "Heart - Blood Supply",
+      "subtopic": "Clinical \u2014 inferior MI and bradyarrhythmia",
+      "concept": "Coronary dominance (RCA vs circumflex giving rise to the PDA) and the RCA's combined SA/AV node plus inferior wall territory explaining inferior MI's bradyarrhythmia association",
+      "question_type": "clinical_vignette",
+      "difficulty": 4,
+      "question": "A patient presents with ST-elevation in leads II, III, and aVF (inferior MI), and is found to have new-onset bradycardia with a high-grade AV block. Which coronary artery is most likely occluded, and why does this specific MI location so classically produce this rhythm disturbance?",
+      "options": [
+        "The right coronary artery (RCA) \u2014 in the majority right-dominant circulation, the RCA supplies BOTH the inferior wall (via the PDA) AND the SA/AV nodes, so RCA occlusion directly compromises the conduction system's blood supply alongside the myocardial territory itself",
+        "The left anterior descending artery (LAD) \u2014 classically associated with bradyarrhythmias and AV block, given its extensive distal conduction system territory",
+        "The circumflex artery specifically, regardless of the patient's coronary dominance pattern, is always the vessel responsible for this exact presentation",
+        "This combination of ECG findings and rhythm disturbance has no established anatomical or physiological explanation and reflects a coincidental, unrelated process"
+      ],
+      "correct_answer": "The right coronary artery (RCA) \u2014 in the majority right-dominant circulation, the RCA supplies BOTH the inferior wall (via the PDA) AND the SA/AV nodes, so RCA occlusion directly compromises the conduction system's blood supply alongside the myocardial territory itself",
+      "distractor_rationale": {
+        "The left anterior descending artery (LAD) \u2014 classically associated with bradyarrhythmias and AV block, given its extensive distal conduction system territory": "LAD occlusion classically causes ANTERIOR (not inferior) MI, with different ECG leads (V1-V4) and more classically pump failure/cardiogenic shock rather than this specific bradyarrhythmia pattern \u2014 doesn't match the inferior lead ECG findings described.",
+        "The circumflex artery specifically, regardless of the patient's coronary dominance pattern, is always the vessel responsible for this exact presentation": "In the MAJORITY (right-dominant) pattern, it's specifically the RCA, not the circumflex, that supplies this territory and produces this presentation \u2014 the circumflex is only responsible for inferior MI in the MINORITY, left-dominant pattern.",
+        "This combination of ECG findings and rhythm disturbance has no established anatomical or physiological explanation and reflects a coincidental, unrelated process": "Denies a genuine, well-established, mechanistically coherent explanation for this classic clinical association."
+      },
+      "explanation": {
+        "core_concept": "This vignette is the direct clinical synthesis of the RCA's combined territory \u2014 recognising that the SAME vessel supplies both the inferior myocardial wall AND the conduction system's key nodes is exactly what explains why inferior MI so classically, specifically produces bradyarrhythmias, rather than this being two coincidentally co-occurring, unrelated findings.",
+        "why_correct": "ST-elevation in the inferior leads (II, III, aVF) indicates inferior wall MI, most commonly from RIGHT CORONARY ARTERY occlusion (in the majority right-dominant circulation, where the RCA gives rise to the PDA supplying this territory). Critically, the RCA ALSO supplies the SA node (in the large majority of people) and the AV node (in most people) \u2014 so RCA occlusion directly compromises blood flow to these key conduction structures alongside the inferior myocardium itself, directly explaining why inferior MI so classically, specifically produces bradyarrhythmias and AV block, genuinely distinct from anterior MI's more classic pump-failure-predominant presentation.",
+        "why_others_wrong": {
+          "The left anterior descending artery (LAD) \u2014 classically associated with bradyarrhythmias and AV block, given its extensive distal conduction system territory": "LAD occlusion causes ANTERIOR (not inferior) MI with different ECG leads, and is more classically associated with pump failure rather than this specific bradyarrhythmia pattern.",
+          "The circumflex artery specifically, regardless of the patient's coronary dominance pattern, is always the vessel responsible for this exact presentation": "Only responsible for this territory in the MINORITY, left-dominant pattern \u2014 in the majority (right-dominant) pattern, it's specifically the RCA.",
+          "This combination of ECG findings and rhythm disturbance has no established anatomical or physiological explanation and reflects a coincidental, unrelated process": "Denies a genuine, mechanistically coherent, well-established explanation."
+        },
+        "high_yield_facts": [
+          "Inferior MI (leads II, III, aVF) + bradyarrhythmia/AV block = classic RCA occlusion pattern (in the majority right-dominant circulation).",
+          "This directly reflects the RCA's COMBINED territory: inferior myocardial wall (via PDA) PLUS SA/AV nodes together \u2014 one vessel, two functionally different structures affected together.",
+          "This mirrors the SAME general pattern seen with PICA's combined cerebellar-plus-medullary territory (see Cerebellum Blood Supply chapter) \u2014 a single vessel's occlusion producing a multi-system presentation because of its combined anatomical territory."
+        ],
+        "clinical_correlation": "Recognising this classic ECG-to-vessel-to-rhythm-disturbance pattern directly guides appropriate monitoring (for bradyarrhythmia/heart block progression) and management planning (e.g. considering temporary pacing) in patients presenting with inferior MI specifically.",
+        "common_confusions": [
+          "Assuming any MI location could equally cause any rhythm disturbance \u2014 the SPECIFIC combination (inferior MI + bradyarrhythmia) reflects the RCA's SPECIFIC, combined conduction-system-plus-myocardial territory, a genuinely coherent, non-arbitrary clinical pattern worth understanding mechanistically."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Coronary dominance definition (this concept, the foundational question) \u2014 directly relevant to WHICH vessel supplies this territory in a given patient",
+          "LAD's own territory and 'widow-maker' significance (this concept, other question) \u2014 the contrasting anterior MI presentation"
+        ],
+        "exam_traps": [
+          "When inferior lead ECG changes (II, III, aVF) appear alongside bradyarrhythmia/AV block, directly connect this to RCA occlusion and its combined SA/AV node plus inferior wall territory, rather than defaulting to LAD or treating the rhythm disturbance as an unrelated, separate finding."
+        ],
+        "image_clues": null,
+        "memory_aid": "RCA feeds both the heart's 'pacemaker wiring' (SA/AV nodes) and the inferior wall \u2014 knock it out, and you get both a wall injury AND a rhythm problem together.",
+        "other_ways_this_is_tested": [
+          "This vignette directly applies the coronary dominance concept and RCA's combined territory to a genuine, classic, high-yield clinical presentation."
+        ],
+        "neet_pg_takeaway": "Inferior MI (ST-elevation in II, III, aVF) with bradyarrhythmia/AV block classically reflects RCA occlusion, since the RCA (in the majority right-dominant circulation) supplies both the inferior myocardial wall AND the SA/AV nodes together \u2014 a single vessel's combined territory explaining this specific, coherent clinical pattern.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard cardiology references on inferior MI and associated conduction disturbances."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain inferior MI's classic bradyarrhythmia association through the RCA's combined inferior wall and SA/AV node territory.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_heart_blood_supply_0003",
+      "subject": "Anatomy",
+      "topic": "Heart - Blood Supply",
+      "subtopic": "LAD 'widow-maker'",
+      "concept": "Coronary dominance (RCA vs circumflex giving rise to the PDA) and the RCA's combined SA/AV node plus inferior wall territory explaining inferior MI's bradyarrhythmia association",
+      "question_type": "association",
+      "difficulty": 3,
+      "question": "The left anterior descending artery (LAD) is sometimes called the 'widow-maker.' What territory does it supply, and why does its occlusion carry such a high-risk reputation?",
+      "options": [
+        "The anterior wall of the left ventricle and the anterior two-thirds of the interventricular septum \u2014 this large territory means proximal LAD occlusion can cause extensive myocardial damage, severe pump failure, cardiogenic shock, and high mortality",
+        "The inferior wall of the left ventricle exclusively, with the 'widow-maker' designation reflecting its association with fatal bradyarrhythmias specifically",
+        "The right atrium and SA node exclusively, with occlusion causing immediate cardiac arrest via conduction system failure alone",
+        "The LAD supplies a comparatively small, clinically insignificant myocardial territory, making the 'widow-maker' designation a significant overstatement"
+      ],
+      "correct_answer": "The anterior wall of the left ventricle and the anterior two-thirds of the interventricular septum \u2014 this large territory means proximal LAD occlusion can cause extensive myocardial damage, severe pump failure, cardiogenic shock, and high mortality",
+      "distractor_rationale": {
+        "The inferior wall of the left ventricle exclusively, with the 'widow-maker' designation reflecting its association with fatal bradyarrhythmias specifically": "This describes the RCA/PDA territory and its bradyarrhythmia association (covered elsewhere in this chapter), not the LAD's own distinct anterior wall territory and pump-failure-predominant risk profile.",
+        "The right atrium and SA node exclusively, with occlusion causing immediate cardiac arrest via conduction system failure alone": "This describes territory more associated with the RCA, not the LAD's own anterior LV/septal territory.",
+        "The LAD supplies a comparatively small, clinically insignificant myocardial territory, making the 'widow-maker' designation a significant overstatement": "Directly denies the LAD's genuinely large, clinically critical territory, which is precisely why this vessel earned its serious reputation."
+      },
+      "explanation": {
+        "core_concept": "The LAD's disproportionately large myocardial territory (anterior LV wall plus anterior septum) is THE single fact explaining its 'widow-maker' reputation \u2014 genuinely distinct from the RCA's more conduction-system-focused clinical significance (bradyarrhythmia), the LAD's risk profile centres on sheer territory size and resulting pump failure potential.",
+        "why_correct": "The LAD supplies the anterior wall of the left ventricle and the anterior two-thirds of the interventricular septum \u2014 a genuinely large myocardial territory. Proximal LAD occlusion (before it gives off major branches) can therefore cause extensive myocardial damage, severe pump failure, and cardiogenic shock, carrying a correspondingly high mortality risk \u2014 exactly the basis for its 'widow-maker' reputation among clinicians and the public alike.",
+        "why_others_wrong": {
+          "The inferior wall of the left ventricle exclusively, with the 'widow-maker' designation reflecting its association with fatal bradyarrhythmias specifically": "Describes the RCA's territory and clinical association, not the LAD's own distinct anterior wall/pump-failure profile.",
+          "The right atrium and SA node exclusively, with occlusion causing immediate cardiac arrest via conduction system failure alone": "Describes RCA-related territory, not the LAD's own anterior LV/septal supply.",
+          "The LAD supplies a comparatively small, clinically insignificant myocardial territory, making the 'widow-maker' designation a significant overstatement": "Directly denies the genuinely large territory that specifically earned this vessel its serious reputation."
+        },
+        "high_yield_facts": [
+          "LAD territory: ANTERIOR LV wall + anterior two-thirds of the interventricular SEPTUM \u2014 a genuinely LARGE myocardial territory.",
+          "'Widow-maker' reputation: reflects PUMP FAILURE/cardiogenic shock risk from this large territory's loss, NOT primarily a bradyarrhythmia mechanism (that's specifically the RCA's association instead).",
+          "This is a genuinely useful contrast with the RCA's OWN distinct clinical significance (bradyarrhythmia, via combined SA/AV node plus inferior wall territory) \u2014 two coronary vessels, two genuinely different characteristic clinical risk profiles."
+        ],
+        "clinical_correlation": "Recognising LAD occlusion (particularly proximal) as a high-risk, large-territory event directly informs the urgency of intervention (e.g. primary PCI) and appropriate escalation of care given the genuine potential for severe, rapidly progressive pump failure.",
+        "common_confusions": [
+          "Confusing the LAD's pump-failure-predominant risk profile with the RCA's bradyarrhythmia-predominant risk profile \u2014 these are genuinely DIFFERENT coronary vessels with genuinely different characteristic clinical consequences, each directly reflecting their own specific anatomical territory."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "RCA territory and bradyarrhythmia (this concept, other question) \u2014 the direct contrast case, illustrating genuinely different vessel-specific clinical risk profiles"
+        ],
+        "exam_traps": [
+          "Don't confuse the LAD's 'widow-maker' reputation (large territory, pump failure risk) with the RCA's bradyarrhythmia association \u2014 these reflect genuinely different vessels and genuinely different underlying mechanisms."
+        ],
+        "image_clues": null,
+        "memory_aid": "LAD feeds the biggest chunk of the pumping muscle \u2014 lose it, and the heart's whole pumping power can collapse, hence 'widow-maker.'",
+        "other_ways_this_is_tested": [
+          "This LAD-specific territory and risk profile completes the coronary anatomy picture alongside the RCA's own distinct territory and clinical significance covered elsewhere in this chapter."
+        ],
+        "neet_pg_takeaway": "The LAD supplies the anterior LV wall and anterior two-thirds of the interventricular septum \u2014 a large territory whose loss (particularly with proximal occlusion) can cause extensive damage and severe pump failure, the basis for its 'widow-maker' reputation, genuinely distinct from the RCA's bradyarrhythmia-focused clinical significance.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Standard cardiology references on LAD territory and clinical significance of proximal occlusion."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Describe the LAD's anterior LV wall/septal territory and explain its 'widow-maker' reputation via pump failure risk.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_heart_blood_supply_0004",
+      "subject": "Anatomy",
+      "topic": "Heart - Blood Supply",
+      "subtopic": "ECG localisation by coronary territory",
+      "concept": "Coronary dominance (RCA vs circumflex giving rise to the PDA) and the RCA's combined SA/AV node plus inferior wall territory explaining inferior MI's bradyarrhythmia association",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "A patient presents with chest pain and ST-elevation specifically in leads V1-V4. Based on the coronary anatomy framework, which vessel is most likely occluded, and what myocardial territory does this correspond to?",
+      "options": [
+        "The LAD \u2014 leads V1-V4 reflect the anterior/septal territory, matching the LAD's known supply of the anterior LV wall and anterior interventricular septum",
+        "The RCA \u2014 leads V1-V4 specifically reflect the inferior wall territory, matching the RCA's known supply pattern",
+        "The circumflex artery \u2014 leads V1-V4 specifically reflect the lateral wall territory supplied by this vessel",
+        "ECG lead groups have no established correlation with specific coronary artery territories, making this localisation approach invalid"
+      ],
+      "correct_answer": "The LAD \u2014 leads V1-V4 reflect the anterior/septal territory, matching the LAD's known supply of the anterior LV wall and anterior interventricular septum",
+      "distractor_rationale": {
+        "The RCA \u2014 leads V1-V4 specifically reflect the inferior wall territory, matching the RCA's known supply pattern": "The RCA/inferior wall territory is reflected by leads II, III, and aVF (the inferior leads), not V1-V4 \u2014 this option misassigns the lead-to-territory correlation.",
+        "The circumflex artery \u2014 leads V1-V4 specifically reflect the lateral wall territory supplied by this vessel": "The circumflex/lateral wall territory is reflected by leads I, aVL, and V5-V6 (the lateral leads), not V1-V4 \u2014 a different, specific lead group.",
+        "ECG lead groups have no established correlation with specific coronary artery territories, making this localisation approach invalid": "Denies a genuine, extensively validated, clinically essential ECG localisation framework, directly used in routine clinical practice."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question applies the complete ECG-to-coronary-territory framework established throughout this chapter \u2014 correctly matching the SPECIFIC lead group (V1-V4, anterior/septal) to the SPECIFIC vessel (LAD) whose known anatomical territory corresponds to that exact ECG distribution.",
+        "why_correct": "Leads V1-V4 are the anterior/septal precordial leads, directly reflecting the LAD's known anatomical territory (anterior LV wall and anterior two-thirds of the interventricular septum) \u2014 ST-elevation specifically in this lead group is the classic ECG signature of LAD occlusion (anterior MI), directly applying the coronary anatomy-to-ECG correlation framework.",
+        "why_others_wrong": {
+          "The RCA \u2014 leads V1-V4 specifically reflect the inferior wall territory, matching the RCA's known supply pattern": "Misassigns the inferior wall/RCA territory to the wrong lead group \u2014 inferior territory is specifically reflected by leads II, III, aVF, not V1-V4.",
+          "The circumflex artery \u2014 leads V1-V4 specifically reflect the lateral wall territory supplied by this vessel": "Misassigns the lateral wall/circumflex territory to the wrong lead group \u2014 lateral territory is specifically reflected by leads I, aVL, V5-V6, not V1-V4.",
+          "ECG lead groups have no established correlation with specific coronary artery territories, making this localisation approach invalid": "Denies a genuine, extensively validated, routinely clinically applied localisation framework."
+        },
+        "high_yield_facts": [
+          "V1-V4 (anterior/septal leads) \u2192 LAD territory.",
+          "II, III, aVF (inferior leads) \u2192 RCA territory (in the majority right-dominant circulation).",
+          "I, aVL, V5-V6 (lateral leads) \u2192 circumflex territory.",
+          "This complete lead-to-vessel mapping is a genuinely essential, routinely applied clinical tool, directly connecting basic coronary anatomy to real-time bedside ECG interpretation during suspected MI."
+        ],
+        "clinical_correlation": "This ECG localisation framework is used in essentially every suspected MI presentation, directly guiding rapid clinical decision-making (e.g. anticipating which specific complications to monitor for, based on the implicated vessel's known additional territory and typical associated risks) even before angiography confirms the exact occluded vessel.",
+        "common_confusions": [
+          "Mixing up which specific lead group corresponds to which specific coronary territory \u2014 each of the three main territories (anterior/septal, inferior, lateral) has its OWN specific, non-overlapping lead group, worth memorising precisely rather than approximately."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "LAD's territory and widow-maker significance (this concept, other question) \u2014 directly relevant to interpreting this specific ECG pattern's clinical urgency",
+          "RCA territory and inferior MI (this concept, other question) \u2014 the contrasting lead group/territory pairing"
+        ],
+        "exam_traps": [
+          "When specific ECG leads are given in a vignette, use the PRECISE lead-to-territory mapping (V1-V4=LAD/anterior-septal; II,III,aVF=RCA/inferior; I,aVL,V5-V6=circumflex/lateral) rather than approximating or guessing based on general impressions."
+        ],
+        "image_clues": null,
+        "memory_aid": "V1 to V4 look straight at the FRONT of the heart \u2014 exactly where the LAD does its work.",
+        "other_ways_this_is_tested": [
+          "This diagnostic reasoning question is the complete, practical clinical application of the coronary territory framework established throughout this chapter, directly usable at the bedside."
+        ],
+        "neet_pg_takeaway": "ST-elevation in leads V1-V4 indicates LAD occlusion (anterior/septal MI), directly reflecting the LAD's known anatomical territory \u2014 completing the full ECG-to-coronary-artery localisation framework alongside inferior (RCA) and lateral (circumflex) lead groups.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Standard cardiology references on ECG localisation of myocardial infarction by coronary territory."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Localise LAD occlusion from ST-elevation in leads V1-V4, applying the complete ECG-to-coronary-territory framework.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}

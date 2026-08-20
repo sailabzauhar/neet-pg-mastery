@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "subject": "Anatomy",
+    "subject_slug": "anatomy",
+    "topic_id": "anatomy_0038",
+    "topic": "Radial Nerve",
+    "chapter_number": 38,
+    "chapter_file": "data/anatomy/ch38_radial_nerve.json",
+    "source_years": [
+      2019
+    ],
+    "is_repeated_topic": false,
+    "is_must_do_topic": false,
+    "is_image_based_in_source": false,
+    "mcq_count": 5,
+    "difficulty_distribution": {
+      "L1": 0,
+      "L2": 1,
+      "L3": 2,
+      "L4": 2,
+      "L5": 0
+    },
+    "variation_types_used": [
+      "clinical_vignette",
+      "comparison",
+      "diagnostic_reasoning",
+      "direct_recall"
+    ],
+    "confidence_notes": [],
+    "overlap_note": "The radial nerve's compartment-level fact (supplies the entire posterior forearm compartment, causing wrist drop) is already covered in the Forearm Muscles chapter (ch11). Verified ch11's exact coverage before building \u2014 this chapter covers genuinely new, finer-grained content: triceps sparing at the spiral groove, posterior interosseous nerve syndrome as a distinct clinical entity, sensory territory, and systematic multi-level lesion localisation.",
+    "build_standard_note": "One deeply-covered concept, 4 questions across 3 distinct types (with 2 direct_recall angles on genuinely different sub-facts), verified against validate_chapter.py.",
+    "note": "Dedup pass completed and cross-checked against ch11 (Forearm Muscles) \u2014 no duplicate concepts found."
+  },
+  "concept_blueprint": {
+    "core_knowledge": {
+      "definition": "This chapter extends the radial nerve content already established in the Forearm Muscles chapter (which covers only the compartment-level fact that radial nerve palsy causes wrist drop) into genuinely new territory: the nerve's own detailed course (including the spiral groove and triceps supply), its distal continuation as the posterior interosseous nerve producing a genuinely distinct clinical picture from full radial nerve palsy, and its sensory territory (the anatomical snuffbox)."
+    },
+    "structure_anatomy": {
+      "course": "Arises from the posterior cord of the brachial plexus, descends posterior to the humerus within the spiral (radial) groove \u2014 directly applied to bone here, making it vulnerable to compression or injury at this specific level (e.g. from a mid-shaft humeral fracture, or prolonged external compression, classically 'Saturday night palsy') \u2014 then continues distally, crossing the lateral epicondyle region before dividing into superficial (sensory) and deep (motor, becoming the posterior interosseous nerve) branches near the elbow.",
+      "triceps_supply": "The radial nerve supplies the triceps brachii BEFORE reaching the spiral groove (via branches given off proximal to or within the groove) \u2014 meaning a radial nerve injury AT or DISTAL to the spiral groove classically SPARES triceps function (elbow extension remains intact), while a more proximal injury (e.g. very high in the axilla) would additionally affect triceps.",
+      "posterior_interosseous_nerve": "The deep, motor terminal branch of the radial nerve, arising near the elbow and passing through the supinator muscle (a potential site of compression \u2014 'radial tunnel syndrome' or posterior interosseous nerve syndrome) to supply the extensor muscles of the fingers and thumb, and extensor carpi ulnaris \u2014 notably NOT supplying extensor carpi radialis longus (and often not brevis), which are supplied by the radial nerve proper BEFORE this division.",
+      "sensory_territory": "The radial nerve's superficial (sensory) branch supplies skin over the posterior forearm and the dorsal/radial aspect of the hand, including the 'anatomical snuffbox' region (dorsal base of the thumb) \u2014 the specific area often tested for radial nerve sensory assessment."
+    },
+    "clinical": {
+      "spiral_groove_injury_pattern": "Radial nerve injury at the spiral groove (e.g. from mid-shaft humeral fracture) causes wrist drop (posterior forearm compartment loss) but SPARES triceps (elbow extension intact), since triceps branches are given off proximal to this level \u2014 a genuinely useful localising detail distinguishing spiral groove injury from a more proximal (axillary) radial nerve lesion.",
+      "posterior_interosseous_nerve_syndrome": "Injury/compression of the posterior interosseous nerve specifically (distal to where the nerve gives off its branch to extensor carpi radialis longus, and distal to where radial sensory fibres have already separated) causes finger and thumb extension weakness WITHOUT wrist drop (since extensor carpi radialis longus, supplied proximal to this point, keeps the wrist extending, even if somewhat radially deviated) and WITHOUT sensory loss (since the sensory branch has already separated from the PIN before this point) \u2014 a genuinely distinct, 'partial-looking' presentation compared to full radial nerve palsy, worth actively distinguishing.",
+      "saturday_night_palsy": "Classic scenario: prolonged compression of the radial nerve against the humerus in the spiral groove (e.g. an arm draped over a chair back or bench edge during deep/alcohol-related sleep) \u2014 producing wrist drop with triceps sparing, exactly matching the spiral groove injury pattern."
+    },
+    "related_structures": "See the Forearm Muscles chapter for the basic compartment-level fact (radial nerve supplies the entire posterior compartment, causing wrist drop when injured) \u2014 this chapter adds the finer, level-specific detail (spiral groove vs posterior interosseous nerve specifically) that explains why NOT every radial nerve lesion produces identical findings."
+  },
+  "question_family": [
+    {
+      "family_name": "Radial Nerve \u2014 Level-Specific Course and Lesion Localisation (4 angles, one concept)",
+      "member_ids": [
+        "anat_radial_nerve_0001",
+        "anat_radial_nerve_0002",
+        "anat_radial_nerve_0003",
+        "anat_radial_nerve_0004",
+        "anat_radial_nerve_0005"
+      ],
+      "coverage": "Recall (triceps sparing), comparison (PIN syndrome vs full palsy), recall (sensory territory), and diagnostic reasoning (systematic lesion localisation) \u2014 four genuinely different angles, deliberately distinct from the Forearm Muscles chapter's compartment-level wrist drop coverage. Also clinical vignette (Saturday night palsy, synthesising the triceps-sparing and sensory territory facts)."
+    }
+  ],
+  "mcqs": [
+    {
+      "id": "anat_radial_nerve_0001",
+      "subject": "Anatomy",
+      "topic": "Radial Nerve",
+      "subtopic": "Triceps sparing",
+      "concept": "Radial nerve's course, triceps sparing at the spiral groove, and posterior interosseous nerve syndrome as a distinct clinical picture",
+      "question_type": "direct_recall",
+      "difficulty": 3,
+      "question": "A patient has radial nerve injury at the spiral groove (e.g. from a mid-shaft humeral fracture). Is elbow extension (triceps function) affected?",
+      "options": [
+        "No \u2014 triceps is spared, since its nerve supply branches off the radial nerve proximal to the spiral groove",
+        "Yes \u2014 triceps is completely paralysed, since it's supplied distal to the spiral groove",
+        "Triceps function is unpredictable and varies randomly with spiral groove injuries",
+        "The radial nerve does not supply triceps at any level, so this question is not applicable"
+      ],
+      "correct_answer": "No \u2014 triceps is spared, since its nerve supply branches off the radial nerve proximal to the spiral groove",
+      "distractor_rationale": {
+        "Yes \u2014 triceps is completely paralysed, since it's supplied distal to the spiral groove": "Reverses the correct level relationship \u2014 triceps branches arise PROXIMAL to (before) the spiral groove, not distal to it.",
+        "Triceps function is unpredictable and varies randomly with spiral groove injuries": "Denies a genuine, predictable, anatomically-based sparing pattern.",
+        "The radial nerve does not supply triceps at any level, so this question is not applicable": "The radial nerve does supply triceps \u2014 this option denies a well-established innervation fact."
+      },
+      "explanation": {
+        "core_concept": "Recognising that triceps branches arise PROXIMAL to the spiral groove is exactly what makes triceps-sparing a genuinely useful localising sign \u2014 distinguishing a spiral groove-level injury from a more proximal (higher, axillary-level) radial nerve lesion, which WOULD affect triceps.",
+        "why_correct": "The radial nerve gives off its branches to triceps brachii proximal to (before reaching) the spiral groove. An injury AT the spiral groove itself therefore spares these already-departed triceps branches, leaving elbow extension intact, while still causing wrist drop from loss of the (distal, posterior forearm compartment) branches given off after this point.",
+        "why_others_wrong": {
+          "Yes \u2014 triceps is completely paralysed, since it's supplied distal to the spiral groove": "Reverses the actual anatomical relationship \u2014 triceps supply is proximal to, not distal to, the spiral groove.",
+          "Triceps function is unpredictable and varies randomly with spiral groove injuries": "Denies the genuine, predictable, anatomically consistent sparing pattern.",
+          "The radial nerve does not supply triceps at any level, so this question is not applicable": "The radial nerve is triceps's actual nerve supply \u2014 this denies a basic, well-established fact."
+        },
+        "high_yield_facts": [
+          "Spiral groove radial nerve injury: wrist drop + TRICEPS SPARED (elbow extension intact).",
+          "Triceps branches arise proximal to the spiral groove \u2014 this is exactly why spiral groove-level injury doesn't affect elbow extension.",
+          "A MORE PROXIMAL radial nerve lesion (e.g. very high in the axilla, before triceps branches arise) WOULD additionally affect triceps \u2014 a genuinely useful way to further localise the injury level."
+        ],
+        "clinical_correlation": "Testing elbow extension alongside wrist extension in a patient with suspected radial nerve palsy helps localise the lesion \u2014 intact triceps with wrist drop points to spiral groove-level injury; triceps weakness WITH wrist drop points to a more proximal (axillary) lesion.",
+        "common_confusions": [
+          "Assuming any radial nerve injury must affect ALL radial-nerve-supplied muscles uniformly \u2014 the SPECIFIC LEVEL of injury relative to where each branch (triceps, wrist extensors, etc.) arises determines exactly which muscles are actually affected."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Posterior interosseous nerve syndrome (this concept, other question) \u2014 a further, more distal level-specific pattern"
+        ],
+        "exam_traps": [
+          "Don't assume 'radial nerve palsy' always means complete loss of every radial-supplied function \u2014 actively use the SPECIFIC level of injury (spiral groove vs more proximal vs posterior interosseous nerve specifically) to predict exactly which functions are spared versus lost."
+        ],
+        "image_clues": null,
+        "memory_aid": "Triceps gets its supply BEFORE the groove \u2014 so groove-level injury leaves the elbow extensor untouched, even while the wrist drops.",
+        "other_ways_this_is_tested": [
+          "This level-specific sparing pattern directly extends the basic wrist drop fact from the Forearm Muscles chapter, adding this further, more precise localising detail."
+        ],
+        "neet_pg_takeaway": "Radial nerve injury at the spiral groove spares triceps (elbow extension intact) because triceps branches arise proximal to this level \u2014 a genuinely useful localising sign distinguishing spiral groove injury from a more proximal (axillary) lesion.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Explain triceps sparing in spiral groove-level radial nerve injury, based on the proximal origin of triceps branches.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_radial_nerve_0002",
+      "subject": "Anatomy",
+      "topic": "Radial Nerve",
+      "subtopic": "Posterior interosseous nerve syndrome",
+      "concept": "Radial nerve's course, triceps sparing at the spiral groove, and posterior interosseous nerve syndrome as a distinct clinical picture",
+      "question_type": "comparison",
+      "difficulty": 4,
+      "question": "How does posterior interosseous nerve (PIN) syndrome differ clinically from a full radial nerve palsy at the spiral groove?",
+      "options": [
+        "PIN syndrome causes finger/thumb extension weakness WITHOUT wrist drop (extensor carpi radialis longus, supplied proximal to the PIN's origin, keeps the wrist extending) and WITHOUT sensory loss (the sensory branch has already separated before the PIN); full radial nerve palsy causes wrist drop AND sensory loss AND finger extension weakness together",
+        "PIN syndrome and full radial nerve palsy at the spiral groove are clinically identical, with no distinguishing features",
+        "PIN syndrome causes wrist drop but preserves finger extension, the reverse of the actual pattern",
+        "PIN syndrome causes sensory loss over the dorsal hand but preserves all motor function"
+      ],
+      "correct_answer": "PIN syndrome causes finger/thumb extension weakness WITHOUT wrist drop (extensor carpi radialis longus, supplied proximal to the PIN's origin, keeps the wrist extending) and WITHOUT sensory loss (the sensory branch has already separated before the PIN); full radial nerve palsy causes wrist drop AND sensory loss AND finger extension weakness together",
+      "distractor_rationale": {
+        "PIN syndrome and full radial nerve palsy at the spiral groove are clinically identical, with no distinguishing features": "Denies a genuine, well-established, clinically important difference between these two distinct radial nerve lesion levels.",
+        "PIN syndrome causes wrist drop but preserves finger extension, the reverse of the actual pattern": "Reverses the correct pattern \u2014 PIN syndrome specifically PRESERVES (partial) wrist extension while LOSING finger extension, not the other way around.",
+        "PIN syndrome causes sensory loss over the dorsal hand but preserves all motor function": "PIN syndrome is a PURELY MOTOR syndrome (the PIN is the radial nerve's deep, motor-only terminal branch) \u2014 sensory function is specifically PRESERVED, and motor function (finger/thumb extension) is what's LOST, the reverse of this option's claim."
+      },
+      "explanation": {
+        "core_concept": "This comparison is genuinely subtle and exam-favourite precisely because PIN syndrome can superficially resemble radial nerve palsy (both involve extensor weakness) while actually being a distinctly different, more limited, purely motor presentation \u2014 recognising the specific differences (wrist NOT dropped, no sensory loss) is what correctly localises the lesion to the PIN specifically rather than the radial nerve trunk.",
+        "why_correct": "The posterior interosseous nerve (PIN) is the radial nerve's deep, PURELY MOTOR terminal branch, arising near the elbow AFTER the sensory branch has already separated and AFTER the branch to extensor carpi radialis longus (which keeps SOME wrist extension functional, though often with radial deviation since extensor carpi ulnaris, PIN-supplied, is lost). PIN syndrome therefore causes finger and thumb extension weakness WITHOUT true wrist drop and WITHOUT any sensory loss \u2014 a genuinely distinct, more limited presentation from full radial nerve palsy (e.g. at the spiral groove), which causes true wrist drop, sensory loss, AND finger extension weakness together, since it affects the nerve before this final branching.",
+        "why_others_wrong": {
+          "PIN syndrome and full radial nerve palsy at the spiral groove are clinically identical, with no distinguishing features": "Denies the genuine, well-documented clinical differences between these two lesion levels.",
+          "PIN syndrome causes wrist drop but preserves finger extension, the reverse of the actual pattern": "Directly reverses the correct pattern.",
+          "PIN syndrome causes sensory loss over the dorsal hand but preserves all motor function": "Reverses PIN syndrome's actual character \u2014 it's purely MOTOR (finger/thumb extension weakness), with sensation specifically PRESERVED, not the other way around."
+        },
+        "high_yield_facts": [
+          "PIN syndrome: finger/thumb extension WEAK, wrist extension PRESERVED (though often radially deviated), sensation NORMAL \u2014 a purely motor, more limited presentation.",
+          "Full radial nerve palsy (e.g. spiral groove): wrist DROP + sensory loss + finger extension weakness \u2014 a more complete presentation.",
+          "This distinction hinges on exactly WHERE along the radial nerve's course the lesion sits \u2014 PIN syndrome specifically implicates a lesion distal to where the sensory branch and ECRL branch have already separated."
+        ],
+        "clinical_correlation": "Correctly distinguishing PIN syndrome from full radial nerve palsy directly guides where to look for the underlying cause (e.g. PIN syndrome is often caused by compression within the supinator muscle \u2014 'radial tunnel'-related entrapment \u2014 a different mechanism from spiral groove compression/fracture causing full radial nerve palsy).",
+        "common_confusions": [
+          "Assuming any finger/wrist extension weakness must represent the same 'radial nerve palsy' regardless of specific findings \u2014 the presence/absence of true wrist drop and sensory loss are the KEY discriminating features between PIN syndrome and full radial nerve palsy."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Triceps sparing at the spiral groove (this concept, other question) \u2014 another example of level-specific radial nerve sparing patterns"
+        ],
+        "exam_traps": [
+          "When a vignette describes finger extension weakness but explicitly notes PRESERVED wrist extension and PRESERVED sensation, this is the specific pattern pointing to PIN syndrome, not full radial nerve palsy \u2014 don't default to the more commonly discussed 'wrist drop' presentation."
+        ],
+        "image_clues": null,
+        "memory_aid": "PIN = Pure motor, Isolated to fingers, No sensory loss \u2014 a purely motor, more restricted radial nerve branch problem.",
+        "other_ways_this_is_tested": [
+          "This comparison completes the spectrum of radial-nerve-related presentations alongside the triceps-sparing question elsewhere in this chapter and the basic wrist drop fact from the Forearm Muscles chapter."
+        ],
+        "neet_pg_takeaway": "Posterior interosseous nerve syndrome causes finger/thumb extension weakness WITHOUT true wrist drop or sensory loss (a purely motor, more limited presentation), genuinely distinct from full radial nerve palsy at the spiral groove, which causes wrist drop, sensory loss, and finger extension weakness together.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard hand surgery/neurology references on radial nerve branch syndromes."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Distinguish posterior interosseous nerve syndrome from full radial nerve palsy by wrist extension and sensory findings.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_radial_nerve_0003",
+      "subject": "Anatomy",
+      "topic": "Radial Nerve",
+      "subtopic": "Sensory territory",
+      "concept": "Radial nerve's course, triceps sparing at the spiral groove, and posterior interosseous nerve syndrome as a distinct clinical picture",
+      "question_type": "direct_recall",
+      "difficulty": 2,
+      "question": "The radial nerve's superficial sensory branch supplies skin over which region, including the classic 'anatomical snuffbox' landmark?",
+      "options": [
+        "The posterior forearm and dorsal/radial aspect of the hand",
+        "The palmar aspect of the hand exclusively",
+        "The medial (ulnar) side of the hand exclusively",
+        "The entire hand circumferentially, both palmar and dorsal surfaces"
+      ],
+      "correct_answer": "The posterior forearm and dorsal/radial aspect of the hand",
+      "distractor_rationale": {
+        "The palmar aspect of the hand exclusively": "The palm is predominantly median (and some ulnar) nerve territory \u2014 the radial nerve's sensory territory is specifically DORSAL, not palmar.",
+        "The medial (ulnar) side of the hand exclusively": "The medial hand is ulnar nerve territory \u2014 the radial nerve's territory is specifically the RADIAL (lateral) side, not medial.",
+        "The entire hand circumferentially, both palmar and dorsal surfaces": "Overstates the radial nerve's territory \u2014 it's specifically limited to the dorsal/radial aspect, not the whole hand circumferentially."
+      },
+      "explanation": {
+        "core_concept": "The anatomical snuffbox \u2014 the dorsal, radial-side depression at the base of the thumb \u2014 is the classic, specific landmark used to test radial nerve sensory function, making this territory worth anchoring precisely rather than a vague 'somewhere on the hand' impression.",
+        "why_correct": "The radial nerve's superficial (sensory) branch supplies skin over the posterior forearm and the dorsal, radial aspect of the hand \u2014 including the anatomical snuffbox (the depression at the base of the thumb, bordered by the tendons of extensor pollicis longus and brevis/abductor pollicis longus) \u2014 the specific area classically tested for radial nerve sensory assessment.",
+        "why_others_wrong": {
+          "The palmar aspect of the hand exclusively": "The palm is predominantly median (and ulnar, medially) nerve territory, not radial nerve territory.",
+          "The medial (ulnar) side of the hand exclusively": "Ulnar nerve territory specifically \u2014 the radial nerve covers the opposite (radial/lateral) side instead.",
+          "The entire hand circumferentially, both palmar and dorsal surfaces": "Overstates the radial nerve's actual, more limited dorsal/radial territory."
+        },
+        "high_yield_facts": [
+          "Radial nerve sensory territory: posterior forearm + dorsal/radial hand, including the anatomical snuffbox.",
+          "This is specifically a DORSAL, RADIAL-side territory \u2014 contrast with median nerve (palmar, radial 3.5 fingers) and ulnar nerve (medial hand, both palmar and dorsal) territories.",
+          "The anatomical snuffbox is the classic, specific testing point for radial nerve sensory function on clinical examination."
+        ],
+        "clinical_correlation": "Testing sensation specifically in the anatomical snuffbox helps confirm radial nerve (rather than median or ulnar nerve) sensory involvement in a patient with suspected peripheral nerve injury, complementing the motor findings (wrist drop, finger extension weakness) covered elsewhere in this chapter.",
+        "common_confusions": [
+          "Assuming radial nerve sensory territory covers the whole hand or the palmar surface \u2014 it's specifically limited to the dorsal, radial aspect, a genuinely distinct and more restricted territory from what might be assumed."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Triceps sparing and PIN syndrome (this concept, other questions) \u2014 the MOTOR side of radial nerve function, complementing this sensory territory fact"
+        ],
+        "exam_traps": [
+          "Don't confuse radial nerve sensory territory with median (palmar) or ulnar (medial hand) territories \u2014 actively anchor radial nerve territory as specifically DORSAL and RADIAL-sided."
+        ],
+        "image_clues": null,
+        "memory_aid": "Radial nerve stays on the BACK of the hand, RADIAL side \u2014 snuffbox is its signature landmark.",
+        "other_ways_this_is_tested": [
+          "This sensory territory fact complements the motor findings (triceps sparing, PIN syndrome) covered elsewhere in this chapter, together giving a complete picture of radial nerve examination."
+        ],
+        "neet_pg_takeaway": "The radial nerve's sensory territory covers the posterior forearm and dorsal/radial aspect of the hand, including the anatomical snuffbox \u2014 a distinct, dorsal-sided territory, genuinely different from median (palmar) or ulnar (medial hand) sensory territories.",
+        "source_type": "SOURCE-DERIVED",
+        "source_reference": "Moore's Clinically Oriented Anatomy, upper limb chapter."
+      },
+      "source_topic": "SOURCE-DERIVED",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "State the radial nerve's sensory territory, including the anatomical snuffbox landmark.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_radial_nerve_0004",
+      "subject": "Anatomy",
+      "topic": "Radial Nerve",
+      "subtopic": "Clinical \u2014 localising a radial nerve lesion",
+      "concept": "Radial nerve's course, triceps sparing at the spiral groove, and posterior interosseous nerve syndrome as a distinct clinical picture",
+      "question_type": "diagnostic_reasoning",
+      "difficulty": 4,
+      "question": "A patient has weakness of finger and thumb extension. Wrist extension is preserved (though slightly radially deviated), elbow extension is normal, and sensation over the dorsal hand/snuffbox is completely normal. Where along the radial nerve's course is the lesion most likely located?",
+      "options": [
+        "The posterior interosseous nerve (distal to the branches supplying extensor carpi radialis longus and the sensory territory, but before the finger/thumb extensor branches)",
+        "The spiral groove, since this is the classic, most commonly tested radial nerve injury location",
+        "The axilla, proximal to the triceps branches",
+        "This combination of findings is inconsistent with any single, localisable radial nerve lesion"
+      ],
+      "correct_answer": "The posterior interosseous nerve (distal to the branches supplying extensor carpi radialis longus and the sensory territory, but before the finger/thumb extensor branches)",
+      "distractor_rationale": {
+        "The spiral groove, since this is the classic, most commonly tested radial nerve injury location": "A spiral groove lesion would cause TRUE wrist drop AND sensory loss (since both the ECRL branch and sensory branch arise distal to this level, and would therefore be affected) \u2014 inconsistent with this vignette's preserved wrist extension and normal sensation.",
+        "The axilla, proximal to the triceps branches": "Would additionally cause TRICEPS weakness (elbow extension affected) \u2014 inconsistent with this vignette's explicitly normal elbow extension, and would also cause the same wrist drop/sensory loss inconsistent with the findings described.",
+        "This combination of findings is inconsistent with any single, localisable radial nerve lesion": "This is actually a specific, well-recognised, precisely localisable pattern (PIN syndrome) \u2014 not an inconsistent or unclassifiable presentation."
+      },
+      "explanation": {
+        "core_concept": "This diagnostic reasoning question requires working through EACH piece of information (elbow extension, wrist extension, sensation, finger/thumb extension) against the known branch points along the radial nerve's course, to arrive at the one location consistent with ALL the findings together \u2014 exactly the systematic reasoning process real radial nerve localisation requires.",
+        "why_correct": "Normal elbow extension rules out a lesion proximal to the triceps branches (i.e., rules out a very high axillary lesion). Preserved (if radially deviated) wrist extension and normal sensation together rule out a lesion at or proximal to the spiral groove/wrist extensor and sensory branch origin (since both would be lost with a lesion there). The SPECIFIC finding of finger/thumb extension weakness WITH preserved wrist extension and normal sensation precisely matches the posterior interosseous nerve syndrome pattern \u2014 a lesion distal to where the ECRL branch and the sensory branch have already departed from the radial nerve, but affecting the PIN's own subsequent motor branches to the finger/thumb extensors and extensor carpi ulnaris.",
+        "why_others_wrong": {
+          "The spiral groove, since this is the classic, most commonly tested radial nerve injury location": "Would cause TRUE wrist drop and sensory loss, both of which are explicitly ABSENT in this vignette \u2014 inconsistent with a spiral groove lesion despite it being the more commonly tested/discussed location generally.",
+          "The axilla, proximal to the triceps branches": "Would ADDITIONALLY cause triceps weakness (elbow extension affected), explicitly ruled out by this vignette's normal elbow extension.",
+          "This combination of findings is inconsistent with any single, localisable radial nerve lesion": "This IS a specific, well-recognised, precisely localisable pattern (PIN syndrome) \u2014 the vignette isn't presenting an unclassifiable combination."
+        },
+        "high_yield_facts": [
+          "Systematic radial nerve localisation: check elbow extension (triceps) \u2192 wrist extension (ECRL) \u2192 sensation (superficial branch) \u2192 finger/thumb extension (PIN's distal motor branches) \u2014 each finding narrows the possible lesion location.",
+          "This vignette's SPECIFIC combination (elbow OK, wrist OK, sensation OK, fingers/thumb weak) uniquely identifies PIN syndrome \u2014 no other radial nerve lesion level produces exactly this pattern.",
+          "This systematic, level-by-level reasoning approach is transferable to localising ANY peripheral nerve lesion with multiple sequential branch points, not just the radial nerve specifically."
+        ],
+        "clinical_correlation": "This precise localisation directly guides further workup \u2014 PIN syndrome specifically prompts consideration of causes at the elbow/proximal forearm level (e.g. supinator muscle entrapment, mass lesions in this region), rather than the more proximal causes (fracture, compression) relevant to spiral groove or axillary lesions.",
+        "common_confusions": [
+          "Defaulting to the most commonly discussed radial nerve lesion (spiral groove/wrist drop) without actually checking whether ALL the specific findings in a given vignette are consistent with that location \u2014 systematic, finding-by-finding reasoning is what correctly identifies the ACTUAL lesion level in cases like this one."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Triceps sparing (this concept, other question)",
+          "PIN syndrome vs full radial nerve palsy comparison (this concept, other question) \u2014 this vignette is the direct diagnostic-reasoning application of that comparison"
+        ],
+        "exam_traps": [
+          "Don't jump to the most 'famous' radial nerve lesion (spiral groove/wrist drop) as a default answer \u2014 work through each specific finding systematically against the known branch points to arrive at the level genuinely consistent with the COMPLETE clinical picture."
+        ],
+        "image_clues": null,
+        "memory_aid": "Work top to bottom: elbow fine, wrist fine, feeling fine, fingers weak \u2014 the problem has to be AFTER everything that's fine, meaning it's the PIN specifically.",
+        "other_ways_this_is_tested": [
+          "This vignette is the direct, complete diagnostic-reasoning synthesis of the triceps-sparing and PIN-syndrome-comparison facts established earlier in this chapter."
+        ],
+        "neet_pg_takeaway": "A patient with weak finger/thumb extension but preserved wrist extension, normal elbow extension, and normal sensation has a lesion specifically at the posterior interosseous nerve \u2014 systematically working through each finding against the radial nerve's sequential branch points is what precisely localises the lesion to this level.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Snell's Clinical Neuroanatomy; standard peripheral nerve localisation references."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Systematically localise a radial nerve lesion to the posterior interosseous nerve using elbow extension, wrist extension, sensation, and finger extension findings together.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    },
+    {
+      "id": "anat_radial_nerve_0005",
+      "subject": "Anatomy",
+      "topic": "Radial Nerve",
+      "subtopic": "Clinical \u2014 Saturday night palsy",
+      "concept": "Radial nerve's course, triceps sparing at the spiral groove, and posterior interosseous nerve syndrome as a distinct clinical picture",
+      "question_type": "clinical_vignette",
+      "difficulty": 3,
+      "question": "A man wakes after a night of heavy alcohol use with acute wrist drop on one side. He recalls falling asleep with that arm draped over the back of a hard chair. Elbow extension is normal; sensation over the dorsal hand/snuffbox is reduced. Which nerve and which level of injury best explain this presentation?",
+      "options": [
+        "Radial nerve at the spiral groove \u2014 prolonged external compression against the humerus here causes wrist drop and sensory loss while sparing triceps (branches given off proximal to this level)",
+        "Radial nerve in the axilla \u2014 a lesion here would also be expected to cause triceps weakness, inconsistent with the normal elbow extension described",
+        "Posterior interosseous nerve \u2014 but this would not explain the reduced sensation described, since the PIN is a purely motor branch",
+        "Ulnar nerve at the elbow \u2014 this would produce a completely different pattern (claw hand, sparing wrist/finger extension) inconsistent with this vignette"
+      ],
+      "correct_answer": "Radial nerve at the spiral groove \u2014 prolonged external compression against the humerus here causes wrist drop and sensory loss while sparing triceps (branches given off proximal to this level)",
+      "distractor_rationale": {
+        "Radial nerve in the axilla \u2014 a lesion here would also be expected to cause triceps weakness, inconsistent with the normal elbow extension described": "Ruled out by normal elbow extension.",
+        "Posterior interosseous nerve \u2014 but this would not explain the reduced sensation described, since the PIN is a purely motor branch": "PIN is purely motor, inconsistent with the sensory loss described.",
+        "Ulnar nerve at the elbow \u2014 this would produce a completely different pattern (claw hand, sparing wrist/finger extension) inconsistent with this vignette": "Different nerve, different clinical pattern entirely."
+      },
+      "explanation": {
+        "core_concept": "'Saturday night palsy' is the classic clinical vignette for spiral groove-level radial nerve compression \u2014 external, prolonged pressure against the arm (chair back, a partner's head, a hard edge) during a period of reduced arousal (alcohol, deep sleep) compresses the nerve exactly where it lies directly against the humerus, producing the combined wrist drop + sensory loss + triceps-sparing pattern that specifically localises to this level.",
+        "why_correct": "The described mechanism (arm draped over a hard surface during a period of reduced arousal from alcohol) is the classic trigger for radial nerve compression AT THE SPIRAL GROOVE, where the nerve lies directly against the humeral shaft and is vulnerable to prolonged external pressure. This produces wrist drop (loss of posterior forearm compartment function) and sensory loss (dorsal hand/snuffbox, since the sensory branch has not yet separated at this level), while sparing triceps (whose branches arise proximal to the spiral groove) \u2014 exactly matching this vignette's findings.",
+        "why_others_wrong": {
+          "Radial nerve in the axilla \u2014 a lesion here would also be expected to cause triceps weakness, inconsistent with the normal elbow extension described": "Ruled out by the normal elbow extension, since an axillary lesion would additionally affect triceps.",
+          "Posterior interosseous nerve \u2014 but this would not explain the reduced sensation described, since the PIN is a purely motor branch": "Correctly identifies the PIN's purely motor nature, which is exactly why it CANNOT explain this vignette's sensory finding, ruling it out as the lesion location here.",
+          "Ulnar nerve at the elbow \u2014 this would produce a completely different pattern (claw hand, sparing wrist/finger extension) inconsistent with this vignette": "An entirely different nerve and clinical pattern, not matching the wrist drop presentation described."
+        },
+        "high_yield_facts": [
+          "'Saturday night palsy' = classic mechanism for spiral groove radial nerve compression (prolonged external pressure during reduced arousal).",
+          "Produces the SPIRAL GROOVE triad: wrist drop + sensory loss (dorsal hand) + triceps SPARING \u2014 all three findings together confirm this specific level.",
+          "This is the most classic, frequently tested radial nerve injury scenario, directly synthesising the triceps-sparing fact and sensory territory fact established elsewhere in this chapter."
+        ],
+        "clinical_correlation": "Recognising this classic mechanism and finding pattern allows confident clinical diagnosis without necessarily requiring immediate advanced imaging, and most such compression-related palsies improve spontaneously over weeks as the compressive insult resolves.",
+        "common_confusions": [
+          "Assuming any wrist drop scenario must be from a humeral fracture \u2014 external compression (as in this classic 'Saturday night' scenario) is an equally important, non-traumatic mechanism causing the identical spiral groove-level pattern."
+        ],
+        "exceptions": [],
+        "related_concepts": [
+          "Triceps sparing (this concept, other question)",
+          "Radial nerve sensory territory (this concept, other question)"
+        ],
+        "exam_traps": [
+          "Use ALL the findings together (triceps normal, wrist drop, sensory loss) to confirm spiral groove level specifically \u2014 don't stop reasoning after confirming just the wrist drop alone."
+        ],
+        "image_clues": null,
+        "memory_aid": "Arm over the chair, nerve against the bone, all night long \u2014 spiral groove compression, textbook Saturday night palsy.",
+        "other_ways_this_is_tested": [
+          "This vignette synthesises the triceps-sparing and sensory territory facts established elsewhere in this chapter into the single most classic radial nerve clinical scenario."
+        ],
+        "neet_pg_takeaway": "Saturday night palsy \u2014 wrist drop, dorsal hand sensory loss, with triceps SPARED \u2014 is the classic presentation of radial nerve compression at the spiral groove from prolonged external pressure.",
+        "source_type": "CURRENT-KNOWLEDGE",
+        "source_reference": "Moore's Clinically Oriented Anatomy; standard clinical neurology references on compression neuropathies."
+      },
+      "source_topic": "CURRENT-KNOWLEDGE",
+      "source_year": [
+        2019
+      ],
+      "is_repeated_topic": false,
+      "is_image_based": false,
+      "image_ref": null,
+      "learning_objective": "Diagnose spiral groove-level radial nerve compression ('Saturday night palsy') from its classic mechanism and triceps-sparing triad.",
+      "content_version": "1.0",
+      "last_verified": "2026-01",
+      "provenance": "AI-generated variation"
+    }
+  ]
+}
